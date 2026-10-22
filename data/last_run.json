@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T22:43+00:00",
+ "ts": "2026-10-22T22:53+00:00",
  "reddit_ok": true,
  "stocktwits_trending": 30,
  "apewisdom_main": 297,
@@ -12,7 +12,7 @@
   "stocks",
   "wallstreetbets"
  ],
- "candidates": 15,
+ "candidates": 20,
  "errors": [
   "429 https://www.reddit.com/r/Shortsqueeze/new/.rss",
   "HTTP 403 https://old.reddit.com/r/Shortsqueeze/new/.rss",
@@ -22,6 +22,8 @@
   "HTTP 403 https://old.reddit.com/r/RobinHoodPennyStocks/new/.rss",
   "429 https://www.reddit.com/r/wallstreetbets/new/.rss",
   "HTTP 403 https://old.reddit.com/r/wallstreetbets/new/.rss",
+  "429 https://www.reddit.com/r/stocks/new/.rss",
+  "HTTP 403 https://old.reddit.com/r/stocks/new/.rss",
   "429 https://www.reddit.com/r/Daytrading/new/.rss",
   "HTTP 403 https://old.reddit.com/r/Daytrading/new/.rss",
   "429 https://www.reddit.com/r/WallStreetbetsELITE/new/.rss",
