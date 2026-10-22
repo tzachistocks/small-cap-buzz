@@ -1,9 +1,10 @@
 {
- "ts": "2026-10-22T22:59+00:00",
+ "ts": "2026-10-22T23:13+00:00",
  "reddit_ok": true,
  "stocktwits_trending": 30,
- "apewisdom_main": 298,
+ "apewisdom_main": 297,
  "apewisdom_subs": [
+  "4chan",
   "Daytrading",
   "Shortsqueeze",
   "WallStreetbetsELITE",
@@ -12,6 +13,14 @@
   "stocks",
   "wallstreetbets"
  ],
- "candidates": 20,
- "errors": []
+ "candidates": 13,
+ "errors": [
+  "Reddit RSS 429 (rate limit) https://www.reddit.com/r/pennystocks+Shortsqueeze+smallstreetbets+RobinHoodPennyStocks/comments/.rss",
+  "Xueqiu HTTP 400",
+  "SSLError https://www.stockpromoters.com/: HTTPSConnectionPool(host='www.stockpromoters.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
+  "ConnectionError https://iborrowdesk.com/api/ticker/RNA: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+  "ConnectionError https://iborrowdesk.com/api/ticker/XXII: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+  "ConnectionError https://iborrowdesk.com/api/ticker/BYND: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+  "ConnectionError https://iborrowdesk.com/api/ticker/LINK: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+ ]
 }
