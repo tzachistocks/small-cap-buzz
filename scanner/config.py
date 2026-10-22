@@ -26,7 +26,7 @@ MIN_SMOOTHED_GROWTH = 2.0      # (now+2)/(base+2)
 
 # ---------- Price / fundamentals gates ----------
 MAX_MOVE_PCT = 15.0            # price vs previous close; above this = "already moved"
-MAX_MARKET_CAP_M = 2000.0      # $M
+MAX_MARKET_CAP_M = 500.0       # $M (small caps only)
 MIN_PRICE = 0.05
 DILUTION_LOOKBACK_DAYS = 30
 DILUTION_FORMS = ("S-1", "S-1/A", "S-3", "S-3/A", "F-1", "F-1/A", "F-3", "F-3/A",

@@ -202,6 +202,10 @@ def run():
     cands = cands[:config.MAX_CANDIDATES_TO_ENRICH]
 
     state = store.load_json("state.json", {})
+    # one-time hello message once Telegram secrets are set, so the connection can be verified
+    if config.TELEGRAM_BOT_TOKEN and not state.get("_telegram_ok"):
+        if send_telegram("✅ small-cap-buzz מחובר. מכאן יגיעו התראות על באז מתהווה במניות קטנות."):
+            state["_telegram_ok"] = NOW.isoformat(timespec="minutes")
     alerts = store.load_alerts()
     # cleanup from the first run, when market cap was missing and large caps slipped through
     bad = {a["ticker"] for a in alerts if not (a.get("fund") or {}).get("market_cap_m")}
