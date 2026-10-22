@@ -1,0 +1,143 @@
+[
+ {
+  "id": "202610222156-MRNA",
+  "ts": "2026-10-22T21:56+00:00",
+  "ticker": "MRNA",
+  "score": 5,
+  "why": [
+   "האצה x4.81 מול הבסיס",
+   "פיזור ב-2 פורומים",
+   "בטרנד של סטוקטוויטס",
+   "30 הודעות בסטוקטוויטס ב-6 שעות"
+  ],
+  "price": {
+   "price": 199.0437,
+   "prev_close": 245.81,
+   "move_pct": -19.03,
+   "vol_today": 49665793,
+   "avg_vol20": 17796110,
+   "exchange": "NMS",
+   "name": "Moderna, Inc."
+  },
+  "fund": null,
+  "m_now": 147,
+  "m_24h_ago": 29,
+  "spread": [
+   "Daytrading",
+   "wallstreetbets"
+  ],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 30,
+   "users": 23,
+   "bull": 8,
+   "bear": 7,
+   "oldest_min": 22,
+   "watchlist": 117402
+  },
+  "telegram_sent": false,
+  "outcome": {
+   "days": 1,
+   "last_close": 202.6300048828125,
+   "last_pct": 1.8,
+   "max_close_pct": 1.8,
+   "max_high_pct": 21.2,
+   "d1_pct": 1.8
+  }
+ },
+ {
+  "id": "202610222156-FPS",
+  "ts": "2026-10-22T21:56+00:00",
+  "ticker": "FPS",
+  "score": 5,
+  "why": [
+   "האצה x4.67 מול הבסיס",
+   "פיזור ב-2 פורומים",
+   "בטרנד של סטוקטוויטס",
+   "30 הודעות בסטוקטוויטס ב-6 שעות"
+  ],
+  "price": {
+   "price": 25.15,
+   "prev_close": 31.76,
+   "move_pct": -20.81,
+   "vol_today": 44281951,
+   "avg_vol20": 7811840,
+   "exchange": "NYQ",
+   "name": "Forgent Power Solutions, Inc."
+  },
+  "fund": null,
+  "m_now": 12,
+  "m_24h_ago": 1,
+  "spread": [
+   "stocks",
+   "wallstreetbets"
+  ],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 30,
+   "users": 25,
+   "bull": 18,
+   "bear": 0,
+   "oldest_min": 117,
+   "watchlist": 3336
+  },
+  "telegram_sent": false,
+  "outcome": {
+   "days": 1,
+   "last_close": 24.920000076293945,
+   "last_pct": -0.9,
+   "max_close_pct": -0.9,
+   "max_high_pct": 8.6,
+   "d1_pct": -0.9
+  }
+ },
+ {
+  "id": "202610222156-GME",
+  "ts": "2026-10-22T21:56+00:00",
+  "ticker": "GME",
+  "score": 5,
+  "why": [
+   "האצה x4.67 מול הבסיס",
+   "פיזור ב-6 פורומים",
+   "30 הודעות בסטוקטוויטס ב-6 שעות"
+  ],
+  "price": {
+   "price": 25.1,
+   "prev_close": 26.29,
+   "move_pct": -4.53,
+   "vol_today": 11797223,
+   "avg_vol20": 11215575,
+   "exchange": "NYQ",
+   "name": "GameStop Corp."
+  },
+  "fund": null,
+  "m_now": 12,
+  "m_24h_ago": 1,
+  "spread": [
+   "Daytrading",
+   "Shortsqueeze",
+   "WallStreetbetsELITE",
+   "Wallstreetbetsnew",
+   "pennystocks",
+   "wallstreetbets"
+  ],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 30,
+   "users": 17,
+   "bull": 21,
+   "bear": 1,
+   "oldest_min": 124,
+   "watchlist": 308290
+  },
+  "telegram_sent": false,
+  "outcome": {
+   "days": 1,
+   "last_close": 25.389999389648438,
+   "last_pct": 1.2,
+   "max_close_pct": 1.2,
+   "max_high_pct": 4.6,
+   "d1_pct": 1.2
+  }
+ }
+]
