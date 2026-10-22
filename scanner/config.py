@@ -15,6 +15,7 @@ APEWISDOM_SUB_FILTERS = [
     "Daytrading",
     "WallStreetbetsELITE",
     "Wallstreetbetsnew",
+    "4chan",
 ]
 
 # Gates for "buzz is building" (same spirit as the daily routine)
@@ -34,7 +35,7 @@ DILUTION_FORMS = ("S-1", "S-1/A", "S-3", "S-3/A", "F-1", "F-1/A", "F-3", "F-3/A"
 BLOCK_ON_DILUTION = True
 
 # ---------- Scoring ----------
-ALERT_MIN_SCORE = 5
+ALERT_MIN_SCORE = 6           # raised from 5 when volume/watchers/borrow/xueqiu points were added
 REALERT_HOURS = 24
 REALERT_SCORE_JUMP = 2
 MAX_CANDIDATES_TO_ENRICH = 20  # limit network calls per run
@@ -45,6 +46,11 @@ REDDIT_SUBS = ["pennystocks", "Shortsqueeze", "smallstreetbets", "RobinHoodPenny
 REDDIT_CLIENT_ID = os.getenv("REDDIT_CLIENT_ID", "").strip()
 REDDIT_SECRET = os.getenv("REDDIT_SECRET", "").strip()
 REDDIT_USER_AGENT = os.getenv("REDDIT_USER_AGENT", "").strip() or "script:small-cap-buzz:0.1 (personal research)"
+
+BLOCK_ON_PROMOTION = True      # paid promotion on stockpromoters.com blocks the alert
+
+# ---------- YouTube (optional, free API key) ----------
+YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY", "").strip()
 
 # ---------- Telegram (optional) ----------
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()

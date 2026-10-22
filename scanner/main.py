@@ -6,10 +6,11 @@ from datetime import datetime, timezone, timedelta
 
 import requests
 
-from . import config, sources
+from . import config, sources, extras
 from .storage import Store
 
 NOW = datetime.now(timezone.utc)
+EXTRA_STATUS = {}
 
 
 def is_etf(name):
@@ -80,7 +81,9 @@ def buzz_rows(snap, subs, history):
     return out
 
 
-def score(b, rd, st_trend, st, fund):
+def score(b, rd, st_trend, st, fund, x=None):
+    """x: extra signals dict (price, watchers, borrow, xueqiu, youtube, promoted)."""
+    x = x or {}
     pts, why = 0, []
     if b["accel"] >= 3:
         pts += 2; why.append(f"האצה x{b['accel']} מול הבסיס")
@@ -104,6 +107,30 @@ def score(b, rd, st_trend, st, fund):
             pts += 1; why.append(f"שורט {fund['short_float_pct']:.0f}%")
         if fund.get("float_m") and fund["float_m"] < 50:
             pts += 1; why.append(f"פלואט {fund['float_m']:.1f}M")
+    rv = (x.get("price") or {}).get("rel_vol")
+    if rv and rv >= 4:
+        pts += 2; why.append(f"נפח פי {rv:.1f} מהממוצע")
+    elif rv and rv >= 2:
+        pts += 1; why.append(f"נפח פי {rv:.1f} מהממוצע")
+    wa, wp = x.get("watch_added"), x.get("watch_pct")
+    if wa and wp is not None and wa >= 50 and wp >= 10:
+        pts += 2; why.append(f"+{wa} עוקבים בסטוקטוויטס ב-24ש ({wp:+.0f}%)")
+    elif wa and wp is not None and wa >= 30 and wp >= 3:
+        pts += 1; why.append(f"+{wa} עוקבים בסטוקטוויטס ב-24ש ({wp:+.0f}%)")
+    br = x.get("borrow")
+    if br:
+        if br["fee"] >= 20:
+            pts += 1; why.append(f"עמלת השאלה {br['fee']:.0f}%")
+        if (br.get("fee_5d") and br["fee"] >= 10 and br["fee"] >= 2 * br["fee_5d"]) or \
+           (br.get("available_5d") and br["available_5d"] > 1000 and br["available"] <= 0.5 * br["available_5d"]):
+            pts += 1; why.append("השאלה מתייקרת / מניות לשורט אוזלות")
+    if x.get("xueqiu"):
+        pts += 1; why.append(f"חמה בסין (Xueqiu #{x['xueqiu']})")
+    yt = x.get("youtube")
+    if yt and yt.get("channels", 0) >= 2:
+        pts += 1; why.append(f"{yt['videos']} סרטוני YouTube מ-{yt['channels']} ערוצים ב-12ש")
+    if x.get("promoted"):
+        pts -= 3; why.append("⚠️ קידום בתשלום (stockpromoters)")
     if b["word"]:
         pts -= 2; why.append("חשד להתראת שווא (מילה)")
     return pts, why
@@ -146,6 +173,9 @@ def format_alert(c, record):
             f"{f['float_m']:.1f}M" if f.get("float_m") else "?",
             f"{f['short_float_pct']:.0f}%" if f.get("short_float_pct") is not None else "?",
             f.get("days_to_cover") if f.get("days_to_cover") is not None else "?"))
+    br = c.get("borrow") or {}
+    if br:
+        lines.append(f"השאלה: עמלה {br['fee']:.1f}%, זמינות {br['available']:,} מניות")
     lines.append("למה: " + "; ".join(c["why"]))
     if c.get("reddit", {}).get("sample"):
         lines.append(c["reddit"]["sample"])
@@ -191,6 +221,15 @@ def run():
 
     rd_counts, rd_ok = sources.reddit_counts(known) if known else ({}, False)
     st_trend = sources.stocktwits_trending()
+    xq = extras.xueqiu_hot_us()
+    promoted = extras.promoted_tickers(known) if known else set()
+    yt = extras.youtube_mentions(known) if known else {}
+    watch_hist = store.load_json("st_watch.json", {})
+    for t, v in st_trend.items():  # build watcher history for trending names at no extra cost
+        if v.get("watchlist_count"):
+            extras.watchers_growth(watch_hist, t, v["watchlist_count"])
+    profiles = store.load_json("profiles.json", {})
+    EXTRA_STATUS.update(xq=xq, promoted=promoted)
 
     # candidates: passed the mention gate, or strong reddit-only spread
     cands = [b for b in buzz.values() if b["gate"]]
@@ -228,10 +267,7 @@ def run():
         fund = sources.fundamentals(t)
         if fund and fund.get("market_cap_m"):
             caps[t] = {"cap": fund["market_cap_m"], "ts": NOW.isoformat(timespec="minutes")}
-        st = sources.stocktwits_stream(t)
         rd = rd_counts.get(t)
-        pts, why = score(b, rd, st_trend, st, fund)
-        c = dict(b, price=price, fund=fund, stocktwits=st, reddit=rd or {}, score=pts, why=why)
         block = []
         if not price:
             block.append("אין מחיר")
@@ -245,6 +281,20 @@ def run():
             block.append("שווי לא ידוע")
         elif mc > config.MAX_MARKET_CAP_M:
             block.append(f"שווי ${mc:.0f}M")
+        x = {"price": price, "xueqiu": xq.get(t), "youtube": yt.get(t), "promoted": t in promoted}
+        st, prof = None, None
+        if not block:  # extra calls only for names that can still alert
+            st = sources.stocktwits_stream(t)
+            x["watch_added"], x["watch_pct"] = extras.watchers_growth(watch_hist, t, (st or {}).get("watchlist"))
+            x["borrow"] = extras.borrow(t)
+            prof = extras.sec_profile(t, profiles, store.path("cik.json"))
+        pts, why = score(b, rd, st_trend, st, fund, x)
+        c = dict(b, price=price, fund=fund, stocktwits=st, reddit=rd or {}, score=pts, why=why,
+                 borrow=x.get("borrow"), profile=prof)
+        if prof and prof.get("asia"):
+            c["why"] = why = why + [f"חברה מ{prof['asia']}"]
+        if x["promoted"] and config.BLOCK_ON_PROMOTION:
+            block.append("קידום בתשלום")
         if not block and pts >= config.ALERT_MIN_SCORE - 1:
             dil = sources.dilution_filings(t, store.path("cik.json"))
             c["dilution"] = dil
@@ -265,11 +315,14 @@ def run():
         alert = {"id": f"{NOW:%Y%m%d%H%M}-{t}", "ts": NOW.isoformat(timespec="minutes"), "ticker": t,
                  "score": pts, "why": why, "price": price, "fund": fund, "m_now": b["m_now"],
                  "m_24h_ago": b["m_24h_ago"], "spread": b["spread"], "reddit": rd or {},
-                 "stocktwits": st, "telegram_sent": sent, "outcome": {}}
+                 "stocktwits": st, "borrow": x.get("borrow"), "xueqiu": x.get("xueqiu"),
+                 "youtube": x.get("youtube"), "profile": prof, "telegram_sent": sent, "outcome": {}}
         alerts.append(alert)
         state[t] = {"ts": alert["ts"], "score": pts}
 
     store.save_json("caps.json", caps)
+    store.save_json("st_watch.json", watch_hist)
+    store.save_json("profiles.json", profiles)
     evaluate(alerts)
     store.save_alerts(alerts)
     store.save_json("state.json", state)
@@ -285,6 +338,8 @@ def write_summary(report, alerts, rd_ok, snap, subs, record, skipped_large=()):
     lines = [f"## סריקת באז {NOW:%Y-%m-%d %H:%M} UTC", "",
              f"ApeWisdom: {len(snap['main'])} טיקרים, פורומים: {', '.join(sorted(subs)) or 'אין'} | "
              f"Reddit: {dict(api='API פעיל', rss='RSS פעיל (פוסטים בלבד)', failed='נחסם', off='כבוי').get(sources.REDDIT_MODE, sources.REDDIT_MODE)} | Telegram: {'פעיל' if config.TELEGRAM_BOT_TOKEN else 'לא מוגדר'}",
+             f"Xueqiu (סין): {len(EXTRA_STATUS.get('xq', {}))} מניות חמות | קידום בתשלום: {len(EXTRA_STATUS.get('promoted', ()))} | "
+             f"YouTube: {'פעיל' if config.YOUTUBE_API_KEY else 'לא מוגדר'}",
              f"שגיאות בהרצה: {len(sources.ERRORS)}", "", f"**{record}**", "",
              "| טיקר | ציון | אזכורים 24ש | מחיר | תזוזה | שווי | שורט | סיבות | חסימה |",
              "|---|---|---|---|---|---|---|---|---|"]

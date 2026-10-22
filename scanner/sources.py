@@ -163,12 +163,12 @@ RSS_GROUPS = [
 ]
 
 
-def reddit_rss_items(subs):
+def reddit_rss_items(subs, kind="new"):
     """Public RSS (Atom) feed of new posts for several subs in ONE request (multireddit a+b+c).
     Reddit rate-limits unauthenticated feeds hard, so we make few requests and back off on 429."""
     import xml.etree.ElementTree as ET
     ns = {"a": "http://www.w3.org/2005/Atom"}
-    url = f"https://www.reddit.com/r/{'+'.join(subs)}/new/.rss"
+    url = f"https://www.reddit.com/r/{'+'.join(subs)}/{kind}/.rss"
     xml = None
     for attempt in range(3):
         try:
@@ -207,7 +207,7 @@ def reddit_rss_items(subs):
         title = e.findtext("a:title", default="", namespaces=ns) or ""
         body = re.sub(r"<[^>]+>", " ", e.findtext("a:content", default="", namespaces=ns) or "")
         out.append({"sub": sub, "author": author, "created": ts, "text": f"{title} {body}",
-                    "title": title, "kind": "post"})
+                    "title": title, "kind": "post" if kind == "new" else "comment"})
     return out
 
 
@@ -222,11 +222,11 @@ def reddit_counts(known):
     agg = {}
     fetched_any = False
     batches = ([(sub, kind) for sub in config.REDDIT_SUBS for kind in ("new", "comments")] if tok
-               else [(g, "rss") for g in RSS_GROUPS])
+               else [(g, "new") for g in RSS_GROUPS] + [(RSS_GROUPS[0], "comments")])
     for i, (sub, kind) in enumerate(batches):
         if not tok and i:
             time.sleep(8)
-        items = reddit_items(tok, sub, kind) if tok else reddit_rss_items(sub)
+        items = reddit_items(tok, sub, kind) if tok else reddit_rss_items(sub, kind)
         if items:
             fetched_any = fetched_any or bool(items)
             for it in items:
@@ -270,7 +270,9 @@ def price_snapshot(ticker):
     try:
         res = d["chart"]["result"][0]
         meta = res["meta"]
-        closes = [c for c in res["indicators"]["quote"][0]["close"] if c is not None]
+        q5 = res["indicators"]["quote"][0]
+        closes = [c for c in q5["close"] if c is not None]
+        vol_session = sum(v for v in (q5.get("volume") or []) if v)  # today incl. pre/post market
         last = closes[-1] if closes else meta.get("regularMarketPrice")
         prev = meta.get("chartPreviousClose") or meta.get("previousClose")
     except Exception:
@@ -291,7 +293,8 @@ def price_snapshot(ticker):
         return None
     return {"price": round(float(last), 4), "prev_close": round(float(prev), 4),
             "move_pct": round((float(last) / float(prev) - 1) * 100, 2),
-            "vol_today": vol_today, "avg_vol20": int(avg_vol) if avg_vol else None,
+            "vol_today": max(vol_today or 0, vol_session or 0) or None, "avg_vol20": int(avg_vol) if avg_vol else None,
+            "rel_vol": round(max(vol_today or 0, vol_session or 0) / avg_vol, 2) if avg_vol else None,
             "exchange": meta.get("exchangeName"), "name": meta.get("longName") or meta.get("shortName")}
 
 
