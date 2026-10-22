@@ -203,6 +203,11 @@ def run():
 
     state = store.load_json("state.json", {})
     alerts = store.load_alerts()
+    # cleanup from the first run, when market cap was missing and large caps slipped through
+    bad = {a["ticker"] for a in alerts if not (a.get("fund") or {}).get("market_cap_m")}
+    alerts = [a for a in alerts if a["ticker"] not in bad or (a.get("fund") or {}).get("market_cap_m")]
+    for t in bad:
+        state.pop(t, None)
     record = track_record(alerts)
     report = []
     for b in cands:
@@ -222,7 +227,9 @@ def run():
             if price["price"] < config.MIN_PRICE:
                 block.append("מחיר נמוך מדי")
         mc = (fund or {}).get("market_cap_m")
-        if mc and mc > config.MAX_MARKET_CAP_M:
+        if not mc:
+            block.append("שווי לא ידוע")
+        elif mc > config.MAX_MARKET_CAP_M:
             block.append(f"שווי ${mc:.0f}M")
         if not block and pts >= config.ALERT_MIN_SCORE - 1:
             dil = sources.dilution_filings(t, store.path("cik.json"))
@@ -263,13 +270,13 @@ def write_summary(report, alerts, rd_ok, snap, subs, record):
     lines = [f"## סריקת באז {NOW:%Y-%m-%d %H:%M} UTC", "",
              f"ApeWisdom: {len(snap['main'])} טיקרים, פורומים: {', '.join(sorted(subs)) or 'אין'} | "
              f"Reddit API: {'פעיל' if rd_ok else 'לא מוגדר/נכשל'} | Telegram: {'פעיל' if config.TELEGRAM_BOT_TOKEN else 'לא מוגדר'}",
-             "", f"**{record}**", "",
+             f"שגיאות בהרצה: {len(sources.ERRORS)}", "", f"**{record}**", "",
              "| טיקר | ציון | אזכורים 24ש | מחיר | תזוזה | שווי | שורט | סיבות | חסימה |",
              "|---|---|---|---|---|---|---|---|---|"]
     for c in sorted(report, key=lambda x: -x["score"]):
         p, f = c.get("price") or {}, c.get("fund") or {}
         lines.append(f"| {c['ticker']} | {c['score']} | {c['m_24h_ago']}→{c['m_now']} | {p.get('price','?')} | "
-                     f"{p.get('move_pct','?')}% | {f.get('market_cap_m') or '?'} | {f.get('short_float_pct') or '?'} | "
+                     f"{p.get('move_pct','?')}% | {round(f['market_cap_m']) if f.get('market_cap_m') else '?'} | {f.get('short_float_pct') or '?'} | "
                      f"{'; '.join(c['why'])} | {'; '.join(c['blocked']) or '✅'} |")
     new = [a for a in alerts if a["ts"] == NOW.isoformat(timespec="minutes")]
     lines += ["", f"התראות בהרצה הזו: {', '.join(a['ticker'] for a in new) or 'אין'}"]

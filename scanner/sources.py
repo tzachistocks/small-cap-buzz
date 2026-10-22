@@ -263,21 +263,61 @@ def _num(s):
         return None
 
 
-def fundamentals(ticker):
-    """Market cap ($M), float (M shares), short % float, short ratio (days), avg volume (M)."""
+def _strip(html):
+    return re.sub(r"<[^>]+>", " ", html).replace("&nbsp;", " ").strip()
+
+
+def table_value(html, label):
+    """Find a table cell whose text is `label` and return the text of the next cell."""
+    m = re.search(r">\s*" + re.escape(label) + r"[^<]{0,40}<", html)
+    if not m:
+        return None
+    end_td = html.find("</td>", m.end() - 1)
+    if end_td < 0:
+        return None
+    nxt = html.find("<td", end_td)
+    close = html.find("</td>", nxt)
+    if nxt < 0 or close < 0 or nxt - end_td > 400:
+        return None
+    txt = _strip(html[html.find(">", nxt) + 1:close])
+    return txt.split()[0] if txt else None
+
+
+def _finviz(ticker):
     html = _get(f"https://finviz.com/quote.ashx?t={ticker}&p=d", expect_json=False, retries=1)
     if not html:
         return None
-    def cell(label):
-        m = re.search(r">" + re.escape(label) + r"</td>\s*<td[^>]*>(?:<[^>]+>)*([^<]+)", html)
-        return m.group(1) if m else None
-    out = {"market_cap_m": _num(cell("Market Cap")), "float_m": _num(cell("Shs Float")),
-           "short_float_pct": _num(cell("Short Float")), "days_to_cover": _num(cell("Short Ratio")),
-           "shares_out_m": _num(cell("Shs Outstand"))}
-    if all(v is None for v in out.values()):
-        ERRORS.append(f"finviz parse failed for {ticker}")
+    return {"market_cap_m": _num(table_value(html, "Market Cap")), "float_m": _num(table_value(html, "Shs Float")),
+            "short_float_pct": _num(table_value(html, "Short Float")),
+            "days_to_cover": _num(table_value(html, "Short Ratio")), "src": "finviz"}
+
+
+def _stockanalysis(ticker):
+    html = _get(f"https://stockanalysis.com/stocks/{ticker.lower()}/statistics/", expect_json=False, retries=1)
+    if not html:
         return None
-    return out
+    return {"market_cap_m": _num(table_value(html, "Market Cap")), "float_m": _num(table_value(html, "Float")),
+            "short_float_pct": _num(table_value(html, "Short % of Float")),
+            "days_to_cover": _num(table_value(html, "Short Ratio")), "src": "stockanalysis"}
+
+
+def fundamentals(ticker):
+    """Market cap ($M), float (M shares), short % of float, days to cover. Finviz, then stockanalysis."""
+    best = None
+    for fn in (_finviz, _stockanalysis):
+        d = fn(ticker)
+        if d and d.get("market_cap_m"):
+            if best:  # fill gaps from the second source
+                for k, v in d.items():
+                    if best.get(k) is None:
+                        best[k] = v
+                return best
+            best = d
+            if all(d.get(k) is not None for k in ("float_m", "short_float_pct")):
+                return d
+    if not best:
+        ERRORS.append(f"no fundamentals for {ticker}")
+    return best
 
 
 # ---------------- SEC EDGAR (dilution filings) ----------------
