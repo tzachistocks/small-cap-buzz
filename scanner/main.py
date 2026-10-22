@@ -198,6 +198,14 @@ def run():
         if t not in buzz and r["authors6"] >= 4 and len(r["subs6"]) >= 2 and t not in config.WORD_TICKERS:
             cands.append({"ticker": t, "name": "", "m_now": r["m24"], "m_24h_ago": 0, "m_3h_ago": None,
                           "baseline7d": 0, "vel3h": None, "accel": 0, "spread": [], "gate": True, "word": False})
+    # skip tickers already known to be too large (cache refreshed weekly) so the slots go to small caps
+    caps = store.load_json("caps.json", {})
+    def known_large(t):
+        c = caps.get(t)
+        return bool(c and c.get("cap") and c["cap"] > config.MAX_MARKET_CAP_M
+                    and (NOW - datetime.fromisoformat(c["ts"])).days < 7)
+    skipped_large = [b["ticker"] for b in cands if known_large(b["ticker"])]
+    cands = [b for b in cands if not known_large(b["ticker"])]
     cands.sort(key=lambda b: (b["accel"], b["m_now"]), reverse=True)
     cands = cands[:config.MAX_CANDIDATES_TO_ENRICH]
 
@@ -218,6 +226,8 @@ def run():
         t = b["ticker"]
         price = sources.price_snapshot(t)
         fund = sources.fundamentals(t)
+        if fund and fund.get("market_cap_m"):
+            caps[t] = {"cap": fund["market_cap_m"], "ts": NOW.isoformat(timespec="minutes")}
         st = sources.stocktwits_stream(t)
         rd = rd_counts.get(t)
         pts, why = score(b, rd, st_trend, st, fund)
@@ -259,6 +269,7 @@ def run():
         alerts.append(alert)
         state[t] = {"ts": alert["ts"], "score": pts}
 
+    store.save_json("caps.json", caps)
     evaluate(alerts)
     store.save_alerts(alerts)
     store.save_json("state.json", state)
@@ -267,10 +278,10 @@ def run():
                                       "apewisdom_subs": sorted(subs), "candidates": len(report),
                                       "errors": sources.ERRORS[-30:]})
     store.prune(config.KEEP_SNAPSHOT_DAYS)
-    write_summary(report, alerts, rd_ok, snap, subs, record)
+    write_summary(report, alerts, rd_ok, snap, subs, record, skipped_large)
 
 
-def write_summary(report, alerts, rd_ok, snap, subs, record):
+def write_summary(report, alerts, rd_ok, snap, subs, record, skipped_large=()):
     lines = [f"## סריקת באז {NOW:%Y-%m-%d %H:%M} UTC", "",
              f"ApeWisdom: {len(snap['main'])} טיקרים, פורומים: {', '.join(sorted(subs)) or 'אין'} | "
              f"Reddit: {dict(api='API פעיל', rss='RSS פעיל (פוסטים בלבד)', failed='נחסם', off='כבוי').get(sources.REDDIT_MODE, sources.REDDIT_MODE)} | Telegram: {'פעיל' if config.TELEGRAM_BOT_TOKEN else 'לא מוגדר'}",
@@ -282,6 +293,8 @@ def write_summary(report, alerts, rd_ok, snap, subs, record):
         lines.append(f"| {c['ticker']} | {c['score']} | {c['m_24h_ago']}→{c['m_now']} | {p.get('price','?')} | "
                      f"{p.get('move_pct','?')}% | {round(f['market_cap_m']) if f.get('market_cap_m') else '?'} | {f.get('short_float_pct') or '?'} | "
                      f"{'; '.join(c['why'])} | {'; '.join(c['blocked']) or '✅'} |")
+    if skipped_large:
+        lines += ["", f"דולגו (שווי גבוה, ממטמון): {', '.join(skipped_large)}"]
     new = [a for a in alerts if a["ts"] == NOW.isoformat(timespec="minutes")]
     lines += ["", f"התראות בהרצה הזו: {', '.join(a['ticker'] for a in new) or 'אין'}"]
     if sources.ERRORS:

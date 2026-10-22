@@ -37,7 +37,7 @@ BLOCK_ON_DILUTION = True
 ALERT_MIN_SCORE = 5
 REALERT_HOURS = 24
 REALERT_SCORE_JUMP = 2
-MAX_CANDIDATES_TO_ENRICH = 15  # limit network calls per run
+MAX_CANDIDATES_TO_ENRICH = 20  # limit network calls per run
 
 # ---------- Reddit (optional, needs secrets) ----------
 REDDIT_SUBS = ["pennystocks", "Shortsqueeze", "smallstreetbets", "RobinHoodPennyStocks",
