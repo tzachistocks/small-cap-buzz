@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-22T21:56+00:00",
+ "ts": "2026-10-22T22:00+00:00",
  "reddit_ok": false,
  "stocktwits_trending": 30,
  "apewisdom_main": 299,
@@ -14,21 +14,6 @@
  ],
  "candidates": 15,
  "errors": [
-  "HTTP 403 https://www.sec.gov/files/company_tickers.json",
-  "finviz parse failed for WDC",
-  "finviz parse failed for XXII",
-  "finviz parse failed for RNA",
-  "finviz parse failed for AVEX",
-  "finviz parse failed for GEV",
-  "finviz parse failed for LULU",
-  "finviz parse failed for LMT",
-  "finviz parse failed for MRNA",
-  "finviz parse failed for FPS",
-  "finviz parse failed for GME",
-  "finviz parse failed for BKYI",
-  "finviz parse failed for BE",
-  "finviz parse failed for AAOI",
-  "finviz parse failed for CD",
-  "finviz parse failed for VST"
+  "HTTP 403 https://www.sec.gov/files/company_tickers.json"
  ]
 }
