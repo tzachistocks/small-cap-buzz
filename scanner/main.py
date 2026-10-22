@@ -273,7 +273,7 @@ def run():
 def write_summary(report, alerts, rd_ok, snap, subs, record):
     lines = [f"## סריקת באז {NOW:%Y-%m-%d %H:%M} UTC", "",
              f"ApeWisdom: {len(snap['main'])} טיקרים, פורומים: {', '.join(sorted(subs)) or 'אין'} | "
-             f"Reddit API: {'פעיל' if rd_ok else 'לא מוגדר/נכשל'} | Telegram: {'פעיל' if config.TELEGRAM_BOT_TOKEN else 'לא מוגדר'}",
+             f"Reddit: {dict(api='API פעיל', rss='RSS פעיל (פוסטים בלבד)', failed='נחסם', off='כבוי').get(sources.REDDIT_MODE, sources.REDDIT_MODE)} | Telegram: {'פעיל' if config.TELEGRAM_BOT_TOKEN else 'לא מוגדר'}",
              f"שגיאות בהרצה: {len(sources.ERRORS)}", "", f"**{record}**", "",
              "| טיקר | ציון | אזכורים 24ש | מחיר | תזוזה | שווי | שורט | סיבות | חסימה |",
              "|---|---|---|---|---|---|---|---|---|"]

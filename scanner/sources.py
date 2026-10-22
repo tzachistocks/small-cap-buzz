@@ -157,16 +157,51 @@ def reddit_items(token, sub, kind="new", limit=100):
     return out
 
 
+def reddit_rss_items(sub):
+    """Public RSS (Atom) feed of new posts. No API app needed. Posts only, no comments."""
+    import xml.etree.ElementTree as ET
+    ns = {"a": "http://www.w3.org/2005/Atom"}
+    for host in ("www.reddit.com", "old.reddit.com"):
+        xml = _get(f"https://{host}/r/{sub}/new/.rss", params={"limit": 100}, expect_json=False, retries=0,
+                   headers={"User-Agent": config.REDDIT_USER_AGENT, "Accept": "application/atom+xml"})
+        if not xml or "<feed" not in xml[:500]:
+            continue
+        try:
+            root = ET.fromstring(xml)
+        except ET.ParseError:
+            continue
+        out = []
+        for e in root.findall("a:entry", ns):
+            author = (e.findtext("a:author/a:name", default="", namespaces=ns) or "").replace("/u/", "")
+            upd = e.findtext("a:published", default="", namespaces=ns) or e.findtext("a:updated", default="", namespaces=ns)
+            try:
+                ts = datetime.fromisoformat(upd.replace("Z", "+00:00")).timestamp()
+            except ValueError:
+                ts = None
+            title = e.findtext("a:title", default="", namespaces=ns) or ""
+            body = re.sub(r"<[^>]+>", " ", e.findtext("a:content", default="", namespaces=ns) or "")
+            out.append({"sub": sub, "author": author, "created": ts, "text": f"{title} {body}",
+                        "title": title, "kind": "post"})
+        return out
+    return []
+
+
+REDDIT_MODE = "off"
+
+
 def reddit_counts(known):
-    """Per ticker: mentions/authors/subs in last 6h and 24h. Returns (counts, ok)."""
+    """Per ticker: mentions/authors/subs in last 6h and 24h. API if credentials exist, else public RSS."""
+    global REDDIT_MODE
     tok = reddit_token()
-    if not tok:
-        return {}, False
     now = time.time()
     agg = {}
+    fetched_any = False
     for sub in config.REDDIT_SUBS:
-        for kind in ("new", "comments"):
-            for it in reddit_items(tok, sub, kind):
+        kinds = ("new", "comments") if tok else ("rss",)
+        for kind in kinds:
+            items = reddit_items(tok, sub, kind) if tok else reddit_rss_items(sub)
+            fetched_any = fetched_any or bool(items)
+            for it in items:
                 if not it["created"]:
                     continue
                 age_h = (now - it["created"]) / 3600
@@ -185,7 +220,10 @@ def reddit_counts(known):
                         a["subs6"].add(sub)
                     if it["kind"] == "post" and not a["sample"]:
                         a["sample"] = f"r/{sub}: {it['title'][:90]}"
-            time.sleep(0.7)
+            time.sleep(0.7 if tok else 2.0)
+    REDDIT_MODE = ("api" if tok else "rss") if fetched_any else "failed"
+    if not fetched_any:
+        return {}, False
     out = {}
     for t, a in agg.items():
         out[t] = {"m6": a["m6"], "m24": a["m24"], "authors6": len(a["authors6"]), "authors24": len(a["authors24"]),
