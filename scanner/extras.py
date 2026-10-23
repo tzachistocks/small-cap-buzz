@@ -9,25 +9,56 @@ from . import config
 from .sources import _get, ERRORS, UA_BROWSER, cik_map
 
 
-# ---------------- iBorrowDesk: borrow fee and shares available to short (IBKR data) ----------------
-def borrow(ticker):
-    d = _get(f"https://iborrowdesk.com/api/ticker/{ticker}", retries=1)
-    if not d:
-        return None
-    rows = d.get("real_time") or []
-    daily = d.get("daily") or []
+# ---------------- Borrow fee / availability: Interactive Brokers public short-stock file ----------------
+_IB = None
+
+
+def _ib_table():
+    """Download IBKR's public file (ftp3.interactivebrokers.com, user 'shortstock') once per run.
+    Columns: #SYM|CUR|NAME|CON|ISIN|REBATERATE|FEERATE|AVAILABLE|"""
+    global _IB
+    if _IB is not None:
+        return _IB
+    _IB = {}
+    import ftplib, io
     try:
-        now = rows[0] if rows else (daily[-1] if daily else None)
-        if not now:
-            return None
-        fee = float(now.get("fee") or 0)
-        avail = int(now.get("available") or 0)
-        old = daily[-6] if len(daily) >= 6 else (daily[0] if daily else None)
-        fee_5d = float(old.get("fee") or 0) if old else None
-        avail_5d = int(old.get("available") or 0) if old else None
-        return {"fee": fee, "available": avail, "fee_5d": fee_5d, "available_5d": avail_5d}
-    except (TypeError, ValueError, KeyError, IndexError):
+        ftp = ftplib.FTP("ftp3.interactivebrokers.com", timeout=40)
+        ftp.login("shortstock", "")
+        buf = io.BytesIO()
+        ftp.retrbinary("RETR usa.txt", buf.write)
+        ftp.quit()
+        for line in buf.getvalue().decode("latin-1").splitlines():
+            if line.startswith("#") or "|" not in line:
+                continue
+            p = line.split("|")
+            if len(p) < 8:
+                continue
+            avail = p[7].strip().lstrip(">")
+            try:
+                _IB[p[0].strip().upper()] = {"fee": float(p[6] or 0), "available": int(avail or 0)}
+            except ValueError:
+                continue
+    except Exception as e:
+        ERRORS.append(f"IBKR short-stock file: {type(e).__name__}: {e}")
+    return _IB
+
+
+def borrow(ticker, hist=None):
+    """{'fee','available','fee_5d','available_5d'} from today's IBKR file + our own saved history."""
+    now = _ib_table().get(ticker.upper())
+    if not now:
         return None
+    out = dict(now, fee_5d=None, available_5d=None)
+    if hist is not None:
+        today = datetime.now(timezone.utc).date().isoformat()
+        rows = hist.setdefault(ticker, {})
+        rows[today] = [now["fee"], now["available"]]
+        days = sorted(rows)[-15:]
+        hist[ticker] = {d: rows[d] for d in days}
+        old = [d for d in days if d <= (datetime.now(timezone.utc).date() - timedelta(days=5)).isoformat()]
+        if old:
+            out["fee_5d"], out["available_5d"] = rows[old[-1]]
+    return out
 
 
 # ---------------- StockTwits watchers history ----------------
@@ -51,9 +82,18 @@ def watchers_growth(hist, ticker, count):
 # ---------------- Paid stock promotions (red flag) ----------------
 def promoted_tickers(known):
     """Tickers currently promoted on stockpromoters.com (paid promotions). Empty set on failure."""
-    html = _get("https://www.stockpromoters.com/", expect_json=False, retries=1)
+    html = None
+    for url in ("https://www.stockpromoters.com/", "https://stockpromoters.com/", "http://www.stockpromoters.com/"):
+        try:
+            r = requests.get(url, headers={"User-Agent": UA_BROWSER}, timeout=20)
+            if r.status_code == 200 and len(r.text) > 2000:
+                html = r.text
+                break
+        except Exception:
+            continue
     out = set()
     if not html:
+        ERRORS.append("stockpromoters.com unreachable (paid-promotion filter off this run)")
         return out
     text = re.sub(r"<[^>]+>", " ", html)
     for pat in (r"\b(?:NASDAQ|NYSE|AMEX|OTC|OTCQB|OTCQX|NYSE American|NYSEAMERICAN)\s*[:\-]\s*([A-Z]{1,5})\b",
@@ -69,21 +109,27 @@ def xueqiu_hot_us():
     """{ticker: rank} from Xueqiu's hot US stock list. Needs a cookie from the homepage; often blocked abroad."""
     try:
         s = requests.Session()
-        s.headers.update({"User-Agent": UA_BROWSER, "Referer": "https://xueqiu.com/"})
+        s.headers.update({"User-Agent": UA_BROWSER, "Referer": "https://xueqiu.com/",
+                          "Accept": "application/json, text/plain, */*", "Origin": "https://xueqiu.com"})
         s.get("https://xueqiu.com/", timeout=15)
-        out = {}
-        for typ in (11,):  # 11 = US market
-            r = s.get("https://stock.xueqiu.com/v5/stock/hot_stock/list.json",
-                      params={"size": 50, "_type": typ, "type": typ}, timeout=15)
+        s.get("https://xueqiu.com/hq", timeout=15)
+        last = None
+        for params in ({"size": 50, "_type": 11, "type": 11}, {"size": 50, "_type": 10, "type": 11},
+                       {"size": 50, "type": 11}, {"size": 50, "_type": 10, "type": 10}):
+            r = s.get("https://stock.xueqiu.com/v5/stock/hot_stock/list.json", params=params, timeout=15)
+            last = r.status_code
             if r.status_code != 200:
-                ERRORS.append(f"Xueqiu HTTP {r.status_code}")
                 continue
             items = ((r.json() or {}).get("data") or {}).get("items") or []
+            out = {}
             for i, it in enumerate(items, 1):
                 sym = (it.get("symbol") or "").upper()
-                if re.fullmatch(r"[A-Z]{1,5}", sym):
+                if re.fullmatch(r"[A-Z]{1,5}", sym):  # US tickers only (CN/HK symbols have prefixes/digits)
                     out[sym] = i
-        return out
+            if out:
+                return out
+        ERRORS.append(f"Xueqiu HTTP {last} (no US list; site may block non-China IPs)")
+        return {}
     except Exception as e:
         ERRORS.append(f"Xueqiu {type(e).__name__}: {e}")
         return {}

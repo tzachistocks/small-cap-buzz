@@ -229,6 +229,7 @@ def run():
         if v.get("watchlist_count"):
             extras.watchers_growth(watch_hist, t, v["watchlist_count"])
     profiles = store.load_json("profiles.json", {})
+    borrow_hist = store.load_json("borrow_hist.json", {})
     EXTRA_STATUS.update(xq=xq, promoted=promoted)
 
     # candidates: passed the mention gate, or strong reddit-only spread
@@ -286,7 +287,7 @@ def run():
         if not block:  # extra calls only for names that can still alert
             st = sources.stocktwits_stream(t)
             x["watch_added"], x["watch_pct"] = extras.watchers_growth(watch_hist, t, (st or {}).get("watchlist"))
-            x["borrow"] = extras.borrow(t)
+            x["borrow"] = extras.borrow(t, borrow_hist)
             prof = extras.sec_profile(t, profiles, store.path("cik.json"))
         pts, why = score(b, rd, st_trend, st, fund, x)
         c = dict(b, price=price, fund=fund, stocktwits=st, reddit=rd or {}, score=pts, why=why,
@@ -323,6 +324,7 @@ def run():
     store.save_json("caps.json", caps)
     store.save_json("st_watch.json", watch_hist)
     store.save_json("profiles.json", profiles)
+    store.save_json("borrow_hist.json", borrow_hist)
     evaluate(alerts)
     store.save_alerts(alerts)
     store.save_json("state.json", state)

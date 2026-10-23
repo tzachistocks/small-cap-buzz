@@ -187,7 +187,8 @@ def reddit_rss_items(subs, kind="new"):
         xml = r.text
         break
     if not xml:
-        ERRORS.append(f"Reddit RSS 429 (rate limit) {url}")
+        if kind == "new":  # comments are a bonus; a 429 there is expected sometimes
+            ERRORS.append(f"Reddit RSS 429 (rate limit) {url}")
         return []
     try:
         root = ET.fromstring(xml)
@@ -225,7 +226,7 @@ def reddit_counts(known):
                else [(g, "new") for g in RSS_GROUPS] + [(RSS_GROUPS[0], "comments")])
     for i, (sub, kind) in enumerate(batches):
         if not tok and i:
-            time.sleep(8)
+            time.sleep(8 if kind == "new" else 20)
         items = reddit_items(tok, sub, kind) if tok else reddit_rss_items(sub, kind)
         if items:
             fetched_any = fetched_any or bool(items)
