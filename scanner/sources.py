@@ -158,8 +158,9 @@ def reddit_items(token, sub, kind="new", limit=100):
 
 
 RSS_GROUPS = [
-    ["pennystocks", "Shortsqueeze", "smallstreetbets", "RobinHoodPennyStocks"],   # small-cap forums
-    ["wallstreetbets", "stocks", "Daytrading", "WallStreetbetsELITE"],
+    # Only the small-cap forums: Reddit rate-limits anonymous feeds after ~2 requests per run, and the big
+    # forums (wallstreetbets, stocks...) are already covered by ApeWisdom. The 2nd request is the comments feed.
+    ["pennystocks", "Shortsqueeze", "smallstreetbets", "RobinHoodPennyStocks"],
 ]
 
 

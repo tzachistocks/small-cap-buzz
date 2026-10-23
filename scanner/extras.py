@@ -9,6 +9,9 @@ from . import config
 from .sources import _get, ERRORS, UA_BROWSER, cik_map
 
 
+STATUS = {}  # quiet status of optional sources, shown in the summary header instead of the error list
+
+
 # ---------------- Borrow fee / availability: Interactive Brokers public short-stock file ----------------
 _IB = None
 
@@ -21,12 +24,22 @@ def _ib_table():
         return _IB
     _IB = {}
     import ftplib, io
+    buf, last = None, None
+    for host in ("ftp2.interactivebrokers.com", "ftp3.interactivebrokers.com"):
+        try:
+            ftp = ftplib.FTP(host, timeout=30)
+            ftp.login("shortstock", "")
+            ftp.set_pasv(True)
+            b = io.BytesIO()
+            ftp.retrbinary("RETR usa.txt", b.write)
+            ftp.quit()
+            buf = b
+            break
+        except Exception as e:
+            last = f"{host}: {type(e).__name__}: {e}"
     try:
-        ftp = ftplib.FTP("ftp3.interactivebrokers.com", timeout=40)
-        ftp.login("shortstock", "")
-        buf = io.BytesIO()
-        ftp.retrbinary("RETR usa.txt", buf.write)
-        ftp.quit()
+        if buf is None:
+            raise RuntimeError(last)
         for line in buf.getvalue().decode("latin-1").splitlines():
             if line.startswith("#") or "|" not in line:
                 continue
@@ -39,7 +52,10 @@ def _ib_table():
             except ValueError:
                 continue
     except Exception as e:
+        STATUS["ibkr"] = f"נכשל ({type(e).__name__})"
         ERRORS.append(f"IBKR short-stock file: {type(e).__name__}: {e}")
+    if _IB:
+        STATUS["ibkr"] = f"פעיל ({len(_IB):,} מניות)"
     return _IB
 
 
@@ -93,7 +109,7 @@ def promoted_tickers(known):
             continue
     out = set()
     if not html:
-        ERRORS.append("stockpromoters.com unreachable (paid-promotion filter off this run)")
+        STATUS["promoters"] = "חסום"
         return out
     text = re.sub(r"<[^>]+>", " ", html)
     for pat in (r"\b(?:NASDAQ|NYSE|AMEX|OTC|OTCQB|OTCQX|NYSE American|NYSEAMERICAN)\s*[:\-]\s*([A-Z]{1,5})\b",
@@ -128,10 +144,10 @@ def xueqiu_hot_us():
                     out[sym] = i
             if out:
                 return out
-        ERRORS.append(f"Xueqiu HTTP {last} (no US list; site may block non-China IPs)")
+        STATUS["xueqiu"] = f"חסום (HTTP {last})"
         return {}
     except Exception as e:
-        ERRORS.append(f"Xueqiu {type(e).__name__}: {e}")
+        STATUS["xueqiu"] = f"חסום ({type(e).__name__})"
         return {}
 
 

@@ -340,8 +340,9 @@ def write_summary(report, alerts, rd_ok, snap, subs, record, skipped_large=()):
     lines = [f"## סריקת באז {NOW:%Y-%m-%d %H:%M} UTC", "",
              f"ApeWisdom: {len(snap['main'])} טיקרים, פורומים: {', '.join(sorted(subs)) or 'אין'} | "
              f"Reddit: {dict(api='API פעיל', rss='RSS פעיל (פוסטים בלבד)', failed='נחסם', off='כבוי').get(sources.REDDIT_MODE, sources.REDDIT_MODE)} | Telegram: {'פעיל' if config.TELEGRAM_BOT_TOKEN else 'לא מוגדר'}",
-             f"Xueqiu (סין): {len(EXTRA_STATUS.get('xq', {}))} מניות חמות | קידום בתשלום: {len(EXTRA_STATUS.get('promoted', ()))} | "
-             f"YouTube: {'פעיל' if config.YOUTUBE_API_KEY else 'לא מוגדר'}",
+             f"Xueqiu (סין): {extras.STATUS.get('xueqiu') or str(len(EXTRA_STATUS.get('xq', {}))) + ' מניות חמות'} | "
+             f"קידום בתשלום: {extras.STATUS.get('promoters') or str(len(EXTRA_STATUS.get('promoted', ()))) + ' מניות'} | "
+             f"השאלות IBKR: {extras.STATUS.get('ibkr', 'לא נבדק')} | YouTube: {'פעיל' if config.YOUTUBE_API_KEY else 'לא מוגדר'}",
              f"שגיאות בהרצה: {len(sources.ERRORS)}", "", f"**{record}**", "",
              "| טיקר | ציון | אזכורים 24ש | מחיר | תזוזה | שווי | שורט | סיבות | חסימה |",
              "|---|---|---|---|---|---|---|---|---|"]
