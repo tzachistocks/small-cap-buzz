@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-23T08:19+00:00",
+ "ts": "2026-10-23T12:59+00:00",
  "reddit_ok": true,
  "stocktwits_trending": 30,
  "apewisdom_main": 300,
@@ -13,7 +13,7 @@
   "stocks",
   "wallstreetbets"
  ],
- "candidates": 9,
+ "candidates": 14,
  "errors": [
   "HTTP 404 https://query1.finance.yahoo.com/v8/finance/chart/BABY",
   "HTTP 404 https://finviz.com/quote.ashx?t=BABY&p=d"

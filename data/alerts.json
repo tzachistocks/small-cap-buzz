@@ -163,5 +163,103 @@
    "max_high_pct": 87.3,
    "d1_pct": -7.4
   }
+ },
+ {
+  "id": "202610231259-XXII",
+  "ts": "2026-10-23T12:59+00:00",
+  "ticker": "XXII",
+  "score": 10,
+  "why": [
+   "האצה x5.2 מול הבסיס",
+   "+4 אזכורים ב-3 שעות",
+   "פיזור ב-2 פורומים",
+   "5 כותבים שונים ברדיט ב-6 שעות",
+   "30 הודעות בסטוקטוויטס ב-6 שעות",
+   "פלואט 0.6M",
+   "נפח פי 47.6 מהממוצע",
+   "עמלת השאלה 199%"
+  ],
+  "price": {
+   "price": 0.2932,
+   "prev_close": 0.2729,
+   "move_pct": 7.44,
+   "vol_today": 111556200,
+   "avg_vol20": 2342905,
+   "rel_vol": 47.61,
+   "exchange": "NCM",
+   "name": "22nd Century Group, Inc.",
+   "readiness": {
+    "points": 5,
+    "why": [
+     "נפח אתמול פי 100+",
+     "ירדה 95% משיא 60 יום",
+     "תנודתית (13% ביום)",
+     "מתחת ל-$1"
+    ],
+    "risk": [],
+    "asof": "2026-10-22",
+    "f": {
+     "rvol_1": 989.412,
+     "atr_ratio": 1.1314,
+     "drawdown_60": -0.9527,
+     "vol20": 0.1258,
+     "prior_runs_120": 0.0,
+     "ret_1d": -0.2088,
+     "days_since_rsplit": 132.0,
+     "near_20d_high": 0.143
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 0.21,
+   "float_m": 0.6,
+   "short_float_pct": 6.31,
+   "days_to_cover": 0.02,
+   "src": "finviz"
+  },
+  "m_now": 24,
+  "m_24h_ago": 3,
+  "spread": [
+   "pennystocks"
+  ],
+  "reddit": {
+   "m6": 6,
+   "m24": 6,
+   "authors6": 5,
+   "authors24": 5,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-23T11:03+00:00",
+   "sample": ""
+  },
+  "stocktwits": {
+   "msgs_6h": 30,
+   "users": 19,
+   "bull": 11,
+   "bear": 3,
+   "oldest_min": 40,
+   "watchlist": 35164
+  },
+  "borrow": {
+   "fee": 198.932,
+   "available": 7000,
+   "fee_5d": null,
+   "available_5d": null
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "profile": {
+   "country": "IN",
+   "inc": "FL",
+   "asia": null,
+   "sic": "Cigarettes",
+   "ts": "2026-10-22T23:15+00:00"
+  },
+  "telegram_sent": true,
+  "outcome": {}
  }
 ]
