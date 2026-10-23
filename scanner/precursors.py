@@ -66,51 +66,41 @@ def bars(t):
     return None, []
 
 
+from readiness import features as base_features, points_vec  # noqa: E402  (run as: python scanner/precursors.py)
+
+COST = float(os.getenv("SIM_COST", "0.02"))      # round-trip costs (spread + slippage), small caps
+TARGET, STOP, GAP_MAX, HOLD = 0.30, 0.15, 0.15, 5
+
+
 def features(df, rsplits):
-    c, h, l, v, o = df.c, df.h, df.l, df.v, df.o
-    out = pd.DataFrame(index=df.index)
-    ret1 = c.pct_change()
-    med20 = v.shift(1).rolling(20, min_periods=15).median()
-    out["price"] = c
-    out["dollar_vol20"] = (c * v).rolling(20, min_periods=15).median()
-    out["ret_1d"] = ret1
-    out["ret_3d"] = c / c.shift(3) - 1
-    out["ret_10d"] = c / c.shift(10) - 1
-    out["rvol_1"] = v / med20
-    out["rvol_3"] = v.rolling(3).mean() / med20.shift(2)
-    out["vol_days_5"] = (v / med20 > 1.5).astype(int).rolling(5).sum()
-    up = (ret1 > 0)
-    upv = (v * up).rolling(10).sum(); dnv = (v * (~up)).rolling(10).sum()
-    out["updown_vol_10"] = upv / dnv.replace(0, np.nan)
-    rng = (h - l).replace(0, np.nan)
-    clv = ((c - l) - (h - c)) / rng
-    out["clv_1"] = clv
-    out["clv_3"] = clv.rolling(3).mean()
-    tr = pd.concat([h - l, (h - c.shift()).abs(), (l - c.shift()).abs()], axis=1).max(axis=1)
-    out["atr_ratio"] = tr.rolling(5).mean() / tr.rolling(20).mean()
-    sd = c.rolling(20).std(); ma = c.rolling(20).mean()
-    bbw = (4 * sd / ma)
-    out["bbw_pct"] = bbw.rolling(120, min_periods=60).rank(pct=True)
-    out["near_20d_high"] = c / h.rolling(20).max()
-    out["drawdown_60"] = c / h.rolling(60, min_periods=40).max() - 1
-    obv = (np.sign(ret1).fillna(0) * v).cumsum()
-    out["obv_div"] = ((obv - obv.shift(10)) / v.rolling(20).mean() > 2) & (out["ret_10d"] <= 0)
-    out["vol20"] = ret1.rolling(20).std()
-    big = (ret1 >= 0.30)
-    out["prior_runs_120"] = big.shift(1).rolling(120, min_periods=20).sum()
-    out["recent_run_10"] = big.rolling(10).sum()
-    # days since reverse split
-    ds = pd.Series(np.nan, index=df.index)
-    for d in rsplits:
-        m = (df.index >= d)
-        ds[m] = np.fmin(ds[m].fillna(9999), (df.index[m] - d).days)
-    out["days_since_rsplit"] = ds
-    # labels
+    out = base_features(df, rsplits)
+    c, h, l, o = df.c, df.h, df.l, df.o
+    med20 = df.v.shift(1).rolling(20, min_periods=15).median()
     fwd_max = pd.concat([c.shift(-k) for k in range(1, 6)], axis=1).max(axis=1)
     out["run5"] = (fwd_max / c - 1 >= 0.30)
     out["pop1"] = (h.shift(-1) / c - 1 >= 0.30)
     out["fwd5"] = c.shift(-5) / c - 1
     out["valid"] = fwd_max.notna() & med20.notna()
+    # --- trade simulation: buy next open (skip if it gaps >=15%, like the scanner), hold up to 5 days
+    entry = o.shift(-1)
+    out["gap_next"] = entry / c - 1
+    H = np.column_stack([h.shift(-k).values for k in range(1, HOLD + 1)])
+    L = np.column_stack([l.shift(-k).values for k in range(1, HOLD + 1)])
+    last_close = c.shift(-HOLD).values
+    e = entry.values
+    tgt, stp = e * (1 + TARGET), e * (1 - STOP)
+    hit_t = H >= tgt[:, None]
+    hit_s = L <= stp[:, None]
+    first_t = np.where(hit_t.any(1), hit_t.argmax(1), 99)
+    first_s = np.where(hit_s.any(1), hit_s.argmax(1), 99)
+    # A: target or day-5 close (no stop)
+    exit_a = np.where(first_t < 99, tgt, last_close)
+    # B: with -15% stop; if stop and target on the same day assume the stop came first (conservative)
+    exit_b = np.where((first_s < 99) & (first_s <= first_t), stp, np.where(first_t < 99, tgt, last_close))
+    with np.errstate(invalid="ignore", divide="ignore"):
+        out["trade_a"] = exit_a / e - 1 - COST
+        out["trade_b"] = exit_b / e - 1 - COST
+    out["hit_target"] = first_t < 99
     return out
 
 
@@ -214,6 +204,58 @@ def main():
             lines.append(f"| {name} | {s['n']:,} | {s['hit']*100:.2f}% | {s['lift']:.2f} | {s['fwd5_med']*100:+.1f}% | {s['down20']*100:.1f}% |")
         res[f"pairs_{label}"] = dict(pairs[:40])
         lines.append("")
+    # ---- tradability
+    tr = panel[(panel.gap_next < GAP_MAX) & panel.trade_a.notna()]
+    lines += ["## האם אפשר להרוויח מזה? סימולציית מסחר", "",
+              f"כניסה בפתיחה של למחרת (מדלגים אם הפער בפתיחה {GAP_MAX*100:.0f}%+, כמו הסורק). יציאה ב-+{TARGET*100:.0f}% או בסגירה של יום {HOLD}. "
+              f"עלויות {COST*100:.0f}% לעסקה. **A** = בלי סטופ. **B** = עם סטופ של ‎-{STOP*100:.0f}% (אם סטופ ויעד באותו יום, מניחים שהסטופ קודם).", "",
+              "| כלל | עסקאות | הגיעו ליעד | A ממוצע | A חציון | A הצלחה | B ממוצע | B הצלחה | ‎-20% (A) |",
+              "|---|---|---|---|---|---|---|---|---|"]
+    def trow(name, d):
+        if len(d) < 200:
+            return None
+        return (f"| {name} | {len(d):,} | {d.hit_target.mean()*100:.1f}% | {d.trade_a.mean()*100:+.2f}% | {d.trade_a.median()*100:+.1f}% | "
+                f"{(d.trade_a > 0).mean()*100:.0f}% | {d.trade_b.mean()*100:+.2f}% | {(d.trade_b > 0).mean()*100:.0f}% | {(d.trade_a <= -0.2).mean()*100:.1f}% |",
+                float(d.trade_a.mean()), float(d.trade_b.mean()), len(d))
+    rows_t = []
+    r0 = trow("כל הימים (בסיס)", tr)
+    if r0:
+        lines.append(r0[0])
+    for name, fn in RULES.items():
+        r = trow(name, tr[fn(tr).fillna(False).astype(bool)])
+        if r:
+            rows_t.append((name, r))
+    for name, r in sorted(rows_t, key=lambda x: -x[1][1]):
+        lines.append(r[0])
+    res["trade_rules"] = {n: {"mean_a": r[1], "mean_b": r[2], "n": r[3]} for n, r in rows_t}
+    lines += ["", "### צירופים (10 החזקים לפי רווח ממוצע A, לפחות 200 עסקאות)", "",
+              "| צירוף | עסקאות | הגיעו ליעד | A ממוצע | A חציון | A הצלחה | B ממוצע | B הצלחה | ‎-20% (A) |",
+              "|---|---|---|---|---|---|---|---|---|"]
+    names = list(RULES)
+    combo = []
+    for i in range(len(names)):
+        mi = RULES[names[i]](tr).fillna(False).astype(bool)
+        for j in range(i + 1, len(names)):
+            r = trow(f"{names[i]} + {names[j]}", tr[mi & RULES[names[j]](tr).fillna(False).astype(bool)])
+            if r:
+                combo.append(r)
+    for r in sorted(combo, key=lambda x: -x[1])[:10]:
+        lines.append(r[0])
+    # ---- readiness score validation
+    tr = tr.assign(ready=points_vec(tr))
+    lines += ["", "## ציון המוכנות של הסורק: האם ציון גבוה = יותר ריצות?", "",
+              "| ציון | ימים | run5 | pop1 | A ממוצע | B ממוצע | ‎-20% (A) |", "|---|---|---|---|---|---|---|"]
+    rs = {}
+    for k in sorted(tr.ready.unique()):
+        d = tr[tr.ready == k] if k < 6 else tr[tr.ready >= 6]
+        if k > 6 or len(d) < 100:
+            continue
+        lab = f"{k}+" if k == 6 else str(k)
+        lines.append(f"| {lab} | {len(d):,} | {d.run5.mean()*100:.2f}% | {d.pop1.mean()*100:.2f}% | {d.trade_a.mean()*100:+.2f}% | "
+                     f"{d.trade_b.mean()*100:+.2f}% | {(d.trade_a <= -0.2).mean()*100:.1f}% |")
+        rs[lab] = {"n": len(d), "run5": float(d.run5.mean()), "pop1": float(d.pop1.mean()), "mean_a": float(d.trade_a.mean())}
+    res["readiness_buckets"] = rs
+    lines.append("")
     # deciles for run5
     lines += ["## עשירונים (run5): שיעור הפגיעה לפי עשירון של כל אינדיקטור", "",
               "| אינדיקטור | " + " | ".join(f"D{i}" for i in range(1, 11)) + " |", "|---|" + "---|" * 10]
@@ -228,6 +270,7 @@ def main():
         lines.append(f"| {ftr} | " + " | ".join(f"{r*100:.1f}" for r in rates) + " |")
     res["deciles_run5"] = dec
     lines += ["", f"_זמן ריצה {time.time()-t0:.0f} שניות; שגיאות הורדה: {len(errors)}_",
+              "", "_הטיית שורדים: המדגם כולל רק מניות שנסחרות היום; מניות שנמחקו (רבות מהן אחרי איחוד/קריסה) חסרות, ולכן התוצאות אופטימיות._",
               "", "מידע מחקרי, לא המלצת השקעה. תוצאות עבר על מדגם אינן מבטיחות תוצאות עתידיות."]
     md = "\n".join(lines)
     with open(os.path.join(OUT_DIR, "precursors_report.md"), "w") as f:

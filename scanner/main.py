@@ -173,6 +173,11 @@ def format_alert(c, record):
             f"{f['float_m']:.1f}M" if f.get("float_m") else "?",
             f"{f['short_float_pct']:.0f}%" if f.get("short_float_pct") is not None else "?",
             f.get("days_to_cover") if f.get("days_to_cover") is not None else "?"))
+    rd_ = (p or {}).get("readiness") or {}
+    if rd_:
+        lines.append(f"מוכנות מהמסחר: {rd_['points']} ({'; '.join(rd_['why']) or 'אין סימנים'})")
+        for r in rd_.get("risk", []):
+            lines.append(f"⚠️ {r}")
     br = c.get("borrow") or {}
     if br:
         lines.append(f"השאלה: עמלה {br['fee']:.1f}%, זמינות {br['available']:,} מניות")
@@ -344,11 +349,13 @@ def write_summary(report, alerts, rd_ok, snap, subs, record, skipped_large=()):
              f"קידום בתשלום: {extras.STATUS.get('promoters') or str(len(EXTRA_STATUS.get('promoted', ()))) + ' מניות'} | "
              f"השאלות IBKR: {extras.STATUS.get('ibkr', 'לא נבדק')} | YouTube: {'פעיל' if config.YOUTUBE_API_KEY else 'לא מוגדר'}",
              f"שגיאות בהרצה: {len(sources.ERRORS)}", "", f"**{record}**", "",
-             "| טיקר | ציון | אזכורים 24ש | מחיר | תזוזה | שווי | שורט | סיבות | חסימה |",
-             "|---|---|---|---|---|---|---|---|---|"]
+             "| טיקר | ציון | מוכנות | אזכורים 24ש | מחיר | תזוזה | שווי | שורט | סיבות | חסימה |",
+             "|---|---|---|---|---|---|---|---|---|---|"]
     for c in sorted(report, key=lambda x: -x["score"]):
         p, f = c.get("price") or {}, c.get("fund") or {}
-        lines.append(f"| {c['ticker']} | {c['score']} | {c['m_24h_ago']}→{c['m_now']} | {p.get('price','?')} | "
+        rdy = (p.get("readiness") or {})
+        rtxt = f"{rdy['points']} ({', '.join(rdy['why'][:3])})" if rdy else "?"
+        lines.append(f"| {c['ticker']} | {c['score']} | {rtxt} | {c['m_24h_ago']}→{c['m_now']} | {p.get('price','?')} | "
                      f"{p.get('move_pct','?')}% | {round(f['market_cap_m']) if f.get('market_cap_m') else '?'} | {f.get('short_float_pct') or '?'} | "
                      f"{'; '.join(c['why'])} | {'; '.join(c['blocked']) or '✅'} |")
     if skipped_large:

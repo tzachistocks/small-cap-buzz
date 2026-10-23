@@ -280,15 +280,18 @@ def price_snapshot(ticker):
     except Exception:
         return None
     daily = _get(f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}",
-                 params={"range": "3mo", "interval": "1d"})
+                 params={"range": "6mo", "interval": "1d", "events": "split"})
     avg_vol = vol_today = None
+    ready = None
     try:
-        q = daily["chart"]["result"][0]["indicators"]["quote"][0]
+        res_d = daily["chart"]["result"][0]
+        q = res_d["indicators"]["quote"][0]
         vols = [v for v in q["volume"] if v is not None]
         if len(vols) > 1:
             vol_today = vols[-1]
             hist = vols[-21:-1]
             avg_vol = sum(hist) / len(hist) if hist else None
+        ready = _readiness(res_d)
     except Exception:
         pass
     if not last or not prev:
@@ -297,7 +300,35 @@ def price_snapshot(ticker):
             "move_pct": round((float(last) / float(prev) - 1) * 100, 2),
             "vol_today": max(vol_today or 0, vol_session or 0) or None, "avg_vol20": int(avg_vol) if avg_vol else None,
             "rel_vol": round(max(vol_today or 0, vol_session or 0) / avg_vol, 2) if avg_vol else None,
-            "exchange": meta.get("exchangeName"), "name": meta.get("longName") or meta.get("shortName")}
+            "exchange": meta.get("exchangeName"), "name": meta.get("longName") or meta.get("shortName"),
+            "readiness": ready}
+
+
+def _readiness(res):
+    """Readiness points from ~6 months of daily bars (see readiness.py)."""
+    try:
+        import pandas as pd
+        from zoneinfo import ZoneInfo
+        from . import readiness as R
+        q = res["indicators"]["quote"][0]
+        df = pd.DataFrame({"o": q["open"], "h": q["high"], "l": q["low"], "c": q["close"], "v": q["volume"]},
+                          index=pd.to_datetime(res["timestamp"], unit="s").normalize()).dropna()
+        df = df[~df.index.duplicated(keep="last")]
+        splits = (res.get("events") or {}).get("splits") or {}
+        rs = [pd.to_datetime(int(k), unit="s").normalize() for k, sp in splits.items()
+              if sp.get("numerator") and sp.get("denominator") and sp["numerator"] < sp["denominator"]]
+        today = datetime.now(ZoneInfo("America/New_York")).date()
+        df = R.last_completed(df, today)
+        if len(df) < 25:
+            return None
+        f = R.features(df, rs).iloc[-1].to_dict()
+        pts, why, risk = R.points(f)
+        keep = ("rvol_1", "atr_ratio", "drawdown_60", "vol20", "prior_runs_120", "ret_1d", "days_since_rsplit", "near_20d_high")
+        return {"points": pts, "why": why, "risk": risk, "asof": str(df.index[-1].date()),
+                "f": {k: (None if f.get(k) is None or f.get(k) != f.get(k) else round(float(f[k]), 4)) for k in keep}}
+    except Exception as e:
+        ERRORS.append(f"readiness: {type(e).__name__}: {e}")
+        return None
 
 
 def daily_bars(ticker, range_="1mo"):
