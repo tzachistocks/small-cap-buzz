@@ -272,13 +272,14 @@ def price_snapshot(ticker):
     try:
         res = d["chart"]["result"][0]
         meta = res["meta"]
-        q5 = res["indicators"]["quote"][0]
-        closes = [c for c in q5["close"] if c is not None]
-        vol_session = sum(v for v in (q5.get("volume") or []) if v)  # today incl. pre/post market
-        last = closes[-1] if closes else meta.get("regularMarketPrice")
-        prev = meta.get("chartPreviousClose") or meta.get("previousClose")
     except Exception:
         return None
+    # early pre-market (or a quiet day) can return no intraday bars at all: fall back to meta
+    q5 = ((res.get("indicators") or {}).get("quote") or [{}])[0] or {}
+    closes = [c for c in (q5.get("close") or []) if c is not None]
+    vol_session = sum(v for v in (q5.get("volume") or []) if v)  # today incl. pre/post market
+    last = closes[-1] if closes else meta.get("regularMarketPrice")
+    prev = meta.get("chartPreviousClose") or meta.get("previousClose")
     daily = _get(f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}",
                  params={"range": "6mo", "interval": "1d", "events": "split"})
     avg_vol = vol_today = None

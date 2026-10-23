@@ -354,7 +354,7 @@ def write_summary(report, alerts, rd_ok, snap, subs, record, skipped_large=()):
     for c in sorted(report, key=lambda x: -x["score"]):
         p, f = c.get("price") or {}, c.get("fund") or {}
         rdy = (p.get("readiness") or {})
-        rtxt = f"{rdy['points']} ({', '.join(rdy['why'][:3])})" if rdy else "?"
+        rtxt = (f"{rdy['points']} ({', '.join(rdy['why'][:3]) or 'אין סימנים'})" if rdy else "?")
         lines.append(f"| {c['ticker']} | {c['score']} | {rtxt} | {c['m_24h_ago']}→{c['m_now']} | {p.get('price','?')} | "
                      f"{p.get('move_pct','?')}% | {round(f['market_cap_m']) if f.get('market_cap_m') else '?'} | {f.get('short_float_pct') or '?'} | "
                      f"{'; '.join(c['why'])} | {'; '.join(c['blocked']) or '✅'} |")

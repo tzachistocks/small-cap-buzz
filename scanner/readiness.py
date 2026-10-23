@@ -48,21 +48,26 @@ def features(df, rsplits=()):
     return out
 
 
+def _x(r):
+    """Readable multiple: huge ratios (illiquid stock, tiny base volume) shown as 100+."""
+    return "100+" if r >= 100 else f"{r:.1f}"
+
+
 def points(f):
     """f: one row (Series/dict) of features. Returns (points, reasons, risk_flags)."""
     g = lambda k: (None if f.get(k) is None or (isinstance(f.get(k), float) and np.isnan(f.get(k))) else f.get(k))
     pts, why, risk = 0, [], []
     rv = g("rvol_1")
     if rv is not None and rv >= 5:
-        pts += 2; why.append(f"נפח אתמול פי {rv:.1f}")
+        pts += 2; why.append(f"נפח אתמול פי {_x(rv)}")
     elif rv is not None and rv >= 3:
-        pts += 1; why.append(f"נפח אתמול פי {rv:.1f}")
+        pts += 1; why.append(f"נפח אתמול פי {_x(rv)}")
     ar = g("atr_ratio")
     if rv is not None and rv >= 3 and ar is not None and ar <= 0.6:
         pts += 1; why.append("נפח חריג אחרי טווח מכווץ")
     dd = g("drawdown_60")
     if dd is not None and dd <= -0.5:
-        pts += 1; why.append(f"ירדה {dd*100:.0f}% משיא 60 יום")
+        pts += 1; why.append(f"ירדה {abs(dd)*100:.0f}% משיא 60 יום")
     vo = g("vol20")
     if vo is not None and vo >= 0.08:
         pts += 1; why.append(f"תנודתית ({vo*100:.0f}% ביום)")
