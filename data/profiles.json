@@ -26,5 +26,12 @@
   "asia": null,
   "sic": "Computer Peripheral Equipment, NEC",
   "ts": "2026-10-22T23:16+00:00"
+ },
+ "III": {
+  "country": "CT",
+  "inc": "DE",
+  "asia": null,
+  "sic": "Services-Management Consulting Services",
+  "ts": "2026-10-23T04:51+00:00"
  }
 }

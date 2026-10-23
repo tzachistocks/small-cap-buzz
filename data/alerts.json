@@ -157,11 +157,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 0.21570000052452087,
-   "last_pct": -7.5,
-   "max_close_pct": -7.5,
+   "last_close": 0.2160000056028366,
+   "last_pct": -7.4,
+   "max_close_pct": -7.4,
    "max_high_pct": 87.3,
-   "d1_pct": -7.5
+   "d1_pct": -7.4
   }
  }
 ]

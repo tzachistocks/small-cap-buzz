@@ -1,8 +1,8 @@
 {
- "ts": "2026-10-22T23:13+00:00",
+ "ts": "2026-10-23T04:48+00:00",
  "reddit_ok": true,
  "stocktwits_trending": 30,
- "apewisdom_main": 297,
+ "apewisdom_main": 300,
  "apewisdom_subs": [
   "4chan",
   "Daytrading",
@@ -13,7 +13,7 @@
   "stocks",
   "wallstreetbets"
  ],
- "candidates": 13,
+ "candidates": 16,
  "errors": [
   "Reddit RSS 429 (rate limit) https://www.reddit.com/r/pennystocks+Shortsqueeze+smallstreetbets+RobinHoodPennyStocks/comments/.rss",
   "Xueqiu HTTP 400",
@@ -21,6 +21,10 @@
   "ConnectionError https://iborrowdesk.com/api/ticker/RNA: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
   "ConnectionError https://iborrowdesk.com/api/ticker/XXII: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
   "ConnectionError https://iborrowdesk.com/api/ticker/BYND: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-  "ConnectionError https://iborrowdesk.com/api/ticker/LINK: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  "ConnectionError https://iborrowdesk.com/api/ticker/III: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+  "HTTP 404 https://query1.finance.yahoo.com/v8/finance/chart/BABY",
+  "HTTP 404 https://finviz.com/quote.ashx?t=BABY&p=d",
+  "HTTP 404 https://query1.finance.yahoo.com/v8/finance/chart/DAY",
+  "HTTP 404 https://finviz.com/quote.ashx?t=DAY&p=d"
  ]
 }
