@@ -33,5 +33,12 @@
   "asia": null,
   "sic": "Services-Management Consulting Services",
   "ts": "2026-10-23T04:51+00:00"
+ },
+ "GYGY": {
+  "country": "CA",
+  "inc": "DE",
+  "asia": null,
+  "sic": "Services-Prepackaged Software",
+  "ts": "2026-10-23T07:07+00:00"
  }
 }

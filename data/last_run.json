@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-23T04:48+00:00",
+ "ts": "2026-10-23T07:04+00:00",
  "reddit_ok": true,
  "stocktwits_trending": 30,
  "apewisdom_main": 300,
@@ -13,18 +13,13 @@
   "stocks",
   "wallstreetbets"
  ],
- "candidates": 16,
+ "candidates": 14,
  "errors": [
-  "Reddit RSS 429 (rate limit) https://www.reddit.com/r/pennystocks+Shortsqueeze+smallstreetbets+RobinHoodPennyStocks/comments/.rss",
-  "Xueqiu HTTP 400",
-  "SSLError https://www.stockpromoters.com/: HTTPSConnectionPool(host='www.stockpromoters.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
-  "ConnectionError https://iborrowdesk.com/api/ticker/RNA: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-  "ConnectionError https://iborrowdesk.com/api/ticker/XXII: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-  "ConnectionError https://iborrowdesk.com/api/ticker/BYND: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-  "ConnectionError https://iborrowdesk.com/api/ticker/III: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+  "Reddit RSS 429 (rate limit) https://www.reddit.com/r/wallstreetbets+stocks+Daytrading+WallStreetbetsELITE/new/.rss",
+  "Xueqiu HTTP 400 (no US list; site may block non-China IPs)",
+  "stockpromoters.com unreachable (paid-promotion filter off this run)",
+  "IBKR short-stock file: TimeoutError: timed out",
   "HTTP 404 https://query1.finance.yahoo.com/v8/finance/chart/BABY",
-  "HTTP 404 https://finviz.com/quote.ashx?t=BABY&p=d",
-  "HTTP 404 https://query1.finance.yahoo.com/v8/finance/chart/DAY",
-  "HTTP 404 https://finviz.com/quote.ashx?t=DAY&p=d"
+  "HTTP 404 https://finviz.com/quote.ashx?t=BABY&p=d"
  ]
 }
