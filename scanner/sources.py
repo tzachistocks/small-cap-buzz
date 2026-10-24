@@ -324,7 +324,8 @@ def _readiness(res):
             return None
         f = R.features(df, rs).iloc[-1].to_dict()
         pts, why, risk = R.points(f)
-        keep = ("rvol_1", "atr_ratio", "drawdown_60", "vol20", "prior_runs_120", "ret_1d", "days_since_rsplit", "near_20d_high")
+        keep = ("rvol_1", "atr_ratio", "drawdown_60", "vol20", "prior_runs_120", "ret_1d", "ret_3d", "ret_10d",
+                "days_since_rsplit", "near_20d_high")
         return {"points": pts, "why": why, "risk": risk, "asof": str(df.index[-1].date()),
                 "f": {k: (None if f.get(k) is None or f.get(k) != f.get(k) else round(float(f[k]), 4)) for k in keep}}
     except Exception as e:
@@ -450,19 +451,63 @@ def cik_map(cache_path):
     return _CIK
 
 
-def dilution_filings(ticker, cache_path):
+def sec_filings(ticker, cache_path):
+    """One request to SEC submissions -> what matters for a forum run.
+    Returns None if the company is unknown to SEC (foreign/OTC), else
+    {'dilution': [...], 'catalysts': [...], 'rsplit': 'YYYY-MM-DD' or None, 'cik': int}."""
     cik = cik_map(cache_path).get(ticker.upper())
     if not cik:
-        return None  # unknown (foreign/OTC) -> can't verify
+        return None
     d = _get(f"https://data.sec.gov/submissions/CIK{cik:010d}.json", headers={"User-Agent": config.SEC_USER_AGENT})
     if not d:
         return None
     rec = (d.get("filings") or {}).get("recent") or {}
-    cutoff = (datetime.now(timezone.utc) - timedelta(days=config.DILUTION_LOOKBACK_DAYS)).date().isoformat()
-    hits = []
-    for form, date in zip(rec.get("form", []), rec.get("filingDate", [])):
-        if date < cutoff:
+    today = datetime.now(timezone.utc).date()
+    cut_dil = (today - timedelta(days=config.DILUTION_LOOKBACK_DAYS)).isoformat()
+    cut_cat = (today - timedelta(days=config.CATALYST_DAYS)).isoformat()
+    cut_rs = (today - timedelta(days=config.RSPLIT_PENALTY_DAYS)).isoformat()
+    forms, dates = rec.get("form", []), rec.get("filingDate", [])
+    items = rec.get("items") or [""] * len(forms)
+    out = {"dilution": [], "catalysts": [], "rsplit": None, "cik": cik}
+    has_6k = False
+    for form, date, it in zip(forms, dates, items):
+        if date < cut_rs:
             break
-        if form.upper() in config.DILUTION_FORMS:
-            hits.append(f"{form} {date}")
-    return hits
+        f = form.upper()
+        if date >= cut_dil and f in config.DILUTION_FORMS:
+            out["dilution"].append(f"{form} {date}")
+        if date >= cut_cat and f in config.CATALYST_FORMS:
+            out["catalysts"].append(f"{form} {date}")
+        # 8-K item 5.03 = change to the articles (that is how a reverse split is filed); 3.03 = holders' rights
+        if f.startswith("8-K") and ("5.03" in (it or "")) and not out["rsplit"]:
+            out["rsplit"] = date
+        if f.startswith("6-K"):
+            has_6k = True
+    if not out["rsplit"] and has_6k:  # foreign issuers: no item codes, search the text instead
+        out["rsplit"] = rsplit_fulltext(cik, cut_rs)
+    return out
+
+
+def rsplit_fulltext(cik, since):
+    """SEC full-text search for a reverse split / ADS ratio change since `since`. Fails soft (None)."""
+    n_err = len(ERRORS)
+    d = _get("https://efts.sec.gov/LATEST/search-index",
+             headers={"User-Agent": config.SEC_USER_AGENT},
+             params={"q": '"reverse split" OR "reverse stock split" OR "ADS ratio" OR "ratio change"',
+                     "ciks": f"{cik:010d}", "dateRange": "custom", "startdt": since,
+                     "enddt": datetime.now(timezone.utc).date().isoformat()}, retries=0)
+    if d is None:
+        del ERRORS[n_err:]  # optional source: don't count its failures as scan errors
+        return None
+    try:
+        hits = (d.get("hits") or {}).get("hits") or []
+        dates = sorted((h.get("_source") or {}).get("file_date") for h in hits if (h.get("_source") or {}).get("file_date"))
+        return dates[-1] if dates else None
+    except Exception:
+        return None
+
+
+def dilution_filings(ticker, cache_path):
+    """Kept for compatibility: list of dilution filings in the lookback window, None if unknown."""
+    s = sec_filings(ticker, cache_path)
+    return None if s is None else s["dilution"]

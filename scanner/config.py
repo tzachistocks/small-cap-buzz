@@ -29,10 +29,28 @@ MIN_SMOOTHED_GROWTH = 2.0      # (now+2)/(base+2)
 MAX_MOVE_PCT = 15.0            # price vs previous close; above this = "already moved"
 MAX_MARKET_CAP_M = 500.0       # $M (small caps only)
 MIN_PRICE = 0.05
+MIN_MARKET_CAP_M = 3.0         # below this the data is usually wrong or the company is a shell/delisting case
+# "Already ran" over several days (daily closes up to yesterday). A forum run we can still catch has not
+# started yet; these block the alert like MAX_MOVE_PCT does for today's move.
+MAX_RUN_3D_PCT = 30.0
+MAX_RUN_10D_PCT = 60.0
+# Reverse split / ADS ratio change: a fresh one distorts price and volume (and usually precedes more dilution).
+RSPLIT_BLOCK_DAYS = 10         # blocked if the split was this recent
+RSPLIT_PENALTY_DAYS = 60       # -1 point and a warning up to this age
 DILUTION_LOOKBACK_DAYS = 30
 DILUTION_FORMS = ("S-1", "S-1/A", "S-3", "S-3/A", "F-1", "F-1/A", "F-3", "F-3/A",
                   "424B1", "424B2", "424B3", "424B4", "424B5", "424B7", "EFFECT")
 BLOCK_ON_DILUTION = True
+# Fresh company filings that forums tend to pick up (8-K/6-K news, activist 13D). +1 point.
+CATALYST_FORMS = ("8-K", "6-K", "SC 13D", "SC 13D/A")
+CATALYST_DAYS = 3
+
+# ---------- Forum-run signals (from our own snapshot history) ----------
+NOVELTY_DAYS = 14              # "new in the conversation": no day with 2+ mentions in this window before the last 24h
+NOVELTY_MIN_HISTORY_DAYS = 5   # only judge novelty once we have this much snapshot history
+RISING_DAYS = 3                # daily peak mentions rising this many days in a row
+ONE_AUTHOR_MIN_MENTIONS = 6    # reddit: this many mentions in 24h ...
+ONE_AUTHOR_MAX_AUTHORS = 2     # ... from this few authors = one person pushing it (-1)
 
 # ---------- Scoring ----------
 ALERT_MIN_SCORE = 6           # raised from 5 when volume/watchers/borrow/xueqiu points were added

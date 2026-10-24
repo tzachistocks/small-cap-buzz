@@ -45,6 +45,10 @@ def buzz_rows(snap, subs, history):
     tickers = set(snap["main"]) | set((subs.get("pennystocks") or {}).keys())
     three_h_ago = NOW - timedelta(hours=3)
     week_ago = NOW - timedelta(days=7)
+    novelty_from = NOW - timedelta(days=config.NOVELTY_DAYS)
+    hist_days = sorted({h["ts"][:10] for h in history})
+    long_history = bool(history) and datetime.fromisoformat(history[0]["ts"]) <= NOW - timedelta(days=config.NOVELTY_MIN_HISTORY_DAYS)
+    today = NOW.date().isoformat()
     for t in tickers:
         if not t or t in config.LARGE_CAPS:
             continue
@@ -55,7 +59,7 @@ def buzz_rows(snap, subs, history):
         m_now = r["mentions"]
         m_24 = r["mentions_24h_ago"]
         # history-based: value ~3h ago and 7-day baseline of the rolling-24h count
-        past3, base_vals = None, []
+        past3, base_vals, day_peak, old_max = None, [], {}, 0
         for h in history:
             ts = datetime.fromisoformat(h["ts"])
             mv = h["main"].get(t)
@@ -66,6 +70,16 @@ def buzz_rows(snap, subs, history):
                 past3 = v
             if week_ago <= ts <= NOW - timedelta(hours=24):
                 base_vals.append(v)
+            if novelty_from <= ts <= NOW - timedelta(hours=24):
+                old_max = max(old_max, v)
+            day_peak[h["ts"][:10]] = max(day_peak.get(h["ts"][:10], 0), v)
+        day_peak[today] = max(day_peak.get(today, 0), m_now)
+        days = (hist_days + [today]) if (not hist_days or hist_days[-1] != today) else hist_days
+        last_days = days[-config.RISING_DAYS:]
+        seq = [day_peak.get(d, 0) for d in last_days]
+        rising = (len(seq) == config.RISING_DAYS and all(a < b for a, b in zip(seq, seq[1:]))
+                  and seq[-1] >= config.PENNY_MIN_MENTIONS)
+        novel = long_history and old_max < 2
         baseline = statistics.median(base_vals) if len(base_vals) >= 6 else m_24
         spread = sorted(f for f, d in subs.items() if (d.get(t) or {}).get("mentions", 0) >= 1)
         p = (subs.get("pennystocks") or {}).get(t)
@@ -77,7 +91,8 @@ def buzz_rows(snap, subs, history):
         out[t] = {"ticker": t, "name": name, "m_now": m_now, "m_24h_ago": m_24, "m_3h_ago": past3,
                   "baseline7d": baseline, "vel3h": (m_now - past3) if past3 is not None else None,
                   "accel": round(smoothed(m_now, baseline), 2), "spread": spread,
-                  "gate": main_gate or penny_gate, "word": t in config.WORD_TICKERS}
+                  "gate": main_gate or penny_gate, "word": t in config.WORD_TICKERS,
+                  "rising": rising, "rise_seq": seq if rising else None, "novel": novel}
     return out
 
 
@@ -98,6 +113,12 @@ def score(b, rd, st_trend, st, fund, x=None):
         pts += 1; why.append(f"פיזור ב-{n_spread} פורומים")
     if rd and rd.get("authors6", 0) >= 4:
         pts += 1; why.append(f"{rd['authors6']} כותבים שונים ברדיט ב-6 שעות")
+    if b.get("rising"):
+        pts += 1; why.append("שיח עולה {} ימים ברציפות ({})".format(len(b["rise_seq"]), "→".join(map(str, b["rise_seq"]))))
+    if b.get("novel"):
+        pts += 1; why.append(f"חדשה בשיח (לא דוברה {config.NOVELTY_DAYS} יום)")
+    if rd and rd.get("m24", 0) >= config.ONE_AUTHOR_MIN_MENTIONS and rd.get("authors24", 99) <= config.ONE_AUTHOR_MAX_AUTHORS:
+        pts -= 1; why.append(f"⚠️ {rd['m24']} אזכורים ברדיט מ-{rd['authors24']} כותבים בלבד")
     if b["ticker"] in st_trend:
         pts += 1; why.append("בטרנד של סטוקטוויטס")
     if st and st.get("msgs_6h", 0) >= 10:
@@ -129,6 +150,12 @@ def score(b, rd, st_trend, st, fund, x=None):
     yt = x.get("youtube")
     if yt and yt.get("channels", 0) >= 2:
         pts += 1; why.append(f"{yt['videos']} סרטוני YouTube מ-{yt['channels']} ערוצים ב-12ש")
+    sec = x.get("sec") or {}
+    if sec.get("catalysts"):
+        pts += 1; why.append("דיווח טרי ב-SEC: " + ", ".join(sec["catalysts"][:2]))
+    rs_age = x.get("rsplit_age")
+    if rs_age is not None and rs_age <= config.RSPLIT_PENALTY_DAYS:
+        pts -= 1; why.append(f"⚠️ איחוד מניות / שינוי יחס ADS לפני {rs_age} ימים")
     if x.get("promoted"):
         pts -= 3; why.append("⚠️ קידום בתשלום (stockpromoters)")
     if b["word"]:
@@ -153,7 +180,11 @@ def send_telegram(text):
 
 
 def track_record(alerts):
-    done = [a for a in alerts if a.get("outcome", {}).get("days", 0) >= 1]
+    done, seen = [], set()
+    for a in alerts:  # one entry per ticker per day (a re-alert is not a new trade)
+        k = (a["ticker"], a["ts"][:10])
+        if a.get("outcome", {}).get("days", 0) >= 1 and k not in seen:
+            seen.add(k); done.append(a)
     if not done:
         return "עדיין אין היסטוריה של התראות"
     hit30 = sum(1 for a in done if (a["outcome"].get("max_close_pct") or -99) >= 30)
@@ -287,13 +318,27 @@ def run():
             block.append("שווי לא ידוע")
         elif mc > config.MAX_MARKET_CAP_M:
             block.append(f"שווי ${mc:.0f}M")
+        elif mc < config.MIN_MARKET_CAP_M:
+            block.append(f"שווי ${mc:.1f}M (נמוך מדי או נתון שגוי)")
+        rf = ((price or {}).get("readiness") or {}).get("f") or {}
+        if rf.get("ret_3d") is not None and rf["ret_3d"] * 100 >= config.MAX_RUN_3D_PCT:
+            block.append(f"כבר רצה {rf['ret_3d']*100:+.0f}% ב-3 ימים")
+        elif rf.get("ret_10d") is not None and rf["ret_10d"] * 100 >= config.MAX_RUN_10D_PCT:
+            block.append(f"כבר רצה {rf['ret_10d']*100:+.0f}% ב-10 ימים")
         x = {"price": price, "xueqiu": xq.get(t), "youtube": yt.get(t), "promoted": t in promoted}
+        rs_ages = [int(rf["days_since_rsplit"])] if rf.get("days_since_rsplit") is not None else []
         st, prof = None, None
         if not block:  # extra calls only for names that can still alert
             st = sources.stocktwits_stream(t)
             x["watch_added"], x["watch_pct"] = extras.watchers_growth(watch_hist, t, (st or {}).get("watchlist"))
             x["borrow"] = extras.borrow(t, borrow_hist)
             prof = extras.sec_profile(t, profiles, store.path("cik.json"))
+            x["sec"] = sources.sec_filings(t, store.path("cik.json"))
+            if x["sec"] and x["sec"].get("rsplit"):
+                rs_ages.append((NOW.date() - datetime.fromisoformat(x["sec"]["rsplit"]).date()).days)
+        x["rsplit_age"] = min(rs_ages) if rs_ages else None
+        if x["rsplit_age"] is not None and x["rsplit_age"] <= config.RSPLIT_BLOCK_DAYS:
+            block.append(f"איחוד מניות טרי ({x['rsplit_age']} ימים) – חשד לעיוות")
         pts, why = score(b, rd, st_trend, st, fund, x)
         c = dict(b, price=price, fund=fund, stocktwits=st, reddit=rd or {}, score=pts, why=why,
                  borrow=x.get("borrow"), profile=prof)
@@ -301,11 +346,11 @@ def run():
             c["why"] = why = why + [f"חברה מ{prof['asia']}"]
         if x["promoted"] and config.BLOCK_ON_PROMOTION:
             block.append("קידום בתשלום")
-        if not block and pts >= config.ALERT_MIN_SCORE - 1:
-            dil = sources.dilution_filings(t, store.path("cik.json"))
-            c["dilution"] = dil
-            if dil and config.BLOCK_ON_DILUTION:
-                block.append("דיווח הנפקה: " + ", ".join(dil[:3]))
+        sec = x.get("sec")
+        c["dilution"] = None if sec is None else sec["dilution"]
+        c["sec"] = sec
+        if sec and sec["dilution"] and config.BLOCK_ON_DILUTION:
+            block.append("דיווח הנפקה: " + ", ".join(sec["dilution"][:3]))
         c["blocked"] = block
         report.append(c)
 
@@ -322,7 +367,9 @@ def run():
                  "score": pts, "why": why, "price": price, "fund": fund, "m_now": b["m_now"],
                  "m_24h_ago": b["m_24h_ago"], "spread": b["spread"], "reddit": rd or {},
                  "stocktwits": st, "borrow": x.get("borrow"), "xueqiu": x.get("xueqiu"),
-                 "youtube": x.get("youtube"), "profile": prof, "telegram_sent": sent, "outcome": {}}
+                 "youtube": x.get("youtube"), "profile": prof, "sec": x.get("sec"),
+                 "forum": {"rising": b.get("rise_seq"), "novel": b.get("novel")},
+                 "telegram_sent": sent, "outcome": {}}
         alerts.append(alert)
         state[t] = {"ts": alert["ts"], "score": pts}
 
