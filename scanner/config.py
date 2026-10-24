@@ -45,6 +45,20 @@ BLOCK_ON_DILUTION = True
 CATALYST_FORMS = ("8-K", "6-K", "SC 13D", "SC 13D/A")
 CATALYST_DAYS = 3
 
+# ---------- Press releases (scanner/news.py) ----------
+PR_HOURS = 24                  # news younger than this counts
+PR_FEEDS = [                   # public RSS feeds; any that fail are skipped (status shown in the summary)
+    ("GlobeNewswire", "https://www.globenewswire.com/RssFeed/orgclass/1/feedTitle/GlobeNewswire%20-%20News%20about%20Public%20Companies"),
+    ("PR Newswire", "https://www.prnewswire.com/rss/news-releases-list.rss"),
+    ("Business Wire", "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFpRWQ=="),
+    ("ACCESSWIRE", "https://www.accesswire.com/users/newswire/rss.ashx"),
+    ("Newsfile", "https://feeds.newsfilecorp.com/feed/category/all"),
+]
+BLOCK_ON_OFFERING_PR = True
+# Deal size vs company size for a "strong" press release with a $ amount in the headline:
+PR_BIG_RATIO = 0.10            # amount >= 10% of market cap: +1 extra point
+PR_SMALL_RATIO = 0.02          # amount < 2% of market cap: the release counts as "weak" (no point)    # a press release about an offering / registered direct / PIPE blocks the alert
+
 # ---------- Forum-run signals (from our own snapshot history) ----------
 NOVELTY_DAYS = 14              # "new in the conversation": no day with 2+ mentions in this window before the last 24h
 NOVELTY_MIN_HISTORY_DAYS = 5   # only judge novelty once we have this much snapshot history

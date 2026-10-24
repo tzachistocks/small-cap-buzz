@@ -10,7 +10,9 @@ from . import config, sources
 
 # why-text fragment -> short tag used for statistics (order matters: first match wins per reason)
 TAGS = [
-    ("כותבים בלבד", "one_author"), ("שיח עולה", "rising"), ("חדשה בשיח", "novel"), ("דיווח טרי", "sec_catalyst"),
+    ("כותבים בלבד", "one_author"), ("שיח עולה", "rising"), ("חדשה בשיח", "novel"),
+    ("עסקה גדולה ביחס לשווי", "pr_big"), ("PR חזק", "pr_strong"), ("PR שלילי", "pr_negative"), ("PR רגיל", "pr_weak"),
+    ("SEC חזק", "sec_strong"), ("SEC שלילי", "sec_negative"), ("SEC רגיל", "sec_weak"),
     ("האצה", "accel"), ("אזכורים ב-3 שעות", "vel3h"), ("פיזור", "spread"), ("כותבים שונים", "authors"),
     ("בטרנד", "st_trend"), ("הודעות בסטוקטוויטס", "st_msgs"), ("עוקבים", "watchers"), ("שורט ", "short"),
     ("פלואט", "low_float"), ("נפח פי", "rvol"), ("השאלה מתייקרת", "borrow_trend"), ("עמלת השאלה", "borrow_fee"),
@@ -18,7 +20,8 @@ TAGS = [
     ("חברה מ", "asia"),
 ]
 TAG_HE = {
-    "rising": "שיח עולה כמה ימים", "novel": "חדשה בשיח", "sec_catalyst": "דיווח טרי ב-SEC", "accel": "האצה מול הבסיס",
+    "rising": "שיח עולה כמה ימים", "novel": "חדשה בשיח", "pr_strong": "PR חזק", "pr_big": "עסקה ≥10% מהשווי", "pr_weak": "PR רגיל", "pr_negative": "PR שלילי",
+    "sec_strong": "SEC חזק (8-K 1.01/2.01, 13D)", "sec_weak": "SEC רגיל", "sec_negative": "SEC שלילי", "accel": "האצה מול הבסיס",
     "vel3h": "קצב ב-3 שעות", "spread": "פיזור בין פורומים", "authors": "כותבים שונים ברדיט", "st_trend": "טרנד בסטוקטוויטס",
     "st_msgs": "הודעות בסטוקטוויטס", "watchers": "עוקבים חדשים בסטוקטוויטס", "short": "שורט 20%+", "low_float": "פלואט קטן",
     "rvol": "נפח חריג", "borrow_trend": "השאלה מתייקרת", "borrow_fee": "עמלת השאלה גבוהה", "xueqiu": "חמה בסין",

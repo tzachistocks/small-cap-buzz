@@ -482,7 +482,8 @@ def sec_filings(ticker, cache_path):
     cut_rs = (today - timedelta(days=config.RSPLIT_PENALTY_DAYS)).isoformat()
     forms, dates = rec.get("form", []), rec.get("filingDate", [])
     items = rec.get("items") or [""] * len(forms)
-    out = {"dilution": [], "catalysts": [], "rsplit": None, "cik": cik}
+    out = {"dilution": [], "catalysts": [], "filings": [], "rsplit": None, "cik": cik}
+    from .news import classify_filing
     has_6k = False
     for form, date, it in zip(forms, dates, items):
         if date < cut_rs:
@@ -492,6 +493,8 @@ def sec_filings(ticker, cache_path):
             out["dilution"].append(f"{form} {date}")
         if date >= cut_cat and f in config.CATALYST_FORMS:
             out["catalysts"].append(f"{form} {date}")
+            cls, label = classify_filing(form, it)
+            out["filings"].append({"class": cls, "label": label, "date": date})
         # 8-K item 5.03 = change to the articles (that is how a reverse split is filed); 3.03 = holders' rights
         if f.startswith("8-K") and ("5.03" in (it or "")) and not out["rsplit"]:
             out["rsplit"] = date

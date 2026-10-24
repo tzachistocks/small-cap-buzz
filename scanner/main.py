@@ -6,7 +6,7 @@ from datetime import datetime, timezone, timedelta
 
 import requests
 
-from . import config, sources, extras, review
+from . import config, sources, extras, review, news
 from .storage import Store
 
 NOW = datetime.now(timezone.utc)
@@ -152,8 +152,29 @@ def score(b, rd, st_trend, st, fund, x=None):
     if yt and yt.get("channels", 0) >= 2:
         pts += 1; why.append(f"{yt['videos']} סרטוני YouTube מ-{yt['channels']} ערוצים ב-12ש")
     sec = x.get("sec") or {}
-    if sec.get("catalysts"):
-        pts += 1; why.append("דיווח טרי ב-SEC: " + ", ".join(sec["catalysts"][:2]))
+    fl = sec.get("filings") or []
+    best = (next((f for f in fl if f["class"] == "negative"), None) or next((f for f in fl if f["class"] == "strong"), None)
+            or (fl[0] if fl else None))
+    if best and best["class"] == "strong":
+        pts += 1; why.append(f"SEC חזק: {best['label']} ({best['date']})")
+    elif best and best["class"] == "negative":
+        pts -= 1; why.append(f"⚠️ SEC שלילי: {best['label']} ({best['date']})")
+    elif best:
+        why.append(f"SEC רגיל: {best['label']} ({best['date']})")
+    nw = x.get("news")
+    mc = (fund or {}).get("market_cap_m")
+    ratio = (nw["amount_m"] / mc) if (nw and nw.get("amount_m") and mc) else None
+    size_txt = f" | ${nw['amount_m']:,.1f}M ≈ {ratio*100:.0f}% מהשווי" if ratio is not None else ""
+    if nw and nw["class"] == "strong" and ratio is not None and ratio < config.PR_SMALL_RATIO:
+        why.append(f"PR רגיל – סכום זניח ({news.et_time(nw['ts'])}): {nw['title'][:60]}{size_txt}")
+    elif nw and nw["class"] == "strong":
+        pts += 1; why.append(f"PR חזק ({news.et_time(nw['ts'])}): {nw['title'][:70]}{size_txt}")
+        if ratio is not None and ratio >= config.PR_BIG_RATIO:
+            pts += 1; why.append(f"עסקה גדולה ביחס לשווי ({ratio*100:.0f}%)")
+    elif nw and nw["class"] == "negative":
+        pts -= 2; why.append(f"⚠️ PR שלילי ({news.et_time(nw['ts'])}): {nw['title'][:70]}{size_txt}")
+    elif nw and nw["class"] == "weak":
+        why.append(f"PR רגיל ({news.et_time(nw['ts'])}): {nw['title'][:70]}")
     rs_age = x.get("rsplit_age")
     if rs_age is not None and rs_age <= config.RSPLIT_PENALTY_DAYS:
         pts -= 1; why.append(f"⚠️ איחוד מניות / שינוי יחס ADS לפני {rs_age} ימים")
@@ -240,7 +261,7 @@ def urgent_check(c, b, x):
         fuel.append(f"שורט {f['short_float_pct']:.0f}%")
     clean = (not x.get("promoted") and not b.get("word") and c.get("dilution") == []
              and (x.get("rsplit_age") is None or x["rsplit_age"] > config.RSPLIT_PENALTY_DAYS)
-             and not any("כותבים בלבד" in w for w in c.get("why") or []))
+             and not any("כותבים בלבד" in w or "שלילי" in w for w in c.get("why") or []))
     if forum and fuel and clean:
         return True, forum + fuel
     return False, []
@@ -323,6 +344,7 @@ def run():
     xq = extras.xueqiu_hot_us()
     promoted = extras.promoted_tickers(known) if known else set()
     yt = extras.youtube_mentions(known) if known else {}
+    wire_map = news.wire_news(store, known) if known else {}
     watch_hist = store.load_json("st_watch.json", {})
     for t, v in st_trend.items():  # build watcher history for trending names at no extra cost
         if v.get("watchlist_count"):
@@ -400,6 +422,9 @@ def run():
             x["borrow"] = extras.borrow(t, borrow_hist)
             prof = extras.sec_profile(t, profiles, store.path("cik.json"))
             x["sec"] = sources.sec_filings(t, store.path("cik.json"))
+            x["news"] = news.news_signal(t, wire_map, NOW)
+            if x["news"] and x["news"].get("offering") and config.BLOCK_ON_OFFERING_PR:
+                block.append("PR על הנפקה: " + x["news"]["title"][:60])
             if x["sec"] and x["sec"].get("rsplit"):
                 rs_ages.append((NOW.date() - datetime.fromisoformat(x["sec"]["rsplit"]).date()).days)
         x["rsplit_age"] = min(rs_ages) if rs_ages else None
@@ -436,7 +461,7 @@ def run():
                  "stocktwits": st, "borrow": x.get("borrow"), "xueqiu": x.get("xueqiu"),
                  "youtube": x.get("youtube"), "profile": prof, "sec": x.get("sec"),
                  "forum": {"rising": b.get("rise_seq"), "novel": b.get("novel")},
-                 "invalidation": review.invalidation_level(price),
+                 "invalidation": review.invalidation_level(price), "news": x.get("news"),
                  "urgent": c["urgent"], "urgent_why": c["urgent_why"],
                  "telegram_sent": sent, "outcome": {}}
         alerts.append(alert)
@@ -475,6 +500,8 @@ def write_summary(report, alerts, rd_ok, snap, subs, record, skipped_large=()):
              f"Xueqiu (סין): {extras.STATUS.get('xueqiu') or str(len(EXTRA_STATUS.get('xq', {}))) + ' מניות חמות'} | "
              f"קידום בתשלום: {extras.STATUS.get('promoters') or str(len(EXTRA_STATUS.get('promoted', ()))) + ' מניות'} | "
              f"השאלות IBKR: {extras.STATUS.get('ibkr', 'לא נבדק')} | YouTube: {'פעיל' if config.YOUTUBE_API_KEY else 'לא מוגדר'}",
+             f"הודעות לעיתונות: {news.STATUS.get('wires', 'לא נבדק')} | Yahoo חדשות: "
+             f"{news.STATUS.get('yahoo_ok', 0)} הצליחו, {news.STATUS.get('yahoo_fail', 0)} נכשלו",
              f"שגיאות בהרצה: {len(sources.ERRORS)}", "", f"**{record}**", "",
              "| טיקר | ציון | מוכנות | אזכורים 24ש | מחיר | תזוזה | שווי | שורט | סיבות | חסימה |",
              "|---|---|---|---|---|---|---|---|---|---|"]
