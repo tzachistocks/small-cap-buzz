@@ -333,6 +333,20 @@ def _readiness(res):
         return None
 
 
+def quick_price(ticker):
+    """Latest price incl. pre/post market in one request (for follow-ups)."""
+    d = _get(f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}",
+             params={"range": "1d", "interval": "5m", "includePrePost": "true"}, retries=1)
+    try:
+        res = d["chart"]["result"][0]
+        q = (res.get("indicators") or {}).get("quote") or [{}]
+        closes = [c for c in (q[0] or {}).get("close") or [] if c is not None]
+        last = closes[-1] if closes else res["meta"].get("regularMarketPrice")
+        return {"price": round(float(last), 4)} if last else None
+    except Exception:
+        return None
+
+
 def daily_bars(ticker, range_="1mo"):
     d = _get(f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}",
              params={"range": range_, "interval": "1d"})

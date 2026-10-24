@@ -6,11 +6,12 @@ from datetime import datetime, timezone, timedelta
 
 import requests
 
-from . import config, sources, extras
+from . import config, sources, extras, review
 from .storage import Store
 
 NOW = datetime.now(timezone.utc)
 EXTRA_STATUS = {}
+REVIEW_STATUS = {}
 
 
 def is_etf(name):
@@ -217,7 +218,10 @@ def format_alert(c, record):
         lines.append(c["reddit"]["sample"])
     if c.get("dilution") is None:
         lines.append("⚠️ לא נבדקו דיווחי הנפקה (אין CIK)")
-    lines.append(f"ביטול: ירידה מתחת ל-{p['prev_close']} (סגירה קודמת)")
+    inv = review.invalidation_level(p)
+    lines.append(f"ביטול: ירידה מתחת ל-{inv}" + (" (סגירה קודמת)" if inv == round(p["prev_close"], 4) else
+                                                 f" ({config.INVALIDATION_FALLBACK_PCT}% מתחת למחיר ההתראה)"))
+    lines.append("אשלח הודעת המשך ב-+30%, ב-+60% או בירידה מתחת לרמת הביטול.")
     lines.append(record)
     lines.append("מידע לסריקה, לא המלצת השקעה.")
     return "\n".join(lines)
@@ -369,10 +373,22 @@ def run():
                  "stocktwits": st, "borrow": x.get("borrow"), "xueqiu": x.get("xueqiu"),
                  "youtube": x.get("youtube"), "profile": prof, "sec": x.get("sec"),
                  "forum": {"rising": b.get("rise_seq"), "novel": b.get("novel")},
+                 "invalidation": review.invalidation_level(price),
                  "telegram_sent": sent, "outcome": {}}
         alerts.append(alert)
         state[t] = {"ts": alert["ts"], "score": pts}
 
+    run_ts = NOW.isoformat(timespec="minutes")
+    alerted_now = {a["ticker"] for a in alerts if a["ts"] == run_ts}
+    followed, weekly = [], None
+    try:
+        cand_log = review.log_candidates(store, report, NOW, alerted_now)
+        review.evaluate_candidates(store, cand_log, NOW)
+        followed = review.follow_up(alerts, NOW, send_telegram)
+        weekly = review.maybe_send_weekly(state, cand_log, alerts, NOW, send_telegram)
+    except Exception as e:  # the learning loop must never break the scan
+        sources.ERRORS.append(f"review: {type(e).__name__}: {e}")
+    REVIEW_STATUS.update(followed=followed, weekly=bool(weekly))
     store.save_json("caps.json", caps)
     store.save_json("st_watch.json", watch_hist)
     store.save_json("profiles.json", profiles)
@@ -409,6 +425,10 @@ def write_summary(report, alerts, rd_ok, snap, subs, record, skipped_large=()):
         lines += ["", f"דולגו (שווי גבוה, ממטמון): {', '.join(skipped_large)}"]
     new = [a for a in alerts if a["ts"] == NOW.isoformat(timespec="minutes")]
     lines += ["", f"התראות בהרצה הזו: {', '.join(a['ticker'] for a in new) or 'אין'}"]
+    if REVIEW_STATUS.get("followed"):
+        lines.append(f"הודעות המשך: {', '.join(REVIEW_STATUS['followed'])}")
+    if REVIEW_STATUS.get("weekly"):
+        lines.append("נשלח הדוח השבועי")
     if sources.ERRORS:
         lines += ["", "<details><summary>שגיאות</summary>", ""] + [f"- {e}" for e in sources.ERRORS[-30:]] + ["</details>"]
     md = "\n".join(lines)

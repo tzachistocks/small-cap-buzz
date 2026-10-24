@@ -58,6 +58,18 @@ REALERT_HOURS = 24
 REALERT_SCORE_JUMP = 2
 MAX_CANDIDATES_TO_ENRICH = 20  # limit network calls per run
 
+# ---------- Learning loop (scanner/review.py) ----------
+CANDLOG_MIN_SCORE = 3          # every candidate with this score or more is logged with its outcome after 5 days
+CANDLOG_KEEP_DAYS = 90
+CANDLOG_EVAL_PER_RUN = 40      # outcome checks per run (each is one Yahoo request)
+WEEKLY_HOUR_UTC = 21           # weekly report from Friday 21:00 UTC (after the US close), once per week
+WEEKLY_MIN_N = 8               # a signal needs this many measured cases to appear in the weekly report
+
+# ---------- Follow-ups on alerts ----------
+FOLLOW_DAYS = 8                # follow an alert this many calendar days (~5 trading days)
+FOLLOW_UP_LEVELS = (30, 60)    # % above the alert price that trigger a message (each once)
+INVALIDATION_FALLBACK_PCT = 15 # if the alert price was already below the previous close: stop = alert price -15%
+
 # ---------- Reddit (optional, needs secrets) ----------
 REDDIT_SUBS = ["pennystocks", "Shortsqueeze", "smallstreetbets", "RobinHoodPennyStocks",
                "wallstreetbets", "stocks", "Daytrading", "WallStreetbetsELITE"]
