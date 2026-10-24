@@ -1,8 +1,8 @@
 {
- "ts": "2026-10-23T23:42+00:00",
+ "ts": "2026-10-24T04:34+00:00",
  "reddit_ok": true,
  "stocktwits_trending": 30,
- "apewisdom_main": 298,
+ "apewisdom_main": 291,
  "apewisdom_subs": [
   "4chan",
   "Daytrading",
@@ -13,6 +13,6 @@
   "stocks",
   "wallstreetbets"
  ],
- "candidates": 2,
+ "candidates": 3,
  "errors": []
 }

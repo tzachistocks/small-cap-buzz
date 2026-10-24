@@ -40,5 +40,12 @@
   "asia": null,
   "sic": "Services-Prepackaged Software",
   "ts": "2026-10-23T07:07+00:00"
+ },
+ "AIXI": {
+  "country": "F4",
+  "inc": "E9",
+  "asia": "סין",
+  "sic": "Services-Prepackaged Software",
+  "ts": "2026-10-24T04:35+00:00"
  }
 }
