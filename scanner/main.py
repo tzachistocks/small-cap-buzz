@@ -165,18 +165,39 @@ def score(b, rd, st_trend, st, fund, x=None):
 
 
 # ---------------- 3. alerts ----------------
-def send_telegram(text):
-    if not (config.TELEGRAM_BOT_TOKEN and config.TELEGRAM_CHAT_ID):
+TG_LOG = []  # (ok, first line, chat description) for every message this run
+
+
+def send_telegram(text, urgent=False):
+    """Every message goes to the main chat; urgent ones also go to the (unmuted) urgent chat if it is set."""
+    if not config.TELEGRAM_BOT_TOKEN:
         return False
+    ok = _tg_post(config.TELEGRAM_CHAT_ID, text) if config.TELEGRAM_CHAT_ID else False
+    if not config.TELEGRAM_CHAT_ID:
+        sources.ERRORS.append("Telegram: חסר ה-secret TELEGRAM_CHAT_ID")
+    if urgent and config.TELEGRAM_URGENT_CHAT_ID:
+        ok = _tg_post(config.TELEGRAM_URGENT_CHAT_ID, text) or ok
+    return ok
+
+
+def _tg_post(chat_id, text):
+    first = (text or "").split("\n", 1)[0][:60]
     try:
         r = requests.post(f"https://api.telegram.org/bot{config.TELEGRAM_BOT_TOKEN}/sendMessage",
-                          json={"chat_id": config.TELEGRAM_CHAT_ID, "text": text,
+                          json={"chat_id": chat_id, "text": text,
                                 "disable_web_page_preview": True}, timeout=20)
         if r.status_code != 200:
             sources.ERRORS.append(f"Telegram HTTP {r.status_code}: {r.text[:120]}")
-        return r.status_code == 200
+            TG_LOG.append((False, first, ""))
+            return False
+        chat = ((r.json() or {}).get("result") or {}).get("chat") or {}
+        who = " ".join(str(x) for x in (chat.get("type"), chat.get("title") or chat.get("username")
+                                         or chat.get("first_name"), chat.get("id")) if x)
+        TG_LOG.append((True, first, who))
+        return True
     except Exception as e:
         sources.ERRORS.append(f"Telegram error: {e}")
+        TG_LOG.append((False, first, ""))
         return False
 
 
@@ -193,9 +214,47 @@ def track_record(alerts):
     return f"עד כה: {len(done)} התראות, {hit30} עלו 30%+ בסגירה ממחיר ההתראה, חציון {med:+.1f}%"
 
 
+def urgent_check(c, b, x):
+    """Strong candidate: high score, still early, a forum-run signal, fuel, and nothing suspicious.
+    Returns (is_urgent, reasons)."""
+    p, f, br = c.get("price") or {}, c.get("fund") or {}, x.get("borrow") or {}
+    if c.get("blocked") or c["score"] < config.URGENT_MIN_SCORE:
+        return False, []
+    if (p.get("move_pct") or 0) > config.URGENT_MAX_MOVE_PCT:
+        return False, []
+    rd = c.get("reddit") or {}
+    n_spread = len(b.get("spread") or []) + len(rd.get("subs6") or [])
+    forum = []
+    if b.get("rising"):
+        forum.append("השיח עולה כמה ימים")
+    if b.get("novel"):
+        forum.append("חדשה בשיח")
+    if n_spread >= 3:
+        forum.append(f"מתפשטת ב-{n_spread} פורומים")
+    fuel = []
+    if f.get("float_m") and f["float_m"] < config.URGENT_MAX_FLOAT_M:
+        fuel.append(f"פלואט {f['float_m']:.1f}M")
+    if (br.get("fee") or 0) >= config.URGENT_MIN_BORROW_FEE:
+        fuel.append(f"עמלת השאלה {br['fee']:.0f}%")
+    if (f.get("short_float_pct") or 0) >= config.URGENT_MIN_SHORT_PCT:
+        fuel.append(f"שורט {f['short_float_pct']:.0f}%")
+    clean = (not x.get("promoted") and not b.get("word") and c.get("dilution") == []
+             and (x.get("rsplit_age") is None or x["rsplit_age"] > config.RSPLIT_PENALTY_DAYS)
+             and not any("כותבים בלבד" in w for w in c.get("why") or []))
+    if forum and fuel and clean:
+        return True, forum + fuel
+    return False, []
+
+
 def format_alert(c, record):
     p = c["price"]
-    lines = [f"🔔 באז מתהווה: ${c['ticker']} (ציון {c['score']})",
+    head = (f"🔥 מועמדת חזקה: ${c['ticker']} (ציון {c['score']})" if c.get("urgent")
+            else f"🔔 באז מתהווה: ${c['ticker']} (ציון {c['score']})")
+    lines = [head]
+    if c.get("urgent"):
+        lines.append("למה חזקה: " + "; ".join(c["urgent_why"]) + f" | עלתה רק {p['move_pct']:+.1f}% | אין הנפקה ב-30 יום")
+        lines.append("(לפי הכללים שלנו, לא ודאות. הקבוצה הזו נמדדת בנפרד בדוח השבועי.)")
+    lines += [
              f"מחיר {p['price']} ({p['move_pct']:+.1f}% מול סגירה {p['prev_close']})",
              f"אזכורים 24ש: {c['m_24h_ago']} → {c['m_now']}" + (f" | 3ש: {c['m_3h_ago']} → {c['m_now']}" if c.get("m_3h_ago") is not None else "")]
     f = c.get("fund") or {}
@@ -294,6 +353,9 @@ def run():
     if config.TELEGRAM_BOT_TOKEN and not state.get("_telegram_ok"):
         if send_telegram("✅ small-cap-buzz מחובר. מכאן יגיעו התראות על באז מתהווה במניות קטנות."):
             state["_telegram_ok"] = NOW.isoformat(timespec="minutes")
+    if config.TELEGRAM_BOT_TOKEN and config.TELEGRAM_URGENT_CHAT_ID and not state.get("_urgent_ok"):
+        if _tg_post(config.TELEGRAM_URGENT_CHAT_ID, "✅ ערוץ המועמדות החזקות 🔥 מחובר. לכאן יגיעו רק התראות חזקות והודעות ההמשך שלהן."):
+            state["_urgent_ok"] = NOW.isoformat(timespec="minutes")
     alerts = store.load_alerts()
     # cleanup from the first run, when market cap was missing and large caps slipped through
     bad = {a["ticker"] for a in alerts if not (a.get("fund") or {}).get("market_cap_m")}
@@ -356,6 +418,7 @@ def run():
         if sec and sec["dilution"] and config.BLOCK_ON_DILUTION:
             block.append("דיווח הנפקה: " + ", ".join(sec["dilution"][:3]))
         c["blocked"] = block
+        c["urgent"], c["urgent_why"] = urgent_check(c, b, x)
         report.append(c)
 
         if block or pts < config.ALERT_MIN_SCORE:
@@ -366,7 +429,7 @@ def run():
             if age_h < config.REALERT_HOURS and pts < last["score"] + config.REALERT_SCORE_JUMP:
                 continue
         text = format_alert(c, record)
-        sent = send_telegram(text)
+        sent = send_telegram(text, urgent=c["urgent"])
         alert = {"id": f"{NOW:%Y%m%d%H%M}-{t}", "ts": NOW.isoformat(timespec="minutes"), "ticker": t,
                  "score": pts, "why": why, "price": price, "fund": fund, "m_now": b["m_now"],
                  "m_24h_ago": b["m_24h_ago"], "spread": b["spread"], "reddit": rd or {},
@@ -374,6 +437,7 @@ def run():
                  "youtube": x.get("youtube"), "profile": prof, "sec": x.get("sec"),
                  "forum": {"rising": b.get("rise_seq"), "novel": b.get("novel")},
                  "invalidation": review.invalidation_level(price),
+                 "urgent": c["urgent"], "urgent_why": c["urgent_why"],
                  "telegram_sent": sent, "outcome": {}}
         alerts.append(alert)
         state[t] = {"ts": alert["ts"], "score": pts}
@@ -384,11 +448,11 @@ def run():
     try:
         cand_log = review.log_candidates(store, report, NOW, alerted_now)
         review.evaluate_candidates(store, cand_log, NOW)
-        followed = review.follow_up(alerts, NOW, send_telegram)
+        followed = review.follow_up(alerts, NOW, send_telegram)  # urgent alerts' follow-ups go to the urgent chat too
         weekly = review.maybe_send_weekly(state, cand_log, alerts, NOW, send_telegram)
     except Exception as e:  # the learning loop must never break the scan
         sources.ERRORS.append(f"review: {type(e).__name__}: {e}")
-    REVIEW_STATUS.update(followed=followed, weekly=bool(weekly))
+    REVIEW_STATUS.update(followed=followed, weekly=weekly)
     store.save_json("caps.json", caps)
     store.save_json("st_watch.json", watch_hist)
     store.save_json("profiles.json", profiles)
@@ -407,7 +471,7 @@ def run():
 def write_summary(report, alerts, rd_ok, snap, subs, record, skipped_large=()):
     lines = [f"## סריקת באז {NOW:%Y-%m-%d %H:%M} UTC", "",
              f"ApeWisdom: {len(snap['main'])} טיקרים, פורומים: {', '.join(sorted(subs)) or 'אין'} | "
-             f"Reddit: {dict(api='API פעיל', rss='RSS פעיל (פוסטים בלבד)', failed='נחסם', off='כבוי').get(sources.REDDIT_MODE, sources.REDDIT_MODE)} | Telegram: {'פעיל' if config.TELEGRAM_BOT_TOKEN else 'לא מוגדר'}",
+             f"Reddit: {dict(api='API פעיל', rss='RSS פעיל (פוסטים בלבד)', failed='נחסם', off='כבוי').get(sources.REDDIT_MODE, sources.REDDIT_MODE)} | Telegram: {'פעיל' if config.TELEGRAM_BOT_TOKEN and config.TELEGRAM_CHAT_ID else ('חסר CHAT_ID' if config.TELEGRAM_BOT_TOKEN else 'לא מוגדר')}",
              f"Xueqiu (סין): {extras.STATUS.get('xueqiu') or str(len(EXTRA_STATUS.get('xq', {}))) + ' מניות חמות'} | "
              f"קידום בתשלום: {extras.STATUS.get('promoters') or str(len(EXTRA_STATUS.get('promoted', ()))) + ' מניות'} | "
              f"השאלות IBKR: {extras.STATUS.get('ibkr', 'לא נבדק')} | YouTube: {'פעיל' if config.YOUTUBE_API_KEY else 'לא מוגדר'}",
@@ -418,7 +482,7 @@ def write_summary(report, alerts, rd_ok, snap, subs, record, skipped_large=()):
         p, f = c.get("price") or {}, c.get("fund") or {}
         rdy = (p.get("readiness") or {})
         rtxt = (f"{rdy['points']} ({', '.join(rdy['why'][:3]) or 'אין סימנים'})" if rdy else "?")
-        lines.append(f"| {c['ticker']} | {c['score']} | {rtxt} | {c['m_24h_ago']}→{c['m_now']} | {p.get('price','?')} | "
+        lines.append(f"| {'🔥 ' if c.get('urgent') else ''}{c['ticker']} | {c['score']} | {rtxt} | {c['m_24h_ago']}→{c['m_now']} | {p.get('price','?')} | "
                      f"{p.get('move_pct','?')}% | {round(f['market_cap_m']) if f.get('market_cap_m') else '?'} | {f.get('short_float_pct') or '?'} | "
                      f"{'; '.join(c['why'])} | {'; '.join(c['blocked']) or '✅'} |")
     if skipped_large:
@@ -428,7 +492,11 @@ def write_summary(report, alerts, rd_ok, snap, subs, record, skipped_large=()):
     if REVIEW_STATUS.get("followed"):
         lines.append(f"הודעות המשך: {', '.join(REVIEW_STATUS['followed'])}")
     if REVIEW_STATUS.get("weekly"):
-        lines.append("נשלח הדוח השבועי")
+        lines.append("הדוח השבועי: " + ("נשלח" if REVIEW_STATUS["weekly"] == "sent" else "השליחה נכשלה"))
+    if TG_LOG:
+        ok = [x for x in TG_LOG if x[0]]
+        lines.append(f"טלגרם: {len(ok)} הודעות נשלחו, {len(TG_LOG) - len(ok)} נכשלו"
+                     + (f" | נשלחו לצ'אט: {ok[0][2]}" if ok else ""))
     if sources.ERRORS:
         lines += ["", "<details><summary>שגיאות</summary>", ""] + [f"- {e}" for e in sources.ERRORS[-30:]] + ["</details>"]
     md = "\n".join(lines)

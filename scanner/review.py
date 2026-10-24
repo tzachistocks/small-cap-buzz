@@ -61,10 +61,12 @@ def log_candidates(store, report, now, alerted):
             log[k] = {"ts": now.isoformat(timespec="minutes"), "ticker": c["ticker"], "score": c["score"],
                       "max_score": c["score"], "price": p["price"], "move_pct": p.get("move_pct"),
                       "cap_m": (c.get("fund") or {}).get("market_cap_m"), "blocked": c.get("blocked") or [],
-                      "tags": tags_of(c.get("why")), "alerted": c["ticker"] in alerted, "outcome": {}}
+                      "tags": tags_of(c.get("why")), "alerted": c["ticker"] in alerted,
+                      "urgent": bool(c.get("urgent")), "outcome": {}}
         else:
             r["max_score"] = max(r.get("max_score", 0), c["score"])
             r["alerted"] = r.get("alerted") or c["ticker"] in alerted
+            r["urgent"] = r.get("urgent") or bool(c.get("urgent"))
             for t in tags_of(c.get("why")):
                 if t not in r["tags"]:
                     r["tags"].append(t)
@@ -123,7 +125,8 @@ def weekly_report(log, alerts):
         if s:
             lines.append(f"• ציון {name}: {s[0]} | {s[1]}% | {s[2]:+.1f}%")
     for name, rows in (("לא נחסמו", [r for r in done if not r["blocked"]]), ("נחסמו", [r for r in done if r["blocked"]]),
-                       ("קיבלו התראה", [r for r in done if r.get("alerted")])):
+                       ("קיבלו התראה", [r for r in done if r.get("alerted")]),
+                       ("🔥 מועמדות חזקות", [r for r in done if r.get("urgent")])):
         s = _stats(rows)
         if s:
             lines.append(f"• {name}: {s[0]} | {s[1]}% | {s[2]:+.1f}%")
@@ -164,7 +167,8 @@ def maybe_send_weekly(state, log, alerts, now, send):
     text = weekly_report(log, alerts)
     if send(text):
         state["_weekly_sent"] = week
-    return text
+        return "sent"
+    return "failed"
 
 
 # ---------------- 3. follow-ups on live alerts ----------------
@@ -190,19 +194,24 @@ def follow_up(alerts, now, send):
             continue
         px = q["price"]
         chg = (px / ep - 1) * 100
-        msg = None
+        msg, new_keys = None, []
         for lvl in config.FOLLOW_UP_LEVELS:
             key = f"up{lvl}"
             if chg >= lvl and not fu.get(key):
-                fu[key] = now.isoformat(timespec="minutes")
+                fu[key] = now.isoformat(timespec="minutes"); new_keys.append(key)
                 msg = (f"🚀 ${t}: +{chg:.0f}% ממחיר ההתראה ({ep} → {px})\n"
                        f"התראה מ-{a['ts'][:16].replace('T', ' ')} UTC. יעד {lvl}% הושג: זה הזמן לתוכנית היציאה "
                        f"(למשל מימוש חלק והזזת הסטופ למחיר הכניסה).")
         if inv and px < inv and not fu.get("stop") and not msg:
-            fu["stop"] = now.isoformat(timespec="minutes")
+            fu["stop"] = now.isoformat(timespec="minutes"); new_keys.append("stop")
             msg = (f"🔻 ${t}: ירדה מתחת לרמת הביטול {inv} (עכשיו {px}, {chg:+.0f}% ממחיר ההתראה)\n"
                    f"התזה של ההתראה מ-{a['ts'][:16].replace('T', ' ')} UTC נכשלה.")
         if msg:
-            send(msg + "\nמידע לסריקה, לא המלצת השקעה.")
-            sent_msgs.append(t)
+            urgent = bool(a.get("urgent")) and config.URGENT_FOLLOWUPS
+            if send(msg + "\nמידע לסריקה, לא המלצת השקעה.", urgent):
+                sent_msgs.append(t)
+            else:  # not delivered: try again next run
+                for k in new_keys:
+                    fu.pop(k, None)
+                sent_msgs.append(f"{t} (לא נשלח)")
     return sent_msgs

@@ -85,6 +85,17 @@ YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY", "").strip()
 # ---------- Telegram (optional) ----------
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "").strip()
+# Optional second chat (e.g. a group with only you and the bot, NOT muted) for strong alerts only.
+TELEGRAM_URGENT_CHAT_ID = os.getenv("TELEGRAM_URGENT_CHAT_ID", "").strip()
+
+# ---------- "Strong candidate" (urgent) rule: all must hold ----------
+# A starting point, not a proven edge: the weekly report measures the urgent group separately.
+URGENT_MIN_SCORE = 9           # regular alert is 6+
+URGENT_MAX_MOVE_PCT = 10.0     # still early: at most +10% vs previous close
+URGENT_MAX_FLOAT_M = 20.0      # fuel: float under 20M ...
+URGENT_MIN_BORROW_FEE = 50.0   # ... or borrow fee 50%+ ...
+URGENT_MIN_SHORT_PCT = 20.0    # ... or short 20%+ of float
+URGENT_FOLLOWUPS = True        # +30%/+60%/invalidation messages of an urgent alert also go to the urgent chat
 
 # ---------- SEC ----------
 SEC_USER_AGENT = os.getenv("SEC_USER_AGENT", "").strip() or "small-cap-buzz research github.com/tzachistocks"
