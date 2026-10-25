@@ -47,5 +47,12 @@
   "asia": "סין",
   "sic": "Services-Prepackaged Software",
   "ts": "2026-10-24T04:35+00:00"
+ },
+ "LOT": {
+  "country": "",
+  "inc": "E9",
+  "asia": null,
+  "sic": "Motor Vehicles & Passenger Car Bodies",
+  "ts": "2026-10-25T22:41+00:00"
  }
 }

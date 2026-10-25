@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-25T19:08+00:00",
+ "ts": "2026-10-25T22:40+00:00",
  "reddit_ok": true,
  "stocktwits_trending": 30,
  "apewisdom_main": 300,
@@ -13,6 +13,6 @@
   "stocks",
   "wallstreetbets"
  ],
- "candidates": 0,
+ "candidates": 3,
  "errors": []
 }

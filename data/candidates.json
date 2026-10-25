@@ -18,5 +18,24 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-10-25|RDDT": {
+  "ts": "2026-10-25T22:40+00:00",
+  "ticker": "RDDT",
+  "score": 3,
+  "max_score": 3,
+  "price": 145.09,
+  "move_pct": -3.44,
+  "cap_m": 27750.0,
+  "blocked": [
+   "שווי $27750M"
+  ],
+  "tags": [
+   "vel3h",
+   "spread"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }
