@@ -1,1 +1,22 @@
-{}
+{
+ "2026-10-25|ALGM": {
+  "ts": "2026-10-25T04:57+00:00",
+  "ticker": "ALGM",
+  "score": 4,
+  "max_score": 4,
+  "price": 31.86,
+  "move_pct": 0.54,
+  "cap_m": 5870.0,
+  "blocked": [
+   "שווי $5870M"
+  ],
+  "tags": [
+   "accel",
+   "vel3h",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ }
+}
