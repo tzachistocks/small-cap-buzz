@@ -301,5 +301,45 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-10-26|VC": {
+  "ts": "2026-10-26T18:07+00:00",
+  "ticker": "VC",
+  "score": 6,
+  "max_score": 6,
+  "price": 74.8875,
+  "move_pct": -1.94,
+  "cap_m": 2000.0,
+  "blocked": [
+   "שווי $2000M"
+  ],
+  "tags": [
+   "accel",
+   "spread",
+   "rising",
+   "low_float"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-26|ASTS": {
+  "ts": "2026-10-26T18:07+00:00",
+  "ticker": "ASTS",
+  "score": 3,
+  "max_score": 3,
+  "price": 40.37,
+  "move_pct": 1.46,
+  "cap_m": 12070.0,
+  "blocked": [
+   "שווי $12070M"
+  ],
+  "tags": [
+   "spread",
+   "short"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }
