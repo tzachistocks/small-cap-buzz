@@ -244,5 +244,43 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-10-26|CLS": {
+  "ts": "2026-10-26T15:07+00:00",
+  "ticker": "CLS",
+  "score": 3,
+  "max_score": 3,
+  "price": 271.91,
+  "move_pct": 4.58,
+  "cap_m": 34340.0,
+  "blocked": [
+   "שווי $34340M"
+  ],
+  "tags": [
+   "accel",
+   "vel3h"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-26|FCF": {
+  "ts": "2026-10-26T15:07+00:00",
+  "ticker": "FCF",
+  "score": 3,
+  "max_score": 3,
+  "price": 21.292,
+  "move_pct": 0.91,
+  "cap_m": 2160.0,
+  "blocked": [
+   "שווי $2160M"
+  ],
+  "tags": [
+   "vel3h",
+   "spread"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }
