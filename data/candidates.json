@@ -206,5 +206,43 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-10-26|TIL": {
+  "ts": "2026-10-26T14:07+00:00",
+  "ticker": "TIL",
+  "score": 3,
+  "max_score": 3,
+  "price": 5.84,
+  "move_pct": 0.0,
+  "cap_m": 40.95,
+  "blocked": [],
+  "tags": [
+   "vel3h",
+   "low_float",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-26|APLD": {
+  "ts": "2026-10-26T14:07+00:00",
+  "ticker": "APLD",
+  "score": 4,
+  "max_score": 4,
+  "price": 17.685,
+  "move_pct": -3.1,
+  "cap_m": 5350.0,
+  "blocked": [
+   "שווי $5350M"
+  ],
+  "tags": [
+   "vel3h",
+   "spread",
+   "short"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }
