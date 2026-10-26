@@ -282,5 +282,24 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-10-26|SE": {
+  "ts": "2026-10-26T17:07+00:00",
+  "ticker": "SE",
+  "score": 3,
+  "max_score": 3,
+  "price": 74.05,
+  "move_pct": -0.78,
+  "cap_m": 42010.0,
+  "blocked": [
+   "שווי $42010M"
+  ],
+  "tags": [
+   "accel",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }
