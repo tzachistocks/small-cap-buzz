@@ -341,5 +341,28 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-10-26|GYGY": {
+  "ts": "2026-10-26T19:07+00:00",
+  "ticker": "GYGY",
+  "score": 3,
+  "max_score": 3,
+  "price": 0.338,
+  "move_pct": -9.33,
+  "cap_m": 4.86,
+  "blocked": [
+   "דיווח הנפקה: 424B3 2026-10-26, 424B3 2026-10-26"
+  ],
+  "tags": [
+   "spread",
+   "short",
+   "low_float",
+   "borrow_fee",
+   "sec_negative",
+   "pr_weak"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }
