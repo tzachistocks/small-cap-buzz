@@ -17,7 +17,9 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-10-26"
+  }
  },
  "2026-10-25|RDDT": {
   "ts": "2026-10-25T22:40+00:00",
@@ -33,6 +35,90 @@
   "tags": [
    "vel3h",
    "spread"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {
+   "checked": "2026-10-26"
+  }
+ },
+ "2026-10-26|GM": {
+  "ts": "2026-10-26T04:59+00:00",
+  "ticker": "GM",
+  "score": 3,
+  "max_score": 3,
+  "price": 75.9,
+  "move_pct": -1.7,
+  "cap_m": 64040.00000000001,
+  "blocked": [
+   "שווי $64040M"
+  ],
+  "tags": [
+   "accel",
+   "vel3h"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-26|NU": {
+  "ts": "2026-10-26T04:59+00:00",
+  "ticker": "NU",
+  "score": 4,
+  "max_score": 4,
+  "price": 15.21,
+  "move_pct": 3.26,
+  "cap_m": 73230.0,
+  "blocked": [
+   "שווי $73230M"
+  ],
+  "tags": [
+   "accel",
+   "vel3h",
+   "st_trend",
+   "xueqiu"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-26|NBIS": {
+  "ts": "2026-10-26T04:59+00:00",
+  "ticker": "NBIS",
+  "score": 6,
+  "max_score": 6,
+  "price": 158.7355,
+  "move_pct": -0.27,
+  "cap_m": 43160.0,
+  "blocked": [
+   "שווי $43160M"
+  ],
+  "tags": [
+   "vel3h",
+   "spread",
+   "st_trend",
+   "short",
+   "xueqiu"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-26|CRWV": {
+  "ts": "2026-10-26T04:59+00:00",
+  "ticker": "CRWV",
+  "score": 3,
+  "max_score": 3,
+  "price": 53.9501,
+  "move_pct": -2.97,
+  "cap_m": 29910.0,
+  "blocked": [
+   "שווי $29910M"
+  ],
+  "tags": [
+   "vel3h",
+   "st_trend",
+   "xueqiu"
   ],
   "alerted": false,
   "urgent": false,
