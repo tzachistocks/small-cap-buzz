@@ -1,12 +1,26 @@
 {
- "ts": "2026-10-27T16:07+00:00",
+ "ts": "2026-10-27T17:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
-  "CLRO": {
-   "m6": 2,
+  "SI": {
+   "m6": 84,
+   "m24": 84,
+   "authors6": 82,
+   "authors24": 82,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-27T16:48+00:00",
+   "sample": "r/smallstreetbets: AI or SI? 🤡"
+  },
+  "ENVX": {
+   "m6": 3,
    "m24": 3,
-   "authors6": 2,
+   "authors6": 3,
    "authors24": 3,
    "subs6": [
     "pennystocks"
@@ -14,39 +28,8 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-10-27T03:37+00:00",
-   "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 27"
-  },
-  "HTZ": {
-   "m6": 2,
-   "m24": 3,
-   "authors6": 2,
-   "authors24": 3,
-   "subs6": [
-    "Shortsqueeze",
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "Shortsqueeze",
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-10-26T17:54+00:00",
-   "sample": "r/Shortsqueeze: HTZ? What Happened? There was so much talk about it the last couple months, are short sell"
-  },
-  "BRAI": {
-   "m6": 1,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 2,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "pennystocks",
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-10-27T03:37+00:00",
-   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+   "first_utc": "2026-10-27T16:50+00:00",
+   "sample": "r/pennystocks: $ENVX SURGES 24% IS A SHORT SQUEEZE BREWING?"
   },
   "SDEV": {
    "m6": 2,
@@ -64,7 +47,36 @@
    "first_utc": "2026-10-27T13:52+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
-  "FRA": {
+  "BRAI": {
+   "m6": 1,
+   "m24": 2,
+   "authors6": 1,
+   "authors24": 2,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-27T03:37+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "HTZ": {
+   "m6": 1,
+   "m24": 2,
+   "authors6": 1,
+   "authors24": 2,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-10-26T17:54+00:00",
+   "sample": "r/Shortsqueeze: HTZ? What Happened? There was so much talk about it the last couple months, are short sell"
+  },
+  "EE": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -75,10 +87,24 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-10-27T15:36+00:00",
-   "sample": "r/pennystocks: Sekur Private Data Receives US$3.4 Million Per Year Quotation Request from African Governm"
+   "first_utc": "2026-10-27T16:53+00:00",
+   "sample": "r/pennystocks: Enovix news?"
   },
-  "MAS": {
+  "ISRG": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-27T16:26+00:00",
+   "sample": "r/smallstreetbets: Midday Check-In"
+  },
+  "FRA": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -106,6 +132,20 @@
    "first_utc": "2026-10-27T15:36+00:00",
    "sample": "r/pennystocks: Sekur Private Data Receives US$3.4 Million Per Year Quotation Request from African Governm"
   },
+  "MAS": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-27T15:36+00:00",
+   "sample": "r/pennystocks: Sekur Private Data Receives US$3.4 Million Per Year Quotation Request from African Governm"
+  },
   "LINE": {
    "m6": 1,
    "m24": 1,
@@ -120,7 +160,7 @@
    "first_utc": "2026-10-27T15:23+00:00",
    "sample": "r/smallstreetbets: Anthropic IPO Filing For Dummies"
   },
-  "SITC": {
+  "EVAX": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -134,7 +174,7 @@
    "first_utc": "2026-10-27T14:20+00:00",
    "sample": "r/pennystocks: EVAX – Danish AI-vaccine biotech, ~$36M market cap, just showed 3-year melanoma data at ES"
   },
-  "EVAX": {
+  "SITC": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -162,20 +202,6 @@
    "first_utc": "2026-10-27T14:20+00:00",
    "sample": "r/pennystocks: EVAX – Danish AI-vaccine biotech, ~$36M market cap, just showed 3-year melanoma data at ES"
   },
-  "IPST": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-10-27T14:05+00:00",
-   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
-  },
   "FRGT": {
    "m6": 1,
    "m24": 1,
@@ -190,14 +216,26 @@
    "first_utc": "2026-10-27T14:05+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
-  "CHGG": {
+  "IPST": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
    "authors24": 1,
    "subs6": [
-    "pennystocks"
+    "smallstreetbets"
    ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-27T14:05+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "CHGG": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
@@ -205,13 +243,11 @@
    "sample": "r/pennystocks: Chegg (NYSE: CHGG) — Investment Overview"
   },
   "AISP": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
@@ -219,13 +255,11 @@
    "sample": "r/pennystocks: $AISP the DHS and homeland security add-on to any surveillance camera."
   },
   "AISPW": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
@@ -256,6 +290,18 @@
    "first_utc": "2026-10-27T06:39+00:00",
    "sample": "r/pennystocks: $ARBB changed leadership and probably ownership-it is going private or will merge with the"
   },
+  "MKDW": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-27T03:37+00:00",
+   "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 27"
+  },
   "HPAI": {
    "m6": 0,
    "m24": 1,
@@ -268,7 +314,55 @@
    "first_utc": "2026-10-27T03:37+00:00",
    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 27"
   },
-  "MKDW": {
+  "EFOI": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-27T03:37+00:00",
+   "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 27"
+  },
+  "CLRO": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-27T03:37+00:00",
+   "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 27"
+  },
+  "GCTK": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-27T03:37+00:00",
+   "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 27"
+  },
+  "TGL": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-27T03:37+00:00",
+   "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 27"
+  },
+  "SNTI": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -304,54 +398,6 @@
    "first_utc": "2026-10-27T03:37+00:00",
    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 27"
   },
-  "SNTI": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-27T03:37+00:00",
-   "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 27"
-  },
-  "TGL": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-27T03:37+00:00",
-   "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 27"
-  },
-  "GCTK": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-27T03:37+00:00",
-   "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 27"
-  },
-  "EFOI": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-27T03:37+00:00",
-   "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 27"
-  },
   "GPUS": {
    "m6": 0,
    "m24": 1,
@@ -364,77 +410,7 @@
    "first_utc": "2026-10-26T18:17+00:00",
    "sample": "r/smallstreetbets: $GPUS road to $1+"
   },
-  "BBLG": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-27T16:06+00:00",
-   "sample": ""
-  },
-  "SHFS": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-27T16:03+00:00",
-   "sample": ""
-  },
-  "DVLT": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-27T15:55+00:00",
-   "sample": ""
-  },
-  "SXTC": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-27T15:54+00:00",
-   "sample": ""
-  },
-  "LASE": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-27T15:45+00:00",
-   "sample": ""
-  },
-  "MA": {
+  "SR": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -445,21 +421,35 @@
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-10-27T15:28+00:00",
+   "first_utc": "2026-10-27T17:05+00:00",
    "sample": ""
   },
-  "NUWE": {
+  "RH": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
    "authors24": 1,
    "subs6": [
-    "pennystocks"
+    "smallstreetbets"
    ],
    "subs24": [
-    "pennystocks"
+    "smallstreetbets"
    ],
-   "first_utc": "2026-10-27T14:57+00:00",
+   "first_utc": "2026-10-27T17:00+00:00",
+   "sample": ""
+  },
+  "IBKR": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-27T17:00+00:00",
    "sample": ""
   }
  },
