@@ -816,5 +816,44 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-10-27|DE": {
+  "ts": "2026-10-27T20:07+00:00",
+  "ticker": "DE",
+  "score": 3,
+  "max_score": 3,
+  "price": 639.23,
+  "move_pct": -0.32,
+  "cap_m": 172350.0,
+  "blocked": [
+   "שווי $172350M"
+  ],
+  "tags": [
+   "accel",
+   "vel3h"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-27|RKLB": {
+  "ts": "2026-10-27T20:07+00:00",
+  "ticker": "RKLB",
+  "score": 4,
+  "max_score": 4,
+  "price": 58.51,
+  "move_pct": 8.71,
+  "cap_m": 34900.0,
+  "blocked": [
+   "שווי $34900M"
+  ],
+  "tags": [
+   "spread",
+   "rising",
+   "xueqiu"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }
