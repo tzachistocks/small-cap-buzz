@@ -508,5 +508,47 @@
   "title": "Federal Signal Corporation Declares Dividend of $0.15 per share",
   "src": "PR Newswire",
   "ts": "2026-10-27T20:00+00:00"
+ },
+ {
+  "ticker": "MAIN",
+  "title": "Main Street Prices Public Offering of $500 Million of 6.55% Notes due 2030",
+  "src": "PR Newswire",
+  "ts": "2026-10-27T21:05+00:00"
+ },
+ {
+  "ticker": "NREF",
+  "title": "NexPoint Real Estate Finance, Inc. Announces Quarterly Dividend",
+  "src": "PR Newswire",
+  "ts": "2026-10-27T21:00+00:00"
+ },
+ {
+  "ticker": "NXDT",
+  "title": "NexPoint Diversified Real Estate Trust Announces Quarterly Distribution",
+  "src": "PR Newswire",
+  "ts": "2026-10-27T21:00+00:00"
+ },
+ {
+  "ticker": "NXRT",
+  "title": "NexPoint Residential Trust, Inc. Announces Quarterly Dividend",
+  "src": "PR Newswire",
+  "ts": "2026-10-27T21:00+00:00"
+ },
+ {
+  "ticker": "SCKT",
+  "title": "Socket Mobile Announces Intention to Voluntarily Transition Listing from Nasdaq to the OTCID Market",
+  "src": "PR Newswire",
+  "ts": "2026-10-27T20:55+00:00"
+ },
+ {
+  "ticker": "ELS",
+  "title": "ELS Announces Leadership Transition",
+  "src": "PR Newswire",
+  "ts": "2026-10-27T20:53+00:00"
+ },
+ {
+  "ticker": "NVST",
+  "title": "Envista Announces Release of 2025 Sustainability Report",
+  "src": "PR Newswire",
+  "ts": "2026-10-27T20:34+00:00"
  }
 ]
