@@ -1,11 +1,11 @@
 {
- "ts": "2026-10-27T14:07+00:00",
+ "ts": "2026-10-27T15:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
   "SDEV": {
-   "m6": 4,
-   "m24": 4,
+   "m6": 5,
+   "m24": 5,
    "authors6": 4,
    "authors24": 4,
    "subs6": [
@@ -19,23 +19,23 @@
    "first_utc": "2026-10-27T13:52+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
-  "HTZ": {
-   "m6": 3,
+  "EVAX": {
+   "m6": 4,
    "m24": 4,
-   "authors6": 1,
-   "authors24": 2,
+   "authors6": 4,
+   "authors24": 4,
    "subs6": [
-    "Shortsqueeze"
+    "pennystocks"
    ],
    "subs24": [
-    "Shortsqueeze"
+    "pennystocks"
    ],
-   "first_utc": "2026-10-26T17:54+00:00",
-   "sample": "r/Shortsqueeze: HTZ? What Happened? There was so much talk about it the last couple months, are short sell"
+   "first_utc": "2026-10-27T14:20+00:00",
+   "sample": "r/pennystocks: EVAX – Danish AI-vaccine biotech, ~$36M market cap, just showed 3-year melanoma data at ES"
   },
   "BRAI": {
-   "m6": 2,
-   "m24": 3,
+   "m6": 3,
+   "m24": 4,
    "authors6": 2,
    "authors24": 3,
    "subs6": [
@@ -49,19 +49,47 @@
    "first_utc": "2026-10-27T03:37+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
-  "GPUS": {
+  "HTZ": {
+   "m6": 2,
+   "m24": 3,
+   "authors6": 2,
+   "authors24": 3,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-10-26T17:54+00:00",
+   "sample": "r/Shortsqueeze: HTZ? What Happened? There was so much talk about it the last couple months, are short sell"
+  },
+  "MSD": {
+   "m6": 2,
+   "m24": 2,
+   "authors6": 2,
+   "authors24": 2,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-27T14:20+00:00",
+   "sample": "r/pennystocks: EVAX – Danish AI-vaccine biotech, ~$36M market cap, just showed 3-year melanoma data at ES"
+  },
+  "CLRO": {
    "m6": 1,
    "m24": 2,
    "authors6": 1,
-   "authors24": 1,
+   "authors24": 2,
    "subs6": [
-    "smallstreetbets"
+    "pennystocks"
    ],
    "subs24": [
-    "smallstreetbets"
+    "pennystocks"
    ],
-   "first_utc": "2026-10-26T18:17+00:00",
-   "sample": "r/smallstreetbets: $GPUS road to $1+"
+   "first_utc": "2026-10-27T03:37+00:00",
+   "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 27"
   },
   "HCAI": {
    "m6": 0,
@@ -76,33 +104,19 @@
    "first_utc": "2026-10-26T15:12+00:00",
    "sample": "r/smallstreetbets: Hong Kong mafia play"
   },
-  "SHFS": {
+  "SITC": {
    "m6": 1,
-   "m24": 2,
+   "m24": 1,
    "authors6": 1,
-   "authors24": 2,
+   "authors24": 1,
    "subs6": [
     "pennystocks"
    ],
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-10-26T14:11+00:00",
-   "sample": "r/pennystocks: 26 OCT 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-  },
-  "BBAI": {
-   "m6": 2,
-   "m24": 2,
-   "authors6": 2,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-27T13:24+00:00",
-   "sample": ""
+   "first_utc": "2026-10-27T14:20+00:00",
+   "sample": "r/pennystocks: EVAX – Danish AI-vaccine biotech, ~$36M market cap, just showed 3-year melanoma data at ES"
   },
   "FRGT": {
    "m6": 1,
@@ -210,31 +224,7 @@
    "first_utc": "2026-10-27T03:37+00:00",
    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 27"
   },
-  "EFOI": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-27T03:37+00:00",
-   "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 27"
-  },
   "SNTI": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-27T03:37+00:00",
-   "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 27"
-  },
-  "GCTK": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -258,7 +248,7 @@
    "first_utc": "2026-10-27T03:37+00:00",
    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 27"
   },
-  "GURE": {
+  "EFOI": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -270,7 +260,7 @@
    "first_utc": "2026-10-27T03:37+00:00",
    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 27"
   },
-  "BDAI": {
+  "GURE": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -294,7 +284,7 @@
    "first_utc": "2026-10-27T03:37+00:00",
    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 27"
   },
-  "CLRO": {
+  "BDAI": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -305,6 +295,30 @@
    ],
    "first_utc": "2026-10-27T03:37+00:00",
    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 27"
+  },
+  "GCTK": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-27T03:37+00:00",
+   "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 27"
+  },
+  "GPUS": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-26T18:17+00:00",
+   "sample": "r/smallstreetbets: $GPUS road to $1+"
   },
   "MWYN": {
    "m6": 0,
@@ -318,211 +332,7 @@
    "first_utc": "2026-10-26T16:07+00:00",
    "sample": "r/smallstreetbets: Still in the middle of this one"
   },
-  "GYGY": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-26T14:13+00:00",
-   "sample": "r/pennystocks: GYGY - expecting price increase"
-  },
-  "CANG": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-26T14:11+00:00",
-   "sample": "r/pennystocks: 26 OCT 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-  },
-  "CATX": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-26T14:11+00:00",
-   "sample": "r/pennystocks: 26 OCT 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-  },
-  "POM": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-26T14:11+00:00",
-   "sample": "r/pennystocks: 26 OCT 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-  },
-  "CLIK": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-26T14:11+00:00",
-   "sample": "r/pennystocks: 26 OCT 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-  },
   "NUWE": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-26T14:11+00:00",
-   "sample": "r/pennystocks: 26 OCT 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-  },
-  "NCPL": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-26T14:11+00:00",
-   "sample": "r/pennystocks: 26 OCT 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-  },
-  "LNAI": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-26T14:11+00:00",
-   "sample": "r/pennystocks: 26 OCT 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-  },
-  "MGNX": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-26T14:11+00:00",
-   "sample": "r/pennystocks: 26 OCT 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-  },
-  "SPCE": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-26T14:09+00:00",
-   "sample": "r/pennystocks: SPCE: Virgin Galactic is Actually Delivering ON TIME for February Commercial Service"
-  },
-  "VG": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-26T14:09+00:00",
-   "sample": "r/pennystocks: SPCE: Virgin Galactic is Actually Delivering ON TIME for February Commercial Service"
-  },
-  "OSUR": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-26T14:07+00:00",
-   "sample": "r/pennystocks: 26 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-  },
-  "BORR": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-26T14:07+00:00",
-   "sample": "r/pennystocks: 26 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-  },
-  "ENVX": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-26T14:07+00:00",
-   "sample": "r/pennystocks: 26 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-  },
-  "NXH": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-26T14:07+00:00",
-   "sample": "r/pennystocks: 26 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-  },
-  "SID": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-26T14:07+00:00",
-   "sample": "r/pennystocks: 26 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-  },
-  "UWMC": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-26T14:07+00:00",
-   "sample": "r/pennystocks: 26 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-  },
-  "LCID": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -533,10 +343,10 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-10-27T13:57+00:00",
+   "first_utc": "2026-10-27T14:57+00:00",
    "sample": ""
   },
-  "BBLG": {
+  "KEEL": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -547,66 +357,10 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-10-27T13:52+00:00",
+   "first_utc": "2026-10-27T14:44+00:00",
    "sample": ""
   },
-  "QSI": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-27T13:43+00:00",
-   "sample": ""
-  },
-  "SXTP": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-27T13:18+00:00",
-   "sample": ""
-  },
-  "BMI": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-27T13:14+00:00",
-   "sample": ""
-  },
-  "GLP": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-27T13:14+00:00",
-   "sample": ""
-  },
-  "QUBT": {
+  "SKY": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -617,24 +371,10 @@
    "subs24": [
     "Shortsqueeze"
    ],
-   "first_utc": "2026-10-27T13:12+00:00",
+   "first_utc": "2026-10-27T14:41+00:00",
    "sample": ""
   },
-  "DK": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "Shortsqueeze"
-   ],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-10-27T13:11+00:00",
-   "sample": ""
-  },
-  "MFIC": {
+  "BBAI": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -645,35 +385,49 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-10-27T13:05+00:00",
+   "first_utc": "2026-10-27T14:30+00:00",
    "sample": ""
   },
-  "JD": {
+  "NAUT": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
    "authors24": 1,
    "subs6": [
-    "smallstreetbets"
+    "pennystocks"
    ],
    "subs24": [
-    "smallstreetbets"
+    "pennystocks"
    ],
-   "first_utc": "2026-10-27T13:03+00:00",
+   "first_utc": "2026-10-27T14:12+00:00",
    "sample": ""
   },
-  "PII": {
+  "AIOK": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
    "authors24": 1,
    "subs6": [
-    "smallstreetbets"
+    "pennystocks"
    ],
    "subs24": [
-    "smallstreetbets"
+    "pennystocks"
    ],
-   "first_utc": "2026-10-27T12:50+00:00",
+   "first_utc": "2026-10-27T14:12+00:00",
+   "sample": ""
+  },
+  "NEXR": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-27T14:08+00:00",
    "sample": ""
   }
  },
