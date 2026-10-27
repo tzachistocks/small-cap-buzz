@@ -189,6 +189,19 @@ def score(b, rd, st_trend, st, fund, x=None):
 TG_LOG = []  # (ok, first line, chat description) for every message this run
 
 
+def scrub_errors():
+    """The repo is public: errors are committed (last_run.json) and shown in the run summary.
+    A network error message can contain a full URL, e.g. .../bot<TOKEN>/sendMessage or ?key=<API KEY>."""
+    secrets = [s for s in (config.TELEGRAM_BOT_TOKEN, config.TELEGRAM_CHAT_ID, config.TELEGRAM_URGENT_CHAT_ID,
+                           config.REDDIT_CLIENT_ID, config.REDDIT_SECRET, config.YOUTUBE_API_KEY,
+                           os.getenv("SEC_USER_AGENT", "").strip()) if s and len(s) >= 5]
+    for i, e in enumerate(sources.ERRORS):
+        e = str(e)
+        for s in secrets:
+            e = e.replace(s, "***")
+        sources.ERRORS[i] = e
+
+
 def send_telegram(text, urgent=False):
     """Every message goes to the main chat; urgent ones also go to the (unmuted) urgent chat if it is set."""
     if not config.TELEGRAM_BOT_TOKEN:
@@ -489,6 +502,7 @@ def run():
         export_reddit(store, rd_counts, rd_ok, snap, subs)
     except Exception as e:
         sources.ERRORS.append(f"reddit export: {type(e).__name__}: {e}")
+    scrub_errors()
     store.save_json("last_run.json", {"ts": NOW.isoformat(timespec="minutes"), "reddit_ok": rd_ok,
                                       "stocktwits_trending": len(st_trend), "apewisdom_main": len(snap["main"]),
                                       "apewisdom_subs": sorted(subs), "candidates": len(report),
@@ -551,8 +565,9 @@ def write_summary(report, alerts, rd_ok, snap, subs, record, skipped_large=()):
         lines.append("הדוח השבועי: " + ("נשלח" if REVIEW_STATUS["weekly"] == "sent" else "השליחה נכשלה"))
     if TG_LOG:
         ok = [x for x in TG_LOG if x[0]]
-        lines.append(f"טלגרם: {len(ok)} הודעות נשלחו, {len(TG_LOG) - len(ok)} נכשלו"
-                     + (f" | נשלחו לצ'אט: {ok[0][2]}" if ok else ""))
+        lines.append(f"טלגרם: {len(ok)} הודעות נשלחו, {len(TG_LOG) - len(ok)} נכשלו")
+        # chat name/id is not printed: the run summary of a public repo is visible to everyone
+    scrub_errors()
     if sources.ERRORS:
         lines += ["", "<details><summary>שגיאות</summary>", ""] + [f"- {e}" for e in sources.ERRORS[-30:]] + ["</details>"]
     md = "\n".join(lines)
