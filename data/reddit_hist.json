@@ -355,8 +355,8 @@
    "sample": "r/smallstreetbets: DD: Another generational pump opportunity"
   },
   "SPCX": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "smallstreetbets"
    ],
@@ -953,6 +953,61 @@
     "smallstreetbets"
    ],
    "first_utc": "2026-10-27T17:53+00:00"
+  },
+  "NOV": {
+   "m24_max": 4,
+   "authors24_max": 4,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-27T18:34+00:00",
+   "sample": "r/pennystocks: $PACB🚀🚀🚀 AI + DNA + INSIDERS - CATALYST NOV 4TH"
+  },
+  "DNA": {
+   "m24_max": 4,
+   "authors24_max": 4,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-27T18:34+00:00",
+   "sample": "r/pennystocks: $PACB🚀🚀🚀 AI + DNA + INSIDERS - CATALYST NOV 4TH"
+  },
+  "PACB": {
+   "m24_max": 4,
+   "authors24_max": 4,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-27T18:34+00:00",
+   "sample": "r/pennystocks: $PACB🚀🚀🚀 AI + DNA + INSIDERS - CATALYST NOV 4TH"
+  },
+  "NRXP": {
+   "m24_max": 3,
+   "authors24_max": 2,
+   "subs": [
+    "Shortsqueeze",
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-27T18:34+00:00",
+   "sample": "r/Shortsqueeze: NRx Pharmaceuticals (NRXP) - FACTS: The FINRA Oct 15 short data just dropped yesterday, an"
+  },
+  "CCI": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-27T18:52+00:00",
+   "sample": "r/smallstreetbets: CCI"
+  },
+  "RNA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-27T18:34+00:00",
+   "sample": "r/pennystocks: $PACB🚀🚀🚀 AI + DNA + INSIDERS - CATALYST NOV 4TH"
   }
  }
 }
