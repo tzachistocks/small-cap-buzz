@@ -694,5 +694,43 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-10-27|CPA": {
+  "ts": "2026-10-27T13:07+00:00",
+  "ticker": "CPA",
+  "score": 4,
+  "max_score": 4,
+  "price": 130.01,
+  "move_pct": -1.04,
+  "cap_m": 5350.0,
+  "blocked": [
+   "שווי $5350M"
+  ],
+  "tags": [
+   "accel",
+   "rising",
+   "low_float"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-27|IQ": {
+  "ts": "2026-10-27T13:07+00:00",
+  "ticker": "IQ",
+  "score": 3,
+  "max_score": 3,
+  "price": 0.8769,
+  "move_pct": -4.81,
+  "cap_m": 466.33,
+  "blocked": [],
+  "tags": [
+   "vel3h",
+   "spread",
+   "pr_weak"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }

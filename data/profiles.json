@@ -75,5 +75,19 @@
   "asia": null,
   "sic": "Miscellaneous Metal Ores",
   "ts": "2026-10-27T08:08+00:00"
+ },
+ "UP": {
+  "country": "GA",
+  "inc": "",
+  "asia": null,
+  "sic": "Air Transportation, Nonscheduled",
+  "ts": "2026-10-27T13:08+00:00"
+ },
+ "IQ": {
+  "country": "",
+  "inc": "E9",
+  "asia": null,
+  "sic": "Services-Video Tape Rental",
+  "ts": "2026-10-27T13:08+00:00"
  }
 }
