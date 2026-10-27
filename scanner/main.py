@@ -485,12 +485,41 @@ def run():
     evaluate(alerts)
     store.save_alerts(alerts)
     store.save_json("state.json", state)
+    try:  # Reddit feed for outside readers (the Claude scheduled scans read this from GitHub)
+        export_reddit(store, rd_counts, rd_ok, snap, subs)
+    except Exception as e:
+        sources.ERRORS.append(f"reddit export: {type(e).__name__}: {e}")
     store.save_json("last_run.json", {"ts": NOW.isoformat(timespec="minutes"), "reddit_ok": rd_ok,
                                       "stocktwits_trending": len(st_trend), "apewisdom_main": len(snap["main"]),
                                       "apewisdom_subs": sorted(subs), "candidates": len(report),
                                       "errors": sources.ERRORS[-30:]})
     store.prune(config.KEEP_SNAPSHOT_DAYS)
     write_summary(report, alerts, rd_ok, snap, subs, record, skipped_large)
+
+
+def export_reddit(store, rd_counts, rd_ok, snap, subs):
+    """data/reddit_latest.json: this run's Reddit counts + ApeWisdom per-forum counts.
+    data/reddit_hist.json: per day, per ticker, the peak 24h mentions and the first time seen (10 days kept)."""
+    ts = NOW.isoformat(timespec="minutes")
+    top = dict(sorted(rd_counts.items(), key=lambda kv: -kv[1]["m24"])[:200])
+    forums = {}
+    for sub, rows in (snap.get("subs") or {}).items():
+        forums[sub] = {t: v for t, v in rows.items() if (v[0] or 0) >= 2}
+    store.save_json("reddit_latest.json", {"ts": ts, "reddit_ok": rd_ok, "mode": sources.REDDIT_MODE,
+                                           "reddit": top, "apewisdom_forums": forums})
+    hist = store.load_json("reddit_hist.json", {})
+    day = hist.setdefault(NOW.strftime("%Y-%m-%d"), {})
+    for t, r in top.items():
+        h = day.setdefault(t, {"m24_max": 0, "authors24_max": 0, "subs": [], "first_utc": r["first_utc"]})
+        h["m24_max"] = max(h["m24_max"], r["m24"])
+        h["authors24_max"] = max(h["authors24_max"], r["authors24"])
+        h["subs"] = sorted(set(h["subs"]) | set(r["subs24"]))
+        h["first_utc"] = min(h["first_utc"], r["first_utc"])
+        if r.get("sample") and not h.get("sample"):
+            h["sample"] = r["sample"]
+    for d in sorted(hist)[:-10]:
+        hist.pop(d)
+    store.save_json("reddit_hist.json", hist)
 
 
 def write_summary(report, alerts, rd_ok, snap, subs, record, skipped_large=()):
