@@ -4,7 +4,8 @@
    "m24_max": 6,
    "authors24_max": 5,
    "subs": [
-    "Shortsqueeze"
+    "Shortsqueeze",
+    "smallstreetbets"
    ],
    "first_utc": "2026-10-26T17:54+00:00",
    "sample": "r/Shortsqueeze: HTZ? What Happened? There was so much talk about it the last couple months, are short sell"
@@ -717,6 +718,74 @@
     "pennystocks"
    ],
    "first_utc": "2026-10-27T14:08+00:00"
+  },
+  "FRA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-27T15:36+00:00",
+   "sample": "r/pennystocks: Sekur Private Data Receives US$3.4 Million Per Year Quotation Request from African Governm"
+  },
+  "MAS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-27T15:36+00:00",
+   "sample": "r/pennystocks: Sekur Private Data Receives US$3.4 Million Per Year Quotation Request from African Governm"
+  },
+  "SWISF": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-27T15:36+00:00",
+   "sample": "r/pennystocks: Sekur Private Data Receives US$3.4 Million Per Year Quotation Request from African Governm"
+  },
+  "LINE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-27T15:23+00:00",
+   "sample": "r/smallstreetbets: Anthropic IPO Filing For Dummies"
+  },
+  "DVLT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-27T15:55+00:00"
+  },
+  "SXTC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-27T15:54+00:00"
+  },
+  "LASE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-27T15:45+00:00"
+  },
+  "MA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-27T15:28+00:00"
   }
  }
 }

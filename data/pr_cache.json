@@ -12,18 +12,6 @@
   "ts": "2026-10-24T17:00+00:00"
  },
  {
-  "ticker": "BBNX",
-  "title": "BBNX Deadline: BBNX Investors Have Opportunity to Lead Beta Bionics, Inc. Securities Fraud Lawsuit",
-  "src": "PR Newswire",
-  "ts": "2026-10-24T15:48+00:00"
- },
- {
-  "ticker": "ASTS",
-  "title": "ASTS Deadline in 20 Days: AST SpaceMobile, Inc Class Action Lawsuit: Investors Face November 13, 2026, Deadline - Kessler Topaz Meltzer &amp; Check, LLP",
-  "src": "PR Newswire",
-  "ts": "2026-10-24T15:20+00:00"
- },
- {
   "ticker": "INV",
   "title": "INV Deadline: INV Investors Have Opportunity to Lead Innventure, Inc. Securities Fraud Lawsuit",
   "src": "PR Newswire",
@@ -466,5 +454,17 @@
   "title": "DFIN Announces Venue® MCP Connector, Bringing Secure AI Access to High-Stakes Deal Workflows",
   "src": "PR Newswire",
   "ts": "2026-10-27T13:05+00:00"
+ },
+ {
+  "ticker": "SNOW",
+  "title": "Oracle Expands Native AI and Data Services on OCI with Snowflake",
+  "src": "PR Newswire",
+  "ts": "2026-10-27T16:06+00:00"
+ },
+ {
+  "ticker": "IVZ",
+  "title": "Invesco Announces Work with Anthropic to Bring its Custom Portfolio and Practice Management Capabilities to Claude",
+  "src": "PR Newswire",
+  "ts": "2026-10-27T16:00+00:00"
  }
 ]
