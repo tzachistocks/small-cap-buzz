@@ -732,5 +732,46 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-10-27|IBKR": {
+  "ts": "2026-10-27T14:07+00:00",
+  "ticker": "IBKR",
+  "score": 4,
+  "max_score": 4,
+  "price": 81.96,
+  "move_pct": 1.7,
+  "cap_m": 37160.0,
+  "blocked": [
+   "שווי $37160M"
+  ],
+  "tags": [
+   "accel",
+   "spread",
+   "rising"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-27|SDEV": {
+  "ts": "2026-10-27T14:07+00:00",
+  "ticker": "SDEV",
+  "score": 4,
+  "max_score": 4,
+  "price": 1.125,
+  "move_pct": 20.97,
+  "cap_m": 58.22,
+  "blocked": [
+   "כבר זזה +21%"
+  ],
+  "tags": [
+   "spread",
+   "authors",
+   "short",
+   "low_float"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }
