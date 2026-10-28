@@ -1070,5 +1070,27 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-10-28|TER": {
+  "ts": "2026-10-28T14:07+00:00",
+  "ticker": "TER",
+  "score": 7,
+  "max_score": 7,
+  "price": 306.2001,
+  "move_pct": -5.4,
+  "cap_m": 47920.0,
+  "blocked": [
+   "שווי $47920M"
+  ],
+  "tags": [
+   "accel",
+   "spread",
+   "novel",
+   "st_trend",
+   "xueqiu"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }

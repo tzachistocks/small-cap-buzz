@@ -18,18 +18,6 @@
   "ts": "2026-10-25T14:45+00:00"
  },
  {
-  "ticker": "ILLR",
-  "title": "ILLR Investors Have Opportunity to Lead Triller Group Inc. Securities Fraud Lawsuit",
-  "src": "PR Newswire",
-  "ts": "2026-10-25T13:28+00:00"
- },
- {
-  "ticker": "QFIN",
-  "title": "QFIN Investors Have Opportunity to Lead Qfin Holdings, Inc. Securities Fraud Lawsuit",
-  "src": "PR Newswire",
-  "ts": "2026-10-25T13:23+00:00"
- },
- {
   "ticker": "GIL",
   "title": "GIL Investors Have Opportunity to Lead Gildan Activewear Inc. Securities Fraud Lawsuit Filed by The Rosen Law Firm",
   "src": "PR Newswire",
@@ -616,5 +604,11 @@
   "title": "Blackbaud Announces 2026 Third Quarter Financial Results",
   "src": "PR Newswire",
   "ts": "2026-10-28T11:00+00:00"
+ },
+ {
+  "ticker": "MAN",
+  "title": "ManpowerGroup Elects Lidia Fonseca to its Board of Directors",
+  "src": "PR Newswire",
+  "ts": "2026-10-28T14:01+00:00"
  }
 ]
