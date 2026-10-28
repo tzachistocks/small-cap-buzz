@@ -1082,8 +1082,8 @@
    "sample": "r/smallstreetbets: NRx Pharmaceuticals (NRXP) - FACTS: The FINRA Oct 15 short data just dropped yesterday, an"
   },
   "NEXR": {
-   "m24_max": 3,
-   "authors24_max": 2,
+   "m24_max": 5,
+   "authors24_max": 5,
    "subs": [
     "pennystocks"
    ],
@@ -1604,7 +1604,7 @@
    "first_utc": "2026-10-28T05:05+00:00"
   },
   "SLS": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "subs": [
     "pennystocks"
@@ -1760,8 +1760,8 @@
    "first_utc": "2026-10-28T11:53+00:00"
   },
   "NI": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "smallstreetbets"
    ],
@@ -1943,7 +1943,8 @@
    "m24_max": 2,
    "authors24_max": 1,
    "subs": [
-    "Shortsqueeze"
+    "Shortsqueeze",
+    "pennystocks"
    ],
    "first_utc": "2026-10-28T13:49+00:00"
   },
@@ -2178,6 +2179,22 @@
     "pennystocks"
    ],
    "first_utc": "2026-10-28T17:12+00:00"
+  },
+  "BCTX": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T19:03+00:00"
+  },
+  "BAER": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T18:08+00:00"
   }
  }
 }

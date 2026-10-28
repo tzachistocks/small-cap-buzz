@@ -1200,5 +1200,64 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-10-28|GE": {
+  "ts": "2026-10-28T19:07+00:00",
+  "ticker": "GE",
+  "score": 6,
+  "max_score": 6,
+  "price": 302.3919,
+  "move_pct": 1.59,
+  "cap_m": 312390.0,
+  "blocked": [
+   "שווי $312390M"
+  ],
+  "tags": [
+   "accel",
+   "spread",
+   "rising",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-28|UBER": {
+  "ts": "2026-10-28T19:07+00:00",
+  "ticker": "UBER",
+  "score": 3,
+  "max_score": 3,
+  "price": 65.16,
+  "move_pct": -0.94,
+  "cap_m": 133120.0,
+  "blocked": [
+   "שווי $133120M"
+  ],
+  "tags": [
+   "accel",
+   "rising"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-28|ICE": {
+  "ts": "2026-10-28T19:07+00:00",
+  "ticker": "ICE",
+  "score": 3,
+  "max_score": 3,
+  "price": 154.575,
+  "move_pct": -0.56,
+  "cap_m": 86760.0,
+  "blocked": [
+   "שווי $86760M"
+  ],
+  "tags": [
+   "accel",
+   "spread"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }
