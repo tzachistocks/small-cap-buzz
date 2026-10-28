@@ -1156,7 +1156,7 @@
    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 28"
   },
   "DRIO": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "subs": [
     "pennystocks"
@@ -1165,7 +1165,7 @@
    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 28"
   },
   "GPUS": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "subs": [
     "pennystocks"
@@ -1174,7 +1174,7 @@
    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 28"
   },
   "NIVF": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "subs": [
     "pennystocks"
@@ -1201,7 +1201,7 @@
    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 28"
   },
   "SNTI": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "subs": [
     "pennystocks"
@@ -1210,7 +1210,7 @@
    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 28"
   },
   "ICMB": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "subs": [
     "pennystocks"
@@ -1219,7 +1219,7 @@
    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 28"
   },
   "LUNG": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "subs": [
     "pennystocks"
@@ -1604,8 +1604,8 @@
    "first_utc": "2026-10-28T05:05+00:00"
   },
   "SLS": {
-   "m24_max": 2,
-   "authors24_max": 1,
+   "m24_max": 3,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],
@@ -1744,8 +1744,8 @@
    "first_utc": "2026-10-28T12:02+00:00"
   },
   "RZLV": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 3,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],
@@ -2181,8 +2181,8 @@
    "first_utc": "2026-10-28T17:12+00:00"
   },
   "BCTX": {
-   "m24_max": 2,
-   "authors24_max": 1,
+   "m24_max": 3,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],
@@ -2195,6 +2195,107 @@
     "pennystocks"
    ],
    "first_utc": "2026-10-28T18:08+00:00"
+  },
+  "RH": {
+   "m24_max": 6,
+   "authors24_max": 4,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-28T19:23+00:00",
+   "sample": "r/smallstreetbets: Stupid all in with RH delays on SPY"
+  },
+  "APLD": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-10-28T20:05+00:00",
+   "sample": "r/Shortsqueeze: 400% $SLNH because BlackRock bought 5%, repayment of 75% of debt and APLD partnership"
+  },
+  "SLNH": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-10-28T20:05+00:00",
+   "sample": "r/Shortsqueeze: 400% $SLNH because BlackRock bought 5%, repayment of 75% of debt and APLD partnership"
+  },
+  "PDC": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T19:53+00:00",
+   "sample": "r/pennystocks: Anyone else still holding $PDC after today's 50% run?"
+  },
+  "MW": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-10-28T20:05+00:00",
+   "sample": "r/Shortsqueeze: 400% $SLNH because BlackRock bought 5%, repayment of 75% of debt and APLD partnership"
+  },
+  "EONR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T20:06+00:00"
+  },
+  "SVRE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T20:01+00:00"
+  },
+  "BEAT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T19:58+00:00"
+  },
+  "NLST": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T19:53+00:00"
+  },
+  "WST": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-28T19:39+00:00"
+  },
+  "AP": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-28T19:39+00:00"
+  },
+  "GYGY": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T19:25+00:00"
   }
  }
 }

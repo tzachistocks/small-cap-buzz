@@ -271,7 +271,7 @@
   "telegram_sent": true,
   "outcome": {
    "days": 4,
-   "last_close": 0.09700000286102295,
+   "last_close": 0.09709999710321426,
    "last_pct": -66.9,
    "max_close_pct": -32.5,
    "max_high_pct": 17.7,
@@ -281,5 +281,112 @@
    "stop": "2026-10-24T18:08+00:00"
   },
   "invalidation": 0.2729
+ },
+ {
+  "id": "202610282007-LINK",
+  "ts": "2026-10-28T20:07+00:00",
+  "ticker": "LINK",
+  "score": 4,
+  "why": [
+   "פיזור ב-5 פורומים",
+   "שיח עולה 3 ימים ברציפות (4→5→7)",
+   "פלואט 3.5M"
+  ],
+  "price": {
+   "price": 4.14,
+   "prev_close": 4.23,
+   "move_pct": -2.13,
+   "vol_today": 22284,
+   "avg_vol20": 29455,
+   "rel_vol": 0.76,
+   "exchange": "NCM",
+   "name": "Interlink Electronics, Inc.",
+   "readiness": {
+    "points": 0,
+    "why": [],
+    "risk": [],
+    "asof": "2026-10-27",
+    "f": {
+     "rvol_1": 0.6378,
+     "atr_ratio": 1.1147,
+     "drawdown_60": -0.3492,
+     "vol20": 0.041,
+     "prior_runs_120": 0.0,
+     "ret_1d": 0.0292,
+     "ret_3d": 0.0496,
+     "ret_10d": -0.0903,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.7015
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 65.22,
+   "float_m": 3.54,
+   "short_float_pct": 0.76,
+   "days_to_cover": 0.9,
+   "src": "finviz"
+  },
+  "m_now": 7,
+  "m_24h_ago": 2,
+  "spread": [
+   "Daytrading",
+   "Shortsqueeze",
+   "WallStreetbetsELITE",
+   "Wallstreetbetsnew",
+   "wallstreetbets"
+  ],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 0,
+   "users": 23,
+   "bull": 4,
+   "bear": 1,
+   "oldest_min": 174782,
+   "watchlist": 1025
+  },
+  "borrow": {
+   "fee": 2.4295,
+   "available": 55000,
+   "fee_5d": null,
+   "available_5d": null
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "profile": {
+   "country": "CA",
+   "inc": "NV",
+   "asia": null,
+   "sic": "Computer Peripheral Equipment, NEC",
+   "ts": "2026-10-22T23:16+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [],
+   "filings": [],
+   "rsplit": null,
+   "cik": 828146
+  },
+  "forum": {
+   "rising": [
+    4,
+    5,
+    7
+   ],
+   "novel": false
+  },
+  "invalidation": 3.519,
+  "news": null,
+  "urgent": false,
+  "urgent_why": [],
+  "telegram_sent": true,
+  "outcome": {
+   "days": 1,
+   "last_close": 4.139999866485596,
+   "last_pct": -0.0,
+   "max_close_pct": -0.0,
+   "max_high_pct": 4.6,
+   "d1_pct": -0.0
+  }
  }
 ]
