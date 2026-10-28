@@ -24,6 +24,15 @@ MAIN_MIN_ADD = 4               # ...and at least +N vs 24h ago
 PENNY_MIN_MENTIONS = 3         # pennystocks filter
 PENNY_MIN_ADD = 2
 MIN_SMOOTHED_GROWTH = 2.0      # (now+2)/(base+2)
+# Shadow gate (experiment): tickers that pass these looser values but not the gate above are still checked
+# and logged in candidates.json (tag relaxed_gate) but never alerted. After 1-2 weeks the weekly report shows
+# whether they run as often as the regular ones; only then lower the real gate.
+SHADOW_GATE = True
+SHADOW_MAIN_MIN_MENTIONS = 3
+SHADOW_MAIN_MIN_ADD = 2
+SHADOW_PENNY_MIN_MENTIONS = 2
+SHADOW_PENNY_MIN_ADD = 1
+SHADOW_MIN_SMOOTHED_GROWTH = 1.5
 
 # ---------- Price / fundamentals gates ----------
 MAX_MOVE_PCT = 15.0            # price vs previous close; above this = "already moved"
@@ -72,7 +81,17 @@ ALERT_MIN_SCORE_SMALL = 4     # lower bar for small caps (market cap under SMALL
 SMALL_CAP_M = 300.0           # $M
 REALERT_HOURS = 24
 REALERT_SCORE_JUMP = 2
-MAX_CANDIDATES_TO_ENRICH = 20  # limit network calls per run
+MAX_CANDIDATES_TO_ENRICH = 200 # was 20: now every candidate is checked; the time budget below is the real limit
+ENRICH_TIME_BUDGET_S = 480     # stop enriching after 8 minutes (the job times out at 12); the rest is logged as "not checked"
+LARGE_CAP_CACHE_DAYS = 7       # a cached "too large" market cap skips the ticker for this many days...
+LARGE_CAP_CACHE_DAYS_FAR = 30  # ...or this many when the cap is 4x+ the limit (a $14B stock won't drop under $500M)
+
+# ---------- News entry path (a fresh strong press release creates a candidate, even with no forum buzz) ----------
+NEWS_PATH = True
+NEWS_PATH_HOURS = 18           # only releases this fresh open a candidate (covers last evening + overnight)
+NEWS_PATH_MAX = 25             # at most this many news-only candidates per run, newest first
+ALERT_MIN_SCORE_NEWS = 2       # strong release + at least one more point (float, short, volume, big deal...)
+                               # (starting point, not proven: news-path alerts are tagged and measured separately)
 
 # ---------- Learning loop (scanner/review.py) ----------
 CANDLOG_MIN_SCORE = 3          # every candidate with this score or more is logged with its outcome after 5 days

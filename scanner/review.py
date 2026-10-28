@@ -10,7 +10,7 @@ from . import config, sources
 
 # why-text fragment -> short tag used for statistics (order matters: first match wins per reason)
 TAGS = [
-    ("כותבים בלבד", "one_author"), ("שיח עולה", "rising"), ("חדשה בשיח", "novel"),
+    ("נכנסה דרך ידיעה", "news_path"), ("שער מוקל", "relaxed_gate"), ("כותבים בלבד", "one_author"), ("שיח עולה", "rising"), ("חדשה בשיח", "novel"),
     ("עסקה גדולה ביחס לשווי", "pr_big"), ("PR חזק", "pr_strong"), ("PR שלילי", "pr_negative"), ("PR רגיל", "pr_weak"),
     ("SEC חזק", "sec_strong"), ("SEC שלילי", "sec_negative"), ("SEC רגיל", "sec_weak"),
     ("האצה", "accel"), ("אזכורים ב-3 שעות", "vel3h"), ("פיזור", "spread"), ("כותבים שונים", "authors"),
@@ -20,6 +20,7 @@ TAGS = [
     ("חברה מ", "asia"),
 ]
 TAG_HE = {
+    "news_path": "נכנסה דרך ידיעה (בלי שיח)", "relaxed_gate": "שער אזכורים מוקל (ניסוי)",
     "rising": "שיח עולה כמה ימים", "novel": "חדשה בשיח", "pr_strong": "PR חזק", "pr_big": "עסקה ≥10% מהשווי", "pr_weak": "PR רגיל", "pr_negative": "PR שלילי",
     "sec_strong": "SEC חזק (8-K 1.01/2.01, 13D)", "sec_weak": "SEC רגיל", "sec_negative": "SEC שלילי", "accel": "האצה מול הבסיס",
     "vel3h": "קצב ב-3 שעות", "spread": "פיזור בין פורומים", "authors": "כותבים שונים ברדיט", "st_trend": "טרנד בסטוקטוויטס",
