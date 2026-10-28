@@ -1939,7 +1939,7 @@
    "first_utc": "2026-10-28T13:52+00:00"
   },
   "ONDS": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "subs": [
     "Shortsqueeze"
@@ -2105,6 +2105,22 @@
     "smallstreetbets"
    ],
    "first_utc": "2026-10-28T15:17+00:00"
+  },
+  "UUUU": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T16:45+00:00"
+  },
+  "RKLB": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T16:45+00:00"
   }
  }
 }

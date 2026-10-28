@@ -1156,5 +1156,49 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-10-28|ENPH": {
+  "ts": "2026-10-28T17:07+00:00",
+  "ticker": "ENPH",
+  "score": 6,
+  "max_score": 6,
+  "price": 24.7,
+  "move_pct": -17.0,
+  "cap_m": 3260.0,
+  "blocked": [
+   "שווי $3260M"
+  ],
+  "tags": [
+   "accel",
+   "novel",
+   "st_trend",
+   "short",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-28|PRME": {
+  "ts": "2026-10-28T17:07+00:00",
+  "ticker": "PRME",
+  "score": 5,
+  "max_score": 5,
+  "price": 5.235,
+  "move_pct": 20.34,
+  "cap_m": 950.42,
+  "blocked": [
+   "כבר זזה +20%",
+   "שווי $950M"
+  ],
+  "tags": [
+   "accel",
+   "vel3h",
+   "novel",
+   "short"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }
