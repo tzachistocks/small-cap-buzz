@@ -40,6 +40,10 @@ jobs:
           TELEGRAM_URGENT_CHAT_ID: ${{ secrets.TELEGRAM_URGENT_CHAT_ID }}
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          TG_API_ID: ${{ secrets.TG_API_ID }}
+          TG_API_HASH: ${{ secrets.TG_API_HASH }}
+          TG_SESSION: ${{ secrets.TG_SESSION }}
+          TG_CHATS: ${{ secrets.TG_CHATS }}
         run: python -m scanner.main
 
       - name: Save data
