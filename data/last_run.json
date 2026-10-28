@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-28T22:07+00:00",
+ "ts": "2026-10-28T22:18+00:00",
  "reddit_ok": true,
  "stocktwits_trending": 30,
  "apewisdom_main": 300,
@@ -13,34 +13,37 @@
   "stocks",
   "wallstreetbets"
  ],
- "candidates": 15,
+ "candidates": 4,
  "telegram_groups": {
-  "mode": "off",
-  "chats_ok": 0,
-  "chats_failed": 0,
-  "messages": 0
+  "mode": "ok",
+  "chats_ok": 6,
+  "chats_failed": 3,
+  "messages": 457
  },
  "funnel": {
   "buzz_tickers": 285,
   "mention_gate": 20,
   "reddit_path": 0,
-  "telegram_path": 0,
+  "telegram_path": 1,
   "news_path": 6,
-  "skipped_large_cache": 23,
+  "skipped_large_cache": 35,
   "shadow_gate": 12,
-  "to_check": 15,
-  "checked": 15,
+  "to_check": 4,
+  "checked": 4,
   "not_checked_time": 0,
   "blocked": {
-   "שווי": 12,
-   "כבר": 3
+   "כבר": 1
   },
-  "below_score": 0,
+  "below_score": 1,
   "cooldown": 2,
   "shadow_would_alert": 0,
   "sent": 0,
   "send_failed": 0
  },
  "not_checked": [],
- "errors": []
+ "errors": [
+  "Telegram groups: chat #7 unreadable (UsernameInvalidError)",
+  "Telegram groups: chat #8 unreadable (ValueError)",
+  "Telegram groups: chat #9 unreadable (ValueError)"
+ ]
 }

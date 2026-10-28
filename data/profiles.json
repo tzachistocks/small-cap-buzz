@@ -96,5 +96,12 @@
   "asia": null,
   "sic": "Pharmaceutical Preparations",
   "ts": "2026-10-28T21:08+00:00"
+ },
+ "FUND": {
+  "country": "CT",
+  "inc": "MD",
+  "asia": null,
+  "sic": "",
+  "ts": "2026-10-28T22:19+00:00"
  }
 }
