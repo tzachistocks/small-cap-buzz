@@ -1027,5 +1027,25 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-10-28|BB": {
+  "ts": "2026-10-28T12:07+00:00",
+  "ticker": "BB",
+  "score": 4,
+  "max_score": 4,
+  "price": 9.53,
+  "move_pct": 3.7,
+  "cap_m": 5580.0,
+  "blocked": [
+   "שווי $5580M"
+  ],
+  "tags": [
+   "accel",
+   "spread",
+   "rising"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }
