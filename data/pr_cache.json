@@ -1,29 +1,5 @@
 [
  {
-  "ticker": "INV",
-  "title": "INV Deadline: INV Investors Have Opportunity to Lead Innventure, Inc. Securities Fraud Lawsuit",
-  "src": "PR Newswire",
-  "ts": "2026-10-24T21:23+00:00"
- },
- {
-  "ticker": "FTK",
-  "title": "Flotek Deadline: FTK Investors Have Opportunity to Lead Flotek Industries, Inc. Securities Fraud Lawsuit",
-  "src": "PR Newswire",
-  "ts": "2026-10-25T00:01+00:00"
- },
- {
-  "ticker": "HYLN",
-  "title": "HYLN Deadline: HYLN Investors Have Opportunity to Lead Hyliion Holdings Corp. Securities Fraud Lawsuit",
-  "src": "PR Newswire",
-  "ts": "2026-10-24T23:21+00:00"
- },
- {
-  "ticker": "NCPL",
-  "title": "NCPL Investors Have Opportunity to Lead Netcapital Inc. Securities Fraud Lawsuit Filed by The Rosen Law Firm",
-  "src": "PR Newswire",
-  "ts": "2026-10-24T23:16+00:00"
- },
- {
   "ticker": "BETR",
   "title": "BETR Investors Have Opportunity to Lead Better Home &amp; Finance Holding Company Securities Fraud Lawsuit",
   "src": "PR Newswire",
@@ -550,5 +526,17 @@
   "title": "Envista Announces Release of 2025 Sustainability Report",
   "src": "PR Newswire",
   "ts": "2026-10-27T20:34+00:00"
+ },
+ {
+  "ticker": "RRC",
+  "title": "$HAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Range Resources Corporation (NYSE: RRC)",
+  "src": "PR Newswire",
+  "ts": "2026-10-28T07:00+00:00"
+ },
+ {
+  "ticker": "SGRY",
+  "title": "$HAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Surgery Partners, Inc. (NASDAQ: SGRY)",
+  "src": "PR Newswire",
+  "ts": "2026-10-28T07:00+00:00"
  }
 ]
