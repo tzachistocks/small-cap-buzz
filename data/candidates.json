@@ -1047,5 +1047,28 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-10-28|FLEX": {
+  "ts": "2026-10-28T13:07+00:00",
+  "ticker": "FLEX",
+  "score": 6,
+  "max_score": 6,
+  "price": 93.0,
+  "move_pct": 20.79,
+  "cap_m": 34360.0,
+  "blocked": [
+   "כבר זזה +21%",
+   "שווי $34360M"
+  ],
+  "tags": [
+   "accel",
+   "spread",
+   "rising",
+   "novel",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }
