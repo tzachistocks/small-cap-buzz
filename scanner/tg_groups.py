@@ -27,6 +27,10 @@ def _chat_ref(s):
         s = s[len("t.me/"):]
         if s.startswith("s/"):
             s = s[2:]
+        # private invite link (t.me/+HASH or t.me/joinchat/HASH): keep the full link. Telethon resolves it
+        # only if the account already joined the chat (the scanner never joins anything by itself).
+        if s.startswith("+") or s.startswith("joinchat/"):
+            return "https://t.me/" + s.split("?")[0]
     s = s.split("/")[0].split("?")[0]
     if s.lstrip("-").isdigit():
         return int(s)
@@ -40,7 +44,11 @@ def chat_list():
 
 def chat_list_raw():
     """Chat names as written in the secret (only used to scrub them from error messages)."""
-    return [str(x) for x in chat_list() if len(str(x)) >= 4]
+    out = []
+    for x in chat_list():
+        x = str(x)
+        out.append(x.rsplit("/", 1)[-1].lstrip("+") if x.startswith("https://") else x)  # the invite hash too
+    return [x for x in out if len(x) >= 4]
 
 
 def configured():
@@ -118,7 +126,8 @@ def telegram_counts(known):
                     break
             except Exception as e:  # no chat name in the error: the repo is public
                 STATUS["chats_failed"] += 1
-                ERRORS.append(f"Telegram groups: chat #{i} unreadable ({type(e).__name__})")
+                hint = " - private invite link: join it in the Telegram app first" if str(ref).startswith("https://") else ""
+                ERRORS.append(f"Telegram groups: chat #{i} unreadable ({type(e).__name__}){hint}")
             time.sleep(config.TG_SLEEP_BETWEEN_CHATS_S)
     finally:
         try:
