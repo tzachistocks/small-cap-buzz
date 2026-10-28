@@ -1004,5 +1004,28 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-10-28|VRT": {
+  "ts": "2026-10-28T11:07+00:00",
+  "ticker": "VRT",
+  "score": 7,
+  "max_score": 7,
+  "price": 243.6,
+  "move_pct": 21.93,
+  "cap_m": 93830.0,
+  "blocked": [
+   "כבר זזה +22%",
+   "שווי $93830M"
+  ],
+  "tags": [
+   "accel",
+   "vel3h",
+   "spread",
+   "st_trend",
+   "xueqiu"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }
