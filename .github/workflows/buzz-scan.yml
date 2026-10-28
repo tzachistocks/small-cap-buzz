@@ -43,7 +43,7 @@ jobs:
           TG_API_ID: ${{ secrets.TG_API_ID }}
           TG_API_HASH: ${{ secrets.TG_API_HASH }}
           TG_SESSION: ${{ secrets.TG_SESSION }}
-          TG_CHATS: ${{ secrets.TG_CHATS }}
+          TG_CHATS: ${{ vars.TG_CHATS || secrets.TG_CHATS }}
         run: python -m scanner.main
 
       - name: Save data
