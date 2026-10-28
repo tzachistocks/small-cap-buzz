@@ -1,11 +1,5 @@
 [
  {
-  "ticker": "GIL",
-  "title": "GIL Investors Have Opportunity to Lead Gildan Activewear Inc. Securities Fraud Lawsuit Filed by The Rosen Law Firm",
-  "src": "PR Newswire",
-  "ts": "2026-10-25T22:22+00:00"
- },
- {
   "ticker": "RRC",
   "title": "EQT Announces Strategic Acquisition of Range Resources, Creating America's Undisputed Natural Gas Champion",
   "src": "PR Newswire",
@@ -736,5 +730,23 @@
   "title": "Lebensmittel- und Getränkehersteller beschleunigen die Skalierung von KI über die Pilotphase hinaus",
   "src": "PR Newswire",
   "ts": "2026-10-28T21:10+00:00"
+ },
+ {
+  "ticker": "MPC",
+  "title": "Marathon Petroleum Corp. Increases Quarterly Dividend",
+  "src": "PR Newswire",
+  "ts": "2026-10-28T22:30+00:00"
+ },
+ {
+  "ticker": "ENR",
+  "title": "ENERGIZER HOLDINGS, INC. TO WEBCAST A DISCUSSION OF FOURTH QUARTER AND FISCAL YEAR 2026 RESULTS ON NOVEMBER 17",
+  "src": "PR Newswire",
+  "ts": "2026-10-28T22:30+00:00"
+ },
+ {
+  "ticker": "UWHR",
+  "title": "Uwharrie Capital Corp Third Quarter 2026 - Earnings Release",
+  "src": "PR Newswire",
+  "ts": "2026-10-28T22:18+00:00"
  }
 ]
