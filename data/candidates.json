@@ -1363,5 +1363,111 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-10-28|DBD": {
+  "ts": "2026-10-28T22:07+00:00",
+  "ticker": "DBD",
+  "score": 3,
+  "max_score": 3,
+  "price": 58.07,
+  "move_pct": -12.91,
+  "cap_m": 1970.0,
+  "blocked": [
+   "שווי $1970M"
+  ],
+  "tags": [
+   "news_path",
+   "low_float",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-28|LCII": {
+  "ts": "2026-10-28T22:07+00:00",
+  "ticker": "LCII",
+  "score": 3,
+  "max_score": 3,
+  "price": 97.59,
+  "move_pct": 8.63,
+  "cap_m": 2370.0,
+  "blocked": [
+   "שווי $2370M"
+  ],
+  "tags": [
+   "news_path",
+   "low_float",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-28|LITE": {
+  "ts": "2026-10-28T22:07+00:00",
+  "ticker": "LITE",
+  "score": 6,
+  "max_score": 6,
+  "price": 1036.0,
+  "move_pct": 19.61,
+  "cap_m": 82790.0,
+  "blocked": [
+   "כבר זזה +20%",
+   "שווי $82790M"
+  ],
+  "tags": [
+   "accel",
+   "vel3h",
+   "rising",
+   "st_trend",
+   "xueqiu"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-28|CMG": {
+  "ts": "2026-10-28T22:07+00:00",
+  "ticker": "CMG",
+  "score": 6,
+  "max_score": 6,
+  "price": 30.8835,
+  "move_pct": 10.38,
+  "cap_m": 36360.0,
+  "blocked": [
+   "שווי $36360M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "spread",
+   "st_trend",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-28|UUUU": {
+  "ts": "2026-10-28T22:07+00:00",
+  "ticker": "UUUU",
+  "score": 3,
+  "max_score": 3,
+  "price": 8.4,
+  "move_pct": 2.07,
+  "cap_m": 2220.0,
+  "blocked": [
+   "שווי $2220M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "spread",
+   "short"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }

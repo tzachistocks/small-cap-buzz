@@ -487,6 +487,7 @@
    "max_close_pct": 4.2,
    "max_high_pct": 6.1,
    "d1_pct": 4.2
-  }
+  },
+  "followups": {}
  }
 ]
