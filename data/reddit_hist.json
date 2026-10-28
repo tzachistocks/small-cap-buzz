@@ -1621,7 +1621,7 @@
   },
   "HTZ": {
    "m24_max": 2,
-   "authors24_max": 1,
+   "authors24_max": 2,
    "subs": [
     "Shortsqueeze",
     "pennystocks"
@@ -1918,7 +1918,8 @@
    "m24_max": 1,
    "authors24_max": 1,
    "subs": [
-    "pennystocks"
+    "pennystocks",
+    "smallstreetbets"
    ],
    "first_utc": "2026-10-28T14:07+00:00"
   },
@@ -2121,6 +2122,62 @@
     "pennystocks"
    ],
    "first_utc": "2026-10-28T16:45+00:00"
+  },
+  "XLAB": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T17:16+00:00"
+  },
+  "PYPD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T17:12+00:00"
+  },
+  "MANE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T17:12+00:00"
+  },
+  "HELP": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T17:12+00:00"
+  },
+  "DRTS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T17:12+00:00"
+  },
+  "CYDY": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T17:12+00:00"
+  },
+  "IOVA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T17:12+00:00"
   }
  }
 }
