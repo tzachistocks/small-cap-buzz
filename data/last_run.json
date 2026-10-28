@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-28T22:53+00:00",
+ "ts": "2026-10-28T23:07+00:00",
  "reddit_ok": true,
  "stocktwits_trending": 30,
  "apewisdom_main": 300,
@@ -22,11 +22,11 @@
  },
  "funnel": {
   "buzz_tickers": 286,
-  "mention_gate": 21,
+  "mention_gate": 20,
   "reddit_path": 0,
   "telegram_path": 1,
   "news_path": 6,
-  "skipped_large_cache": 35,
+  "skipped_large_cache": 34,
   "shadow_gate": 11,
   "to_check": 4,
   "checked": 4,
