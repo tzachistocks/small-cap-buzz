@@ -13,12 +13,6 @@
  },
  {
   "ticker": "GIL",
-  "title": "INVESTOR DEADLINE: Gildan Activewear Inc. Investors with Substantial Losses May Seek to Lead the Gildan Activewear Class Action Lawsuit Before December 14, 2026 Deadline - GIL",
-  "src": "PR Newswire",
-  "ts": "2026-10-25T14:45+00:00"
- },
- {
-  "ticker": "GIL",
   "title": "GIL Investors Have Opportunity to Lead Gildan Activewear Inc. Securities Fraud Lawsuit Filed by The Rosen Law Firm",
   "src": "PR Newswire",
   "ts": "2026-10-25T22:22+00:00"
@@ -610,5 +604,11 @@
   "title": "ManpowerGroup Elects Lidia Fonseca to its Board of Directors",
   "src": "PR Newswire",
   "ts": "2026-10-28T14:01+00:00"
+ },
+ {
+  "ticker": "ADSK",
+  "title": "Autodesk named a Leader in the IDC MarketScape: Worldwide Construction Management Software 2026 Vendor Assessment",
+  "src": "PR Newswire",
+  "ts": "2026-10-28T15:00+00:00"
  }
 ]

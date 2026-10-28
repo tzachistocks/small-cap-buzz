@@ -1071,8 +1071,8 @@
    "sample": "r/smallstreetbets: AI or SI? 🤡"
   },
   "NRXP": {
-   "m24_max": 3,
-   "authors24_max": 1,
+   "m24_max": 4,
+   "authors24_max": 2,
    "subs": [
     "Shortsqueeze",
     "pennystocks",
@@ -1082,7 +1082,7 @@
    "sample": "r/smallstreetbets: NRx Pharmaceuticals (NRXP) - FACTS: The FINRA Oct 15 short data just dropped yesterday, an"
   },
   "NEXR": {
-   "m24_max": 2,
+   "m24_max": 3,
    "authors24_max": 2,
    "subs": [
     "pennystocks"
@@ -1100,7 +1100,7 @@
    "sample": "r/smallstreetbets: SOFI $20 BY FRIDAY?"
   },
   "BRAI": {
-   "m24_max": 3,
+   "m24_max": 4,
    "authors24_max": 3,
    "subs": [
     "pennystocks",
@@ -1255,8 +1255,8 @@
    "sample": "r/smallstreetbets: Dumping all my stock and investing in BWET"
   },
   "NOV": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],
@@ -1264,8 +1264,8 @@
    "sample": "r/pennystocks: $PACB🚀🚀🚀 AI + DNA + INSIDERS - CATALYST NOV 4TH"
   },
   "PACB": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],
@@ -1273,8 +1273,8 @@
    "sample": "r/pennystocks: $PACB🚀🚀🚀 AI + DNA + INSIDERS - CATALYST NOV 4TH"
   },
   "DNA": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],
@@ -1336,7 +1336,7 @@
    "sample": "r/pennystocks: 27 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
   "BAK": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "subs": [
     "pennystocks"
@@ -1354,7 +1354,7 @@
    "sample": "r/pennystocks: 27 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
   "JBLU": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "subs": [
     "pennystocks"
@@ -1634,7 +1634,8 @@
    "subs": [
     "pennystocks"
    ],
-   "first_utc": "2026-10-28T10:05+00:00"
+   "first_utc": "2026-10-28T10:05+00:00",
+   "sample": "r/pennystocks: WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
   "WVE": {
    "m24_max": 1,
@@ -1944,6 +1945,109 @@
     "Shortsqueeze"
    ],
    "first_utc": "2026-10-28T13:49+00:00"
+  },
+  "CL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T15:06+00:00",
+   "sample": "r/pennystocks: WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "NWGL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T15:06+00:00",
+   "sample": "r/pennystocks: WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "AXG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T15:06+00:00",
+   "sample": "r/pennystocks: WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "SCKT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T15:06+00:00",
+   "sample": "r/pennystocks: WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "MEGL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T15:06+00:00",
+   "sample": "r/pennystocks: WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "TE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T15:04+00:00",
+   "sample": "r/pennystocks: 28 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "SES": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T15:04+00:00",
+   "sample": "r/pennystocks: 28 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "B": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-28T14:57+00:00"
+  },
+  "ICE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-28T14:39+00:00"
+  },
+  "VIVK": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T14:19+00:00"
+  },
+  "GVH": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T14:13+00:00"
+  },
+  "BKYI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T14:09+00:00"
   }
  }
 }

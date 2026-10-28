@@ -1092,5 +1092,26 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-10-28|TE": {
+  "ts": "2026-10-28T15:07+00:00",
+  "ticker": "TE",
+  "score": 5,
+  "max_score": 5,
+  "price": 2.47,
+  "move_pct": 0.41,
+  "cap_m": 739.76,
+  "blocked": [
+   "שווי $740M"
+  ],
+  "tags": [
+   "accel",
+   "spread",
+   "rising",
+   "short"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }

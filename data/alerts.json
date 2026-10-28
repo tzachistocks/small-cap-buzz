@@ -271,8 +271,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 4,
-   "last_close": 0.09700000286102295,
-   "last_pct": -66.9,
+   "last_close": 0.09719999879598618,
+   "last_pct": -66.8,
    "max_close_pct": -32.5,
    "max_high_pct": 17.7,
    "d1_pct": -32.5
