@@ -89,5 +89,12 @@
   "asia": null,
   "sic": "Services-Video Tape Rental",
   "ts": "2026-10-27T13:08+00:00"
+ },
+ "ANTX": {
+  "country": "CA",
+  "inc": "DE",
+  "asia": null,
+  "sic": "Pharmaceutical Preparations",
+  "ts": "2026-10-28T21:08+00:00"
  }
 }

@@ -2224,8 +2224,8 @@
    "sample": "r/Shortsqueeze: 400% $SLNH because BlackRock bought 5%, repayment of 75% of debt and APLD partnership"
   },
   "PDC": {
-   "m24_max": 2,
-   "authors24_max": 2,
+   "m24_max": 6,
+   "authors24_max": 6,
    "subs": [
     "pennystocks"
    ],
@@ -2296,6 +2296,39 @@
     "pennystocks"
    ],
    "first_utc": "2026-10-28T19:25+00:00"
+  },
+  "JD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-28T20:28+00:00",
+   "sample": "r/smallstreetbets: The US-Iran talks as per the WSJ"
+  },
+  "KPTI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T20:57+00:00"
+  },
+  "WTS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-28T20:51+00:00"
+  },
+  "BTC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-28T20:35+00:00"
   }
  }
 }

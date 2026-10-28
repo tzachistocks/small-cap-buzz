@@ -387,6 +387,106 @@
    "max_close_pct": -0.0,
    "max_high_pct": 4.6,
    "d1_pct": -0.0
+  },
+  "followups": {}
+ },
+ {
+  "id": "202610282107-ANTX",
+  "ts": "2026-10-28T21:07+00:00",
+  "ticker": "ANTX",
+  "score": 4,
+  "why": [
+   "האצה x3.5 מול הבסיס",
+   "חדשה בשיח (לא דוברה 14 יום)",
+   "פלואט 28.3M"
+  ],
+  "price": {
+   "price": 4.3373,
+   "prev_close": 3.86,
+   "move_pct": 12.37,
+   "vol_today": 545190,
+   "avg_vol20": 306410,
+   "rel_vol": 1.78,
+   "exchange": "NMS",
+   "name": "AN2 Therapeutics, Inc.",
+   "readiness": {
+    "points": 0,
+    "why": [],
+    "risk": [],
+    "asof": "2026-10-27",
+    "f": {
+     "rvol_1": 0.8008,
+     "atr_ratio": 0.6581,
+     "drawdown_60": -0.4631,
+     "vol20": 0.0556,
+     "prior_runs_120": 0.0,
+     "ret_1d": 0.0634,
+     "ret_3d": 0.0604,
+     "ret_10d": 0.0722,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.6444
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 170.57,
+   "float_m": 28.29,
+   "short_float_pct": 10.21,
+   "days_to_cover": 11.4,
+   "src": "finviz"
+  },
+  "m_now": 5,
+  "m_24h_ago": 1,
+  "spread": [
+   "pennystocks"
+  ],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 0,
+   "users": 21,
+   "bull": 12,
+   "bear": 1,
+   "oldest_min": 307144,
+   "watchlist": 527
+  },
+  "borrow": {
+   "fee": 1.7749,
+   "available": 950000,
+   "fee_5d": null,
+   "available_5d": null
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "profile": {
+   "country": "CA",
+   "inc": "DE",
+   "asia": null,
+   "sic": "Pharmaceutical Preparations",
+   "ts": "2026-10-28T21:08+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [],
+   "filings": [],
+   "rsplit": null,
+   "cik": 1880438
+  },
+  "forum": {
+   "rising": null,
+   "novel": true
+  },
+  "invalidation": 3.86,
+  "news": null,
+  "urgent": false,
+  "urgent_why": [],
+  "telegram_sent": true,
+  "outcome": {
+   "days": 1,
+   "last_close": 4.519999980926514,
+   "last_pct": 4.2,
+   "max_close_pct": 4.2,
+   "max_high_pct": 6.1,
+   "d1_pct": 4.2
   }
  }
 ]

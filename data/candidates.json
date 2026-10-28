@@ -1277,5 +1277,91 @@
   "alerted": true,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-10-28|FTNT": {
+  "ts": "2026-10-28T21:07+00:00",
+  "ticker": "FTNT",
+  "score": 8,
+  "max_score": 8,
+  "price": 129.88,
+  "move_pct": -29.79,
+  "cap_m": 127720.0,
+  "blocked": [
+   "שווי $127720M"
+  ],
+  "tags": [
+   "accel",
+   "vel3h",
+   "spread",
+   "novel",
+   "st_trend",
+   "rvol",
+   "xueqiu"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-28|ANTX": {
+  "ts": "2026-10-28T21:07+00:00",
+  "ticker": "ANTX",
+  "score": 4,
+  "max_score": 4,
+  "price": 4.3373,
+  "move_pct": 12.37,
+  "cap_m": 170.57,
+  "blocked": [],
+  "tags": [
+   "accel",
+   "novel",
+   "low_float"
+  ],
+  "alerted": true,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-28|CVNA": {
+  "ts": "2026-10-28T21:07+00:00",
+  "ticker": "CVNA",
+  "score": 5,
+  "max_score": 5,
+  "price": 64.9,
+  "move_pct": 9.57,
+  "cap_m": 64980.00000000001,
+  "blocked": [
+   "שווי $64980M"
+  ],
+  "tags": [
+   "accel",
+   "novel",
+   "st_trend",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-28|STRL": {
+  "ts": "2026-10-28T21:07+00:00",
+  "ticker": "STRL",
+  "score": 7,
+  "max_score": 7,
+  "price": 374.99,
+  "move_pct": 2.04,
+  "cap_m": 11890.0,
+  "blocked": [
+   "שווי $11890M"
+  ],
+  "tags": [
+   "accel",
+   "vel3h",
+   "novel",
+   "st_trend",
+   "low_float",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }

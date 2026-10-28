@@ -18,12 +18,6 @@
   "ts": "2026-10-25T21:39+00:00"
  },
  {
-  "ticker": "QBTS",
-  "title": "INVESTOR DEADLINE: D-Wave Quantum Inc. Investors with Substantial Losses May Seek to Lead Class Action Lawsuit Before December 15, 2026 Deadline - GIL",
-  "src": "PR Newswire",
-  "ts": "2026-10-25T21:00+00:00"
- },
- {
   "ticker": "RRC",
   "title": "EQT Announces Strategic Acquisition of Range Resources, Creating America's Undisputed Natural Gas Champion",
   "src": "PR Newswire",
@@ -700,5 +694,47 @@
   "title": "HAMILTON BEACH BRANDS HOLDING COMPANY ANNOUNCES DATES OF ITS 2026 THIRD QUARTER EARNINGS RELEASE AND CONFERENCE CALL",
   "src": "PR Newswire",
   "ts": "2026-10-28T20:05+00:00"
+ },
+ {
+  "ticker": "ROK",
+  "title": "Les fabricants de denrées alimentaires et de boissons s'empressent de déployer l'IA au-delà de la phase pilote",
+  "src": "PR Newswire",
+  "ts": "2026-10-28T21:01+00:00"
+ },
+ {
+  "ticker": "AEM",
+  "title": "AGNICO EAGLE REPORTS THIRD QUARTER 2026 RESULTS - STRONG FREE CASH FLOW GENERATION DRIVEN BY SOLID OPERATIONAL PERFORMANCE; ON TRACK TO ACHIEVE 2026 PRODUCTION AND COST GUIDANCE",
+  "src": "PR Newswire",
+  "ts": "2026-10-28T21:00+00:00"
+ },
+ {
+  "ticker": "MKL",
+  "title": "Markel Advances Strategic Focus on Specialty Insurance, Announces Adverse Development Cover Reinsurance Agreement with Enstar on Reinsurance Business",
+  "src": "PR Newswire",
+  "ts": "2026-10-28T21:00+00:00"
+ },
+ {
+  "ticker": "QUAD",
+  "title": "Quad reports third quarter and year-to-date 2026 results",
+  "src": "PR Newswire",
+  "ts": "2026-10-28T20:55+00:00"
+ },
+ {
+  "ticker": "MKL",
+  "title": "Markel Group reports 2026 third quarter and nine-months results",
+  "src": "PR Newswire",
+  "ts": "2026-10-28T20:55+00:00"
+ },
+ {
+  "ticker": "CPTP",
+  "title": "Capital Properties, Inc. Declares Regular Quarterly Dividend",
+  "src": "PR Newswire",
+  "ts": "2026-10-28T20:44+00:00"
+ },
+ {
+  "ticker": "CI",
+  "title": "The Cigna Group Declares Quarterly Dividend",
+  "src": "PR Newswire",
+  "ts": "2026-10-28T20:30+00:00"
  }
 ]

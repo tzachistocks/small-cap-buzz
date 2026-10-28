@@ -1,125 +1,27 @@
 {
- "ts": "2026-10-28T20:07+00:00",
+ "ts": "2026-10-28T21:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
   "SI": {
-   "m6": 47,
-   "m24": 47,
-   "authors6": 35,
-   "authors24": 35,
+   "m6": 43,
+   "m24": 43,
+   "authors6": 39,
+   "authors24": 39,
    "subs6": [
     "smallstreetbets"
    ],
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-10-28T19:02+00:00",
+   "first_utc": "2026-10-28T19:54+00:00",
    "sample": ""
-  },
-  "RH": {
-   "m6": 6,
-   "m24": 6,
-   "authors6": 4,
-   "authors24": 4,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-10-28T19:23+00:00",
-   "sample": "r/smallstreetbets: Stupid all in with RH delays on SPY"
-  },
-  "NEXR": {
-   "m6": 2,
-   "m24": 3,
-   "authors6": 2,
-   "authors24": 3,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-28T04:42+00:00",
-   "sample": "r/pennystocks: NEXR Nexera Technologies"
-  },
-  "BCTX": {
-   "m6": 3,
-   "m24": 3,
-   "authors6": 2,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-28T19:03+00:00",
-   "sample": ""
-  },
-  "SLS": {
-   "m6": 3,
-   "m24": 3,
-   "authors6": 2,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-28T19:03+00:00",
-   "sample": ""
-  },
-  "RZLV": {
-   "m6": 3,
-   "m24": 3,
-   "authors6": 2,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-28T19:31+00:00",
-   "sample": ""
-  },
-  "APLD": {
-   "m6": 2,
-   "m24": 2,
-   "authors6": 2,
-   "authors24": 2,
-   "subs6": [
-    "Shortsqueeze"
-   ],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-10-28T20:05+00:00",
-   "sample": "r/Shortsqueeze: 400% $SLNH because BlackRock bought 5%, repayment of 75% of debt and APLD partnership"
-  },
-  "SLNH": {
-   "m6": 2,
-   "m24": 2,
-   "authors6": 2,
-   "authors24": 2,
-   "subs6": [
-    "Shortsqueeze"
-   ],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-10-28T20:05+00:00",
-   "sample": "r/Shortsqueeze: 400% $SLNH because BlackRock bought 5%, repayment of 75% of debt and APLD partnership"
   },
   "PDC": {
-   "m6": 2,
-   "m24": 2,
-   "authors6": 2,
-   "authors24": 2,
+   "m6": 6,
+   "m24": 6,
+   "authors6": 6,
+   "authors24": 6,
    "subs6": [
     "pennystocks"
    ],
@@ -129,7 +31,36 @@
    "first_utc": "2026-10-28T19:53+00:00",
    "sample": "r/pennystocks: Anyone else still holding $PDC after today's 50% run?"
   },
-  "GPUS": {
+  "NEXR": {
+   "m6": 2,
+   "m24": 4,
+   "authors6": 2,
+   "authors24": 4,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T04:42+00:00",
+   "sample": "r/pennystocks: WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "BRAI": {
+   "m6": 1,
+   "m24": 3,
+   "authors6": 1,
+   "authors24": 3,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-28T13:22+00:00",
+   "sample": "r/pennystocks: 28 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "SURG": {
    "m6": 1,
    "m24": 2,
    "authors6": 1,
@@ -144,6 +75,20 @@
    "sample": "r/pennystocks: PENNY STOCKS TO WATCH INTO AFTER HOURS | OCT 28"
   },
   "LUNG": {
+   "m6": 1,
+   "m24": 2,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T04:42+00:00",
+   "sample": "r/pennystocks: PENNY STOCKS TO WATCH INTO AFTER HOURS | OCT 28"
+  },
+  "DRIO": {
    "m6": 1,
    "m24": 2,
    "authors6": 1,
@@ -185,7 +130,7 @@
    "first_utc": "2026-10-28T04:42+00:00",
    "sample": "r/pennystocks: PENNY STOCKS TO WATCH INTO AFTER HOURS | OCT 28"
   },
-  "SURG": {
+  "ICMB": {
    "m6": 1,
    "m24": 2,
    "authors6": 1,
@@ -213,7 +158,7 @@
    "first_utc": "2026-10-28T04:42+00:00",
    "sample": "r/pennystocks: PENNY STOCKS TO WATCH INTO AFTER HOURS | OCT 28"
   },
-  "DRIO": {
+  "GPUS": {
    "m6": 1,
    "m24": 2,
    "authors6": 1,
@@ -226,44 +171,13 @@
    ],
    "first_utc": "2026-10-28T04:42+00:00",
    "sample": "r/pennystocks: PENNY STOCKS TO WATCH INTO AFTER HOURS | OCT 28"
-  },
-  "ICMB": {
-   "m6": 1,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-28T04:42+00:00",
-   "sample": "r/pennystocks: PENNY STOCKS TO WATCH INTO AFTER HOURS | OCT 28"
-  },
-  "BRAI": {
-   "m6": 1,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks",
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-10-28T13:22+00:00",
-   "sample": "r/pennystocks: 28 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
   "ELPW": {
-   "m6": 1,
+   "m6": 0,
    "m24": 2,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks",
     "smallstreetbets"
@@ -271,19 +185,33 @@
    "first_utc": "2026-10-28T13:22+00:00",
    "sample": "r/pennystocks: 28 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
-  "MW": {
+  "JD": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
    "authors24": 1,
    "subs6": [
-    "Shortsqueeze"
+    "smallstreetbets"
    ],
    "subs24": [
-    "Shortsqueeze"
+    "smallstreetbets"
    ],
-   "first_utc": "2026-10-28T20:05+00:00",
-   "sample": "r/Shortsqueeze: 400% $SLNH because BlackRock bought 5%, repayment of 75% of debt and APLD partnership"
+   "first_utc": "2026-10-28T20:28+00:00",
+   "sample": "r/smallstreetbets: The US-Iran talks as per the WSJ"
+  },
+  "RH": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-28T19:23+00:00",
+   "sample": "r/smallstreetbets: Stupid all in with RH delays on SPY"
   },
   "HBM": {
    "m6": 1,
@@ -300,13 +228,11 @@
    "sample": "r/smallstreetbets: Sk Hynix will moon"
   },
   "CL": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
@@ -314,27 +240,11 @@
    "sample": "r/pennystocks: WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
   "NWGL": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-28T15:06+00:00",
-   "sample": "r/pennystocks: WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-  },
-  "MEGL": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
@@ -342,27 +252,11 @@
    "sample": "r/pennystocks: WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
   "SCKT": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-28T15:06+00:00",
-   "sample": "r/pennystocks: WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-  },
-  "AXG": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
@@ -370,55 +264,47 @@
    "sample": "r/pennystocks: WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
   "SHFS": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
    "first_utc": "2026-10-28T15:06+00:00",
    "sample": "r/pennystocks: WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
-  "BAK": {
-   "m6": 1,
+  "MEGL": {
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-10-28T15:04+00:00",
-   "sample": "r/pennystocks: 28 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+   "first_utc": "2026-10-28T15:06+00:00",
+   "sample": "r/pennystocks: WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "AXG": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T15:06+00:00",
+   "sample": "r/pennystocks: WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
   "SES": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-28T15:04+00:00",
-   "sample": "r/pennystocks: 28 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-  },
-  "TE": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
@@ -426,13 +312,35 @@
    "sample": "r/pennystocks: 28 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
   "JBLU": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
+   "subs6": [],
+   "subs24": [
     "pennystocks"
    ],
+   "first_utc": "2026-10-28T15:04+00:00",
+   "sample": "r/pennystocks: 28 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "TE": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T15:04+00:00",
+   "sample": "r/pennystocks: 28 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "BAK": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
@@ -499,18 +407,6 @@
    "first_utc": "2026-10-27T22:53+00:00",
    "sample": "r/smallstreetbets: NRx Pharmaceuticals (NRXP) - FACTS: The FINRA Oct 15 short data just dropped yesterday, an"
   },
-  "SOFI": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-10-27T22:01+00:00",
-   "sample": "r/smallstreetbets: SOFI $20 BY FRIDAY?"
-  },
   "EMA": {
    "m6": 0,
    "m24": 1,
@@ -523,7 +419,7 @@
    "first_utc": "2026-10-27T22:01+00:00",
    "sample": "r/smallstreetbets: SOFI $20 BY FRIDAY?"
   },
-  "BWET": {
+  "SOFI": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -532,8 +428,64 @@
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-10-27T20:17+00:00",
-   "sample": "r/smallstreetbets: Dumping all my stock and investing in BWET"
+   "first_utc": "2026-10-27T22:01+00:00",
+   "sample": "r/smallstreetbets: SOFI $20 BY FRIDAY?"
+  },
+  "KPTI": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T20:57+00:00",
+   "sample": ""
+  },
+  "WTS": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-28T20:51+00:00",
+   "sample": ""
+  },
+  "BTC": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-28T20:35+00:00",
+   "sample": ""
+  },
+  "DT": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-28T20:18+00:00",
+   "sample": ""
   },
   "EONR": {
    "m6": 1,
@@ -547,6 +499,34 @@
     "pennystocks"
    ],
    "first_utc": "2026-10-28T20:06+00:00",
+   "sample": ""
+  },
+  "SLNH": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-10-28T20:05+00:00",
+   "sample": ""
+  },
+  "APLD": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-10-28T20:05+00:00",
    "sample": ""
   },
   "SVRE": {
@@ -589,104 +569,6 @@
     "pennystocks"
    ],
    "first_utc": "2026-10-28T19:58+00:00",
-   "sample": ""
-  },
-  "NLST": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-28T19:53+00:00",
-   "sample": ""
-  },
-  "NAUT": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-28T19:48+00:00",
-   "sample": ""
-  },
-  "WST": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-10-28T19:39+00:00",
-   "sample": ""
-  },
-  "AP": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-10-28T19:39+00:00",
-   "sample": ""
-  },
-  "GYGY": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-28T19:25+00:00",
-   "sample": ""
-  },
-  "KEEL": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-28T19:07+00:00",
-   "sample": ""
-  },
-  "ONDS": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-28T19:04+00:00",
    "sample": ""
   }
  },
