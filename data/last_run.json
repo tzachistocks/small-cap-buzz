@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-28T22:50+00:00",
+ "ts": "2026-10-28T22:53+00:00",
  "reddit_ok": true,
  "stocktwits_trending": 30,
  "apewisdom_main": 300,
@@ -16,9 +16,9 @@
  "candidates": 4,
  "telegram_groups": {
   "mode": "ok",
-  "chats_ok": 9,
+  "chats_ok": 14,
   "chats_failed": 0,
-  "messages": 623
+  "messages": 629
  },
  "funnel": {
   "buzz_tickers": 286,
