@@ -1345,8 +1345,8 @@
    "sample": "r/pennystocks: 27 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
   "PDSB": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],
@@ -1620,7 +1620,7 @@
    "first_utc": "2026-10-28T08:51+00:00"
   },
   "HTZ": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "subs": [
     "Shortsqueeze",
@@ -1629,8 +1629,8 @@
    "first_utc": "2026-10-28T08:14+00:00"
   },
   "SHFS": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 4,
+   "authors24_max": 4,
    "subs": [
     "pennystocks"
    ],
@@ -2001,8 +2001,8 @@
    "sample": "r/pennystocks: 28 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
   "SES": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 3,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],
@@ -2048,6 +2048,63 @@
     "pennystocks"
    ],
    "first_utc": "2026-10-28T14:09+00:00"
+  },
+  "DH": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-28T15:17+00:00"
+  },
+  "HBM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-28T15:44+00:00",
+   "sample": "r/smallstreetbets: Sk Hynix will moon"
+  },
+  "OSRH": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T15:33+00:00"
+  },
+  "CI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-28T15:26+00:00"
+  },
+  "IR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T15:21+00:00"
+  },
+  "MBOT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T15:21+00:00"
+  },
+  "IRS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-28T15:17+00:00"
   }
  }
 }

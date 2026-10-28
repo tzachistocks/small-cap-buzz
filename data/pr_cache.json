@@ -1,17 +1,5 @@
 [
  {
-  "ticker": "HIMS",
-  "title": "INVESTOR DEADLINE: Hims &amp; Hers Health, Inc. (HIMS) Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit Before November 2, 2026 Deadline",
-  "src": "PR Newswire",
-  "ts": "2026-10-25T15:24+00:00"
- },
- {
-  "ticker": "FLNC",
-  "title": "Fluence Energy, Inc. (FLNC) Investors Have Opportunity to Lead Securities Fraud Class Action Lawsuit - Kessler Topaz Meltzer &amp; Check, LLP",
-  "src": "PR Newswire",
-  "ts": "2026-10-25T15:23+00:00"
- },
- {
   "ticker": "GIL",
   "title": "GIL Investors Have Opportunity to Lead Gildan Activewear Inc. Securities Fraud Lawsuit Filed by The Rosen Law Firm",
   "src": "PR Newswire",
@@ -610,5 +598,29 @@
   "title": "Autodesk named a Leader in the IDC MarketScape: Worldwide Construction Management Software 2026 Vendor Assessment",
   "src": "PR Newswire",
   "ts": "2026-10-28T15:00+00:00"
+ },
+ {
+  "ticker": "AER",
+  "title": "AerCap Holdings N.V. Announces Filing of Interim Financial Report for the Third Quarter of 2026",
+  "src": "PR Newswire",
+  "ts": "2026-10-28T16:03+00:00"
+ },
+ {
+  "ticker": "CP",
+  "title": "Canadian Pacific Kansas City Limited declares dividend",
+  "src": "PR Newswire",
+  "ts": "2026-10-28T16:00+00:00"
+ },
+ {
+  "ticker": "RVT",
+  "title": "Royce Small-Cap Trust (NYSE: RVT) as of Sep 30, 2026",
+  "src": "PR Newswire",
+  "ts": "2026-10-28T15:58+00:00"
+ },
+ {
+  "ticker": "RMT",
+  "title": "Royce Micro-Cap Trust (NYSE: RMT) as of Sep 30, 2026",
+  "src": "PR Newswire",
+  "ts": "2026-10-28T15:57+00:00"
  }
 ]

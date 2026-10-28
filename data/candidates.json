@@ -1113,5 +1113,48 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-10-28|BOOM": {
+  "ts": "2026-10-28T16:07+00:00",
+  "ticker": "BOOM",
+  "score": 8,
+  "max_score": 8,
+  "price": 7.415,
+  "move_pct": 38.6,
+  "cap_m": 151.59,
+  "blocked": [
+   "כבר זזה +39%"
+  ],
+  "tags": [
+   "accel",
+   "vel3h",
+   "spread",
+   "novel",
+   "low_float",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-28|LRCX": {
+  "ts": "2026-10-28T16:07+00:00",
+  "ticker": "LRCX",
+  "score": 4,
+  "max_score": 4,
+  "price": 253.22,
+  "move_pct": 5.14,
+  "cap_m": 316540.0,
+  "blocked": [
+   "שווי $316540M"
+  ],
+  "tags": [
+   "accel",
+   "vel3h",
+   "xueqiu"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }
