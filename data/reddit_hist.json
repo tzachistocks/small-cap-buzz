@@ -1100,8 +1100,8 @@
    "sample": "r/smallstreetbets: SOFI $20 BY FRIDAY?"
   },
   "BRAI": {
-   "m24_max": 2,
-   "authors24_max": 2,
+   "m24_max": 3,
+   "authors24_max": 3,
    "subs": [
     "pennystocks",
     "smallstreetbets"
@@ -1147,8 +1147,8 @@
    "first_utc": "2026-10-28T05:23+00:00"
   },
   "SURG": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],
@@ -1183,8 +1183,8 @@
    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 28"
   },
   "DAVI": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],
@@ -1625,6 +1625,102 @@
     "Shortsqueeze"
    ],
    "first_utc": "2026-10-28T08:14+00:00"
+  },
+  "SHFS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T10:05+00:00"
+  },
+  "WVE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T10:05+00:00"
+  },
+  "UBS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T10:05+00:00"
+  },
+  "VNDA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T10:04+00:00"
+  },
+  "CDT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T10:04+00:00"
+  },
+  "STAK": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T10:04+00:00"
+  },
+  "AVXL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T10:04+00:00"
+  },
+  "GLND": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T10:04+00:00"
+  },
+  "AKAN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T10:04+00:00"
+  },
+  "WTF": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-28T10:00+00:00"
+  },
+  "WH": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-28T10:00+00:00"
+  },
+  "AKA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-28T09:49+00:00"
   }
  }
 }
