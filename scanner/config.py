@@ -68,6 +68,8 @@ ONE_AUTHOR_MAX_AUTHORS = 2     # ... from this few authors = one person pushing 
 
 # ---------- Scoring ----------
 ALERT_MIN_SCORE = 6           # raised from 5 when volume/watchers/borrow/xueqiu points were added
+ALERT_MIN_SCORE_SMALL = 4     # lower bar for small caps (market cap under SMALL_CAP_M)
+SMALL_CAP_M = 300.0           # $M
 REALERT_HOURS = 24
 REALERT_SCORE_JUMP = 2
 MAX_CANDIDATES_TO_ENRICH = 20  # limit network calls per run
