@@ -2347,8 +2347,8 @@
    "first_utc": "2026-10-28T21:10+00:00"
   },
   "SKHY": {
-   "m24_max": 4,
-   "authors24_max": 3,
+   "m24_max": 6,
+   "authors24_max": 5,
    "subs": [
     "smallstreetbets"
    ],
