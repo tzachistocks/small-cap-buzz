@@ -2,16 +2,41 @@
 import json
 import os
 import statistics
+import time
 from datetime import datetime, timezone, timedelta
 
 import requests
 
-from . import config, sources, extras, review, news
+from . import config, sources, extras, review, news, tg_groups
 from .storage import Store
 
 NOW = datetime.now(timezone.utc)
 EXTRA_STATUS = {}
 REVIEW_STATUS = {}
+# where candidates drop out, per run (saved in last_run.json and shown in the run summary)
+FUNNEL = {"buzz_tickers": 0, "mention_gate": 0, "reddit_path": 0, "telegram_path": 0, "news_path": 0, "skipped_large_cache": 0,
+          "shadow_gate": 0, "to_check": 0, "checked": 0, "not_checked_time": 0, "blocked": {}, "below_score": 0, "cooldown": 0,
+          "shadow_would_alert": 0, "sent": 0, "send_failed": 0}
+
+
+def news_path_candidates(wire_map, already):
+    """Tickers with a fresh STRONG press release (not an offering) that are not candidates yet.
+    Newest first, at most NEWS_PATH_MAX. They enter with no forum signal; the score decides the rest."""
+    cutoff = (NOW - timedelta(hours=config.NEWS_PATH_HOURS)).isoformat(timespec="minutes")
+    found = []
+    for t, items in wire_map.items():
+        if t in already or t in config.LARGE_CAPS or t in config.WORD_TICKERS:
+            continue
+        fresh = [it for it in items if it["ts"] >= cutoff]
+        strong = [it for it in fresh if news.classify(it["title"])[0] == "strong"]
+        if not strong or any(news.classify(it["title"])[1] == "offering" for it in fresh):
+            continue
+        best = max(strong, key=lambda it: it["ts"])
+        found.append({"ticker": t, "name": "", "m_now": 0, "m_24h_ago": 0, "m_3h_ago": None, "baseline7d": 0,
+                      "vel3h": None, "accel": 0, "spread": [], "gate": True, "word": False, "path": "news",
+                      "news_title": best["title"], "news_ts": best["ts"]})
+    found.sort(key=lambda b: b["news_ts"], reverse=True)
+    return found[:config.NEWS_PATH_MAX]
 
 
 def is_etf(name):
@@ -89,10 +114,16 @@ def buzz_rows(snap, subs, history):
         penny_gate = bool(p and p["mentions"] >= config.PENNY_MIN_MENTIONS
                           and p["mentions"] - p["mentions_24h_ago"] >= config.PENNY_MIN_ADD
                           and smoothed(p["mentions"], p["mentions_24h_ago"]) >= config.MIN_SMOOTHED_GROWTH)
+        shadow_gate = config.SHADOW_GATE and not (main_gate or penny_gate) and (
+            (t in snap["main"] and m_now >= config.SHADOW_MAIN_MIN_MENTIONS and m_now - m_24 >= config.SHADOW_MAIN_MIN_ADD
+             and smoothed(m_now, m_24) >= config.SHADOW_MIN_SMOOTHED_GROWTH)
+            or bool(p and p["mentions"] >= config.SHADOW_PENNY_MIN_MENTIONS
+                    and p["mentions"] - p["mentions_24h_ago"] >= config.SHADOW_PENNY_MIN_ADD
+                    and smoothed(p["mentions"], p["mentions_24h_ago"]) >= config.SHADOW_MIN_SMOOTHED_GROWTH))
         out[t] = {"ticker": t, "name": name, "m_now": m_now, "m_24h_ago": m_24, "m_3h_ago": past3,
                   "baseline7d": baseline, "vel3h": (m_now - past3) if past3 is not None else None,
                   "accel": round(smoothed(m_now, baseline), 2), "spread": spread,
-                  "gate": main_gate or penny_gate, "word": t in config.WORD_TICKERS,
+                  "gate": main_gate or penny_gate, "shadow_gate": shadow_gate, "word": t in config.WORD_TICKERS,
                   "rising": rising, "rise_seq": seq if rising else None, "novel": novel}
     return out
 
@@ -120,6 +151,11 @@ def score(b, rd, st_trend, st, fund, x=None):
         pts += 1; why.append(f"חדשה בשיח (לא דוברה {config.NOVELTY_DAYS} יום)")
     if rd and rd.get("m24", 0) >= config.ONE_AUTHOR_MIN_MENTIONS and rd.get("authors24", 99) <= config.ONE_AUTHOR_MAX_AUTHORS:
         pts -= 1; why.append(f"⚠️ {rd['m24']} אזכורים ברדיט מ-{rd['authors24']} כותבים בלבד")
+    tg = x.get("telegram")
+    if tg and tg["authors24"] >= config.TG_MIN_AUTHORS and tg["chats24"] >= config.TG_MIN_CHATS:
+        pts += 1; why.append(f"בטלגרם: {tg['m24']} אזכורים מ-{tg['authors24']} כותבים ב-{tg['chats24']} קבוצות")
+    elif tg and tg["m24"] >= 3:
+        why.append(f"טלגרם רגיל: {tg['m24']} אזכורים ב-{tg['chats24']} קבוצות")
     if b["ticker"] in st_trend:
         pts += 1; why.append("בטרנד של סטוקטוויטס")
     if st and st.get("msgs_6h", 0) >= 10:
@@ -194,6 +230,7 @@ def scrub_errors():
     A network error message can contain a full URL, e.g. .../bot<TOKEN>/sendMessage or ?key=<API KEY>."""
     secrets = [s for s in (config.TELEGRAM_BOT_TOKEN, config.TELEGRAM_CHAT_ID, config.TELEGRAM_URGENT_CHAT_ID,
                            config.REDDIT_CLIENT_ID, config.REDDIT_SECRET, config.YOUTUBE_API_KEY,
+                           config.TG_API_HASH, config.TG_SESSION, *tg_groups.chat_list_raw(),
                            os.getenv("SEC_USER_AGENT", "").strip()) if s and len(s) >= 5]
     for i, e in enumerate(sources.ERRORS):
         e = str(e)
@@ -283,6 +320,7 @@ def urgent_check(c, b, x):
 def format_alert(c, record):
     p = c["price"]
     head = (f"🔥 מועמדת חזקה: ${c['ticker']} (ציון {c['score']})" if c.get("urgent")
+            else f"📰 קטליזטור טרי: ${c['ticker']} (ציון {c['score']})" if c.get("news_title")
             else f"🔔 באז מתהווה: ${c['ticker']} (ציון {c['score']})")
     lines = [head]
     if c.get("urgent"):
@@ -353,6 +391,7 @@ def run():
     buzz = buzz_rows(snap, subs, history)
 
     rd_counts, rd_ok = sources.reddit_counts(known) if known else ({}, False)
+    tg_counts, tg_ok = tg_groups.telegram_counts(known) if known else ({}, False)
     st_trend = sources.stocktwits_trending()
     xq = extras.xueqiu_hot_us()
     promoted = extras.promoted_tickers(known) if known else set()
@@ -366,22 +405,58 @@ def run():
     borrow_hist = store.load_json("borrow_hist.json", {})
     EXTRA_STATUS.update(xq=xq, promoted=promoted)
 
-    # candidates: passed the mention gate, or strong reddit-only spread
-    cands = [b for b in buzz.values() if b["gate"]]
+    # candidates: passed the mention gate, or strong reddit-only spread, or a fresh strong press release
+    cands = [dict(b, path="buzz") for b in buzz.values() if b["gate"]]
+    FUNNEL["buzz_tickers"] = len(buzz)
+    FUNNEL["mention_gate"] = len(cands)
+    gated = {b["ticker"] for b in cands}
     for t, r in rd_counts.items():
-        if t not in buzz and r["authors6"] >= 4 and len(r["subs6"]) >= 2 and t not in config.WORD_TICKERS:
-            cands.append({"ticker": t, "name": "", "m_now": r["m24"], "m_24h_ago": 0, "m_3h_ago": None,
-                          "baseline7d": 0, "vel3h": None, "accel": 0, "spread": [], "gate": True, "word": False})
-    # skip tickers already known to be too large (cache refreshed weekly) so the slots go to small caps
+        # also for tickers ApeWisdom saw but that failed its gate: Reddit is a second, independent chance
+        if t not in gated and r["authors6"] >= 4 and len(r["subs6"]) >= 2 and t not in config.WORD_TICKERS:
+            if t in buzz:  # keep its ApeWisdom numbers
+                cands.append(dict(buzz[t], gate=True, path="reddit"))
+            else:
+                cands.append({"ticker": t, "name": "", "m_now": r["m24"], "m_24h_ago": 0, "m_3h_ago": None,
+                              "baseline7d": 0, "vel3h": None, "accel": 0, "spread": [], "gate": True, "word": False,
+                              "path": "reddit"})
+    FUNNEL["reddit_path"] = len(cands) - FUNNEL["mention_gate"]
+    gated = {b["ticker"] for b in cands}
+    for t, r in tg_counts.items():
+        if (t not in gated and r["authors6"] >= config.TG_PATH_MIN_AUTHORS6 and r["chats6"] >= config.TG_PATH_MIN_CHATS6
+                and t not in config.WORD_TICKERS):
+            base = buzz.get(t) or {"ticker": t, "name": "", "m_now": 0, "m_24h_ago": 0, "m_3h_ago": None,
+                                   "baseline7d": 0, "vel3h": None, "accel": 0, "spread": [], "word": False}
+            cands.append(dict(base, gate=True, path="telegram"))
+    FUNNEL["telegram_path"] = len(cands) - FUNNEL["mention_gate"] - FUNNEL["reddit_path"]
+    news_all = news_path_candidates(wire_map, set()) if config.NEWS_PATH else []
+    have = {b["ticker"]: b for b in cands}
+    for n in news_all:  # already a candidate by buzz/reddit/telegram: it still gets the news-path alert bar
+        if n["ticker"] in have:
+            have[n["ticker"]].update(news_title=n["news_title"], news_ts=n["news_ts"])
+    news_cands = [n for n in news_all if n["ticker"] not in have]
+    FUNNEL["news_path"] = len(news_cands)
+    in_cands = {b["ticker"] for b in cands} | {b["ticker"] for b in news_cands}
+    shadow_cands = [dict(b, path="shadow") for b in buzz.values()
+                    if b.get("shadow_gate") and b["ticker"] not in in_cands and not b["word"]]
+    FUNNEL["shadow_gate"] = len(shadow_cands)
+    # skip tickers already known to be too large (cached caps) so the run time goes to small caps
     caps = store.load_json("caps.json", {})
     def known_large(t):
         c = caps.get(t)
-        return bool(c and c.get("cap") and c["cap"] > config.MAX_MARKET_CAP_M
-                    and (NOW - datetime.fromisoformat(c["ts"])).days < 7)
-    skipped_large = [b["ticker"] for b in cands if known_large(b["ticker"])]
+        if not (c and c.get("cap") and c["cap"] > config.MAX_MARKET_CAP_M):
+            return False
+        days = config.LARGE_CAP_CACHE_DAYS_FAR if c["cap"] >= 4 * config.MAX_MARKET_CAP_M else config.LARGE_CAP_CACHE_DAYS
+        return (NOW - datetime.fromisoformat(c["ts"])).days < days
+    skipped_large = [b["ticker"] for b in cands + news_cands + shadow_cands if known_large(b["ticker"])]
     cands = [b for b in cands if not known_large(b["ticker"])]
+    news_cands = [b for b in news_cands if not known_large(b["ticker"])]
+    shadow_cands = [b for b in shadow_cands if not known_large(b["ticker"])]
+    shadow_cands.sort(key=lambda b: (b["accel"], b["m_now"]), reverse=True)
+    FUNNEL["skipped_large_cache"] = len(skipped_large)
     cands.sort(key=lambda b: (b["accel"], b["m_now"]), reverse=True)
-    cands = cands[:config.MAX_CANDIDATES_TO_ENRICH]
+    # news first (few, time-sensitive), shadow last (the time budget cuts them first)
+    cands = (news_cands + cands + shadow_cands)[:config.MAX_CANDIDATES_TO_ENRICH]
+    FUNNEL["to_check"] = len(cands)
 
     state = store.load_json("state.json", {})
     # one-time hello message once Telegram secrets are set, so the connection can be verified
@@ -399,8 +474,15 @@ def run():
         state.pop(t, None)
     record = track_record(alerts)
     report = []
-    for b in cands:
+    t_start = time.monotonic()
+    not_checked = []
+    for i, b in enumerate(cands):
         t = b["ticker"]
+        if time.monotonic() - t_start > config.ENRICH_TIME_BUDGET_S:
+            not_checked = [x["ticker"] for x in cands[i:]]
+            FUNNEL["not_checked_time"] = len(not_checked)
+            sources.ERRORS.append(f"time budget: {len(not_checked)} candidates not checked")
+            break
         price = sources.price_snapshot(t)
         fund = sources.fundamentals(t)
         if fund and fund.get("market_cap_m"):
@@ -426,7 +508,8 @@ def run():
             block.append(f"כבר רצה {rf['ret_3d']*100:+.0f}% ב-3 ימים")
         elif rf.get("ret_10d") is not None and rf["ret_10d"] * 100 >= config.MAX_RUN_10D_PCT:
             block.append(f"כבר רצה {rf['ret_10d']*100:+.0f}% ב-10 ימים")
-        x = {"price": price, "xueqiu": xq.get(t), "youtube": yt.get(t), "promoted": t in promoted}
+        x = {"price": price, "xueqiu": xq.get(t), "youtube": yt.get(t), "promoted": t in promoted,
+             "telegram": tg_counts.get(t)}
         rs_ages = [int(rf["days_since_rsplit"])] if rf.get("days_since_rsplit") is not None else []
         st, prof = None, None
         if not block:  # extra calls only for names that can still alert
@@ -444,6 +527,12 @@ def run():
         if x["rsplit_age"] is not None and x["rsplit_age"] <= config.RSPLIT_BLOCK_DAYS:
             block.append(f"איחוד מניות טרי ({x['rsplit_age']} ימים) – חשד לעיוות")
         pts, why = score(b, rd, st_trend, st, fund, x)
+        if b.get("path") == "news":
+            why = [f"📰 נכנסה דרך ידיעה: {b['news_title'][:70]}"] + why
+        elif b.get("news_title"):
+            why = [f"📰 ידיעה טרייה: {b['news_title'][:70]}"] + why
+        elif b.get("path") == "shadow":
+            why = [f"🧪 שער מוקל ({b['m_24h_ago']}→{b['m_now']}), מעקב בלבד"] + why
         c = dict(b, price=price, fund=fund, stocktwits=st, reddit=rd or {}, score=pts, why=why,
                  borrow=x.get("borrow"), profile=prof)
         if prof and prof.get("asia"):
@@ -458,16 +547,30 @@ def run():
         c["blocked"] = block
         c["urgent"], c["urgent_why"] = urgent_check(c, b, x)
         report.append(c)
+        FUNNEL["checked"] += 1
 
         min_score = config.ALERT_MIN_SCORE
         if mc and mc < config.SMALL_CAP_M:
             min_score = config.ALERT_MIN_SCORE_SMALL
-        if block or pts < min_score:
+            # news path: a strong, still-fresh release on a small cap that hasn't moved yet
+            if b.get("news_title") and (x.get("news") or {}).get("class") == "strong":
+                min_score = min(min_score, config.ALERT_MIN_SCORE_NEWS)
+        if block:
+            for r in block:
+                k = r.split(" ")[0]
+                FUNNEL["blocked"][k] = FUNNEL["blocked"].get(k, 0) + 1
+            continue
+        if pts < min_score:
+            FUNNEL["below_score"] += 1
+            continue
+        if b.get("path") == "shadow":  # experiment: measured in candidates.json, never sent
+            FUNNEL["shadow_would_alert"] += 1
             continue
         last = state.get(t)
         if last:
             age_h = (NOW - datetime.fromisoformat(last["ts"])).total_seconds() / 3600
             if age_h < config.REALERT_HOURS and pts < last["score"] + config.REALERT_SCORE_JUMP:
+                FUNNEL["cooldown"] += 1
                 continue
         text = format_alert(c, record)
         sent = send_telegram(text, urgent=c["urgent"])
@@ -475,13 +578,22 @@ def run():
                  "score": pts, "why": why, "price": price, "fund": fund, "m_now": b["m_now"],
                  "m_24h_ago": b["m_24h_ago"], "spread": b["spread"], "reddit": rd or {},
                  "stocktwits": st, "borrow": x.get("borrow"), "xueqiu": x.get("xueqiu"),
-                 "youtube": x.get("youtube"), "profile": prof, "sec": x.get("sec"),
+                 "youtube": x.get("youtube"), "telegram": x.get("telegram"), "profile": prof, "sec": x.get("sec"),
                  "forum": {"rising": b.get("rise_seq"), "novel": b.get("novel")},
                  "invalidation": review.invalidation_level(price), "news": x.get("news"),
-                 "urgent": c["urgent"], "urgent_why": c["urgent_why"],
+                 "urgent": c["urgent"], "urgent_why": c["urgent_why"], "path": b.get("path", "buzz"),
                  "telegram_sent": sent, "outcome": {}}
-        alerts.append(alert)
-        state[t] = {"ts": alert["ts"], "score": pts}
+        if sent:
+            alerts.append(alert)
+            state[t] = {"ts": alert["ts"], "score": pts}  # cooldown starts only after a delivered message
+            FUNNEL["sent"] += 1
+        else:
+            # not delivered: keep it out of alerts.json and the cooldown, so the next run tries again
+            failed = store.load_json("alerts_failed.json", [])
+            failed = (failed + [{"ts": alert["ts"], "ticker": t, "score": pts,
+                                 "error": (sources.ERRORS[-1] if sources.ERRORS else "")[:160]}])[-200:]
+            store.save_json("alerts_failed.json", failed)
+            FUNNEL["send_failed"] += 1
 
     run_ts = NOW.isoformat(timespec="minutes")
     alerted_now = {a["ticker"] for a in alerts if a["ts"] == run_ts}
@@ -509,6 +621,8 @@ def run():
     store.save_json("last_run.json", {"ts": NOW.isoformat(timespec="minutes"), "reddit_ok": rd_ok,
                                       "stocktwits_trending": len(st_trend), "apewisdom_main": len(snap["main"]),
                                       "apewisdom_subs": sorted(subs), "candidates": len(report),
+                                      "telegram_groups": {k: tg_groups.STATUS[k] for k in ("mode", "chats_ok", "chats_failed", "messages")},
+                                      "funnel": FUNNEL, "not_checked": not_checked[:50],
                                       "errors": sources.ERRORS[-30:]})
     store.prune(config.KEEP_SNAPSHOT_DAYS)
     write_summary(report, alerts, rd_ok, snap, subs, record, skipped_large)
@@ -546,6 +660,8 @@ def write_summary(report, alerts, rd_ok, snap, subs, record, skipped_large=()):
              f"Xueqiu (סין): {extras.STATUS.get('xueqiu') or str(len(EXTRA_STATUS.get('xq', {}))) + ' מניות חמות'} | "
              f"קידום בתשלום: {extras.STATUS.get('promoters') or str(len(EXTRA_STATUS.get('promoted', ()))) + ' מניות'} | "
              f"השאלות IBKR: {extras.STATUS.get('ibkr', 'לא נבדק')} | YouTube: {'פעיל' if config.YOUTUBE_API_KEY else 'לא מוגדר'}",
+             f"קבוצות טלגרם: {dict(off='לא מוגדר', failed='נכשל', ok='פעיל').get(tg_groups.STATUS['mode'])}"
+             f" ({tg_groups.STATUS['chats_ok']} נקראו, {tg_groups.STATUS['chats_failed']} נכשלו, {tg_groups.STATUS['messages']} הודעות)",
              f"הודעות לעיתונות: {news.STATUS.get('wires', 'לא נבדק')} | Yahoo חדשות: "
              f"{news.STATUS.get('yahoo_ok', 0)} הצליחו, {news.STATUS.get('yahoo_fail', 0)} נכשלו",
              f"שגיאות בהרצה: {len(sources.ERRORS)}", "", f"**{record}**", "",
@@ -560,6 +676,13 @@ def write_summary(report, alerts, rd_ok, snap, subs, record, skipped_large=()):
                      f"{'; '.join(c['why'])} | {'; '.join(c['blocked']) or '✅'} |")
     if skipped_large:
         lines += ["", f"דולגו (שווי גבוה, ממטמון): {', '.join(skipped_large)}"]
+    fz = FUNNEL
+    lines += ["", "**משפך:** "
+              f"{fz['buzz_tickers']} טיקרים בשיח → {fz['mention_gate']} עברו שער אזכורים + {fz['reddit_path']} מרדיט"
+              f" + {fz['telegram_path']} מטלגרם + {fz['news_path']} מידיעות + {fz['shadow_gate']} בשער מוקל (מעקב) → {fz['skipped_large_cache']} דולגו (גדולות) → {fz['checked']} נבדקו"
+              f" ({fz['not_checked_time']} לא נבדקו, זמן) → חסומות: "
+              + (", ".join(f"{k} {v}" for k, v in sorted(fz['blocked'].items(), key=lambda kv: -kv[1])) or "0")
+              + f" → מתחת לציון {fz['below_score']} → שער מוקל שהיה מתריע {fz['shadow_would_alert']} → השתקה {fz['cooldown']} → נשלחו {fz['sent']}, נכשלו {fz['send_failed']}"]
     new = [a for a in alerts if a["ts"] == NOW.isoformat(timespec="minutes")]
     lines += ["", f"התראות בהרצה הזו: {', '.join(a['ticker'] for a in new) or 'אין'}"]
     if REVIEW_STATUS.get("followed"):

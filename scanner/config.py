@@ -114,6 +114,21 @@ REDDIT_USER_AGENT = os.getenv("REDDIT_USER_AGENT", "").strip() or "script:small-
 
 BLOCK_ON_PROMOTION = True      # paid promotion on stockpromoters.com blocks the alert
 
+# ---------- Telegram groups (optional, read with your own account via Telethon) ----------
+# All four come from GitHub Secrets. TG_CHATS: comma/line separated @names, t.me links or numeric ids.
+# The chat list is a secret on purpose: the repo is public, and nothing written to data/ names a chat.
+TG_API_ID = os.getenv("TG_API_ID", "").strip()
+TG_API_HASH = os.getenv("TG_API_HASH", "").strip()
+TG_SESSION = os.getenv("TG_SESSION", "").strip()
+TG_CHATS = os.getenv("TG_CHATS", "").strip()
+TG_MAX_MESSAGES_PER_CHAT = 400  # newest first, stops at 24h back
+TG_SLEEP_BETWEEN_CHATS_S = 1.5  # gentle pace (read-only, but don't look like a flood)
+TG_TIME_BUDGET_S = 120
+TG_MIN_AUTHORS = 3              # +1 point / entry path: this many distinct authors in 24h ...
+TG_MIN_CHATS = 2                # ... across this many chats
+TG_PATH_MIN_AUTHORS6 = 3        # entry path (no forum gate needed): authors in the last 6h ...
+TG_PATH_MIN_CHATS6 = 2          # ... across this many chats
+
 # ---------- YouTube (optional, free API key) ----------
 YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY", "").strip()
 
