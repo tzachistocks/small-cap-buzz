@@ -459,7 +459,10 @@ def run():
         c["urgent"], c["urgent_why"] = urgent_check(c, b, x)
         report.append(c)
 
-        if block or pts < config.ALERT_MIN_SCORE:
+        min_score = config.ALERT_MIN_SCORE
+        if mc and mc < config.SMALL_CAP_M:
+            min_score = config.ALERT_MIN_SCORE_SMALL
+        if block or pts < min_score:
             continue
         last = state.get(t)
         if last:
