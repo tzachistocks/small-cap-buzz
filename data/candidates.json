@@ -2091,5 +2091,89 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-10-29|LOT": {
+  "ts": "2026-10-29T17:07+00:00",
+  "ticker": "LOT",
+  "score": 3,
+  "max_score": 3,
+  "price": 0.4449,
+  "move_pct": -2.22,
+  "cap_m": 285.03,
+  "blocked": [],
+  "tags": [
+   "vel3h",
+   "spread"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-29|SAP": {
+  "ts": "2026-10-29T17:07+00:00",
+  "ticker": "SAP",
+  "score": 4,
+  "max_score": 4,
+  "price": 233.285,
+  "move_pct": -1.54,
+  "cap_m": 263430.0,
+  "blocked": [
+   "שווי $263430M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "spread"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-29|SNOW": {
+  "ts": "2026-10-29T17:07+00:00",
+  "ticker": "SNOW",
+  "score": 3,
+  "max_score": 3,
+  "price": 329.93,
+  "move_pct": -2.94,
+  "cap_m": 116510.0,
+  "blocked": [
+   "שווי $116510M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-29|GYGY": {
+  "ts": "2026-10-29T17:07+00:00",
+  "ticker": "GYGY",
+  "score": 6,
+  "max_score": 6,
+  "price": 0.4078,
+  "move_pct": 11.7,
+  "cap_m": 5.9,
+  "blocked": [
+   "דיווח הנפקה: 424B3 2026-10-26, 424B3 2026-10-26"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "spread",
+   "authors",
+   "low_float",
+   "borrow_fee",
+   "short",
+   "sec_negative"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }

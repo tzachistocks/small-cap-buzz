@@ -2468,7 +2468,7 @@
    "sample": "r/pennystocks: 28 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
   "INO": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "subs": [
     "pennystocks"
@@ -2829,20 +2829,23 @@
    "first_utc": "2026-10-29T09:38+00:00"
   },
   "ANTX": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 3,
+   "authors24_max": 2,
    "subs": [
-    "pennystocks"
+    "pennystocks",
+    "smallstreetbets"
    ],
-   "first_utc": "2026-10-29T09:16+00:00"
+   "first_utc": "2026-10-29T09:16+00:00",
+   "sample": "r/smallstreetbets: ANTX 🚀"
   },
   "GYGY": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 6,
+   "authors24_max": 4,
    "subs": [
     "pennystocks"
    ],
-   "first_utc": "2026-10-29T09:11+00:00"
+   "first_utc": "2026-10-29T09:11+00:00",
+   "sample": "r/pennystocks: GYGY - up we go!"
   },
   "AGI": {
    "m24_max": 1,
@@ -3078,9 +3081,11 @@
    "m24_max": 1,
    "authors24_max": 1,
    "subs": [
-    "pennystocks"
+    "pennystocks",
+    "smallstreetbets"
    ],
-   "first_utc": "2026-10-29T14:52+00:00"
+   "first_utc": "2026-10-29T14:52+00:00",
+   "sample": "r/smallstreetbets: ANTX 🚀"
   },
   "EVAX": {
    "m24_max": 1,
@@ -3088,7 +3093,8 @@
    "subs": [
     "pennystocks"
    ],
-   "first_utc": "2026-10-29T14:52+00:00"
+   "first_utc": "2026-10-29T14:52+00:00",
+   "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
   },
   "GL": {
    "m24_max": 1,
@@ -3121,6 +3127,110 @@
     "pennystocks"
    ],
    "first_utc": "2026-10-29T15:16+00:00"
+  },
+  "VPRB": {
+   "m24_max": 4,
+   "authors24_max": 4,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T16:19+00:00",
+   "sample": "r/pennystocks: $VPRB: $8M Market Cap, $18.9M in Patent-Related Cash Receipts, and Trading at $0.09? 👀"
+  },
+  "BWET": {
+   "m24_max": 3,
+   "authors24_max": 2,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T16:45+00:00"
+  },
+  "FTNT": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T17:03+00:00",
+   "sample": "r/smallstreetbets: FTNT 🥴"
+  },
+  "DAIC": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T16:27+00:00",
+   "sample": "r/pennystocks: GYGY - up we go!"
+  },
+  "STOK": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T16:14+00:00",
+   "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
+  },
+  "IVVD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T16:14+00:00",
+   "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
+  },
+  "BBIO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T16:14+00:00",
+   "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
+  },
+  "ARTL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T16:14+00:00",
+   "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
+  },
+  "INBX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T16:14+00:00",
+   "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
+  },
+  "DEFT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T17:00+00:00"
+  },
+  "CRMD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T16:50+00:00"
+  },
+  "GVH": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T16:38+00:00"
   }
  }
 }

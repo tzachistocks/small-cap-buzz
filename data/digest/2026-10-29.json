@@ -1,29 +1,30 @@
 {
  "date": "2026-10-29",
- "generated_at": "2026-10-29T16:07+00:00",
+ "generated_at": "2026-10-29T17:07+00:00",
  "final": false,
  "runs": {
-  "count": 6,
+  "count": 7,
   "first": "2026-10-29T11:07+00:00",
-  "last": "2026-10-29T16:07+00:00",
+  "last": "2026-10-29T17:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 1714,
-   "mention_gate": 126,
+   "buzz_tickers": 1998,
+   "mention_gate": 145,
    "reddit_path": 1,
-   "telegram_path": 0,
+   "telegram_path": 1,
    "news_path": 7,
-   "skipped_large_cache": 231,
-   "shadow_gate": 143,
-   "to_check": 46,
-   "checked": 46,
+   "skipped_large_cache": 269,
+   "shadow_gate": 172,
+   "to_check": 57,
+   "checked": 57,
    "not_checked_time": 0,
    "blocked": {
-    "שווי": 9,
-    "כבר": 19,
-    "איחוד": 1
+    "שווי": 11,
+    "כבר": 22,
+    "איחוד": 2,
+    "דיווח": 1
    },
-   "below_score": 9,
-   "cooldown": 9,
+   "below_score": 12,
+   "cooldown": 11,
    "shadow_would_alert": 1,
    "sent": 2,
    "send_failed": 0
@@ -32,7 +33,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 592
+   "messages": 589
   },
   "per_run": [
    {
@@ -76,6 +77,13 @@
     "sent": 0,
     "send_failed": 0,
     "errors_n": 0
+   },
+   {
+    "ts": "2026-10-29T17:07+00:00",
+    "checked": 11,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 0
    }
   ]
  },
@@ -106,11 +114,11 @@
    "news": null,
    "outcome": {
     "days": 1,
-    "last_close": 2.734999895095825,
-    "last_pct": 1.7,
-    "max_close_pct": 1.7,
+    "last_close": 2.7100000381469727,
+    "last_pct": 0.7,
+    "max_close_pct": 0.7,
     "max_high_pct": 3.0,
-    "d1_pct": 1.7
+    "d1_pct": 0.7
    }
   },
   {
@@ -137,11 +145,11 @@
    "news": null,
    "outcome": {
     "days": 1,
-    "last_close": 4.880499839782715,
-    "last_pct": 3.1,
-    "max_close_pct": 3.1,
+    "last_close": 4.75,
+    "last_pct": 0.3,
+    "max_close_pct": 0.3,
     "max_high_pct": 3.5,
-    "d1_pct": 3.1
+    "d1_pct": 0.3
    }
   },
   {
@@ -169,11 +177,11 @@
    "news": "Stoneridge and Kodiak AI Announce Collaboration to Advance Autonomous Commercial Vehicles",
    "outcome": {
     "days": 1,
-    "last_close": 1.350000023841858,
-    "last_pct": -2.9,
-    "max_close_pct": -2.9,
+    "last_close": 1.3277000188827515,
+    "last_pct": -4.5,
+    "max_close_pct": -4.5,
     "max_high_pct": 2.9,
-    "d1_pct": -2.9
+    "d1_pct": -4.5
    }
   }
  ],
@@ -328,9 +336,9 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 4.28380012512207,
-    "last_pct": 3.5,
-    "max_close_pct": 3.5,
+    "last_close": 4.090000152587891,
+    "last_pct": -1.2,
+    "max_close_pct": -0.0,
     "max_high_pct": 4.6,
     "d1_pct": -0.0
    }
@@ -357,9 +365,9 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 4.880499839782715,
-    "last_pct": 12.5,
-    "max_close_pct": 12.5,
+    "last_close": 4.75,
+    "last_pct": 9.5,
+    "max_close_pct": 9.5,
     "max_high_pct": 13.0,
     "d1_pct": 4.2
    }
@@ -520,6 +528,31 @@
    "urgent": false
   },
   {
+   "ts": "2026-10-29T17:07+00:00",
+   "ticker": "GYGY",
+   "score": 6,
+   "max_score": 6,
+   "price": 0.4078,
+   "move_pct": 11.7,
+   "cap_m": 5.9,
+   "blocked": [
+    "דיווח הנפקה: 424B3 2026-10-26, 424B3 2026-10-26"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "spread",
+    "authors",
+    "low_float",
+    "borrow_fee",
+    "short",
+    "sec_negative"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
    "ts": "2026-10-29T13:07+00:00",
    "ticker": "NCPL",
    "score": 5,
@@ -664,6 +697,26 @@
     "low_float",
     "rvol",
     "rsplit"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-10-29T17:07+00:00",
+   "ticker": "SAP",
+   "score": 4,
+   "max_score": 4,
+   "price": 233.285,
+   "move_pct": -1.54,
+   "cap_m": 263430.0,
+   "blocked": [
+    "שווי $263430M"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "spread"
    ],
    "alerted": false,
    "urgent": false
@@ -818,6 +871,41 @@
     "accel",
     "vel3h",
     "novel"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-10-29T17:07+00:00",
+   "ticker": "LOT",
+   "score": 3,
+   "max_score": 3,
+   "price": 0.4449,
+   "move_pct": -2.22,
+   "cap_m": 285.03,
+   "blocked": [],
+   "tags": [
+    "vel3h",
+    "spread"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-10-29T17:07+00:00",
+   "ticker": "SNOW",
+   "score": 3,
+   "max_score": 3,
+   "price": 329.93,
+   "move_pct": -2.94,
+   "cap_m": 116510.0,
+   "blocked": [
+    "שווי $116510M"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h"
    ],
    "alerted": false,
    "urgent": false
@@ -2113,6 +2201,15 @@
     "first_utc": "2026-10-29T05:25+00:00",
     "sample": "r/pennystocks: SMALL CAP BIOTECH STOCKS WITH POTENTIAL FOR A SHORT SQUEEZE"
    },
+   "GYGY": {
+    "m24_max": 6,
+    "authors24_max": 4,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T09:11+00:00",
+    "sample": "r/pennystocks: GYGY - up we go!"
+   },
    "AIBT": {
     "m24_max": 5,
     "authors24_max": 3,
@@ -2195,6 +2292,15 @@
     ],
     "first_utc": "2026-10-29T12:00+00:00",
     "sample": "r/smallstreetbets: $open 👀"
+   },
+   "VPRB": {
+    "m24_max": 4,
+    "authors24_max": 4,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T16:19+00:00",
+    "sample": "r/pennystocks: $VPRB: $8M Market Cap, $18.9M in Patent-Related Cash Receipts, and Trading at $0.09? 👀"
    },
    "PDC": {
     "m24_max": 3,
@@ -2279,6 +2385,16 @@
     "first_utc": "2026-10-28T13:22+00:00",
     "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
    },
+   "ANTX": {
+    "m24_max": 3,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks",
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-29T09:16+00:00",
+    "sample": "r/smallstreetbets: ANTX 🚀"
+   },
    "INLF": {
     "m24_max": 3,
     "authors24_max": 3,
@@ -2297,6 +2413,14 @@
     ],
     "first_utc": "2026-10-29T12:15+00:00"
    },
+   "BWET": {
+    "m24_max": 3,
+    "authors24_max": 2,
+    "subs": [
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-29T16:45+00:00"
+   },
    "ICMB": {
     "m24_max": 2,
     "authors24_max": 1,
@@ -2305,6 +2429,15 @@
     ],
     "first_utc": "2026-10-28T19:09+00:00",
     "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
+   },
+   "INO": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T05:25+00:00",
+    "sample": "r/pennystocks: SMALL CAP BIOTECH STOCKS WITH POTENTIAL FOR A SHORT SQUEEZE"
    },
    "NXTS": {
     "m24_max": 2,
@@ -2375,14 +2508,23 @@
     ],
     "first_utc": "2026-10-29T14:49+00:00"
    },
-   "INO": {
-    "m24_max": 1,
-    "authors24_max": 1,
+   "FTNT": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "subs": [
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-29T17:03+00:00",
+    "sample": "r/smallstreetbets: FTNT 🥴"
+   },
+   "DAIC": {
+    "m24_max": 2,
+    "authors24_max": 2,
     "subs": [
      "pennystocks"
     ],
-    "first_utc": "2026-10-29T05:25+00:00",
-    "sample": "r/pennystocks: SMALL CAP BIOTECH STOCKS WITH POTENTIAL FOR A SHORT SQUEEZE"
+    "first_utc": "2026-10-29T16:27+00:00",
+    "sample": "r/pennystocks: GYGY - up we go!"
    },
    "JDZG": {
     "m24_max": 1,
@@ -2392,60 +2534,6 @@
     ],
     "first_utc": "2026-10-29T02:53+00:00",
     "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
-   },
-   "PYPL": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-10-29T02:43+00:00",
-    "sample": "r/smallstreetbets: Old good PayPal"
-   },
-   "NIVF": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-28T19:09+00:00",
-    "sample": "r/pennystocks: PENNY STOCKS TO WATCH INTO AFTER HOURS | OCT 28"
-   },
-   "LUNG": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-28T19:09+00:00",
-    "sample": "r/pennystocks: PENNY STOCKS TO WATCH INTO AFTER HOURS | OCT 28"
-   },
-   "SNTI": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-28T19:09+00:00",
-    "sample": "r/pennystocks: PENNY STOCKS TO WATCH INTO AFTER HOURS | OCT 28"
-   },
-   "SURG": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-28T19:09+00:00",
-    "sample": "r/pennystocks: PENNY STOCKS TO WATCH INTO AFTER HOURS | OCT 28"
-   },
-   "DRIO": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-28T19:09+00:00",
-    "sample": "r/pennystocks: PENNY STOCKS TO WATCH INTO AFTER HOURS | OCT 28"
    }
   },
   "telegram_top": {
@@ -2509,6 +2597,12 @@
     "chats24_max": 1,
     "first_utc": "2026-10-28T12:54+00:00"
    },
+   "EBAY": {
+    "m24_max": 6,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-28T19:49+00:00"
+   },
    "WHF": {
     "m24_max": 5,
     "authors24_max": 1,
@@ -2527,11 +2621,11 @@
     "chats24_max": 1,
     "first_utc": "2026-10-28T20:11+00:00"
    },
-   "EBAY": {
+   "DAN": {
     "m24_max": 5,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-28T19:49+00:00"
+    "first_utc": "2026-10-28T19:28+00:00"
    },
    "SAY": {
     "m24_max": 5,
@@ -2550,12 +2644,6 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-10-29T13:46+00:00"
-   },
-   "DAN": {
-    "m24_max": 4,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-28T19:28+00:00"
    },
    "TMUS": {
     "m24_max": 4,
