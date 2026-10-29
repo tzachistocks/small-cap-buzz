@@ -2840,7 +2840,7 @@
   },
   "GYGY": {
    "m24_max": 6,
-   "authors24_max": 4,
+   "authors24_max": 5,
    "subs": [
     "pennystocks"
    ],
@@ -3138,7 +3138,7 @@
    "sample": "r/pennystocks: $VPRB: $8M Market Cap, $18.9M in Patent-Related Cash Receipts, and Trading at $0.09? 👀"
   },
   "BWET": {
-   "m24_max": 3,
+   "m24_max": 4,
    "authors24_max": 2,
    "subs": [
     "smallstreetbets"
@@ -3231,6 +3231,48 @@
     "pennystocks"
    ],
    "first_utc": "2026-10-29T16:38+00:00"
+  },
+  "BBAI": {
+   "m24_max": 8,
+   "authors24_max": 5,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T17:16+00:00",
+   "sample": "r/pennystocks: Again BBAI...lets talk about the Q3"
+  },
+  "HPQ": {
+   "m24_max": 3,
+   "authors24_max": 3,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T17:29+00:00",
+   "sample": "r/pennystocks: HPQ Silicon and PyroGenesis Fumed Silica Technology"
+  },
+  "SOFI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T18:00+00:00"
+  },
+  "SNDK": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T17:43+00:00"
+  },
+  "CG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T17:35+00:00"
   }
  }
 }

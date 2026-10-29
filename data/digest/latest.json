@@ -1,30 +1,30 @@
 {
  "date": "2026-10-29",
- "generated_at": "2026-10-29T17:07+00:00",
+ "generated_at": "2026-10-29T18:07+00:00",
  "final": false,
  "runs": {
-  "count": 7,
+  "count": 8,
   "first": "2026-10-29T11:07+00:00",
-  "last": "2026-10-29T17:07+00:00",
+  "last": "2026-10-29T18:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 1998,
-   "mention_gate": 145,
+   "buzz_tickers": 2281,
+   "mention_gate": 166,
    "reddit_path": 1,
-   "telegram_path": 1,
+   "telegram_path": 2,
    "news_path": 7,
-   "skipped_large_cache": 269,
-   "shadow_gate": 172,
-   "to_check": 57,
-   "checked": 57,
+   "skipped_large_cache": 308,
+   "shadow_gate": 197,
+   "to_check": 65,
+   "checked": 65,
    "not_checked_time": 0,
    "blocked": {
     "שווי": 11,
-    "כבר": 22,
-    "איחוד": 2,
-    "דיווח": 1
+    "כבר": 25,
+    "איחוד": 3,
+    "דיווח": 2
    },
-   "below_score": 12,
-   "cooldown": 11,
+   "below_score": 14,
+   "cooldown": 13,
    "shadow_would_alert": 1,
    "sent": 2,
    "send_failed": 0
@@ -33,7 +33,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 589
+   "messages": 600
   },
   "per_run": [
    {
@@ -84,6 +84,13 @@
     "sent": 0,
     "send_failed": 0,
     "errors_n": 0
+   },
+   {
+    "ts": "2026-10-29T18:07+00:00",
+    "checked": 8,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 0
    }
   ]
  },
@@ -114,11 +121,11 @@
    "news": null,
    "outcome": {
     "days": 1,
-    "last_close": 2.7100000381469727,
-    "last_pct": 0.7,
-    "max_close_pct": 0.7,
+    "last_close": 2.684999942779541,
+    "last_pct": -0.2,
+    "max_close_pct": -0.2,
     "max_high_pct": 3.0,
-    "d1_pct": 0.7
+    "d1_pct": -0.2
    }
   },
   {
@@ -145,11 +152,11 @@
    "news": null,
    "outcome": {
     "days": 1,
-    "last_close": 4.75,
-    "last_pct": 0.3,
-    "max_close_pct": 0.3,
+    "last_close": 4.710000038146973,
+    "last_pct": -0.5,
+    "max_close_pct": -0.5,
     "max_high_pct": 3.5,
-    "d1_pct": 0.3
+    "d1_pct": -0.5
    }
   },
   {
@@ -177,11 +184,11 @@
    "news": "Stoneridge and Kodiak AI Announce Collaboration to Advance Autonomous Commercial Vehicles",
    "outcome": {
     "days": 1,
-    "last_close": 1.3277000188827515,
-    "last_pct": -4.5,
-    "max_close_pct": -4.5,
+    "last_close": 1.315000057220459,
+    "last_pct": -5.4,
+    "max_close_pct": -5.4,
     "max_high_pct": 2.9,
-    "d1_pct": -4.5
+    "d1_pct": -5.4
    }
   }
  ],
@@ -336,8 +343,8 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 4.090000152587891,
-    "last_pct": -1.2,
+    "last_close": 4.074999809265137,
+    "last_pct": -1.6,
     "max_close_pct": -0.0,
     "max_high_pct": 4.6,
     "d1_pct": -0.0
@@ -365,9 +372,9 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 4.75,
-    "last_pct": 9.5,
-    "max_close_pct": 9.5,
+    "last_close": 4.710000038146973,
+    "last_pct": 8.6,
+    "max_close_pct": 8.6,
     "max_high_pct": 13.0,
     "d1_pct": 4.2
    }
@@ -2192,6 +2199,15 @@
     "first_utc": "2026-10-29T00:08+00:00",
     "sample": "r/Shortsqueeze: I Just bought todays dip on $HTZ"
    },
+   "BBAI": {
+    "m24_max": 8,
+    "authors24_max": 5,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T17:16+00:00",
+    "sample": "r/pennystocks: Again BBAI...lets talk about the Q3"
+   },
    "NRXP": {
     "m24_max": 6,
     "authors24_max": 5,
@@ -2203,7 +2219,7 @@
    },
    "GYGY": {
     "m24_max": 6,
-    "authors24_max": 4,
+    "authors24_max": 5,
     "subs": [
      "pennystocks"
     ],
@@ -2301,6 +2317,14 @@
     ],
     "first_utc": "2026-10-29T16:19+00:00",
     "sample": "r/pennystocks: $VPRB: $8M Market Cap, $18.9M in Patent-Related Cash Receipts, and Trading at $0.09? 👀"
+   },
+   "BWET": {
+    "m24_max": 4,
+    "authors24_max": 2,
+    "subs": [
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-29T16:45+00:00"
    },
    "PDC": {
     "m24_max": 3,
@@ -2413,13 +2437,14 @@
     ],
     "first_utc": "2026-10-29T12:15+00:00"
    },
-   "BWET": {
+   "HPQ": {
     "m24_max": 3,
-    "authors24_max": 2,
+    "authors24_max": 3,
     "subs": [
-     "smallstreetbets"
+     "pennystocks"
     ],
-    "first_utc": "2026-10-29T16:45+00:00"
+    "first_utc": "2026-10-29T17:29+00:00",
+    "sample": "r/pennystocks: HPQ Silicon and PyroGenesis Fumed Silica Technology"
    },
    "ICMB": {
     "m24_max": 2,
@@ -2516,24 +2541,6 @@
     ],
     "first_utc": "2026-10-29T17:03+00:00",
     "sample": "r/smallstreetbets: FTNT 🥴"
-   },
-   "DAIC": {
-    "m24_max": 2,
-    "authors24_max": 2,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T16:27+00:00",
-    "sample": "r/pennystocks: GYGY - up we go!"
-   },
-   "JDZG": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T02:53+00:00",
-    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
    }
   },
   "telegram_top": {
@@ -2663,6 +2670,12 @@
     "chats24_max": 1,
     "first_utc": "2026-10-28T12:31+00:00"
    },
+   "FTNT": {
+    "m24_max": 4,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-28T19:02+00:00"
+   },
    "BSX": {
     "m24_max": 4,
     "authors24_max": 2,
@@ -2699,12 +2712,6 @@
     "chats24_max": 1,
     "first_utc": "2026-10-28T14:18+00:00"
    },
-   "FTNT": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-28T19:02+00:00"
-   },
    "SLS": {
     "m24_max": 3,
     "authors24_max": 2,
@@ -2734,6 +2741,12 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-10-28T18:52+00:00"
+   },
+   "AIBT": {
+    "m24_max": 3,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T13:42+00:00"
    },
    "DHI": {
     "m24_max": 2,
@@ -2770,12 +2783,6 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-10-29T08:09+00:00"
-   },
-   "TTE": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-29T07:07+00:00"
    }
   }
  },
