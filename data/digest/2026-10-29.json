@@ -1,28 +1,28 @@
 {
  "date": "2026-10-29",
- "generated_at": "2026-10-29T12:07+00:00",
+ "generated_at": "2026-10-29T13:07+00:00",
  "final": false,
  "runs": {
-  "count": 2,
+  "count": 3,
   "first": "2026-10-29T11:07+00:00",
-  "last": "2026-10-29T12:07+00:00",
+  "last": "2026-10-29T13:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 574,
-   "mention_gate": 44,
+   "buzz_tickers": 858,
+   "mention_gate": 69,
    "reddit_path": 0,
    "telegram_path": 0,
-   "news_path": 4,
-   "skipped_large_cache": 81,
-   "shadow_gate": 46,
-   "to_check": 13,
-   "checked": 13,
+   "news_path": 6,
+   "skipped_large_cache": 121,
+   "shadow_gate": 66,
+   "to_check": 20,
+   "checked": 20,
    "not_checked_time": 0,
    "blocked": {
     "שווי": 4,
-    "כבר": 6
+    "כבר": 11
    },
-   "below_score": 3,
-   "cooldown": 2,
+   "below_score": 5,
+   "cooldown": 3,
    "shadow_would_alert": 0,
    "sent": 0,
    "send_failed": 0
@@ -31,7 +31,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 606
+   "messages": 600
   },
   "per_run": [
    {
@@ -43,6 +43,13 @@
    },
    {
     "ts": "2026-10-29T12:07+00:00",
+    "checked": 7,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 0
+   },
+   {
+    "ts": "2026-10-29T13:07+00:00",
     "checked": 7,
     "sent": 0,
     "send_failed": 0,
@@ -374,6 +381,28 @@
    "urgent": false
   },
   {
+   "ts": "2026-10-29T13:07+00:00",
+   "ticker": "NCPL",
+   "score": 5,
+   "max_score": 5,
+   "price": 1.63,
+   "move_pct": 24.43,
+   "cap_m": 12.71,
+   "blocked": [
+    "כבר זזה +24%"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "spread",
+    "novel",
+    "short",
+    "low_float"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
    "ts": "2026-10-29T07:07+00:00",
    "ticker": "PSA",
    "score": 4,
@@ -546,6 +575,25 @@
     "accel",
     "vel3h",
     "low_float"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-10-29T13:07+00:00",
+   "ticker": "KDK",
+   "score": 3,
+   "max_score": 3,
+   "price": 1.4,
+   "move_pct": 25.0,
+   "cap_m": 280.56,
+   "blocked": [
+    "כבר זזה +25%"
+   ],
+   "tags": [
+    "accel",
+    "vel3h",
+    "spread"
    ],
    "alerted": false,
    "urgent": false
@@ -1868,6 +1916,25 @@
     ],
     "first_utc": "2026-10-29T06:35+00:00"
    },
+   "BRAI": {
+    "m24_max": 4,
+    "authors24_max": 4,
+    "subs": [
+     "pennystocks",
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-28T13:22+00:00",
+    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
+   },
+   "NUWE": {
+    "m24_max": 4,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T02:53+00:00",
+    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
+   },
    "VNDA": {
     "m24_max": 4,
     "authors24_max": 4,
@@ -1877,15 +1944,15 @@
     "first_utc": "2026-10-29T10:50+00:00",
     "sample": "r/pennystocks: $VNDA reported positive numbers yesterday"
    },
-   "BRAI": {
-    "m24_max": 3,
-    "authors24_max": 3,
+   "OPEN": {
+    "m24_max": 4,
+    "authors24_max": 2,
     "subs": [
-     "pennystocks",
+     "Shortsqueeze",
      "smallstreetbets"
     ],
-    "first_utc": "2026-10-28T13:22+00:00",
-    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
+    "first_utc": "2026-10-29T12:00+00:00",
+    "sample": "r/smallstreetbets: $open 👀"
    },
    "PDC": {
     "m24_max": 3,
@@ -1895,6 +1962,15 @@
     ],
     "first_utc": "2026-10-28T19:53+00:00",
     "sample": "r/pennystocks: Anyone else still holding $PDC after today's 50% run?"
+   },
+   "KDK": {
+    "m24_max": 3,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T02:53+00:00",
+    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
    },
    "SKHY": {
     "m24_max": 3,
@@ -1915,6 +1991,42 @@
     "first_utc": "2026-10-28T13:22+00:00",
     "sample": "r/pennystocks: 28 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
    },
+   "FTFT": {
+    "m24_max": 3,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T02:53+00:00",
+    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
+   },
+   "NCPL": {
+    "m24_max": 3,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T02:53+00:00",
+    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
+   },
+   "CALC": {
+    "m24_max": 3,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T02:53+00:00",
+    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
+   },
+   "RBNE": {
+    "m24_max": 3,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T02:53+00:00",
+    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
+   },
    "DAVI": {
     "m24_max": 3,
     "authors24_max": 3,
@@ -1934,16 +2046,6 @@
     "first_utc": "2026-10-28T13:22+00:00",
     "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
    },
-   "OPEN": {
-    "m24_max": 3,
-    "authors24_max": 2,
-    "subs": [
-     "Shortsqueeze",
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-10-29T12:00+00:00",
-    "sample": "r/smallstreetbets: $open 👀"
-   },
    "ICMB": {
     "m24_max": 2,
     "authors24_max": 1,
@@ -1953,14 +2055,14 @@
     "first_utc": "2026-10-28T19:09+00:00",
     "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
    },
-   "KDK": {
+   "SHFS": {
     "m24_max": 2,
     "authors24_max": 2,
     "subs": [
      "pennystocks"
     ],
-    "first_utc": "2026-10-29T02:53+00:00",
-    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
+    "first_utc": "2026-10-28T15:06+00:00",
+    "sample": "r/pennystocks: WHAT ARE THE BIGGEST WINNERS AND WHY ?"
    },
    "GRML": {
     "m24_max": 2,
@@ -1994,6 +2096,14 @@
     ],
     "first_utc": "2026-10-29T11:09+00:00"
    },
+   "NUR": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T12:15+00:00"
+   },
    "INO": {
     "m24_max": 1,
     "authors24_max": 1,
@@ -2002,15 +2112,6 @@
     ],
     "first_utc": "2026-10-29T05:25+00:00",
     "sample": "r/pennystocks: SMALL CAP BIOTECH STOCKS WITH POTENTIAL FOR A SHORT SQUEEZE"
-   },
-   "FTFT": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T02:53+00:00",
-    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
    },
    "JDZG": {
     "m24_max": 1,
@@ -2021,43 +2122,7 @@
     "first_utc": "2026-10-29T02:53+00:00",
     "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
    },
-   "NCPL": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T02:53+00:00",
-    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
-   },
    "NXTS": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T02:53+00:00",
-    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
-   },
-   "CALC": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T02:53+00:00",
-    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
-   },
-   "NUWE": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T02:53+00:00",
-    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
-   },
-   "RBNE": {
     "m24_max": 1,
     "authors24_max": 1,
     "subs": [
@@ -2148,24 +2213,6 @@
     "sample": "r/pennystocks: WHAT ARE THE BIGGEST WINNERS AND WHY ?"
    },
    "AXG": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-28T15:06+00:00",
-    "sample": "r/pennystocks: WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-   },
-   "NWGL": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-28T15:06+00:00",
-    "sample": "r/pennystocks: WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-   },
-   "SCKT": {
     "m24_max": 1,
     "authors24_max": 1,
     "subs": [

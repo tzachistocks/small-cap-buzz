@@ -1911,5 +1911,48 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-10-29|KDK": {
+  "ts": "2026-10-29T13:07+00:00",
+  "ticker": "KDK",
+  "score": 3,
+  "max_score": 3,
+  "price": 1.4,
+  "move_pct": 25.0,
+  "cap_m": 280.56,
+  "blocked": [
+   "כבר זזה +25%"
+  ],
+  "tags": [
+   "accel",
+   "vel3h",
+   "spread"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-29|NCPL": {
+  "ts": "2026-10-29T13:07+00:00",
+  "ticker": "NCPL",
+  "score": 5,
+  "max_score": 5,
+  "price": 1.63,
+  "move_pct": 24.43,
+  "cap_m": 12.71,
+  "blocked": [
+   "כבר זזה +24%"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "spread",
+   "novel",
+   "short",
+   "low_float"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }
