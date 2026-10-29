@@ -103,5 +103,12 @@
   "asia": null,
   "sic": "",
   "ts": "2026-10-28T22:19+00:00"
+ },
+ "NRXP": {
+  "country": "DE",
+  "inc": "DE",
+  "asia": null,
+  "sic": "Pharmaceutical Preparations",
+  "ts": "2026-10-29T07:09+00:00"
  }
 }
