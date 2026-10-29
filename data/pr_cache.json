@@ -1,17 +1,5 @@
 [
  {
-  "ticker": "MTB",
-  "title": "M&T Bank and Wilmington Trust Name Brian Green New Chief Investment Officer",
-  "src": "PR Newswire",
-  "ts": "2026-10-26T15:00+00:00"
- },
- {
-  "ticker": "FRHC",
-  "title": "Freedom Holding Corp. Advances AI Infrastructure Development in Kazakhstan",
-  "src": "PR Newswire",
-  "ts": "2026-10-26T15:00+00:00"
- },
- {
   "ticker": "DAVA",
   "title": "Endava plc (DAVA) Alert: Securities Class Action Filed, Investors with Losses Encouraged to Contact Hagens Berman",
   "src": "PR Newswire",
@@ -874,5 +862,23 @@
   "title": "Pomerantz Law Firm Announces the Filing of a Class Action Against D-Wave Quantum Inc. and Certain Officers - QBTS",
   "src": "PR Newswire",
   "ts": "2026-10-29T14:00+00:00"
+ },
+ {
+  "ticker": "VEEV",
+  "title": "Le Veeva Summit présente les innovations en IA et en données qui font progresser le commerce des agents",
+  "src": "PR Newswire",
+  "ts": "2026-10-29T15:05+00:00"
+ },
+ {
+  "ticker": "VEEV",
+  "title": "Veeva Summit präsentiert KI- und Dateninnovationen zur Weiterentwicklung von Agentic Commercial",
+  "src": "PR Newswire",
+  "ts": "2026-10-29T15:04+00:00"
+ },
+ {
+  "ticker": "VEEV",
+  "title": "Veeva Summit presenta innovaciones en IA y datos que impulsan el modelo comercial basado en agentes",
+  "src": "PR Newswire",
+  "ts": "2026-10-29T15:02+00:00"
  }
 ]
