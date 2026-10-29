@@ -1618,7 +1618,7 @@
   "ts": "2026-10-29T07:07+00:00",
   "ticker": "ANTX",
   "score": 4,
-  "max_score": 4,
+  "max_score": 6,
   "price": 4.3373,
   "move_pct": 12.37,
   "cap_m": 170.57,
@@ -1626,7 +1626,9 @@
   "tags": [
    "accel",
    "novel",
-   "low_float"
+   "low_float",
+   "spread",
+   "rising"
   ],
   "alerted": false,
   "urgent": false,
