@@ -864,5 +864,117 @@
   "followups": {
    "stop": "2026-10-29T19:07+00:00"
   }
+ },
+ {
+  "id": "202610292307-TCBS",
+  "ts": "2026-10-29T23:07+00:00",
+  "ticker": "TCBS",
+  "score": 2,
+  "why": [
+   "📰 נכנסה דרך ידיעה: TEXAS COMMUNITY BANCSHARES, INC. AND THE BANC OF SAN JACINTO COUNTY BA",
+   "פלואט 2.1M",
+   "PR חזק (18:39 ET 29/10): TEXAS COMMUNITY BANCSHARES, INC. AND THE BANC OF SAN JACINTO COUNTY BA"
+  ],
+  "price": {
+   "price": 17.28,
+   "prev_close": 17.1,
+   "move_pct": 1.05,
+   "vol_today": 226,
+   "avg_vol20": 3255,
+   "rel_vol": 0.07,
+   "exchange": "NCM",
+   "name": "Texas Community Bancshares, Inc.",
+   "readiness": {
+    "points": 1,
+    "why": [
+     "נפח אתמול פי 3.1",
+     "נפח חריג אחרי טווח מכווץ",
+     "ליד שיא 20 יום (פחות ריצות)"
+    ],
+    "risk": [],
+    "asof": "2026-10-28",
+    "f": {
+     "rvol_1": 3.1111,
+     "atr_ratio": 0.3636,
+     "drawdown_60": -0.0447,
+     "vol20": 0.007,
+     "prior_runs_120": 0.0,
+     "ret_1d": 0.0006,
+     "ret_3d": -0.0075,
+     "ret_10d": -0.0093,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.989
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 49.64,
+   "float_m": 2.13,
+   "short_float_pct": 0.15,
+   "days_to_cover": 1.33,
+   "src": "finviz"
+  },
+  "m_now": 0,
+  "m_24h_ago": 0,
+  "spread": [],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 0,
+   "users": 14,
+   "bull": 5,
+   "bear": 0,
+   "oldest_min": 1677406,
+   "watchlist": 7
+  },
+  "borrow": {
+   "fee": 1.8504,
+   "available": 20000,
+   "fee_5d": null,
+   "available_5d": null
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "profile": {
+   "country": "TX",
+   "inc": "",
+   "asia": null,
+   "sic": "Savings Institutions, Not Federally Chartered",
+   "ts": "2026-10-29T23:09+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [],
+   "filings": [],
+   "rsplit": null,
+   "cik": 1849466
+  },
+  "forum": {
+   "rising": null,
+   "novel": null
+  },
+  "invalidation": 17.1,
+  "news": {
+   "ticker": "TCBS",
+   "title": "TEXAS COMMUNITY BANCSHARES, INC. AND THE BANC OF SAN JACINTO COUNTY BANCSHARES, INC., THE PARENT OF THE BANK OF SAN JACINTO COUNTY, COLDSPRING, TEXAS, ANNOUNCE MERGER AGREEMENT",
+   "src": "PR Newswire",
+   "ts": "2026-10-29T22:39+00:00",
+   "class": "strong",
+   "rule": "MERGER AGREEMENT",
+   "offering": false,
+   "amount_m": null
+  },
+  "urgent": false,
+  "urgent_why": [],
+  "path": "news",
+  "telegram_sent": true,
+  "outcome": {
+   "days": 1,
+   "last_close": 17.280000686645508,
+   "last_pct": 0.0,
+   "max_close_pct": 0.0,
+   "max_high_pct": 0.0,
+   "d1_pct": 0.0
+  }
  }
 ]

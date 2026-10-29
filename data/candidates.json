@@ -2395,5 +2395,68 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-10-29|POET": {
+  "ts": "2026-10-29T23:07+00:00",
+  "ticker": "POET",
+  "score": 3,
+  "max_score": 3,
+  "price": 5.37,
+  "move_pct": -8.05,
+  "cap_m": 979.51,
+  "blocked": [
+   "שווי $980M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "short"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-29|GT": {
+  "ts": "2026-10-29T23:07+00:00",
+  "ticker": "GT",
+  "score": 3,
+  "max_score": 3,
+  "price": 4.3946,
+  "move_pct": -0.35,
+  "cap_m": 1280.0,
+  "blocked": [
+   "שווי $1280M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "novel",
+   "short"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-29|TWLO": {
+  "ts": "2026-10-29T23:07+00:00",
+  "ticker": "TWLO",
+  "score": 4,
+  "max_score": 4,
+  "price": 201.7301,
+  "move_pct": -20.51,
+  "cap_m": 37150.0,
+  "blocked": [
+   "שווי $37150M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel",
+   "xueqiu"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }

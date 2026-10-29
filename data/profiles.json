@@ -117,5 +117,12 @@
   "asia": null,
   "sic": "Services-Computer Integrated Systems Design",
   "ts": "2026-10-29T14:08+00:00"
+ },
+ "TCBS": {
+  "country": "TX",
+  "inc": "",
+  "asia": null,
+  "sic": "Savings Institutions, Not Federally Chartered",
+  "ts": "2026-10-29T23:09+00:00"
  }
 }
