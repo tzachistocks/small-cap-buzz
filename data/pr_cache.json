@@ -1,17 +1,5 @@
 [
  {
-  "ticker": "RRC",
-  "title": "EQT Announces Strategic Acquisition of Range Resources, Creating America's Undisputed Natural Gas Champion",
-  "src": "PR Newswire",
-  "ts": "2026-10-26T10:00+00:00"
- },
- {
-  "ticker": "EQT",
-  "title": "EQT Announces Strategic Acquisition of Range Resources, Creating America's Undisputed Natural Gas Champion",
-  "src": "PR Newswire",
-  "ts": "2026-10-26T10:00+00:00"
- },
- {
   "ticker": "MTB",
   "title": "M&T Bank and Wilmington Trust Name Brian Green New Chief Investment Officer",
   "src": "PR Newswire",
@@ -766,5 +754,41 @@
   "title": "TAL Education Group Announces Unaudited Financial Results for the Second Fiscal Quarter Ended August 31, 2026, Declares Cash Dividend and Issues Notice of Annual General Meeting",
   "src": "PR Newswire",
   "ts": "2026-10-29T09:00+00:00"
+ },
+ {
+  "ticker": "ARES",
+  "title": "ARES MANAGEMENT CORPORATION REPORTS THIRD QUARTER 2026 RESULTS",
+  "src": "PR Newswire",
+  "ts": "2026-10-29T10:00+00:00"
+ },
+ {
+  "ticker": "AMPH",
+  "title": "Amphastar Pharmaceuticals to Release Third Quarter Earnings and Hold Conference Call on November 5, 2026",
+  "src": "PR Newswire",
+  "ts": "2026-10-29T10:00+00:00"
+ },
+ {
+  "ticker": "BR",
+  "title": "Broadridge Extends its CQG Multi-Asset Offering with Kalshi",
+  "src": "PR Newswire",
+  "ts": "2026-10-29T10:00+00:00"
+ },
+ {
+  "ticker": "BNAI",
+  "title": "Brand Engagement Network (NASDAQ: BNAI) Co-Founder and AI Pioneer Dr. Patrick Nunally Invited to Speak at the Vatican on AI and the Human Spirit",
+  "src": "PR Newswire",
+  "ts": "2026-10-29T10:00+00:00"
+ },
+ {
+  "ticker": "WST",
+  "title": "West Reports Third-Quarter 2026 Results",
+  "src": "PR Newswire",
+  "ts": "2026-10-29T10:00+00:00"
+ },
+ {
+  "ticker": "ESCA",
+  "title": "Escalade Reports Third Quarter 2026 Results",
+  "src": "PR Newswire",
+  "ts": "2026-10-29T10:00+00:00"
  }
 ]
