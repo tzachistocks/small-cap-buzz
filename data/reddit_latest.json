@@ -1,51 +1,37 @@
 {
- "ts": "2026-10-29T15:07+00:00",
+ "ts": "2026-10-29T16:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
   "SI": {
-   "m6": 10,
-   "m24": 10,
-   "authors6": 9,
-   "authors24": 9,
+   "m6": 12,
+   "m24": 12,
+   "authors6": 11,
+   "authors24": 11,
    "subs6": [
     "smallstreetbets"
    ],
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-10-29T13:19+00:00",
+   "first_utc": "2026-10-29T14:11+00:00",
    "sample": ""
   },
   "HTZ": {
-   "m6": 6,
-   "m24": 7,
+   "m6": 7,
+   "m24": 8,
    "authors6": 5,
    "authors24": 6,
    "subs6": [
-    "Shortsqueeze"
+    "Shortsqueeze",
+    "pennystocks"
    ],
    "subs24": [
-    "Shortsqueeze"
+    "Shortsqueeze",
+    "pennystocks"
    ],
    "first_utc": "2026-10-29T00:08+00:00",
    "sample": "r/Shortsqueeze: I Just bought todays dip on $HTZ"
-  },
-  "INLF": {
-   "m6": 3,
-   "m24": 3,
-   "authors6": 3,
-   "authors24": 3,
-   "subs6": [
-    "pennystocks",
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "pennystocks",
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-10-29T13:22+00:00",
-   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
   "BURU": {
    "m6": 2,
@@ -60,8 +46,38 @@
     "pennystocks",
     "smallstreetbets"
    ],
-   "first_utc": "2026-10-29T13:11+00:00",
+   "first_utc": "2026-10-29T13:22+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "INLF": {
+   "m6": 2,
+   "m24": 2,
+   "authors6": 2,
+   "authors24": 2,
+   "subs6": [
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T13:22+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "NRXP": {
+   "m6": 1,
+   "m24": 2,
+   "authors6": 1,
+   "authors24": 2,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T05:25+00:00",
+   "sample": "r/pennystocks: SMALL CAP BIOTECH STOCKS WITH POTENTIAL FOR A SHORT SQUEEZE"
   },
   "AIBT": {
    "m6": 0,
@@ -75,20 +91,6 @@
    ],
    "first_utc": "2026-10-29T04:00+00:00",
    "sample": "r/pennystocks: AIBT crazy otc play here, even nasdaq investors are showing interest (DD)"
-  },
-  "NUWE": {
-   "m6": 1,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-29T02:53+00:00",
-   "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
   },
   "NXTS": {
    "m6": 1,
@@ -104,7 +106,7 @@
    "first_utc": "2026-10-29T02:53+00:00",
    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
   },
-  "KDK": {
+  "NUWE": {
    "m6": 1,
    "m24": 2,
    "authors6": 1,
@@ -130,20 +132,6 @@
    "first_utc": "2026-10-28T19:09+00:00",
    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
   },
-  "RH": {
-   "m6": 1,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-10-28T19:23+00:00",
-   "sample": "r/smallstreetbets: Stupid all in with RH delays on SPY"
-  },
   "DAVI": {
    "m6": 1,
    "m24": 2,
@@ -154,6 +142,21 @@
    ],
    "subs24": [
     "pennystocks"
+   ],
+   "first_utc": "2026-10-28T19:09+00:00",
+   "sample": "r/pennystocks: PENNY STOCKS TO WATCH INTO AFTER HOURS | OCT 28"
+  },
+  "GPUS": {
+   "m6": 1,
+   "m24": 2,
+   "authors6": 1,
+   "authors24": 2,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "pennystocks",
+    "smallstreetbets"
    ],
    "first_utc": "2026-10-28T19:09+00:00",
    "sample": "r/pennystocks: PENNY STOCKS TO WATCH INTO AFTER HOURS | OCT 28"
@@ -172,20 +175,6 @@
    "first_utc": "2026-10-29T14:49+00:00",
    "sample": ""
   },
-  "SHFS": {
-   "m6": 2,
-   "m24": 2,
-   "authors6": 2,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-29T13:39+00:00",
-   "sample": ""
-  },
   "CETX": {
    "m6": 1,
    "m24": 1,
@@ -200,7 +189,7 @@
    "first_utc": "2026-10-29T13:57+00:00",
    "sample": "r/pennystocks: CETX Surges 59% Today After Strong Earnings. More Upside?"
   },
-  "PCLA": {
+  "IOVA": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -214,7 +203,7 @@
    "first_utc": "2026-10-29T13:22+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
-  "IOVA": {
+  "PCLA": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -282,7 +271,7 @@
    "first_utc": "2026-10-29T05:25+00:00",
    "sample": "r/pennystocks: SMALL CAP BIOTECH STOCKS WITH POTENTIAL FOR A SHORT SQUEEZE"
   },
-  "NRXP": {
+  "RBNE": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -291,10 +280,10 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-10-29T05:25+00:00",
-   "sample": "r/pennystocks: SMALL CAP BIOTECH STOCKS WITH POTENTIAL FOR A SHORT SQUEEZE"
+   "first_utc": "2026-10-29T02:53+00:00",
+   "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
   },
-  "JDZG": {
+  "KDK": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -330,7 +319,7 @@
    "first_utc": "2026-10-29T02:53+00:00",
    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
   },
-  "RBNE": {
+  "BRAI": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -342,7 +331,7 @@
    "first_utc": "2026-10-29T02:53+00:00",
    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
   },
-  "BRAI": {
+  "JDZG": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -402,31 +391,19 @@
    "first_utc": "2026-10-28T19:53+00:00",
    "sample": "r/pennystocks: Anyone else still holding $PDC after today's 50% run?"
   },
-  "GPUS": {
+  "RH": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
    "authors24": 1,
    "subs6": [],
    "subs24": [
-    "pennystocks"
+    "smallstreetbets"
    ],
-   "first_utc": "2026-10-28T19:09+00:00",
-   "sample": "r/pennystocks: PENNY STOCKS TO WATCH INTO AFTER HOURS | OCT 28"
+   "first_utc": "2026-10-28T19:23+00:00",
+   "sample": "r/smallstreetbets: Stupid all in with RH delays on SPY"
   },
   "NIVF": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-28T19:09+00:00",
-   "sample": "r/pennystocks: PENNY STOCKS TO WATCH INTO AFTER HOURS | OCT 28"
-  },
-  "LUNG": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -450,7 +427,7 @@
    "first_utc": "2026-10-28T19:09+00:00",
    "sample": "r/pennystocks: PENNY STOCKS TO WATCH INTO AFTER HOURS | OCT 28"
   },
-  "SNTI": {
+  "LUNG": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -474,17 +451,73 @@
    "first_utc": "2026-10-28T19:09+00:00",
    "sample": "r/pennystocks: PENNY STOCKS TO WATCH INTO AFTER HOURS | OCT 28"
   },
-  "HBM": {
+  "SNTI": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
    "authors24": 1,
    "subs6": [],
    "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-28T19:09+00:00",
+   "sample": "r/pennystocks: PENNY STOCKS TO WATCH INTO AFTER HOURS | OCT 28"
+  },
+  "GYGY": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T16:01+00:00",
+   "sample": ""
+  },
+  "PPT": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-10-28T15:44+00:00",
-   "sample": "r/smallstreetbets: Sk Hynix will moon"
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T15:50+00:00",
+   "sample": ""
+  },
+  "BBLG": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T15:41+00:00",
+   "sample": ""
+  },
+  "CMPS": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T15:16+00:00",
+   "sample": ""
   },
   "SPCE": {
    "m6": 1,
@@ -568,104 +601,6 @@
     "pennystocks"
    ],
    "first_utc": "2026-10-29T14:34+00:00",
-   "sample": ""
-  },
-  "ANTX": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-29T14:04+00:00",
-   "sample": ""
-  },
-  "BBLG": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-29T13:51+00:00",
-   "sample": ""
-  },
-  "NUAI": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-29T13:37+00:00",
-   "sample": ""
-  },
-  "BEAT": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-29T13:33+00:00",
-   "sample": ""
-  },
-  "NUR": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-29T13:21+00:00",
-   "sample": ""
-  },
-  "IQ": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-10-29T13:19+00:00",
-   "sample": ""
-  },
-  "PLCE": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "Shortsqueeze"
-   ],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-10-29T13:14+00:00",
    "sample": ""
   }
  },

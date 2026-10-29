@@ -1,9 +1,10 @@
 {
- "ts": "2026-10-29T15:07+00:00",
+ "ts": "2026-10-29T16:07+00:00",
  "reddit_ok": true,
  "stocktwits_trending": 30,
  "apewisdom_main": 300,
  "apewisdom_subs": [
+  "4chan",
   "Daytrading",
   "Shortsqueeze",
   "WallStreetbetsELITE",
@@ -12,36 +13,35 @@
   "stocks",
   "wallstreetbets"
  ],
- "candidates": 8,
+ "candidates": 11,
  "telegram_groups": {
   "mode": "ok",
   "chats_ok": 14,
   "chats_failed": 0,
-  "messages": 597
+  "messages": 592
  },
  "funnel": {
   "buzz_tickers": 286,
-  "mention_gate": 20,
-  "reddit_path": 0,
+  "mention_gate": 18,
+  "reddit_path": 1,
   "telegram_path": 0,
   "news_path": 0,
-  "skipped_large_cache": 35,
-  "shadow_gate": 23,
-  "to_check": 8,
-  "checked": 8,
+  "skipped_large_cache": 36,
+  "shadow_gate": 28,
+  "to_check": 11,
+  "checked": 11,
   "not_checked_time": 0,
   "blocked": {
-   "שווי": 2,
-   "כבר": 2
+   "שווי": 3,
+   "כבר": 3,
+   "איחוד": 1
   },
-  "below_score": 1,
-  "cooldown": 3,
-  "shadow_would_alert": 0,
+  "below_score": 2,
+  "cooldown": 2,
+  "shadow_would_alert": 1,
   "sent": 0,
   "send_failed": 0
  },
  "not_checked": [],
- "errors": [
-  "HTTP 522 https://apewisdom.io/api/v1.0/filter/4chan/page/1"
- ]
+ "errors": []
 }

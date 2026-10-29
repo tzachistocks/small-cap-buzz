@@ -1,29 +1,30 @@
 {
  "date": "2026-10-29",
- "generated_at": "2026-10-29T15:07+00:00",
+ "generated_at": "2026-10-29T16:07+00:00",
  "final": false,
  "runs": {
-  "count": 5,
+  "count": 6,
   "first": "2026-10-29T11:07+00:00",
-  "last": "2026-10-29T15:07+00:00",
+  "last": "2026-10-29T16:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 1428,
-   "mention_gate": 108,
-   "reddit_path": 0,
+   "buzz_tickers": 1714,
+   "mention_gate": 126,
+   "reddit_path": 1,
    "telegram_path": 0,
    "news_path": 7,
-   "skipped_large_cache": 195,
-   "shadow_gate": 115,
-   "to_check": 35,
-   "checked": 35,
+   "skipped_large_cache": 231,
+   "shadow_gate": 143,
+   "to_check": 46,
+   "checked": 46,
    "not_checked_time": 0,
    "blocked": {
-    "שווי": 6,
-    "כבר": 16
+    "שווי": 9,
+    "כבר": 19,
+    "איחוד": 1
    },
-   "below_score": 7,
-   "cooldown": 7,
-   "shadow_would_alert": 0,
+   "below_score": 9,
+   "cooldown": 9,
+   "shadow_would_alert": 1,
    "sent": 2,
    "send_failed": 0
   },
@@ -31,7 +32,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 597
+   "messages": 592
   },
   "per_run": [
    {
@@ -68,6 +69,13 @@
     "sent": 0,
     "send_failed": 0,
     "errors_n": 1
+   },
+   {
+    "ts": "2026-10-29T16:07+00:00",
+    "checked": 11,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 0
    }
   ]
  },
@@ -129,11 +137,11 @@
    "news": null,
    "outcome": {
     "days": 1,
-    "last_close": 4.855000019073486,
-    "last_pct": 2.5,
-    "max_close_pct": 2.5,
+    "last_close": 4.880499839782715,
+    "last_pct": 3.1,
+    "max_close_pct": 3.1,
     "max_high_pct": 3.5,
-    "d1_pct": 2.5
+    "d1_pct": 3.1
    }
   },
   {
@@ -161,11 +169,11 @@
    "news": "Stoneridge and Kodiak AI Announce Collaboration to Advance Autonomous Commercial Vehicles",
    "outcome": {
     "days": 1,
-    "last_close": 1.3876999616622925,
-    "last_pct": -0.2,
-    "max_close_pct": -0.2,
+    "last_close": 1.350000023841858,
+    "last_pct": -2.9,
+    "max_close_pct": -2.9,
     "max_high_pct": 2.9,
-    "d1_pct": -0.2
+    "d1_pct": -2.9
    }
   }
  ],
@@ -349,9 +357,9 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 4.855000019073486,
-    "last_pct": 11.9,
-    "max_close_pct": 11.9,
+    "last_close": 4.880499839782715,
+    "last_pct": 12.5,
+    "max_close_pct": 12.5,
     "max_high_pct": 13.0,
     "d1_pct": 4.2
    }
@@ -439,7 +447,8 @@
     "novel",
     "low_float",
     "spread",
-    "rising"
+    "rising",
+    "relaxed_gate"
    ],
    "alerted": true,
    "urgent": false
@@ -616,6 +625,50 @@
    "urgent": false
   },
   {
+   "ts": "2026-10-29T16:07+00:00",
+   "ticker": "RIG",
+   "score": 4,
+   "max_score": 4,
+   "price": 6.6699,
+   "move_pct": -0.6,
+   "cap_m": 7440.0,
+   "blocked": [
+    "שווי $7440M"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "novel",
+    "short"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-10-29T16:07+00:00",
+   "ticker": "NUWE",
+   "score": 4,
+   "max_score": 4,
+   "price": 6.485,
+   "move_pct": 14.58,
+   "cap_m": 3.51,
+   "blocked": [
+    "כבר רצה +1055% ב-3 ימים",
+    "איחוד מניות טרי (1 ימים) – חשד לעיוות"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "spread",
+    "low_float",
+    "rvol",
+    "rsplit"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
    "ts": "2026-10-29T07:07+00:00",
    "ticker": "UI",
    "score": 3,
@@ -743,7 +796,8 @@
    "blocked": [],
    "tags": [
     "vel3h",
-    "spread"
+    "spread",
+    "accel"
    ],
    "alerted": false,
    "urgent": false
@@ -2261,6 +2315,16 @@
     "first_utc": "2026-10-29T02:53+00:00",
     "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
    },
+   "GPUS": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks",
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-28T19:09+00:00",
+    "sample": "r/pennystocks: PENNY STOCKS TO WATCH INTO AFTER HOURS | OCT 28"
+   },
    "GRML": {
     "m24_max": 2,
     "authors24_max": 2,
@@ -2375,15 +2439,6 @@
     "sample": "r/pennystocks: PENNY STOCKS TO WATCH INTO AFTER HOURS | OCT 28"
    },
    "DRIO": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-28T19:09+00:00",
-    "sample": "r/pennystocks: PENNY STOCKS TO WATCH INTO AFTER HOURS | OCT 28"
-   },
-   "GPUS": {
     "m24_max": 1,
     "authors24_max": 1,
     "subs": [
