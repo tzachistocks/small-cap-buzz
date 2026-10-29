@@ -1,30 +1,30 @@
 {
  "date": "2026-10-29",
- "generated_at": "2026-10-29T18:07+00:00",
+ "generated_at": "2026-10-29T19:07+00:00",
  "final": false,
  "runs": {
-  "count": 8,
+  "count": 9,
   "first": "2026-10-29T11:07+00:00",
-  "last": "2026-10-29T18:07+00:00",
+  "last": "2026-10-29T19:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 2281,
-   "mention_gate": 166,
+   "buzz_tickers": 2563,
+   "mention_gate": 186,
    "reddit_path": 1,
-   "telegram_path": 2,
+   "telegram_path": 3,
    "news_path": 7,
-   "skipped_large_cache": 308,
-   "shadow_gate": 197,
-   "to_check": 65,
-   "checked": 65,
+   "skipped_large_cache": 345,
+   "shadow_gate": 222,
+   "to_check": 74,
+   "checked": 74,
    "not_checked_time": 0,
    "blocked": {
-    "שווי": 11,
-    "כבר": 25,
-    "איחוד": 3,
-    "דיווח": 2
+    "שווי": 12,
+    "כבר": 28,
+    "איחוד": 4,
+    "דיווח": 3
    },
-   "below_score": 14,
-   "cooldown": 13,
+   "below_score": 16,
+   "cooldown": 15,
    "shadow_would_alert": 1,
    "sent": 2,
    "send_failed": 0
@@ -33,7 +33,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 600
+   "messages": 612
   },
   "per_run": [
    {
@@ -91,6 +91,13 @@
     "sent": 0,
     "send_failed": 0,
     "errors_n": 0
+   },
+   {
+    "ts": "2026-10-29T19:07+00:00",
+    "checked": 9,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 0
    }
   ]
  },
@@ -121,11 +128,11 @@
    "news": null,
    "outcome": {
     "days": 1,
-    "last_close": 2.684999942779541,
-    "last_pct": -0.2,
-    "max_close_pct": -0.2,
+    "last_close": 2.6449999809265137,
+    "last_pct": -1.7,
+    "max_close_pct": -1.7,
     "max_high_pct": 3.0,
-    "d1_pct": -0.2
+    "d1_pct": -1.7
    }
   },
   {
@@ -152,11 +159,11 @@
    "news": null,
    "outcome": {
     "days": 1,
-    "last_close": 4.710000038146973,
-    "last_pct": -0.5,
-    "max_close_pct": -0.5,
+    "last_close": 4.605000019073486,
+    "last_pct": -2.7,
+    "max_close_pct": -2.7,
     "max_high_pct": 3.5,
-    "d1_pct": -0.5
+    "d1_pct": -2.7
    }
   },
   {
@@ -184,11 +191,11 @@
    "news": "Stoneridge and Kodiak AI Announce Collaboration to Advance Autonomous Commercial Vehicles",
    "outcome": {
     "days": 1,
-    "last_close": 1.315000057220459,
-    "last_pct": -5.4,
-    "max_close_pct": -5.4,
+    "last_close": 1.284999966621399,
+    "last_pct": -7.6,
+    "max_close_pct": -7.6,
     "max_high_pct": 2.9,
-    "d1_pct": -5.4
+    "d1_pct": -7.6
    }
   }
  ],
@@ -343,8 +350,8 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 4.074999809265137,
-    "last_pct": -1.6,
+    "last_close": 4.034200191497803,
+    "last_pct": -2.6,
     "max_close_pct": -0.0,
     "max_high_pct": 4.6,
     "d1_pct": -0.0
@@ -372,9 +379,9 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 4.710000038146973,
-    "last_pct": 8.6,
-    "max_close_pct": 8.6,
+    "last_close": 4.605000019073486,
+    "last_pct": 6.2,
+    "max_close_pct": 6.2,
     "max_high_pct": 13.0,
     "d1_pct": 4.2
    }
@@ -2189,6 +2196,24 @@
     ],
     "first_utc": "2026-10-29T03:12+00:00"
    },
+   "SKHY": {
+    "m24_max": 11,
+    "authors24_max": 2,
+    "subs": [
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-28T22:10+00:00",
+    "sample": "r/smallstreetbets: SKHY TO THE MOON"
+   },
+   "BBAI": {
+    "m24_max": 10,
+    "authors24_max": 7,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T17:16+00:00",
+    "sample": "r/pennystocks: Again BBAI...lets talk about the Q3"
+   },
    "HTZ": {
     "m24_max": 9,
     "authors24_max": 7,
@@ -2198,15 +2223,6 @@
     ],
     "first_utc": "2026-10-29T00:08+00:00",
     "sample": "r/Shortsqueeze: I Just bought todays dip on $HTZ"
-   },
-   "BBAI": {
-    "m24_max": 8,
-    "authors24_max": 5,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T17:16+00:00",
-    "sample": "r/pennystocks: Again BBAI...lets talk about the Q3"
    },
    "NRXP": {
     "m24_max": 6,
@@ -2334,15 +2350,6 @@
     ],
     "first_utc": "2026-10-28T19:53+00:00",
     "sample": "r/pennystocks: Anyone else still holding $PDC after today's 50% run?"
-   },
-   "SKHY": {
-    "m24_max": 3,
-    "authors24_max": 2,
-    "subs": [
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-10-28T22:10+00:00",
-    "sample": "r/smallstreetbets: SKHY TO THE MOON"
    },
    "ELPW": {
     "m24_max": 3,

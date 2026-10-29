@@ -1,23 +1,5 @@
 [
  {
-  "ticker": "FHN",
-  "title": "First Horizon Bank Welcomes Dwayne Mercadel as Retail Banking Executive Serving Texas and Louisiana Markets",
-  "src": "PR Newswire",
-  "ts": "2026-10-26T19:00+00:00"
- },
- {
-  "ticker": "GNTX",
-  "title": "GNTX SHAREHOLDER INVESTIGATION: SueWallSt Notifies Investors of Potential Securities Claims Involving Gentex Corporation",
-  "src": "PR Newswire",
-  "ts": "2026-10-26T18:41+00:00"
- },
- {
-  "ticker": "CCB",
-  "title": "HONA Investors Have Opportunity to Lead Honeywell Aerospace Inc. Securities Fraud Lawsuit",
-  "src": "PR Newswire",
-  "ts": "2026-10-26T18:37+00:00"
- },
- {
   "ticker": "WELL",
   "title": "Welltower Issues Business Update",
   "src": "PR Newswire",
@@ -820,5 +802,17 @@
   "title": "EG Investors Have Opportunity to Lead Everest Group, Ltd. Securities Fraud Lawsuit",
   "src": "PR Newswire",
   "ts": "2026-10-29T16:57+00:00"
+ },
+ {
+  "ticker": "DUOL",
+  "title": "INVESTOR NOTICE: RGRD Law Files Class Action Lawsuit Against Duolingo, Inc. and Announces Opportunity for Investors with Substantial Losses to Lead Class Action Lawsuit - DUOL",
+  "src": "PR Newswire",
+  "ts": "2026-10-29T18:59+00:00"
+ },
+ {
+  "ticker": "MTG",
+  "title": "MGIC Investment Corporation Announces Quarterly Dividend",
+  "src": "PR Newswire",
+  "ts": "2026-10-29T18:30+00:00"
  }
 ]

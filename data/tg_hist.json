@@ -427,7 +427,7 @@
    "first_utc": "2026-10-28T22:34+00:00"
   },
   "LAW": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-28T22:34+00:00"
@@ -661,7 +661,7 @@
    "first_utc": "2026-10-28T19:58+00:00"
   },
   "SIND": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-28T19:58+00:00"
@@ -1795,7 +1795,7 @@
    "first_utc": "2026-10-29T14:44+00:00"
   },
   "HELP": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-29T14:32+00:00"
@@ -2039,6 +2039,90 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-29T17:09+00:00"
+  },
+  "RA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-29T19:07+00:00"
+  },
+  "SBUX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-29T18:58+00:00"
+  },
+  "BEAT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-29T18:58+00:00"
+  },
+  "SCI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-29T18:54+00:00"
+  },
+  "HBNB": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-29T18:53+00:00"
+  },
+  "ELDN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-29T18:52+00:00"
+  },
+  "EG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-29T18:51+00:00"
+  },
+  "KDK": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-29T18:45+00:00"
+  },
+  "STC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-29T18:35+00:00"
+  },
+  "MTG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-29T18:32+00:00"
+  },
+  "HTO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-29T18:23+00:00"
+  },
+  "TWLO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-29T18:22+00:00"
+  },
+  "AGMB": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-29T18:20+00:00"
+  },
+  "CROX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-29T18:08+00:00"
   }
  }
 }
