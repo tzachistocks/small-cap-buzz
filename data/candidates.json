@@ -1869,5 +1869,47 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-10-29|GLP": {
+  "ts": "2026-10-29T12:07+00:00",
+  "ticker": "GLP",
+  "score": 4,
+  "max_score": 4,
+  "price": 47.28,
+  "move_pct": -0.88,
+  "cap_m": 1610.0,
+  "blocked": [
+   "שווי $1610M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "spread",
+   "low_float"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-29|WS": {
+  "ts": "2026-10-29T12:07+00:00",
+  "ticker": "WS",
+  "score": 3,
+  "max_score": 3,
+  "price": 41.51,
+  "move_pct": -2.81,
+  "cap_m": 2170.0,
+  "blocked": [
+   "שווי $2170M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "low_float"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }

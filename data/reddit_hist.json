@@ -2549,7 +2549,7 @@
    "sample": "r/smallstreetbets: Old good PayPal"
   },
   "RH": {
-   "m24_max": 3,
+   "m24_max": 5,
    "authors24_max": 2,
    "subs": [
     "smallstreetbets"
@@ -2558,8 +2558,8 @@
    "sample": "r/smallstreetbets: Stupid all in with RH delays on SPY"
   },
   "DAVI": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 3,
+   "authors24_max": 3,
    "subs": [
     "pennystocks"
    ],
@@ -2927,8 +2927,8 @@
    "first_utc": "2026-10-29T10:50+00:00"
   },
   "YMAT": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],
@@ -2949,6 +2949,40 @@
     "pennystocks"
    ],
    "first_utc": "2026-10-29T10:15+00:00"
+  },
+  "OPEN": {
+   "m24_max": 3,
+   "authors24_max": 2,
+   "subs": [
+    "Shortsqueeze",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T12:00+00:00",
+   "sample": "r/smallstreetbets: $open 👀"
+  },
+  "ONCO": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T11:09+00:00"
+  },
+  "PCLA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T11:11+00:00"
+  },
+  "IOVA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T11:10+00:00"
   }
  }
 }
