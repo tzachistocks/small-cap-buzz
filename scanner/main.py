@@ -7,7 +7,7 @@ from datetime import datetime, timezone, timedelta
 
 import requests
 
-from . import config, sources, extras, review, news, tg_groups
+from . import config, sources, extras, review, news, tg_groups, digest
 from .storage import Store
 
 NOW = datetime.now(timezone.utc)
@@ -624,6 +624,12 @@ def run():
                                       "telegram_groups": {k: tg_groups.STATUS[k] for k in ("mode", "chats_ok", "chats_failed", "messages")},
                                       "funnel": FUNNEL, "not_checked": not_checked[:50],
                                       "errors": sources.ERRORS[-30:]})
+    try:  # daily digest for outside readers (data/digest/<date>.json); never breaks the scan
+        digest.log_run(store, NOW, FUNNEL, tg_groups.STATUS, sorted(alerted_now), sources.ERRORS)
+        digest.update_tg_hist(store, NOW, tg_counts)
+        digest.build(store, NOW, alerts, store.load_json("candidates.json", {}))
+    except Exception as e:
+        sources.ERRORS.append(f"digest: {type(e).__name__}: {e}")
     store.prune(config.KEEP_SNAPSHOT_DAYS)
     write_summary(report, alerts, rd_ok, snap, subs, record, skipped_large)
 

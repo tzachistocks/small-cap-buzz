@@ -100,6 +100,15 @@ CANDLOG_EVAL_PER_RUN = 40      # outcome checks per run (each is one Yahoo reque
 WEEKLY_HOUR_UTC = 21           # weekly report from Friday 21:00 UTC (after the US close), once per week
 WEEKLY_MIN_N = 8               # a signal needs this many measured cases to appear in the weekly report
 
+# ---------- Daily digest (scanner/digest.py): one file per day for outside readers ----------
+DIGEST_KEEP_DAYS = 30
+DIGEST_KEEP_RUNLOG_DAYS = 14
+DIGEST_CLOSES_HOUR_UTC = 21    # from this hour (after the 20:00 UTC US close) the day's closes are added, once
+DIGEST_CLOSES_MAX_TICKERS = 150
+DIGEST_CLOSES_DAYS = 12        # last N daily bars per ticker
+DIGEST_CLOSES_BUDGET_S = 150
+DIGEST_MAX_CAP_M = 2000.0      # closes only for candidates up to this market cap (or unknown)
+
 # ---------- Follow-ups on alerts ----------
 FOLLOW_DAYS = 8                # follow an alert this many calendar days (~5 trading days)
 FOLLOW_UP_LEVELS = (30, 60)    # % above the alert price that trigger a message (each once)
