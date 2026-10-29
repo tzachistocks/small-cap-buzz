@@ -2375,7 +2375,7 @@
  },
  "2026-10-29": {
   "SI": {
-   "m24_max": 45,
+   "m24_max": 46,
    "authors24_max": 44,
    "subs": [
     "smallstreetbets"
@@ -2784,6 +2784,38 @@
     "pennystocks"
    ],
    "first_utc": "2026-10-29T03:14+00:00"
+  },
+  "SA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T09:04+00:00"
+  },
+  "ANNA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T08:48+00:00"
+  },
+  "PAY": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T08:44+00:00"
+  },
+  "ABEO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T08:23+00:00"
   }
  }
 }
