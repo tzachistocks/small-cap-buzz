@@ -2450,7 +2450,7 @@
   },
   "SKHY": {
    "m24_max": 11,
-   "authors24_max": 2,
+   "authors24_max": 3,
    "subs": [
     "smallstreetbets"
    ],
@@ -3307,6 +3307,30 @@
     "pennystocks"
    ],
    "first_utc": "2026-10-29T18:44+00:00"
+  },
+  "SPCX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T20:01+00:00"
+  },
+  "WH": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T19:59+00:00"
+  },
+  "TACO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T19:33+00:00"
   }
  }
 }
