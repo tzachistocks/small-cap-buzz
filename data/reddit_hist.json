@@ -2488,7 +2488,7 @@
    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
   },
   "JDZG": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "subs": [
     "pennystocks"
@@ -3344,8 +3344,8 @@
    "sample": "r/smallstreetbets: Intel doing the after hours dump post Q3 earnings"
   },
   "EBAY": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 6,
+   "authors24_max": 3,
    "subs": [
     "smallstreetbets"
    ],
@@ -3375,6 +3375,38 @@
     "pennystocks"
    ],
    "first_utc": "2026-10-29T20:37+00:00"
+  },
+  "TDS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T21:39+00:00"
+  },
+  "MS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T21:37+00:00"
+  },
+  "DJT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T21:24+00:00"
+  },
+  "AKA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T21:24+00:00"
   }
  }
 }

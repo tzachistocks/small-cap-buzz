@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-29T21:07+00:00",
+ "ts": "2026-10-29T22:07+00:00",
  "reddit_ok": true,
  "stocktwits_trending": 30,
  "apewisdom_main": 300,
@@ -13,29 +13,28 @@
   "stocks",
   "wallstreetbets"
  ],
- "candidates": 11,
+ "candidates": 9,
  "telegram_groups": {
   "mode": "ok",
   "chats_ok": 14,
   "chats_failed": 0,
-  "messages": 620
+  "messages": 608
  },
  "funnel": {
   "buzz_tickers": 286,
-  "mention_gate": 24,
+  "mention_gate": 27,
   "reddit_path": 0,
   "telegram_path": 1,
   "news_path": 0,
-  "skipped_large_cache": 37,
-  "shadow_gate": 23,
-  "to_check": 11,
-  "checked": 11,
+  "skipped_large_cache": 43,
+  "shadow_gate": 24,
+  "to_check": 9,
+  "checked": 9,
   "not_checked_time": 0,
   "blocked": {
    "כבר": 2,
    "איחוד": 1,
-   "שווי": 4,
-   "אין": 1
+   "שווי": 2
   },
   "below_score": 3,
   "cooldown": 2,
@@ -44,7 +43,5 @@
   "send_failed": 0
  },
  "not_checked": [],
- "errors": [
-  "HTTP 404 https://query1.finance.yahoo.com/v8/finance/chart/RE"
- ]
+ "errors": []
 }

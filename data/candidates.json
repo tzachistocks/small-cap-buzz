@@ -1942,7 +1942,7 @@
   "ts": "2026-10-29T13:07+00:00",
   "ticker": "NCPL",
   "score": 5,
-  "max_score": 5,
+  "max_score": 6,
   "price": 1.63,
   "move_pct": 24.43,
   "cap_m": 12.71,
@@ -2074,7 +2074,7 @@
   "ts": "2026-10-29T16:07+00:00",
   "ticker": "NUWE",
   "score": 4,
-  "max_score": 4,
+  "max_score": 5,
   "price": 6.485,
   "move_pct": 14.58,
   "cap_m": 3.51,
@@ -2346,6 +2346,51 @@
    "accel",
    "vel3h",
    "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-29|AXTI": {
+  "ts": "2026-10-29T22:07+00:00",
+  "ticker": "AXTI",
+  "score": 3,
+  "max_score": 3,
+  "price": 57.1,
+  "move_pct": -11.31,
+  "cap_m": 3990.0,
+  "blocked": [
+   "שווי $3990M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "st_trend",
+   "xueqiu"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-29|RBLX": {
+  "ts": "2026-10-29T22:07+00:00",
+  "ticker": "RBLX",
+  "score": 7,
+  "max_score": 7,
+  "price": 44.0098,
+  "move_pct": -17.4,
+  "cap_m": 37480.0,
+  "blocked": [
+   "שווי $37480M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel",
+   "st_trend",
+   "rvol",
+   "xueqiu"
   ],
   "alerted": false,
   "urgent": false,
