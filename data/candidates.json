@@ -1766,7 +1766,7 @@
   "ts": "2026-10-29T07:07+00:00",
   "ticker": "NRXP",
   "score": 5,
-  "max_score": 8,
+  "max_score": 9,
   "price": 2.8,
   "move_pct": 4.09,
   "cap_m": 116.47,
@@ -1784,7 +1784,7 @@
    "pr_weak"
   ],
   "alerted": true,
-  "urgent": false,
+  "urgent": true,
   "outcome": {}
  },
  "2026-10-29|LINK": {
@@ -2303,6 +2303,49 @@
    "vel3h",
    "spread",
    "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-29|PINS": {
+  "ts": "2026-10-29T21:07+00:00",
+  "ticker": "PINS",
+  "score": 5,
+  "max_score": 5,
+  "price": 17.6,
+  "move_pct": -15.87,
+  "cap_m": 11280.0,
+  "blocked": [
+   "שווי $11280M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "novel",
+   "st_trend",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-29|BROS": {
+  "ts": "2026-10-29T21:07+00:00",
+  "ticker": "BROS",
+  "score": 3,
+  "max_score": 3,
+  "price": 43.52,
+  "move_pct": 1.37,
+  "cap_m": 7680.0,
+  "blocked": [
+   "שווי $7680M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel"
   ],
   "alerted": false,
   "urgent": false,

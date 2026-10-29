@@ -1,35 +1,5 @@
 [
  {
-  "ticker": "BDAI",
-  "title": "Biddance AI Systems, Inc. Announces First Half of Fiscal Year 2026 Financial Results",
-  "src": "PR Newswire",
-  "ts": "2026-10-26T21:00+00:00"
- },
- {
-  "ticker": "BRBS",
-  "title": "Blue Ridge Bankshares, Inc. Announces 2026 Third Quarter Results",
-  "src": "PR Newswire",
-  "ts": "2026-10-26T21:00+00:00"
- },
- {
-  "ticker": "BMM",
-  "title": "Blue Moon Announces the Signing of the Refurbishment Contract for the Springer Mill, Engages with Wood Group and Acquires Accommodations for Springer Site",
-  "src": "PR Newswire",
-  "ts": "2026-10-26T20:53+00:00"
- },
- {
-  "ticker": "CPIX",
-  "title": "CUMBERLAND PHARMACEUTICALS ANNOUNCES PLANS TO FILE NEW DRUG APPLICATION FOR IFETROBAN DMD PROGRAM",
-  "src": "PR Newswire",
-  "ts": "2026-10-26T20:40+00:00"
- },
- {
-  "ticker": "CMCO",
-  "title": "Columbus McKinnon Declares Quarterly Dividend of $0.07 per Share",
-  "src": "PR Newswire",
-  "ts": "2026-10-26T20:30+00:00"
- },
- {
   "ticker": "PZZA",
   "title": "Papa John's International, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - PZZA",
   "src": "PR Newswire",
@@ -814,5 +784,59 @@
   "title": "Atomera Provides Third Quarter 2026 Results",
   "src": "PR Newswire",
   "ts": "2026-10-29T20:01+00:00"
+ },
+ {
+  "ticker": "GIL",
+  "title": "Gildan Activewear Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - GIL",
+  "src": "PR Newswire",
+  "ts": "2026-10-29T21:06+00:00"
+ },
+ {
+  "ticker": "GIL",
+  "title": "GIL Investors Have Opportunity to Lead Gildan Activewear Inc. Securities Fraud Lawsuit with SBS Law",
+  "src": "PR Newswire",
+  "ts": "2026-10-29T21:06+00:00"
+ },
+ {
+  "ticker": "BAC",
+  "title": "BAC Investors Have Opportunity to Lead Bank of America Corporation Securities Fraud Lawsuit with SBS Law",
+  "src": "PR Newswire",
+  "ts": "2026-10-29T21:03+00:00"
+ },
+ {
+  "ticker": "BAC",
+  "title": "Bank of America Corporation Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - BAC",
+  "src": "PR Newswire",
+  "ts": "2026-10-29T21:03+00:00"
+ },
+ {
+  "ticker": "TMDX",
+  "title": "TransMedics to Present at Upcoming Investor Conferences",
+  "src": "PR Newswire",
+  "ts": "2026-10-29T21:01+00:00"
+ },
+ {
+  "ticker": "SSTK",
+  "title": "Shutterstock Founder Jon Oringer Returns as CEO; Hichame Assi Named President and COO",
+  "src": "PR Newswire",
+  "ts": "2026-10-29T21:00+00:00"
+ },
+ {
+  "ticker": "KLXE",
+  "title": "KLX ENERGY SERVICES ANNOUNCES APPOINTMENT OF FRANKLIN S. EDMONDS, JR. AND E. DIRK HALLEN TO BOARD OF DIRECTORS",
+  "src": "PR Newswire",
+  "ts": "2026-10-29T20:50+00:00"
+ },
+ {
+  "ticker": "LWAY",
+  "title": "Lifeway Foods® to Report Third Quarter 2026 Results on November 12, 2026",
+  "src": "PR Newswire",
+  "ts": "2026-10-29T20:45+00:00"
+ },
+ {
+  "ticker": "VTOL",
+  "title": "Bristow Group Declares Cash Dividend",
+  "src": "PR Newswire",
+  "ts": "2026-10-29T20:39+00:00"
  }
 ]

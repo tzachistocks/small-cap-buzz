@@ -2403,10 +2403,12 @@
    "sample": "r/pennystocks: AIBT crazy otc play here, even nasdaq investors are showing interest (DD)"
   },
   "NRXP": {
-   "m24_max": 6,
-   "authors24_max": 5,
+   "m24_max": 9,
+   "authors24_max": 6,
    "subs": [
-    "pennystocks"
+    "Shortsqueeze",
+    "pennystocks",
+    "smallstreetbets"
    ],
    "first_utc": "2026-10-29T05:25+00:00",
    "sample": "r/pennystocks: SMALL CAP BIOTECH STOCKS WITH POTENTIAL FOR A SHORT SQUEEZE"
@@ -3331,6 +3333,48 @@
     "smallstreetbets"
    ],
    "first_utc": "2026-10-29T19:33+00:00"
+  },
+  "PC": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T20:32+00:00",
+   "sample": "r/smallstreetbets: Intel doing the after hours dump post Q3 earnings"
+  },
+  "EBAY": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T21:03+00:00",
+   "sample": "r/smallstreetbets: EBAY has outperformed AMZN, GOOG, MSFT and META over the past year"
+  },
+  "CRWV": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T20:58+00:00"
+  },
+  "DOW": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T20:47+00:00"
+  },
+  "FNGR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T20:37+00:00"
   }
  }
 }
