@@ -1630,7 +1630,7 @@
    "spread",
    "rising"
   ],
-  "alerted": false,
+  "alerted": true,
   "urgent": false,
   "outcome": {}
  },
@@ -1916,7 +1916,7 @@
   "ts": "2026-10-29T13:07+00:00",
   "ticker": "KDK",
   "score": 3,
-  "max_score": 3,
+  "max_score": 6,
   "price": 1.4,
   "move_pct": 25.0,
   "cap_m": 280.56,
@@ -1926,9 +1926,12 @@
   "tags": [
    "accel",
    "vel3h",
-   "spread"
+   "spread",
+   "st_msgs",
+   "rvol",
+   "pr_weak"
   ],
-  "alerted": false,
+  "alerted": true,
   "urgent": false,
   "outcome": {}
  },
@@ -1949,6 +1952,46 @@
    "spread",
    "novel",
    "short",
+   "low_float"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-29|IQ": {
+  "ts": "2026-10-29T14:07+00:00",
+  "ticker": "IQ",
+  "score": 3,
+  "max_score": 3,
+  "price": 0.8333,
+  "move_pct": -0.06,
+  "cap_m": 442.13,
+  "blocked": [],
+  "tags": [
+   "vel3h",
+   "spread"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-29|BEAT": {
+  "ts": "2026-10-29T14:07+00:00",
+  "ticker": "BEAT",
+  "score": 5,
+  "max_score": 5,
+  "price": 0.5384,
+  "move_pct": 1.24,
+  "cap_m": 30.55,
+  "blocked": [
+   "כבר רצה +35% ב-3 ימים"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "spread",
+   "rising",
+   "novel",
    "low_float"
   ],
   "alerted": false,

@@ -110,5 +110,12 @@
   "asia": null,
   "sic": "Pharmaceutical Preparations",
   "ts": "2026-10-29T07:09+00:00"
+ },
+ "KDK": {
+  "country": "CA",
+  "inc": "DE",
+  "asia": null,
+  "sic": "Services-Computer Integrated Systems Design",
+  "ts": "2026-10-29T14:08+00:00"
  }
 }

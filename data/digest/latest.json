@@ -1,37 +1,37 @@
 {
  "date": "2026-10-29",
- "generated_at": "2026-10-29T13:07+00:00",
+ "generated_at": "2026-10-29T14:07+00:00",
  "final": false,
  "runs": {
-  "count": 3,
+  "count": 4,
   "first": "2026-10-29T11:07+00:00",
-  "last": "2026-10-29T13:07+00:00",
+  "last": "2026-10-29T14:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 858,
-   "mention_gate": 69,
+   "buzz_tickers": 1142,
+   "mention_gate": 88,
    "reddit_path": 0,
    "telegram_path": 0,
-   "news_path": 6,
-   "skipped_large_cache": 121,
-   "shadow_gate": 66,
-   "to_check": 20,
-   "checked": 20,
+   "news_path": 7,
+   "skipped_large_cache": 160,
+   "shadow_gate": 92,
+   "to_check": 27,
+   "checked": 27,
    "not_checked_time": 0,
    "blocked": {
     "שווי": 4,
-    "כבר": 11
+    "כבר": 14
    },
-   "below_score": 5,
-   "cooldown": 3,
+   "below_score": 6,
+   "cooldown": 4,
    "shadow_would_alert": 0,
-   "sent": 0,
+   "sent": 2,
    "send_failed": 0
   },
   "telegram_last": {
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 600
+   "messages": 595
   },
   "per_run": [
    {
@@ -52,6 +52,13 @@
     "ts": "2026-10-29T13:07+00:00",
     "checked": 7,
     "sent": 0,
+    "send_failed": 0,
+    "errors_n": 0
+   },
+   {
+    "ts": "2026-10-29T14:07+00:00",
+    "checked": 7,
+    "sent": 2,
     "send_failed": 0,
     "errors_n": 0
    }
@@ -82,7 +89,77 @@
     "פלואט 38.3M"
    ],
    "news": null,
-   "outcome": {}
+   "outcome": {
+    "days": 1,
+    "last_close": 2.740000009536743,
+    "last_pct": 1.9,
+    "max_close_pct": 1.9,
+    "max_high_pct": 3.0,
+    "d1_pct": 1.9
+   }
+  },
+  {
+   "ts": "2026-10-29T14:07+00:00",
+   "ticker": "ANTX",
+   "score": 6,
+   "path": "buzz",
+   "urgent": false,
+   "price": 4.735,
+   "prev_close": 4.52,
+   "move_pct": 4.76,
+   "rel_vol": 0.16,
+   "cap_m": 178.68,
+   "float_m": 28.29,
+   "short_pct": 10.21,
+   "invalidation": 4.52,
+   "why": [
+    "האצה x4.0 מול הבסיס",
+    "פיזור ב-2 פורומים",
+    "שיח עולה 3 ימים ברציפות (1→5→7)",
+    "חדשה בשיח (לא דוברה 14 יום)",
+    "פלואט 28.3M"
+   ],
+   "news": null,
+   "outcome": {
+    "days": 1,
+    "last_close": 4.735000133514404,
+    "last_pct": 0.0,
+    "max_close_pct": 0.0,
+    "max_high_pct": 0.7,
+    "d1_pct": 0.0
+   }
+  },
+  {
+   "ts": "2026-10-29T14:07+00:00",
+   "ticker": "KDK",
+   "score": 6,
+   "path": "buzz",
+   "urgent": false,
+   "price": 1.39,
+   "prev_close": 1.31,
+   "move_pct": 6.11,
+   "rel_vol": 2.06,
+   "cap_m": 278.86,
+   "float_m": 122.41,
+   "short_pct": 7.76,
+   "invalidation": 1.31,
+   "why": [
+    "האצה x3.0 מול הבסיס",
+    "+4 אזכורים ב-3 שעות",
+    "פיזור ב-2 פורומים",
+    "30 הודעות בסטוקטוויטס ב-6 שעות",
+    "נפח פי 2.1 מהממוצע",
+    "PR רגיל (16:00 ET 28/10): Stoneridge and Kodiak AI Announce Collaboration to Advance Autonomous "
+   ],
+   "news": "Stoneridge and Kodiak AI Announce Collaboration to Advance Autonomous Commercial Vehicles",
+   "outcome": {
+    "days": 1,
+    "last_close": 1.3899999856948853,
+    "last_pct": -0.0,
+    "max_close_pct": -0.0,
+    "max_high_pct": -0.0,
+    "d1_pct": -0.0
+   }
   }
  ],
  "alerts_last_14d": [
@@ -205,12 +282,13 @@
    ],
    "news": null,
    "outcome": {
-    "days": 4,
-    "last_close": 0.09700000286102295,
-    "last_pct": -66.9,
+    "days": 5,
+    "last_close": 0.08829999715089798,
+    "last_pct": -69.9,
     "max_close_pct": -32.5,
     "max_high_pct": 17.7,
-    "d1_pct": -32.5
+    "d1_pct": -32.5,
+    "final": true
    }
   },
   {
@@ -263,11 +341,11 @@
    ],
    "news": null,
    "outcome": {
-    "days": 1,
-    "last_close": 4.519999980926514,
-    "last_pct": 4.2,
-    "max_close_pct": 4.2,
-    "max_high_pct": 6.1,
+    "days": 2,
+    "last_close": 4.735000133514404,
+    "last_pct": 9.2,
+    "max_close_pct": 9.2,
+    "max_high_pct": 10.0,
     "d1_pct": 4.2
    }
   }
@@ -333,7 +411,7 @@
     "spread",
     "rising"
    ],
-   "alerted": false,
+   "alerted": true,
    "urgent": false
   },
   {
@@ -382,6 +460,28 @@
   },
   {
    "ts": "2026-10-29T13:07+00:00",
+   "ticker": "KDK",
+   "score": 3,
+   "max_score": 6,
+   "price": 1.4,
+   "move_pct": 25.0,
+   "cap_m": 280.56,
+   "blocked": [
+    "כבר זזה +25%"
+   ],
+   "tags": [
+    "accel",
+    "vel3h",
+    "spread",
+    "st_msgs",
+    "rvol",
+    "pr_weak"
+   ],
+   "alerted": true,
+   "urgent": false
+  },
+  {
+   "ts": "2026-10-29T13:07+00:00",
    "ticker": "NCPL",
    "score": 5,
    "max_score": 5,
@@ -397,6 +497,28 @@
     "spread",
     "novel",
     "short",
+    "low_float"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-10-29T14:07+00:00",
+   "ticker": "BEAT",
+   "score": 5,
+   "max_score": 5,
+   "price": 0.5384,
+   "move_pct": 1.24,
+   "cap_m": 30.55,
+   "blocked": [
+    "כבר רצה +35% ב-3 ימים"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "spread",
+    "rising",
+    "novel",
     "low_float"
    ],
    "alerted": false,
@@ -580,18 +702,15 @@
    "urgent": false
   },
   {
-   "ts": "2026-10-29T13:07+00:00",
-   "ticker": "KDK",
+   "ts": "2026-10-29T14:07+00:00",
+   "ticker": "IQ",
    "score": 3,
    "max_score": 3,
-   "price": 1.4,
-   "move_pct": 25.0,
-   "cap_m": 280.56,
-   "blocked": [
-    "כבר זזה +25%"
-   ],
+   "price": 0.8333,
+   "move_pct": -0.06,
+   "cap_m": 442.13,
+   "blocked": [],
    "tags": [
-    "accel",
     "vel3h",
     "spread"
    ],
@@ -1926,6 +2045,15 @@
     "first_utc": "2026-10-28T13:22+00:00",
     "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
    },
+   "KDK": {
+    "m24_max": 4,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T02:53+00:00",
+    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
+   },
    "NUWE": {
     "m24_max": 4,
     "authors24_max": 2,
@@ -1934,6 +2062,15 @@
     ],
     "first_utc": "2026-10-29T02:53+00:00",
     "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
+   },
+   "SHFS": {
+    "m24_max": 4,
+    "authors24_max": 4,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-28T15:06+00:00",
+    "sample": "r/pennystocks: WHAT ARE THE BIGGEST WINNERS AND WHY ?"
    },
    "VNDA": {
     "m24_max": 4,
@@ -1962,15 +2099,6 @@
     ],
     "first_utc": "2026-10-28T19:53+00:00",
     "sample": "r/pennystocks: Anyone else still holding $PDC after today's 50% run?"
-   },
-   "KDK": {
-    "m24_max": 3,
-    "authors24_max": 2,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T02:53+00:00",
-    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
    },
    "SKHY": {
     "m24_max": 3,
@@ -2046,6 +2174,24 @@
     "first_utc": "2026-10-28T13:22+00:00",
     "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
    },
+   "INLF": {
+    "m24_max": 3,
+    "authors24_max": 3,
+    "subs": [
+     "pennystocks",
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-29T10:50+00:00",
+    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+   },
+   "NUR": {
+    "m24_max": 3,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T12:15+00:00"
+   },
    "ICMB": {
     "m24_max": 2,
     "authors24_max": 1,
@@ -2054,15 +2200,6 @@
     ],
     "first_utc": "2026-10-28T19:09+00:00",
     "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
-   },
-   "SHFS": {
-    "m24_max": 2,
-    "authors24_max": 2,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-28T15:06+00:00",
-    "sample": "r/pennystocks: WHAT ARE THE BIGGEST WINNERS AND WHY ?"
    },
    "GRML": {
     "m24_max": 2,
@@ -2096,13 +2233,15 @@
     ],
     "first_utc": "2026-10-29T11:09+00:00"
    },
-   "NUR": {
+   "BURU": {
     "m24_max": 2,
     "authors24_max": 2,
     "subs": [
-     "pennystocks"
+     "pennystocks",
+     "smallstreetbets"
     ],
-    "first_utc": "2026-10-29T12:15+00:00"
+    "first_utc": "2026-10-29T13:11+00:00",
+    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
    },
    "INO": {
     "m24_max": 1,
@@ -2202,24 +2341,6 @@
     ],
     "first_utc": "2026-10-28T15:44+00:00",
     "sample": "r/smallstreetbets: Sk Hynix will moon"
-   },
-   "CL": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-28T15:06+00:00",
-    "sample": "r/pennystocks: WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-   },
-   "AXG": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-28T15:06+00:00",
-    "sample": "r/pennystocks: WHAT ARE THE BIGGEST WINNERS AND WHY ?"
    }
   },
   "telegram_top": {
@@ -2343,6 +2464,24 @@
     "chats24_max": 2,
     "first_utc": "2026-10-28T13:07+00:00"
    },
+   "PBH": {
+    "m24_max": 4,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T13:57+00:00"
+   },
+   "WH": {
+    "m24_max": 4,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T13:46+00:00"
+   },
+   "XRX": {
+    "m24_max": 3,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-28T20:00+00:00"
+   },
    "HLN": {
     "m24_max": 3,
     "authors24_max": 1,
@@ -2366,6 +2505,12 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-10-28T19:28+00:00"
+   },
+   "FTNT": {
+    "m24_max": 3,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-28T19:02+00:00"
    },
    "SLS": {
     "m24_max": 3,
@@ -2409,12 +2554,6 @@
     "chats24_max": 2,
     "first_utc": "2026-10-28T21:07+00:00"
    },
-   "XRX": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-28T20:00+00:00"
-   },
    "MRK": {
     "m24_max": 2,
     "authors24_max": 1,
@@ -2444,24 +2583,6 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-10-29T07:07+00:00"
-   },
-   "SHEL": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-29T07:06+00:00"
-   },
-   "LYG": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-29T07:06+00:00"
-   },
-   "MOVE": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-29T02:00+00:00"
    }
   }
  },

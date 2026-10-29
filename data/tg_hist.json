@@ -121,7 +121,7 @@
    "first_utc": "2026-10-29T10:49+00:00"
   },
   "XRX": {
-   "m24_max": 2,
+   "m24_max": 3,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-28T20:00+00:00"
@@ -445,7 +445,7 @@
    "first_utc": "2026-10-28T19:28+00:00"
   },
   "MAN": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-28T21:53+00:00"
@@ -607,7 +607,7 @@
    "first_utc": "2026-10-28T12:30+00:00"
   },
   "NDAQ": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-28T20:04+00:00"
@@ -685,7 +685,7 @@
    "first_utc": "2026-10-28T19:57+00:00"
   },
   "ADT": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-28T19:57+00:00"
@@ -793,7 +793,7 @@
    "first_utc": "2026-10-28T19:06+00:00"
   },
   "FTNT": {
-   "m24_max": 1,
+   "m24_max": 3,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-28T19:02+00:00"
@@ -1027,7 +1027,7 @@
    "first_utc": "2026-10-28T16:27+00:00"
   },
   "DTE": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-28T16:26+00:00"
@@ -1721,6 +1721,60 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-29T13:07+00:00"
+  },
+  "PBH": {
+   "m24_max": 4,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-29T13:57+00:00"
+  },
+  "SFM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-29T14:04+00:00"
+  },
+  "IPFX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-29T14:03+00:00"
+  },
+  "WH": {
+   "m24_max": 4,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-29T13:46+00:00"
+  },
+  "GPOR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-29T13:45+00:00"
+  },
+  "APP": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-29T13:18+00:00"
+  },
+  "OI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-29T13:20+00:00"
+  },
+  "EEFT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-29T13:19+00:00"
+  },
+  "AIBT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-29T13:42+00:00"
   }
  }
 }

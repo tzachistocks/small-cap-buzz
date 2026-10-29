@@ -270,12 +270,13 @@
   },
   "telegram_sent": true,
   "outcome": {
-   "days": 4,
-   "last_close": 0.09700000286102295,
-   "last_pct": -66.9,
+   "days": 5,
+   "last_close": 0.08829999715089798,
+   "last_pct": -69.9,
    "max_close_pct": -32.5,
    "max_high_pct": 17.7,
-   "d1_pct": -32.5
+   "d1_pct": -32.5,
+   "final": true
   },
   "followups": {
    "stop": "2026-10-24T18:08+00:00"
@@ -481,11 +482,11 @@
   "urgent_why": [],
   "telegram_sent": true,
   "outcome": {
-   "days": 1,
-   "last_close": 4.519999980926514,
-   "last_pct": 4.2,
-   "max_close_pct": 4.2,
-   "max_high_pct": 6.1,
+   "days": 2,
+   "last_close": 4.735000133514404,
+   "last_pct": 9.2,
+   "max_close_pct": 9.2,
+   "max_high_pct": 10.0,
    "d1_pct": 4.2
   },
   "followups": {}
@@ -599,7 +600,265 @@
   "urgent_why": [],
   "path": "buzz",
   "telegram_sent": true,
-  "outcome": {},
+  "outcome": {
+   "days": 1,
+   "last_close": 2.740000009536743,
+   "last_pct": 1.9,
+   "max_close_pct": 1.9,
+   "max_high_pct": 3.0,
+   "d1_pct": 1.9
+  },
   "followups": {}
+ },
+ {
+  "id": "202610291407-ANTX",
+  "ts": "2026-10-29T14:07+00:00",
+  "ticker": "ANTX",
+  "score": 6,
+  "why": [
+   "האצה x4.0 מול הבסיס",
+   "פיזור ב-2 פורומים",
+   "שיח עולה 3 ימים ברציפות (1→5→7)",
+   "חדשה בשיח (לא דוברה 14 יום)",
+   "פלואט 28.3M"
+  ],
+  "price": {
+   "price": 4.735,
+   "prev_close": 4.52,
+   "move_pct": 4.76,
+   "vol_today": 50317,
+   "avg_vol20": 323715,
+   "rel_vol": 0.16,
+   "exchange": "NMS",
+   "name": "AN2 Therapeutics, Inc.",
+   "readiness": {
+    "points": 1,
+    "why": [
+     "עלתה 17% אתמול"
+    ],
+    "risk": [],
+    "asof": "2026-10-28",
+    "f": {
+     "rvol_1": 1.8222,
+     "atr_ratio": 0.9076,
+     "drawdown_60": -0.3713,
+     "vol20": 0.0681,
+     "prior_runs_120": 0.0,
+     "ret_1d": 0.171,
+     "ret_3d": 0.2732,
+     "ret_10d": 0.2768,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.7546
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 178.68,
+   "float_m": 28.29,
+   "short_float_pct": 10.21,
+   "days_to_cover": 11.09,
+   "src": "finviz"
+  },
+  "m_now": 6,
+  "m_24h_ago": 1,
+  "spread": [
+   "pennystocks"
+  ],
+  "reddit": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T14:04+00:00",
+   "sample": ""
+  },
+  "stocktwits": {
+   "msgs_6h": 0,
+   "users": 21,
+   "bull": 12,
+   "bear": 1,
+   "oldest_min": 308165,
+   "watchlist": 528
+  },
+  "borrow": {
+   "fee": 1.7728,
+   "available": 850000,
+   "fee_5d": null,
+   "available_5d": null
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "profile": {
+   "country": "CA",
+   "inc": "DE",
+   "asia": null,
+   "sic": "Pharmaceutical Preparations",
+   "ts": "2026-10-28T21:08+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [],
+   "filings": [],
+   "rsplit": null,
+   "cik": 1880438
+  },
+  "forum": {
+   "rising": [
+    1,
+    5,
+    7
+   ],
+   "novel": true
+  },
+  "invalidation": 4.52,
+  "news": null,
+  "urgent": false,
+  "urgent_why": [],
+  "path": "buzz",
+  "telegram_sent": true,
+  "outcome": {
+   "days": 1,
+   "last_close": 4.735000133514404,
+   "last_pct": 0.0,
+   "max_close_pct": 0.0,
+   "max_high_pct": 0.7,
+   "d1_pct": 0.0
+  }
+ },
+ {
+  "id": "202610291407-KDK",
+  "ts": "2026-10-29T14:07+00:00",
+  "ticker": "KDK",
+  "score": 6,
+  "why": [
+   "האצה x3.0 מול הבסיס",
+   "+4 אזכורים ב-3 שעות",
+   "פיזור ב-2 פורומים",
+   "30 הודעות בסטוקטוויטס ב-6 שעות",
+   "נפח פי 2.1 מהממוצע",
+   "PR רגיל (16:00 ET 28/10): Stoneridge and Kodiak AI Announce Collaboration to Advance Autonomous "
+  ],
+  "price": {
+   "price": 1.39,
+   "prev_close": 1.31,
+   "move_pct": 6.11,
+   "vol_today": 13689959,
+   "avg_vol20": 6633305,
+   "rel_vol": 2.06,
+   "exchange": "NGM",
+   "name": "Kodiak AI, Inc.",
+   "readiness": {
+    "points": 2,
+    "why": [
+     "ירדה 72% משיא 60 יום",
+     "עלתה 17% אתמול"
+    ],
+    "risk": [],
+    "asof": "2026-10-28",
+    "f": {
+     "rvol_1": 2.0581,
+     "atr_ratio": 0.8207,
+     "drawdown_60": -0.7183,
+     "vol20": 0.0758,
+     "prior_runs_120": 0.0,
+     "ret_1d": 0.1696,
+     "ret_3d": 0.2843,
+     "ret_10d": -0.1603,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.6718
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 278.86,
+   "float_m": 122.41,
+   "short_float_pct": 7.76,
+   "days_to_cover": 2.53,
+   "src": "finviz"
+  },
+  "m_now": 4,
+  "m_24h_ago": 1,
+  "spread": [
+   "pennystocks"
+  ],
+  "reddit": {
+   "m6": 3,
+   "m24": 4,
+   "authors6": 2,
+   "authors24": 2,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T02:53+00:00",
+   "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
+  },
+  "stocktwits": {
+   "msgs_6h": 30,
+   "users": 14,
+   "bull": 10,
+   "bear": 3,
+   "oldest_min": 332,
+   "watchlist": 1327
+  },
+  "borrow": {
+   "fee": 0.9593,
+   "available": 4200000,
+   "fee_5d": null,
+   "available_5d": null
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "profile": {
+   "country": "CA",
+   "inc": "DE",
+   "asia": null,
+   "sic": "Services-Computer Integrated Systems Design",
+   "ts": "2026-10-29T14:08+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [],
+   "filings": [],
+   "rsplit": null,
+   "cik": 1853138
+  },
+  "forum": {
+   "rising": null,
+   "novel": false
+  },
+  "invalidation": 1.31,
+  "news": {
+   "ticker": "KDK",
+   "title": "Stoneridge and Kodiak AI Announce Collaboration to Advance Autonomous Commercial Vehicles",
+   "src": "Yahoo",
+   "ts": "2026-10-28T20:00+00:00",
+   "class": "weak",
+   "rule": "hype subject: AI",
+   "offering": false,
+   "amount_m": null
+  },
+  "urgent": false,
+  "urgent_why": [],
+  "path": "buzz",
+  "telegram_sent": true,
+  "outcome": {
+   "days": 1,
+   "last_close": 1.3899999856948853,
+   "last_pct": -0.0,
+   "max_close_pct": -0.0,
+   "max_high_pct": -0.0,
+   "d1_pct": -0.0
+  }
  }
 ]
