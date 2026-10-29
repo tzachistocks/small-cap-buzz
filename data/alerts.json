@@ -489,5 +489,116 @@
    "d1_pct": 4.2
   },
   "followups": {}
+ },
+ {
+  "id": "202610290807-NRXP",
+  "ts": "2026-10-29T08:07+00:00",
+  "ticker": "NRXP",
+  "score": 8,
+  "why": [
+   "האצה x3.0 מול הבסיס",
+   "+4 אזכורים ב-3 שעות",
+   "פיזור ב-2 פורומים",
+   "5 כותבים שונים ברדיט ב-6 שעות",
+   "חדשה בשיח (לא דוברה 14 יום)",
+   "שורט 26%",
+   "פלואט 38.3M"
+  ],
+  "price": {
+   "price": 2.69,
+   "prev_close": 2.69,
+   "move_pct": 0.0,
+   "vol_today": 833700,
+   "avg_vol20": 757195,
+   "rel_vol": 1.1,
+   "exchange": "NCM",
+   "name": "NRx Pharmaceuticals, Inc.",
+   "readiness": {
+    "points": 0,
+    "why": [],
+    "risk": [],
+    "asof": "2026-10-28",
+    "f": {
+     "rvol_1": 1.2624,
+     "atr_ratio": 1.1751,
+     "drawdown_60": -0.3518,
+     "vol20": 0.0347,
+     "prior_runs_120": 1.0,
+     "ret_1d": 0.0,
+     "ret_3d": 0.0803,
+     "ret_10d": 0.0386,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.8967
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 120.2,
+   "float_m": 38.26,
+   "short_float_pct": 26.01,
+   "days_to_cover": 11.42,
+   "src": "finviz"
+  },
+  "m_now": 4,
+  "m_24h_ago": 0,
+  "spread": [
+   "pennystocks"
+  ],
+  "reddit": {
+   "m6": 6,
+   "m24": 6,
+   "authors6": 5,
+   "authors24": 5,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T05:25+00:00",
+   "sample": "r/pennystocks: SMALL CAP BIOTECH STOCKS WITH POTENTIAL FOR A SHORT SQUEEZE"
+  },
+  "stocktwits": {
+   "msgs_6h": 1,
+   "users": 17,
+   "bull": 11,
+   "bear": 1,
+   "oldest_min": 2732,
+   "watchlist": 13535
+  },
+  "borrow": {
+   "fee": 7.2086,
+   "available": 2200000,
+   "fee_5d": null,
+   "available_5d": null
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "profile": {
+   "country": "DE",
+   "inc": "DE",
+   "asia": null,
+   "sic": "Pharmaceutical Preparations",
+   "ts": "2026-10-29T07:09+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [],
+   "filings": [],
+   "rsplit": null,
+   "cik": 1719406
+  },
+  "forum": {
+   "rising": null,
+   "novel": true
+  },
+  "invalidation": 2.2865,
+  "news": null,
+  "urgent": false,
+  "urgent_why": [],
+  "path": "buzz",
+  "telegram_sent": true,
+  "outcome": {}
  }
 ]
