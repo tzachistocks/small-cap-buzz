@@ -145,5 +145,12 @@
   "asia": "סינגפור",
   "sic": "Finance Services",
   "ts": "2026-10-30T14:08+00:00"
+ },
+ "WKHS": {
+  "country": "MI",
+  "inc": "NV",
+  "asia": null,
+  "sic": "Motor Vehicles & Passenger Car Bodies",
+  "ts": "2026-10-30T15:09+00:00"
  }
 }

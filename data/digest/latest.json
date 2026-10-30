@@ -1,32 +1,32 @@
 {
  "date": "2026-10-30",
- "generated_at": "2026-10-30T14:07+00:00",
+ "generated_at": "2026-10-30T15:07+00:00",
  "final": false,
  "runs": {
-  "count": 9,
+  "count": 10,
   "first": "2026-10-30T07:07+00:00",
-  "last": "2026-10-30T14:07+00:00",
+  "last": "2026-10-30T15:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 2465,
-   "mention_gate": 263,
-   "reddit_path": 6,
+   "buzz_tickers": 2735,
+   "mention_gate": 293,
+   "reddit_path": 7,
    "telegram_path": 0,
-   "news_path": 12,
-   "skipped_large_cache": 453,
-   "shadow_gate": 255,
-   "to_check": 83,
-   "checked": 83,
+   "news_path": 14,
+   "skipped_large_cache": 500,
+   "shadow_gate": 279,
+   "to_check": 93,
+   "checked": 93,
    "not_checked_time": 0,
    "blocked": {
-    "כבר": 9,
-    "שווי": 18,
-    "אין": 9,
+    "כבר": 10,
+    "שווי": 19,
+    "אין": 10,
     "איחוד": 7,
-    "דיווח": 2
+    "דיווח": 3
    },
-   "below_score": 26,
-   "cooldown": 12,
-   "shadow_would_alert": 13,
+   "below_score": 29,
+   "cooldown": 14,
+   "shadow_would_alert": 15,
    "sent": 3,
    "send_failed": 0
   },
@@ -34,7 +34,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 618
+   "messages": 625
   },
   "per_run": [
    {
@@ -99,6 +99,13 @@
     "sent": 1,
     "send_failed": 0,
     "errors_n": 4
+   },
+   {
+    "ts": "2026-10-30T15:07+00:00",
+    "checked": 10,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 4
    }
   ]
  },
@@ -125,11 +132,11 @@
    "news": null,
    "outcome": {
     "days": 1,
-    "last_close": 0.38999998569488525,
-    "last_pct": -4.9,
-    "max_close_pct": -4.9,
+    "last_close": 0.3970000147819519,
+    "last_pct": -3.2,
+    "max_close_pct": -3.2,
     "max_high_pct": -0.0,
-    "d1_pct": -4.9
+    "d1_pct": -3.2
    }
   },
   {
@@ -158,11 +165,11 @@
    "news": "NRx Pharmaceuticals (Nasdaq: NRXP) to Host Conference Call on October 30, 2026 to Discuss Regulatory Milestone for Preservative-Free Ketamine",
    "outcome": {
     "days": 1,
-    "last_close": 2.1298999786376953,
-    "last_pct": -26.0,
-    "max_close_pct": -26.0,
+    "last_close": 2.2249999046325684,
+    "last_pct": -22.7,
+    "max_close_pct": -22.7,
     "max_high_pct": -1.7,
-    "d1_pct": -26.0
+    "d1_pct": -22.7
    }
   },
   {
@@ -193,11 +200,11 @@
    "news": "NRx Pharmaceuticals (Nasdaq:NRXP) Receives FDA Approval of Preservative-Free Ketamine Ahead of November 10 FDA Goal Date",
    "outcome": {
     "days": 1,
-    "last_close": 2.1298999786376953,
-    "last_pct": -0.0,
-    "max_close_pct": -0.0,
+    "last_close": 2.2249999046325684,
+    "last_pct": 4.5,
+    "max_close_pct": 4.5,
     "max_high_pct": 32.9,
-    "d1_pct": -0.0
+    "d1_pct": 4.5
    }
   }
  ],
@@ -352,8 +359,8 @@
    "news": null,
    "outcome": {
     "days": 3,
-    "last_close": 3.9800000190734863,
-    "last_pct": -3.9,
+    "last_close": 3.9600000381469727,
+    "last_pct": -4.3,
     "max_close_pct": -0.0,
     "max_high_pct": 4.6,
     "d1_pct": -0.0
@@ -381,8 +388,8 @@
    "news": null,
    "outcome": {
     "days": 3,
-    "last_close": 4.670000076293945,
-    "last_pct": 7.7,
+    "last_close": 4.510000228881836,
+    "last_pct": 4.0,
     "max_close_pct": 8.1,
     "max_high_pct": 13.0,
     "d1_pct": 4.2
@@ -414,8 +421,8 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 2.1298999786376953,
-    "last_pct": -20.8,
+    "last_close": 2.2249999046325684,
+    "last_pct": -17.3,
     "max_close_pct": -1.1,
     "max_high_pct": 5.2,
     "d1_pct": -1.1
@@ -445,8 +452,8 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 4.670000076293945,
-    "last_pct": -1.4,
+    "last_close": 4.510000228881836,
+    "last_pct": -4.8,
     "max_close_pct": -1.0,
     "max_high_pct": 3.5,
     "d1_pct": -1.0
@@ -477,8 +484,8 @@
    "news": "Stoneridge and Kodiak AI Announce Collaboration to Advance Autonomous Commercial Vehicles",
    "outcome": {
     "days": 2,
-    "last_close": 1.2350000143051147,
-    "last_pct": -11.2,
+    "last_close": 1.2300000190734863,
+    "last_pct": -11.5,
     "max_close_pct": -7.9,
     "max_high_pct": 2.9,
     "d1_pct": -7.9
@@ -536,7 +543,8 @@
     "pr_weak",
     "pr_strong",
     "vel3h",
-    "rvol"
+    "rvol",
+    "rising"
    ],
    "alerted": true,
    "urgent": true
@@ -564,6 +572,30 @@
     "sec_negative",
     "rising",
     "rvol"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-10-30T15:07+00:00",
+   "ticker": "WKHS",
+   "score": 9,
+   "max_score": 9,
+   "price": 2.9,
+   "move_pct": 13.73,
+   "cap_m": 31.6,
+   "blocked": [],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "spread",
+    "novel",
+    "st_msgs",
+    "short",
+    "low_float",
+    "rvol",
+    "sec_strong",
+    "pr_weak"
    ],
    "alerted": false,
    "urgent": false
@@ -722,6 +754,27 @@
     "spread",
     "rising",
     "novel"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-10-30T15:07+00:00",
+   "ticker": "BURU",
+   "score": 4,
+   "max_score": 4,
+   "price": 0.2701,
+   "move_pct": -27.33,
+   "cap_m": 3.71,
+   "blocked": [
+    "כבר רצה +65% ב-3 ימים"
+   ],
+   "tags": [
+    "spread",
+    "authors",
+    "low_float",
+    "rvol",
+    "rsplit"
    ],
    "alerted": false,
    "urgent": false
@@ -2946,6 +2999,16 @@
     ],
     "first_utc": "2026-10-30T03:06+00:00"
    },
+   "HTZ": {
+    "m24_max": 7,
+    "authors24_max": 7,
+    "subs": [
+     "Shortsqueeze",
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-30T03:50+00:00",
+    "sample": "r/smallstreetbets: Screw Goog, Intc, Amz and all AI bubbled up giants. Let’s get $HTZ"
+   },
    "SPCE": {
     "m24_max": 6,
     "authors24_max": 6,
@@ -2956,8 +3019,8 @@
     "sample": "r/smallstreetbets: SPCE is down 99% from all time highs. The good news? They might finally be sort-of-on-sche"
    },
    "BURU": {
-    "m24_max": 4,
-    "authors24_max": 3,
+    "m24_max": 5,
+    "authors24_max": 4,
     "subs": [
      "pennystocks",
      "smallstreetbets"
@@ -2965,15 +3028,25 @@
     "first_utc": "2026-10-29T13:22+00:00",
     "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
    },
-   "HTZ": {
+   "WKHS": {
     "m24_max": 4,
     "authors24_max": 3,
     "subs": [
-     "Shortsqueeze",
+     "pennystocks",
      "smallstreetbets"
     ],
-    "first_utc": "2026-10-30T03:50+00:00",
-    "sample": "r/smallstreetbets: Screw Goog, Intc, Amz and all AI bubbled up giants. Let’s get $HTZ"
+    "first_utc": "2026-10-29T22:43+00:00",
+    "sample": "r/smallstreetbets: Workhorse signs $10M TerraPod build deal with RHAELM | WKHS Stock News"
+   },
+   "SLGB": {
+    "m24_max": 4,
+    "authors24_max": 3,
+    "subs": [
+     "pennystocks",
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-30T13:09+00:00",
+    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
    },
    "GIFT": {
     "m24_max": 3,
@@ -3078,6 +3151,15 @@
     "first_utc": "2026-10-30T13:43+00:00",
     "sample": "r/pennystocks: $DUOT Duos Technologies Interest"
    },
+   "DBO": {
+    "m24_max": 3,
+    "authors24_max": 3,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-30T14:30+00:00",
+    "sample": "r/pennystocks: DBO D-Box Technolgies"
+   },
    "FTNT": {
     "m24_max": 2,
     "authors24_max": 1,
@@ -3112,16 +3194,6 @@
      "pennystocks"
     ],
     "first_utc": "2026-10-30T03:58+00:00"
-   },
-   "WKHS": {
-    "m24_max": 2,
-    "authors24_max": 2,
-    "subs": [
-     "pennystocks",
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-10-29T22:43+00:00",
-    "sample": "r/smallstreetbets: Workhorse signs $10M TerraPod build deal with RHAELM | WKHS Stock News"
    },
    "ANTX": {
     "m24_max": 2,
@@ -3167,6 +3239,26 @@
     ],
     "first_utc": "2026-10-30T13:17+00:00",
     "sample": "r/pennystocks: This might be the last chance to get in on this penny stock [CLGN]"
+   },
+   "HUBC": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks",
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-30T13:09+00:00",
+    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+   },
+   "TNMG": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks",
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-30T13:09+00:00",
+    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
    },
    "QCOM": {
     "m24_max": 1,
@@ -3248,42 +3340,6 @@
     ],
     "first_utc": "2026-10-29T16:14+00:00",
     "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
-   },
-   "IVVD": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T16:14+00:00",
-    "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
-   },
-   "INBX": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T16:14+00:00",
-    "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
-   },
-   "CETX": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T13:57+00:00",
-    "sample": "r/pennystocks: CETX Surges 59% Today After Strong Earnings. More Upside?"
-   },
-   "PCLA": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-10-29T13:22+00:00",
-    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
    }
   },
   "telegram_top": {
@@ -3341,6 +3397,18 @@
     "chats24_max": 1,
     "first_utc": "2026-10-29T13:57+00:00"
    },
+   "UK": {
+    "m24_max": 5,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T13:13+00:00"
+   },
+   "NDAQ": {
+    "m24_max": 5,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T13:33+00:00"
+   },
    "SBUX": {
     "m24_max": 5,
     "authors24_max": 1,
@@ -3359,17 +3427,17 @@
     "chats24_max": 1,
     "first_utc": "2026-10-29T13:46+00:00"
    },
+   "SPOT": {
+    "m24_max": 4,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T11:55+00:00"
+   },
    "RACE": {
     "m24_max": 4,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-10-29T14:33+00:00"
-   },
-   "NDAQ": {
-    "m24_max": 4,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-29T13:33+00:00"
    },
    "KYIV": {
     "m24_max": 4,
@@ -3401,23 +3469,11 @@
     "chats24_max": 1,
     "first_utc": "2026-10-30T07:05+00:00"
    },
-   "SPOT": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-29T11:55+00:00"
-   },
    "EEFT": {
     "m24_max": 3,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-10-29T13:19+00:00"
-   },
-   "UK": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-29T13:13+00:00"
    },
    "MDLZ": {
     "m24_max": 3,
@@ -3590,7 +3646,7 @@
     "first_utc": "2026-10-29T15:04+00:00"
    },
    "SPOT": {
-    "m24_max": 3,
+    "m24_max": 4,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-10-29T11:55+00:00"
@@ -3656,7 +3712,7 @@
     "first_utc": "2026-10-30T00:55+00:00"
    },
    "UK": {
-    "m24_max": 3,
+    "m24_max": 5,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-10-29T13:13+00:00"
@@ -3692,7 +3748,7 @@
     "first_utc": "2026-10-29T22:24+00:00"
    },
    "NDAQ": {
-    "m24_max": 4,
+    "m24_max": 5,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-10-29T13:33+00:00"
@@ -4220,7 +4276,7 @@
     "first_utc": "2026-10-29T14:32+00:00"
    },
    "HTO": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-10-29T18:23+00:00"
@@ -5378,9 +5434,9 @@
     "first_utc": "2026-10-30T13:07+00:00"
    },
    "ATEC": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
+    "m24_max": 2,
+    "authors24_max": 2,
+    "chats24_max": 2,
     "first_utc": "2026-10-30T13:07+00:00"
    },
    "NRXP": {
@@ -5436,14 +5492,98 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-10-30T13:45+00:00"
+   },
+   "FBIZ": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T15:07+00:00"
+   },
+   "VALE": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T15:05+00:00"
+   },
+   "FCRS": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T15:03+00:00"
+   },
+   "IBKR": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T14:51+00:00"
+   },
+   "CVEO": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T14:40+00:00"
+   },
+   "GLD": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T14:39+00:00"
+   },
+   "SELF": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T14:37+00:00"
+   },
+   "AMTM": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T14:33+00:00"
+   },
+   "FLNT": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T14:32+00:00"
+   },
+   "UAA": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T14:27+00:00"
+   },
+   "MOVE": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T14:20+00:00"
+   },
+   "CSQR": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T14:14+00:00"
+   },
+   "ASUR": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T14:10+00:00"
+   },
+   "GLXY": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T14:09+00:00"
    }
   }
  },
  "errors_today": {
-  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/TTM": 9,
-  "HTTP 404 https: //finviz.com/quote.ashx?t=TTM&p=d": 9,
-  "HTTP 404 https: //stockanalysis.com/stocks/ttm/statistics/": 9,
-  "no fundamentals for TTM": 9
+  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/TTM": 10,
+  "HTTP 404 https: //finviz.com/quote.ashx?t=TTM&p=d": 10,
+  "HTTP 404 https: //stockanalysis.com/stocks/ttm/statistics/": 10,
+  "no fundamentals for TTM": 10
  },
  "closes_asof": null,
  "closes": {}

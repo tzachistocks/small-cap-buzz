@@ -2714,7 +2714,8 @@
    "pr_weak",
    "pr_strong",
    "vel3h",
-   "rvol"
+   "rvol",
+   "rising"
   ],
   "alerted": true,
   "urgent": true,
@@ -2989,6 +2990,53 @@
    "relaxed_gate",
    "spread",
    "low_float"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-30|BURU": {
+  "ts": "2026-10-30T15:07+00:00",
+  "ticker": "BURU",
+  "score": 4,
+  "max_score": 4,
+  "price": 0.2701,
+  "move_pct": -27.33,
+  "cap_m": 3.71,
+  "blocked": [
+   "כבר רצה +65% ב-3 ימים"
+  ],
+  "tags": [
+   "spread",
+   "authors",
+   "low_float",
+   "rvol",
+   "rsplit"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-30|WKHS": {
+  "ts": "2026-10-30T15:07+00:00",
+  "ticker": "WKHS",
+  "score": 9,
+  "max_score": 9,
+  "price": 2.9,
+  "move_pct": 13.73,
+  "cap_m": 31.6,
+  "blocked": [],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "spread",
+   "novel",
+   "st_msgs",
+   "short",
+   "low_float",
+   "rvol",
+   "sec_strong",
+   "pr_weak"
   ],
   "alerted": false,
   "urgent": false,
