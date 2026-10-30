@@ -146,6 +146,10 @@ def update_universe(store, now, alerts, cand_log):
             for t, v in d.items():
                 if v[0] >= 3:
                     add(t)
+    tg = (store.load_json("tg_hist.json", {}) or {}).get(day, {})
+    for t, r in tg.items():  # discussed in Telegram: kept so we can check later whether the talk came first
+        if r.get("authors24_max", 0) >= config.TG_MIN_AUTHORS or r.get("chats24_max", 0) >= config.TG_MIN_CHATS:
+            add(t)
     cut = (now - timedelta(hours=24)).isoformat(timespec="minutes")
     for c in store.load_json("pr_cache.json", []):
         if c["ts"] >= cut and news.classify(c["title"])[0] == "strong":
@@ -222,7 +226,8 @@ def build(store, now, alerts, cand_log):
           "alerts_last_14d": alerts_recent,
           "candidates_today": sorted(cands_today, key=lambda c: -(c.get("max_score") or 0)),
           "candidates_measured": cands_measured,
-          "social_today": {"reddit_top": top(reddit, 40), "telegram_top": top(tg, 40)},
+          "social_today": {"reddit_top": top(reddit, 40), "telegram_top": top(tg, 40),
+                           "telegram_all": tg},
           "errors_today": dict(sorted(errs.items(), key=lambda kv: -kv[1])[:30]),
           "closes_asof": closes_asof, "closes": closes}
     store.save_json(os.path.join(DIGEST_DIR, f"{day}.json"), dg)
