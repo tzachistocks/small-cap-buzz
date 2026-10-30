@@ -3908,7 +3908,8 @@
    "subs": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-10-30T12:51+00:00"
+   "first_utc": "2026-10-30T12:51+00:00",
+   "sample": "r/smallstreetbets: Reddit Joins the Dump Dudes"
   },
   "ABOS": {
    "m24_max": 1,
@@ -4296,6 +4297,15 @@
     "pennystocks"
    ],
    "first_utc": "2026-10-30T16:29+00:00"
+  },
+  "SNDK": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-30T17:19+00:00",
+   "sample": "r/smallstreetbets: SNDK puts paid off big. Took home over $70K!"
   }
  }
 }

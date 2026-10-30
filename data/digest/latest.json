@@ -1,32 +1,32 @@
 {
  "date": "2026-10-30",
- "generated_at": "2026-10-30T17:07+00:00",
+ "generated_at": "2026-10-30T18:07+00:00",
  "final": false,
  "runs": {
-  "count": 12,
+  "count": 13,
   "first": "2026-10-30T07:07+00:00",
-  "last": "2026-10-30T17:07+00:00",
+  "last": "2026-10-30T18:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 3275,
-   "mention_gate": 354,
-   "reddit_path": 9,
+   "buzz_tickers": 3544,
+   "mention_gate": 386,
+   "reddit_path": 10,
    "telegram_path": 0,
-   "news_path": 20,
-   "skipped_large_cache": 590,
-   "shadow_gate": 318,
-   "to_check": 111,
-   "checked": 111,
+   "news_path": 23,
+   "skipped_large_cache": 636,
+   "shadow_gate": 335,
+   "to_check": 118,
+   "checked": 118,
    "not_checked_time": 0,
    "blocked": {
     "כבר": 10,
-    "שווי": 23,
-    "אין": 12,
+    "שווי": 25,
+    "אין": 13,
     "איחוד": 7,
     "דיווח": 4
    },
-   "below_score": 33,
-   "cooldown": 16,
-   "shadow_would_alert": 22,
+   "below_score": 35,
+   "cooldown": 17,
+   "shadow_would_alert": 24,
    "sent": 3,
    "send_failed": 0
   },
@@ -34,7 +34,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 632
+   "messages": 631
   },
   "per_run": [
    {
@@ -120,6 +120,13 @@
     "sent": 0,
     "send_failed": 0,
     "errors_n": 4
+   },
+   {
+    "ts": "2026-10-30T18:07+00:00",
+    "checked": 7,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 4
    }
   ]
  },
@@ -146,11 +153,11 @@
    "news": null,
    "outcome": {
     "days": 1,
-    "last_close": 0.3935000002384186,
-    "last_pct": -4.1,
-    "max_close_pct": -4.1,
+    "last_close": 0.39899998903274536,
+    "last_pct": -2.7,
+    "max_close_pct": -2.7,
     "max_high_pct": -0.0,
-    "d1_pct": -4.1
+    "d1_pct": -2.7
    }
   },
   {
@@ -179,11 +186,11 @@
    "news": "NRx Pharmaceuticals (Nasdaq: NRXP) to Host Conference Call on October 30, 2026 to Discuss Regulatory Milestone for Preservative-Free Ketamine",
    "outcome": {
     "days": 1,
-    "last_close": 2.1600000858306885,
-    "last_pct": -25.0,
-    "max_close_pct": -25.0,
+    "last_close": 2.2597999572753906,
+    "last_pct": -21.5,
+    "max_close_pct": -21.5,
     "max_high_pct": -1.7,
-    "d1_pct": -25.0
+    "d1_pct": -21.5
    }
   },
   {
@@ -214,11 +221,11 @@
    "news": "NRx Pharmaceuticals (Nasdaq:NRXP) Receives FDA Approval of Preservative-Free Ketamine Ahead of November 10 FDA Goal Date",
    "outcome": {
     "days": 1,
-    "last_close": 2.1600000858306885,
-    "last_pct": 1.4,
-    "max_close_pct": 1.4,
+    "last_close": 2.2597999572753906,
+    "last_pct": 6.1,
+    "max_close_pct": 6.1,
     "max_high_pct": 32.9,
-    "d1_pct": 1.4
+    "d1_pct": 6.1
    }
   }
  ],
@@ -373,8 +380,8 @@
    "news": null,
    "outcome": {
     "days": 3,
-    "last_close": 3.8399999141693115,
-    "last_pct": -7.2,
+    "last_close": 3.8499999046325684,
+    "last_pct": -7.0,
     "max_close_pct": -0.0,
     "max_high_pct": 4.6,
     "d1_pct": -0.0
@@ -402,8 +409,8 @@
    "news": null,
    "outcome": {
     "days": 3,
-    "last_close": 4.369999885559082,
-    "last_pct": 0.8,
+    "last_close": 4.320000171661377,
+    "last_pct": -0.4,
     "max_close_pct": 8.1,
     "max_high_pct": 13.0,
     "d1_pct": 4.2
@@ -435,8 +442,8 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 2.1600000858306885,
-    "last_pct": -19.7,
+    "last_close": 2.2597999572753906,
+    "last_pct": -16.0,
     "max_close_pct": -1.1,
     "max_high_pct": 5.2,
     "d1_pct": -1.1
@@ -466,8 +473,8 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 4.369999885559082,
-    "last_pct": -7.7,
+    "last_close": 4.320000171661377,
+    "last_pct": -8.8,
     "max_close_pct": -1.0,
     "max_high_pct": 3.5,
     "d1_pct": -1.0
@@ -498,8 +505,8 @@
    "news": "Stoneridge and Kodiak AI Announce Collaboration to Advance Autonomous Commercial Vehicles",
    "outcome": {
     "days": 2,
-    "last_close": 1.215000033378601,
-    "last_pct": -12.6,
+    "last_close": 1.197700023651123,
+    "last_pct": -13.8,
     "max_close_pct": -7.9,
     "max_high_pct": 2.9,
     "d1_pct": -7.9
@@ -887,6 +894,26 @@
     "relaxed_gate",
     "spread",
     "low_float"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-10-30T18:07+00:00",
+   "ticker": "NVT",
+   "score": 3,
+   "max_score": 3,
+   "price": 124.88,
+   "move_pct": -9.61,
+   "cap_m": 20210.0,
+   "blocked": [
+    "שווי $20210M"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "novel"
    ],
    "alerted": false,
    "urgent": false
@@ -3325,6 +3352,15 @@
     ],
     "first_utc": "2026-10-30T16:36+00:00"
    },
+   "SNDK": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "subs": [
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-30T17:19+00:00",
+    "sample": "r/smallstreetbets: SNDK puts paid off big. Took home over $70K!"
+   },
    "QCOM": {
     "m24_max": 1,
     "authors24_max": 1,
@@ -3362,15 +3398,6 @@
     "sample": "r/smallstreetbets: Intel doing the after hours dump post Q3 earnings"
    },
    "STOK": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T16:14+00:00",
-    "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
-   },
-   "BBIO": {
     "m24_max": 1,
     "authors24_max": 1,
     "subs": [
@@ -3423,6 +3450,12 @@
     "chats24_max": 1,
     "first_utc": "2026-10-29T20:05+00:00"
    },
+   "HKD": {
+    "m24_max": 9,
+    "authors24_max": 3,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T12:57+00:00"
+   },
    "GOOS": {
     "m24_max": 9,
     "authors24_max": 1,
@@ -3446,12 +3479,6 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-10-29T13:57+00:00"
-   },
-   "HKD": {
-    "m24_max": 6,
-    "authors24_max": 3,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T12:57+00:00"
    },
    "UK": {
     "m24_max": 5,
@@ -5430,7 +5457,7 @@
     "first_utc": "2026-10-30T11:32+00:00"
    },
    "HKD": {
-    "m24_max": 6,
+    "m24_max": 9,
     "authors24_max": 3,
     "chats24_max": 1,
     "first_utc": "2026-10-30T12:57+00:00"
@@ -5764,14 +5791,56 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-10-30T16:28+00:00"
+   },
+   "VABK": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T18:02+00:00"
+   },
+   "TUSK": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T17:50+00:00"
+   },
+   "MEOH": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T17:40+00:00"
+   },
+   "CACC": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T17:38+00:00"
+   },
+   "F": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T17:20+00:00"
+   },
+   "AI": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T17:28+00:00"
+   },
+   "LOAN": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T17:12+00:00"
    }
   }
  },
  "errors_today": {
-  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/TTM": 12,
-  "HTTP 404 https: //finviz.com/quote.ashx?t=TTM&p=d": 12,
-  "HTTP 404 https: //stockanalysis.com/stocks/ttm/statistics/": 12,
-  "no fundamentals for TTM": 12
+  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/TTM": 13,
+  "HTTP 404 https: //finviz.com/quote.ashx?t=TTM&p=d": 13,
+  "HTTP 404 https: //stockanalysis.com/stocks/ttm/statistics/": 13,
+  "no fundamentals for TTM": 13
  },
  "closes_asof": null,
  "closes": {}

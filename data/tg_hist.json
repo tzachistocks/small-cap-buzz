@@ -4365,7 +4365,7 @@
    "first_utc": "2026-10-30T11:32+00:00"
   },
   "HKD": {
-   "m24_max": 6,
+   "m24_max": 9,
    "authors24_max": 3,
    "chats24_max": 1,
    "first_utc": "2026-10-30T12:57+00:00"
@@ -4699,6 +4699,48 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-30T16:28+00:00"
+  },
+  "VABK": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-30T18:02+00:00"
+  },
+  "TUSK": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-30T17:50+00:00"
+  },
+  "MEOH": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-30T17:40+00:00"
+  },
+  "CACC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-30T17:38+00:00"
+  },
+  "F": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-30T17:20+00:00"
+  },
+  "AI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-30T17:28+00:00"
+  },
+  "LOAN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-30T17:12+00:00"
   }
  }
 }

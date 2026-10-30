@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T17:07+00:00",
+ "ts": "2026-10-30T18:07+00:00",
  "reddit_ok": true,
  "stocktwits_trending": 30,
  "apewisdom_main": 300,
@@ -18,26 +18,26 @@
   "mode": "ok",
   "chats_ok": 14,
   "chats_failed": 0,
-  "messages": 632
+  "messages": 631
  },
  "funnel": {
-  "buzz_tickers": 270,
-  "mention_gate": 29,
+  "buzz_tickers": 269,
+  "mention_gate": 32,
   "reddit_path": 1,
   "telegram_path": 0,
   "news_path": 3,
-  "skipped_large_cache": 45,
-  "shadow_gate": 19,
+  "skipped_large_cache": 46,
+  "shadow_gate": 17,
   "to_check": 7,
   "checked": 7,
   "not_checked_time": 0,
   "blocked": {
-   "שווי": 2,
-   "אין": 1
+   "אין": 1,
+   "שווי": 2
   },
-  "below_score": 1,
-  "cooldown": 0,
-  "shadow_would_alert": 4,
+  "below_score": 2,
+  "cooldown": 1,
+  "shadow_would_alert": 2,
   "sent": 0,
   "send_failed": 0
  },
