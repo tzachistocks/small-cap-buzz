@@ -1,23 +1,5 @@
 [
  {
-  "ticker": "QUIK",
-  "title": "QuickLogic to Report Third Quarter 2026 Financial Results on Tuesday, November 10 and Participate in Upcoming Investor Conferences",
-  "src": "PR Newswire",
-  "ts": "2026-10-27T12:01+00:00"
- },
- {
-  "ticker": "NLST",
-  "title": "Netlist Schedules Third Quarter 2026 Financial Results and Conference Call",
-  "src": "PR Newswire",
-  "ts": "2026-10-27T12:01+00:00"
- },
- {
-  "ticker": "VUZI",
-  "title": "Vuzix Signs Distribution Agreement with Commercial Electronics Systems and Begins Shipping Against Initial Six-Figure LX1 Smart Glasses Order",
-  "src": "PR Newswire",
-  "ts": "2026-10-27T12:00+00:00"
- },
- {
   "ticker": "SYRA",
   "title": "Syra Health To Announce Third Quarter 2026 Financial Results",
   "src": "PR Newswire",
@@ -856,5 +838,35 @@
   "title": "The Aaon Group Announces Third Quarter 2026 Conference Call and Webcast",
   "src": "PR Newswire",
   "ts": "2026-10-30T11:00+00:00"
+ },
+ {
+  "ticker": "INTS",
+  "title": "Intensity Therapeutics to Announce Third Quarter 2026 Financial Results on November 5, 2026",
+  "src": "PR Newswire",
+  "ts": "2026-10-30T12:00+00:00"
+ },
+ {
+  "ticker": "PANW",
+  "title": "Palo Alto Networks Recommends Stockholders Reject Mini-Tender Offer by Tutanota LLC",
+  "src": "PR Newswire",
+  "ts": "2026-10-30T12:00+00:00"
+ },
+ {
+  "ticker": "OPY",
+  "title": "Oppenheimer Holdings Inc. Reports Third Quarter 2026 Earnings",
+  "src": "PR Newswire",
+  "ts": "2026-10-30T12:00+00:00"
+ },
+ {
+  "ticker": "AZTA",
+  "title": "Azenta Announces Strategic Investments to Advance the Next Generation of GENEWIZ Gene Synthesis Capabilities",
+  "src": "PR Newswire",
+  "ts": "2026-10-30T12:00+00:00"
+ },
+ {
+  "ticker": "QTRHF",
+  "title": "Quarterhill Announces Repayment of Convertible Debentures",
+  "src": "PR Newswire",
+  "ts": "2026-10-30T12:00+00:00"
  }
 ]
