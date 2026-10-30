@@ -1,260 +1,72 @@
 {
- "date": "2026-10-29",
- "generated_at": "2026-10-29T23:07+00:00",
- "final": true,
+ "date": "2026-10-30",
+ "generated_at": "2026-10-30T07:07+00:00",
+ "final": false,
  "runs": {
-  "count": 13,
-  "first": "2026-10-29T11:07+00:00",
-  "last": "2026-10-29T23:07+00:00",
+  "count": 1,
+  "first": "2026-10-30T07:07+00:00",
+  "last": "2026-10-30T07:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 3705,
-   "mention_gate": 280,
-   "reddit_path": 1,
-   "telegram_path": 7,
-   "news_path": 8,
-   "skipped_large_cache": 500,
-   "shadow_gate": 322,
-   "to_check": 118,
-   "checked": 118,
+   "buzz_tickers": 276,
+   "mention_gate": 29,
+   "reddit_path": 0,
+   "telegram_path": 0,
+   "news_path": 1,
+   "skipped_large_cache": 46,
+   "shadow_gate": 29,
+   "to_check": 13,
+   "checked": 13,
    "not_checked_time": 0,
    "blocked": {
-    "שווי": 28,
-    "כבר": 38,
-    "איחוד": 8,
-    "דיווח": 3,
-    "אין": 1
+    "כבר": 2,
+    "שווי": 6,
+    "אין": 1,
+    "איחוד": 1
    },
-   "below_score": 27,
-   "cooldown": 22,
+   "below_score": 2,
+   "cooldown": 1,
    "shadow_would_alert": 1,
-   "sent": 3,
+   "sent": 1,
    "send_failed": 0
   },
   "telegram_last": {
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 616
+   "messages": 628
   },
   "per_run": [
    {
-    "ts": "2026-10-29T11:07+00:00",
-    "checked": 6,
-    "sent": 0,
-    "send_failed": 0,
-    "errors_n": 0
-   },
-   {
-    "ts": "2026-10-29T12:07+00:00",
-    "checked": 7,
-    "sent": 0,
-    "send_failed": 0,
-    "errors_n": 0
-   },
-   {
-    "ts": "2026-10-29T13:07+00:00",
-    "checked": 7,
-    "sent": 0,
-    "send_failed": 0,
-    "errors_n": 0
-   },
-   {
-    "ts": "2026-10-29T14:07+00:00",
-    "checked": 7,
-    "sent": 2,
-    "send_failed": 0,
-    "errors_n": 0
-   },
-   {
-    "ts": "2026-10-29T15:07+00:00",
-    "checked": 8,
-    "sent": 0,
-    "send_failed": 0,
-    "errors_n": 1
-   },
-   {
-    "ts": "2026-10-29T16:07+00:00",
-    "checked": 11,
-    "sent": 0,
-    "send_failed": 0,
-    "errors_n": 0
-   },
-   {
-    "ts": "2026-10-29T17:07+00:00",
-    "checked": 11,
-    "sent": 0,
-    "send_failed": 0,
-    "errors_n": 0
-   },
-   {
-    "ts": "2026-10-29T18:07+00:00",
-    "checked": 8,
-    "sent": 0,
-    "send_failed": 0,
-    "errors_n": 0
-   },
-   {
-    "ts": "2026-10-29T19:07+00:00",
-    "checked": 9,
-    "sent": 0,
-    "send_failed": 0,
-    "errors_n": 0
-   },
-   {
-    "ts": "2026-10-29T20:07+00:00",
-    "checked": 12,
-    "sent": 0,
-    "send_failed": 0,
-    "errors_n": 0
-   },
-   {
-    "ts": "2026-10-29T21:07+00:00",
-    "checked": 11,
-    "sent": 0,
-    "send_failed": 0,
-    "errors_n": 1
-   },
-   {
-    "ts": "2026-10-29T22:07+00:00",
-    "checked": 9,
-    "sent": 0,
-    "send_failed": 0,
-    "errors_n": 0
-   },
-   {
-    "ts": "2026-10-29T23:07+00:00",
-    "checked": 12,
+    "ts": "2026-10-30T07:07+00:00",
+    "checked": 13,
     "sent": 1,
     "send_failed": 0,
-    "errors_n": 0
+    "errors_n": 4
    }
   ]
  },
  "alerts_today": [
   {
-   "ts": "2026-10-29T08:07+00:00",
-   "ticker": "NRXP",
-   "score": 8,
+   "ts": "2026-10-30T07:07+00:00",
+   "ticker": "LOT",
+   "score": 4,
    "path": "buzz",
    "urgent": false,
-   "price": 2.69,
-   "prev_close": 2.69,
-   "move_pct": 0.0,
-   "rel_vol": 1.1,
-   "cap_m": 120.2,
-   "float_m": 38.26,
-   "short_pct": 26.01,
-   "invalidation": 2.2865,
+   "price": 0.4102,
+   "prev_close": 0.455,
+   "move_pct": -9.85,
+   "rel_vol": 2.0,
+   "cap_m": 274.21,
+   "float_m": 635.89,
+   "short_pct": 0.12,
+   "invalidation": 0.3487,
    "why": [
-    "האצה x3.0 מול הבסיס",
-    "+4 אזכורים ב-3 שעות",
-    "פיזור ב-2 פורומים",
-    "5 כותבים שונים ברדיט ב-6 שעות",
-    "חדשה בשיח (לא דוברה 14 יום)",
-    "שורט 26%",
-    "פלואט 38.3M"
+    "פיזור ב-6 פורומים",
+    "שיח עולה 3 ימים ברציפות (4→7→9)",
+    "נפח פי 2.0 מהממוצע"
    ],
    "news": null,
-   "outcome": {
-    "days": 1,
-    "last_close": 2.6600000858306885,
-    "last_pct": -1.1,
-    "max_close_pct": -1.1,
-    "max_high_pct": 3.0,
-    "d1_pct": -1.1
-   }
-  },
-  {
-   "ts": "2026-10-29T14:07+00:00",
-   "ticker": "ANTX",
-   "score": 6,
-   "path": "buzz",
-   "urgent": false,
-   "price": 4.735,
-   "prev_close": 4.52,
-   "move_pct": 4.76,
-   "rel_vol": 0.16,
-   "cap_m": 178.68,
-   "float_m": 28.29,
-   "short_pct": 10.21,
-   "invalidation": 4.52,
-   "why": [
-    "האצה x4.0 מול הבסיס",
-    "פיזור ב-2 פורומים",
-    "שיח עולה 3 ימים ברציפות (1→5→7)",
-    "חדשה בשיח (לא דוברה 14 יום)",
-    "פלואט 28.3M"
-   ],
-   "news": null,
-   "outcome": {
-    "days": 1,
-    "last_close": 4.690000057220459,
-    "last_pct": -1.0,
-    "max_close_pct": -1.0,
-    "max_high_pct": 3.5,
-    "d1_pct": -1.0
-   }
-  },
-  {
-   "ts": "2026-10-29T14:07+00:00",
-   "ticker": "KDK",
-   "score": 6,
-   "path": "buzz",
-   "urgent": false,
-   "price": 1.39,
-   "prev_close": 1.31,
-   "move_pct": 6.11,
-   "rel_vol": 2.06,
-   "cap_m": 278.86,
-   "float_m": 122.41,
-   "short_pct": 7.76,
-   "invalidation": 1.31,
-   "why": [
-    "האצה x3.0 מול הבסיס",
-    "+4 אזכורים ב-3 שעות",
-    "פיזור ב-2 פורומים",
-    "30 הודעות בסטוקטוויטס ב-6 שעות",
-    "נפח פי 2.1 מהממוצע",
-    "PR רגיל (16:00 ET 28/10): Stoneridge and Kodiak AI Announce Collaboration to Advance Autonomous "
-   ],
-   "news": "Stoneridge and Kodiak AI Announce Collaboration to Advance Autonomous Commercial Vehicles",
-   "outcome": {
-    "days": 1,
-    "last_close": 1.2799999713897705,
-    "last_pct": -7.9,
-    "max_close_pct": -7.9,
-    "max_high_pct": 2.9,
-    "d1_pct": -7.9
-   }
-  },
-  {
-   "ts": "2026-10-29T23:07+00:00",
-   "ticker": "TCBS",
-   "score": 2,
-   "path": "news",
-   "urgent": false,
-   "price": 17.28,
-   "prev_close": 17.1,
-   "move_pct": 1.05,
-   "rel_vol": 0.07,
-   "cap_m": 49.64,
-   "float_m": 2.13,
-   "short_pct": 0.15,
-   "invalidation": 17.1,
-   "why": [
-    "📰 נכנסה דרך ידיעה: TEXAS COMMUNITY BANCSHARES, INC. AND THE BANC OF SAN JACINTO COUNTY BA",
-    "פלואט 2.1M",
-    "PR חזק (18:39 ET 29/10): TEXAS COMMUNITY BANCSHARES, INC. AND THE BANC OF SAN JACINTO COUNTY BA"
-   ],
-   "news": "TEXAS COMMUNITY BANCSHARES, INC. AND THE BANC OF SAN JACINTO COUNTY BANCSHARES, INC., THE PARENT OF THE BANK OF SAN JACINTO COUNTY, COLDSPRING, TEXAS, ANNOUNCE MERGER AGREEMENT",
-   "outcome": {
-    "days": 1,
-    "last_close": 17.280000686645508,
-    "last_pct": 0.0,
-    "max_close_pct": 0.0,
-    "max_high_pct": 0.0,
-    "d1_pct": 0.0
-   }
+   "outcome": {}
   }
  ],
  "alerts_last_14d": [
@@ -443,297 +255,285 @@
     "max_high_pct": 13.0,
     "d1_pct": 4.2
    }
+  },
+  {
+   "ts": "2026-10-29T08:07+00:00",
+   "ticker": "NRXP",
+   "score": 8,
+   "path": "buzz",
+   "urgent": false,
+   "price": 2.69,
+   "prev_close": 2.69,
+   "move_pct": 0.0,
+   "rel_vol": 1.1,
+   "cap_m": 120.2,
+   "float_m": 38.26,
+   "short_pct": 26.01,
+   "invalidation": 2.2865,
+   "why": [
+    "האצה x3.0 מול הבסיס",
+    "+4 אזכורים ב-3 שעות",
+    "פיזור ב-2 פורומים",
+    "5 כותבים שונים ברדיט ב-6 שעות",
+    "חדשה בשיח (לא דוברה 14 יום)",
+    "שורט 26%",
+    "פלואט 38.3M"
+   ],
+   "news": null,
+   "outcome": {
+    "days": 1,
+    "last_close": 2.6600000858306885,
+    "last_pct": -1.1,
+    "max_close_pct": -1.1,
+    "max_high_pct": 3.1,
+    "d1_pct": -1.1
+   }
+  },
+  {
+   "ts": "2026-10-29T14:07+00:00",
+   "ticker": "ANTX",
+   "score": 6,
+   "path": "buzz",
+   "urgent": false,
+   "price": 4.735,
+   "prev_close": 4.52,
+   "move_pct": 4.76,
+   "rel_vol": 0.16,
+   "cap_m": 178.68,
+   "float_m": 28.29,
+   "short_pct": 10.21,
+   "invalidation": 4.52,
+   "why": [
+    "האצה x4.0 מול הבסיס",
+    "פיזור ב-2 פורומים",
+    "שיח עולה 3 ימים ברציפות (1→5→7)",
+    "חדשה בשיח (לא דוברה 14 יום)",
+    "פלואט 28.3M"
+   ],
+   "news": null,
+   "outcome": {
+    "days": 1,
+    "last_close": 4.690000057220459,
+    "last_pct": -1.0,
+    "max_close_pct": -1.0,
+    "max_high_pct": 3.5,
+    "d1_pct": -1.0
+   }
+  },
+  {
+   "ts": "2026-10-29T14:07+00:00",
+   "ticker": "KDK",
+   "score": 6,
+   "path": "buzz",
+   "urgent": false,
+   "price": 1.39,
+   "prev_close": 1.31,
+   "move_pct": 6.11,
+   "rel_vol": 2.06,
+   "cap_m": 278.86,
+   "float_m": 122.41,
+   "short_pct": 7.76,
+   "invalidation": 1.31,
+   "why": [
+    "האצה x3.0 מול הבסיס",
+    "+4 אזכורים ב-3 שעות",
+    "פיזור ב-2 פורומים",
+    "30 הודעות בסטוקטוויטס ב-6 שעות",
+    "נפח פי 2.1 מהממוצע",
+    "PR רגיל (16:00 ET 28/10): Stoneridge and Kodiak AI Announce Collaboration to Advance Autonomous "
+   ],
+   "news": "Stoneridge and Kodiak AI Announce Collaboration to Advance Autonomous Commercial Vehicles",
+   "outcome": {
+    "days": 1,
+    "last_close": 1.2799999713897705,
+    "last_pct": -7.9,
+    "max_close_pct": -7.9,
+    "max_high_pct": 2.9,
+    "d1_pct": -7.9
+   }
+  },
+  {
+   "ts": "2026-10-29T23:07+00:00",
+   "ticker": "TCBS",
+   "score": 2,
+   "path": "news",
+   "urgent": false,
+   "price": 17.28,
+   "prev_close": 17.1,
+   "move_pct": 1.05,
+   "rel_vol": 0.07,
+   "cap_m": 49.64,
+   "float_m": 2.13,
+   "short_pct": 0.15,
+   "invalidation": 17.1,
+   "why": [
+    "📰 נכנסה דרך ידיעה: TEXAS COMMUNITY BANCSHARES, INC. AND THE BANC OF SAN JACINTO COUNTY BA",
+    "פלואט 2.1M",
+    "PR חזק (18:39 ET 29/10): TEXAS COMMUNITY BANCSHARES, INC. AND THE BANC OF SAN JACINTO COUNTY BA"
+   ],
+   "news": "TEXAS COMMUNITY BANCSHARES, INC. AND THE BANC OF SAN JACINTO COUNTY BANCSHARES, INC., THE PARENT OF THE BANK OF SAN JACINTO COUNTY, COLDSPRING, TEXAS, ANNOUNCE MERGER AGREEMENT",
+   "outcome": {
+    "days": 1,
+    "last_close": 17.280000686645508,
+    "last_pct": 0.0,
+    "max_close_pct": 0.0,
+    "max_high_pct": 0.0,
+    "d1_pct": 0.0
+   }
   }
  ],
  "candidates_today": [
   {
-   "ts": "2026-10-29T07:07+00:00",
+   "ts": "2026-10-30T07:07+00:00",
    "ticker": "NRXP",
-   "score": 5,
-   "max_score": 9,
-   "price": 2.8,
-   "move_pct": 4.09,
-   "cap_m": 116.47,
-   "blocked": [],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "spread",
-    "novel",
-    "short",
-    "low_float",
-    "vel3h",
-    "authors",
-    "st_msgs",
-    "pr_weak"
-   ],
-   "alerted": true,
-   "urgent": true
-  },
-  {
-   "ts": "2026-10-29T11:07+00:00",
-   "ticker": "CAT",
    "score": 7,
    "max_score": 7,
-   "price": 641.9001,
-   "move_pct": -10.01,
-   "cap_m": 295110.0,
-   "blocked": [
-    "שווי $295110M"
-   ],
-   "tags": [
-    "accel",
-    "vel3h",
-    "spread",
-    "rising",
-    "st_trend",
-    "xueqiu"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T15:07+00:00",
-   "ticker": "IOVA",
-   "score": 7,
-   "max_score": 7,
-   "price": 9.425,
-   "move_pct": -36.36,
-   "cap_m": 4260.0,
-   "blocked": [
-    "שווי $4260M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "vel3h",
-    "spread",
-    "novel",
-    "st_trend",
-    "rvol"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T20:07+00:00",
-   "ticker": "CROX",
-   "score": 7,
-   "max_score": 7,
-   "price": 150.34,
-   "move_pct": 25.61,
-   "cap_m": 7200.0,
-   "blocked": [
-    "כבר זזה +26%",
-    "שווי $7200M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "vel3h",
-    "novel",
-    "st_trend",
-    "low_float",
-    "rvol"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T22:07+00:00",
-   "ticker": "RBLX",
-   "score": 7,
-   "max_score": 7,
-   "price": 44.0098,
-   "move_pct": -17.4,
-   "cap_m": 37480.0,
-   "blocked": [
-    "שווי $37480M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "vel3h",
-    "novel",
-    "st_trend",
-    "rvol",
-    "xueqiu"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T07:07+00:00",
-   "ticker": "ANTX",
-   "score": 4,
-   "max_score": 6,
-   "price": 4.3373,
-   "move_pct": 12.37,
-   "cap_m": 170.57,
-   "blocked": [],
-   "tags": [
-    "accel",
-    "novel",
-    "low_float",
-    "spread",
-    "rising",
-    "relaxed_gate"
-   ],
-   "alerted": true,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T07:07+00:00",
-   "ticker": "BOOM",
-   "score": 6,
-   "max_score": 6,
-   "price": 7.8846,
-   "move_pct": 47.38,
-   "cap_m": 158.78,
-   "blocked": [
-    "כבר זזה +47%",
-    "כבר רצה +41% ב-3 ימים"
-   ],
-   "tags": [
-    "accel",
-    "novel",
-    "low_float",
-    "rvol"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T08:07+00:00",
-   "ticker": "RAPP",
-   "score": 6,
-   "max_score": 6,
-   "price": 22.74,
-   "move_pct": -17.43,
-   "cap_m": 1090.0,
-   "blocked": [
-    "שווי $1090M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "rising",
-    "novel",
-    "telegram_weak",
-    "low_float",
-    "rvol"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T13:07+00:00",
-   "ticker": "KDK",
-   "score": 3,
-   "max_score": 6,
-   "price": 1.4,
-   "move_pct": 25.0,
-   "cap_m": 280.56,
+   "price": 3.3613,
+   "move_pct": 24.96,
+   "cap_m": 115.17,
    "blocked": [
     "כבר זזה +25%"
    ],
    "tags": [
     "accel",
-    "vel3h",
-    "spread",
-    "st_msgs",
-    "rvol",
-    "pr_weak"
-   ],
-   "alerted": true,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T13:07+00:00",
-   "ticker": "NCPL",
-   "score": 5,
-   "max_score": 6,
-   "price": 1.63,
-   "move_pct": 24.43,
-   "cap_m": 12.71,
-   "blocked": [
-    "כבר זזה +24%"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "spread",
-    "novel",
-    "short",
-    "low_float",
-    "rvol"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T17:07+00:00",
-   "ticker": "GYGY",
-   "score": 6,
-   "max_score": 6,
-   "price": 0.4078,
-   "move_pct": 11.7,
-   "cap_m": 5.9,
-   "blocked": [
-    "דיווח הנפקה: 424B3 2026-10-26, 424B3 2026-10-26"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "vel3h",
     "spread",
     "authors",
-    "low_float",
-    "borrow_fee",
     "short",
-    "sec_negative"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T14:07+00:00",
-   "ticker": "BEAT",
-   "score": 5,
-   "max_score": 5,
-   "price": 0.5384,
-   "move_pct": 1.24,
-   "cap_m": 30.55,
-   "blocked": [
-    "כבר רצה +35% ב-3 ימים"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "spread",
-    "rising",
-    "novel",
     "low_float"
    ],
    "alerted": false,
    "urgent": false
   },
   {
-   "ts": "2026-10-29T16:07+00:00",
-   "ticker": "NUWE",
-   "score": 4,
+   "ts": "2026-10-30T07:07+00:00",
+   "ticker": "AMC",
+   "score": 5,
    "max_score": 5,
-   "price": 6.485,
-   "move_pct": 14.58,
-   "cap_m": 3.51,
+   "price": 3.05,
+   "move_pct": 2.01,
+   "cap_m": 2750.0,
    "blocked": [
-    "כבר רצה +1055% ב-3 ימים",
-    "איחוד מניות טרי (1 ימים) – חשד לעיוות"
+    "שווי $2750M"
+   ],
+   "tags": [
+    "accel",
+    "vel3h",
+    "spread"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-10-30T07:07+00:00",
+   "ticker": "LOT",
+   "score": 4,
+   "max_score": 4,
+   "price": 0.4102,
+   "move_pct": -9.85,
+   "cap_m": 274.21,
+   "blocked": [],
+   "tags": [
+    "spread",
+    "rising",
+    "rvol"
+   ],
+   "alerted": true,
+   "urgent": false
+  },
+  {
+   "ts": "2026-10-30T07:07+00:00",
+   "ticker": "CAKE",
+   "score": 4,
+   "max_score": 4,
+   "price": 112.0,
+   "move_pct": 5.93,
+   "cap_m": 5630.0,
+   "blocked": [
+    "שווי $5630M"
    ],
    "tags": [
     "relaxed_gate",
     "accel",
+    "rising",
+    "short",
+    "low_float"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-10-30T07:07+00:00",
+   "ticker": "BYND",
+   "score": 4,
+   "max_score": 4,
+   "price": 7.3101,
+   "move_pct": 2.53,
+   "cap_m": 134.99,
+   "blocked": [],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "short",
+    "low_float",
+    "borrow_fee",
+    "pr_weak"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-10-30T07:07+00:00",
+   "ticker": "EDIT",
+   "score": 3,
+   "max_score": 3,
+   "price": 2.93,
+   "move_pct": -0.68,
+   "cap_m": 449.99,
+   "blocked": [],
+   "tags": [
+    "accel",
     "spread",
+    "rising",
+    "short",
+    "word"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-10-30T07:07+00:00",
+   "ticker": "III",
+   "score": 3,
+   "max_score": 3,
+   "price": 6.1234,
+   "move_pct": 1.05,
+   "cap_m": 294.35,
+   "blocked": [],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "rising",
+    "low_float",
+    "pr_weak"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-10-30T07:07+00:00",
+   "ticker": "NUWE",
+   "score": 3,
+   "max_score": 3,
+   "price": 5.75,
+   "move_pct": 1.59,
+   "cap_m": 3.13,
+   "blocked": [
+    "כבר רצה +1706% ב-3 ימים",
+    "איחוד מניות טרי (2 ימים) – חשד לעיוות"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
     "low_float",
     "rvol",
     "rsplit"
@@ -742,512 +542,21 @@
    "urgent": false
   },
   {
-   "ts": "2026-10-29T21:07+00:00",
-   "ticker": "PINS",
-   "score": 5,
-   "max_score": 5,
-   "price": 17.6,
-   "move_pct": -15.87,
-   "cap_m": 11280.0,
+   "ts": "2026-10-30T07:07+00:00",
+   "ticker": "PEG",
+   "score": 3,
+   "max_score": 3,
+   "price": 73.63,
+   "move_pct": 1.6,
+   "cap_m": 36700.0,
    "blocked": [
-    "שווי $11280M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "novel",
-    "st_trend",
-    "rvol"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T07:07+00:00",
-   "ticker": "PSA",
-   "score": 4,
-   "max_score": 4,
-   "price": 310.05,
-   "move_pct": -0.77,
-   "cap_m": 57930.0,
-   "blocked": [
-    "שווי $57930M"
+    "שווי $36700M"
    ],
    "tags": [
     "relaxed_gate",
     "accel",
     "vel3h",
     "spread"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T07:07+00:00",
-   "ticker": "GL",
-   "score": 4,
-   "max_score": 4,
-   "price": 158.37,
-   "move_pct": 0.88,
-   "cap_m": 12170.0,
-   "blocked": [
-    "שווי $12170M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "spread",
-    "rising"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T12:07+00:00",
-   "ticker": "GLP",
-   "score": 4,
-   "max_score": 4,
-   "price": 47.28,
-   "move_pct": -0.88,
-   "cap_m": 1610.0,
-   "blocked": [
-    "שווי $1610M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "spread",
-    "low_float"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T16:07+00:00",
-   "ticker": "RIG",
-   "score": 4,
-   "max_score": 4,
-   "price": 6.6699,
-   "move_pct": -0.6,
-   "cap_m": 7440.0,
-   "blocked": [
-    "שווי $7440M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "vel3h",
-    "novel",
-    "short"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T17:07+00:00",
-   "ticker": "SAP",
-   "score": 4,
-   "max_score": 4,
-   "price": 233.285,
-   "move_pct": -1.54,
-   "cap_m": 263430.0,
-   "blocked": [
-    "שווי $263430M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "vel3h",
-    "spread"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T20:07+00:00",
-   "ticker": "MA",
-   "score": 4,
-   "max_score": 4,
-   "price": 636.0,
-   "move_pct": 4.21,
-   "cap_m": 556880.0,
-   "blocked": [
-    "שווי $556880M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "vel3h",
-    "spread",
-    "rvol"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T23:07+00:00",
-   "ticker": "TWLO",
-   "score": 4,
-   "max_score": 4,
-   "price": 201.7301,
-   "move_pct": -20.51,
-   "cap_m": 37150.0,
-   "blocked": [
-    "שווי $37150M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "vel3h",
-    "novel",
-    "xueqiu"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T07:07+00:00",
-   "ticker": "UI",
-   "score": 3,
-   "max_score": 3,
-   "price": 602.71,
-   "move_pct": 0.53,
-   "cap_m": 36470.0,
-   "blocked": [
-    "שווי $36470M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "vel3h",
-    "low_float"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T07:07+00:00",
-   "ticker": "NIO",
-   "score": 3,
-   "max_score": 3,
-   "price": 3.3092,
-   "move_pct": 0.58,
-   "cap_m": 7830.0,
-   "blocked": [
-    "שווי $7830M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "vel3h",
-    "novel"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T07:07+00:00",
-   "ticker": "PENN",
-   "score": 3,
-   "max_score": 3,
-   "price": 14.56,
-   "move_pct": -1.82,
-   "cap_m": 1970.0,
-   "blocked": [
-    "שווי $1970M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "vel3h",
-    "novel"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T07:07+00:00",
-   "ticker": "LINK",
-   "score": 3,
-   "max_score": 3,
-   "price": 4.14,
-   "move_pct": -2.13,
-   "cap_m": 65.22,
-   "blocked": [],
-   "tags": [
-    "relaxed_gate",
-    "spread",
-    "low_float"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T11:07+00:00",
-   "ticker": "CCL",
-   "score": 3,
-   "max_score": 3,
-   "price": 28.6233,
-   "move_pct": 3.18,
-   "cap_m": 38490.0,
-   "blocked": [
-    "שווי $38490M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "vel3h",
-    "novel"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T12:07+00:00",
-   "ticker": "WS",
-   "score": 3,
-   "max_score": 3,
-   "price": 41.51,
-   "move_pct": -2.81,
-   "cap_m": 2170.0,
-   "blocked": [
-    "שווי $2170M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "vel3h",
-    "low_float"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T14:07+00:00",
-   "ticker": "IQ",
-   "score": 3,
-   "max_score": 3,
-   "price": 0.8333,
-   "move_pct": -0.06,
-   "cap_m": 442.13,
-   "blocked": [],
-   "tags": [
-    "vel3h",
-    "spread",
-    "accel"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T15:07+00:00",
-   "ticker": "FTI",
-   "score": 3,
-   "max_score": 3,
-   "price": 67.665,
-   "move_pct": -5.23,
-   "cap_m": 26540.0,
-   "blocked": [
-    "שווי $26540M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "vel3h",
-    "novel"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T17:07+00:00",
-   "ticker": "LOT",
-   "score": 3,
-   "max_score": 3,
-   "price": 0.4449,
-   "move_pct": -2.22,
-   "cap_m": 285.03,
-   "blocked": [],
-   "tags": [
-    "vel3h",
-    "spread",
-    "rvol"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T17:07+00:00",
-   "ticker": "SNOW",
-   "score": 3,
-   "max_score": 3,
-   "price": 329.93,
-   "move_pct": -2.94,
-   "cap_m": 116510.0,
-   "blocked": [
-    "שווי $116510M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "vel3h"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T20:07+00:00",
-   "ticker": "SNAP",
-   "score": 3,
-   "max_score": 3,
-   "price": 5.5955,
-   "move_pct": -6.12,
-   "cap_m": 9600.0,
-   "blocked": [
-    "שווי $9600M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "vel3h",
-    "rising"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T20:07+00:00",
-   "ticker": "SBUX",
-   "score": 3,
-   "max_score": 3,
-   "price": 105.9,
-   "move_pct": 2.62,
-   "cap_m": 120280.0,
-   "blocked": [
-    "שווי $120280M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "vel3h",
-    "spread"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T20:07+00:00",
-   "ticker": "SN",
-   "score": 3,
-   "max_score": 3,
-   "price": 209.26,
-   "move_pct": 5.6,
-   "cap_m": 29480.0,
-   "blocked": [
-    "שווי $29480M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "vel3h",
-    "rvol"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T20:07+00:00",
-   "ticker": "IBM",
-   "score": 3,
-   "max_score": 3,
-   "price": 259.01,
-   "move_pct": 2.29,
-   "cap_m": 244060.0,
-   "blocked": [
-    "שווי $244060M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "spread",
-    "rising"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T21:07+00:00",
-   "ticker": "BROS",
-   "score": 3,
-   "max_score": 3,
-   "price": 43.52,
-   "move_pct": 1.37,
-   "cap_m": 7680.0,
-   "blocked": [
-    "שווי $7680M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "vel3h",
-    "novel"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T22:07+00:00",
-   "ticker": "AXTI",
-   "score": 3,
-   "max_score": 3,
-   "price": 57.1,
-   "move_pct": -11.31,
-   "cap_m": 3990.0,
-   "blocked": [
-    "שווי $3990M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "st_trend",
-    "xueqiu"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T23:07+00:00",
-   "ticker": "POET",
-   "score": 3,
-   "max_score": 3,
-   "price": 5.37,
-   "move_pct": -8.05,
-   "cap_m": 979.51,
-   "blocked": [
-    "שווי $980M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "short"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-29T23:07+00:00",
-   "ticker": "GT",
-   "score": 3,
-   "max_score": 3,
-   "price": 4.3946,
-   "move_pct": -0.35,
-   "cap_m": 1280.0,
-   "blocked": [
-    "שווי $1280M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "novel",
-    "short"
    ],
    "alerted": false,
    "urgent": false
@@ -1267,9 +576,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 3,
-    "last_pct": 11.0,
+    "checked": "2026-10-30",
+    "days": 4,
+    "last_pct": 3.7,
     "max_close_pct": 11.0,
     "max_high_pct": 11.8
    }
@@ -1286,9 +595,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 3,
-    "last_pct": -7.2,
+    "checked": "2026-10-30",
+    "days": 4,
+    "last_pct": -10.7,
     "max_close_pct": -4.6,
     "max_high_pct": -0.4
    }
@@ -1305,11 +614,11 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 3,
-    "last_pct": 8.7,
-    "max_close_pct": 8.7,
-    "max_high_pct": 8.8
+    "checked": "2026-10-30",
+    "days": 4,
+    "last_pct": 12.9,
+    "max_close_pct": 12.9,
+    "max_high_pct": 13.3
    }
   },
   {
@@ -1326,9 +635,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 3,
-    "last_pct": -21.3,
+    "checked": "2026-10-30",
+    "days": 4,
+    "last_pct": -20.8,
     "max_close_pct": -17.2,
     "max_high_pct": -14.5
    }
@@ -1348,9 +657,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 3,
-    "last_pct": 14.9,
+    "checked": "2026-10-30",
+    "days": 4,
+    "last_pct": 8.4,
     "max_close_pct": 14.9,
     "max_high_pct": 15.1
    }
@@ -1368,11 +677,11 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 3,
-    "last_pct": 18.5,
+    "checked": "2026-10-30",
+    "days": 4,
+    "last_pct": 12.6,
     "max_close_pct": 18.5,
-    "max_high_pct": 18.7
+    "max_high_pct": 19.4
    }
   },
   {
@@ -1390,9 +699,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 3,
-    "last_pct": 1.2,
+    "checked": "2026-10-30",
+    "days": 4,
+    "last_pct": 0.4,
     "max_close_pct": 1.6,
     "max_high_pct": 4.5
    }
@@ -1409,9 +718,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 3,
-    "last_pct": 7.9,
+    "checked": "2026-10-30",
+    "days": 4,
+    "last_pct": 6.7,
     "max_close_pct": 11.1,
     "max_high_pct": 15.7
    }
@@ -1431,9 +740,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 3,
-    "last_pct": 9.6,
+    "checked": "2026-10-30",
+    "days": 4,
+    "last_pct": 9.0,
     "max_close_pct": 11.9,
     "max_high_pct": 14.3
    }
@@ -1451,9 +760,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 3,
-    "last_pct": -1.8,
+    "checked": "2026-10-30",
+    "days": 4,
+    "last_pct": -2.7,
     "max_close_pct": 0.4,
     "max_high_pct": 2.3
    }
@@ -1471,11 +780,11 @@
    "blocked": false,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 3,
-    "last_pct": 16.3,
-    "max_close_pct": 16.3,
-    "max_high_pct": 18.7
+    "checked": "2026-10-30",
+    "days": 4,
+    "last_pct": 16.9,
+    "max_close_pct": 16.9,
+    "max_high_pct": 21.9
    }
   },
   {
@@ -1491,9 +800,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 3,
-    "last_pct": 15.3,
+    "checked": "2026-10-30",
+    "days": 4,
+    "last_pct": 9.8,
     "max_close_pct": 15.3,
     "max_high_pct": 15.5
    }
@@ -1510,9 +819,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 3,
-    "last_pct": 10.3,
+    "checked": "2026-10-30",
+    "days": 4,
+    "last_pct": 4.0,
     "max_close_pct": 10.3,
     "max_high_pct": 13.4
    }
@@ -1529,9 +838,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 3,
-    "last_pct": -2.2,
+    "checked": "2026-10-30",
+    "days": 4,
+    "last_pct": -1.3,
     "max_close_pct": -0.5,
     "max_high_pct": 0.6
    }
@@ -1548,11 +857,11 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 3,
-    "last_pct": 1.5,
-    "max_close_pct": 1.5,
-    "max_high_pct": 2.2
+    "checked": "2026-10-30",
+    "days": 4,
+    "last_pct": 3.4,
+    "max_close_pct": 3.4,
+    "max_high_pct": 4.7
    }
   },
   {
@@ -1569,9 +878,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 3,
-    "last_pct": -3.3,
+    "checked": "2026-10-30",
+    "days": 4,
+    "last_pct": -2.2,
     "max_close_pct": 1.1,
     "max_high_pct": 3.3
    }
@@ -1588,11 +897,11 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 3,
-    "last_pct": 4.8,
-    "max_close_pct": 4.8,
-    "max_high_pct": 7.6
+    "checked": "2026-10-30",
+    "days": 4,
+    "last_pct": 6.7,
+    "max_close_pct": 6.7,
+    "max_high_pct": 11.1
    }
   },
   {
@@ -1611,11 +920,11 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 3,
-    "last_pct": 9.5,
-    "max_close_pct": 9.5,
-    "max_high_pct": 21.3
+    "checked": "2026-10-30",
+    "days": 4,
+    "last_pct": 15.4,
+    "max_close_pct": 15.4,
+    "max_high_pct": 24.3
    }
   },
   {
@@ -1633,9 +942,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 3,
-    "last_pct": 10.8,
+    "checked": "2026-10-30",
+    "days": 4,
+    "last_pct": 8.2,
     "max_close_pct": 10.8,
     "max_high_pct": 11.2
    }
@@ -1654,9 +963,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 2,
-    "last_pct": -4.5,
+    "checked": "2026-10-30",
+    "days": 3,
+    "last_pct": -6.7,
     "max_close_pct": -1.8,
     "max_high_pct": -0.6
    }
@@ -1673,11 +982,11 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 2,
-    "last_pct": -0.3,
-    "max_close_pct": -0.3,
-    "max_high_pct": 0.3
+    "checked": "2026-10-30",
+    "days": 3,
+    "last_pct": 0.6,
+    "max_close_pct": 0.6,
+    "max_high_pct": 1.0
    }
   },
   {
@@ -1694,11 +1003,11 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 2,
-    "last_pct": 0.4,
-    "max_close_pct": 1.1,
-    "max_high_pct": 3.6
+    "checked": "2026-10-30",
+    "days": 3,
+    "last_pct": 6.1,
+    "max_close_pct": 6.1,
+    "max_high_pct": 7.6
    }
   },
   {
@@ -1714,10 +1023,10 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 2,
-    "last_pct": 0.6,
-    "max_close_pct": 0.6,
+    "checked": "2026-10-30",
+    "days": 3,
+    "last_pct": 3.1,
+    "max_close_pct": 3.1,
     "max_high_pct": 3.3
    }
   },
@@ -1734,11 +1043,11 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 2,
-    "last_pct": 4.0,
-    "max_close_pct": 4.0,
-    "max_high_pct": 4.6
+    "checked": "2026-10-30",
+    "days": 3,
+    "last_pct": 4.8,
+    "max_close_pct": 4.8,
+    "max_high_pct": 5.7
    }
   },
   {
@@ -1756,9 +1065,9 @@
    "blocked": false,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 2,
-    "last_pct": -0.4,
+    "checked": "2026-10-30",
+    "days": 3,
+    "last_pct": -0.7,
     "max_close_pct": 0.2,
     "max_high_pct": 1.8
    }
@@ -1776,11 +1085,11 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 2,
-    "last_pct": 18.3,
-    "max_close_pct": 18.3,
-    "max_high_pct": 19.1
+    "checked": "2026-10-30",
+    "days": 3,
+    "last_pct": 21.6,
+    "max_close_pct": 21.6,
+    "max_high_pct": 21.7
    }
   },
   {
@@ -1796,11 +1105,11 @@
    "blocked": false,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 2,
-    "last_pct": 21.9,
-    "max_close_pct": 21.9,
-    "max_high_pct": 24.4
+    "checked": "2026-10-30",
+    "days": 3,
+    "last_pct": 22.5,
+    "max_close_pct": 22.5,
+    "max_high_pct": 27.8
    }
   },
   {
@@ -1816,9 +1125,9 @@
    "blocked": false,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 2,
-    "last_pct": 0.7,
+    "checked": "2026-10-30",
+    "days": 3,
+    "last_pct": -0.5,
     "max_close_pct": 2.9,
     "max_high_pct": 5.4
    }
@@ -1837,9 +1146,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 2,
-    "last_pct": 10.7,
+    "checked": "2026-10-30",
+    "days": 3,
+    "last_pct": 4.8,
     "max_close_pct": 10.7,
     "max_high_pct": 11.0
    }
@@ -1857,9 +1166,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 2,
-    "last_pct": -0.1,
+    "checked": "2026-10-30",
+    "days": 3,
+    "last_pct": 1.0,
     "max_close_pct": 1.7,
     "max_high_pct": 3.1
    }
@@ -1877,9 +1186,9 @@
    "blocked": false,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 2,
-    "last_pct": -4.9,
+    "checked": "2026-10-30",
+    "days": 3,
+    "last_pct": -5.0,
     "max_close_pct": -4.4,
     "max_high_pct": 0.2
    }
@@ -1897,11 +1206,11 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 2,
-    "last_pct": 1.9,
+    "checked": "2026-10-30",
+    "days": 3,
+    "last_pct": -0.2,
     "max_close_pct": 1.9,
-    "max_high_pct": 2.1
+    "max_high_pct": 2.2
    }
   },
   {
@@ -1918,8 +1227,8 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 2,
+    "checked": "2026-10-30",
+    "days": 3,
     "last_pct": -4.0,
     "max_close_pct": -4.0,
     "max_high_pct": 11.1
@@ -1940,9 +1249,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 2,
-    "last_pct": 7.4,
+    "checked": "2026-10-30",
+    "days": 3,
+    "last_pct": 4.0,
     "max_close_pct": 7.4,
     "max_high_pct": 11.3
    }
@@ -1961,11 +1270,11 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 2,
-    "last_pct": 8.8,
-    "max_close_pct": 8.8,
-    "max_high_pct": 8.8
+    "checked": "2026-10-30",
+    "days": 3,
+    "last_pct": 18.1,
+    "max_close_pct": 18.1,
+    "max_high_pct": 18.1
    }
   },
   {
@@ -1980,11 +1289,11 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 2,
-    "last_pct": 0.2,
-    "max_close_pct": 0.2,
-    "max_high_pct": 2.5
+    "checked": "2026-10-30",
+    "days": 3,
+    "last_pct": 3.2,
+    "max_close_pct": 3.2,
+    "max_high_pct": 3.9
    }
   },
   {
@@ -2000,11 +1309,11 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 2,
-    "last_pct": 0.2,
-    "max_close_pct": 0.2,
-    "max_high_pct": 1.4
+    "checked": "2026-10-30",
+    "days": 3,
+    "last_pct": 1.0,
+    "max_close_pct": 1.0,
+    "max_high_pct": 4.5
    }
   },
   {
@@ -2021,11 +1330,11 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 1,
-    "last_pct": -0.4,
-    "max_close_pct": -0.4,
-    "max_high_pct": 3.1
+    "checked": "2026-10-30",
+    "days": 2,
+    "last_pct": 20.1,
+    "max_close_pct": 20.1,
+    "max_high_pct": 23.7
    }
   },
   {
@@ -2041,11 +1350,11 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 1,
-    "last_pct": -1.5,
-    "max_close_pct": -1.5,
-    "max_high_pct": 0.5
+    "checked": "2026-10-30",
+    "days": 2,
+    "last_pct": 0.8,
+    "max_close_pct": 0.8,
+    "max_high_pct": 1.4
    }
   },
   {
@@ -2063,11 +1372,11 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-29",
-    "days": 1,
-    "last_pct": -0.3,
-    "max_close_pct": -0.3,
-    "max_high_pct": 0.7
+    "checked": "2026-10-30",
+    "days": 2,
+    "last_pct": 1.0,
+    "max_close_pct": 1.0,
+    "max_high_pct": 4.6
    }
   },
   {
@@ -2517,483 +1826,403 @@
  "social_today": {
   "reddit_top": {
    "SI": {
-    "m24_max": 47,
-    "authors24_max": 44,
+    "m24_max": 16,
+    "authors24_max": 14,
     "subs": [
      "smallstreetbets"
     ],
-    "first_utc": "2026-10-29T03:12+00:00"
-   },
-   "SKHY": {
-    "m24_max": 11,
-    "authors24_max": 3,
-    "subs": [
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-10-28T22:10+00:00",
-    "sample": "r/smallstreetbets: SKHY TO THE MOON"
-   },
-   "BBAI": {
-    "m24_max": 10,
-    "authors24_max": 7,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T17:16+00:00",
-    "sample": "r/pennystocks: Again BBAI...lets talk about the Q3"
-   },
-   "HTZ": {
-    "m24_max": 9,
-    "authors24_max": 7,
-    "subs": [
-     "Shortsqueeze",
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T00:08+00:00",
-    "sample": "r/Shortsqueeze: I Just bought todays dip on $HTZ"
+    "first_utc": "2026-10-30T03:06+00:00"
    },
    "NRXP": {
-    "m24_max": 9,
-    "authors24_max": 6,
+    "m24_max": 14,
+    "authors24_max": 4,
     "subs": [
      "Shortsqueeze",
      "pennystocks",
      "smallstreetbets"
     ],
-    "first_utc": "2026-10-29T05:25+00:00",
-    "sample": "r/pennystocks: SMALL CAP BIOTECH STOCKS WITH POTENTIAL FOR A SHORT SQUEEZE"
+    "first_utc": "2026-10-29T20:35+00:00",
+    "sample": "r/smallstreetbets: NRx Pharmaceuticals (NRXP): The KETAFREE ANDA \"WAS\" in fact APPROVED by the FDA!! <MODS, p"
    },
-   "GYGY": {
+   "SPCE": {
     "m24_max": 6,
-    "authors24_max": 5,
+    "authors24_max": 6,
     "subs": [
-     "pennystocks"
+     "smallstreetbets"
     ],
-    "first_utc": "2026-10-29T09:11+00:00",
-    "sample": "r/pennystocks: GYGY - up we go!"
+    "first_utc": "2026-10-29T16:53+00:00",
+    "sample": "r/smallstreetbets: SPCE is down 99% from all time highs. The good news? They might finally be sort-of-on-sche"
+   },
+   "GIFT": {
+    "m24_max": 3,
+    "authors24_max": 1,
+    "subs": [
+     "Shortsqueeze",
+     "pennystocks",
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-30T02:26+00:00",
+    "sample": "r/smallstreetbets: NRx Pharmaceuticals (NRXP): The KETAFREE ANDA \"WAS\" in fact APPROVED by the FDA!! <MODS, p"
+   },
+   "CCO": {
+    "m24_max": 3,
+    "authors24_max": 1,
+    "subs": [
+     "Shortsqueeze",
+     "pennystocks",
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-30T02:26+00:00",
+    "sample": "r/smallstreetbets: NRx Pharmaceuticals (NRXP): The KETAFREE ANDA \"WAS\" in fact APPROVED by the FDA!! <MODS, p"
+   },
+   "MVIS": {
+    "m24_max": 3,
+    "authors24_max": 2,
+    "subs": [
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-30T02:33+00:00",
+    "sample": "r/smallstreetbets: $MVIS Went From $0.16 to $28, Then Came Back AGAIN. 25% Short Interest, Real Revenue, and "
+   },
+   "FTNT": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "subs": [
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-30T02:37+00:00",
+    "sample": "r/smallstreetbets: FTNT puts"
    },
    "EBAY": {
-    "m24_max": 6,
-    "authors24_max": 3,
+    "m24_max": 2,
+    "authors24_max": 2,
     "subs": [
      "smallstreetbets"
     ],
     "first_utc": "2026-10-29T21:03+00:00",
     "sample": "r/smallstreetbets: EBAY has outperformed AMZN, GOOG, MSFT and META over the past year"
    },
-   "AIBT": {
-    "m24_max": 5,
-    "authors24_max": 3,
-    "subs": [
-     "pennystocks",
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-10-29T04:00+00:00",
-    "sample": "r/pennystocks: AIBT crazy otc play here, even nasdaq investors are showing interest (DD)"
-   },
-   "RH": {
-    "m24_max": 5,
-    "authors24_max": 2,
-    "subs": [
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-10-28T19:23+00:00",
-    "sample": "r/smallstreetbets: Stupid all in with RH delays on SPY"
-   },
-   "CYPH": {
-    "m24_max": 5,
-    "authors24_max": 2,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T06:35+00:00"
-   },
-   "BRAI": {
-    "m24_max": 4,
-    "authors24_max": 4,
-    "subs": [
-     "pennystocks",
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-10-28T13:22+00:00",
-    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
-   },
-   "KDK": {
-    "m24_max": 4,
-    "authors24_max": 2,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T02:53+00:00",
-    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
-   },
-   "NUWE": {
-    "m24_max": 4,
-    "authors24_max": 2,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T02:53+00:00",
-    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
-   },
-   "SHFS": {
-    "m24_max": 4,
-    "authors24_max": 4,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-28T15:06+00:00",
-    "sample": "r/pennystocks: WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-   },
-   "VNDA": {
-    "m24_max": 4,
-    "authors24_max": 4,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T10:50+00:00",
-    "sample": "r/pennystocks: $VNDA reported positive numbers yesterday"
-   },
-   "OPEN": {
-    "m24_max": 4,
-    "authors24_max": 2,
-    "subs": [
-     "Shortsqueeze",
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-10-29T12:00+00:00",
-    "sample": "r/smallstreetbets: $open 👀"
-   },
-   "VPRB": {
-    "m24_max": 4,
-    "authors24_max": 4,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T16:19+00:00",
-    "sample": "r/pennystocks: $VPRB: $8M Market Cap, $18.9M in Patent-Related Cash Receipts, and Trading at $0.09? 👀"
-   },
-   "BWET": {
-    "m24_max": 4,
-    "authors24_max": 2,
-    "subs": [
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-10-29T16:45+00:00"
-   },
-   "PDC": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-28T19:53+00:00",
-    "sample": "r/pennystocks: Anyone else still holding $PDC after today's 50% run?"
-   },
-   "ELPW": {
-    "m24_max": 3,
-    "authors24_max": 3,
-    "subs": [
-     "pennystocks",
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-10-28T13:22+00:00",
-    "sample": "r/pennystocks: 28 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-   },
-   "FTFT": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T02:53+00:00",
-    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
-   },
-   "NCPL": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T02:53+00:00",
-    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
-   },
-   "CALC": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T02:53+00:00",
-    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
-   },
-   "RBNE": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T02:53+00:00",
-    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
-   },
-   "DAVI": {
-    "m24_max": 3,
-    "authors24_max": 3,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-28T19:09+00:00",
-    "sample": "r/pennystocks: PENNY STOCKS TO WATCH INTO AFTER HOURS | OCT 28"
-   },
-   "GCTK": {
-    "m24_max": 3,
-    "authors24_max": 3,
-    "subs": [
-     "pennystocks",
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-10-28T13:22+00:00",
-    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
-   },
-   "ANTX": {
-    "m24_max": 3,
-    "authors24_max": 2,
-    "subs": [
-     "pennystocks",
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-10-29T09:16+00:00",
-    "sample": "r/smallstreetbets: ANTX 🚀"
-   },
-   "INLF": {
-    "m24_max": 3,
-    "authors24_max": 3,
-    "subs": [
-     "pennystocks",
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-10-29T10:50+00:00",
-    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
-   },
-   "NUR": {
-    "m24_max": 3,
-    "authors24_max": 2,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T12:15+00:00"
-   },
    "HPQ": {
-    "m24_max": 3,
-    "authors24_max": 3,
+    "m24_max": 2,
+    "authors24_max": 2,
     "subs": [
      "pennystocks"
     ],
     "first_utc": "2026-10-29T17:29+00:00",
     "sample": "r/pennystocks: HPQ Silicon and PyroGenesis Fumed Silica Technology"
    },
-   "WKHS": {
-    "m24_max": 3,
+   "BBAI": {
+    "m24_max": 2,
     "authors24_max": 2,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T17:22+00:00",
+    "sample": "r/pennystocks: Again BBAI...lets talk about the Q3"
+   },
+   "BEAT": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-30T03:58+00:00"
+   },
+   "QCOM": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-30T07:02+00:00",
+    "sample": "r/smallstreetbets: earnings preview for next week, mostly watching AAPL and AMD"
+   },
+   "AMC": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-30T02:33+00:00",
+    "sample": "r/smallstreetbets: $MVIS Went From $0.16 to $28, Then Came Back AGAIN. 25% Short Interest, Real Revenue, and "
+   },
+   "GME": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-30T02:33+00:00",
+    "sample": "r/smallstreetbets: $MVIS Went From $0.16 to $28, Then Came Back AGAIN. 25% Short Interest, Real Revenue, and "
+   },
+   "WKHS": {
+    "m24_max": 1,
+    "authors24_max": 1,
     "subs": [
      "smallstreetbets"
     ],
     "first_utc": "2026-10-29T22:43+00:00",
     "sample": "r/smallstreetbets: Workhorse signs $10M TerraPod build deal with RHAELM | WKHS Stock News"
    },
-   "ICMB": {
-    "m24_max": 2,
+   "PC": {
+    "m24_max": 1,
     "authors24_max": 1,
     "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-28T19:09+00:00",
-    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
-   },
-   "INO": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T05:25+00:00",
-    "sample": "r/pennystocks: SMALL CAP BIOTECH STOCKS WITH POTENTIAL FOR A SHORT SQUEEZE"
-   },
-   "JDZG": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T02:53+00:00",
-    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
-   },
-   "NXTS": {
-    "m24_max": 2,
-    "authors24_max": 2,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T02:53+00:00",
-    "sample": "r/pennystocks: Penny Stocks With High Potential to Be Top Movers Tomorrow | Oct. 29"
-   },
-   "GPUS": {
-    "m24_max": 2,
-    "authors24_max": 2,
-    "subs": [
-     "pennystocks",
      "smallstreetbets"
     ],
-    "first_utc": "2026-10-28T19:09+00:00",
-    "sample": "r/pennystocks: PENNY STOCKS TO WATCH INTO AFTER HOURS | OCT 28"
+    "first_utc": "2026-10-29T20:32+00:00",
+    "sample": "r/smallstreetbets: Intel doing the after hours dump post Q3 earnings"
    },
-   "GRML": {
-    "m24_max": 2,
-    "authors24_max": 2,
+   "ANTX": {
+    "m24_max": 1,
+    "authors24_max": 1,
     "subs": [
-     "pennystocks"
+     "smallstreetbets"
     ],
-    "first_utc": "2026-10-29T09:38+00:00"
+    "first_utc": "2026-10-29T16:53+00:00",
+    "sample": "r/smallstreetbets: ANTX 🚀"
    },
-   "STAK": {
-    "m24_max": 2,
+   "VPRB": {
+    "m24_max": 1,
     "authors24_max": 1,
     "subs": [
      "pennystocks"
     ],
-    "first_utc": "2026-10-29T10:14+00:00"
+    "first_utc": "2026-10-29T16:19+00:00",
+    "sample": "r/pennystocks: $VPRB: $8M Market Cap, $18.9M in Patent-Related Cash Receipts, and Trading at $0.09? 👀"
    },
-   "YMAT": {
-    "m24_max": 2,
-    "authors24_max": 2,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-29T10:15+00:00"
-   },
-   "ONCO": {
-    "m24_max": 2,
+   "STOK": {
+    "m24_max": 1,
     "authors24_max": 1,
     "subs": [
      "pennystocks"
     ],
-    "first_utc": "2026-10-29T11:09+00:00"
+    "first_utc": "2026-10-29T16:14+00:00",
+    "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
+   },
+   "BBIO": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T16:14+00:00",
+    "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
+   },
+   "INO": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T16:14+00:00",
+    "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
+   },
+   "ARTL": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T16:14+00:00",
+    "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
+   },
+   "EVAX": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T16:14+00:00",
+    "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
+   },
+   "IVVD": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T16:14+00:00",
+    "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
+   },
+   "INBX": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T16:14+00:00",
+    "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
+   },
+   "CETX": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T13:57+00:00",
+    "sample": "r/pennystocks: CETX Surges 59% Today After Strong Earnings. More Upside?"
+   },
+   "BURU": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-29T13:22+00:00",
+    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+   },
+   "PCLA": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-29T13:22+00:00",
+    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+   },
+   "INLF": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-29T13:22+00:00",
+    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+   },
+   "IOVA": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-29T13:22+00:00",
+    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+   },
+   "III": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T10:54+00:00",
+    "sample": "r/pennystocks: $VNDA reported positive numbers yesterday"
+   },
+   "VNDA": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T10:54+00:00",
+    "sample": "r/pennystocks: $VNDA reported positive numbers yesterday"
+   },
+   "GLP": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-29T10:54+00:00",
+    "sample": "r/pennystocks: $VNDA reported positive numbers yesterday"
+   },
+   "CYPH": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-30T05:28+00:00"
+   },
+   "NOV": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-30T04:11+00:00"
+   },
+   "MBOT": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-30T03:55+00:00"
+   },
+   "HTZ": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "Shortsqueeze"
+    ],
+    "first_utc": "2026-10-30T03:50+00:00"
+   },
+   "NVTS": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-30T03:10+00:00"
+   },
+   "XXII": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-30T03:04+00:00"
    }
   },
   "telegram_top": {
    "FUND": {
-    "m24_max": 40,
-    "authors24_max": 4,
-    "chats24_max": 2,
-    "first_utc": "2026-10-28T11:11+00:00"
-   },
-   "SG": {
     "m24_max": 37,
     "authors24_max": 4,
     "chats24_max": 2,
-    "first_utc": "2026-10-28T11:11+00:00"
+    "first_utc": "2026-10-29T07:27+00:00"
    },
    "INR": {
-    "m24_max": 36,
+    "m24_max": 33,
     "authors24_max": 3,
     "chats24_max": 1,
-    "first_utc": "2026-10-28T11:11+00:00"
+    "first_utc": "2026-10-29T07:27+00:00"
+   },
+   "SG": {
+    "m24_max": 33,
+    "authors24_max": 3,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T07:27+00:00"
    },
    "IDR": {
-    "m24_max": 36,
+    "m24_max": 33,
     "authors24_max": 3,
     "chats24_max": 1,
-    "first_utc": "2026-10-28T11:11+00:00"
+    "first_utc": "2026-10-29T07:27+00:00"
    },
    "PAY": {
-    "m24_max": 36,
+    "m24_max": 33,
     "authors24_max": 3,
     "chats24_max": 1,
-    "first_utc": "2026-10-28T11:11+00:00"
-   },
-   "BOC": {
-    "m24_max": 12,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-28T13:46+00:00"
-   },
-   "WKC": {
-    "m24_max": 7,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-28T13:34+00:00"
+    "first_utc": "2026-10-29T07:27+00:00"
    },
    "NET": {
     "m24_max": 7,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-28T12:54+00:00"
-   },
-   "UK": {
-    "m24_max": 7,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-28T12:12+00:00"
+    "first_utc": "2026-10-29T20:05+00:00"
    },
    "GABC": {
-    "m24_max": 7,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-28T12:36+00:00"
-   },
-   "EBAY": {
     "m24_max": 6,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-28T19:49+00:00"
+    "first_utc": "2026-10-29T15:04+00:00"
    },
-   "WHF": {
-    "m24_max": 5,
+   "RSKD": {
+    "m24_max": 6,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-28T15:22+00:00"
-   },
-   "RACE": {
-    "m24_max": 5,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-28T19:28+00:00"
-   },
-   "FDX": {
-    "m24_max": 5,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-28T20:11+00:00"
-   },
-   "DAN": {
-    "m24_max": 5,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-28T19:28+00:00"
-   },
-   "SAY": {
-    "m24_max": 5,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-28T13:25+00:00"
-   },
-   "INSM": {
-    "m24_max": 5,
-    "authors24_max": 2,
-    "chats24_max": 2,
-    "first_utc": "2026-10-29T13:07+00:00"
-   },
-   "PBH": {
-    "m24_max": 5,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-29T13:57+00:00"
-   },
-   "WH": {
-    "m24_max": 5,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-29T13:46+00:00"
+    "first_utc": "2026-10-30T03:23+00:00"
    },
    "SBUX": {
     "m24_max": 5,
@@ -3001,59 +2230,65 @@
     "chats24_max": 1,
     "first_utc": "2026-10-29T18:58+00:00"
    },
+   "INSM": {
+    "m24_max": 5,
+    "authors24_max": 2,
+    "chats24_max": 2,
+    "first_utc": "2026-10-29T13:07+00:00"
+   },
+   "WH": {
+    "m24_max": 5,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T13:46+00:00"
+   },
+   "PBH": {
+    "m24_max": 5,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T13:57+00:00"
+   },
+   "RACE": {
+    "m24_max": 4,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T14:33+00:00"
+   },
+   "LINE": {
+    "m24_max": 4,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T15:52+00:00"
+   },
    "HLN": {
     "m24_max": 4,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-10-29T10:26+00:00"
    },
-   "TMUS": {
-    "m24_max": 4,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-28T20:05+00:00"
-   },
-   "LINE": {
-    "m24_max": 4,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-28T20:17+00:00"
-   },
-   "DOW": {
-    "m24_max": 4,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-28T12:30+00:00"
-   },
-   "SA": {
-    "m24_max": 4,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-28T12:31+00:00"
-   },
-   "FTNT": {
-    "m24_max": 4,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-28T19:02+00:00"
-   },
-   "BSX": {
-    "m24_max": 4,
-    "authors24_max": 2,
-    "chats24_max": 2,
-    "first_utc": "2026-10-28T11:52+00:00"
-   },
-   "GERN": {
-    "m24_max": 4,
-    "authors24_max": 2,
-    "chats24_max": 2,
-    "first_utc": "2026-10-28T13:07+00:00"
-   },
-   "XRX": {
+   "NDAQ": {
     "m24_max": 3,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-28T20:00+00:00"
+    "first_utc": "2026-10-29T13:33+00:00"
+   },
+   "MDLZ": {
+    "m24_max": 3,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T20:11+00:00"
+   },
+   "DOW": {
+    "m24_max": 3,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T13:32+00:00"
+   },
+   "NVCR": {
+    "m24_max": 3,
+    "authors24_max": 2,
+    "chats24_max": 2,
+    "first_utc": "2026-10-29T13:07+00:00"
    },
    "CAT": {
     "m24_max": 3,
@@ -3061,1933 +2296,134 @@
     "chats24_max": 1,
     "first_utc": "2026-10-29T10:34+00:00"
    },
-   "NYT": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-28T11:27+00:00"
-   },
-   "WEN": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-28T14:18+00:00"
-   },
-   "KEP": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-29T00:37+00:00"
-   },
-   "NDAQ": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-28T20:04+00:00"
-   },
-   "SLS": {
+   "IOVA": {
     "m24_max": 3,
     "authors24_max": 2,
     "chats24_max": 2,
-    "first_utc": "2026-10-28T16:29+00:00"
+    "first_utc": "2026-10-29T13:07+00:00"
    },
-   "AXGN": {
-    "m24_max": 3,
-    "authors24_max": 2,
-    "chats24_max": 2,
-    "first_utc": "2026-10-28T13:07+00:00"
-   },
-   "RAPP": {
-    "m24_max": 3,
-    "authors24_max": 2,
-    "chats24_max": 2,
-    "first_utc": "2026-10-28T13:07+00:00"
-   },
-   "DASH": {
+   "FTNT": {
     "m24_max": 3,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-28T14:34+00:00"
+    "first_utc": "2026-10-29T13:35+00:00"
    },
-   "PGP": {
+   "GKOS": {
+    "m24_max": 3,
+    "authors24_max": 2,
+    "chats24_max": 2,
+    "first_utc": "2026-10-29T13:07+00:00"
+   },
+   "LB": {
     "m24_max": 3,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-28T18:52+00:00"
+    "first_utc": "2026-10-29T13:07+00:00"
    },
    "CRVO": {
     "m24_max": 3,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-10-29T13:07+00:00"
+   },
+   "TNC": {
+    "m24_max": 3,
+    "authors24_max": 3,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T05:01+00:00"
+   },
+   "VIP": {
+    "m24_max": 3,
+    "authors24_max": 3,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T05:01+00:00"
+   },
+   "AIBT": {
+    "m24_max": 3,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T13:42+00:00"
+   },
+   "PGP": {
+    "m24_max": 3,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T11:00+00:00"
+   },
+   "AZN": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T07:03+00:00"
+   },
+   "BP": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-30T07:05+00:00"
+   },
+   "SPOT": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T11:55+00:00"
+   },
+   "EEFT": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T13:19+00:00"
+   },
+   "RBC": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T10:05+00:00"
+   },
+   "SCI": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T18:54+00:00"
+   },
+   "UK": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T13:13+00:00"
+   },
+   "KYIV": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T20:48+00:00"
+   },
+   "EIX": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T20:16+00:00"
+   },
+   "RIVN": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T20:05+00:00"
+   },
+   "WEST": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T16:13+00:00"
    }
   }
  },
  "errors_today": {
-  "HTTP 522 https: //apewisdom.io/api/v1.0/filter/4chan/page/1": 1,
-  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/RE": 1
+  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/TTM": 1,
+  "HTTP 404 https: //finviz.com/quote.ashx?t=TTM&p=d": 1,
+  "HTTP 404 https: //stockanalysis.com/stocks/ttm/statistics/": 1,
+  "no fundamentals for TTM": 1
  },
- "closes_asof": "2026-10-29",
- "closes": {
-  "NRXP": [
-   {
-    "date": "2026-10-14",
-    "close": 2.59,
-    "high": 2.705
-   },
-   {
-    "date": "2026-10-15",
-    "close": 2.71,
-    "high": 2.772
-   },
-   {
-    "date": "2026-10-16",
-    "close": 2.6,
-    "high": 2.76
-   },
-   {
-    "date": "2026-10-19",
-    "close": 2.63,
-    "high": 2.815
-   },
-   {
-    "date": "2026-10-20",
-    "close": 2.62,
-    "high": 2.77
-   },
-   {
-    "date": "2026-10-21",
-    "close": 2.63,
-    "high": 2.7
-   },
-   {
-    "date": "2026-10-22",
-    "close": 2.4,
-    "high": 2.61
-   },
-   {
-    "date": "2026-10-23",
-    "close": 2.49,
-    "high": 2.5
-   },
-   {
-    "date": "2026-10-26",
-    "close": 2.55,
-    "high": 2.59
-   },
-   {
-    "date": "2026-10-27",
-    "close": 2.69,
-    "high": 2.705
-   },
-   {
-    "date": "2026-10-28",
-    "close": 2.69,
-    "high": 2.745
-   },
-   {
-    "date": "2026-10-29",
-    "close": 2.66,
-    "high": 2.77
-   }
-  ],
-  "ANTX": [
-   {
-    "date": "2026-10-14",
-    "close": 3.54,
-    "high": 3.73
-   },
-   {
-    "date": "2026-10-15",
-    "close": 3.6,
-    "high": 3.69
-   },
-   {
-    "date": "2026-10-16",
-    "close": 3.38,
-    "high": 3.62
-   },
-   {
-    "date": "2026-10-19",
-    "close": 3.37,
-    "high": 3.46
-   },
-   {
-    "date": "2026-10-20",
-    "close": 3.56,
-    "high": 3.59
-   },
-   {
-    "date": "2026-10-21",
-    "close": 3.6,
-    "high": 3.78
-   },
-   {
-    "date": "2026-10-22",
-    "close": 3.64,
-    "high": 3.72
-   },
-   {
-    "date": "2026-10-23",
-    "close": 3.55,
-    "high": 3.66
-   },
-   {
-    "date": "2026-10-26",
-    "close": 3.63,
-    "high": 3.7
-   },
-   {
-    "date": "2026-10-27",
-    "close": 3.86,
-    "high": 3.89
-   },
-   {
-    "date": "2026-10-28",
-    "close": 4.52,
-    "high": 4.6
-   },
-   {
-    "date": "2026-10-29",
-    "close": 4.69,
-    "high": 4.9
-   }
-  ],
-  "KDK": [
-   {
-    "date": "2026-10-14",
-    "close": 1.56,
-    "high": 1.69
-   },
-   {
-    "date": "2026-10-15",
-    "close": 1.59,
-    "high": 1.63
-   },
-   {
-    "date": "2026-10-16",
-    "close": 1.35,
-    "high": 1.61
-   },
-   {
-    "date": "2026-10-19",
-    "close": 1.2,
-    "high": 1.395
-   },
-   {
-    "date": "2026-10-20",
-    "close": 1.22,
-    "high": 1.22
-   },
-   {
-    "date": "2026-10-21",
-    "close": 1.16,
-    "high": 1.26
-   },
-   {
-    "date": "2026-10-22",
-    "close": 1.04,
-    "high": 1.14
-   },
-   {
-    "date": "2026-10-23",
-    "close": 1.02,
-    "high": 1.06
-   },
-   {
-    "date": "2026-10-26",
-    "close": 1.04,
-    "high": 1.08
-   },
-   {
-    "date": "2026-10-27",
-    "close": 1.12,
-    "high": 1.13
-   },
-   {
-    "date": "2026-10-28",
-    "close": 1.31,
-    "high": 1.36
-   },
-   {
-    "date": "2026-10-29",
-    "close": 1.28,
-    "high": 1.43
-   }
-  ],
-  "AVEX": [
-   {
-    "date": "2026-10-14",
-    "close": 14.18,
-    "high": 14.89
-   },
-   {
-    "date": "2026-10-15",
-    "close": 15.19,
-    "high": 15.39
-   },
-   {
-    "date": "2026-10-16",
-    "close": 15.36,
-    "high": 15.81
-   },
-   {
-    "date": "2026-10-19",
-    "close": 14.49,
-    "high": 15.7
-   },
-   {
-    "date": "2026-10-20",
-    "close": 14.34,
-    "high": 15.03
-   },
-   {
-    "date": "2026-10-21",
-    "close": 9.68,
-    "high": 12.44
-   },
-   {
-    "date": "2026-10-22",
-    "close": 10.96,
-    "high": 11.19
-   },
-   {
-    "date": "2026-10-23",
-    "close": 10.83,
-    "high": 11.15
-   },
-   {
-    "date": "2026-10-26",
-    "close": 10.68,
-    "high": 11.09
-   },
-   {
-    "date": "2026-10-27",
-    "close": 11.5,
-    "high": 11.74
-   },
-   {
-    "date": "2026-10-28",
-    "close": 12.19,
-    "high": 12.34
-   },
-   {
-    "date": "2026-10-29",
-    "close": 13.43,
-    "high": 13.73
-   }
-  ],
-  "BYND": [
-   {
-    "date": "2026-10-14",
-    "close": 6.78,
-    "high": 7.189
-   },
-   {
-    "date": "2026-10-15",
-    "close": 7.17,
-    "high": 7.24
-   },
-   {
-    "date": "2026-10-16",
-    "close": 6.85,
-    "high": 7.19
-   },
-   {
-    "date": "2026-10-19",
-    "close": 6.57,
-    "high": 6.99
-   },
-   {
-    "date": "2026-10-20",
-    "close": 6.81,
-    "high": 6.96
-   },
-   {
-    "date": "2026-10-21",
-    "close": 6.82,
-    "high": 6.94
-   },
-   {
-    "date": "2026-10-22",
-    "close": 7.27,
-    "high": 7.29
-   },
-   {
-    "date": "2026-10-23",
-    "close": 7.15,
-    "high": 7.405
-   },
-   {
-    "date": "2026-10-26",
-    "close": 6.86,
-    "high": 7.13
-   },
-   {
-    "date": "2026-10-27",
-    "close": 7.0,
-    "high": 7.15
-   },
-   {
-    "date": "2026-10-28",
-    "close": 7.13,
-    "high": 7.16
-   },
-   {
-    "date": "2026-10-29",
-    "close": 7.38,
-    "high": 7.73
-   }
-  ],
-  "XXII": [
-   {
-    "date": "2026-10-14",
-    "close": 0.651,
-    "high": 0.66
-   },
-   {
-    "date": "2026-10-15",
-    "close": 0.627,
-    "high": 0.65
-   },
-   {
-    "date": "2026-10-16",
-    "close": 0.335,
-    "high": 0.67
-   },
-   {
-    "date": "2026-10-19",
-    "close": 0.295,
-    "high": 0.313
-   },
-   {
-    "date": "2026-10-20",
-    "close": 0.267,
-    "high": 0.275
-   },
-   {
-    "date": "2026-10-21",
-    "close": 0.273,
-    "high": 0.288
-   },
-   {
-    "date": "2026-10-22",
-    "close": 0.216,
-    "high": 0.437
-   },
-   {
-    "date": "2026-10-23",
-    "close": 0.198,
-    "high": 0.345
-   },
-   {
-    "date": "2026-10-26",
-    "close": 0.088,
-    "high": 0.112
-   },
-   {
-    "date": "2026-10-27",
-    "close": 0.105,
-    "high": 0.126
-   },
-   {
-    "date": "2026-10-28",
-    "close": 0.097,
-    "high": 0.099
-   },
-   {
-    "date": "2026-10-29",
-    "close": 0.0848,
-    "high": 0.0905
-   }
-  ],
-  "LINK": [
-   {
-    "date": "2026-10-14",
-    "close": 4.23,
-    "high": 4.752
-   },
-   {
-    "date": "2026-10-15",
-    "close": 4.13,
-    "high": 4.53
-   },
-   {
-    "date": "2026-10-16",
-    "close": 4.16,
-    "high": 4.3
-   },
-   {
-    "date": "2026-10-19",
-    "close": 4.03,
-    "high": 4.229
-   },
-   {
-    "date": "2026-10-20",
-    "close": 4.01,
-    "high": 4.195
-   },
-   {
-    "date": "2026-10-21",
-    "close": 4.37,
-    "high": 4.443
-   },
-   {
-    "date": "2026-10-22",
-    "close": 4.03,
-    "high": 4.406
-   },
-   {
-    "date": "2026-10-23",
-    "close": 4.075,
-    "high": 4.119
-   },
-   {
-    "date": "2026-10-26",
-    "close": 4.11,
-    "high": 4.46
-   },
-   {
-    "date": "2026-10-27",
-    "close": 4.23,
-    "high": 4.325
-   },
-   {
-    "date": "2026-10-28",
-    "close": 4.14,
-    "high": 4.33
-   },
-   {
-    "date": "2026-10-29",
-    "close": 4.09,
-    "high": 4.2838
-   }
-  ],
-  "RAPP": [
-   {
-    "date": "2026-10-14",
-    "close": 28.33,
-    "high": 29.31
-   },
-   {
-    "date": "2026-10-15",
-    "close": 29.57,
-    "high": 30.48
-   },
-   {
-    "date": "2026-10-16",
-    "close": 27.57,
-    "high": 29.745
-   },
-   {
-    "date": "2026-10-19",
-    "close": 28.6,
-    "high": 29.1
-   },
-   {
-    "date": "2026-10-20",
-    "close": 29.37,
-    "high": 31.31
-   },
-   {
-    "date": "2026-10-21",
-    "close": 25.06,
-    "high": 29.91
-   },
-   {
-    "date": "2026-10-22",
-    "close": 26.53,
-    "high": 27.89
-   },
-   {
-    "date": "2026-10-23",
-    "close": 25.93,
-    "high": 27.756
-   },
-   {
-    "date": "2026-10-26",
-    "close": 25.33,
-    "high": 27.95
-   },
-   {
-    "date": "2026-10-27",
-    "close": 27.54,
-    "high": 28.31
-   },
-   {
-    "date": "2026-10-28",
-    "close": 22.5,
-    "high": 23.94
-   },
-   {
-    "date": "2026-10-29",
-    "close": 24.21,
-    "high": 25.755
-   }
-  ],
-  "PENN": [
-   {
-    "date": "2026-10-14",
-    "close": 14.52,
-    "high": 15.16
-   },
-   {
-    "date": "2026-10-15",
-    "close": 15.21,
-    "high": 15.24
-   },
-   {
-    "date": "2026-10-16",
-    "close": 14.94,
-    "high": 15.36
-   },
-   {
-    "date": "2026-10-19",
-    "close": 14.71,
-    "high": 15.09
-   },
-   {
-    "date": "2026-10-20",
-    "close": 14.96,
-    "high": 15.02
-   },
-   {
-    "date": "2026-10-21",
-    "close": 14.89,
-    "high": 15.07
-   },
-   {
-    "date": "2026-10-22",
-    "close": 15.46,
-    "high": 15.52
-   },
-   {
-    "date": "2026-10-23",
-    "close": 14.5,
-    "high": 15.3
-   },
-   {
-    "date": "2026-10-26",
-    "close": 14.9,
-    "high": 15.13
-   },
-   {
-    "date": "2026-10-27",
-    "close": 14.83,
-    "high": 14.98
-   },
-   {
-    "date": "2026-10-28",
-    "close": 14.72,
-    "high": 14.98
-   },
-   {
-    "date": "2026-10-29",
-    "close": 15.33,
-    "high": 15.345
-   }
-  ],
-  "NUWE": [
-   {
-    "date": "2026-10-13",
-    "close": 0.62,
-    "high": 0.7
-   },
-   {
-    "date": "2026-10-14",
-    "close": 0.53,
-    "high": 0.62
-   },
-   {
-    "date": "2026-10-15",
-    "close": 0.55,
-    "high": 0.58
-   },
-   {
-    "date": "2026-10-16",
-    "close": 0.55,
-    "high": 0.59
-   },
-   {
-    "date": "2026-10-19",
-    "close": 0.56,
-    "high": 0.57
-   },
-   {
-    "date": "2026-10-20",
-    "close": 0.55,
-    "high": 0.56
-   },
-   {
-    "date": "2026-10-21",
-    "close": 0.52,
-    "high": 0.58
-   },
-   {
-    "date": "2026-10-22",
-    "close": 0.49,
-    "high": 0.52
-   },
-   {
-    "date": "2026-10-23",
-    "close": 0.32,
-    "high": 0.49
-   },
-   {
-    "date": "2026-10-27",
-    "close": 5.41,
-    "high": 5.95
-   },
-   {
-    "date": "2026-10-28",
-    "close": 5.66,
-    "high": 5.7
-   },
-   {
-    "date": "2026-10-29",
-    "close": 5.78,
-    "high": 7.15
-   }
-  ],
-  "NCPL": [
-   {
-    "date": "2026-10-14",
-    "close": 1.59,
-    "high": 1.97
-   },
-   {
-    "date": "2026-10-15",
-    "close": 1.98,
-    "high": 2.39
-   },
-   {
-    "date": "2026-10-16",
-    "close": 2.17,
-    "high": 2.48
-   },
-   {
-    "date": "2026-10-19",
-    "close": 1.63,
-    "high": 1.97
-   },
-   {
-    "date": "2026-10-20",
-    "close": 2.02,
-    "high": 2.31
-   },
-   {
-    "date": "2026-10-21",
-    "close": 1.57,
-    "high": 2.34
-   },
-   {
-    "date": "2026-10-22",
-    "close": 2.23,
-    "high": 2.65
-   },
-   {
-    "date": "2026-10-23",
-    "close": 1.33,
-    "high": 2.23
-   },
-   {
-    "date": "2026-10-26",
-    "close": 1.33,
-    "high": 1.43
-   },
-   {
-    "date": "2026-10-27",
-    "close": 1.31,
-    "high": 1.4
-   },
-   {
-    "date": "2026-10-28",
-    "close": 1.1,
-    "high": 1.253
-   },
-   {
-    "date": "2026-10-29",
-    "close": 1.78,
-    "high": 1.88
-   }
-  ],
-  "LOT": [
-   {
-    "date": "2026-10-14",
-    "close": 0.592,
-    "high": 0.645
-   },
-   {
-    "date": "2026-10-15",
-    "close": 0.587,
-    "high": 0.619
-   },
-   {
-    "date": "2026-10-16",
-    "close": 0.57,
-    "high": 0.58
-   },
-   {
-    "date": "2026-10-19",
-    "close": 0.518,
-    "high": 0.57
-   },
-   {
-    "date": "2026-10-20",
-    "close": 0.5,
-    "high": 0.551
-   },
-   {
-    "date": "2026-10-21",
-    "close": 0.509,
-    "high": 0.556
-   },
-   {
-    "date": "2026-10-22",
-    "close": 0.5,
-    "high": 0.52
-   },
-   {
-    "date": "2026-10-23",
-    "close": 0.496,
-    "high": 0.5
-   },
-   {
-    "date": "2026-10-26",
-    "close": 0.514,
-    "high": 0.52
-   },
-   {
-    "date": "2026-10-27",
-    "close": 0.526,
-    "high": 0.553
-   },
-   {
-    "date": "2026-10-28",
-    "close": 0.455,
-    "high": 0.52
-   },
-   {
-    "date": "2026-10-29",
-    "close": 0.428,
-    "high": 0.5186
-   }
-  ],
-  "IQ": [
-   {
-    "date": "2026-10-14",
-    "close": 0.951,
-    "high": 1.0
-   },
-   {
-    "date": "2026-10-15",
-    "close": 0.983,
-    "high": 0.995
-   },
-   {
-    "date": "2026-10-16",
-    "close": 0.951,
-    "high": 0.98
-   },
-   {
-    "date": "2026-10-19",
-    "close": 0.928,
-    "high": 0.965
-   },
-   {
-    "date": "2026-10-20",
-    "close": 0.921,
-    "high": 0.94
-   },
-   {
-    "date": "2026-10-21",
-    "close": 0.917,
-    "high": 0.94
-   },
-   {
-    "date": "2026-10-22",
-    "close": 0.905,
-    "high": 0.91
-   },
-   {
-    "date": "2026-10-23",
-    "close": 0.921,
-    "high": 0.948
-   },
-   {
-    "date": "2026-10-26",
-    "close": 0.877,
-    "high": 0.925
-   },
-   {
-    "date": "2026-10-27",
-    "close": 0.838,
-    "high": 0.879
-   },
-   {
-    "date": "2026-10-28",
-    "close": 0.834,
-    "high": 0.85
-   },
-   {
-    "date": "2026-10-29",
-    "close": 0.8326,
-    "high": 0.8444
-   }
-  ],
-  "GYGY": [
-   {
-    "date": "2026-10-14",
-    "close": 0.39,
-    "high": 0.43
-   },
-   {
-    "date": "2026-10-15",
-    "close": 0.42,
-    "high": 0.45
-   },
-   {
-    "date": "2026-10-16",
-    "close": 0.41,
-    "high": 0.43
-   },
-   {
-    "date": "2026-10-19",
-    "close": 0.39,
-    "high": 0.43
-   },
-   {
-    "date": "2026-10-20",
-    "close": 0.41,
-    "high": 0.43
-   },
-   {
-    "date": "2026-10-21",
-    "close": 0.39,
-    "high": 0.43
-   },
-   {
-    "date": "2026-10-22",
-    "close": 0.38,
-    "high": 0.4
-   },
-   {
-    "date": "2026-10-23",
-    "close": 0.37,
-    "high": 0.4
-   },
-   {
-    "date": "2026-10-26",
-    "close": 0.32,
-    "high": 0.41
-   },
-   {
-    "date": "2026-10-27",
-    "close": 0.34,
-    "high": 0.35
-   },
-   {
-    "date": "2026-10-28",
-    "close": 0.37,
-    "high": 0.37
-   },
-   {
-    "date": "2026-10-29",
-    "close": 0.3928,
-    "high": 0.4183
-   }
-  ],
-  "GLP": [
-   {
-    "date": "2026-10-14",
-    "close": 48.15,
-    "high": 49.48
-   },
-   {
-    "date": "2026-10-15",
-    "close": 49.08,
-    "high": 49.47
-   },
-   {
-    "date": "2026-10-16",
-    "close": 49.71,
-    "high": 49.92
-   },
-   {
-    "date": "2026-10-19",
-    "close": 48.95,
-    "high": 49.44
-   },
-   {
-    "date": "2026-10-20",
-    "close": 50.2,
-    "high": 50.63
-   },
-   {
-    "date": "2026-10-21",
-    "close": 48.92,
-    "high": 50.78
-   },
-   {
-    "date": "2026-10-22",
-    "close": 48.53,
-    "high": 49.74
-   },
-   {
-    "date": "2026-10-23",
-    "close": 48.44,
-    "high": 48.87
-   },
-   {
-    "date": "2026-10-26",
-    "close": 48.28,
-    "high": 48.81
-   },
-   {
-    "date": "2026-10-27",
-    "close": 47.7,
-    "high": 48.84
-   },
-   {
-    "date": "2026-10-28",
-    "close": 47.28,
-    "high": 48.16
-   },
-   {
-    "date": "2026-10-29",
-    "close": 47.91,
-    "high": 48.0803
-   }
-  ],
-  "BOOM": [
-   {
-    "date": "2026-10-14",
-    "close": 5.36,
-    "high": 5.5
-   },
-   {
-    "date": "2026-10-15",
-    "close": 5.24,
-    "high": 5.41
-   },
-   {
-    "date": "2026-10-16",
-    "close": 5.33,
-    "high": 5.42
-   },
-   {
-    "date": "2026-10-19",
-    "close": 5.29,
-    "high": 5.32
-   },
-   {
-    "date": "2026-10-20",
-    "close": 5.37,
-    "high": 5.4
-   },
-   {
-    "date": "2026-10-21",
-    "close": 5.46,
-    "high": 5.48
-   },
-   {
-    "date": "2026-10-22",
-    "close": 5.23,
-    "high": 5.43
-   },
-   {
-    "date": "2026-10-23",
-    "close": 5.49,
-    "high": 5.54
-   },
-   {
-    "date": "2026-10-26",
-    "close": 5.37,
-    "high": 5.53
-   },
-   {
-    "date": "2026-10-27",
-    "close": 5.35,
-    "high": 5.54
-   },
-   {
-    "date": "2026-10-28",
-    "close": 7.73,
-    "high": 7.74
-   },
-   {
-    "date": "2026-10-29",
-    "close": 8.48,
-    "high": 8.88
-   }
-  ],
-  "BEAT": [
-   {
-    "date": "2026-10-14",
-    "close": 0.393,
-    "high": 0.41
-   },
-   {
-    "date": "2026-10-15",
-    "close": 0.432,
-    "high": 0.44
-   },
-   {
-    "date": "2026-10-16",
-    "close": 0.436,
-    "high": 0.439
-   },
-   {
-    "date": "2026-10-19",
-    "close": 0.413,
-    "high": 0.443
-   },
-   {
-    "date": "2026-10-20",
-    "close": 0.411,
-    "high": 0.425
-   },
-   {
-    "date": "2026-10-21",
-    "close": 0.407,
-    "high": 0.423
-   },
-   {
-    "date": "2026-10-22",
-    "close": 0.398,
-    "high": 0.413
-   },
-   {
-    "date": "2026-10-23",
-    "close": 0.393,
-    "high": 0.402
-   },
-   {
-    "date": "2026-10-26",
-    "close": 0.409,
-    "high": 0.41
-   },
-   {
-    "date": "2026-10-27",
-    "close": 0.4,
-    "high": 0.41
-   },
-   {
-    "date": "2026-10-28",
-    "close": 0.532,
-    "high": 0.536
-   },
-   {
-    "date": "2026-10-29",
-    "close": 0.5389,
-    "high": 0.5748
-   }
-  ],
-  "TE": [
-   {
-    "date": "2026-10-14",
-    "close": 2.9,
-    "high": 3.07
-   },
-   {
-    "date": "2026-10-15",
-    "close": 2.93,
-    "high": 2.98
-   },
-   {
-    "date": "2026-10-16",
-    "close": 2.62,
-    "high": 2.86
-   },
-   {
-    "date": "2026-10-19",
-    "close": 2.54,
-    "high": 2.75
-   },
-   {
-    "date": "2026-10-20",
-    "close": 2.47,
-    "high": 2.65
-   },
-   {
-    "date": "2026-10-21",
-    "close": 2.38,
-    "high": 2.55
-   },
-   {
-    "date": "2026-10-22",
-    "close": 2.31,
-    "high": 2.39
-   },
-   {
-    "date": "2026-10-23",
-    "close": 2.29,
-    "high": 2.32
-   },
-   {
-    "date": "2026-10-26",
-    "close": 2.12,
-    "high": 2.25
-   },
-   {
-    "date": "2026-10-27",
-    "close": 2.46,
-    "high": 2.6
-   },
-   {
-    "date": "2026-10-28",
-    "close": 2.63,
-    "high": 2.64
-   },
-   {
-    "date": "2026-10-29",
-    "close": 2.86,
-    "high": 2.91
-   }
-  ],
-  "PRME": [
-   {
-    "date": "2026-10-14",
-    "close": 3.13,
-    "high": 3.22
-   },
-   {
-    "date": "2026-10-15",
-    "close": 3.61,
-    "high": 3.65
-   },
-   {
-    "date": "2026-10-16",
-    "close": 3.47,
-    "high": 3.605
-   },
-   {
-    "date": "2026-10-19",
-    "close": 3.83,
-    "high": 3.87
-   },
-   {
-    "date": "2026-10-20",
-    "close": 3.92,
-    "high": 4.05
-   },
-   {
-    "date": "2026-10-21",
-    "close": 3.81,
-    "high": 4.005
-   },
-   {
-    "date": "2026-10-22",
-    "close": 3.73,
-    "high": 3.92
-   },
-   {
-    "date": "2026-10-23",
-    "close": 3.67,
-    "high": 3.7
-   },
-   {
-    "date": "2026-10-26",
-    "close": 3.61,
-    "high": 3.7
-   },
-   {
-    "date": "2026-10-27",
-    "close": 4.35,
-    "high": 4.41
-   },
-   {
-    "date": "2026-10-28",
-    "close": 5.36,
-    "high": 5.43
-   },
-   {
-    "date": "2026-10-29",
-    "close": 5.24,
-    "high": 5.9099
-   }
-  ],
-  "MAX": [
-   {
-    "date": "2026-10-14",
-    "close": 10.64,
-    "high": 10.645
-   },
-   {
-    "date": "2026-10-15",
-    "close": 11.68,
-    "high": 11.83
-   },
-   {
-    "date": "2026-10-16",
-    "close": 11.5,
-    "high": 11.78
-   },
-   {
-    "date": "2026-10-19",
-    "close": 11.3,
-    "high": 11.59
-   },
-   {
-    "date": "2026-10-20",
-    "close": 11.79,
-    "high": 11.93
-   },
-   {
-    "date": "2026-10-21",
-    "close": 11.52,
-    "high": 11.73
-   },
-   {
-    "date": "2026-10-22",
-    "close": 12.41,
-    "high": 12.47
-   },
-   {
-    "date": "2026-10-23",
-    "close": 11.9,
-    "high": 12.35
-   },
-   {
-    "date": "2026-10-26",
-    "close": 11.88,
-    "high": 12.0
-   },
-   {
-    "date": "2026-10-27",
-    "close": 11.77,
-    "high": 12.185
-   },
-   {
-    "date": "2026-10-28",
-    "close": 11.72,
-    "high": 12.13
-   },
-   {
-    "date": "2026-10-29",
-    "close": 14.13,
-    "high": 14.565
-   }
-  ],
-  "DBD": [
-   {
-    "date": "2026-10-14",
-    "close": 64.29,
-    "high": 64.8
-   },
-   {
-    "date": "2026-10-15",
-    "close": 66.57,
-    "high": 66.88
-   },
-   {
-    "date": "2026-10-16",
-    "close": 66.83,
-    "high": 67.56
-   },
-   {
-    "date": "2026-10-19",
-    "close": 67.57,
-    "high": 68.2
-   },
-   {
-    "date": "2026-10-20",
-    "close": 67.84,
-    "high": 68.95
-   },
-   {
-    "date": "2026-10-21",
-    "close": 68.16,
-    "high": 69.1
-   },
-   {
-    "date": "2026-10-22",
-    "close": 69.26,
-    "high": 69.685
-   },
-   {
-    "date": "2026-10-23",
-    "close": 69.18,
-    "high": 69.72
-   },
-   {
-    "date": "2026-10-26",
-    "close": 68.82,
-    "high": 69.9
-   },
-   {
-    "date": "2026-10-27",
-    "close": 66.68,
-    "high": 69.34
-   },
-   {
-    "date": "2026-10-28",
-    "close": 58.07,
-    "high": 62.08
-   },
-   {
-    "date": "2026-10-29",
-    "close": 59.14,
-    "high": 61.35
-   }
-  ],
-  "TIL": [
-   {
-    "date": "2026-10-14",
-    "close": 5.95,
-    "high": 6.22
-   },
-   {
-    "date": "2026-10-15",
-    "close": 6.13,
-    "high": 6.495
-   },
-   {
-    "date": "2026-10-16",
-    "close": 5.91,
-    "high": 6.45
-   },
-   {
-    "date": "2026-10-19",
-    "close": 5.79,
-    "high": 6.35
-   },
-   {
-    "date": "2026-10-20",
-    "close": 5.94,
-    "high": 6.19
-   },
-   {
-    "date": "2026-10-21",
-    "close": 5.77,
-    "high": 6.09
-   },
-   {
-    "date": "2026-10-22",
-    "close": 5.7,
-    "high": 5.94
-   },
-   {
-    "date": "2026-10-23",
-    "close": 5.84,
-    "high": 5.9
-   },
-   {
-    "date": "2026-10-26",
-    "close": 5.57,
-    "high": 5.88
-   },
-   {
-    "date": "2026-10-27",
-    "close": 5.84,
-    "high": 6.08
-   },
-   {
-    "date": "2026-10-28",
-    "close": 6.79,
-    "high": 6.93
-   },
-   {
-    "date": "2026-10-29",
-    "close": 6.825,
-    "high": 7.12
-   }
-  ],
-  "SDEV": [
-   {
-    "date": "2026-10-14",
-    "close": 0.99,
-    "high": 1.19
-   },
-   {
-    "date": "2026-10-15",
-    "close": 1.02,
-    "high": 1.15
-   },
-   {
-    "date": "2026-10-16",
-    "close": 0.88,
-    "high": 1.02
-   },
-   {
-    "date": "2026-10-19",
-    "close": 0.84,
-    "high": 1.07
-   },
-   {
-    "date": "2026-10-20",
-    "close": 0.83,
-    "high": 0.94
-   },
-   {
-    "date": "2026-10-21",
-    "close": 1.1,
-    "high": 1.65
-   },
-   {
-    "date": "2026-10-22",
-    "close": 1.1,
-    "high": 1.23
-   },
-   {
-    "date": "2026-10-23",
-    "close": 1.0,
-    "high": 1.15
-   },
-   {
-    "date": "2026-10-26",
-    "close": 0.93,
-    "high": 0.99
-   },
-   {
-    "date": "2026-10-27",
-    "close": 1.05,
-    "high": 1.25
-   },
-   {
-    "date": "2026-10-28",
-    "close": 1.08,
-    "high": 1.15
-   },
-   {
-    "date": "2026-10-29",
-    "close": 1.08,
-    "high": 1.09
-   }
-  ],
-  "INOD": [
-   {
-    "date": "2026-10-14",
-    "close": 53.14,
-    "high": 57.73
-   },
-   {
-    "date": "2026-10-15",
-    "close": 56.57,
-    "high": 56.67
-   },
-   {
-    "date": "2026-10-16",
-    "close": 52.82,
-    "high": 56.0
-   },
-   {
-    "date": "2026-10-19",
-    "close": 54.0,
-    "high": 55.44
-   },
-   {
-    "date": "2026-10-20",
-    "close": 55.05,
-    "high": 55.73
-   },
-   {
-    "date": "2026-10-21",
-    "close": 60.56,
-    "high": 61.16
-   },
-   {
-    "date": "2026-10-22",
-    "close": 59.69,
-    "high": 60.14
-   },
-   {
-    "date": "2026-10-23",
-    "close": 59.39,
-    "high": 60.88
-   },
-   {
-    "date": "2026-10-26",
-    "close": 59.91,
-    "high": 60.98
-   },
-   {
-    "date": "2026-10-27",
-    "close": 44.74,
-    "high": 48.9
-   },
-   {
-    "date": "2026-10-28",
-    "close": 47.65,
-    "high": 49.4
-   },
-   {
-    "date": "2026-10-29",
-    "close": 46.17,
-    "high": 47.26
-   }
-  ],
-  "BBAI": [
-   {
-    "date": "2026-10-14",
-    "close": 2.18,
-    "high": 2.34
-   },
-   {
-    "date": "2026-10-15",
-    "close": 2.33,
-    "high": 2.33
-   },
-   {
-    "date": "2026-10-16",
-    "close": 2.16,
-    "high": 2.32
-   },
-   {
-    "date": "2026-10-19",
-    "close": 2.12,
-    "high": 2.21
-   },
-   {
-    "date": "2026-10-20",
-    "close": 2.17,
-    "high": 2.225
-   },
-   {
-    "date": "2026-10-21",
-    "close": 2.19,
-    "high": 2.225
-   },
-   {
-    "date": "2026-10-22",
-    "close": 2.13,
-    "high": 2.23
-   },
-   {
-    "date": "2026-10-23",
-    "close": 2.14,
-    "high": 2.17
-   },
-   {
-    "date": "2026-10-26",
-    "close": 2.12,
-    "high": 2.19
-   },
-   {
-    "date": "2026-10-27",
-    "close": 2.35,
-    "high": 2.37
-   },
-   {
-    "date": "2026-10-28",
-    "close": 2.46,
-    "high": 2.46
-   },
-   {
-    "date": "2026-10-29",
-    "close": 2.67,
-    "high": 2.67
-   }
-  ],
-  "ASC": [
-   {
-    "date": "2026-10-14",
-    "close": 19.67,
-    "high": 20.6
-   },
-   {
-    "date": "2026-10-15",
-    "close": 18.98,
-    "high": 19.72
-   },
-   {
-    "date": "2026-10-16",
-    "close": 18.93,
-    "high": 19.45
-   },
-   {
-    "date": "2026-10-19",
-    "close": 18.5,
-    "high": 19.38
-   },
-   {
-    "date": "2026-10-20",
-    "close": 18.87,
-    "high": 18.93
-   },
-   {
-    "date": "2026-10-21",
-    "close": 19.62,
-    "high": 19.63
-   },
-   {
-    "date": "2026-10-22",
-    "close": 19.34,
-    "high": 19.72
-   },
-   {
-    "date": "2026-10-23",
-    "close": 20.03,
-    "high": 20.08
-   },
-   {
-    "date": "2026-10-26",
-    "close": 20.7,
-    "high": 20.96
-   },
-   {
-    "date": "2026-10-27",
-    "close": 20.42,
-    "high": 21.05
-   },
-   {
-    "date": "2026-10-28",
-    "close": 20.79,
-    "high": 21.35
-   },
-   {
-    "date": "2026-10-29",
-    "close": 21.3,
-    "high": 21.3
-   }
-  ],
-  "ARR": [
-   {
-    "date": "2026-10-14",
-    "close": 13.62,
-    "high": 13.64
-   },
-   {
-    "date": "2026-10-15",
-    "close": 13.66,
-    "high": 13.88
-   },
-   {
-    "date": "2026-10-16",
-    "close": 13.2,
-    "high": 13.71
-   },
-   {
-    "date": "2026-10-19",
-    "close": 12.28,
-    "high": 13.16
-   },
-   {
-    "date": "2026-10-20",
-    "close": 12.68,
-    "high": 12.81
-   },
-   {
-    "date": "2026-10-21",
-    "close": 12.81,
-    "high": 12.97
-   },
-   {
-    "date": "2026-10-22",
-    "close": 12.69,
-    "high": 13.1
-   },
-   {
-    "date": "2026-10-23",
-    "close": 12.88,
-    "high": 12.89
-   },
-   {
-    "date": "2026-10-26",
-    "close": 12.68,
-    "high": 12.98
-   },
-   {
-    "date": "2026-10-27",
-    "close": 12.65,
-    "high": 12.75
-   },
-   {
-    "date": "2026-10-28",
-    "close": 12.67,
-    "high": 12.7
-   },
-   {
-    "date": "2026-10-29",
-    "close": 12.79,
-    "high": 12.835
-   }
-  ],
-  "API": [
-   {
-    "date": "2026-10-14",
-    "close": 4.32,
-    "high": 4.42
-   },
-   {
-    "date": "2026-10-15",
-    "close": 4.5,
-    "high": 4.53
-   },
-   {
-    "date": "2026-10-16",
-    "close": 4.35,
-    "high": 4.49
-   },
-   {
-    "date": "2026-10-19",
-    "close": 4.37,
-    "high": 4.43
-   },
-   {
-    "date": "2026-10-20",
-    "close": 4.4,
-    "high": 4.42
-   },
-   {
-    "date": "2026-10-21",
-    "close": 4.49,
-    "high": 4.51
-   },
-   {
-    "date": "2026-10-22",
-    "close": 4.39,
-    "high": 4.48
-   },
-   {
-    "date": "2026-10-23",
-    "close": 4.45,
-    "high": 4.47
-   },
-   {
-    "date": "2026-10-26",
-    "close": 4.48,
-    "high": 4.538
-   },
-   {
-    "date": "2026-10-27",
-    "close": 4.49,
-    "high": 4.56
-   },
-   {
-    "date": "2026-10-28",
-    "close": 4.46,
-    "high": 4.545
-   },
-   {
-    "date": "2026-10-29",
-    "close": 4.45,
-    "high": 4.5
-   }
-  ],
-  "VC": [
-   {
-    "date": "2026-10-14",
-    "close": 86.61,
-    "high": 86.62
-   },
-   {
-    "date": "2026-10-15",
-    "close": 88.67,
-    "high": 89.31
-   },
-   {
-    "date": "2026-10-16",
-    "close": 87.25,
-    "high": 90.61
-   },
-   {
-    "date": "2026-10-19",
-    "close": 86.78,
-    "high": 87.38
-   },
-   {
-    "date": "2026-10-20",
-    "close": 87.78,
-    "high": 88.33
-   },
-   {
-    "date": "2026-10-21",
-    "close": 84.83,
-    "high": 88.23
-   },
-   {
-    "date": "2026-10-22",
-    "close": 81.7,
-    "high": 82.99
-   },
-   {
-    "date": "2026-10-23",
-    "close": 76.37,
-    "high": 79.94
-   },
-   {
-    "date": "2026-10-26",
-    "close": 75.7,
-    "high": 77.24
-   },
-   {
-    "date": "2026-10-27",
-    "close": 73.76,
-    "high": 77.35
-   },
-   {
-    "date": "2026-10-28",
-    "close": 72.42,
-    "high": 72.53
-   },
-   {
-    "date": "2026-10-29",
-    "close": 73.23,
-    "high": 74.91
-   }
-  ],
-  "STNE": [
-   {
-    "date": "2026-10-14",
-    "close": 11.48,
-    "high": 11.81
-   },
-   {
-    "date": "2026-10-15",
-    "close": 11.38,
-    "high": 11.63
-   },
-   {
-    "date": "2026-10-16",
-    "close": 11.28,
-    "high": 11.51
-   },
-   {
-    "date": "2026-10-19",
-    "close": 11.49,
-    "high": 11.74
-   },
-   {
-    "date": "2026-10-20",
-    "close": 12.07,
-    "high": 12.1
-   },
-   {
-    "date": "2026-10-21",
-    "close": 11.55,
-    "high": 12.04
-   },
-   {
-    "date": "2026-10-22",
-    "close": 11.15,
-    "high": 11.5
-   },
-   {
-    "date": "2026-10-23",
-    "close": 11.48,
-    "high": 11.53
-   },
-   {
-    "date": "2026-10-26",
-    "close": 8.33,
-    "high": 8.43
-   },
-   {
-    "date": "2026-10-27",
-    "close": 8.16,
-    "high": 8.68
-   },
-   {
-    "date": "2026-10-28",
-    "close": 8.09,
-    "high": 8.21
-   },
-   {
-    "date": "2026-10-29",
-    "close": 8.0,
-    "high": 8.19
-   }
-  ]
- }
+ "closes_asof": null,
+ "closes": {}
 }

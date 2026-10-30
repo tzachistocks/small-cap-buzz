@@ -124,5 +124,12 @@
   "asia": null,
   "sic": "Savings Institutions, Not Federally Chartered",
   "ts": "2026-10-29T23:09+00:00"
+ },
+ "EDIT": {
+  "country": "MA",
+  "inc": "DE",
+  "asia": null,
+  "sic": "Biological Products, (No Diagnostic Substances)",
+  "ts": "2026-10-30T07:09+00:00"
  }
 }

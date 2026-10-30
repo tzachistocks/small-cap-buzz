@@ -605,7 +605,7 @@
    "last_close": 2.6600000858306885,
    "last_pct": -1.1,
    "max_close_pct": -1.1,
-   "max_high_pct": 3.0,
+   "max_high_pct": 3.1,
    "d1_pct": -1.1
   },
   "followups": {}
@@ -975,6 +975,113 @@
    "max_close_pct": 0.0,
    "max_high_pct": 0.0,
    "d1_pct": 0.0
-  }
+  },
+  "followups": {}
+ },
+ {
+  "id": "202610300707-LOT",
+  "ts": "2026-10-30T07:07+00:00",
+  "ticker": "LOT",
+  "score": 4,
+  "why": [
+   "פיזור ב-6 פורומים",
+   "שיח עולה 3 ימים ברציפות (4→7→9)",
+   "נפח פי 2.0 מהממוצע"
+  ],
+  "price": {
+   "price": 0.4102,
+   "prev_close": 0.455,
+   "move_pct": -9.85,
+   "vol_today": 250284,
+   "avg_vol20": 125225,
+   "rel_vol": 2.0,
+   "exchange": "NMS",
+   "name": "Lotus Technology Inc.",
+   "readiness": {
+    "points": 2,
+    "why": [
+     "ירדה 70% משיא 60 יום",
+     "מתחת ל-$1"
+    ],
+    "risk": [],
+    "asof": "2026-10-29",
+    "f": {
+     "rvol_1": 2.3327,
+     "atr_ratio": 0.8308,
+     "drawdown_60": -0.6986,
+     "vol20": 0.0533,
+     "prior_runs_120": 0.0,
+     "ret_1d": -0.0593,
+     "ret_3d": -0.1673,
+     "ret_10d": -0.2709,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.4683
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 274.21,
+   "float_m": 635.89,
+   "short_float_pct": 0.12,
+   "days_to_cover": 2.63,
+   "src": "finviz"
+  },
+  "m_now": 9,
+  "m_24h_ago": 1,
+  "spread": [
+   "Daytrading",
+   "Shortsqueeze",
+   "WallStreetbetsELITE",
+   "Wallstreetbetsnew",
+   "stocks",
+   "wallstreetbets"
+  ],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 0,
+   "users": 11,
+   "bull": 20,
+   "bear": 0,
+   "oldest_min": 86033,
+   "watchlist": 368
+  },
+  "borrow": {
+   "fee": 12.7549,
+   "available": 2000000,
+   "fee_5d": 13.7245,
+   "available_5d": 2000000
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "profile": {
+   "country": "",
+   "inc": "E9",
+   "asia": null,
+   "sic": "Motor Vehicles & Passenger Car Bodies",
+   "ts": "2026-10-25T22:41+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [],
+   "filings": [],
+   "rsplit": null,
+   "cik": 1962746
+  },
+  "forum": {
+   "rising": [
+    4,
+    7,
+    9
+   ],
+   "novel": false
+  },
+  "invalidation": 0.3487,
+  "news": null,
+  "urgent": false,
+  "urgent_why": [],
+  "path": "buzz",
+  "telegram_sent": true,
+  "outcome": {}
  }
 ]

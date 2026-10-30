@@ -3441,5 +3441,356 @@
    ],
    "first_utc": "2026-10-29T22:29+00:00"
   }
+ },
+ "2026-10-30": {
+  "SI": {
+   "m24_max": 16,
+   "authors24_max": 14,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-30T03:06+00:00"
+  },
+  "NRXP": {
+   "m24_max": 14,
+   "authors24_max": 4,
+   "subs": [
+    "Shortsqueeze",
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T20:35+00:00",
+   "sample": "r/smallstreetbets: NRx Pharmaceuticals (NRXP): The KETAFREE ANDA \"WAS\" in fact APPROVED by the FDA!! <MODS, p"
+  },
+  "SPCE": {
+   "m24_max": 6,
+   "authors24_max": 6,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T16:53+00:00",
+   "sample": "r/smallstreetbets: SPCE is down 99% from all time highs. The good news? They might finally be sort-of-on-sche"
+  },
+  "GIFT": {
+   "m24_max": 3,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze",
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-30T02:26+00:00",
+   "sample": "r/smallstreetbets: NRx Pharmaceuticals (NRXP): The KETAFREE ANDA \"WAS\" in fact APPROVED by the FDA!! <MODS, p"
+  },
+  "CCO": {
+   "m24_max": 3,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze",
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-30T02:26+00:00",
+   "sample": "r/smallstreetbets: NRx Pharmaceuticals (NRXP): The KETAFREE ANDA \"WAS\" in fact APPROVED by the FDA!! <MODS, p"
+  },
+  "MVIS": {
+   "m24_max": 3,
+   "authors24_max": 2,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-30T02:33+00:00",
+   "sample": "r/smallstreetbets: $MVIS Went From $0.16 to $28, Then Came Back AGAIN. 25% Short Interest, Real Revenue, and "
+  },
+  "FTNT": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-30T02:37+00:00",
+   "sample": "r/smallstreetbets: FTNT puts"
+  },
+  "EBAY": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T21:03+00:00",
+   "sample": "r/smallstreetbets: EBAY has outperformed AMZN, GOOG, MSFT and META over the past year"
+  },
+  "HPQ": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T17:29+00:00",
+   "sample": "r/pennystocks: HPQ Silicon and PyroGenesis Fumed Silica Technology"
+  },
+  "BBAI": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T17:22+00:00",
+   "sample": "r/pennystocks: Again BBAI...lets talk about the Q3"
+  },
+  "BEAT": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-30T03:58+00:00"
+  },
+  "QCOM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-30T07:02+00:00",
+   "sample": "r/smallstreetbets: earnings preview for next week, mostly watching AAPL and AMD"
+  },
+  "AMC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-30T02:33+00:00",
+   "sample": "r/smallstreetbets: $MVIS Went From $0.16 to $28, Then Came Back AGAIN. 25% Short Interest, Real Revenue, and "
+  },
+  "GME": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-30T02:33+00:00",
+   "sample": "r/smallstreetbets: $MVIS Went From $0.16 to $28, Then Came Back AGAIN. 25% Short Interest, Real Revenue, and "
+  },
+  "WKHS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T22:43+00:00",
+   "sample": "r/smallstreetbets: Workhorse signs $10M TerraPod build deal with RHAELM | WKHS Stock News"
+  },
+  "PC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T20:32+00:00",
+   "sample": "r/smallstreetbets: Intel doing the after hours dump post Q3 earnings"
+  },
+  "ANTX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T16:53+00:00",
+   "sample": "r/smallstreetbets: ANTX 🚀"
+  },
+  "VPRB": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T16:19+00:00",
+   "sample": "r/pennystocks: $VPRB: $8M Market Cap, $18.9M in Patent-Related Cash Receipts, and Trading at $0.09? 👀"
+  },
+  "STOK": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T16:14+00:00",
+   "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
+  },
+  "BBIO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T16:14+00:00",
+   "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
+  },
+  "INO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T16:14+00:00",
+   "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
+  },
+  "ARTL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T16:14+00:00",
+   "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
+  },
+  "EVAX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T16:14+00:00",
+   "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
+  },
+  "IVVD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T16:14+00:00",
+   "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
+  },
+  "INBX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T16:14+00:00",
+   "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
+  },
+  "CETX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T13:57+00:00",
+   "sample": "r/pennystocks: CETX Surges 59% Today After Strong Earnings. More Upside?"
+  },
+  "BURU": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T13:22+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "PCLA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T13:22+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "INLF": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T13:22+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "IOVA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T13:22+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "III": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T10:54+00:00",
+   "sample": "r/pennystocks: $VNDA reported positive numbers yesterday"
+  },
+  "VNDA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T10:54+00:00",
+   "sample": "r/pennystocks: $VNDA reported positive numbers yesterday"
+  },
+  "GLP": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T10:54+00:00",
+   "sample": "r/pennystocks: $VNDA reported positive numbers yesterday"
+  },
+  "CYPH": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-30T05:28+00:00"
+  },
+  "NOV": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-30T04:11+00:00"
+  },
+  "MBOT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-30T03:55+00:00"
+  },
+  "HTZ": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-10-30T03:50+00:00"
+  },
+  "NVTS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-30T03:10+00:00"
+  },
+  "XXII": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-30T03:04+00:00"
+  }
  }
 }
