@@ -12,6 +12,7 @@ chat names or message text.
 """
 import json
 import os
+import re
 import time
 from datetime import datetime, timedelta
 
@@ -100,6 +101,72 @@ def _closes(tickers, now):
     return out
 
 
+_HREF = re.compile(r'href="/stocks/([a-z0-9.\-]{1,8})/"')
+# stockanalysis pages the scans pick stocks from; each is read once a day, from the given UTC hour on
+UNIVERSE_PAGES = (
+    ("premarket", "https://stockanalysis.com/markets/premarket/gainers/", 13),   # ~09:00 ET
+    ("gainers", "https://stockanalysis.com/markets/gainers/", 20),               # after the close
+    ("afterhours", "https://stockanalysis.com/markets/after-hours/gainers/", 21),
+    ("shorted", "https://stockanalysis.com/list/most-shorted-stocks/", 13),
+)
+
+
+def update_universe(store, now, alerts, cand_log):
+    """data/closes_universe.json: {ticker: last date it was relevant}. Everything the scans may track:
+    alerts, candidates, tickers with 3+ forum mentions, fresh strong press releases, the day's premarket /
+    regular / after-hours gainers and the most-shorted list, plus a one-time seed (TRACK_SEED).
+    Kept DIGEST_UNIVERSE_DAYS after the last sighting; closes are collected for all of them."""
+    from . import news
+    uni = store.load_json("closes_universe.json", {})
+    day = now.date().isoformat()
+    caps = store.load_json("caps.json", {})
+    big = lambda t: ((caps.get(t) or {}).get("cap") or 0) > config.DIGEST_MAX_CAP_M or t in config.LARGE_CAPS
+
+    def add(t, force=False):
+        t = (t or "").upper().strip()
+        if t and len(t) <= 6 and (force or (not big(t) and t not in config.WORD_TICKERS)):
+            uni[t] = max(uni.get(t, ""), day)
+
+    if not uni.get("_seeded"):
+        for t in config.TRACK_SEED:
+            add(t, force=True)  # the dashboard tracks these as they are (word-like tickers included)
+        uni["_seeded"] = day
+    for a in alerts:
+        if a["ts"][:10] == day:
+            add(a["ticker"])
+    for k, v in (cand_log or {}).items():
+        if k[:10] == day:
+            add(v["ticker"])
+    hist = store.load_history(days=1)
+    for s in hist[-1:]:
+        for t, v in (s.get("main") or {}).items():
+            if v[0] >= 3:
+                add(t)
+        for d in (s.get("subs") or {}).values():
+            for t, v in d.items():
+                if v[0] >= 3:
+                    add(t)
+    cut = (now - timedelta(hours=24)).isoformat(timespec="minutes")
+    for c in store.load_json("pr_cache.json", []):
+        if c["ts"] >= cut and news.classify(c["title"])[0] == "strong":
+            add(c["ticker"])
+    scraped = uni.setdefault("_scraped", {})
+    for name, url, hour in UNIVERSE_PAGES:
+        if now.hour >= hour and scraped.get(name) != day:
+            n_err = len(sources.ERRORS)
+            html = sources._get(url, expect_json=False, retries=1)
+            del sources.ERRORS[n_err:]  # optional source
+            if html:
+                for t in dict.fromkeys(_HREF.findall(html)):
+                    add(t)
+                scraped[name] = day
+    old = (now - timedelta(days=config.DIGEST_UNIVERSE_DAYS)).date().isoformat()
+    for t in [t for t, d in uni.items() if not t.startswith("_") and d < old]:
+        uni.pop(t)
+    store.save_json("closes_universe.json", uni)
+    return uni
+
+
 def build(store, now, alerts, cand_log):
     day = now.date().isoformat()
     os.makedirs(store.path(DIGEST_DIR), exist_ok=True)
@@ -129,18 +196,17 @@ def build(store, now, alerts, cand_log):
             k = e.split(":")[0][:60] + ": " + e.split(":", 1)[-1][:80] if ":" in e else e[:140]
             errs[k] = errs.get(k, 0) + 1
 
+    uni = update_universe(store, now, alerts, cand_log)
     closes, closes_asof = old.get("closes") or {}, old.get("closes_asof")
-    if now.hour >= config.DIGEST_CLOSES_HOUR_UTC and closes_asof != day:
-        tick = []
-        for a in alerts_today + alerts_recent:
-            if a["ticker"] not in tick:
-                tick.append(a["ticker"])
-        cut = (now - timedelta(days=10)).date().isoformat()
-        for k, v in sorted((cand_log or {}).items(), reverse=True):
-            cap = v.get("cap_m")
-            if k[:10] >= cut and v["ticker"] not in tick and (cap is None or cap <= config.DIGEST_MAX_CAP_M):
-                tick.append(v["ticker"])
-        closes = _closes(tick[:config.DIGEST_CLOSES_MAX_TICKERS], now)
+    if now.hour >= config.DIGEST_CLOSES_HOUR_UTC:
+        # every run after the close fills what is still missing (late alerts, new universe names), within a budget
+        order = ([a["ticker"] for a in alerts_today + alerts_recent]
+                 + sorted((t for t in uni if not t.startswith("_")), key=lambda t: uni[t], reverse=True))
+        todo = []
+        for t in order:
+            if t not in closes and t not in todo:
+                todo.append(t)
+        closes.update(_closes(todo[:config.DIGEST_CLOSES_MAX_TICKERS], now))
         closes_asof = day
 
     dg = {"date": day, "generated_at": now.isoformat(timespec="minutes"),

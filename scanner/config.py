@@ -104,9 +104,18 @@ WEEKLY_MIN_N = 8               # a signal needs this many measured cases to appe
 DIGEST_KEEP_DAYS = 30
 DIGEST_KEEP_RUNLOG_DAYS = 14
 DIGEST_CLOSES_HOUR_UTC = 21    # from this hour (after the 20:00 UTC US close) the day's closes are added, once
-DIGEST_CLOSES_MAX_TICKERS = 150
+DIGEST_CLOSES_MAX_TICKERS = 250 # per run; each run after the close fills what is still missing
+DIGEST_UNIVERSE_DAYS = 16      # a ticker stays in the closes universe this long after it was last relevant
+# One-time seed: names the scheduled scans already track on the dashboard (added once, then they age out)
+TRACK_SEED = (
+    "AAME", "AARD", "ABEO", "AEYE", "AGEN", "AHT", "ARBB", "ARQQ", "ATGL", "BEEM", "BH", "BRAI", "BRUN", "CAPR",
+    "CCCC", "CHGG", "CLRO", "CPIX", "CRMD", "CRMT", "ELPW", "FLNC", "FLWS", "GCDT", "GLND", "GRPN", "HELP", "HPK",
+    "IBTA", "INBX", "IPM", "JACK", "JAGX", "KPTI", "KYTX", "LCID", "LENZ", "MVIS", "NAMM", "NGNE", "NUAI", "OPNW",
+    "PCLA", "PFSA", "PWCM", "SAIQ", "SHFS", "SHMD", "SHOE", "SOC", "SPRC", "SPRY", "SRTM", "STAK", "TANH", "TBCH",
+    "TCRT", "TGL", "TROO", "VNDA", "WHLR", "WOLF", "WORX", "WYFI", "XPOF", "XTIA", "YMAT", "ZNTL", "TCBS", "BOOM",
+    "BBAI", "INOD", "MAX", "BKYI", "CD", "BETR", "EU", "CC", "WTI", "UP", "CIA", "LINK", "GO", "FOR")
 DIGEST_CLOSES_DAYS = 12        # last N daily bars per ticker
-DIGEST_CLOSES_BUDGET_S = 150
+DIGEST_CLOSES_BUDGET_S = 180
 DIGEST_MAX_CAP_M = 2000.0      # closes only for candidates up to this market cap (or unknown)
 
 # ---------- Follow-ups on alerts ----------
