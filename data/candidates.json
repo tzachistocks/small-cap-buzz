@@ -2768,7 +2768,7 @@
   "ts": "2026-10-30T07:07+00:00",
   "ticker": "LOT",
   "score": 4,
-  "max_score": 4,
+  "max_score": 6,
   "price": 0.4102,
   "move_pct": -9.85,
   "cap_m": 274.21,
@@ -2777,7 +2777,9 @@
    "spread",
    "rising",
    "rvol",
-   "relaxed_gate"
+   "relaxed_gate",
+   "accel",
+   "vel3h"
   ],
   "alerted": true,
   "urgent": false,
