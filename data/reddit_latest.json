@@ -1,25 +1,25 @@
 {
- "ts": "2026-10-30T09:07+00:00",
+ "ts": "2026-10-30T10:01+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
   "SI": {
-   "m6": 20,
-   "m24": 20,
-   "authors6": 18,
-   "authors24": 18,
+   "m6": 21,
+   "m24": 21,
+   "authors6": 19,
+   "authors24": 19,
    "subs6": [
     "smallstreetbets"
    ],
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-10-30T03:38+00:00",
+   "first_utc": "2026-10-30T04:11+00:00",
    "sample": ""
   },
   "NRXP": {
-   "m6": 8,
-   "m24": 14,
+   "m6": 5,
+   "m24": 11,
    "authors6": 5,
    "authors24": 5,
    "subs6": [
@@ -105,10 +105,10 @@
    "sample": "r/smallstreetbets: $MVIS Went From $0.16 to $28, Then Came Back AGAIN. 25% Short Interest, Real Revenue, and "
   },
   "EBAY": {
-   "m6": 1,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 2,
+   "m6": 2,
+   "m24": 3,
+   "authors6": 2,
+   "authors24": 3,
    "subs6": [
     "smallstreetbets"
    ],
@@ -147,7 +147,7 @@
    "sample": "r/pennystocks: Again BBAI...lets talk about the Q3"
   },
   "BEAT": {
-   "m6": 2,
+   "m6": 1,
    "m24": 2,
    "authors6": 1,
    "authors24": 1,
@@ -160,7 +160,35 @@
    "first_utc": "2026-10-30T03:58+00:00",
    "sample": ""
   },
-  "RTO": {
+  "MW": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-30T09:57+00:00",
+   "sample": "r/pennystocks: This stock will break out - Duos technologies"
+  },
+  "HITI": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "RobinHoodPennyStocks"
+   ],
+   "subs24": [
+    "RobinHoodPennyStocks"
+   ],
+   "first_utc": "2026-10-30T09:44+00:00",
+   "sample": "r/RobinHoodPennyStocks: HIGH TIDE INC (NASDAQ: HITI) – An International Growth Model That Deserves Greater Attenti"
+  },
+  "LSE": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -174,7 +202,7 @@
    "first_utc": "2026-10-30T07:17+00:00",
    "sample": "r/pennystocks: UK Spac PNPL (Pineapple Power) - Do you consider this high or low risk?"
   },
-  "LSE": {
+  "RTO": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -298,7 +326,7 @@
    "first_utc": "2026-10-29T16:14+00:00",
    "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
   },
-  "INO": {
+  "INBX": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -310,7 +338,7 @@
    "first_utc": "2026-10-29T16:14+00:00",
    "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
   },
-  "INBX": {
+  "ARTL": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -346,7 +374,7 @@
    "first_utc": "2026-10-29T16:14+00:00",
    "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
   },
-  "ARTL": {
+  "INO": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -382,6 +410,18 @@
    "first_utc": "2026-10-29T13:57+00:00",
    "sample": "r/pennystocks: CETX Surges 59% Today After Strong Earnings. More Upside?"
   },
+  "BURU": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T13:22+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
   "IOVA": {
    "m6": 0,
    "m24": 1,
@@ -406,18 +446,6 @@
    "first_utc": "2026-10-29T13:22+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
-  "BURU": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-10-29T13:22+00:00",
-   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
-  },
   "INLF": {
    "m6": 0,
    "m24": 1,
@@ -429,6 +457,18 @@
    ],
    "first_utc": "2026-10-29T13:22+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "GLP": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-29T10:54+00:00",
+   "sample": "r/pennystocks: $VNDA reported positive numbers yesterday"
   },
   "VNDA": {
    "m6": 0,
@@ -454,17 +494,19 @@
    "first_utc": "2026-10-29T10:54+00:00",
    "sample": "r/pennystocks: $VNDA reported positive numbers yesterday"
   },
-  "GLP": {
-   "m6": 0,
+  "CVS": {
+   "m6": 1,
    "m24": 1,
-   "authors6": 0,
+   "authors6": 1,
    "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
+   "subs6": [
+    "smallstreetbets"
    ],
-   "first_utc": "2026-10-29T10:54+00:00",
-   "sample": "r/pennystocks: $VNDA reported positive numbers yesterday"
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-30T09:33+00:00",
+   "sample": ""
   },
   "AGI": {
    "m6": 1,
@@ -509,31 +551,15 @@
    "sample": ""
   },
   "MBOT": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
    "first_utc": "2026-10-30T03:55+00:00",
-   "sample": ""
-  },
-  "HTZ": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "Shortsqueeze"
-   ],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-10-30T03:50+00:00",
    "sample": ""
   }
  },

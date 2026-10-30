@@ -1,31 +1,31 @@
 {
  "date": "2026-10-30",
- "generated_at": "2026-10-30T09:07+00:00",
+ "generated_at": "2026-10-30T10:01+00:00",
  "final": false,
  "runs": {
-  "count": 3,
+  "count": 4,
   "first": "2026-10-30T07:07+00:00",
-  "last": "2026-10-30T09:07+00:00",
+  "last": "2026-10-30T10:01+00:00",
   "funnel_total": {
-   "buzz_tickers": 826,
-   "mention_gate": 86,
-   "reddit_path": 2,
+   "buzz_tickers": 1101,
+   "mention_gate": 115,
+   "reddit_path": 3,
    "telegram_path": 0,
-   "news_path": 3,
-   "skipped_large_cache": 153,
-   "shadow_gate": 92,
-   "to_check": 30,
-   "checked": 30,
+   "news_path": 4,
+   "skipped_large_cache": 206,
+   "shadow_gate": 122,
+   "to_check": 38,
+   "checked": 38,
    "not_checked_time": 0,
    "blocked": {
-    "כבר": 5,
-    "שווי": 9,
-    "אין": 3,
-    "איחוד": 3
+    "כבר": 6,
+    "שווי": 10,
+    "אין": 4,
+    "איחוד": 4
    },
-   "below_score": 6,
-   "cooldown": 3,
-   "shadow_would_alert": 5,
+   "below_score": 8,
+   "cooldown": 5,
+   "shadow_would_alert": 7,
    "sent": 2,
    "send_failed": 0
   },
@@ -33,7 +33,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 629
+   "messages": 628
   },
   "per_run": [
    {
@@ -54,6 +54,13 @@
     "ts": "2026-10-30T09:07+00:00",
     "checked": 8,
     "sent": 1,
+    "send_failed": 0,
+    "errors_n": 4
+   },
+   {
+    "ts": "2026-10-30T10:01+00:00",
+    "checked": 8,
+    "sent": 0,
     "send_failed": 0,
     "errors_n": 4
    }
@@ -2741,8 +2748,8 @@
  "social_today": {
   "reddit_top": {
    "SI": {
-    "m24_max": 20,
-    "authors24_max": 18,
+    "m24_max": 21,
+    "authors24_max": 19,
     "subs": [
      "smallstreetbets"
     ],
@@ -2799,6 +2806,15 @@
     "first_utc": "2026-10-30T02:33+00:00",
     "sample": "r/smallstreetbets: $MVIS Went From $0.16 to $28, Then Came Back AGAIN. 25% Short Interest, Real Revenue, and "
    },
+   "EBAY": {
+    "m24_max": 3,
+    "authors24_max": 3,
+    "subs": [
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-29T21:03+00:00",
+    "sample": "r/smallstreetbets: EBAY has outperformed AMZN, GOOG, MSFT and META over the past year"
+   },
    "UK": {
     "m24_max": 3,
     "authors24_max": 3,
@@ -2816,15 +2832,6 @@
     ],
     "first_utc": "2026-10-30T02:37+00:00",
     "sample": "r/smallstreetbets: FTNT puts"
-   },
-   "EBAY": {
-    "m24_max": 2,
-    "authors24_max": 2,
-    "subs": [
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-10-29T21:03+00:00",
-    "sample": "r/smallstreetbets: EBAY has outperformed AMZN, GOOG, MSFT and META over the past year"
    },
    "HPQ": {
     "m24_max": 2,
@@ -3343,10 +3350,10 @@
   }
  },
  "errors_today": {
-  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/TTM": 3,
-  "HTTP 404 https: //finviz.com/quote.ashx?t=TTM&p=d": 3,
-  "HTTP 404 https: //stockanalysis.com/stocks/ttm/statistics/": 3,
-  "no fundamentals for TTM": 3
+  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/TTM": 4,
+  "HTTP 404 https: //finviz.com/quote.ashx?t=TTM&p=d": 4,
+  "HTTP 404 https: //stockanalysis.com/stocks/ttm/statistics/": 4,
+  "no fundamentals for TTM": 4
  },
  "closes_asof": null,
  "closes": {}

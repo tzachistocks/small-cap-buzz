@@ -6,42 +6,6 @@
   "ts": "2026-10-27T10:05+00:00"
  },
  {
-  "ticker": "MRP",
-  "title": "INVESTOR ALERT: Millrose Properties, Inc. Investors with Substantial Losses May Seek to Lead Class Action Lawsuit Before December 8, 2026 Deadline - MRP",
-  "src": "PR Newswire",
-  "ts": "2026-10-27T10:00+00:00"
- },
- {
-  "ticker": "PII",
-  "title": "Polaris Inc. Third Quarter 2026 Financial Results Available on Company's Website",
-  "src": "PR Newswire",
-  "ts": "2026-10-27T10:00+00:00"
- },
- {
-  "ticker": "DQ",
-  "title": "Daqo New Energy Announces Unaudited Third Quarter 2026 Financial Results",
-  "src": "PR Newswire",
-  "ts": "2026-10-27T10:00+00:00"
- },
- {
-  "ticker": "ARCC",
-  "title": "ARES CAPITAL CORPORATION ANNOUNCES SEPTEMBER 30, 2026 FINANCIAL RESULTS AND DECLARES FOURTH QUARTER 2026 DIVIDEND OF $0.48 PER SHARE DIVIDEND DECLARATIONS",
-  "src": "PR Newswire",
-  "ts": "2026-10-27T10:00+00:00"
- },
- {
-  "ticker": "HUYA",
-  "title": "HUYA Inc. to Report Third Quarter 2026 Financial Results on Tuesday, November 17, 2026",
-  "src": "PR Newswire",
-  "ts": "2026-10-27T10:00+00:00"
- },
- {
-  "ticker": "HYMC",
-  "title": "Hycroft Reports Q3 2026 Results and Maintains Strong Balance Sheet",
-  "src": "PR Newswire",
-  "ts": "2026-10-27T10:00+00:00"
- },
- {
   "ticker": "TZOO",
   "title": "Travelzoo Reports Third Quarter 2026 Results",
   "src": "PR Newswire",
@@ -874,5 +838,11 @@
   "title": "New clinical data on lecanemab to be presented at CTAD conference 2026",
   "src": "PR Newswire",
   "ts": "2026-10-30T07:20+00:00"
+ },
+ {
+  "ticker": "IDYA",
+  "title": "IDEAYA Biosciences Announces Inducement Grants under Nasdaq Listing Rule 5635(c)(4)",
+  "src": "PR Newswire",
+  "ts": "2026-10-30T10:00+00:00"
  }
 ]
