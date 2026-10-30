@@ -159,5 +159,12 @@
   "asia": null,
   "sic": "Services-Prepackaged Software",
   "ts": "2026-10-30T16:09+00:00"
+ },
+ "ABOS": {
+  "country": "MA",
+  "inc": "DE",
+  "asia": null,
+  "sic": "Biological Products, (No Diagnostic Substances)",
+  "ts": "2026-10-30T21:08+00:00"
  }
 }

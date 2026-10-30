@@ -2717,7 +2717,8 @@
    "rvol",
    "rising",
    "relaxed_gate",
-   "one_author"
+   "one_author",
+   "telegram_weak"
   ],
   "alerted": true,
   "urgent": true,
@@ -3128,6 +3129,32 @@
    "accel",
    "rvol",
    "xueqiu"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-30|ABOS": {
+  "ts": "2026-10-30T21:07+00:00",
+  "ticker": "ABOS",
+  "score": 4,
+  "max_score": 4,
+  "price": 0.2365,
+  "move_pct": -89.67,
+  "cap_m": 15.2,
+  "blocked": [
+   "דיווח הנפקה: EFFECT 2026-10-28, S-3 2026-10-26"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "spread",
+   "novel",
+   "telegram_weak",
+   "st_msgs",
+   "rvol",
+   "sec_weak",
+   "pr_negative"
   ],
   "alerted": false,
   "urgent": false,

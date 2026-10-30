@@ -3634,6 +3634,7 @@
    "m24_max": 2,
    "authors24_max": 2,
    "subs": [
+    "Shortsqueeze",
     "pennystocks"
    ],
    "first_utc": "2026-10-29T16:14+00:00",
@@ -3912,7 +3913,7 @@
    "sample": "r/smallstreetbets: Reddit Joins the Dump Dudes"
   },
   "ABOS": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "subs": [
     "pennystocks"
@@ -4346,6 +4347,22 @@
     "Shortsqueeze"
    ],
    "first_utc": "2026-10-30T19:15+00:00"
+  },
+  "AIOK": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-30T20:31+00:00"
+  },
+  "JOBY": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-30T20:31+00:00"
   }
  }
 }
