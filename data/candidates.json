@@ -2697,7 +2697,7 @@
   "ts": "2026-10-30T07:07+00:00",
   "ticker": "NRXP",
   "score": 7,
-  "max_score": 9,
+  "max_score": 12,
   "price": 3.3613,
   "move_pct": 24.96,
   "cap_m": 115.17,
@@ -2712,7 +2712,9 @@
    "low_float",
    "st_msgs",
    "pr_weak",
-   "pr_strong"
+   "pr_strong",
+   "vel3h",
+   "rvol"
   ],
   "alerted": true,
   "urgent": true,
@@ -2950,7 +2952,7 @@
   "ts": "2026-10-30T13:07+00:00",
   "ticker": "GYGY",
   "score": 6,
-  "max_score": 6,
+  "max_score": 10,
   "price": 0.39,
   "move_pct": 6.82,
   "cap_m": 5.58,
@@ -2966,7 +2968,27 @@
    "low_float",
    "borrow_fee",
    "short",
-   "sec_negative"
+   "sec_negative",
+   "rising",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-30|LINK": {
+  "ts": "2026-10-30T14:07+00:00",
+  "ticker": "LINK",
+  "score": 3,
+  "max_score": 3,
+  "price": 3.98,
+  "move_pct": -2.69,
+  "cap_m": 64.11,
+  "blocked": [],
+  "tags": [
+   "relaxed_gate",
+   "spread",
+   "low_float"
   ],
   "alerted": false,
   "urgent": false,

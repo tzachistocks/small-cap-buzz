@@ -382,9 +382,9 @@
   "urgent_why": [],
   "telegram_sent": true,
   "outcome": {
-   "days": 2,
-   "last_close": 4.090000152587891,
-   "last_pct": -1.2,
+   "days": 3,
+   "last_close": 3.9800000190734863,
+   "last_pct": -3.9,
    "max_close_pct": -0.0,
    "max_high_pct": 4.6,
    "d1_pct": -0.0
@@ -482,9 +482,9 @@
   "urgent_why": [],
   "telegram_sent": true,
   "outcome": {
-   "days": 2,
-   "last_close": 4.690000057220459,
-   "last_pct": 8.1,
+   "days": 3,
+   "last_close": 4.670000076293945,
+   "last_pct": 7.7,
    "max_close_pct": 8.1,
    "max_high_pct": 13.0,
    "d1_pct": 4.2
@@ -601,11 +601,11 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 1,
-   "last_close": 2.6600000858306885,
-   "last_pct": -1.1,
+   "days": 2,
+   "last_close": 2.1298999786376953,
+   "last_pct": -20.8,
    "max_close_pct": -1.1,
-   "max_high_pct": 3.1,
+   "max_high_pct": 5.2,
    "d1_pct": -1.1
   },
   "followups": {
@@ -726,9 +726,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 1,
-   "last_close": 4.690000057220459,
-   "last_pct": -1.0,
+   "days": 2,
+   "last_close": 4.670000076293945,
+   "last_pct": -1.4,
    "max_close_pct": -1.0,
    "max_high_pct": 3.5,
    "d1_pct": -1.0
@@ -856,9 +856,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 1,
-   "last_close": 1.2799999713897705,
-   "last_pct": -7.9,
+   "days": 2,
+   "last_close": 1.2350000143051147,
+   "last_pct": -11.2,
    "max_close_pct": -7.9,
    "max_high_pct": 2.9,
    "d1_pct": -7.9
@@ -1084,7 +1084,14 @@
   "urgent_why": [],
   "path": "buzz",
   "telegram_sent": true,
-  "outcome": {},
+  "outcome": {
+   "days": 1,
+   "last_close": 0.38999998569488525,
+   "last_pct": -4.9,
+   "max_close_pct": -4.9,
+   "max_high_pct": -0.0,
+   "d1_pct": -4.9
+  },
   "followups": {}
  },
  {
@@ -1208,7 +1215,157 @@
   "urgent_why": [],
   "path": "reddit",
   "telegram_sent": true,
-  "outcome": {},
+  "outcome": {
+   "days": 1,
+   "last_close": 2.1298999786376953,
+   "last_pct": -26.0,
+   "max_close_pct": -26.0,
+   "max_high_pct": -1.7,
+   "d1_pct": -26.0
+  },
   "followups": {}
+ },
+ {
+  "id": "202610301407-NRXP",
+  "ts": "2026-10-30T14:07+00:00",
+  "ticker": "NRXP",
+  "score": 12,
+  "why": [
+   "האצה x5.0 מול הבסיס",
+   "+3 אזכורים ב-3 שעות",
+   "פיזור ב-3 פורומים",
+   "11 כותבים שונים ברדיט ב-6 שעות",
+   "30 הודעות בסטוקטוויטס ב-6 שעות",
+   "שורט 26%",
+   "פלואט 38.3M",
+   "נפח פי 12.7 מהממוצע",
+   "PR חזק (07:00 ET 30/10): NRx Pharmaceuticals (Nasdaq:NRXP) Receives FDA Approval of Preservativ"
+  ],
+  "price": {
+   "price": 2.1301,
+   "prev_close": 2.66,
+   "move_pct": -19.92,
+   "vol_today": 9631954,
+   "avg_vol20": 759045,
+   "rel_vol": 12.69,
+   "exchange": "NCM",
+   "name": "NRx Pharmaceuticals, Inc.",
+   "readiness": {
+    "points": 0,
+    "why": [],
+    "risk": [],
+    "asof": "2026-10-29",
+    "f": {
+     "rvol_1": 1.5021,
+     "atr_ratio": 1.0382,
+     "drawdown_60": -0.359,
+     "vol20": 0.0344,
+     "prior_runs_120": 1.0,
+     "ret_1d": -0.0112,
+     "ret_3d": 0.0431,
+     "ret_10d": -0.0185,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.8941
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 92.44,
+   "float_m": 38.26,
+   "short_float_pct": 26.01,
+   "days_to_cover": 11.22,
+   "src": "finviz"
+  },
+  "m_now": 8,
+  "m_24h_ago": 5,
+  "spread": [
+   "pennystocks"
+  ],
+  "reddit": {
+   "m6": 22,
+   "m24": 28,
+   "authors6": 11,
+   "authors24": 11,
+   "subs6": [
+    "Shortsqueeze",
+    "pennystocks"
+   ],
+   "subs24": [
+    "Shortsqueeze",
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T20:35+00:00",
+   "sample": "r/smallstreetbets: NRx Pharmaceuticals (NRXP): The KETAFREE ANDA \"WAS\" in fact APPROVED by the FDA!! <MODS, p"
+  },
+  "stocktwits": {
+   "msgs_6h": 30,
+   "users": 24,
+   "bull": 5,
+   "bear": 2,
+   "oldest_min": 24,
+   "watchlist": 13660
+  },
+  "borrow": {
+   "fee": 6.5142,
+   "available": 60000,
+   "fee_5d": null,
+   "available_5d": null
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": {
+   "m6": 2,
+   "m24": 2,
+   "authors6": 2,
+   "authors24": 2,
+   "chats6": 2,
+   "chats24": 2,
+   "first_utc": "2026-10-30T13:07+00:00"
+  },
+  "profile": {
+   "country": "DE",
+   "inc": "DE",
+   "asia": null,
+   "sic": "Pharmaceutical Preparations",
+   "ts": "2026-10-29T07:09+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [],
+   "filings": [],
+   "rsplit": null,
+   "cik": 1719406
+  },
+  "forum": {
+   "rising": null,
+   "novel": false
+  },
+  "invalidation": 1.8106,
+  "news": {
+   "ticker": "NRXP",
+   "title": "NRx Pharmaceuticals (Nasdaq:NRXP) Receives FDA Approval of Preservative-Free Ketamine Ahead of November 10 FDA Goal Date",
+   "src": "Yahoo",
+   "ts": "2026-10-30T11:00+00:00",
+   "class": "strong",
+   "rule": "FDA Approv",
+   "offering": false,
+   "amount_m": null
+  },
+  "urgent": true,
+  "urgent_why": [
+   "מתפשטת ב-3 פורומים",
+   "שורט 26%"
+  ],
+  "path": "reddit",
+  "telegram_sent": true,
+  "outcome": {
+   "days": 1,
+   "last_close": 2.1298999786376953,
+   "last_pct": -0.0,
+   "max_close_pct": -0.0,
+   "max_high_pct": 32.9,
+   "d1_pct": -0.0
+  }
  }
 ]
