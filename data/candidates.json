@@ -2903,5 +2903,23 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-10-30|IQ": {
+  "ts": "2026-10-30T11:07+00:00",
+  "ticker": "IQ",
+  "score": 3,
+  "max_score": 3,
+  "price": 0.8211,
+  "move_pct": -1.52,
+  "cap_m": 435.66,
+  "blocked": [],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "spread"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }

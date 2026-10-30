@@ -3829,8 +3829,8 @@
    "first_utc": "2026-10-30T08:29+00:00"
   },
   "MW": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],
@@ -3853,6 +3853,15 @@
     "smallstreetbets"
    ],
    "first_utc": "2026-10-30T09:33+00:00"
+  },
+  "BP": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-30T10:33+00:00",
+   "sample": "r/smallstreetbets: Keep getting blown up on AI, or just buy oil"
   }
  }
 }

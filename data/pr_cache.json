@@ -1,35 +1,5 @@
 [
  {
-  "ticker": "TZOO",
-  "title": "Travelzoo Reports Third Quarter 2026 Results",
-  "src": "PR Newswire",
-  "ts": "2026-10-27T11:01+00:00"
- },
- {
-  "ticker": "GLXY",
-  "title": "Galaxy Announces Third Quarter 2026 Financial Results",
-  "src": "PR Newswire",
-  "ts": "2026-10-27T11:00+00:00"
- },
- {
-  "ticker": "EU",
-  "title": "enCore Energy Reaches Final Stage of Permitting at Upper Spring Creek; Alta Mesa PAA-8 and PAA-3 Extension Remain on Schedule",
-  "src": "PR Newswire",
-  "ts": "2026-10-27T11:00+00:00"
- },
- {
-  "ticker": "PYPL",
-  "title": "PayPal Reports Third Quarter 2026 Results",
-  "src": "PR Newswire",
-  "ts": "2026-10-27T11:00+00:00"
- },
- {
-  "ticker": "CURLF",
-  "title": "Curaleaf Responds to Alberta Securities Commission Decision",
-  "src": "PR Newswire",
-  "ts": "2026-10-27T11:00+00:00"
- },
- {
   "ticker": "QUIK",
   "title": "QuickLogic to Report Third Quarter 2026 Financial Results on Tuesday, November 10 and Participate in Upcoming Investor Conferences",
   "src": "PR Newswire",
@@ -838,5 +808,53 @@
   "title": "IDEAYA Biosciences Announces Inducement Grants under Nasdaq Listing Rule 5635(c)(4)",
   "src": "PR Newswire",
   "ts": "2026-10-30T10:00+00:00"
+ },
+ {
+  "ticker": "CZFS",
+  "title": "CITIZENS FINANCIAL SERVICES, INC. REPORTS UNAUDITED THIRD QUARTER 2026 FINANCIAL RESULTS",
+  "src": "PR Newswire",
+  "ts": "2026-10-30T11:05+00:00"
+ },
+ {
+  "ticker": "JKS",
+  "title": "Jinko Holdings Announces Third Quarter 2026 Financial Results",
+  "src": "PR Newswire",
+  "ts": "2026-10-30T11:03+00:00"
+ },
+ {
+  "ticker": "TUSK",
+  "title": "Mammoth Energy Services, Inc. Announces $58 Million Aviation Term Loan Facility with Bank7",
+  "src": "PR Newswire",
+  "ts": "2026-10-30T11:01+00:00"
+ },
+ {
+  "ticker": "GD",
+  "title": "General Dynamics Reports Third-Quarter 2026 Financial Results",
+  "src": "PR Newswire",
+  "ts": "2026-10-30T11:00+00:00"
+ },
+ {
+  "ticker": "LEA",
+  "title": "Lear Reports Third Quarter 2026 Results; Year-Over-Year Growth in Revenue, Core Operating Earnings, Net Income and Earnings per Share",
+  "src": "PR Newswire",
+  "ts": "2026-10-30T11:00+00:00"
+ },
+ {
+  "ticker": "MHH",
+  "title": "Mastech Reports Third Quarter 2026 Results",
+  "src": "PR Newswire",
+  "ts": "2026-10-30T11:00+00:00"
+ },
+ {
+  "ticker": "ECX",
+  "title": "ECARX Announces Settlement in Full of Senior Convertible Note at Maturity",
+  "src": "PR Newswire",
+  "ts": "2026-10-30T11:00+00:00"
+ },
+ {
+  "ticker": "AAON",
+  "title": "The Aaon Group Announces Third Quarter 2026 Conference Call and Webcast",
+  "src": "PR Newswire",
+  "ts": "2026-10-30T11:00+00:00"
  }
 ]
