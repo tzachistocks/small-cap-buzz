@@ -2697,7 +2697,7 @@
   "ts": "2026-10-30T07:07+00:00",
   "ticker": "NRXP",
   "score": 7,
-  "max_score": 8,
+  "max_score": 9,
   "price": 3.3613,
   "move_pct": 24.96,
   "cap_m": 115.17,
@@ -2711,10 +2711,11 @@
    "short",
    "low_float",
    "st_msgs",
-   "pr_weak"
+   "pr_weak",
+   "pr_strong"
   ],
   "alerted": true,
-  "urgent": false,
+  "urgent": true,
   "outcome": {}
  },
  "2026-10-30|EDIT": {
@@ -2866,7 +2867,7 @@
   "ts": "2026-10-30T07:07+00:00",
   "ticker": "BYND",
   "score": 4,
-  "max_score": 4,
+  "max_score": 5,
   "price": 7.3101,
   "move_pct": 2.53,
   "cap_m": 134.99,
@@ -2877,7 +2878,8 @@
    "short",
    "low_float",
    "borrow_fee",
-   "pr_weak"
+   "pr_weak",
+   "st_msgs"
   ],
   "alerted": false,
   "urgent": false,
@@ -2917,6 +2919,54 @@
    "relaxed_gate",
    "accel",
    "spread"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-30|GILD": {
+  "ts": "2026-10-30T13:07+00:00",
+  "ticker": "GILD",
+  "score": 4,
+  "max_score": 4,
+  "price": 173.49,
+  "move_pct": 8.98,
+  "cap_m": 215010.0,
+  "blocked": [
+   "שווי $215010M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "spread",
+   "rising",
+   "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-30|GYGY": {
+  "ts": "2026-10-30T13:07+00:00",
+  "ticker": "GYGY",
+  "score": 6,
+  "max_score": 6,
+  "price": 0.39,
+  "move_pct": 6.82,
+  "cap_m": 5.58,
+  "blocked": [
+   "דיווח הנפקה: 424B3 2026-10-26, 424B3 2026-10-26"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "spread",
+   "st_msgs",
+   "low_float",
+   "borrow_fee",
+   "short",
+   "sec_negative"
   ],
   "alerted": false,
   "urgent": false,

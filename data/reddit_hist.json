@@ -3452,8 +3452,8 @@
    "first_utc": "2026-10-30T03:06+00:00"
   },
   "NRXP": {
-   "m24_max": 14,
-   "authors24_max": 6,
+   "m24_max": 15,
+   "authors24_max": 8,
    "subs": [
     "Shortsqueeze",
     "pennystocks",
@@ -3574,9 +3574,10 @@
    "sample": "r/smallstreetbets: $MVIS Went From $0.16 to $28, Then Came Back AGAIN. 25% Short Interest, Real Revenue, and "
   },
   "WKHS": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
+    "pennystocks",
     "smallstreetbets"
    ],
    "first_utc": "2026-10-29T22:43+00:00",
@@ -3592,17 +3593,18 @@
    "sample": "r/smallstreetbets: Intel doing the after hours dump post Q3 earnings"
   },
   "ANTX": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "subs": [
+    "pennystocks",
     "smallstreetbets"
    ],
    "first_utc": "2026-10-29T16:53+00:00",
    "sample": "r/smallstreetbets: ANTX 🚀"
   },
   "VPRB": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],
@@ -3682,8 +3684,8 @@
    "sample": "r/pennystocks: CETX Surges 59% Today After Strong Earnings. More Upside?"
   },
   "BURU": {
-   "m24_max": 2,
-   "authors24_max": 2,
+   "m24_max": 3,
+   "authors24_max": 3,
    "subs": [
     "pennystocks",
     "smallstreetbets"
@@ -3880,7 +3882,7 @@
    "first_utc": "2026-10-30T11:37+00:00"
   },
   "GYGY": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "subs": [
     "pennystocks"
@@ -3894,6 +3896,46 @@
     "pennystocks"
    ],
    "first_utc": "2026-10-30T11:14+00:00"
+  },
+  "RDDT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-30T12:51+00:00"
+  },
+  "ABOS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-30T12:51+00:00"
+  },
+  "GL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-30T12:50+00:00"
+  },
+  "SR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-30T12:41+00:00"
+  },
+  "DAVI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-30T12:18+00:00"
   }
  }
 }

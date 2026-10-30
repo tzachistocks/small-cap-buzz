@@ -1,17 +1,5 @@
 [
  {
-  "ticker": "SYRA",
-  "title": "Syra Health To Announce Third Quarter 2026 Financial Results",
-  "src": "PR Newswire",
-  "ts": "2026-10-27T13:06+00:00"
- },
- {
-  "ticker": "DFIN",
-  "title": "DFIN Announces Venue® MCP Connector, Bringing Secure AI Access to High-Stakes Deal Workflows",
-  "src": "PR Newswire",
-  "ts": "2026-10-27T13:05+00:00"
- },
- {
   "ticker": "SNOW",
   "title": "Oracle Expands Native AI and Data Services on OCI with Snowflake",
   "src": "PR Newswire",
@@ -868,5 +856,23 @@
   "title": "Quarterhill Announces Repayment of Convertible Debentures",
   "src": "PR Newswire",
   "ts": "2026-10-30T12:00+00:00"
+ },
+ {
+  "ticker": "APPS",
+  "title": "Digital Turbine Reschedules Fiscal 2027 Second Quarter Financial Results Conference Call to November 9, 2026, at 4:30pm ET",
+  "src": "PR Newswire",
+  "ts": "2026-10-30T13:00+00:00"
+ },
+ {
+  "ticker": "GIGM",
+  "title": "GigaMedia Announces Third-Quarter 2026 Financial Results",
+  "src": "PR Newswire",
+  "ts": "2026-10-30T13:00+00:00"
+ },
+ {
+  "ticker": "AVNW",
+  "title": "Aviat Networks Sets Date for Its Fiscal 2027 First Quarter Financial Results Conference Call and Announces Participation in Upcoming Investor Conferences",
+  "src": "PR Newswire",
+  "ts": "2026-10-30T13:00+00:00"
  }
 ]
