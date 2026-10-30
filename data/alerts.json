@@ -483,8 +483,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 3,
-   "last_close": 4.320000171661377,
-   "last_pct": -0.4,
+   "last_close": 4.364999771118164,
+   "last_pct": 0.6,
    "max_close_pct": 8.1,
    "max_high_pct": 13.0,
    "d1_pct": 4.2
@@ -602,8 +602,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 2.2597999572753906,
-   "last_pct": -16.0,
+   "last_close": 2.25,
+   "last_pct": -16.4,
    "max_close_pct": -1.1,
    "max_high_pct": 5.2,
    "d1_pct": -1.1
@@ -727,8 +727,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 4.320000171661377,
-   "last_pct": -8.8,
+   "last_close": 4.364999771118164,
+   "last_pct": -7.8,
    "max_close_pct": -1.0,
    "max_high_pct": 3.5,
    "d1_pct": -1.0
@@ -859,8 +859,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 1.197700023651123,
-   "last_pct": -13.8,
+   "last_close": 1.2300000190734863,
+   "last_pct": -11.5,
    "max_close_pct": -7.9,
    "max_high_pct": 2.9,
    "d1_pct": -7.9
@@ -1088,11 +1088,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 0.39899998903274536,
-   "last_pct": -2.7,
-   "max_close_pct": -2.7,
+   "last_close": 0.38850000500679016,
+   "last_pct": -5.3,
+   "max_close_pct": -5.3,
    "max_high_pct": -0.0,
-   "d1_pct": -2.7
+   "d1_pct": -5.3
   },
   "followups": {}
  },
@@ -1219,11 +1219,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 2.2597999572753906,
-   "last_pct": -21.5,
-   "max_close_pct": -21.5,
+   "last_close": 2.25,
+   "last_pct": -21.9,
+   "max_close_pct": -21.9,
    "max_high_pct": -1.7,
-   "d1_pct": -21.5
+   "d1_pct": -21.9
   },
   "followups": {}
  },
@@ -1363,11 +1363,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 2.2597999572753906,
-   "last_pct": 6.1,
-   "max_close_pct": 6.1,
+   "last_close": 2.25,
+   "last_pct": 5.6,
+   "max_close_pct": 5.6,
    "max_high_pct": 32.9,
-   "d1_pct": 6.1
+   "d1_pct": 5.6
   },
   "followups": {}
  }

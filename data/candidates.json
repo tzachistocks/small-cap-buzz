@@ -2716,7 +2716,8 @@
    "vel3h",
    "rvol",
    "rising",
-   "relaxed_gate"
+   "relaxed_gate",
+   "one_author"
   ],
   "alerted": true,
   "urgent": true,
@@ -2915,7 +2916,7 @@
   "ts": "2026-10-30T11:07+00:00",
   "ticker": "IQ",
   "score": 3,
-  "max_score": 3,
+  "max_score": 5,
   "price": 0.8211,
   "move_pct": -1.52,
   "cap_m": 435.66,
@@ -2923,7 +2924,9 @@
   "tags": [
    "relaxed_gate",
    "accel",
-   "spread"
+   "spread",
+   "vel3h",
+   "rising"
   ],
   "alerted": false,
   "urgent": false,
@@ -3081,6 +3084,48 @@
    "accel",
    "vel3h",
    "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-30|CAN": {
+  "ts": "2026-10-30T19:07+00:00",
+  "ticker": "CAN",
+  "score": 3,
+  "max_score": 3,
+  "price": 0.193,
+  "move_pct": -13.88,
+  "cap_m": 136.61,
+  "blocked": [],
+  "tags": [
+   "accel",
+   "vel3h",
+   "rising",
+   "st_msgs",
+   "word",
+   "asia"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-30|QCOM": {
+  "ts": "2026-10-30T19:07+00:00",
+  "ticker": "QCOM",
+  "score": 3,
+  "max_score": 3,
+  "price": 162.51,
+  "move_pct": -12.35,
+  "cap_m": 173900.0,
+  "blocked": [
+   "שווי $173900M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "rvol",
+   "xueqiu"
   ],
   "alerted": false,
   "urgent": false,

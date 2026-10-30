@@ -4306,6 +4306,22 @@
    ],
    "first_utc": "2026-10-30T17:19+00:00",
    "sample": "r/smallstreetbets: SNDK puts paid off big. Took home over $70K!"
+  },
+  "SGRX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-30T18:42+00:00"
+  },
+  "BBLG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-30T18:14+00:00"
   }
  }
 }

@@ -1,17 +1,5 @@
 [
  {
-  "ticker": "MPWR",
-  "title": "Rosen Law Firm Announces Investigation of Breaches of Fiduciary Duties by the Directors and Officers of Monolithic Power Systems, Inc. - MPWR",
-  "src": "PR Newswire",
-  "ts": "2026-10-27T19:03+00:00"
- },
- {
-  "ticker": "CFFN",
-  "title": "CAPITOL FEDERAL FINANCIAL, INC.® ANNOUNCES QUARTERLY DIVIDEND AND STOCK BUYBACK UPDATE",
-  "src": "PR Newswire",
-  "ts": "2026-10-27T18:54+00:00"
- },
- {
   "ticker": "WPC",
   "title": "W. P. Carey Announces Third Quarter 2026 Financial Results",
   "src": "PR Newswire",
@@ -946,5 +934,11 @@
   "title": "LINC SHAREHOLDER NOTICE: Lincoln Educational Services Corp. Investors with Substantial Losses Have Opportunity to Lead the LINC Securities Class Action",
   "src": "PR Newswire",
   "ts": "2026-10-30T17:48+00:00"
+ },
+ {
+  "ticker": "YRD",
+  "title": "YRD Investors Have Opportunity to Lead Yiren Digital Ltd. Securities Fraud Lawsuit Filed by The Rosen Law Firm",
+  "src": "PR Newswire",
+  "ts": "2026-10-30T18:14+00:00"
  }
 ]
