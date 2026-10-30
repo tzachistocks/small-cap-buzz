@@ -2607,13 +2607,13 @@
    "first_utc": "2026-10-30T07:07+00:00"
   },
   "NET": {
-   "m24_max": 7,
+   "m24_max": 10,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-29T20:05+00:00"
   },
   "GABC": {
-   "m24_max": 7,
+   "m24_max": 13,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-29T15:04+00:00"
@@ -2637,13 +2637,13 @@
    "first_utc": "2026-10-30T05:35+00:00"
   },
   "SPCE": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-30T05:07+00:00"
   },
   "FT": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-30T05:07+00:00"
@@ -3045,7 +3045,7 @@
    "first_utc": "2026-10-29T19:47+00:00"
   },
   "SA": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-29T19:47+00:00"
@@ -3657,7 +3657,7 @@
    "first_utc": "2026-10-29T13:18+00:00"
   },
   "OI": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-29T13:20+00:00"
@@ -3729,7 +3729,7 @@
    "first_utc": "2026-10-29T12:08+00:00"
   },
   "MA": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-29T12:04+00:00"
@@ -4243,6 +4243,30 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-30T07:33+00:00"
+  },
+  "VS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-30T09:01+00:00"
+  },
+  "CCB": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-30T08:48+00:00"
+  },
+  "WAVE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-30T08:13+00:00"
+  },
+  "TRIP": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-30T08:09+00:00"
   }
  }
 }

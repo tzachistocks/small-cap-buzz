@@ -1086,5 +1086,128 @@
   "telegram_sent": true,
   "outcome": {},
   "followups": {}
+ },
+ {
+  "id": "202610300907-NRXP",
+  "ts": "2026-10-30T09:07+00:00",
+  "ticker": "NRXP",
+  "score": 8,
+  "why": [
+   "האצה x3.5 מול הבסיס",
+   "פיזור ב-3 פורומים",
+   "5 כותבים שונים ברדיט ב-6 שעות",
+   "30 הודעות בסטוקטוויטס ב-6 שעות",
+   "שורט 26%",
+   "פלואט 38.3M",
+   "PR רגיל (16:00 ET 29/10): NRx Pharmaceuticals (Nasdaq: NRXP) to Host Conference Call on October "
+  ],
+  "price": {
+   "price": 2.88,
+   "prev_close": 2.69,
+   "move_pct": 7.06,
+   "vol_today": 992000,
+   "avg_vol20": 740385,
+   "rel_vol": 1.34,
+   "exchange": "NCM",
+   "name": "NRx Pharmaceuticals, Inc.",
+   "readiness": {
+    "points": 0,
+    "why": [],
+    "risk": [],
+    "asof": "2026-10-29",
+    "f": {
+     "rvol_1": 1.5021,
+     "atr_ratio": 1.0382,
+     "drawdown_60": -0.359,
+     "vol20": 0.0344,
+     "prior_runs_120": 1.0,
+     "ret_1d": -0.0112,
+     "ret_3d": 0.0431,
+     "ret_10d": -0.0185,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.8941
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 124.37,
+   "float_m": 38.26,
+   "short_float_pct": 26.01,
+   "days_to_cover": 11.22,
+   "src": "finviz"
+  },
+  "m_now": 5,
+  "m_24h_ago": 4,
+  "spread": [
+   "pennystocks"
+  ],
+  "reddit": {
+   "m6": 8,
+   "m24": 14,
+   "authors6": 5,
+   "authors24": 5,
+   "subs6": [
+    "Shortsqueeze",
+    "pennystocks"
+   ],
+   "subs24": [
+    "Shortsqueeze",
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-29T20:35+00:00",
+   "sample": "r/smallstreetbets: NRx Pharmaceuticals (NRXP): The KETAFREE ANDA \"WAS\" in fact APPROVED by the FDA!! <MODS, p"
+  },
+  "stocktwits": {
+   "msgs_6h": 30,
+   "users": 19,
+   "bull": 14,
+   "bear": 2,
+   "oldest_min": 332,
+   "watchlist": 13590
+  },
+  "borrow": {
+   "fee": 5.6445,
+   "available": 2000000,
+   "fee_5d": null,
+   "available_5d": null
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "profile": {
+   "country": "DE",
+   "inc": "DE",
+   "asia": null,
+   "sic": "Pharmaceutical Preparations",
+   "ts": "2026-10-29T07:09+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [],
+   "filings": [],
+   "rsplit": null,
+   "cik": 1719406
+  },
+  "forum": {
+   "rising": null,
+   "novel": false
+  },
+  "invalidation": 2.69,
+  "news": {
+   "ticker": "NRXP",
+   "title": "NRx Pharmaceuticals (Nasdaq: NRXP) to Host Conference Call on October 30, 2026 to Discuss Regulatory Milestone for Preservative-Free Ketamine",
+   "src": "Yahoo",
+   "ts": "2026-10-29T20:00+00:00",
+   "class": "weak",
+   "rule": "Conference",
+   "offering": false,
+   "amount_m": null
+  },
+  "urgent": false,
+  "urgent_why": [],
+  "path": "reddit",
+  "telegram_sent": true,
+  "outcome": {}
  }
 ]

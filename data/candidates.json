@@ -2160,7 +2160,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-10-30",
+   "days": 1,
+   "last_pct": -1.1,
+   "max_close_pct": -1.1,
+   "max_high_pct": 4.6
+  }
  },
  "2026-10-29|RIG": {
   "ts": "2026-10-29T16:07+00:00",
@@ -2182,7 +2188,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-10-30",
+   "days": 1,
+   "last_pct": 0.3,
+   "max_close_pct": 0.3,
+   "max_high_pct": 2.1
+  }
  },
  "2026-10-29|NUWE": {
   "ts": "2026-10-29T16:07+00:00",
@@ -2206,7 +2218,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-10-30",
+   "days": 1,
+   "last_pct": -10.9,
+   "max_close_pct": -10.9,
+   "max_high_pct": 10.3
+  }
  },
  "2026-10-29|LOT": {
   "ts": "2026-10-29T17:07+00:00",
@@ -2224,7 +2242,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-10-30",
+   "days": 1,
+   "last_pct": -3.8,
+   "max_close_pct": -3.8,
+   "max_high_pct": 16.7
+  }
  },
  "2026-10-29|SAP": {
   "ts": "2026-10-29T17:07+00:00",
@@ -2245,7 +2269,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-10-30",
+   "days": 1,
+   "last_pct": 0.3,
+   "max_close_pct": 0.3,
+   "max_high_pct": 0.9
+  }
  },
  "2026-10-29|SNOW": {
   "ts": "2026-10-29T17:07+00:00",
@@ -2265,7 +2295,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-10-30",
+   "days": 1,
+   "last_pct": 0.1,
+   "max_close_pct": 0.1,
+   "max_high_pct": 2.6
+  }
  },
  "2026-10-29|GYGY": {
   "ts": "2026-10-29T17:07+00:00",
@@ -2291,7 +2327,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-10-30",
+   "days": 1,
+   "last_pct": -4.4,
+   "max_close_pct": -4.4,
+   "max_high_pct": 3.0
+  }
  },
  "2026-10-29|SNAP": {
   "ts": "2026-10-29T20:07+00:00",
@@ -2312,7 +2354,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-10-30",
+   "days": 1,
+   "last_pct": 1.5,
+   "max_close_pct": 1.5,
+   "max_high_pct": 4.7
+  }
  },
  "2026-10-29|SBUX": {
   "ts": "2026-10-29T20:07+00:00",
@@ -2333,7 +2381,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-10-30",
+   "days": 1,
+   "last_pct": -0.4,
+   "max_close_pct": -0.4,
+   "max_high_pct": -0.1
+  }
  },
  "2026-10-29|CROX": {
   "ts": "2026-10-29T20:07+00:00",
@@ -2358,7 +2412,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-10-30",
+   "days": 1,
+   "last_pct": -0.1,
+   "max_close_pct": -0.1,
+   "max_high_pct": 1.0
+  }
  },
  "2026-10-29|SN": {
   "ts": "2026-10-29T20:07+00:00",
@@ -2379,7 +2439,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-10-30",
+   "days": 1,
+   "last_pct": -0.1,
+   "max_close_pct": -0.1,
+   "max_high_pct": 0.1
+  }
  },
  "2026-10-29|IBM": {
   "ts": "2026-10-29T20:07+00:00",
@@ -2399,7 +2465,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-10-30",
+   "days": 1,
+   "last_pct": -0.3,
+   "max_close_pct": -0.3,
+   "max_high_pct": -0.3
+  }
  },
  "2026-10-29|MA": {
   "ts": "2026-10-29T20:07+00:00",
@@ -2420,7 +2492,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-10-30",
+   "days": 1,
+   "last_pct": -0.0,
+   "max_close_pct": -0.0,
+   "max_high_pct": 0.9
+  }
  },
  "2026-10-29|PINS": {
   "ts": "2026-10-29T21:07+00:00",
@@ -2442,7 +2520,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-10-30",
+   "days": 1,
+   "last_pct": 13.2,
+   "max_close_pct": 13.2,
+   "max_high_pct": 19.0
+  }
  },
  "2026-10-29|BROS": {
   "ts": "2026-10-29T21:07+00:00",
@@ -2463,7 +2547,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-10-30",
+   "days": 1,
+   "last_pct": 1.1,
+   "max_close_pct": 1.1,
+   "max_high_pct": 1.7
+  }
  },
  "2026-10-29|AXTI": {
   "ts": "2026-10-29T22:07+00:00",
@@ -2484,7 +2574,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-10-30",
+   "days": 1,
+   "last_pct": 6.6,
+   "max_close_pct": 6.6,
+   "max_high_pct": 11.3
+  }
  },
  "2026-10-29|RBLX": {
   "ts": "2026-10-29T22:07+00:00",
@@ -2508,7 +2604,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-10-30",
+   "days": 1,
+   "last_pct": 19.2,
+   "max_close_pct": 19.2,
+   "max_high_pct": 24.1
+  }
  },
  "2026-10-29|POET": {
   "ts": "2026-10-29T23:07+00:00",
@@ -2528,7 +2630,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-10-30",
+   "days": 1,
+   "last_pct": 5.4,
+   "max_close_pct": 5.4,
+   "max_high_pct": 9.3
+  }
  },
  "2026-10-29|GT": {
   "ts": "2026-10-29T23:07+00:00",
@@ -2549,7 +2657,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-10-30",
+   "days": 1,
+   "last_pct": 0.8,
+   "max_close_pct": 0.8,
+   "max_high_pct": 1.0
+  }
  },
  "2026-10-29|TWLO": {
   "ts": "2026-10-29T23:07+00:00",
@@ -2571,13 +2685,19 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-10-30",
+   "days": 1,
+   "last_pct": 19.9,
+   "max_close_pct": 19.9,
+   "max_high_pct": 22.5
+  }
  },
  "2026-10-30|NRXP": {
   "ts": "2026-10-30T07:07+00:00",
   "ticker": "NRXP",
   "score": 7,
-  "max_score": 7,
+  "max_score": 8,
   "price": 3.3613,
   "move_pct": 24.96,
   "cap_m": 115.17,
@@ -2589,9 +2709,11 @@
    "spread",
    "authors",
    "short",
-   "low_float"
+   "low_float",
+   "st_msgs",
+   "pr_weak"
   ],
-  "alerted": false,
+  "alerted": true,
   "urgent": false,
   "outcome": {}
  },
@@ -2599,7 +2721,7 @@
   "ts": "2026-10-30T07:07+00:00",
   "ticker": "EDIT",
   "score": 3,
-  "max_score": 3,
+  "max_score": 4,
   "price": 2.93,
   "move_pct": -0.68,
   "cap_m": 449.99,
@@ -2609,7 +2731,8 @@
    "spread",
    "rising",
    "short",
-   "word"
+   "word",
+   "vel3h"
   ],
   "alerted": false,
   "urgent": false,
