@@ -2715,7 +2715,8 @@
    "pr_strong",
    "vel3h",
    "rvol",
-   "rising"
+   "rising",
+   "relaxed_gate"
   ],
   "alerted": true,
   "urgent": true,
