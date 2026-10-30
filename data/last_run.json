@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-30T10:01+00:00",
+ "ts": "2026-10-30T10:07+00:00",
  "reddit_ok": true,
  "stocktwits_trending": 30,
  "apewisdom_main": 300,
@@ -26,16 +26,16 @@
   "reddit_path": 1,
   "telegram_path": 0,
   "news_path": 1,
-  "skipped_large_cache": 53,
-  "shadow_gate": 30,
+  "skipped_large_cache": 51,
+  "shadow_gate": 28,
   "to_check": 8,
   "checked": 8,
   "not_checked_time": 0,
   "blocked": {
-   "כבר": 1,
-   "איחוד": 1,
    "אין": 1,
-   "שווי": 1
+   "שווי": 1,
+   "כבר": 1,
+   "איחוד": 1
   },
   "below_score": 2,
   "cooldown": 2,

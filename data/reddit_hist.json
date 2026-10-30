@@ -3682,9 +3682,10 @@
    "sample": "r/pennystocks: CETX Surges 59% Today After Strong Earnings. More Upside?"
   },
   "BURU": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
+    "pennystocks",
     "smallstreetbets"
    ],
    "first_utc": "2026-10-29T13:22+00:00",

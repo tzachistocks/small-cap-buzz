@@ -1,31 +1,31 @@
 {
  "date": "2026-10-30",
- "generated_at": "2026-10-30T10:01+00:00",
+ "generated_at": "2026-10-30T10:07+00:00",
  "final": false,
  "runs": {
-  "count": 4,
+  "count": 5,
   "first": "2026-10-30T07:07+00:00",
-  "last": "2026-10-30T10:01+00:00",
+  "last": "2026-10-30T10:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 1101,
-   "mention_gate": 115,
-   "reddit_path": 3,
+   "buzz_tickers": 1376,
+   "mention_gate": 144,
+   "reddit_path": 4,
    "telegram_path": 0,
-   "news_path": 4,
-   "skipped_large_cache": 206,
-   "shadow_gate": 122,
-   "to_check": 38,
-   "checked": 38,
+   "news_path": 5,
+   "skipped_large_cache": 257,
+   "shadow_gate": 150,
+   "to_check": 46,
+   "checked": 46,
    "not_checked_time": 0,
    "blocked": {
-    "כבר": 6,
-    "שווי": 10,
-    "אין": 4,
-    "איחוד": 4
+    "כבר": 7,
+    "שווי": 11,
+    "אין": 5,
+    "איחוד": 5
    },
-   "below_score": 8,
-   "cooldown": 5,
-   "shadow_would_alert": 7,
+   "below_score": 10,
+   "cooldown": 7,
+   "shadow_would_alert": 9,
    "sent": 2,
    "send_failed": 0
   },
@@ -59,6 +59,13 @@
    },
    {
     "ts": "2026-10-30T10:01+00:00",
+    "checked": 8,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 4
+   },
+   {
+    "ts": "2026-10-30T10:07+00:00",
     "checked": 8,
     "sent": 0,
     "send_failed": 0,
@@ -2859,6 +2866,16 @@
     ],
     "first_utc": "2026-10-30T03:58+00:00"
    },
+   "BURU": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks",
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-29T13:22+00:00",
+    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+   },
    "QCOM": {
     "m24_max": 1,
     "authors24_max": 1,
@@ -2993,15 +3010,6 @@
     ],
     "first_utc": "2026-10-29T13:57+00:00",
     "sample": "r/pennystocks: CETX Surges 59% Today After Strong Earnings. More Upside?"
-   },
-   "BURU": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-10-29T13:22+00:00",
-    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
    },
    "PCLA": {
     "m24_max": 1,
@@ -3197,6 +3205,12 @@
     "chats24_max": 1,
     "first_utc": "2026-10-29T10:26+00:00"
    },
+   "EEFT": {
+    "m24_max": 3,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-29T13:19+00:00"
+   },
    "NDAQ": {
     "m24_max": 3,
     "authors24_max": 1,
@@ -3299,12 +3313,6 @@
     "chats24_max": 1,
     "first_utc": "2026-10-29T11:55+00:00"
    },
-   "EEFT": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-29T13:19+00:00"
-   },
    "SPCE": {
     "m24_max": 2,
     "authors24_max": 1,
@@ -3350,10 +3358,10 @@
   }
  },
  "errors_today": {
-  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/TTM": 4,
-  "HTTP 404 https: //finviz.com/quote.ashx?t=TTM&p=d": 4,
-  "HTTP 404 https: //stockanalysis.com/stocks/ttm/statistics/": 4,
-  "no fundamentals for TTM": 4
+  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/TTM": 5,
+  "HTTP 404 https: //finviz.com/quote.ashx?t=TTM&p=d": 5,
+  "HTTP 404 https: //stockanalysis.com/stocks/ttm/statistics/": 5,
+  "no fundamentals for TTM": 5
  },
  "closes_asof": null,
  "closes": {}
