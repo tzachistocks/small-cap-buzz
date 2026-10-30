@@ -3575,8 +3575,9 @@
   },
   "WKHS": {
    "m24_max": 4,
-   "authors24_max": 3,
+   "authors24_max": 4,
    "subs": [
+    "Shortsqueeze",
     "pennystocks",
     "smallstreetbets"
    ],
@@ -3630,8 +3631,8 @@
    "sample": "r/pennystocks: Midday Small Cap Stocks to Watch Into the Close & After Hours | Oct. 29"
   },
   "INO": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],
@@ -3773,10 +3774,11 @@
    "first_utc": "2026-10-30T03:55+00:00"
   },
   "HTZ": {
-   "m24_max": 7,
+   "m24_max": 10,
    "authors24_max": 7,
    "subs": [
     "Shortsqueeze",
+    "pennystocks",
     "smallstreetbets"
    ],
    "first_utc": "2026-10-30T03:50+00:00",
@@ -4031,9 +4033,10 @@
    "sample": "r/pennystocks: Microcap Biotechs Hit by Tax Loss Selling- $CVM, $GOVX, $ONCY, $MBIO"
   },
   "CAR": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 3,
+   "authors24_max": 2,
    "subs": [
+    "Shortsqueeze",
     "pennystocks"
    ],
    "first_utc": "2026-10-30T13:49+00:00",
@@ -4212,6 +4215,38 @@
     "pennystocks"
    ],
    "first_utc": "2026-10-30T14:42+00:00"
+  },
+  "SHFS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-30T16:00+00:00"
+  },
+  "VOXR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-30T15:59+00:00"
+  },
+  "VC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-30T15:58+00:00"
+  },
+  "WW": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-30T15:27+00:00"
   }
  }
 }

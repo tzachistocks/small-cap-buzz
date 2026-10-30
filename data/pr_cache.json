@@ -1,17 +1,5 @@
 [
  {
-  "ticker": "SNOW",
-  "title": "Oracle Expands Native AI and Data Services on OCI with Snowflake",
-  "src": "PR Newswire",
-  "ts": "2026-10-27T16:06+00:00"
- },
- {
-  "ticker": "IVZ",
-  "title": "Invesco Announces Work with Anthropic to Bring its Custom Portfolio and Practice Management Capabilities to Claude",
-  "src": "PR Newswire",
-  "ts": "2026-10-27T16:00+00:00"
- },
- {
   "ticker": "MPWR",
   "title": "Rosen Law Firm Announces Investigation of Breaches of Fiduciary Duties by the Directors and Officers of Monolithic Power Systems, Inc. - MPWR",
   "src": "PR Newswire",
@@ -886,5 +874,23 @@
   "title": "MONDAY INVESTOR DEADLINE: Hims & Hers Health, Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit Before November 2, 2026 Deadline - HIMS",
   "src": "PR Newswire",
   "ts": "2026-10-30T15:00+00:00"
+ },
+ {
+  "ticker": "TENX",
+  "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against Tenax Therapeutics, Inc. (NASDAQ: TENX) -- Investors Who Suffered Losses Are Encouraged to Contact the Firm.",
+  "src": "PR Newswire",
+  "ts": "2026-10-30T16:00+00:00"
+ },
+ {
+  "ticker": "TIGR",
+  "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against UP Fintech Holding Limited (NASDAQ: TIGR) -- Investors Who Suffered Losses Are Encouraged to Contact the Firm.",
+  "src": "PR Newswire",
+  "ts": "2026-10-30T16:00+00:00"
+ },
+ {
+  "ticker": "VST",
+  "title": "Vistra Completes Acquisition of Cogentrix Energy, Expanding Diverse Generation Fleet",
+  "src": "PR Newswire",
+  "ts": "2026-10-30T16:00+00:00"
  }
 ]

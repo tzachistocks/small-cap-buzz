@@ -2565,13 +2565,13 @@
    "first_utc": "2026-10-29T07:27+00:00"
   },
   "INR": {
-   "m24_max": 36,
+   "m24_max": 39,
    "authors24_max": 6,
    "chats24_max": 1,
    "first_utc": "2026-10-29T07:27+00:00"
   },
   "SG": {
-   "m24_max": 36,
+   "m24_max": 39,
    "authors24_max": 6,
    "chats24_max": 1,
    "first_utc": "2026-10-29T07:27+00:00"
@@ -2607,7 +2607,7 @@
    "first_utc": "2026-10-30T07:07+00:00"
   },
   "NET": {
-   "m24_max": 10,
+   "m24_max": 11,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-29T20:05+00:00"
@@ -2853,7 +2853,7 @@
    "first_utc": "2026-10-29T20:17+00:00"
   },
   "VST": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-29T20:17+00:00"
@@ -3069,7 +3069,7 @@
    "first_utc": "2026-10-29T19:43+00:00"
   },
   "III": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-29T19:41+00:00"
@@ -3087,7 +3087,7 @@
    "first_utc": "2026-10-29T19:37+00:00"
   },
   "GDYN": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-29T19:33+00:00"
@@ -4245,7 +4245,7 @@
    "first_utc": "2026-10-30T07:33+00:00"
   },
   "VS": {
-   "m24_max": 4,
+   "m24_max": 5,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-30T09:01+00:00"
@@ -4365,7 +4365,7 @@
    "first_utc": "2026-10-30T11:32+00:00"
   },
   "HKD": {
-   "m24_max": 3,
+   "m24_max": 6,
    "authors24_max": 3,
    "chats24_max": 1,
    "first_utc": "2026-10-30T12:57+00:00"
@@ -4549,6 +4549,60 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-30T14:09+00:00"
+  },
+  "CBOE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-30T16:05+00:00"
+  },
+  "ACCO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-30T15:50+00:00"
+  },
+  "NPKI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-30T15:49+00:00"
+  },
+  "FXAC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-30T15:48+00:00"
+  },
+  "RDDT": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-30T15:15+00:00"
+  },
+  "OSPN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-30T15:34+00:00"
+  },
+  "BFAM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-30T15:18+00:00"
+  },
+  "BEBE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-30T15:10+00:00"
+  },
+  "TGE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-30T15:10+00:00"
   }
  }
 }

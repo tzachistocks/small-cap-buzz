@@ -483,8 +483,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 3,
-   "last_close": 4.510000228881836,
-   "last_pct": 4.0,
+   "last_close": 4.369999885559082,
+   "last_pct": 0.8,
    "max_close_pct": 8.1,
    "max_high_pct": 13.0,
    "d1_pct": 4.2
@@ -602,8 +602,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 2.2249999046325684,
-   "last_pct": -17.3,
+   "last_close": 2.1549999713897705,
+   "last_pct": -19.9,
    "max_close_pct": -1.1,
    "max_high_pct": 5.2,
    "d1_pct": -1.1
@@ -727,8 +727,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 4.510000228881836,
-   "last_pct": -4.8,
+   "last_close": 4.369999885559082,
+   "last_pct": -7.7,
    "max_close_pct": -1.0,
    "max_high_pct": 3.5,
    "d1_pct": -1.0
@@ -859,8 +859,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 1.2300000190734863,
-   "last_pct": -11.5,
+   "last_close": 1.215000033378601,
+   "last_pct": -12.6,
    "max_close_pct": -7.9,
    "max_high_pct": 2.9,
    "d1_pct": -7.9
@@ -1088,11 +1088,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 0.3970000147819519,
-   "last_pct": -3.2,
-   "max_close_pct": -3.2,
+   "last_close": 0.38999998569488525,
+   "last_pct": -4.9,
+   "max_close_pct": -4.9,
    "max_high_pct": -0.0,
-   "d1_pct": -3.2
+   "d1_pct": -4.9
   },
   "followups": {}
  },
@@ -1219,11 +1219,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 2.2249999046325684,
-   "last_pct": -22.7,
-   "max_close_pct": -22.7,
+   "last_close": 2.1549999713897705,
+   "last_pct": -25.2,
+   "max_close_pct": -25.2,
    "max_high_pct": -1.7,
-   "d1_pct": -22.7
+   "d1_pct": -25.2
   },
   "followups": {}
  },
@@ -1363,11 +1363,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 2.2249999046325684,
-   "last_pct": 4.5,
-   "max_close_pct": 4.5,
+   "last_close": 2.1549999713897705,
+   "last_pct": 1.2,
+   "max_close_pct": 1.2,
    "max_high_pct": 32.9,
-   "d1_pct": 4.5
+   "d1_pct": 1.2
   },
   "followups": {}
  }

@@ -2774,7 +2774,8 @@
   "tags": [
    "spread",
    "rising",
-   "rvol"
+   "rvol",
+   "relaxed_gate"
   ],
   "alerted": true,
   "urgent": false,
@@ -3021,7 +3022,7 @@
   "ts": "2026-10-30T15:07+00:00",
   "ticker": "WKHS",
   "score": 9,
-  "max_score": 9,
+  "max_score": 10,
   "price": 2.9,
   "move_pct": 13.73,
   "cap_m": 31.6,
@@ -3037,6 +3038,27 @@
    "rvol",
    "sec_strong",
    "pr_weak"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-10-30|DUOT": {
+  "ts": "2026-10-30T16:07+00:00",
+  "ticker": "DUOT",
+  "score": 5,
+  "max_score": 5,
+  "price": 6.28,
+  "move_pct": -2.79,
+  "cap_m": 197.53,
+  "blocked": [],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "spread",
+   "novel",
+   "short",
+   "low_float"
   ],
   "alerted": false,
   "urgent": false,
