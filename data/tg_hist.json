@@ -2613,7 +2613,7 @@
    "first_utc": "2026-10-29T20:05+00:00"
   },
   "GABC": {
-   "m24_max": 6,
+   "m24_max": 7,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-29T15:04+00:00"
@@ -4225,6 +4225,24 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-29T11:00+00:00"
+  },
+  "FACT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-30T08:08+00:00"
+  },
+  "KOF": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-30T08:01+00:00"
+  },
+  "XRP": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-30T07:33+00:00"
   }
  }
 }

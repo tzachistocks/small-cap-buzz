@@ -1,17 +1,5 @@
 [
  {
-  "ticker": "SAP",
-  "title": "SAP Empowers AI Developers to Build What Matters and Turn Intent into Autonomous Execution",
-  "src": "PR Newswire",
-  "ts": "2026-10-27T08:00+00:00"
- },
- {
-  "ticker": "BBNX",
-  "title": "Beta Bionics, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - BBNX",
-  "src": "PR Newswire",
-  "ts": "2026-10-27T07:43+00:00"
- },
- {
   "ticker": "BIDU",
   "title": "Baidu to Report Third Quarter 2026 Financial Results on November 16, 2026",
   "src": "PR Newswire",
@@ -886,5 +874,11 @@
   "title": "BULL Investors Have Opportunity to Lead Webull Corporation Securities Fraud Lawsuit Filed by The Rosen Law Firm",
   "src": "PR Newswire",
   "ts": "2026-10-29T22:10+00:00"
+ },
+ {
+  "ticker": "BIOA",
+  "title": "New clinical data on lecanemab to be presented at CTAD conference 2026",
+  "src": "PR Newswire",
+  "ts": "2026-10-30T07:20+00:00"
  }
 ]

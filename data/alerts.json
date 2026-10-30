@@ -608,7 +608,9 @@
    "max_high_pct": 3.1,
    "d1_pct": -1.1
   },
-  "followups": {}
+  "followups": {
+   "up30": "2026-10-30T08:07+00:00"
+  }
  },
  {
   "id": "202610291407-ANTX",
@@ -1082,6 +1084,7 @@
   "urgent_why": [],
   "path": "buzz",
   "telegram_sent": true,
-  "outcome": {}
+  "outcome": {},
+  "followups": {}
  }
 ]
