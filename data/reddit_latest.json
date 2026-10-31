@@ -1,13 +1,27 @@
 {
- "ts": "2026-10-30T21:07+00:00",
+ "ts": "2026-10-31T09:39+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
+  "DUOT": {
+   "m6": 5,
+   "m24": 8,
+   "authors6": 2,
+   "authors24": 3,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-30T15:44+00:00",
+   "sample": "r/pennystocks: DUOT screaming buy?"
+  },
   "HTZ": {
-   "m6": 4,
+   "m6": 1,
    "m24": 5,
-   "authors6": 4,
-   "authors24": 5,
+   "authors6": 1,
+   "authors24": 4,
    "subs6": [
     "Shortsqueeze"
    ],
@@ -17,93 +31,32 @@
    "first_utc": "2026-10-30T14:40+00:00",
    "sample": "r/Shortsqueeze: Short borrow fee rates creeping up again $HTZ"
   },
-  "NRXP": {
-   "m6": 1,
-   "m24": 5,
-   "authors6": 1,
-   "authors24": 3,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "Shortsqueeze",
-    "pennystocks",
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-10-30T02:26+00:00",
-   "sample": "r/pennystocks: 30 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-  },
-  "WKHS": {
-   "m6": 1,
-   "m24": 3,
-   "authors6": 1,
-   "authors24": 3,
-   "subs6": [
-    "Shortsqueeze"
-   ],
-   "subs24": [
-    "Shortsqueeze",
-    "pennystocks",
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-10-29T22:43+00:00",
-   "sample": "r/Shortsqueeze: WKHS Squeeze Finder alert on Oct30 2026, just entered the 100 club."
-  },
-  "GIFT": {
-   "m6": 0,
-   "m24": 3,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze",
-    "pennystocks",
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-10-30T02:26+00:00",
-   "sample": "r/smallstreetbets: NRx Pharmaceuticals (NRXP): The KETAFREE ANDA \"WAS\" in fact APPROVED by the FDA!! <MODS, p"
-  },
-  "CCO": {
-   "m6": 0,
-   "m24": 3,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze",
-    "pennystocks",
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-10-30T02:26+00:00",
-   "sample": "r/smallstreetbets: NRx Pharmaceuticals (NRXP): The KETAFREE ANDA \"WAS\" in fact APPROVED by the FDA!! <MODS, p"
-  },
   "SI": {
-   "m6": 3,
-   "m24": 3,
-   "authors6": 3,
-   "authors24": 3,
+   "m6": 2,
+   "m24": 4,
+   "authors6": 2,
+   "authors24": 4,
    "subs6": [
     "smallstreetbets"
    ],
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-10-30T19:13+00:00",
+   "first_utc": "2026-10-31T02:02+00:00",
    "sample": ""
   },
-  "SNDK": {
-   "m6": 2,
+  "WKHS": {
+   "m6": 0,
    "m24": 2,
-   "authors6": 2,
+   "authors6": 0,
    "authors24": 2,
-   "subs6": [
-    "smallstreetbets"
-   ],
+   "subs6": [],
    "subs24": [
-    "smallstreetbets"
+    "Shortsqueeze",
+    "pennystocks"
    ],
-   "first_utc": "2026-10-30T17:19+00:00",
-   "sample": "r/smallstreetbets: SNDK puts paid off big. Took home over $70K!"
+   "first_utc": "2026-10-30T14:26+00:00",
+   "sample": "r/Shortsqueeze: WKHS Squeeze Finder alert on Oct30 2026, just entered the 100 club."
   },
   "TNMG": {
    "m6": 0,
@@ -131,17 +84,18 @@
    "first_utc": "2026-10-30T13:09+00:00",
    "sample": "r/pennystocks: 30 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
-  "HUBC": {
-   "m6": 0,
+  "NRXP": {
+   "m6": 1,
    "m24": 2,
-   "authors6": 0,
+   "authors6": 1,
    "authors24": 2,
-   "subs6": [],
-   "subs24": [
-    "pennystocks",
-    "smallstreetbets"
+   "subs6": [
+    "pennystocks"
    ],
-   "first_utc": "2026-10-30T13:09+00:00",
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-30T14:26+00:00",
    "sample": "r/pennystocks: 30 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
   "SLGB": {
@@ -157,42 +111,39 @@
    "first_utc": "2026-10-30T13:09+00:00",
    "sample": "r/pennystocks: 30 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
-  "VPRB": {
-   "m6": 2,
+  "HUBC": {
+   "m6": 0,
    "m24": 2,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "authors6": 0,
+   "authors24": 2,
+   "subs6": [],
    "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-30T20:38+00:00",
-   "sample": ""
-  },
-  "ABOS": {
-   "m6": 2,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-30T20:24+00:00",
-   "sample": ""
-  },
-  "RDDT": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
+    "pennystocks",
     "smallstreetbets"
    ],
+   "first_utc": "2026-10-30T13:09+00:00",
+   "sample": "r/pennystocks: 30 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "RZLV": {
+   "m6": 1,
+   "m24": 2,
+   "authors6": 1,
+   "authors24": 2,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-30T13:08+00:00",
+   "sample": "r/pennystocks: RZLV be careful with dilution Damocles Sword"
+  },
+  "RDDT": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
    "subs24": [
     "smallstreetbets"
    ],
@@ -200,34 +151,6 @@
    "sample": "r/smallstreetbets: Reddit Joins the Dump Dudes"
   },
   "CCJ": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-30T16:39+00:00",
-   "sample": "r/pennystocks: Cameco's Disappointing Q3"
-  },
-  "DUOT": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-30T15:44+00:00",
-   "sample": "r/pennystocks: DUOT screaming buy?"
-  },
-  "DBO": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -236,8 +159,8 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-10-30T14:30+00:00",
-   "sample": "r/pennystocks: DBO D-Box Technolgies"
+   "first_utc": "2026-10-30T16:39+00:00",
+   "sample": "r/pennystocks: Cameco's Disappointing Q3"
   },
   "BOX": {
    "m6": 0,
@@ -251,7 +174,7 @@
    "first_utc": "2026-10-30T14:30+00:00",
    "sample": "r/pennystocks: DBO D-Box Technolgies"
   },
-  "AXG": {
+  "DBO": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -260,22 +183,10 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-10-30T14:28+00:00",
-   "sample": "r/pennystocks: 30 OCT 2026, WHAT ARE THE BIGGEST LOSERS AND WHY ?"
+   "first_utc": "2026-10-30T14:30+00:00",
+   "sample": "r/pennystocks: DBO D-Box Technolgies"
   },
   "CYPH": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-30T14:28+00:00",
-   "sample": "r/pennystocks: 30 OCT 2026, WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-  },
-  "COUR": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -299,6 +210,30 @@
    "first_utc": "2026-10-30T14:28+00:00",
    "sample": "r/pennystocks: 30 OCT 2026, WHAT ARE THE BIGGEST LOSERS AND WHY ?"
   },
+  "COUR": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-30T14:28+00:00",
+   "sample": "r/pennystocks: 30 OCT 2026, WHAT ARE THE BIGGEST LOSERS AND WHY ?"
+  },
+  "AXG": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-30T14:28+00:00",
+   "sample": "r/pennystocks: 30 OCT 2026, WHAT ARE THE BIGGEST LOSERS AND WHY ?"
+  },
   "TNL": {
    "m6": 0,
    "m24": 1,
@@ -311,31 +246,19 @@
    "first_utc": "2026-10-30T14:26+00:00",
    "sample": "r/pennystocks: 30 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
+  "GOVX": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-30T13:49+00:00",
+   "sample": "r/pennystocks: Microcap Biotechs Hit by Tax Loss Selling- $CVM, $GOVX, $ONCY, $MBIO"
+  },
   "ONCY": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-30T13:49+00:00",
-   "sample": "r/pennystocks: Microcap Biotechs Hit by Tax Loss Selling- $CVM, $GOVX, $ONCY, $MBIO"
-  },
-  "SCI": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-30T13:49+00:00",
-   "sample": "r/pennystocks: Microcap Biotechs Hit by Tax Loss Selling- $CVM, $GOVX, $ONCY, $MBIO"
-  },
-  "MBIO": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -359,19 +282,7 @@
    "first_utc": "2026-10-30T13:49+00:00",
    "sample": "r/pennystocks: Microcap Biotechs Hit by Tax Loss Selling- $CVM, $GOVX, $ONCY, $MBIO"
   },
-  "CVM": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-30T13:49+00:00",
-   "sample": "r/pennystocks: Microcap Biotechs Hit by Tax Loss Selling- $CVM, $GOVX, $ONCY, $MBIO"
-  },
-  "GOVX": {
+  "SCI": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -384,6 +295,30 @@
    "sample": "r/pennystocks: Microcap Biotechs Hit by Tax Loss Selling- $CVM, $GOVX, $ONCY, $MBIO"
   },
   "CAR": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-30T13:49+00:00",
+   "sample": "r/pennystocks: Microcap Biotechs Hit by Tax Loss Selling- $CVM, $GOVX, $ONCY, $MBIO"
+  },
+  "CVM": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-30T13:49+00:00",
+   "sample": "r/pennystocks: Microcap Biotechs Hit by Tax Loss Selling- $CVM, $GOVX, $ONCY, $MBIO"
+  },
+  "MBIO": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -443,18 +378,6 @@
    "first_utc": "2026-10-30T13:08+00:00",
    "sample": "r/pennystocks: RZLV be careful with dilution Damocles Sword"
   },
-  "RZLV": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-30T13:08+00:00",
-   "sample": "r/pennystocks: RZLV be careful with dilution Damocles Sword"
-  },
   "HITI": {
    "m6": 0,
    "m24": 1,
@@ -467,113 +390,19 @@
    "first_utc": "2026-10-30T09:44+00:00",
    "sample": "r/RobinHoodPennyStocks: HIGH TIDE INC (NASDAQ: HITI) – An International Growth Model That Deserves Greater Attenti"
   },
-  "RTO": {
-   "m6": 0,
+  "IA": {
+   "m6": 1,
    "m24": 1,
-   "authors6": 0,
+   "authors6": 1,
    "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
+   "subs6": [
+    "smallstreetbets"
    ],
-   "first_utc": "2026-10-30T07:17+00:00",
-   "sample": "r/pennystocks: UK Spac PNPL (Pineapple Power) - Do you consider this high or low risk?"
-  },
-  "LSE": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-30T07:17+00:00",
-   "sample": "r/pennystocks: UK Spac PNPL (Pineapple Power) - Do you consider this high or low risk?"
-  },
-  "UK": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-30T07:17+00:00",
-   "sample": "r/pennystocks: UK Spac PNPL (Pineapple Power) - Do you consider this high or low risk?"
-  },
-  "QCOM": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-10-30T07:02+00:00",
-   "sample": "r/smallstreetbets: earnings preview for next week, mostly watching AAPL and AMD"
-  },
-  "SPCE": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-10-30T03:04+00:00",
-   "sample": "r/smallstreetbets: SPCE is down 99% from all time highs. The good news? They might finally be sort-of-on-sche"
-  },
-  "FTNT": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-10-30T02:37+00:00",
-   "sample": "r/smallstreetbets: FTNT puts"
-  },
-  "MVIS": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-10-30T02:33+00:00",
-   "sample": "r/smallstreetbets: $MVIS Went From $0.16 to $28, Then Came Back AGAIN. 25% Short Interest, Real Revenue, and "
-  },
-  "GME": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-10-30T02:33+00:00",
-   "sample": "r/smallstreetbets: $MVIS Went From $0.16 to $28, Then Came Back AGAIN. 25% Short Interest, Real Revenue, and "
-  },
-  "AMC": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-10-30T02:33+00:00",
-   "sample": "r/smallstreetbets: $MVIS Went From $0.16 to $28, Then Came Back AGAIN. 25% Short Interest, Real Revenue, and "
+   "first_utc": "2026-10-31T08:36+00:00",
+   "sample": ""
   },
   "INO": {
    "m6": 1,
@@ -586,10 +415,10 @@
    "subs24": [
     "Shortsqueeze"
    ],
-   "first_utc": "2026-10-30T21:00+00:00",
+   "first_utc": "2026-10-31T07:15+00:00",
    "sample": ""
   },
-  "AIOK": {
+  "GYGY": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -600,10 +429,10 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-10-30T20:31+00:00",
+   "first_utc": "2026-10-31T06:56+00:00",
    "sample": ""
   },
-  "JOBY": {
+  "MCD": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -614,10 +443,10 @@
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-10-30T20:31+00:00",
+   "first_utc": "2026-10-31T06:43+00:00",
    "sample": ""
   },
-  "SBUX": {
+  "AWK": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -628,10 +457,10 @@
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-10-30T20:05+00:00",
+   "first_utc": "2026-10-31T06:43+00:00",
    "sample": ""
   },
-  "SOUN": {
+  "DC": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -642,35 +471,35 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-10-30T19:33+00:00",
+   "first_utc": "2026-10-31T04:47+00:00",
    "sample": ""
   },
-  "GRPN": {
+  "CLIR": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
    "authors24": 1,
    "subs6": [
-    "Shortsqueeze"
+    "pennystocks"
    ],
    "subs24": [
-    "Shortsqueeze"
+    "pennystocks"
    ],
-   "first_utc": "2026-10-30T19:15+00:00",
+   "first_utc": "2026-10-31T04:06+00:00",
    "sample": ""
   },
-  "GPRO": {
+  "DJT": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
    "authors24": 1,
    "subs6": [
-    "Shortsqueeze"
+    "smallstreetbets"
    ],
    "subs24": [
-    "Shortsqueeze"
+    "smallstreetbets"
    ],
-   "first_utc": "2026-10-30T19:15+00:00",
+   "first_utc": "2026-10-31T03:43+00:00",
    "sample": ""
   }
  },

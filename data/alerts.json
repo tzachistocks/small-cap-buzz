@@ -605,7 +605,7 @@
    "last_close": 2.2699999809265137,
    "last_pct": -15.6,
    "max_close_pct": -1.1,
-   "max_high_pct": 5.2,
+   "max_high_pct": 5.6,
    "d1_pct": -1.1
   },
   "followups": {
@@ -973,7 +973,7 @@
   "path": "news",
   "telegram_sent": true,
   "outcome": {
-   "days": 1,
+   "days": 2,
    "last_close": 17.280000686645508,
    "last_pct": 0.0,
    "max_close_pct": 0.0,
@@ -1222,7 +1222,7 @@
    "last_close": 2.2699999809265137,
    "last_pct": -21.2,
    "max_close_pct": -21.2,
-   "max_high_pct": -1.7,
+   "max_high_pct": -1.4,
    "d1_pct": -21.2
   },
   "followups": {}
@@ -1366,7 +1366,7 @@
    "last_close": 2.2699999809265137,
    "last_pct": 6.6,
    "max_close_pct": 6.6,
-   "max_high_pct": 32.9,
+   "max_high_pct": 33.3,
    "d1_pct": 6.6
   },
   "followups": {}

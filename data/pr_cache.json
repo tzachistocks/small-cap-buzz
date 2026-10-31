@@ -1,47 +1,5 @@
 [
  {
-  "ticker": "RRC",
-  "title": "$HAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Range Resources Corporation (NYSE: RRC)",
-  "src": "PR Newswire",
-  "ts": "2026-10-28T07:00+00:00"
- },
- {
-  "ticker": "SGRY",
-  "title": "$HAREHOLDER ALERT: The M&A Class Action Firm Announces An Investigation of Surgery Partners, Inc. (NASDAQ: SGRY)",
-  "src": "PR Newswire",
-  "ts": "2026-10-28T07:00+00:00"
- },
- {
-  "ticker": "YMM",
-  "title": "Full Truck Alliance Co. Ltd. to Announce Third Quarter 2026 Financial Results on Thursday, November 19, 2026",
-  "src": "PR Newswire",
-  "ts": "2026-10-28T08:00+00:00"
- },
- {
-  "ticker": "ESLT",
-  "title": "Elbit Systems to Report Third Quarter 2026 Financial Results on November 17, 2026",
-  "src": "PR Newswire",
-  "ts": "2026-10-28T07:33+00:00"
- },
- {
-  "ticker": "WB",
-  "title": "Weibo Corporation to Report Third Quarter 2026 Financial Results on November 17, 2026",
-  "src": "PR Newswire",
-  "ts": "2026-10-28T09:00+00:00"
- },
- {
-  "ticker": "EDU",
-  "title": "New Oriental Announces Results for the First Fiscal Quarter Ended August 31, 2026",
-  "src": "PR Newswire",
-  "ts": "2026-10-28T09:00+00:00"
- },
- {
-  "ticker": "APPN",
-  "title": "Appian and PSI CRO Form Strategic Partnership to Advance AI-driven Clinical Trial Operations",
-  "src": "PR Newswire",
-  "ts": "2026-10-28T09:00+00:00"
- },
- {
   "ticker": "AVTR",
   "title": "Avantor® Reports Third Quarter 2026 Results",
   "src": "PR Newswire",
@@ -910,5 +868,11 @@
   "title": "PTC Therapeutics Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
   "src": "PR Newswire",
   "ts": "2026-10-30T20:30+00:00"
+ },
+ {
+  "ticker": "MDB",
+  "title": "MongoDB Investigation Continued: Kahn Swick & Foti, LLC Continues to Investigate the Officers and Directors of MongoDB, Inc. - MDB",
+  "src": "PR Newswire",
+  "ts": "2026-10-31T02:00+00:00"
  }
 ]
