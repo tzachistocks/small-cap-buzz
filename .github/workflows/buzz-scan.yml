@@ -44,6 +44,7 @@ jobs:
           TG_API_HASH: ${{ secrets.TG_API_HASH }}
           TG_SESSION: ${{ secrets.TG_SESSION }}
           TG_CHATS: ${{ vars.TG_CHATS || secrets.TG_CHATS }}
+          WEIR_API_KEY: ${{ secrets.WEIR_API_KEY }}
         run: python -m scanner.main
 
       - name: Save data
