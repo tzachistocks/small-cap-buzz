@@ -147,6 +147,29 @@ TG_MIN_CHATS = 2                # ... across this many chats
 TG_PATH_MIN_AUTHORS6 = 3        # entry path (no forum gate needed): authors in the last 6h ...
 TG_PATH_MIN_CHATS6 = 2          # ... across this many chats
 
+# ---------- X / Twitter via Weir (optional, needs the WEIR_API_KEY secret) ----------
+# A confirmation layer: X is searched only for tickers we already have, in two slots a day. New signal, so it
+# starts as a tag only (X_POINTS = 0); the weekly report shows whether x_buzz names run more often.
+WEIR_API_KEY = os.getenv("WEIR_API_KEY", "").strip()
+X_SLOTS_UTC = (12, 17)          # ~14:07 and ~19:07 Israel in winter (US premarket, then mid-session)
+X_WEEKENDS = False
+X_MAX_TICKERS = 8               # searches per slot (one per ticker)
+X_POSTS_PER_TICKER = 10         # newest posts of the last 24h; a full page means "at least 10"
+X_MAX_AGE_H = 8                 # a slot's counts are used for scoring this long
+X_MIN_AUTHORS = 3               # x_buzz: this many distinct authors in 24h ...
+X_MIN_POSTS = 4                 # ... and this many posts, or ...
+X_MIN_LIKES = 20                # ... this many likes in total
+X_POINTS = 0                    # score points for x_buzz (0 = measure only; raise after the weekly report)
+X_MAX_CASHTAGS_PER_POST = 4     # more cashtags than this = list spam, not counted
+X_DISCOVERY_QUERY = "squeeze"   # one search a day, top posts; cashtags only logged in data/x_buzz.json
+X_DISCOVERY_MIN_LIKES = 20
+X_DISCOVERY_LIMIT = 20
+X_DAILY_CREDITS = 160           # hard caps (1 credit per call + 1 per post)
+X_MONTHLY_CREDITS = 3000        # of Weir's 5,000 free credits a month
+X_TIME_BUDGET_S = 60
+X_HTTP_TIMEOUT_S = 30
+X_SLEEP_S = 1.0
+
 # ---------- YouTube (optional, free API key) ----------
 YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY", "").strip()
 

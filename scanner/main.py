@@ -7,7 +7,7 @@ from datetime import datetime, timezone, timedelta
 
 import requests
 
-from . import config, sources, extras, review, news, tg_groups, digest
+from . import config, sources, extras, review, news, tg_groups, digest, x_buzz
 from .storage import Store
 
 NOW = datetime.now(timezone.utc)
@@ -156,6 +156,11 @@ def score(b, rd, st_trend, st, fund, x=None):
         pts += 1; why.append(f"בטלגרם: {tg['m24']} אזכורים מ-{tg['authors24']} כותבים ב-{tg['chats24']} קבוצות")
     elif tg and tg["m24"] >= 3:
         why.append(f"טלגרם רגיל: {tg['m24']} אזכורים ב-{tg['chats24']} קבוצות")
+    xv = x.get("x")
+    if xv and x_buzz.why_line(xv):
+        if x_buzz.is_buzz(xv):
+            pts += config.X_POINTS
+        why.append(x_buzz.why_line(xv))
     if b["ticker"] in st_trend:
         pts += 1; why.append("בטרנד של סטוקטוויטס")
     if st and st.get("msgs_6h", 0) >= 10:
@@ -453,6 +458,17 @@ def run():
     shadow_cands = [b for b in shadow_cands if not known_large(b["ticker"])]
     shadow_cands.sort(key=lambda b: (b["accel"], b["m_now"]), reverse=True)
     FUNNEL["skipped_large_cache"] = len(skipped_large)
+    # X (Weir): two slots a day, only for tickers we already have. Fails soft, never blocks the scan.
+    x_counts = {}
+    try:
+        ranked = sorted(cands, key=lambda b: (b["accel"], b["m_now"]), reverse=True)
+        x_list = [b["ticker"] for b in news_cands + ranked if not b.get("word")]
+        tg_lead = sorted(tg_counts.items(), key=lambda kv: (kv[1]["authors24"], kv[1]["m24"]), reverse=True)
+        x_list += [t for t, r in tg_lead if r["authors24"] >= 2 and t not in config.WORD_TICKERS and not known_large(t)]
+        x_list = list(dict.fromkeys(x_list))
+        x_counts = x_buzz.run(store, NOW, x_list)
+    except Exception as e:
+        sources.ERRORS.append(f"x_buzz: {type(e).__name__}: {e}")
     cands.sort(key=lambda b: (b["accel"], b["m_now"]), reverse=True)
     # news first (few, time-sensitive), shadow last (the time budget cuts them first)
     cands = (news_cands + cands + shadow_cands)[:config.MAX_CANDIDATES_TO_ENRICH]
@@ -509,7 +525,7 @@ def run():
         elif rf.get("ret_10d") is not None and rf["ret_10d"] * 100 >= config.MAX_RUN_10D_PCT:
             block.append(f"כבר רצה {rf['ret_10d']*100:+.0f}% ב-10 ימים")
         x = {"price": price, "xueqiu": xq.get(t), "youtube": yt.get(t), "promoted": t in promoted,
-             "telegram": tg_counts.get(t)}
+             "telegram": tg_counts.get(t), "x": x_counts.get(t)}
         rs_ages = [int(rf["days_since_rsplit"])] if rf.get("days_since_rsplit") is not None else []
         st, prof = None, None
         if not block:  # extra calls only for names that can still alert
@@ -578,7 +594,7 @@ def run():
                  "score": pts, "why": why, "price": price, "fund": fund, "m_now": b["m_now"],
                  "m_24h_ago": b["m_24h_ago"], "spread": b["spread"], "reddit": rd or {},
                  "stocktwits": st, "borrow": x.get("borrow"), "xueqiu": x.get("xueqiu"),
-                 "youtube": x.get("youtube"), "telegram": x.get("telegram"), "profile": prof, "sec": x.get("sec"),
+                 "youtube": x.get("youtube"), "telegram": x.get("telegram"), "x": x.get("x"), "profile": prof, "sec": x.get("sec"),
                  "forum": {"rising": b.get("rise_seq"), "novel": b.get("novel")},
                  "invalidation": review.invalidation_level(price), "news": x.get("news"),
                  "urgent": c["urgent"], "urgent_why": c["urgent_why"], "path": b.get("path", "buzz"),
@@ -622,6 +638,7 @@ def run():
                                       "stocktwits_trending": len(st_trend), "apewisdom_main": len(snap["main"]),
                                       "apewisdom_subs": sorted(subs), "candidates": len(report),
                                       "telegram_groups": {k: tg_groups.STATUS[k] for k in ("mode", "chats_ok", "chats_failed", "messages")},
+                                      "x_weir": dict(x_buzz.STATUS),
                                       "funnel": FUNNEL, "not_checked": not_checked[:50],
                                       "errors": sources.ERRORS[-30:]})
     try:  # daily digest for outside readers (data/digest/<date>.json); never breaks the scan
@@ -659,6 +676,14 @@ def export_reddit(store, rd_counts, rd_ok, snap, subs):
     store.save_json("reddit_hist.json", hist)
 
 
+def _x_status_line():
+    st = x_buzz.STATUS
+    label = dict(off="לא מוגדר", idle="ממתין לחלון", ok="פעיל", failed="נכשל", out_of_credit="נגמרו הקרדיטים").get(st["mode"], st["mode"])
+    out = f"{label} ({st['queried']} חיפושים, {st['credits']} קרדיטים, {st['month_credits']}/{config.X_MONTHLY_CREDITS} החודש"
+    out += f", {st['hits']} עם באז)" if st["mode"] == "ok" else ")"
+    return out + (f" – {st['note']}" if st.get("note") and st["mode"] != "idle" else "")
+
+
 def write_summary(report, alerts, rd_ok, snap, subs, record, skipped_large=()):
     lines = [f"## סריקת באז {NOW:%Y-%m-%d %H:%M} UTC", "",
              f"ApeWisdom: {len(snap['main'])} טיקרים, פורומים: {', '.join(sorted(subs)) or 'אין'} | "
@@ -668,6 +693,7 @@ def write_summary(report, alerts, rd_ok, snap, subs, record, skipped_large=()):
              f"השאלות IBKR: {extras.STATUS.get('ibkr', 'לא נבדק')} | YouTube: {'פעיל' if config.YOUTUBE_API_KEY else 'לא מוגדר'}",
              f"קבוצות טלגרם: {dict(off='לא מוגדר', failed='נכשל', ok='פעיל').get(tg_groups.STATUS['mode'])}"
              f" ({tg_groups.STATUS['chats_ok']} נקראו, {tg_groups.STATUS['chats_failed']} נכשלו, {tg_groups.STATUS['messages']} הודעות)",
+             "X (Weir): " + _x_status_line(),
              f"הודעות לעיתונות: {news.STATUS.get('wires', 'לא נבדק')} | Yahoo חדשות: "
              f"{news.STATUS.get('yahoo_ok', 0)} הצליחו, {news.STATUS.get('yahoo_fail', 0)} נכשלו",
              f"שגיאות בהרצה: {len(sources.ERRORS)}", "", f"**{record}**", "",
