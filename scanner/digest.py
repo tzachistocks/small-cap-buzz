@@ -105,7 +105,7 @@ _HREF = re.compile(r'href="/stocks/([a-z0-9.\-]{1,8})/"')
 # stockanalysis pages the scans pick stocks from; each is read once a day, from the given UTC hour on
 UNIVERSE_PAGES = (
     ("premarket", "https://stockanalysis.com/markets/premarket/gainers/", 13),   # ~09:00 ET
-    ("gainers", "https://stockanalysis.com/markets/gainers/", 20),               # after the close
+    ("gainers", "https://stockanalysis.com/markets/gainers/", 21),               # after the close (21 UTC also works in winter time)
     ("afterhours", "https://stockanalysis.com/markets/after-hours/gainers/", 21),
     ("shorted", "https://stockanalysis.com/list/most-shorted-stocks/", 13),
 )
