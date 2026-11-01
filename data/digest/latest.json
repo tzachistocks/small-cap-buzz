@@ -1,31 +1,26 @@
 {
- "date": "2026-10-31",
- "generated_at": "2026-10-31T09:39+00:00",
+ "date": "2026-11-01",
+ "generated_at": "2026-11-01T10:27+00:00",
  "final": false,
  "runs": {
   "count": 1,
-  "first": "2026-10-31T09:39+00:00",
-  "last": "2026-10-31T09:39+00:00",
+  "first": "2026-11-01T10:27+00:00",
+  "last": "2026-11-01T10:27+00:00",
   "funnel_total": {
-   "buzz_tickers": 267,
-   "mention_gate": 11,
+   "buzz_tickers": 291,
+   "mention_gate": 4,
    "reddit_path": 0,
    "telegram_path": 0,
-   "news_path": 2,
-   "skipped_large_cache": 19,
-   "shadow_gate": 21,
-   "to_check": 15,
-   "checked": 15,
+   "news_path": 0,
+   "skipped_large_cache": 9,
+   "shadow_gate": 6,
+   "to_check": 1,
+   "checked": 1,
    "not_checked_time": 0,
-   "blocked": {
-    "אין": 1,
-    "שווי": 6,
-    "כבר": 1,
-    "דיווח": 2
-   },
-   "below_score": 2,
+   "blocked": {},
+   "below_score": 1,
    "cooldown": 0,
-   "shadow_would_alert": 4,
+   "shadow_would_alert": 0,
    "sent": 0,
    "send_failed": 0
   },
@@ -33,15 +28,15 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 526
+   "messages": 309
   },
   "per_run": [
    {
-    "ts": "2026-10-31T09:39+00:00",
-    "checked": 15,
+    "ts": "2026-11-01T10:27+00:00",
+    "checked": 1,
     "sent": 0,
     "send_failed": 0,
-    "errors_n": 4
+    "errors_n": 0
    }
   ]
  },
@@ -458,227 +453,18 @@
  ],
  "candidates_today": [
   {
-   "ts": "2026-10-31T09:39+00:00",
-   "ticker": "INO",
-   "score": 8,
-   "max_score": 8,
-   "price": 2.0598,
-   "move_pct": 166.88,
-   "cap_m": 62.29,
-   "blocked": [
-    "כבר זזה +167%"
-   ],
-   "tags": [
-    "accel",
-    "vel3h",
-    "spread",
-    "short",
-    "rvol",
-    "xueqiu"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-31T09:39+00:00",
-   "ticker": "NRXP",
-   "score": 8,
-   "max_score": 8,
-   "price": 2.21,
-   "move_pct": -16.92,
-   "cap_m": 98.28,
-   "blocked": [],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "spread",
-    "telegram_weak",
-    "short",
-    "low_float",
-    "rvol",
-    "pr_strong"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-31T09:39+00:00",
-   "ticker": "WKHS",
-   "score": 7,
-   "max_score": 7,
-   "price": 2.69,
-   "move_pct": 5.49,
-   "cap_m": 32.24,
-   "blocked": [],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "novel",
-    "short",
-    "low_float",
-    "rvol",
-    "sec_strong"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-31T09:39+00:00",
-   "ticker": "GYGY",
-   "score": 6,
-   "max_score": 6,
-   "price": 0.3982,
-   "move_pct": 1.37,
-   "cap_m": 6.04,
-   "blocked": [
-    "דיווח הנפקה: 424B3 2026-10-30, 424B3 2026-10-30, 424B3 2026-10-26"
-   ],
-   "tags": [
-    "accel",
-    "spread",
-    "low_float",
-    "rvol",
-    "borrow_fee",
-    "sec_negative"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-31T09:39+00:00",
-   "ticker": "LINK",
-   "score": 6,
-   "max_score": 6,
-   "price": 3.79,
-   "move_pct": -7.33,
-   "cap_m": 59.71,
-   "blocked": [],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "vel3h",
-    "spread",
-    "rising",
-    "low_float"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-31T09:39+00:00",
-   "ticker": "DUOT",
-   "score": 5,
-   "max_score": 5,
-   "price": 6.0994,
-   "move_pct": -5.58,
-   "cap_m": 195.13,
-   "blocked": [],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "spread",
-    "novel",
-    "short",
-    "low_float"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-31T09:39+00:00",
-   "ticker": "NXT",
-   "score": 4,
-   "max_score": 4,
-   "price": 79.34,
-   "move_pct": -0.61,
-   "cap_m": 12040.0,
-   "blocked": [
-    "שווי $12040M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "vel3h",
-    "novel"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-31T09:39+00:00",
-   "ticker": "CTO",
-   "score": 4,
-   "max_score": 4,
-   "price": 18.7699,
-   "move_pct": -4.19,
-   "cap_m": 763.96,
-   "blocked": [
-    "שווי $764M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "vel3h",
-    "novel",
-    "low_float"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-31T09:39+00:00",
-   "ticker": "WEN",
+   "ts": "2026-11-01T10:27+00:00",
+   "ticker": "SPCE",
    "score": 3,
    "max_score": 3,
-   "price": 7.1501,
-   "move_pct": -0.21,
-   "cap_m": 1370.0,
-   "blocked": [
-    "שווי $1370M"
-   ],
+   "price": 2.5604,
+   "move_pct": -6.21,
+   "cap_m": 391.12,
+   "blocked": [],
    "tags": [
     "accel",
+    "vel3h",
     "short"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-31T09:39+00:00",
-   "ticker": "AMAT",
-   "score": 3,
-   "max_score": 3,
-   "price": 392.83,
-   "move_pct": -6.84,
-   "cap_m": 309570.0,
-   "blocked": [
-    "שווי $309570M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "spread",
-    "rising"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-10-31T09:39+00:00",
-   "ticker": "RKT",
-   "score": 3,
-   "max_score": 3,
-   "price": 12.7923,
-   "move_pct": 7.32,
-   "cap_m": 36250.0,
-   "blocked": [
-    "שווי $36250M"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "vel3h",
-    "novel"
    ],
    "alerted": false,
    "urgent": false
@@ -1104,7 +890,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-31",
+    "checked": "2026-11-01",
     "days": 4,
     "last_pct": -7.8,
     "max_close_pct": -1.8,
@@ -1123,7 +909,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-31",
+    "checked": "2026-11-01",
     "days": 4,
     "last_pct": -2.0,
     "max_close_pct": 0.6,
@@ -1144,7 +930,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-31",
+    "checked": "2026-11-01",
     "days": 4,
     "last_pct": 6.1,
     "max_close_pct": 6.1,
@@ -1164,7 +950,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-31",
+    "checked": "2026-11-01",
     "days": 4,
     "last_pct": 1.5,
     "max_close_pct": 3.1,
@@ -1184,7 +970,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-31",
+    "checked": "2026-11-01",
     "days": 4,
     "last_pct": -2.1,
     "max_close_pct": 4.8,
@@ -1206,7 +992,7 @@
    "blocked": false,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-31",
+    "checked": "2026-11-01",
     "days": 4,
     "last_pct": -2.0,
     "max_close_pct": 0.2,
@@ -1226,7 +1012,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-31",
+    "checked": "2026-11-01",
     "days": 4,
     "last_pct": 15.7,
     "max_close_pct": 21.6,
@@ -1246,7 +1032,7 @@
    "blocked": false,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-31",
+    "checked": "2026-11-01",
     "days": 4,
     "last_pct": 22.1,
     "max_close_pct": 22.5,
@@ -1266,7 +1052,7 @@
    "blocked": false,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-31",
+    "checked": "2026-11-01",
     "days": 4,
     "last_pct": -7.8,
     "max_close_pct": 2.9,
@@ -1287,7 +1073,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-31",
+    "checked": "2026-11-01",
     "days": 4,
     "last_pct": -9.3,
     "max_close_pct": 10.7,
@@ -1307,7 +1093,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-31",
+    "checked": "2026-11-01",
     "days": 4,
     "last_pct": -0.8,
     "max_close_pct": 1.7,
@@ -1327,7 +1113,7 @@
    "blocked": false,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-31",
+    "checked": "2026-11-01",
     "days": 4,
     "last_pct": -5.8,
     "max_close_pct": -4.4,
@@ -1347,7 +1133,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-31",
+    "checked": "2026-11-01",
     "days": 4,
     "last_pct": -6.2,
     "max_close_pct": 1.9,
@@ -1368,7 +1154,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-31",
+    "checked": "2026-11-01",
     "days": 4,
     "last_pct": -10.2,
     "max_close_pct": -4.0,
@@ -1390,7 +1176,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-31",
+    "checked": "2026-11-01",
     "days": 4,
     "last_pct": -1.3,
     "max_close_pct": 7.4,
@@ -1411,7 +1197,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-31",
+    "checked": "2026-11-01",
     "days": 4,
     "last_pct": 15.0,
     "max_close_pct": 18.1,
@@ -1430,7 +1216,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-31",
+    "checked": "2026-11-01",
     "days": 4,
     "last_pct": 5.7,
     "max_close_pct": 5.7,
@@ -1450,7 +1236,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-31",
+    "checked": "2026-11-01",
     "days": 4,
     "last_pct": -6.5,
     "max_close_pct": 1.0,
@@ -1471,7 +1257,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-31",
+    "checked": "2026-11-01",
     "days": 3,
     "last_pct": 25.3,
     "max_close_pct": 25.3,
@@ -1491,7 +1277,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-31",
+    "checked": "2026-11-01",
     "days": 3,
     "last_pct": 1.3,
     "max_close_pct": 1.3,
@@ -1513,7 +1299,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-31",
+    "checked": "2026-11-01",
     "days": 3,
     "last_pct": -4.6,
     "max_close_pct": 1.0,
@@ -1533,9 +1319,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-30",
-    "days": 2,
-    "last_pct": -3.6,
+    "checked": "2026-11-01",
+    "days": 3,
+    "last_pct": -11.6,
     "max_close_pct": -1.4,
     "max_high_pct": 1.2
    }
@@ -1555,9 +1341,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-30",
-    "days": 2,
-    "last_pct": 0.1,
+    "checked": "2026-11-01",
+    "days": 3,
+    "last_pct": -7.0,
     "max_close_pct": 0.1,
     "max_high_pct": 2.4
    }
@@ -1577,9 +1363,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-30",
-    "days": 2,
-    "last_pct": -3.3,
+    "checked": "2026-11-01",
+    "days": 3,
+    "last_pct": -10.4,
     "max_close_pct": 2.3,
     "max_high_pct": 3.5
    }
@@ -1598,9 +1384,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-30",
-    "days": 2,
-    "last_pct": 15.8,
+    "checked": "2026-11-01",
+    "days": 3,
+    "last_pct": 9.3,
     "max_close_pct": 15.8,
     "max_high_pct": 17.8
    }
@@ -1621,11 +1407,11 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-30",
-    "days": 2,
-    "last_pct": 14.4,
-    "max_close_pct": 14.4,
-    "max_high_pct": 19.8
+    "checked": "2026-11-01",
+    "days": 3,
+    "last_pct": 26.1,
+    "max_close_pct": 26.1,
+    "max_high_pct": 27.7
    }
   },
   {
@@ -1641,9 +1427,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-30",
-    "days": 2,
-    "last_pct": 0.5,
+    "checked": "2026-11-01",
+    "days": 3,
+    "last_pct": -5.6,
     "max_close_pct": 0.5,
     "max_high_pct": 2.9
    }
@@ -1663,9 +1449,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-30",
-    "days": 2,
-    "last_pct": 4.7,
+    "checked": "2026-11-01",
+    "days": 3,
+    "last_pct": 3.8,
     "max_close_pct": 4.7,
     "max_high_pct": 5.1
    }
@@ -1684,9 +1470,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-30",
-    "days": 2,
-    "last_pct": 0.1,
+    "checked": "2026-11-01",
+    "days": 3,
+    "last_pct": -9.8,
     "max_close_pct": 2.4,
     "max_high_pct": 12.9
    }
@@ -1705,9 +1491,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-30",
-    "days": 2,
-    "last_pct": 3.5,
+    "checked": "2026-11-01",
+    "days": 3,
+    "last_pct": -0.2,
     "max_close_pct": 3.5,
     "max_high_pct": 3.8
    }
@@ -1724,9 +1510,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-30",
-    "days": 2,
-    "last_pct": 0.9,
+    "checked": "2026-11-01",
+    "days": 3,
+    "last_pct": 0.1,
     "max_close_pct": 0.9,
     "max_high_pct": 1.1
    }
@@ -1743,11 +1529,11 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-30",
-    "days": 2,
-    "last_pct": 5.5,
-    "max_close_pct": 5.5,
-    "max_high_pct": 7.6
+    "checked": "2026-11-01",
+    "days": 3,
+    "last_pct": 9.2,
+    "max_close_pct": 9.2,
+    "max_high_pct": 9.9
    }
   },
   {
@@ -1763,9 +1549,9 @@
    "blocked": false,
    "alerted": true,
    "outcome": {
-    "checked": "2026-10-30",
-    "days": 2,
-    "last_pct": -1.2,
+    "checked": "2026-11-01",
+    "days": 3,
+    "last_pct": -8.5,
     "max_close_pct": -0.0,
     "max_high_pct": 4.6
    }
@@ -1787,9 +1573,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-30",
-    "days": 2,
-    "last_pct": 7.1,
+    "checked": "2026-11-01",
+    "days": 3,
+    "last_pct": 4.8,
     "max_close_pct": 34.0,
     "max_high_pct": 42.5
    }
@@ -1807,9 +1593,9 @@
    "blocked": false,
    "alerted": true,
    "outcome": {
-    "checked": "2026-10-30",
-    "days": 2,
-    "last_pct": 8.1,
+    "checked": "2026-11-01",
+    "days": 3,
+    "last_pct": 4.4,
     "max_close_pct": 8.1,
     "max_high_pct": 13.0
    }
@@ -1828,11 +1614,11 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-30",
-    "days": 2,
-    "last_pct": 5.3,
+    "checked": "2026-11-01",
+    "days": 3,
+    "last_pct": 5.2,
     "max_close_pct": 5.3,
-    "max_high_pct": 6.7
+    "max_high_pct": 7.6
    }
   },
   {
@@ -1851,9 +1637,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-30",
-    "days": 2,
-    "last_pct": -0.4,
+    "checked": "2026-11-01",
+    "days": 3,
+    "last_pct": -7.8,
     "max_close_pct": 3.7,
     "max_high_pct": 10.6
    }
@@ -1871,9 +1657,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-30",
-    "days": 2,
-    "last_pct": 1.8,
+    "checked": "2026-11-01",
+    "days": 3,
+    "last_pct": -5.2,
     "max_close_pct": 1.8,
     "max_high_pct": 6.9
    }
@@ -1891,8 +1677,8 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-30",
-    "days": 2,
+    "checked": "2026-11-01",
+    "days": 3,
     "last_pct": 1.4,
     "max_close_pct": 1.4,
     "max_high_pct": 2.1
@@ -1913,9 +1699,9 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-30",
-    "days": 2,
-    "last_pct": -11.2,
+    "checked": "2026-11-01",
+    "days": 3,
+    "last_pct": -18.9,
     "max_close_pct": -11.2,
     "max_high_pct": -5.6
    }
@@ -2818,336 +2604,76 @@
  ],
  "social_today": {
   "reddit_top": {
-   "DUOT": {
-    "m24_max": 8,
-    "authors24_max": 3,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-30T15:44+00:00",
-    "sample": "r/pennystocks: DUOT screaming buy?"
-   },
-   "HTZ": {
-    "m24_max": 5,
+   "INO": {
+    "m24_max": 6,
     "authors24_max": 4,
     "subs": [
-     "Shortsqueeze"
+     "Shortsqueeze",
+     "smallstreetbets"
     ],
-    "first_utc": "2026-10-30T14:40+00:00",
-    "sample": "r/Shortsqueeze: Short borrow fee rates creeping up again $HTZ"
+    "first_utc": "2026-10-31T13:32+00:00",
+    "sample": "r/smallstreetbets: INO, Whats next?"
    },
-   "SI": {
+   "NLST": {
     "m24_max": 4,
     "authors24_max": 4,
     "subs": [
-     "smallstreetbets"
+     "pennystocks"
     ],
-    "first_utc": "2026-10-31T02:02+00:00"
+    "first_utc": "2026-10-31T20:44+00:00",
+    "sample": "r/pennystocks: $NLST is going to be incredible"
    },
-   "WKHS": {
-    "m24_max": 2,
+   "HITI": {
+    "m24_max": 4,
     "authors24_max": 2,
     "subs": [
      "Shortsqueeze",
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-30T14:26+00:00",
-    "sample": "r/Shortsqueeze: WKHS Squeeze Finder alert on Oct30 2026, just entered the 100 club."
-   },
-   "TNMG": {
-    "m24_max": 2,
-    "authors24_max": 2,
-    "subs": [
      "pennystocks",
      "smallstreetbets"
     ],
-    "first_utc": "2026-10-30T13:09+00:00",
-    "sample": "r/pennystocks: 30 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+    "first_utc": "2026-10-31T15:12+00:00",
+    "sample": "r/Shortsqueeze: HIGH TIDE INC (NASDAQ: HITI) – An International Growth Model That Deserves Greater Attenti"
    },
-   "BURU": {
-    "m24_max": 2,
+   "BTC": {
+    "m24_max": 4,
     "authors24_max": 2,
     "subs": [
-     "pennystocks",
      "smallstreetbets"
     ],
-    "first_utc": "2026-10-30T13:09+00:00",
-    "sample": "r/pennystocks: 30 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+    "first_utc": "2026-11-01T02:08+00:00"
    },
-   "NRXP": {
-    "m24_max": 2,
-    "authors24_max": 2,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-30T14:26+00:00",
-    "sample": "r/pennystocks: 30 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-   },
-   "SLGB": {
-    "m24_max": 2,
-    "authors24_max": 2,
-    "subs": [
-     "pennystocks",
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-10-30T13:09+00:00",
-    "sample": "r/pennystocks: 30 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-   },
-   "HUBC": {
-    "m24_max": 2,
-    "authors24_max": 2,
-    "subs": [
-     "pennystocks",
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-10-30T13:09+00:00",
-    "sample": "r/pennystocks: 30 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-   },
-   "RZLV": {
-    "m24_max": 2,
-    "authors24_max": 2,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-30T13:08+00:00",
-    "sample": "r/pennystocks: RZLV be careful with dilution Damocles Sword"
-   },
-   "RDDT": {
+   "DNA": {
     "m24_max": 1,
     "authors24_max": 1,
     "subs": [
      "smallstreetbets"
     ],
-    "first_utc": "2026-10-30T17:14+00:00",
-    "sample": "r/smallstreetbets: Reddit Joins the Dump Dudes"
+    "first_utc": "2026-11-01T07:26+00:00",
+    "sample": "r/smallstreetbets: Am I regarded"
    },
-   "CCJ": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-30T16:39+00:00",
-    "sample": "r/pennystocks: Cameco's Disappointing Q3"
-   },
-   "BOX": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-30T14:30+00:00",
-    "sample": "r/pennystocks: DBO D-Box Technolgies"
-   },
-   "DBO": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-30T14:30+00:00",
-    "sample": "r/pennystocks: DBO D-Box Technolgies"
-   },
-   "CYPH": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-30T14:28+00:00",
-    "sample": "r/pennystocks: 30 OCT 2026, WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-   },
-   "QTEX": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-30T14:28+00:00",
-    "sample": "r/pennystocks: 30 OCT 2026, WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-   },
-   "COUR": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-30T14:28+00:00",
-    "sample": "r/pennystocks: 30 OCT 2026, WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-   },
-   "AXG": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-30T14:28+00:00",
-    "sample": "r/pennystocks: 30 OCT 2026, WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-   },
-   "TNL": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-30T14:26+00:00",
-    "sample": "r/pennystocks: 30 OCT 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-   },
-   "GOVX": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-30T13:49+00:00",
-    "sample": "r/pennystocks: Microcap Biotechs Hit by Tax Loss Selling- $CVM, $GOVX, $ONCY, $MBIO"
-   },
-   "ONCY": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-30T13:49+00:00",
-    "sample": "r/pennystocks: Microcap Biotechs Hit by Tax Loss Selling- $CVM, $GOVX, $ONCY, $MBIO"
-   },
-   "GEO": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-30T13:49+00:00",
-    "sample": "r/pennystocks: Microcap Biotechs Hit by Tax Loss Selling- $CVM, $GOVX, $ONCY, $MBIO"
-   },
-   "SCI": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-30T13:49+00:00",
-    "sample": "r/pennystocks: Microcap Biotechs Hit by Tax Loss Selling- $CVM, $GOVX, $ONCY, $MBIO"
-   },
-   "CAR": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-30T13:49+00:00",
-    "sample": "r/pennystocks: Microcap Biotechs Hit by Tax Loss Selling- $CVM, $GOVX, $ONCY, $MBIO"
-   },
-   "CVM": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-30T13:49+00:00",
-    "sample": "r/pennystocks: Microcap Biotechs Hit by Tax Loss Selling- $CVM, $GOVX, $ONCY, $MBIO"
-   },
-   "MBIO": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-30T13:49+00:00",
-    "sample": "r/pennystocks: Microcap Biotechs Hit by Tax Loss Selling- $CVM, $GOVX, $ONCY, $MBIO"
-   },
-   "CLGN": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-30T13:17+00:00",
-    "sample": "r/pennystocks: This might be the last chance to get in on this penny stock [CLGN]"
-   },
-   "DYOR": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-30T13:17+00:00",
-    "sample": "r/pennystocks: This might be the last chance to get in on this penny stock [CLGN]"
-   },
-   "DVLT": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-30T13:08+00:00",
-    "sample": "r/pennystocks: RZLV be careful with dilution Damocles Sword"
-   },
-   "CMRC": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-10-30T13:08+00:00",
-    "sample": "r/pennystocks: RZLV be careful with dilution Damocles Sword"
-   },
-   "HITI": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "RobinHoodPennyStocks"
-    ],
-    "first_utc": "2026-10-30T09:44+00:00",
-    "sample": "r/RobinHoodPennyStocks: HIGH TIDE INC (NASDAQ: HITI) – An International Growth Model That Deserves Greater Attenti"
-   },
-   "IA": {
+   "EBAY": {
     "m24_max": 1,
     "authors24_max": 1,
     "subs": [
      "smallstreetbets"
     ],
-    "first_utc": "2026-10-31T08:36+00:00"
+    "first_utc": "2026-11-01T09:16+00:00"
    },
-   "INO": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "Shortsqueeze"
-    ],
-    "first_utc": "2026-10-31T07:15+00:00"
-   },
-   "GYGY": {
+   "HTZ": {
     "m24_max": 1,
     "authors24_max": 1,
     "subs": [
      "pennystocks"
     ],
-    "first_utc": "2026-10-31T06:56+00:00"
+    "first_utc": "2026-11-01T06:50+00:00"
    },
-   "MCD": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-10-31T06:43+00:00"
-   },
-   "AWK": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-10-31T06:43+00:00"
-   },
-   "DC": {
+   "DPU": {
     "m24_max": 1,
     "authors24_max": 1,
     "subs": [
      "pennystocks"
     ],
-    "first_utc": "2026-10-31T04:47+00:00"
+    "first_utc": "2026-11-01T06:50+00:00"
    },
    "CLIR": {
     "m24_max": 1,
@@ -3155,1360 +2681,360 @@
     "subs": [
      "pennystocks"
     ],
-    "first_utc": "2026-10-31T04:06+00:00"
+    "first_utc": "2026-11-01T04:06+00:00"
    },
-   "DJT": {
+   "ONCY": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-01T02:39+00:00"
+   },
+   "CVM": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-01T02:39+00:00"
+   },
+   "MBIO": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-01T02:39+00:00"
+   },
+   "GOVX": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-01T02:39+00:00"
+   },
+   "SI": {
     "m24_max": 1,
     "authors24_max": 1,
     "subs": [
      "smallstreetbets"
     ],
-    "first_utc": "2026-10-31T03:43+00:00"
+    "first_utc": "2026-11-01T00:38+00:00"
+   },
+   "AGI": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-11-01T00:38+00:00"
+   },
+   "NRXP": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-31T23:59+00:00"
+   },
+   "HBM": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-31T23:48+00:00"
+   },
+   "FTNT": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-10-31T23:21+00:00"
+   },
+   "CYPH": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-10-31T21:07+00:00"
    }
   },
   "telegram_top": {
-   "SG": {
-    "m24_max": 57,
-    "authors24_max": 6,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T11:39+00:00"
-   },
    "INR": {
-    "m24_max": 57,
+    "m24_max": 63,
     "authors24_max": 6,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T11:39+00:00"
-   },
-   "FUND": {
-    "m24_max": 32,
-    "authors24_max": 4,
-    "chats24_max": 2,
-    "first_utc": "2026-10-30T11:39+00:00"
+    "first_utc": "2026-10-31T11:43+00:00"
    },
    "PAY": {
-    "m24_max": 30,
+    "m24_max": 33,
     "authors24_max": 3,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T11:39+00:00"
+    "first_utc": "2026-10-31T12:08+00:00"
    },
-   "IDR": {
+   "HQ": {
+    "m24_max": 33,
+    "authors24_max": 3,
+    "chats24_max": 1,
+    "first_utc": "2026-10-31T12:08+00:00"
+   },
+   "SG": {
     "m24_max": 30,
     "authors24_max": 3,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T11:39+00:00"
+    "first_utc": "2026-10-31T11:43+00:00"
    },
    "HKD": {
-    "m24_max": 27,
+    "m24_max": 30,
     "authors24_max": 3,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T12:57+00:00"
+    "first_utc": "2026-10-31T11:43+00:00"
    },
    "LAW": {
-    "m24_max": 12,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T20:14+00:00"
-   },
-   "GOOS": {
-    "m24_max": 9,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T12:31+00:00"
-   },
-   "NDAQ": {
-    "m24_max": 6,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:33+00:00"
-   },
-   "REGN": {
     "m24_max": 5,
-    "authors24_max": 2,
-    "chats24_max": 2,
-    "first_utc": "2026-10-30T10:40+00:00"
-   },
-   "VS": {
-    "m24_max": 4,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T12:31+00:00"
-   },
-   "UK": {
-    "m24_max": 4,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T10:19+00:00"
-   },
-   "PTC": {
-    "m24_max": 3,
-    "authors24_max": 2,
-    "chats24_max": 2,
-    "first_utc": "2026-10-30T13:07+00:00"
-   },
-   "DOW": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:32+00:00"
-   },
-   "STT": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T18:20+00:00"
-   },
-   "SPOT": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T12:15+00:00"
-   },
-   "REFI": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:45+00:00"
-   },
-   "NRXP": {
-    "m24_max": 3,
-    "authors24_max": 2,
-    "chats24_max": 2,
-    "first_utc": "2026-10-30T13:07+00:00"
-   },
-   "GABC": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:01+00:00"
-   },
-   "SB": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:07+00:00"
-   },
-   "AD": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:07+00:00"
-   },
-   "ABOS": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:07+00:00"
+    "first_utc": "2026-10-31T18:15+00:00"
    },
    "PGP": {
-    "m24_max": 3,
+    "m24_max": 4,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T10:49+00:00"
+    "first_utc": "2026-10-31T11:12+00:00"
    },
-   "RACE": {
+   "LIVE": {
     "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T21:16+00:00"
+    "first_utc": "2026-10-31T18:25+00:00"
    },
-   "MPT": {
+   "DAVE": {
     "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T15:54+00:00"
+    "first_utc": "2026-10-31T18:26+00:00"
    },
-   "PAC": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T18:55+00:00"
-   },
-   "F": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T17:20+00:00"
-   },
-   "RIG": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T17:02+00:00"
-   },
-   "BKR": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T17:02+00:00"
-   },
-   "FT": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T16:47+00:00"
-   },
-   "SAN": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:05+00:00"
-   },
-   "RDDT": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T15:15+00:00"
-   },
-   "ATEC": {
-    "m24_max": 2,
-    "authors24_max": 2,
-    "chats24_max": 2,
-    "first_utc": "2026-10-30T13:07+00:00"
-   },
-   "PMI": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:45+00:00"
-   },
-   "MA": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T12:35+00:00"
-   },
-   "OZ": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T12:15+00:00"
-   },
-   "KYIV": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T12:05+00:00"
-   },
-   "PULM": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:07+00:00"
-   },
-   "TRX": {
+   "SUI": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-31T09:12+00:00"
+    "first_utc": "2026-11-01T09:55+00:00"
    },
    "ATOM": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-31T08:56+00:00"
-   }
-  },
-  "telegram_all": {
-   "HKD": {
-    "m24_max": 27,
-    "authors24_max": 3,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T12:57+00:00"
-   },
-   "SG": {
-    "m24_max": 57,
-    "authors24_max": 6,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T11:39+00:00"
-   },
-   "INR": {
-    "m24_max": 57,
-    "authors24_max": 6,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T11:39+00:00"
-   },
-   "PAY": {
-    "m24_max": 30,
-    "authors24_max": 3,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T11:39+00:00"
-   },
-   "FUND": {
-    "m24_max": 32,
-    "authors24_max": 4,
-    "chats24_max": 2,
-    "first_utc": "2026-10-30T11:39+00:00"
-   },
-   "IDR": {
-    "m24_max": 30,
-    "authors24_max": 3,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T11:39+00:00"
-   },
-   "TRX": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-31T09:12+00:00"
-   },
-   "ATOM": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-31T08:56+00:00"
-   },
-   "BCH": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-31T08:47+00:00"
+    "first_utc": "2026-11-01T09:01+00:00"
    },
    "XRP": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-31T07:34+00:00"
+    "first_utc": "2026-11-01T07:33+00:00"
    },
-   "LAW": {
-    "m24_max": 12,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T20:14+00:00"
-   },
-   "DAN": {
+   "BILL": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T23:31+00:00"
+    "first_utc": "2026-10-31T21:11+00:00"
    },
-   "KEN": {
+   "JACK": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T23:31+00:00"
+    "first_utc": "2026-10-31T21:11+00:00"
    },
-   "TX": {
+   "MI": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T23:15+00:00"
+    "first_utc": "2026-10-31T20:55+00:00"
    },
    "MAN": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T22:43+00:00"
+    "first_utc": "2026-10-31T19:35+00:00"
    },
    "RACE": {
-    "m24_max": 2,
+    "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T21:16+00:00"
+    "first_utc": "2026-10-31T19:35+00:00"
    },
    "HD": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T22:34+00:00"
+    "first_utc": "2026-10-31T19:35+00:00"
    },
-   "ANNA": {
+   "ERIC": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T22:26+00:00"
+    "first_utc": "2026-10-31T18:47+00:00"
    },
-   "OKTA": {
+   "DAN": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T21:52+00:00"
+    "first_utc": "2026-10-31T18:22+00:00"
    },
-   "PTC": {
-    "m24_max": 3,
-    "authors24_max": 2,
-    "chats24_max": 2,
-    "first_utc": "2026-10-30T13:07+00:00"
-   },
-   "PTCT": {
+   "GT": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T21:04+00:00"
+    "first_utc": "2026-10-31T18:20+00:00"
    },
-   "ARCB": {
+   "RYAN": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T20:45+00:00"
+    "first_utc": "2026-10-31T18:15+00:00"
+   }
+  },
+  "telegram_all": {
+   "INR": {
+    "m24_max": 63,
+    "authors24_max": 6,
+    "chats24_max": 1,
+    "first_utc": "2026-10-31T11:43+00:00"
    },
-   "ROK": {
+   "PAY": {
+    "m24_max": 33,
+    "authors24_max": 3,
+    "chats24_max": 1,
+    "first_utc": "2026-10-31T12:08+00:00"
+   },
+   "HQ": {
+    "m24_max": 33,
+    "authors24_max": 3,
+    "chats24_max": 1,
+    "first_utc": "2026-10-31T12:08+00:00"
+   },
+   "SG": {
+    "m24_max": 30,
+    "authors24_max": 3,
+    "chats24_max": 1,
+    "first_utc": "2026-10-31T11:43+00:00"
+   },
+   "HKD": {
+    "m24_max": 30,
+    "authors24_max": 3,
+    "chats24_max": 1,
+    "first_utc": "2026-10-31T11:43+00:00"
+   },
+   "SUI": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T20:19+00:00"
+    "first_utc": "2026-11-01T09:55+00:00"
    },
-   "LDOS": {
+   "ATOM": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T20:17+00:00"
+    "first_utc": "2026-11-01T09:01+00:00"
    },
-   "CSL": {
+   "XRP": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T20:16+00:00"
+    "first_utc": "2026-11-01T07:33+00:00"
    },
-   "RVTY": {
+   "BILL": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T20:13+00:00"
+    "first_utc": "2026-10-31T21:11+00:00"
    },
-   "NDAQ": {
-    "m24_max": 6,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:33+00:00"
-   },
-   "DOW": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:32+00:00"
-   },
-   "TGS": {
+   "JACK": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T19:59+00:00"
+    "first_utc": "2026-10-31T21:11+00:00"
    },
-   "CVSA": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T19:58+00:00"
-   },
-   "PLG": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T19:58+00:00"
-   },
-   "ALNY": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T19:57+00:00"
-   },
-   "MPT": {
+   "LIVE": {
     "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T15:54+00:00"
+    "first_utc": "2026-10-31T18:25+00:00"
    },
-   "HLP": {
+   "MI": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T19:56+00:00"
+    "first_utc": "2026-10-31T20:55+00:00"
    },
-   "RGEN": {
+   "MAN": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T19:54+00:00"
+    "first_utc": "2026-10-31T19:35+00:00"
    },
-   "STRZ": {
+   "RACE": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T19:52+00:00"
+    "first_utc": "2026-10-31T19:35+00:00"
    },
-   "ADT": {
+   "HD": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T19:49+00:00"
+    "first_utc": "2026-10-31T19:35+00:00"
    },
-   "RSI": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T19:48+00:00"
-   },
-   "CURR": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T19:46+00:00"
-   },
-   "CNC": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T19:40+00:00"
-   },
-   "XMAX": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T19:39+00:00"
-   },
-   "STC": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T19:38+00:00"
-   },
-   "JOF": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T19:34+00:00"
-   },
-   "STEW": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T19:23+00:00"
-   },
-   "LCID": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T19:21+00:00"
-   },
-   "STT": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T18:20+00:00"
-   },
-   "PAC": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T18:55+00:00"
-   },
-   "SXT": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T19:02+00:00"
-   },
-   "PINS": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T18:54+00:00"
-   },
-   "REGN": {
+   "LAW": {
     "m24_max": 5,
-    "authors24_max": 2,
-    "chats24_max": 2,
-    "first_utc": "2026-10-30T10:40+00:00"
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-10-31T18:15+00:00"
    },
-   "COUR": {
+   "ERIC": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T18:43+00:00"
+    "first_utc": "2026-10-31T18:47+00:00"
    },
-   "ZH": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T18:36+00:00"
-   },
-   "GIL": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T18:31+00:00"
-   },
-   "TLRY": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T18:19+00:00"
-   },
-   "RBLX": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T18:13+00:00"
-   },
-   "SIRI": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T18:11+00:00"
-   },
-   "VABK": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T18:02+00:00"
-   },
-   "TUSK": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T17:50+00:00"
-   },
-   "MEOH": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T17:40+00:00"
-   },
-   "CACC": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T17:38+00:00"
-   },
-   "F": {
+   "DAVE": {
     "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T17:20+00:00"
+    "first_utc": "2026-10-31T18:26+00:00"
    },
-   "AI": {
+   "DAN": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T17:28+00:00"
+    "first_utc": "2026-10-31T18:22+00:00"
    },
-   "SAY": {
+   "GT": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T17:20+00:00"
+    "first_utc": "2026-10-31T18:20+00:00"
    },
-   "LOAN": {
+   "RYAN": {
     "m24_max": 1,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T17:12+00:00"
-   },
-   "ZION": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T17:07+00:00"
-   },
-   "RIG": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T17:02+00:00"
-   },
-   "SNY": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T17:02+00:00"
-   },
-   "TWLO": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T17:02+00:00"
-   },
-   "BKR": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T17:02+00:00"
-   },
-   "PKOH": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T16:49+00:00"
-   },
-   "GOOS": {
-    "m24_max": 9,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T12:31+00:00"
-   },
-   "FT": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T16:47+00:00"
-   },
-   "WTF": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T16:40+00:00"
-   },
-   "SGHC": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T16:38+00:00"
-   },
-   "CRMD": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T16:37+00:00"
-   },
-   "TONT": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T16:36+00:00"
-   },
-   "GPN": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T16:35+00:00"
-   },
-   "TER": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T16:32+00:00"
-   },
-   "TASK": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T16:31+00:00"
-   },
-   "CIM": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T16:13+00:00"
-   },
-   "CBOE": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T16:05+00:00"
-   },
-   "VST": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T16:03+00:00"
-   },
-   "SAN": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:05+00:00"
-   },
-   "ACCO": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T15:50+00:00"
-   },
-   "NPKI": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T15:49+00:00"
-   },
-   "FXAC": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T15:48+00:00"
-   },
-   "VS": {
-    "m24_max": 4,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T12:31+00:00"
-   },
-   "NET": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T15:44+00:00"
-   },
-   "RDDT": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T15:15+00:00"
-   },
-   "OSPN": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T15:34+00:00"
-   },
-   "GDYN": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T15:33+00:00"
-   },
-   "III": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T15:22+00:00"
-   },
-   "BFAM": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T15:18+00:00"
-   },
-   "XRX": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T15:10+00:00"
-   },
-   "TGE": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T15:10+00:00"
-   },
-   "BEBE": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T15:10+00:00"
-   },
-   "FBIZ": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T15:07+00:00"
-   },
-   "VALE": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T15:05+00:00"
-   },
-   "FCRS": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T15:03+00:00"
-   },
-   "HTO": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T15:01+00:00"
-   },
-   "IBKR": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T14:51+00:00"
-   },
-   "UK": {
-    "m24_max": 4,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T10:19+00:00"
-   },
-   "CVEO": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T14:40+00:00"
-   },
-   "SPOT": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T12:15+00:00"
-   },
-   "GLD": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T14:39+00:00"
-   },
-   "SELF": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T14:37+00:00"
-   },
-   "AMTM": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T14:33+00:00"
-   },
-   "ATEC": {
-    "m24_max": 2,
-    "authors24_max": 2,
-    "chats24_max": 2,
-    "first_utc": "2026-10-30T13:07+00:00"
-   },
-   "FLNT": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T14:32+00:00"
-   },
-   "UAA": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T14:27+00:00"
-   },
-   "MOVE": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T14:20+00:00"
-   },
-   "CSQR": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T14:14+00:00"
-   },
-   "ASUR": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T14:10+00:00"
-   },
-   "GLXY": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T14:09+00:00"
-   },
-   "REFI": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:45+00:00"
-   },
-   "PMI": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:45+00:00"
-   },
-   "NRXP": {
-    "m24_max": 3,
-    "authors24_max": 2,
-    "chats24_max": 2,
-    "first_utc": "2026-10-30T13:07+00:00"
-   },
-   "MA": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T12:35+00:00"
-   },
-   "OZ": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T12:15+00:00"
-   },
-   "FOUR": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:09+00:00"
-   },
-   "OI": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:08+00:00"
-   },
-   "NCLH": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:07+00:00"
-   },
-   "APPS": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:05+00:00"
-   },
-   "GABC": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:01+00:00"
-   },
-   "BP": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T12:58+00:00"
-   },
-   "VTRS": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T12:43+00:00"
-   },
-   "MSA": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T12:33+00:00"
-   },
-   "KYIV": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T12:05+00:00"
-   },
-   "RBC": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T12:05+00:00"
-   },
-   "ABBV": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T11:48+00:00"
-   },
-   "FOX": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T11:44+00:00"
-   },
-   "LOT": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T11:44+00:00"
-   },
-   "PBH": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T11:39+00:00"
-   },
-   "TDS": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T11:32+00:00"
-   },
-   "LZB": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T11:08+00:00"
-   },
-   "NXST": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T11:06+00:00"
-   },
-   "FLOC": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T11:06+00:00"
-   },
-   "CPRI": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T11:05+00:00"
-   },
-   "LEA": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T11:02+00:00"
-   },
-   "GD": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T11:01+00:00"
-   },
-   "CL": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T10:57+00:00"
-   },
-   "NOMD": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T10:48+00:00"
-   },
-   "KVUE": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T10:47+00:00"
-   },
-   "LYB": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T10:37+00:00"
-   },
-   "VLO": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T10:35+00:00"
-   },
-   "ACT": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T10:19+00:00"
-   },
-   "LPG": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T10:08+00:00"
-   },
-   "EEFT": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T10:03+00:00"
-   },
-   "BHB": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T21:07+00:00"
-   },
-   "NVNO": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T21:07+00:00"
-   },
-   "CVI": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T21:07+00:00"
-   },
-   "BRVE": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T21:07+00:00"
-   },
-   "AGIO": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T21:07+00:00"
-   },
-   "MBRX": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T21:07+00:00"
-   },
-   "SB": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:07+00:00"
-   },
-   "NVO": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T21:07+00:00"
-   },
-   "AG": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T21:07+00:00"
-   },
-   "AD": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:07+00:00"
-   },
-   "ABOS": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:07+00:00"
-   },
-   "VOR": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T21:07+00:00"
-   },
-   "MB": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T21:07+00:00"
-   },
-   "ALKS": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T21:07+00:00"
-   },
-   "HOWL": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T21:07+00:00"
-   },
-   "MG": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T21:07+00:00"
-   },
-   "PULM": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:07+00:00"
-   },
-   "CDT": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T21:07+00:00"
-   },
-   "ANVS": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T21:07+00:00"
-   },
-   "PTHS": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T21:07+00:00"
-   },
-   "TWST": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T21:07+00:00"
-   },
-   "SEER": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T21:07+00:00"
-   },
-   "OABI": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:07+00:00"
-   },
-   "SYK": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:07+00:00"
-   },
-   "GLP": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:07+00:00"
-   },
-   "GUTS": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:07+00:00"
-   },
-   "CDNA": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T13:07+00:00"
-   },
-   "TDTH": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T16:50+00:00"
-   },
-   "EMAT": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T16:41+00:00"
-   },
-   "BURU": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T16:34+00:00"
-   },
-   "MW": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T16:28+00:00"
-   },
-   "AZ": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T16:28+00:00"
-   },
-   "ZSQR": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-10-30T16:28+00:00"
+    "first_utc": "2026-10-31T18:15+00:00"
    },
    "PGP": {
-    "m24_max": 3,
+    "m24_max": 4,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-10-30T10:49+00:00"
+    "first_utc": "2026-10-31T11:12+00:00"
    }
   }
  },
- "errors_today": {
-  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/TTM": 1,
-  "HTTP 404 https: //finviz.com/quote.ashx?t=TTM&p=d": 1,
-  "HTTP 404 https: //stockanalysis.com/stocks/ttm/statistics/": 1,
-  "no fundamentals for TTM": 1
- },
+ "social_lookback": {},
+ "errors_today": {},
  "closes_asof": null,
  "closes": {}
 }

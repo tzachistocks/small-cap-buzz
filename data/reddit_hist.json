@@ -4713,5 +4713,166 @@
    ],
    "first_utc": "2026-10-31T03:43+00:00"
   }
+ },
+ "2026-11-01": {
+  "INO": {
+   "m24_max": 6,
+   "authors24_max": 4,
+   "subs": [
+    "Shortsqueeze",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-31T13:32+00:00",
+   "sample": "r/smallstreetbets: INO, Whats next?"
+  },
+  "NLST": {
+   "m24_max": 4,
+   "authors24_max": 4,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-31T20:44+00:00",
+   "sample": "r/pennystocks: $NLST is going to be incredible"
+  },
+  "HITI": {
+   "m24_max": 4,
+   "authors24_max": 2,
+   "subs": [
+    "Shortsqueeze",
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-31T15:12+00:00",
+   "sample": "r/Shortsqueeze: HIGH TIDE INC (NASDAQ: HITI) – An International Growth Model That Deserves Greater Attenti"
+  },
+  "BTC": {
+   "m24_max": 4,
+   "authors24_max": 2,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-01T02:08+00:00"
+  },
+  "DNA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-01T07:26+00:00",
+   "sample": "r/smallstreetbets: Am I regarded"
+  },
+  "EBAY": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-01T09:16+00:00"
+  },
+  "HTZ": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-01T06:50+00:00"
+  },
+  "DPU": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-01T06:50+00:00"
+  },
+  "CLIR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-01T04:06+00:00"
+  },
+  "ONCY": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-01T02:39+00:00"
+  },
+  "CVM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-01T02:39+00:00"
+  },
+  "MBIO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-01T02:39+00:00"
+  },
+  "GOVX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-01T02:39+00:00"
+  },
+  "SI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-01T00:38+00:00"
+  },
+  "AGI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-01T00:38+00:00"
+  },
+  "NRXP": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-31T23:59+00:00"
+  },
+  "HBM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-31T23:48+00:00"
+  },
+  "FTNT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-10-31T23:21+00:00"
+  },
+  "CYPH": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-10-31T21:07+00:00"
+  }
  }
 }

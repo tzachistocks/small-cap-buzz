@@ -6100,5 +6100,139 @@
    "chats24_max": 1,
    "first_utc": "2026-10-30T10:49+00:00"
   }
+ },
+ "2026-11-01": {
+  "INR": {
+   "m24_max": 63,
+   "authors24_max": 6,
+   "chats24_max": 1,
+   "first_utc": "2026-10-31T11:43+00:00"
+  },
+  "PAY": {
+   "m24_max": 33,
+   "authors24_max": 3,
+   "chats24_max": 1,
+   "first_utc": "2026-10-31T12:08+00:00"
+  },
+  "HQ": {
+   "m24_max": 33,
+   "authors24_max": 3,
+   "chats24_max": 1,
+   "first_utc": "2026-10-31T12:08+00:00"
+  },
+  "SG": {
+   "m24_max": 30,
+   "authors24_max": 3,
+   "chats24_max": 1,
+   "first_utc": "2026-10-31T11:43+00:00"
+  },
+  "HKD": {
+   "m24_max": 30,
+   "authors24_max": 3,
+   "chats24_max": 1,
+   "first_utc": "2026-10-31T11:43+00:00"
+  },
+  "SUI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T09:55+00:00"
+  },
+  "ATOM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T09:01+00:00"
+  },
+  "XRP": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T07:33+00:00"
+  },
+  "BILL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-31T21:11+00:00"
+  },
+  "JACK": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-31T21:11+00:00"
+  },
+  "LIVE": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-31T18:25+00:00"
+  },
+  "MI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-31T20:55+00:00"
+  },
+  "MAN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-31T19:35+00:00"
+  },
+  "RACE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-31T19:35+00:00"
+  },
+  "HD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-31T19:35+00:00"
+  },
+  "LAW": {
+   "m24_max": 5,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-31T18:15+00:00"
+  },
+  "ERIC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-31T18:47+00:00"
+  },
+  "DAVE": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-31T18:26+00:00"
+  },
+  "DAN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-31T18:22+00:00"
+  },
+  "GT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-31T18:20+00:00"
+  },
+  "RYAN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-31T18:15+00:00"
+  },
+  "PGP": {
+   "m24_max": 4,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-10-31T11:12+00:00"
+  }
  }
 }

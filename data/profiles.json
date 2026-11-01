@@ -173,5 +173,12 @@
   "asia": null,
   "sic": "Retail-Hobby, Toy & Game Shops",
   "ts": "2026-10-31T09:41+00:00"
+ },
+ "SPCE": {
+  "country": "CA",
+  "inc": "",
+  "asia": null,
+  "sic": "Transportation Services",
+  "ts": "2026-11-01T10:28+00:00"
  }
 }
