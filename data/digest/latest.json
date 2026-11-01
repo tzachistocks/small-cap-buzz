@@ -1,19 +1,19 @@
 {
  "date": "2026-11-01",
- "generated_at": "2026-11-01T22:07+00:00",
+ "generated_at": "2026-11-01T23:07+00:00",
  "final": true,
  "runs": {
-  "count": 2,
+  "count": 3,
   "first": "2026-11-01T10:27+00:00",
-  "last": "2026-11-01T22:07+00:00",
+  "last": "2026-11-01T23:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 581,
+   "buzz_tickers": 872,
    "mention_gate": 4,
    "reddit_path": 0,
    "telegram_path": 0,
    "news_path": 0,
-   "skipped_large_cache": 12,
-   "shadow_gate": 10,
+   "skipped_large_cache": 17,
+   "shadow_gate": 15,
    "to_check": 2,
    "checked": 2,
    "not_checked_time": 0,
@@ -30,7 +30,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 260
+   "messages": 267
   },
   "per_run": [
    {
@@ -43,6 +43,13 @@
    {
     "ts": "2026-11-01T22:07+00:00",
     "checked": 1,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 0
+   },
+   {
+    "ts": "2026-11-01T23:07+00:00",
+    "checked": 0,
     "sent": 0,
     "send_failed": 0,
     "errors_n": 0
@@ -2603,11 +2610,495 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-10-30",
-    "days": 1,
-    "last_pct": 19.9,
+    "checked": "2026-11-01",
+    "days": 2,
+    "last_pct": 1.6,
     "max_close_pct": 19.9,
     "max_high_pct": 22.5
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "NRXP",
+   "max_score": 12,
+   "price": 3.3613,
+   "tags": [
+    "accel",
+    "spread",
+    "authors",
+    "short",
+    "low_float",
+    "st_msgs",
+    "pr_weak",
+    "pr_strong",
+    "vel3h",
+    "rvol",
+    "rising",
+    "relaxed_gate",
+    "one_author",
+    "telegram_weak"
+   ],
+   "blocked": true,
+   "alerted": true,
+   "outcome": {
+    "checked": "2026-11-01",
+    "days": 1,
+    "last_pct": -32.5,
+    "max_close_pct": -32.5,
+    "max_high_pct": -15.5
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "EDIT",
+   "max_score": 4,
+   "price": 2.93,
+   "tags": [
+    "accel",
+    "spread",
+    "rising",
+    "short",
+    "word",
+    "vel3h"
+   ],
+   "blocked": false,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-01",
+    "days": 1,
+    "last_pct": -8.9,
+    "max_close_pct": -8.9,
+    "max_high_pct": -0.3
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "AMC",
+   "max_score": 5,
+   "price": 3.05,
+   "tags": [
+    "accel",
+    "vel3h",
+    "spread"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-01",
+    "days": 1,
+    "last_pct": 0.3,
+    "max_close_pct": 0.3,
+    "max_high_pct": 1.6
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "LOT",
+   "max_score": 6,
+   "price": 0.4102,
+   "tags": [
+    "spread",
+    "rising",
+    "rvol",
+    "relaxed_gate",
+    "accel",
+    "vel3h"
+   ],
+   "blocked": false,
+   "alerted": true,
+   "outcome": {
+    "checked": "2026-11-01",
+    "days": 1,
+    "last_pct": -4.2,
+    "max_close_pct": -4.2,
+    "max_high_pct": -0.0
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "III",
+   "max_score": 4,
+   "price": 6.1234,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "rising",
+    "low_float",
+    "pr_weak"
+   ],
+   "blocked": false,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-01",
+    "days": 1,
+    "last_pct": -0.4,
+    "max_close_pct": -0.4,
+    "max_high_pct": 0.4
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "CAKE",
+   "max_score": 4,
+   "price": 112.0,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "rising",
+    "short",
+    "low_float"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-01",
+    "days": 1,
+    "last_pct": 0.6,
+    "max_close_pct": 0.6,
+    "max_high_pct": 3.5
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "NUWE",
+   "max_score": 3,
+   "price": 5.75,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "low_float",
+    "rvol",
+    "rsplit"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-01",
+    "days": 1,
+    "last_pct": -1.2,
+    "max_close_pct": -1.2,
+    "max_high_pct": 6.1
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "PEG",
+   "max_score": 3,
+   "price": 73.63,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "spread"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-01",
+    "days": 1,
+    "last_pct": 0.9,
+    "max_close_pct": 0.9,
+    "max_high_pct": 1.1
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "BYND",
+   "max_score": 5,
+   "price": 7.3101,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "short",
+    "low_float",
+    "borrow_fee",
+    "pr_weak",
+    "st_msgs"
+   ],
+   "blocked": false,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-01",
+    "days": 1,
+    "last_pct": -5.5,
+    "max_close_pct": -5.5,
+    "max_high_pct": -1.5
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "BP",
+   "max_score": 4,
+   "price": 51.05,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "spread",
+    "rising"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-01",
+    "days": 1,
+    "last_pct": -1.3,
+    "max_close_pct": -1.3,
+    "max_high_pct": -0.4
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "IQ",
+   "max_score": 5,
+   "price": 0.8211,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "spread",
+    "vel3h",
+    "rising"
+   ],
+   "blocked": false,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-01",
+    "days": 1,
+    "last_pct": 0.6,
+    "max_close_pct": 0.6,
+    "max_high_pct": 2.7
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "GILD",
+   "max_score": 4,
+   "price": 173.49,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "spread",
+    "rising",
+    "novel"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-01",
+    "days": 1,
+    "last_pct": -1.6,
+    "max_close_pct": -1.6,
+    "max_high_pct": 1.2
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "GYGY",
+   "max_score": 10,
+   "price": 0.39,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "spread",
+    "st_msgs",
+    "low_float",
+    "borrow_fee",
+    "short",
+    "sec_negative",
+    "rising",
+    "rvol"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-01",
+    "days": 1,
+    "last_pct": 7.7,
+    "max_close_pct": 7.7,
+    "max_high_pct": 12.8
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "LINK",
+   "max_score": 3,
+   "price": 3.98,
+   "tags": [
+    "relaxed_gate",
+    "spread",
+    "low_float"
+   ],
+   "blocked": false,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-01",
+    "days": 1,
+    "last_pct": -4.8,
+    "max_close_pct": -4.8,
+    "max_high_pct": 0.6
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "BURU",
+   "max_score": 4,
+   "price": 0.2701,
+   "tags": [
+    "spread",
+    "authors",
+    "low_float",
+    "rvol",
+    "rsplit"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-01",
+    "days": 1,
+    "last_pct": 6.3,
+    "max_close_pct": 6.3,
+    "max_high_pct": 129.5
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "WKHS",
+   "max_score": 10,
+   "price": 2.9,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "spread",
+    "novel",
+    "st_msgs",
+    "short",
+    "low_float",
+    "rvol",
+    "sec_strong",
+    "pr_weak"
+   ],
+   "blocked": false,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-01",
+    "days": 1,
+    "last_pct": 1.7,
+    "max_close_pct": 1.7,
+    "max_high_pct": 6.9
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "DUOT",
+   "max_score": 5,
+   "price": 6.28,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "spread",
+    "novel",
+    "short",
+    "low_float"
+   ],
+   "blocked": false,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-01",
+    "days": 1,
+    "last_pct": -1.3,
+    "max_close_pct": -1.3,
+    "max_high_pct": 1.6
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "NVT",
+   "max_score": 3,
+   "price": 124.88,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "novel"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-01",
+    "days": 1,
+    "last_pct": 0.9,
+    "max_close_pct": 0.9,
+    "max_high_pct": 8.9
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "CAN",
+   "max_score": 3,
+   "price": 0.193,
+   "tags": [
+    "accel",
+    "vel3h",
+    "rising",
+    "st_msgs",
+    "word",
+    "asia"
+   ],
+   "blocked": false,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-01",
+    "days": 1,
+    "last_pct": 4.1,
+    "max_close_pct": 4.1,
+    "max_high_pct": 9.3
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "QCOM",
+   "max_score": 3,
+   "price": 162.51,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "rvol",
+    "xueqiu"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-01",
+    "days": 1,
+    "last_pct": 1.4,
+    "max_close_pct": 1.4,
+    "max_high_pct": 8.4
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "ticker": "ABOS",
+   "max_score": 4,
+   "price": 0.2365,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "spread",
+    "novel",
+    "telegram_weak",
+    "st_msgs",
+    "rvol",
+    "sec_weak",
+    "pr_negative"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-01",
+    "days": 1,
+    "last_pct": -11.2,
+    "max_close_pct": -11.2,
+    "max_high_pct": 48.8
    }
   }
  ],
@@ -3023,6 +3514,24 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-01T17:44+00:00"
+   },
+   "PSMT": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-01T23:06+00:00"
+   },
+   "SYBT": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-01T23:06+00:00"
+   },
+   "MAX": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-01T22:25+00:00"
    }
   },
   "telegram_all": {
@@ -3193,6 +3702,24 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-01T17:44+00:00"
+   },
+   "PSMT": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-01T23:06+00:00"
+   },
+   "SYBT": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-01T23:06+00:00"
+   },
+   "MAX": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-01T22:25+00:00"
    }
   }
  },
@@ -3460,6 +3987,159 @@
     "full_window": false
    },
    "timing": "לפני – 2 ימים לפני (reddit); StockTwits 179 הודעות לפני הפתיחה (חלון חלקי)"
+  },
+  "OSPN": {
+   "rank": 16,
+   "first": {
+    "stocktwits": "2026-10-29T17:25+00:00",
+    "telegram": "2026-10-30T15:34+00:00"
+   },
+   "stocktwits": {
+    "by_day": {
+     "2026-10-30": 23,
+     "2026-10-29": 7
+    },
+    "msgs_before_open": 30,
+    "burst_utc": "2026-10-29T17:25+00:00",
+    "users_before_open": 16,
+    "first_utc": "2026-10-29T17:25+00:00",
+    "full_window": true
+   },
+   "timing": "לפני – 3 ימים לפני (stocktwits); StockTwits 30 הודעות לפני הפתיחה"
+  },
+  "ZJYL": {
+   "rank": 17,
+   "first": {
+    "stocktwits": "2026-10-30T17:25+00:00"
+   },
+   "stocktwits": {
+    "by_day": {
+     "2026-10-31": 1,
+     "2026-10-30": 8
+    },
+    "msgs_before_open": 9,
+    "burst_utc": "2026-10-30T17:25+00:00",
+    "users_before_open": 6,
+    "first_utc": "2026-10-30T17:25+00:00",
+    "full_window": true
+   },
+   "timing": "לפני – 2 ימים לפני (stocktwits); StockTwits 9 הודעות לפני הפתיחה"
+  },
+  "ACCO": {
+   "rank": 18,
+   "first": {
+    "telegram": "2026-10-30T15:50+00:00"
+   },
+   "stocktwits": {
+    "by_day": {
+     "2026-11-01": 1,
+     "2026-10-30": 3,
+     "2026-10-29": 2
+    },
+    "msgs_before_open": 5,
+    "burst_utc": null,
+    "users_before_open": 4,
+    "first_utc": "2026-10-29T19:26+00:00",
+    "full_window": true
+   },
+   "timing": "לפני – 2 ימים לפני (telegram); StockTwits 5 הודעות לפני הפתיחה"
+  },
+  "BYSI": {
+   "rank": 19,
+   "first": {},
+   "stocktwits": {
+    "by_day": {
+     "2026-10-30": 2,
+     "2026-10-28": 1
+    },
+    "msgs_before_open": 3,
+    "burst_utc": null,
+    "users_before_open": 3,
+    "first_utc": "2026-10-28T01:33+00:00",
+    "full_window": true
+   },
+   "timing": "אין שיח במקורות הבוט; StockTwits 3 הודעות לפני הפתיחה"
+  },
+  "RMNI": {
+   "rank": 20,
+   "first": {
+    "stocktwits": "2026-10-29T20:09+00:00"
+   },
+   "stocktwits": {
+    "by_day": {
+     "2026-10-30": 7,
+     "2026-10-29": 19
+    },
+    "msgs_before_open": 26,
+    "burst_utc": "2026-10-29T20:09+00:00",
+    "users_before_open": 7,
+    "first_utc": "2026-10-29T20:09+00:00",
+    "full_window": true
+   },
+   "timing": "לפני – 3 ימים לפני (stocktwits); StockTwits 26 הודעות לפני הפתיחה"
+  },
+  "CDNA": {
+   "rank": 21,
+   "first": {
+    "stocktwits": "2026-10-29T17:19+00:00",
+    "telegram": "2026-10-30T13:07+00:00"
+   },
+   "stocktwits": {
+    "by_day": {
+     "2026-11-01": 1,
+     "2026-10-31": 1,
+     "2026-10-30": 16,
+     "2026-10-29": 10,
+     "2026-10-28": 2,
+     "2026-10-27": 1
+    },
+    "msgs_before_open": 30,
+    "burst_utc": "2026-10-29T17:19+00:00",
+    "users_before_open": 20,
+    "first_utc": "2026-10-27T19:36+00:00",
+    "full_window": true
+   },
+   "timing": "לפני – 3 ימים לפני (stocktwits); StockTwits 30 הודעות לפני הפתיחה"
+  },
+  "CIRC": {
+   "rank": 22,
+   "first": {
+    "stocktwits": "2026-10-29T17:36+00:00"
+   },
+   "stocktwits": {
+    "by_day": {
+     "2026-10-31": 1,
+     "2026-10-30": 25,
+     "2026-10-29": 13,
+     "2026-10-28": 2,
+     "2026-10-27": 3
+    },
+    "msgs_before_open": 44,
+    "burst_utc": "2026-10-29T17:36+00:00",
+    "users_before_open": 15,
+    "first_utc": "2026-10-27T16:31+00:00",
+    "full_window": true
+   },
+   "timing": "לפני – 3 ימים לפני (stocktwits); StockTwits 44 הודעות לפני הפתיחה"
+  },
+  "RPGL": {
+   "rank": 23,
+   "first": {
+    "stocktwits": "2026-10-30T14:30+00:00"
+   },
+   "stocktwits": {
+    "by_day": {
+     "2026-10-30": 5,
+     "2026-10-28": 1,
+     "2026-10-27": 1
+    },
+    "msgs_before_open": 7,
+    "burst_utc": "2026-10-30T14:30+00:00",
+    "users_before_open": 4,
+    "first_utc": "2026-10-27T23:45+00:00",
+    "full_window": true
+   },
+   "timing": "לפני – 2 ימים לפני (stocktwits); StockTwits 7 הודעות לפני הפתיחה"
   }
  },
  "errors_today": {},
@@ -18157,6 +18837,1990 @@
     "date": "2026-10-30",
     "close": 3.19,
     "high": 3.2
+   }
+  ],
+  "CIA": [
+   {
+    "date": "2026-10-15",
+    "close": 3.47,
+    "high": 3.49
+   },
+   {
+    "date": "2026-10-16",
+    "close": 3.44,
+    "high": 3.5
+   },
+   {
+    "date": "2026-10-19",
+    "close": 3.45,
+    "high": 3.48
+   },
+   {
+    "date": "2026-10-20",
+    "close": 3.53,
+    "high": 3.6
+   },
+   {
+    "date": "2026-10-21",
+    "close": 3.59,
+    "high": 3.6
+   },
+   {
+    "date": "2026-10-22",
+    "close": 3.63,
+    "high": 3.65
+   },
+   {
+    "date": "2026-10-23",
+    "close": 3.6,
+    "high": 3.65
+   },
+   {
+    "date": "2026-10-26",
+    "close": 3.55,
+    "high": 3.75
+   },
+   {
+    "date": "2026-10-27",
+    "close": 3.72,
+    "high": 3.74
+   },
+   {
+    "date": "2026-10-28",
+    "close": 3.8,
+    "high": 3.82
+   },
+   {
+    "date": "2026-10-29",
+    "close": 3.86,
+    "high": 3.89
+   },
+   {
+    "date": "2026-10-30",
+    "close": 3.62,
+    "high": 3.87
+   }
+  ],
+  "GO": [
+   {
+    "date": "2026-10-15",
+    "close": 13.06,
+    "high": 13.2
+   },
+   {
+    "date": "2026-10-16",
+    "close": 12.87,
+    "high": 13.3
+   },
+   {
+    "date": "2026-10-19",
+    "close": 12.79,
+    "high": 13.065
+   },
+   {
+    "date": "2026-10-20",
+    "close": 13.02,
+    "high": 13.11
+   },
+   {
+    "date": "2026-10-21",
+    "close": 13.15,
+    "high": 13.415
+   },
+   {
+    "date": "2026-10-22",
+    "close": 13.9,
+    "high": 13.985
+   },
+   {
+    "date": "2026-10-23",
+    "close": 13.3,
+    "high": 13.93
+   },
+   {
+    "date": "2026-10-26",
+    "close": 13.06,
+    "high": 13.5
+   },
+   {
+    "date": "2026-10-27",
+    "close": 12.885,
+    "high": 13.045
+   },
+   {
+    "date": "2026-10-28",
+    "close": 12.57,
+    "high": 12.775
+   },
+   {
+    "date": "2026-10-29",
+    "close": 12.88,
+    "high": 13.0
+   },
+   {
+    "date": "2026-10-30",
+    "close": 12.93,
+    "high": 13.115
+   }
+  ],
+  "FOR": [
+   {
+    "date": "2026-10-15",
+    "close": 25.69,
+    "high": 25.98
+   },
+   {
+    "date": "2026-10-16",
+    "close": 25.67,
+    "high": 26.03
+   },
+   {
+    "date": "2026-10-19",
+    "close": 25.1,
+    "high": 25.84
+   },
+   {
+    "date": "2026-10-20",
+    "close": 25.59,
+    "high": 25.83
+   },
+   {
+    "date": "2026-10-21",
+    "close": 25.22,
+    "high": 25.69
+   },
+   {
+    "date": "2026-10-22",
+    "close": 26.22,
+    "high": 26.23
+   },
+   {
+    "date": "2026-10-23",
+    "close": 26.09,
+    "high": 26.11
+   },
+   {
+    "date": "2026-10-26",
+    "close": 25.98,
+    "high": 26.55
+   },
+   {
+    "date": "2026-10-27",
+    "close": 26.26,
+    "high": 26.32
+   },
+   {
+    "date": "2026-10-28",
+    "close": 25.92,
+    "high": 26.42
+   },
+   {
+    "date": "2026-10-29",
+    "close": 25.03,
+    "high": 25.66
+   },
+   {
+    "date": "2026-10-30",
+    "close": 23.94,
+    "high": 25.23
+   }
+  ],
+  "III": [
+   {
+    "date": "2026-10-15",
+    "close": 5.7,
+    "high": 5.86
+   },
+   {
+    "date": "2026-10-16",
+    "close": 5.65,
+    "high": 5.82
+   },
+   {
+    "date": "2026-10-19",
+    "close": 5.76,
+    "high": 5.79
+   },
+   {
+    "date": "2026-10-20",
+    "close": 5.82,
+    "high": 5.93
+   },
+   {
+    "date": "2026-10-21",
+    "close": 6.03,
+    "high": 6.15
+   },
+   {
+    "date": "2026-10-22",
+    "close": 6.17,
+    "high": 6.24
+   },
+   {
+    "date": "2026-10-23",
+    "close": 6.18,
+    "high": 6.2
+   },
+   {
+    "date": "2026-10-26",
+    "close": 6.09,
+    "high": 6.25
+   },
+   {
+    "date": "2026-10-27",
+    "close": 6.09,
+    "high": 6.14
+   },
+   {
+    "date": "2026-10-28",
+    "close": 6.06,
+    "high": 6.1
+   },
+   {
+    "date": "2026-10-29",
+    "close": 6.08,
+    "high": 6.12
+   },
+   {
+    "date": "2026-10-30",
+    "close": 6.1,
+    "high": 6.15
+   }
+  ],
+  "NUWE": [
+   {
+    "date": "2026-10-14",
+    "close": 0.53,
+    "high": 0.62
+   },
+   {
+    "date": "2026-10-15",
+    "close": 0.55,
+    "high": 0.58
+   },
+   {
+    "date": "2026-10-16",
+    "close": 0.55,
+    "high": 0.59
+   },
+   {
+    "date": "2026-10-19",
+    "close": 0.56,
+    "high": 0.57
+   },
+   {
+    "date": "2026-10-20",
+    "close": 0.55,
+    "high": 0.56
+   },
+   {
+    "date": "2026-10-21",
+    "close": 0.52,
+    "high": 0.58
+   },
+   {
+    "date": "2026-10-22",
+    "close": 0.49,
+    "high": 0.52
+   },
+   {
+    "date": "2026-10-23",
+    "close": 0.32,
+    "high": 0.49
+   },
+   {
+    "date": "2026-10-27",
+    "close": 5.41,
+    "high": 5.95
+   },
+   {
+    "date": "2026-10-28",
+    "close": 5.66,
+    "high": 5.7
+   },
+   {
+    "date": "2026-10-29",
+    "close": 5.78,
+    "high": 7.15
+   },
+   {
+    "date": "2026-10-30",
+    "close": 5.68,
+    "high": 6.1
+   }
+  ],
+  "FTC": [
+   {
+    "date": "2026-10-15",
+    "close": 175.79,
+    "high": 176.16
+   },
+   {
+    "date": "2026-10-16",
+    "close": 171.31,
+    "high": 174.74
+   },
+   {
+    "date": "2026-10-19",
+    "close": 172.72,
+    "high": 173.93
+   },
+   {
+    "date": "2026-10-20",
+    "close": 173.71,
+    "high": 173.99
+   },
+   {
+    "date": "2026-10-21",
+    "close": 175.82,
+    "high": 176.58
+   },
+   {
+    "date": "2026-10-22",
+    "close": 171.07,
+    "high": 173.06
+   },
+   {
+    "date": "2026-10-23",
+    "close": 170.62,
+    "high": 171.4
+   },
+   {
+    "date": "2026-10-26",
+    "close": 172.73,
+    "high": 173.35
+   },
+   {
+    "date": "2026-10-27",
+    "close": 175.18,
+    "high": 175.2
+   },
+   {
+    "date": "2026-10-28",
+    "close": 175.92,
+    "high": 176.35
+   },
+   {
+    "date": "2026-10-29",
+    "close": 175.59,
+    "high": 176.32
+   },
+   {
+    "date": "2026-10-30",
+    "close": 169.67,
+    "high": 172.67
+   }
+  ],
+  "GT": [
+   {
+    "date": "2026-10-15",
+    "close": 4.42,
+    "high": 4.48
+   },
+   {
+    "date": "2026-10-16",
+    "close": 4.29,
+    "high": 4.45
+   },
+   {
+    "date": "2026-10-19",
+    "close": 4.15,
+    "high": 4.27
+   },
+   {
+    "date": "2026-10-20",
+    "close": 4.24,
+    "high": 4.27
+   },
+   {
+    "date": "2026-10-21",
+    "close": 4.3,
+    "high": 4.31
+   },
+   {
+    "date": "2026-10-22",
+    "close": 4.43,
+    "high": 4.45
+   },
+   {
+    "date": "2026-10-23",
+    "close": 4.27,
+    "high": 4.44
+   },
+   {
+    "date": "2026-10-26",
+    "close": 4.31,
+    "high": 4.33
+   },
+   {
+    "date": "2026-10-27",
+    "close": 4.39,
+    "high": 4.52
+   },
+   {
+    "date": "2026-10-28",
+    "close": 4.41,
+    "high": 4.44
+   },
+   {
+    "date": "2026-10-29",
+    "close": 4.43,
+    "high": 4.44
+   },
+   {
+    "date": "2026-10-30",
+    "close": 4.29,
+    "high": 4.5
+   }
+  ],
+  "BEAT": [
+   {
+    "date": "2026-10-15",
+    "close": 0.432,
+    "high": 0.44
+   },
+   {
+    "date": "2026-10-16",
+    "close": 0.436,
+    "high": 0.439
+   },
+   {
+    "date": "2026-10-19",
+    "close": 0.413,
+    "high": 0.443
+   },
+   {
+    "date": "2026-10-20",
+    "close": 0.411,
+    "high": 0.425
+   },
+   {
+    "date": "2026-10-21",
+    "close": 0.407,
+    "high": 0.423
+   },
+   {
+    "date": "2026-10-22",
+    "close": 0.398,
+    "high": 0.413
+   },
+   {
+    "date": "2026-10-23",
+    "close": 0.393,
+    "high": 0.402
+   },
+   {
+    "date": "2026-10-26",
+    "close": 0.409,
+    "high": 0.41
+   },
+   {
+    "date": "2026-10-27",
+    "close": 0.4,
+    "high": 0.41
+   },
+   {
+    "date": "2026-10-28",
+    "close": 0.532,
+    "high": 0.536
+   },
+   {
+    "date": "2026-10-29",
+    "close": 0.539,
+    "high": 0.575
+   },
+   {
+    "date": "2026-10-30",
+    "close": 0.55,
+    "high": 0.559
+   }
+  ],
+  "TBF": [
+   {
+    "date": "2026-10-15",
+    "close": 25.97,
+    "high": 26.02
+   },
+   {
+    "date": "2026-10-16",
+    "close": 26.01,
+    "high": 26.12
+   },
+   {
+    "date": "2026-10-19",
+    "close": 26.23,
+    "high": 26.25
+   },
+   {
+    "date": "2026-10-20",
+    "close": 25.99,
+    "high": 26.07
+   },
+   {
+    "date": "2026-10-21",
+    "close": 25.96,
+    "high": 26.07
+   },
+   {
+    "date": "2026-10-22",
+    "close": 25.45,
+    "high": 25.75
+   },
+   {
+    "date": "2026-10-23",
+    "close": 25.59,
+    "high": 25.63
+   },
+   {
+    "date": "2026-10-26",
+    "close": 25.49,
+    "high": 25.57
+   },
+   {
+    "date": "2026-10-27",
+    "close": 25.48,
+    "high": 25.57
+   },
+   {
+    "date": "2026-10-28",
+    "close": 25.71,
+    "high": 25.81
+   },
+   {
+    "date": "2026-10-29",
+    "close": 25.56,
+    "high": 25.67
+   },
+   {
+    "date": "2026-10-30",
+    "close": 25.51,
+    "high": 25.62
+   }
+  ],
+  "NVCR": [
+   {
+    "date": "2026-10-15",
+    "close": 14.41,
+    "high": 14.46
+   },
+   {
+    "date": "2026-10-16",
+    "close": 14.07,
+    "high": 14.41
+   },
+   {
+    "date": "2026-10-19",
+    "close": 14.89,
+    "high": 15.0
+   },
+   {
+    "date": "2026-10-20",
+    "close": 15.71,
+    "high": 15.82
+   },
+   {
+    "date": "2026-10-21",
+    "close": 15.59,
+    "high": 16.094
+   },
+   {
+    "date": "2026-10-22",
+    "close": 15.1,
+    "high": 15.655
+   },
+   {
+    "date": "2026-10-23",
+    "close": 14.68,
+    "high": 14.97
+   },
+   {
+    "date": "2026-10-26",
+    "close": 14.4,
+    "high": 14.895
+   },
+   {
+    "date": "2026-10-27",
+    "close": 14.62,
+    "high": 14.74
+   },
+   {
+    "date": "2026-10-28",
+    "close": 14.17,
+    "high": 14.64
+   },
+   {
+    "date": "2026-10-29",
+    "close": 13.11,
+    "high": 13.85
+   },
+   {
+    "date": "2026-10-30",
+    "close": 13.15,
+    "high": 13.26
+   }
+  ],
+  "INSM": [
+   {
+    "date": "2026-10-15",
+    "close": 99.21,
+    "high": 100.72
+   },
+   {
+    "date": "2026-10-16",
+    "close": 96.27,
+    "high": 99.0
+   },
+   {
+    "date": "2026-10-19",
+    "close": 95.29,
+    "high": 97.88
+   },
+   {
+    "date": "2026-10-20",
+    "close": 95.67,
+    "high": 97.2
+   },
+   {
+    "date": "2026-10-21",
+    "close": 94.04,
+    "high": 97.09
+   },
+   {
+    "date": "2026-10-22",
+    "close": 95.06,
+    "high": 95.59
+   },
+   {
+    "date": "2026-10-23",
+    "close": 93.39,
+    "high": 94.64
+   },
+   {
+    "date": "2026-10-26",
+    "close": 93.33,
+    "high": 94.34
+   },
+   {
+    "date": "2026-10-27",
+    "close": 94.96,
+    "high": 96.37
+   },
+   {
+    "date": "2026-10-28",
+    "close": 96.98,
+    "high": 97.92
+   },
+   {
+    "date": "2026-10-29",
+    "close": 111.59,
+    "high": 114.51
+   },
+   {
+    "date": "2026-10-30",
+    "close": 112.58,
+    "high": 116.37
+   }
+  ],
+  "RA": [
+   {
+    "date": "2026-10-15",
+    "close": 11.66,
+    "high": 11.76
+   },
+   {
+    "date": "2026-10-16",
+    "close": 11.67,
+    "high": 12.046
+   },
+   {
+    "date": "2026-10-19",
+    "close": 11.75,
+    "high": 11.78
+   },
+   {
+    "date": "2026-10-20",
+    "close": 11.62,
+    "high": 11.74
+   },
+   {
+    "date": "2026-10-21",
+    "close": 11.66,
+    "high": 11.71
+   },
+   {
+    "date": "2026-10-22",
+    "close": 11.65,
+    "high": 11.66
+   },
+   {
+    "date": "2026-10-23",
+    "close": 11.6,
+    "high": 11.65
+   },
+   {
+    "date": "2026-10-26",
+    "close": 11.54,
+    "high": 11.65
+   },
+   {
+    "date": "2026-10-27",
+    "close": 11.6,
+    "high": 11.6
+   },
+   {
+    "date": "2026-10-28",
+    "close": 11.62,
+    "high": 11.643
+   },
+   {
+    "date": "2026-10-29",
+    "close": 11.75,
+    "high": 11.76
+   },
+   {
+    "date": "2026-10-30",
+    "close": 11.75,
+    "high": 11.9
+   }
+  ],
+  "GKOS": [
+   {
+    "date": "2026-10-15",
+    "close": 165.6,
+    "high": 170.2
+   },
+   {
+    "date": "2026-10-16",
+    "close": 164.84,
+    "high": 167.275
+   },
+   {
+    "date": "2026-10-19",
+    "close": 166.96,
+    "high": 168.59
+   },
+   {
+    "date": "2026-10-20",
+    "close": 173.43,
+    "high": 176.07
+   },
+   {
+    "date": "2026-10-21",
+    "close": 176.85,
+    "high": 178.19
+   },
+   {
+    "date": "2026-10-22",
+    "close": 176.69,
+    "high": 178.22
+   },
+   {
+    "date": "2026-10-23",
+    "close": 178.88,
+    "high": 179.7
+   },
+   {
+    "date": "2026-10-26",
+    "close": 178.27,
+    "high": 181.65
+   },
+   {
+    "date": "2026-10-27",
+    "close": 181.17,
+    "high": 185.86
+   },
+   {
+    "date": "2026-10-28",
+    "close": 181.43,
+    "high": 187.94
+   },
+   {
+    "date": "2026-10-29",
+    "close": 242.48,
+    "high": 243.712
+   },
+   {
+    "date": "2026-10-30",
+    "close": 237.6,
+    "high": 248.75
+   }
+  ],
+  "ALNY": [
+   {
+    "date": "2026-10-15",
+    "close": 234.03,
+    "high": 234.3
+   },
+   {
+    "date": "2026-10-16",
+    "close": 231.83,
+    "high": 237.98
+   },
+   {
+    "date": "2026-10-19",
+    "close": 233.29,
+    "high": 236.54
+   },
+   {
+    "date": "2026-10-20",
+    "close": 230.71,
+    "high": 238.96
+   },
+   {
+    "date": "2026-10-21",
+    "close": 225.1,
+    "high": 230.84
+   },
+   {
+    "date": "2026-10-22",
+    "close": 227.28,
+    "high": 229.82
+   },
+   {
+    "date": "2026-10-23",
+    "close": 224.03,
+    "high": 229.39
+   },
+   {
+    "date": "2026-10-26",
+    "close": 227.66,
+    "high": 232.48
+   },
+   {
+    "date": "2026-10-27",
+    "close": 226.79,
+    "high": 228.49
+   },
+   {
+    "date": "2026-10-28",
+    "close": 232.4,
+    "high": 232.88
+   },
+   {
+    "date": "2026-10-29",
+    "close": 174.0,
+    "high": 202.37
+   },
+   {
+    "date": "2026-10-30",
+    "close": 165.0,
+    "high": 180.61
+   }
+  ],
+  "LUNG": [
+   {
+    "date": "2026-10-15",
+    "close": 1.85,
+    "high": 1.88
+   },
+   {
+    "date": "2026-10-16",
+    "close": 1.78,
+    "high": 1.875
+   },
+   {
+    "date": "2026-10-19",
+    "close": 1.75,
+    "high": 1.8
+   },
+   {
+    "date": "2026-10-20",
+    "close": 1.82,
+    "high": 1.855
+   },
+   {
+    "date": "2026-10-21",
+    "close": 1.83,
+    "high": 1.86
+   },
+   {
+    "date": "2026-10-22",
+    "close": 1.88,
+    "high": 1.89
+   },
+   {
+    "date": "2026-10-23",
+    "close": 1.83,
+    "high": 1.88
+   },
+   {
+    "date": "2026-10-26",
+    "close": 1.95,
+    "high": 1.97
+   },
+   {
+    "date": "2026-10-27",
+    "close": 1.98,
+    "high": 2.025
+   },
+   {
+    "date": "2026-10-28",
+    "close": 2.52,
+    "high": 2.77
+   },
+   {
+    "date": "2026-10-29",
+    "close": 3.165,
+    "high": 3.25
+   },
+   {
+    "date": "2026-10-30",
+    "close": 3.005,
+    "high": 3.23
+   }
+  ],
+  "ABBV": [
+   {
+    "date": "2026-10-15",
+    "close": 283.4,
+    "high": 291.4
+   },
+   {
+    "date": "2026-10-16",
+    "close": 285.42,
+    "high": 286.64
+   },
+   {
+    "date": "2026-10-19",
+    "close": 282.68,
+    "high": 287.93
+   },
+   {
+    "date": "2026-10-20",
+    "close": 289.08,
+    "high": 290.98
+   },
+   {
+    "date": "2026-10-21",
+    "close": 284.8,
+    "high": 289.0
+   },
+   {
+    "date": "2026-10-22",
+    "close": 285.19,
+    "high": 285.76
+   },
+   {
+    "date": "2026-10-23",
+    "close": 285.64,
+    "high": 286.77
+   },
+   {
+    "date": "2026-10-26",
+    "close": 286.74,
+    "high": 289.59
+   },
+   {
+    "date": "2026-10-27",
+    "close": 286.39,
+    "high": 287.32
+   },
+   {
+    "date": "2026-10-28",
+    "close": 285.99,
+    "high": 288.8
+   },
+   {
+    "date": "2026-10-29",
+    "close": 290.79,
+    "high": 292.67
+   },
+   {
+    "date": "2026-10-30",
+    "close": 294.89,
+    "high": 298.74
+   }
+  ],
+  "TNC": [
+   {
+    "date": "2026-10-15",
+    "close": 66.0,
+    "high": 66.81
+   },
+   {
+    "date": "2026-10-16",
+    "close": 65.35,
+    "high": 67.54
+   },
+   {
+    "date": "2026-10-19",
+    "close": 64.57,
+    "high": 66.47
+   },
+   {
+    "date": "2026-10-20",
+    "close": 66.09,
+    "high": 66.45
+   },
+   {
+    "date": "2026-10-21",
+    "close": 65.35,
+    "high": 66.88
+   },
+   {
+    "date": "2026-10-22",
+    "close": 66.12,
+    "high": 66.35
+   },
+   {
+    "date": "2026-10-23",
+    "close": 66.26,
+    "high": 66.42
+   },
+   {
+    "date": "2026-10-26",
+    "close": 65.6,
+    "high": 67.35
+   },
+   {
+    "date": "2026-10-27",
+    "close": 66.02,
+    "high": 66.6
+   },
+   {
+    "date": "2026-10-28",
+    "close": 66.09,
+    "high": 66.6
+   },
+   {
+    "date": "2026-10-29",
+    "close": 66.64,
+    "high": 68.32
+   },
+   {
+    "date": "2026-10-30",
+    "close": 66.44,
+    "high": 67.0
+   }
+  ],
+  "VIP": [
+   {
+    "date": "2026-10-15",
+    "close": 1.32,
+    "high": 1.36
+   },
+   {
+    "date": "2026-10-16",
+    "close": 1.3,
+    "high": 1.32
+   },
+   {
+    "date": "2026-10-19",
+    "close": 1.25,
+    "high": 1.29
+   },
+   {
+    "date": "2026-10-20",
+    "close": 1.28,
+    "high": 1.32
+   },
+   {
+    "date": "2026-10-21",
+    "close": 1.28,
+    "high": 1.31
+   },
+   {
+    "date": "2026-10-22",
+    "close": 1.26,
+    "high": 1.3
+   },
+   {
+    "date": "2026-10-23",
+    "close": 1.25,
+    "high": 1.29
+   },
+   {
+    "date": "2026-10-26",
+    "close": 1.26,
+    "high": 1.3
+   },
+   {
+    "date": "2026-10-27",
+    "close": 1.31,
+    "high": 1.34
+   },
+   {
+    "date": "2026-10-28",
+    "close": 1.33,
+    "high": 1.35
+   },
+   {
+    "date": "2026-10-29",
+    "close": 1.32,
+    "high": 1.36
+   },
+   {
+    "date": "2026-10-30",
+    "close": 1.28,
+    "high": 1.29
+   }
+  ],
+  "TEAD": [
+   {
+    "date": "2026-10-15",
+    "close": 0.416,
+    "high": 0.434
+   },
+   {
+    "date": "2026-10-16",
+    "close": 0.401,
+    "high": 0.44
+   },
+   {
+    "date": "2026-10-19",
+    "close": 0.41,
+    "high": 0.434
+   },
+   {
+    "date": "2026-10-20",
+    "close": 0.4,
+    "high": 0.45
+   },
+   {
+    "date": "2026-10-21",
+    "close": 0.381,
+    "high": 0.439
+   },
+   {
+    "date": "2026-10-22",
+    "close": 0.364,
+    "high": 0.396
+   },
+   {
+    "date": "2026-10-23",
+    "close": 0.347,
+    "high": 0.382
+   },
+   {
+    "date": "2026-10-26",
+    "close": 0.342,
+    "high": 0.36
+   },
+   {
+    "date": "2026-10-27",
+    "close": 0.347,
+    "high": 0.4
+   },
+   {
+    "date": "2026-10-28",
+    "close": 0.347,
+    "high": 0.375
+   },
+   {
+    "date": "2026-10-29",
+    "close": 0.305,
+    "high": 0.352
+   },
+   {
+    "date": "2026-10-30",
+    "close": 0.291,
+    "high": 0.295
+   }
+  ],
+  "PBM": [
+   {
+    "date": "2026-10-15",
+    "close": 4.32,
+    "high": 4.44
+   },
+   {
+    "date": "2026-10-16",
+    "close": 4.22,
+    "high": 4.53
+   },
+   {
+    "date": "2026-10-19",
+    "close": 4.12,
+    "high": 4.275
+   },
+   {
+    "date": "2026-10-20",
+    "close": 4.24,
+    "high": 4.51
+   },
+   {
+    "date": "2026-10-21",
+    "close": 4.52,
+    "high": 4.72
+   },
+   {
+    "date": "2026-10-22",
+    "close": 4.12,
+    "high": 4.768
+   },
+   {
+    "date": "2026-10-23",
+    "close": 4.165,
+    "high": 4.29
+   },
+   {
+    "date": "2026-10-26",
+    "close": 3.66,
+    "high": 4.18
+   },
+   {
+    "date": "2026-10-27",
+    "close": 3.01,
+    "high": 3.865
+   },
+   {
+    "date": "2026-10-28",
+    "close": 3.4,
+    "high": 3.44
+   },
+   {
+    "date": "2026-10-29",
+    "close": 3.61,
+    "high": 3.98
+   },
+   {
+    "date": "2026-10-30",
+    "close": 3.31,
+    "high": 3.64
+   }
+  ],
+  "MMA": [
+   {
+    "date": "2026-10-15",
+    "close": 0.275,
+    "high": 0.281
+   },
+   {
+    "date": "2026-10-16",
+    "close": 0.341,
+    "high": 0.43
+   },
+   {
+    "date": "2026-10-19",
+    "close": 0.318,
+    "high": 0.357
+   },
+   {
+    "date": "2026-10-20",
+    "close": 0.303,
+    "high": 0.311
+   },
+   {
+    "date": "2026-10-21",
+    "close": 0.313,
+    "high": 0.313
+   },
+   {
+    "date": "2026-10-22",
+    "close": 0.313,
+    "high": 0.323
+   },
+   {
+    "date": "2026-10-23",
+    "close": 0.305,
+    "high": 0.313
+   },
+   {
+    "date": "2026-10-26",
+    "close": 0.294,
+    "high": 0.31
+   },
+   {
+    "date": "2026-10-27",
+    "close": 0.333,
+    "high": 0.348
+   },
+   {
+    "date": "2026-10-28",
+    "close": 0.353,
+    "high": 0.366
+   },
+   {
+    "date": "2026-10-29",
+    "close": 0.34,
+    "high": 0.376
+   },
+   {
+    "date": "2026-10-30",
+    "close": 0.335,
+    "high": 0.35
+   }
+  ],
+  "BGL": [
+   {
+    "date": "2026-10-15",
+    "close": 0.134,
+    "high": 0.238
+   },
+   {
+    "date": "2026-10-16",
+    "close": 0.136,
+    "high": 0.144
+   },
+   {
+    "date": "2026-10-19",
+    "close": 0.14,
+    "high": 0.145
+   },
+   {
+    "date": "2026-10-20",
+    "close": 0.142,
+    "high": 0.149
+   },
+   {
+    "date": "2026-10-21",
+    "close": 0.137,
+    "high": 0.148
+   },
+   {
+    "date": "2026-10-22",
+    "close": 0.133,
+    "high": 0.138
+   },
+   {
+    "date": "2026-10-23",
+    "close": 0.134,
+    "high": 0.139
+   },
+   {
+    "date": "2026-10-26",
+    "close": 0.141,
+    "high": 0.144
+   },
+   {
+    "date": "2026-10-27",
+    "close": 0.138,
+    "high": 0.143
+   },
+   {
+    "date": "2026-10-28",
+    "close": 0.138,
+    "high": 0.144
+   },
+   {
+    "date": "2026-10-29",
+    "close": 0.126,
+    "high": 0.14
+   },
+   {
+    "date": "2026-10-30",
+    "close": 0.118,
+    "high": 0.126
+   }
+  ],
+  "RAIN": [
+   {
+    "date": "2026-10-15",
+    "close": 0.641,
+    "high": 0.65
+   },
+   {
+    "date": "2026-10-16",
+    "close": 0.627,
+    "high": 0.649
+   },
+   {
+    "date": "2026-10-19",
+    "close": 0.633,
+    "high": 0.638
+   },
+   {
+    "date": "2026-10-20",
+    "close": 0.617,
+    "high": 0.62
+   },
+   {
+    "date": "2026-10-21",
+    "close": 0.558,
+    "high": 0.614
+   },
+   {
+    "date": "2026-10-22",
+    "close": 0.619,
+    "high": 0.73
+   },
+   {
+    "date": "2026-10-23",
+    "close": 0.553,
+    "high": 0.602
+   },
+   {
+    "date": "2026-10-26",
+    "close": 0.53,
+    "high": 0.57
+   },
+   {
+    "date": "2026-10-27",
+    "close": 0.575,
+    "high": 0.619
+   },
+   {
+    "date": "2026-10-28",
+    "close": 0.585,
+    "high": 0.62
+   },
+   {
+    "date": "2026-10-29",
+    "close": 0.6,
+    "high": 0.6
+   },
+   {
+    "date": "2026-10-30",
+    "close": 0.527,
+    "high": 0.615
+   }
+  ],
+  "VEL": [
+   {
+    "date": "2026-10-15",
+    "close": 14.81,
+    "high": 15.205
+   },
+   {
+    "date": "2026-10-16",
+    "close": 14.71,
+    "high": 15.16
+   },
+   {
+    "date": "2026-10-19",
+    "close": 14.51,
+    "high": 14.64
+   },
+   {
+    "date": "2026-10-20",
+    "close": 14.81,
+    "high": 14.99
+   },
+   {
+    "date": "2026-10-21",
+    "close": 14.85,
+    "high": 15.25
+   },
+   {
+    "date": "2026-10-22",
+    "close": 15.21,
+    "high": 15.43
+   },
+   {
+    "date": "2026-10-23",
+    "close": 15.3,
+    "high": 15.365
+   },
+   {
+    "date": "2026-10-26",
+    "close": 15.41,
+    "high": 15.68
+   },
+   {
+    "date": "2026-10-27",
+    "close": 15.45,
+    "high": 15.54
+   },
+   {
+    "date": "2026-10-28",
+    "close": 15.57,
+    "high": 15.64
+   },
+   {
+    "date": "2026-10-29",
+    "close": 15.95,
+    "high": 16.375
+   },
+   {
+    "date": "2026-10-30",
+    "close": 15.72,
+    "high": 16.115
+   }
+  ],
+  "JBLU": [
+   {
+    "date": "2026-10-15",
+    "close": 3.15,
+    "high": 3.16
+   },
+   {
+    "date": "2026-10-16",
+    "close": 2.93,
+    "high": 3.15
+   },
+   {
+    "date": "2026-10-19",
+    "close": 2.91,
+    "high": 3.07
+   },
+   {
+    "date": "2026-10-20",
+    "close": 2.91,
+    "high": 3.14
+   },
+   {
+    "date": "2026-10-21",
+    "close": 2.93,
+    "high": 3.07
+   },
+   {
+    "date": "2026-10-22",
+    "close": 2.65,
+    "high": 3.03
+   },
+   {
+    "date": "2026-10-23",
+    "close": 2.63,
+    "high": 2.69
+   },
+   {
+    "date": "2026-10-26",
+    "close": 2.37,
+    "high": 2.57
+   },
+   {
+    "date": "2026-10-27",
+    "close": 2.82,
+    "high": 2.97
+   },
+   {
+    "date": "2026-10-28",
+    "close": 2.85,
+    "high": 2.88
+   },
+   {
+    "date": "2026-10-29",
+    "close": 3.05,
+    "high": 3.07
+   },
+   {
+    "date": "2026-10-30",
+    "close": 2.85,
+    "high": 3.03
+   }
+  ],
+  "CMPX": [
+   {
+    "date": "2026-10-15",
+    "close": 0.897,
+    "high": 0.905
+   },
+   {
+    "date": "2026-10-16",
+    "close": 0.86,
+    "high": 0.909
+   },
+   {
+    "date": "2026-10-19",
+    "close": 0.835,
+    "high": 0.889
+   },
+   {
+    "date": "2026-10-20",
+    "close": 0.833,
+    "high": 0.868
+   },
+   {
+    "date": "2026-10-21",
+    "close": 0.815,
+    "high": 0.845
+   },
+   {
+    "date": "2026-10-22",
+    "close": 0.802,
+    "high": 0.841
+   },
+   {
+    "date": "2026-10-23",
+    "close": 0.761,
+    "high": 0.807
+   },
+   {
+    "date": "2026-10-26",
+    "close": 0.747,
+    "high": 0.793
+   },
+   {
+    "date": "2026-10-27",
+    "close": 0.747,
+    "high": 0.785
+   },
+   {
+    "date": "2026-10-28",
+    "close": 0.76,
+    "high": 0.775
+   },
+   {
+    "date": "2026-10-29",
+    "close": 0.756,
+    "high": 0.81
+   },
+   {
+    "date": "2026-10-30",
+    "close": 0.787,
+    "high": 0.797
+   }
+  ],
+  "SRZN": [
+   {
+    "date": "2026-10-15",
+    "close": 25.07,
+    "high": 25.32
+   },
+   {
+    "date": "2026-10-16",
+    "close": 23.44,
+    "high": 25.09
+   },
+   {
+    "date": "2026-10-19",
+    "close": 23.84,
+    "high": 24.48
+   },
+   {
+    "date": "2026-10-20",
+    "close": 25.14,
+    "high": 25.45
+   },
+   {
+    "date": "2026-10-21",
+    "close": 25.32,
+    "high": 26.09
+   },
+   {
+    "date": "2026-10-22",
+    "close": 25.75,
+    "high": 27.68
+   },
+   {
+    "date": "2026-10-23",
+    "close": 25.48,
+    "high": 26.79
+   },
+   {
+    "date": "2026-10-26",
+    "close": 27.28,
+    "high": 27.75
+   },
+   {
+    "date": "2026-10-27",
+    "close": 29.53,
+    "high": 30.35
+   },
+   {
+    "date": "2026-10-28",
+    "close": 30.35,
+    "high": 30.535
+   },
+   {
+    "date": "2026-10-29",
+    "close": 29.46,
+    "high": 31.608
+   },
+   {
+    "date": "2026-10-30",
+    "close": 29.04,
+    "high": 29.51
+   }
+  ],
+  "XRX": [
+   {
+    "date": "2026-10-15",
+    "close": 2.68,
+    "high": 2.71
+   },
+   {
+    "date": "2026-10-16",
+    "close": 2.47,
+    "high": 2.68
+   },
+   {
+    "date": "2026-10-19",
+    "close": 2.49,
+    "high": 2.55
+   },
+   {
+    "date": "2026-10-20",
+    "close": 2.61,
+    "high": 2.67
+   },
+   {
+    "date": "2026-10-21",
+    "close": 2.74,
+    "high": 2.81
+   },
+   {
+    "date": "2026-10-22",
+    "close": 2.79,
+    "high": 2.82
+   },
+   {
+    "date": "2026-10-23",
+    "close": 2.56,
+    "high": 2.82
+   },
+   {
+    "date": "2026-10-26",
+    "close": 2.51,
+    "high": 2.59
+   },
+   {
+    "date": "2026-10-27",
+    "close": 2.54,
+    "high": 2.59
+   },
+   {
+    "date": "2026-10-28",
+    "close": 2.79,
+    "high": 2.83
+   },
+   {
+    "date": "2026-10-29",
+    "close": 1.67,
+    "high": 1.99
+   },
+   {
+    "date": "2026-10-30",
+    "close": 1.47,
+    "high": 1.75
+   }
+  ],
+  "PAAI": [
+   {
+    "date": "2026-10-15",
+    "close": 0.89,
+    "high": 0.91
+   },
+   {
+    "date": "2026-10-16",
+    "close": 0.86,
+    "high": 0.91
+   },
+   {
+    "date": "2026-10-19",
+    "close": 0.82,
+    "high": 0.87
+   },
+   {
+    "date": "2026-10-20",
+    "close": 0.81,
+    "high": 0.86
+   },
+   {
+    "date": "2026-10-21",
+    "close": 0.81,
+    "high": 0.85
+   },
+   {
+    "date": "2026-10-22",
+    "close": 0.73,
+    "high": 0.8
+   },
+   {
+    "date": "2026-10-23",
+    "close": 0.73,
+    "high": 0.79
+   },
+   {
+    "date": "2026-10-26",
+    "close": 0.71,
+    "high": 0.77
+   },
+   {
+    "date": "2026-10-27",
+    "close": 0.73,
+    "high": 0.75
+   },
+   {
+    "date": "2026-10-28",
+    "close": 0.84,
+    "high": 0.85
+   },
+   {
+    "date": "2026-10-29",
+    "close": 0.8,
+    "high": 0.82
+   },
+   {
+    "date": "2026-10-30",
+    "close": 0.89,
+    "high": 1.03
+   }
+  ],
+  "YHGJ": [
+   {
+    "date": "2026-10-15",
+    "close": 2.73,
+    "high": 2.75
+   },
+   {
+    "date": "2026-10-16",
+    "close": 2.68,
+    "high": 2.96
+   },
+   {
+    "date": "2026-10-19",
+    "close": 2.7,
+    "high": 2.73
+   },
+   {
+    "date": "2026-10-20",
+    "close": 2.78,
+    "high": 2.91
+   },
+   {
+    "date": "2026-10-21",
+    "close": 2.78,
+    "high": 2.78
+   },
+   {
+    "date": "2026-10-22",
+    "close": 2.6,
+    "high": 2.6
+   },
+   {
+    "date": "2026-10-23",
+    "close": 2.51,
+    "high": 2.59
+   },
+   {
+    "date": "2026-10-26",
+    "close": 2.66,
+    "high": 2.66
+   },
+   {
+    "date": "2026-10-27",
+    "close": 2.8,
+    "high": 2.98
+   },
+   {
+    "date": "2026-10-28",
+    "close": 2.93,
+    "high": 2.98
+   },
+   {
+    "date": "2026-10-29",
+    "close": 2.95,
+    "high": 3.1
+   },
+   {
+    "date": "2026-10-30",
+    "close": 3.37,
+    "high": 3.69
+   }
+  ],
+  "PDC": [
+   {
+    "date": "2026-10-15",
+    "close": 3.18,
+    "high": 3.29
+   },
+   {
+    "date": "2026-10-16",
+    "close": 3.1,
+    "high": 3.15
+   },
+   {
+    "date": "2026-10-19",
+    "close": 2.63,
+    "high": 3.0
+   },
+   {
+    "date": "2026-10-20",
+    "close": 2.33,
+    "high": 2.84
+   },
+   {
+    "date": "2026-10-21",
+    "close": 2.41,
+    "high": 2.62
+   },
+   {
+    "date": "2026-10-22",
+    "close": 3.02,
+    "high": 3.09
+   },
+   {
+    "date": "2026-10-23",
+    "close": 2.91,
+    "high": 3.3
+   },
+   {
+    "date": "2026-10-26",
+    "close": 2.86,
+    "high": 3.09
+   },
+   {
+    "date": "2026-10-27",
+    "close": 2.04,
+    "high": 3.06
+   },
+   {
+    "date": "2026-10-28",
+    "close": 2.92,
+    "high": 3.08
+   },
+   {
+    "date": "2026-10-29",
+    "close": 2.33,
+    "high": 2.95
+   },
+   {
+    "date": "2026-10-30",
+    "close": 2.51,
+    "high": 2.95
+   }
+  ],
+  "ABOS": [
+   {
+    "date": "2026-10-15",
+    "close": 1.67,
+    "high": 1.755
+   },
+   {
+    "date": "2026-10-16",
+    "close": 1.69,
+    "high": 1.715
+   },
+   {
+    "date": "2026-10-19",
+    "close": 1.77,
+    "high": 1.78
+   },
+   {
+    "date": "2026-10-20",
+    "close": 2.015,
+    "high": 2.07
+   },
+   {
+    "date": "2026-10-21",
+    "close": 2.03,
+    "high": 2.08
+   },
+   {
+    "date": "2026-10-22",
+    "close": 2.06,
+    "high": 2.14
+   },
+   {
+    "date": "2026-10-23",
+    "close": 1.98,
+    "high": 2.05
+   },
+   {
+    "date": "2026-10-26",
+    "close": 2.27,
+    "high": 2.42
+   },
+   {
+    "date": "2026-10-27",
+    "close": 2.26,
+    "high": 2.37
+   },
+   {
+    "date": "2026-10-28",
+    "close": 2.38,
+    "high": 2.495
+   },
+   {
+    "date": "2026-10-29",
+    "close": 2.29,
+    "high": 2.52
+   },
+   {
+    "date": "2026-10-30",
+    "close": 0.21,
+    "high": 0.352
    }
   ]
  }

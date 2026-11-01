@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-01T22:07+00:00",
+ "ts": "2026-11-01T23:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
@@ -18,9 +18,9 @@
    "sample": ""
   },
   "SNDK": {
-   "m6": 2,
+   "m6": 1,
    "m24": 4,
-   "authors6": 2,
+   "authors6": 1,
    "authors24": 2,
    "subs6": [
     "smallstreetbets"
@@ -165,6 +165,18 @@
    "first_utc": "2026-11-01T14:52+00:00",
    "sample": ""
   },
+  "FCEL": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-01T14:35+00:00",
+   "sample": ""
+  },
   "SERV": {
    "m6": 0,
    "m24": 1,
@@ -178,18 +190,6 @@
    "sample": ""
   },
   "VRRM": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-01T14:35+00:00",
-   "sample": ""
-  },
-  "FCEL": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
