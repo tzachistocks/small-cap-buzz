@@ -1,54 +1,24 @@
 {
- "ts": "2026-11-01T10:27+00:00",
+ "ts": "2026-11-01T22:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
-  "INO": {
+  "HTZ": {
    "m6": 2,
    "m24": 6,
    "authors6": 2,
-   "authors24": 4,
-   "subs6": [
-    "Shortsqueeze",
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "Shortsqueeze",
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-10-31T13:32+00:00",
-   "sample": "r/smallstreetbets: INO, Whats next?"
-  },
-  "NLST": {
-   "m6": 0,
-   "m24": 4,
-   "authors6": 0,
-   "authors24": 4,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-10-31T20:44+00:00",
-   "sample": "r/pennystocks: $NLST is going to be incredible"
-  },
-  "HITI": {
-   "m6": 1,
-   "m24": 4,
-   "authors6": 1,
-   "authors24": 2,
+   "authors24": 5,
    "subs6": [
     "Shortsqueeze"
    ],
    "subs24": [
-    "Shortsqueeze",
-    "pennystocks",
-    "smallstreetbets"
+    "Shortsqueeze"
    ],
-   "first_utc": "2026-10-31T15:12+00:00",
-   "sample": "r/Shortsqueeze: HIGH TIDE INC (NASDAQ: HITI) – An International Growth Model That Deserves Greater Attenti"
+   "first_utc": "2026-11-01T14:33+00:00",
+   "sample": ""
   },
-  "BTC": {
-   "m6": 3,
+  "SNDK": {
+   "m6": 2,
    "m24": 4,
    "authors6": 2,
    "authors24": 2,
@@ -58,10 +28,24 @@
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-11-01T02:08+00:00",
+   "first_utc": "2026-11-01T15:54+00:00",
    "sample": ""
   },
-  "DNA": {
+  "SI": {
+   "m6": 1,
+   "m24": 2,
+   "authors6": 1,
+   "authors24": 2,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-01T14:43+00:00",
+   "sample": ""
+  },
+  "DTE": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -69,13 +53,25 @@
    "subs6": [
     "smallstreetbets"
    ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-01T18:35+00:00",
+   "sample": "r/smallstreetbets: DONT BUY GOOGLE CALLS! ❌❌🚨🚨❌"
+  },
+  "DNA": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
    "subs24": [
     "smallstreetbets"
    ],
    "first_utc": "2026-11-01T07:26+00:00",
    "sample": "r/smallstreetbets: Am I regarded"
   },
-  "EBAY": {
+  "SPCE": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -86,10 +82,10 @@
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-11-01T09:16+00:00",
+   "first_utc": "2026-11-01T21:16+00:00",
    "sample": ""
   },
-  "HTZ": {
+  "GYGY": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -100,10 +96,38 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-01T06:50+00:00",
+   "first_utc": "2026-11-01T20:20+00:00",
    "sample": ""
   },
-  "DPU": {
+  "LFVN": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-01T19:06+00:00",
+   "sample": ""
+  },
+  "SPCX": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-01T19:05+00:00",
+   "sample": ""
+  },
+  "NLST": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -114,70 +138,10 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-01T06:50+00:00",
+   "first_utc": "2026-11-01T17:08+00:00",
    "sample": ""
   },
-  "CLIR": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-01T04:06+00:00",
-   "sample": ""
-  },
-  "ONCY": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-01T02:39+00:00",
-   "sample": ""
-  },
-  "CVM": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-01T02:39+00:00",
-   "sample": ""
-  },
-  "MBIO": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-01T02:39+00:00",
-   "sample": ""
-  },
-  "GOVX": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-01T02:39+00:00",
-   "sample": ""
-  },
-  "SI": {
+  "BWET": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -186,10 +150,10 @@
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-11-01T00:38+00:00",
+   "first_utc": "2026-11-01T15:13+00:00",
    "sample": ""
   },
-  "AGI": {
+  "INO": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -198,10 +162,10 @@
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-11-01T00:38+00:00",
+   "first_utc": "2026-11-01T14:52+00:00",
    "sample": ""
   },
-  "NRXP": {
+  "SERV": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -210,10 +174,10 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-10-31T23:59+00:00",
+   "first_utc": "2026-11-01T14:35+00:00",
    "sample": ""
   },
-  "HBM": {
+  "VRRM": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -222,22 +186,10 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-10-31T23:48+00:00",
+   "first_utc": "2026-11-01T14:35+00:00",
    "sample": ""
   },
-  "FTNT": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-10-31T23:21+00:00",
-   "sample": ""
-  },
-  "CYPH": {
+  "FCEL": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -246,7 +198,7 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-10-31T21:07+00:00",
+   "first_utc": "2026-11-01T14:35+00:00",
    "sample": ""
   }
  },

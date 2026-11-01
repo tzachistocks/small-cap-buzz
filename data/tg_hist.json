@@ -6233,6 +6233,42 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-10-31T11:12+00:00"
+  },
+  "HELP": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T21:38+00:00"
+  },
+  "EL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T21:38+00:00"
+  },
+  "SAY": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T21:38+00:00"
+  },
+  "LNG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T21:37+00:00"
+  },
+  "GEHC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T17:44+00:00"
+  },
+  "GE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T17:44+00:00"
   }
  }
 }

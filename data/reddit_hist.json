@@ -4771,9 +4771,10 @@
    "first_utc": "2026-11-01T09:16+00:00"
   },
   "HTZ": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 6,
+   "authors24_max": 5,
    "subs": [
+    "Shortsqueeze",
     "pennystocks"
    ],
    "first_utc": "2026-11-01T06:50+00:00"
@@ -4827,8 +4828,8 @@
    "first_utc": "2026-11-01T02:39+00:00"
   },
   "SI": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "smallstreetbets"
    ],
@@ -4873,6 +4874,87 @@
     "pennystocks"
    ],
    "first_utc": "2026-10-31T21:07+00:00"
+  },
+  "SNDK": {
+   "m24_max": 4,
+   "authors24_max": 2,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-01T15:54+00:00"
+  },
+  "DTE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-01T18:35+00:00",
+   "sample": "r/smallstreetbets: DONT BUY GOOGLE CALLS! ❌❌🚨🚨❌"
+  },
+  "SPCE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-01T21:16+00:00"
+  },
+  "GYGY": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-01T20:20+00:00"
+  },
+  "LFVN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-01T19:06+00:00"
+  },
+  "SPCX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-01T19:05+00:00"
+  },
+  "BWET": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-01T15:13+00:00"
+  },
+  "SERV": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-01T14:35+00:00"
+  },
+  "VRRM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-01T14:35+00:00"
+  },
+  "FCEL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-01T14:35+00:00"
   }
  }
 }
