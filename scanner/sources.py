@@ -100,6 +100,34 @@ def stocktwits_stream(ticker):
             "watchlist": sym.get("watchlist_count")}
 
 
+def stocktwits_history(ticker, since, max_pages=8):
+    """Pages back through the public StockTwits stream until `since` (aware datetime) or max_pages.
+    Returns {"times": [utc datetimes], "users": {datetime: user id}, "reached": bool} or None when unreachable."""
+    times, users, max_id, reached = [], {}, None, False
+    for _ in range(max_pages):
+        d = _get(f"https://api.stocktwits.com/api/2/streams/symbol/{ticker}.json",
+                 params={"max": max_id} if max_id else None, retries=1)
+        if not d or "messages" not in d:
+            return None if not times and max_id is None else {"times": times, "users": users, "reached": reached}
+        msgs = d["messages"]
+        if not msgs:
+            reached = True
+            break
+        for m in msgs:
+            try:
+                t = datetime.strptime(m["created_at"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+            except Exception:
+                continue
+            times.append(t)
+            users[t] = (m.get("user") or {}).get("id")
+        max_id = min(m["id"] for m in msgs) - 1
+        if min(times) < since:
+            reached = True
+            break
+        time.sleep(0.4)
+    return {"times": times, "users": users, "reached": reached}
+
+
 # ---------------- Reddit (optional) ----------------
 _TICKER_DOLLAR = re.compile(r"\$([A-Za-z]{1,5})\b")
 _TICKER_CAPS = re.compile(r"\b([A-Z]{2,5})\b")

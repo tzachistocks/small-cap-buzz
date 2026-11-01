@@ -117,6 +117,14 @@ TRACK_SEED = (
 DIGEST_CLOSES_DAYS = 12        # last N daily bars per ticker
 DIGEST_CLOSES_BUDGET_S = 180
 DIGEST_MAX_CAP_M = 2000.0      # closes only for candidates up to this market cap (or unknown)
+# Social look-back for the day's top gainers (replaces the manual StockTwits/Chrome check of the reverse analysis)
+LOOKBACK_HOUR_UTC = 21         # from this hour, once per day, after the US close
+LOOKBACK_TOP_N = 15            # top N regular-session gainers from stockanalysis
+LOOKBACK_DAYS = 5              # how far back before the jump day
+LOOKBACK_ST_PAGES = 6          # StockTwits stream pages per ticker (30 messages each)
+LOOKBACK_ST_BURST = 5          # StockTwits talk 'starts' at the first 6h window with this many messages
+LOOKBACK_BUDGET_S = 75         # per run; unfinished tickers continue in the next hourly runs
+SOCIAL_HIST_DAYS = 30          # reddit_hist.json / tg_hist.json retention (was 10)
 
 # ---------- Follow-ups on alerts ----------
 FOLLOW_DAYS = 8                # follow an alert this many calendar days (~5 trading days)

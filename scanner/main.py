@@ -653,7 +653,7 @@ def run():
 
 def export_reddit(store, rd_counts, rd_ok, snap, subs):
     """data/reddit_latest.json: this run's Reddit counts + ApeWisdom per-forum counts.
-    data/reddit_hist.json: per day, per ticker, the peak 24h mentions and the first time seen (10 days kept)."""
+    data/reddit_hist.json: per day, per ticker, the peak 24h mentions and the first time seen (SOCIAL_HIST_DAYS kept)."""
     ts = NOW.isoformat(timespec="minutes")
     top = dict(sorted(rd_counts.items(), key=lambda kv: -kv[1]["m24"])[:200])
     forums = {}
@@ -671,7 +671,7 @@ def export_reddit(store, rd_counts, rd_ok, snap, subs):
         h["first_utc"] = min(h["first_utc"], r["first_utc"])
         if r.get("sample") and not h.get("sample"):
             h["sample"] = r["sample"]
-    for d in sorted(hist)[:-10]:
+    for d in sorted(hist)[:-config.SOCIAL_HIST_DAYS]:
         hist.pop(d)
     store.save_json("reddit_hist.json", hist)
 

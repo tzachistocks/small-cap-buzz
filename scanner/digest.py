@@ -1,7 +1,7 @@
 """Daily digest: one file per day that gathers everything the hourly runs found.
 
 data/runs_log.jsonl      one line per run: funnel, Telegram status, alerts sent, errors (14 days kept)
-data/tg_hist.json        per day, per ticker: peak Telegram counts (numbers only, no chat names; 10 days)
+data/tg_hist.json        per day, per ticker: peak Telegram counts (numbers only, no chat names; SOCIAL_HIST_DAYS)
 data/digest/<date>.json  the day's digest, rebuilt every run (cheap, local data only)
 data/digest/latest.json  copy of the newest digest (a fixed address for readers)
 
@@ -47,7 +47,7 @@ def update_tg_hist(store, now, tg_counts):
         h["authors24_max"] = max(h["authors24_max"], r["authors24"])
         h["chats24_max"] = max(h["chats24_max"], r["chats24"])
         h["first_utc"] = min(h["first_utc"], r["first_utc"])
-    for d in sorted(hist)[:-10]:
+    for d in sorted(hist)[:-config.SOCIAL_HIST_DAYS]:
         hist.pop(d)
     store.save_json("tg_hist.json", hist)
 
@@ -161,14 +161,115 @@ def update_universe(store, now, alerts, cand_log):
             html = sources._get(url, expect_json=False, retries=1)
             del sources.ERRORS[n_err:]  # optional source
             if html:
-                for t in dict.fromkeys(_HREF.findall(html)):
+                found = list(dict.fromkeys(_HREF.findall(html)))
+                for t in found:
                     add(t)
                 scraped[name] = day
+                if name == "gainers":  # ordered list (page is sorted by % change) for the social look-back
+                    g = uni.setdefault("_gainers", {})
+                    g[day] = [t.upper() for t in found[:40]]
+                    for d in sorted(g)[:-10]:
+                        g.pop(d)
     old = (now - timedelta(days=config.DIGEST_UNIVERSE_DAYS)).date().isoformat()
-    for t in [t for t, d in uni.items() if not t.startswith("_") and d < old]:
+    for t in [t for t, d in uni.items() if not t.startswith("_") and isinstance(d, str) and d < old]:
         uni.pop(t)
     store.save_json("closes_universe.json", uni)
     return uni
+
+
+def _open_utc(day):
+    """US regular-session open (09:30 New York) for `day` as an aware UTC datetime."""
+    from zoneinfo import ZoneInfo
+    from datetime import timezone
+    d = datetime.fromisoformat(day)
+    return d.replace(hour=9, minute=30, tzinfo=ZoneInfo("America/New_York")).astimezone(timezone.utc)
+
+
+def _iso(dt):
+    return dt.isoformat(timespec="minutes") if dt else None
+
+
+def social_lookback(store, now, uni, alerts, cand_log, done):
+    """For the day's top gainers: when did the talk start, in the LOOKBACK_DAYS before the jump and on the day?
+    Sources: StockTwits (paged back via the public API), ApeWisdom snapshots, Reddit and Telegram histories,
+    bot candidates/alerts. Counts and times only, never message text or user names. Returns {ticker: row}."""
+    from datetime import timezone
+    day = now.date().isoformat()
+    gainers = ((uni.get("_gainers") or {}).get(day) or [])
+    caps = store.load_json("caps.json", {})
+    todo = [t for t in gainers if t not in done and t not in config.LARGE_CAPS
+            and ((caps.get(t) or {}).get("cap") or 0) <= config.DIGEST_MAX_CAP_M][:config.LOOKBACK_TOP_N]
+    if not todo:
+        return {}
+    open_utc = _open_utc(day)
+    since = open_utc - timedelta(days=config.LOOKBACK_DAYS)
+    win_days = [(now.date() - timedelta(days=i)).isoformat() for i in range(config.LOOKBACK_DAYS, -1, -1)]
+    snaps = [s for s in store.load_history(days=config.LOOKBACK_DAYS + 2) if s["ts"] >= _iso(since)]
+    rh = store.load_json("reddit_hist.json", {})
+    th = store.load_json("tg_hist.json", {})
+    out, t0 = {}, time.monotonic()
+    rank_of = {t: i for i, t in enumerate(gainers, 1)}
+    for t in todo:
+        if time.monotonic() - t0 > config.LOOKBACK_BUDGET_S:
+            break  # the rest is done by the next runs (they skip tickers already in the digest)
+        firsts = {}  # source -> first aware datetime in the window
+        for s in snaps:
+            hit = (s.get("main") or {}).get(t) or next((d[t] for d in (s.get("subs") or {}).values() if t in d), None)
+            if hit and hit[0] >= 1:
+                firsts.setdefault("apewisdom", datetime.fromisoformat(s["ts"]))
+        for name, hist in (("reddit", rh), ("telegram", th)):
+            fs = [datetime.fromisoformat(hist[d][t]["first_utc"]) for d in win_days if t in (hist.get(d) or {})]
+            fs = [f for f in fs if f >= since]
+            if fs:
+                firsts[name] = min(fs)
+        bot = [a["ts"] for a in alerts if a["ticker"] == t and a["ts"] >= _iso(since)]
+        bot += [v["ts"] for k, v in (cand_log or {}).items() if v.get("ticker") == t and v.get("ts", "") >= _iso(since)]
+        if bot:
+            firsts["bot"] = datetime.fromisoformat(min(bot))
+        st = None
+        n_err = len(sources.ERRORS)
+        h = sources.stocktwits_history(t, since, config.LOOKBACK_ST_PAGES)
+        del sources.ERRORS[n_err:]  # optional source
+        if h is not None:
+            ts = [x for x in h["times"] if x >= since]
+            by_day = {}
+            for x in ts:
+                by_day[x.date().isoformat()] = by_day.get(x.date().isoformat(), 0) + 1
+            before = [x for x in ts if x < open_utc]
+            ts_sorted = sorted(ts)
+            burst = next((x for i, x in enumerate(ts_sorted)
+                          if sum(1 for y in ts_sorted[i:] if y - x <= timedelta(hours=6)) >= config.LOOKBACK_ST_BURST), None)
+            st = {"by_day": by_day, "msgs_before_open": len(before),
+                  "burst_utc": _iso(burst),  # first time with LOOKBACK_ST_BURST+ messages within 6h
+                  "users_before_open": len({h["users"].get(x) for x in before}),
+                  "first_utc": _iso(min(ts)) if ts else None,
+                  "full_window": bool(h["reached"])}  # False = more messages than pages, window not fully read
+            if burst:  # a single old message is noise; the burst is when the talk really started
+                firsts["stocktwits"] = burst
+        out[t] = {"rank": rank_of.get(t), "first": {k: _iso(v) for k, v in sorted(firsts.items(), key=lambda kv: kv[1])},
+                  "stocktwits": st, "timing": _timing(firsts, open_utc, st)}
+    return out
+
+
+def _timing(firsts, open_utc, st):
+    """Short Hebrew label, same vocabulary as the dashboard's reverse analysis."""
+    tail = ""
+    if st is None:
+        tail = " (StockTwits לא זמין)"
+    else:
+        tail = f"; StockTwits {st['msgs_before_open']} הודעות לפני הפתיחה" + ("" if st["full_window"] else " (חלון חלקי)")
+    if not firsts:
+        return "אין שיח במקורות הבוט" + tail
+    src, first = min(firsts.items(), key=lambda kv: kv[1])
+    day_start = open_utc - timedelta(hours=9, minutes=30)  # 00:00 New York
+    if first < day_start:
+        days = (open_utc.date() - first.date()).days
+        label = f"לפני – {days} ימים לפני ({src})"
+    elif first < open_utc:
+        label = f"בפרה-מרקט ({src})"
+    else:
+        label = f"במהלך/אחרי ({src})"
+    return label + tail
 
 
 def build(store, now, alerts, cand_log):
@@ -213,6 +314,13 @@ def build(store, now, alerts, cand_log):
         closes.update(_closes(todo[:config.DIGEST_CLOSES_MAX_TICKERS], now))
         closes_asof = day
 
+    lookback = old.get("social_lookback") or {}
+    if now.hour >= config.LOOKBACK_HOUR_UTC:
+        try:
+            lookback.update(social_lookback(store, now, uni, alerts, cand_log, lookback))
+        except Exception as e:  # never breaks the digest
+            sources.ERRORS.append(f"lookback: {type(e).__name__}: {e}")
+
     dg = {"date": day, "generated_at": now.isoformat(timespec="minutes"),
           "final": closes_asof == day,
           "runs": {"count": len(runs), "first": runs[0]["ts"] if runs else None, "last": runs[-1]["ts"] if runs else None,
@@ -228,6 +336,7 @@ def build(store, now, alerts, cand_log):
           "candidates_measured": cands_measured,
           "social_today": {"reddit_top": top(reddit, 40), "telegram_top": top(tg, 40),
                            "telegram_all": tg},
+          "social_lookback": lookback,
           "errors_today": dict(sorted(errs.items(), key=lambda kv: -kv[1])[:30]),
           "closes_asof": closes_asof, "closes": closes}
     store.save_json(os.path.join(DIGEST_DIR, f"{day}.json"), dg)
