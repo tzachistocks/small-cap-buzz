@@ -1088,9 +1088,9 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 0.3953999876976013,
-   "last_pct": -3.6,
-   "max_close_pct": -3.6,
+   "last_close": 0.4000000059604645,
+   "last_pct": -2.5,
+   "max_close_pct": -2.5,
    "max_high_pct": -0.0,
    "d1_pct": -4.2
   },

@@ -3826,5 +3826,68 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-11-02|CC": {
+  "ts": "2026-11-02T22:07+00:00",
+  "ticker": "CC",
+  "score": 3,
+  "max_score": 3,
+  "price": 13.4,
+  "move_pct": -0.96,
+  "cap_m": 1980.0,
+  "blocked": [
+   "שווי $1980M"
+  ],
+  "tags": [
+   "vel3h",
+   "spread",
+   "rvol",
+   "word"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-02|FANG": {
+  "ts": "2026-11-02T22:07+00:00",
+  "ticker": "FANG",
+  "score": 3,
+  "max_score": 3,
+  "price": 199.74,
+  "move_pct": -5.82,
+  "cap_m": 55930.0,
+  "blocked": [
+   "שווי $55930M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-02|BEAT": {
+  "ts": "2026-11-02T22:07+00:00",
+  "ticker": "BEAT",
+  "score": 3,
+  "max_score": 3,
+  "price": 0.41,
+  "move_pct": -25.45,
+  "cap_m": 23.05,
+  "blocked": [
+   "כבר רצה +38% ב-3 ימים"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "low_float"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }

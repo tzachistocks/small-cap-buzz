@@ -5287,8 +5287,8 @@
    "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AN WHY ?"
   },
   "BRAI": {
-   "m24_max": 2,
-   "authors24_max": 1,
+   "m24_max": 3,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],
@@ -5579,6 +5579,14 @@
     "pennystocks"
    ],
    "first_utc": "2026-11-02T19:06+00:00"
+  },
+  "NVTS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T21:12+00:00"
   }
  }
 }
