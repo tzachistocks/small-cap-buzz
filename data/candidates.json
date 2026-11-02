@@ -3783,7 +3783,7 @@
   "ts": "2026-11-02T16:07+00:00",
   "ticker": "ELAB",
   "score": 6,
-  "max_score": 6,
+  "max_score": 8,
   "price": 2.175,
   "move_pct": -16.35,
   "cap_m": 1.76,
@@ -3797,7 +3797,8 @@
    "novel",
    "low_float",
    "rvol",
-   "x_weak"
+   "x_weak",
+   "vel3h"
   ],
   "alerted": false,
   "urgent": false,
