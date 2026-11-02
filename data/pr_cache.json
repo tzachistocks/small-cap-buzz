@@ -1,11 +1,5 @@
 [
  {
-  "ticker": "TMDX",
-  "title": "TransMedics Reports Inducement Grants Under NASDAQ Listing Rule 5635(c)(4)",
-  "src": "PR Newswire",
-  "ts": "2026-10-30T20:05+00:00"
- },
- {
   "ticker": "PBK",
   "title": "PowerBank Announces Results of Annual General Meeting",
   "src": "PR Newswire",
@@ -214,5 +208,11 @@
   "title": "Life Time and Dewitt Carolinas Break Ground on Life Time Living at The Exchange Raleigh",
   "src": "PR Newswire",
   "ts": "2026-11-02T18:21+00:00"
+ },
+ {
+  "ticker": "COMP",
+  "title": "Compass, Inc. (COMP) Class Action Lawsuit Seeks Recovery for Investors; December 8, 2026 Deadline- Contact Kessler Topaz Meltzer & Check, LLP",
+  "src": "PR Newswire",
+  "ts": "2026-11-02T19:36+00:00"
  }
 ]
