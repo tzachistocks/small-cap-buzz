@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-02T07:07+00:00",
+ "ts": "2026-11-02T08:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
@@ -16,9 +16,9 @@
    "sample": "r/pennystocks: Cervomed (CRVO)"
   },
   "HTZ": {
-   "m6": 3,
+   "m6": 2,
    "m24": 3,
-   "authors6": 3,
+   "authors6": 2,
    "authors24": 3,
    "subs6": [
     "Shortsqueeze"
@@ -68,18 +68,6 @@
    ],
    "first_utc": "2026-11-01T18:35+00:00",
    "sample": "r/smallstreetbets: DONT BUY GOOGLE CALLS! ❌❌🚨🚨❌"
-  },
-  "DNA": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-01T07:26+00:00",
-   "sample": "r/smallstreetbets: Am I regarded"
   },
   "DH": {
    "m6": 1,
@@ -152,13 +140,11 @@
    "sample": ""
   },
   "XXII": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
