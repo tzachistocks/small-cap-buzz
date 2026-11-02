@@ -187,5 +187,12 @@
   "asia": null,
   "sic": "Newspapers: Publishing or  Publishing & Printing",
   "ts": "2026-11-02T07:08+00:00"
+ },
+ "GMHS": {
+  "country": "F4",
+  "inc": "E9",
+  "asia": "סין",
+  "sic": "Services-Computer Processing & Data Preparation",
+  "ts": "2026-11-02T10:09+00:00"
  }
 }

@@ -1,11 +1,5 @@
 [
  {
-  "ticker": "IDYA",
-  "title": "IDEAYA Biosciences Announces Inducement Grants under Nasdaq Listing Rule 5635(c)(4)",
-  "src": "PR Newswire",
-  "ts": "2026-10-30T10:00+00:00"
- },
- {
   "ticker": "CZFS",
   "title": "CITIZENS FINANCIAL SERVICES, INC. REPORTS UNAUDITED THIRD QUARTER 2026 FINANCIAL RESULTS",
   "src": "PR Newswire",
@@ -280,5 +274,29 @@
   "title": "Allegiant Partners with UNLV's College of Hospitality to Launch Customer Experience Training for Flight Attendants",
   "src": "PR Newswire",
   "ts": "2026-11-02T09:00+00:00"
+ },
+ {
+  "ticker": "CHKP",
+  "title": "Check Point Software Reports 2026 Third Quarter Financial Results",
+  "src": "PR Newswire",
+  "ts": "2026-11-02T10:00+00:00"
+ },
+ {
+  "ticker": "GMHS",
+  "title": "Gamehaus Signs Definitive Agreement to Acquire Majority Stake in Anamana",
+  "src": "PR Newswire",
+  "ts": "2026-11-02T10:00+00:00"
+ },
+ {
+  "ticker": "ZKH",
+  "title": "ZKH and Intel Bring Industrial Multimodal AI to the Edge with LingLong Insight 1.0",
+  "src": "PR Newswire",
+  "ts": "2026-11-02T10:00+00:00"
+ },
+ {
+  "ticker": "MOTLY",
+  "title": "MetaOptics Provides Information Guidance on ADS Conversion and Issuance Process",
+  "src": "PR Newswire",
+  "ts": "2026-11-02T09:53+00:00"
  }
 ]
