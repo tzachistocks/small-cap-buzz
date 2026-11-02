@@ -3600,7 +3600,7 @@
    "novel",
    "low_float"
   ],
-  "alerted": false,
+  "alerted": true,
   "urgent": false,
   "outcome": {}
  },
@@ -3620,6 +3620,30 @@
    "accel",
    "vel3h",
    "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-02|GYGY": {
+  "ts": "2026-11-02T11:06+00:00",
+  "ticker": "GYGY",
+  "score": 5,
+  "max_score": 5,
+  "price": 0.42,
+  "move_pct": 6.92,
+  "cap_m": 6.04,
+  "blocked": [
+   "דיווח הנפקה: 424B3 2026-10-30, 424B3 2026-10-30, 424B3 2026-10-26"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "spread",
+   "low_float",
+   "rvol",
+   "borrow_fee",
+   "sec_negative"
   ],
   "alerted": false,
   "urgent": false,

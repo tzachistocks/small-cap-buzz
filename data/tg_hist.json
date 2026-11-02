@@ -6453,7 +6453,7 @@
    "first_utc": "2026-11-01T22:25+00:00"
   },
   "EL": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-01T21:38+00:00"
@@ -6565,6 +6565,18 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-02T09:12+00:00"
+  },
+  "EBF": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T11:06+00:00"
+  },
+  "L": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T11:05+00:00"
   }
  }
 }

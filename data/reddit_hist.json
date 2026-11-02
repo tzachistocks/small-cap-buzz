@@ -5019,8 +5019,8 @@
    "first_utc": "2026-11-02T06:37+00:00"
   },
   "GYGY": {
-   "m24_max": 2,
-   "authors24_max": 1,
+   "m24_max": 3,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],
@@ -5065,6 +5065,30 @@
     "pennystocks"
    ],
    "first_utc": "2026-11-02T00:09+00:00"
+  },
+  "SLGB": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T10:40+00:00"
+  },
+  "RZAI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T10:40+00:00"
+  },
+  "CLRO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T10:40+00:00"
   }
  }
 }

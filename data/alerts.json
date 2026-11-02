@@ -1370,5 +1370,100 @@
    "d1_pct": 6.6
   },
   "followups": {}
+ },
+ {
+  "id": "202611021106-LEE",
+  "ts": "2026-11-02T11:06+00:00",
+  "ticker": "LEE",
+  "score": 4,
+  "why": [
+   "האצה x3.5 מול הבסיס",
+   "חדשה בשיח (לא דוברה 14 יום)",
+   "פלואט 4.7M"
+  ],
+  "price": {
+   "price": 6.12,
+   "prev_close": 6.22,
+   "move_pct": -1.61,
+   "vol_today": 20400,
+   "avg_vol20": 36445,
+   "rel_vol": 0.56,
+   "exchange": "NMS",
+   "name": "Lee Enterprises, Incorporated",
+   "readiness": {
+    "points": 0,
+    "why": [],
+    "risk": [],
+    "asof": "2026-10-30",
+    "f": {
+     "rvol_1": 0.7757,
+     "atr_ratio": 1.0435,
+     "drawdown_60": -0.3419,
+     "vol20": 0.0334,
+     "prior_runs_120": 0.0,
+     "ret_1d": -0.0161,
+     "ret_3d": -0.0699,
+     "ret_10d": -0.0467,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.799
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 136.43,
+   "float_m": 4.74,
+   "short_float_pct": 11.13,
+   "days_to_cover": 14.02,
+   "src": "finviz"
+  },
+  "m_now": 5,
+  "m_24h_ago": 0,
+  "spread": [
+   "wallstreetbets"
+  ],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 0,
+   "users": 14,
+   "bull": 6,
+   "bear": 0,
+   "oldest_min": 379785,
+   "watchlist": 1331
+  },
+  "borrow": {
+   "fee": 2.8014,
+   "available": 3000,
+   "fee_5d": null,
+   "available_5d": null
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "x": null,
+  "profile": {
+   "country": "IA",
+   "inc": "DE",
+   "asia": null,
+   "sic": "Newspapers: Publishing or  Publishing & Printing",
+   "ts": "2026-11-02T07:08+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [],
+   "filings": [],
+   "rsplit": null,
+   "cik": 58361
+  },
+  "forum": {
+   "rising": null,
+   "novel": true
+  },
+  "invalidation": 5.202,
+  "news": null,
+  "urgent": false,
+  "urgent_why": [],
+  "path": "buzz",
+  "telegram_sent": true,
+  "outcome": {}
  }
 ]
