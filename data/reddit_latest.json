@@ -1,8 +1,54 @@
 {
- "ts": "2026-11-02T13:07+00:00",
+ "ts": "2026-11-02T14:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
+  "NRXP": {
+   "m6": 8,
+   "m24": 8,
+   "authors6": 6,
+   "authors24": 6,
+   "subs6": [
+    "Shortsqueeze",
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "Shortsqueeze",
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-02T12:15+00:00",
+   "sample": "r/pennystocks: NRx Pharmaceuticals (NRXP) - Debrief of last Friday's conference call and share price acti"
+  },
+  "GYGY": {
+   "m6": 3,
+   "m24": 4,
+   "authors6": 2,
+   "authors24": 2,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T06:13+00:00",
+   "sample": ""
+  },
+  "HTZ": {
+   "m6": 2,
+   "m24": 3,
+   "authors6": 2,
+   "authors24": 3,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-02T04:29+00:00",
+   "sample": ""
+  },
   "CLRO": {
    "m6": 3,
    "m24": 3,
@@ -15,20 +61,6 @@
     "pennystocks"
    ],
    "first_utc": "2026-11-02T10:40+00:00",
-   "sample": ""
-  },
-  "GYGY": {
-   "m6": 2,
-   "m24": 3,
-   "authors6": 2,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-02T06:13+00:00",
    "sample": ""
   },
   "NOV": {
@@ -45,6 +77,20 @@
    "first_utc": "2026-11-02T06:02+00:00",
    "sample": "r/RobinHoodPennyStocks: MONDAY NOV 2 — POTENTIAL TOP GAINERS"
   },
+  "INO": {
+   "m6": 1,
+   "m24": 2,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-02T04:48+00:00",
+   "sample": ""
+  },
   "BURU": {
    "m6": 2,
    "m24": 2,
@@ -59,31 +105,35 @@
    "first_utc": "2026-11-02T11:49+00:00",
    "sample": ""
   },
-  "INO": {
-   "m6": 0,
-   "m24": 2,
-   "authors6": 0,
-   "authors24": 2,
-   "subs6": [],
+  "BLGO": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T14:00+00:00",
+   "sample": "r/pennystocks: BioLargo's Clyra Medical Gains Commercial Traction as Clinician Enthusiasm Drives Health S"
+  },
+  "PMI": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
    "subs24": [
     "Shortsqueeze"
    ],
-   "first_utc": "2026-11-02T03:59+00:00",
-   "sample": ""
+   "first_utc": "2026-11-02T13:01+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 2nd 2026"
   },
-  "HTZ": {
-   "m6": 0,
-   "m24": 2,
-   "authors6": 0,
-   "authors24": 2,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-02T03:22+00:00",
-   "sample": ""
-  },
-  "TENB": {
+  "RDDT": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -111,21 +161,7 @@
    "first_utc": "2026-11-02T13:01+00:00",
    "sample": "r/Shortsqueeze: SqueezeFinder - Nov 2nd 2026"
   },
-  "PMI": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "Shortsqueeze"
-   ],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-02T13:01+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 2nd 2026"
-  },
-  "RDDT": {
+  "TENB": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -191,6 +227,34 @@
    "first_utc": "2026-11-01T18:35+00:00",
    "sample": "r/smallstreetbets: DONT BUY GOOGLE CALLS! ❌❌🚨🚨❌"
   },
+  "CANF": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T14:02+00:00",
+   "sample": ""
+  },
+  "BBLG": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T13:58+00:00",
+   "sample": ""
+  },
   "EVGO": {
    "m6": 1,
    "m24": 1,
@@ -205,7 +269,7 @@
    "first_utc": "2026-11-02T12:59+00:00",
    "sample": ""
   },
-  "ELAB": {
+  "GPUS": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -219,7 +283,7 @@
    "first_utc": "2026-11-02T12:39+00:00",
    "sample": ""
   },
-  "GPUS": {
+  "ELAB": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -247,7 +311,7 @@
    "first_utc": "2026-11-02T12:23+00:00",
    "sample": ""
   },
-  "NRXP": {
+  "SGRX": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -258,7 +322,7 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-02T12:15+00:00",
+   "first_utc": "2026-11-02T11:49+00:00",
    "sample": ""
   },
   "AIOK": {
@@ -275,21 +339,7 @@
    "first_utc": "2026-11-02T11:49+00:00",
    "sample": ""
   },
-  "SGRX": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-02T11:49+00:00",
-   "sample": ""
-  },
-  "SLGB": {
+  "RZAI": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -303,7 +353,7 @@
    "first_utc": "2026-11-02T10:40+00:00",
    "sample": ""
   },
-  "RZAI": {
+  "SLGB": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -351,18 +401,6 @@
     "Shortsqueeze"
    ],
    "first_utc": "2026-11-02T05:54+00:00",
-   "sample": ""
-  },
-  "HXHX": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-02T03:54+00:00",
    "sample": ""
   }
  },

@@ -6304,19 +6304,19 @@
   },
   "INR": {
    "m24_max": 63,
-   "authors24_max": 6,
+   "authors24_max": 9,
    "chats24_max": 1,
    "first_utc": "2026-11-01T07:38+00:00"
   },
   "SG": {
    "m24_max": 30,
-   "authors24_max": 3,
+   "authors24_max": 6,
    "chats24_max": 1,
    "first_utc": "2026-11-01T07:38+00:00"
   },
   "HKD": {
    "m24_max": 30,
-   "authors24_max": 3,
+   "authors24_max": 6,
    "chats24_max": 1,
    "first_utc": "2026-11-01T07:38+00:00"
   },
@@ -6597,7 +6597,7 @@
    "first_utc": "2026-11-02T11:47+00:00"
   },
   "FIVE": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-02T12:02+00:00"
@@ -6679,6 +6679,84 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-02T12:09+00:00"
+  },
+  "BKNG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T14:03+00:00"
+  },
+  "CAT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T14:01+00:00"
+  },
+  "MPAA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T13:50+00:00"
+  },
+  "XMAX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T13:47+00:00"
+  },
+  "CRWD": {
+   "m24_max": 4,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T13:27+00:00"
+  },
+  "NDAQ": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T13:41+00:00"
+  },
+  "SPOT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T13:39+00:00"
+  },
+  "OZ": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T13:39+00:00"
+  },
+  "TV": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T13:37+00:00"
+  },
+  "LUMN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T13:37+00:00"
+  },
+  "LITE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T13:35+00:00"
+  },
+  "SOC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T13:27+00:00"
+  },
+  "WH": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T13:20+00:00"
   }
  }
 }

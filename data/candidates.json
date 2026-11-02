@@ -3629,7 +3629,7 @@
   "ts": "2026-11-02T11:06+00:00",
   "ticker": "GYGY",
   "score": 5,
-  "max_score": 5,
+  "max_score": 6,
   "price": 0.42,
   "move_pct": 6.92,
   "cap_m": 6.04,
@@ -3688,6 +3688,28 @@
    "pr_weak"
   ],
   "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-02|NRXP": {
+  "ts": "2026-11-02T14:07+00:00",
+  "ticker": "NRXP",
+  "score": 8,
+  "max_score": 8,
+  "price": 2.3291,
+  "move_pct": -12.44,
+  "cap_m": 101.31,
+  "blocked": [],
+  "tags": [
+   "spread",
+   "authors",
+   "st_msgs",
+   "short",
+   "low_float",
+   "rvol",
+   "sec_weak"
+  ],
+  "alerted": true,
   "urgent": false,
   "outcome": {}
  }

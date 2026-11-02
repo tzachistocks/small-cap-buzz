@@ -1,37 +1,37 @@
 {
  "date": "2026-11-02",
- "generated_at": "2026-11-02T13:07+00:00",
+ "generated_at": "2026-11-02T14:07+00:00",
  "final": false,
  "runs": {
-  "count": 7,
+  "count": 8,
   "first": "2026-11-02T07:07+00:00",
-  "last": "2026-11-02T13:07+00:00",
+  "last": "2026-11-02T14:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 1872,
-   "mention_gate": 50,
-   "reddit_path": 0,
+   "buzz_tickers": 2138,
+   "mention_gate": 63,
+   "reddit_path": 1,
    "telegram_path": 0,
-   "news_path": 11,
-   "skipped_large_cache": 89,
-   "shadow_gate": 52,
-   "to_check": 24,
-   "checked": 24,
+   "news_path": 13,
+   "skipped_large_cache": 107,
+   "shadow_gate": 59,
+   "to_check": 29,
+   "checked": 29,
    "not_checked_time": 0,
    "blocked": {
     "שווי": 4,
-    "דיווח": 3
+    "דיווח": 4
    },
-   "below_score": 10,
-   "cooldown": 2,
+   "below_score": 12,
+   "cooldown": 3,
    "shadow_would_alert": 4,
-   "sent": 1,
+   "sent": 2,
    "send_failed": 0
   },
   "telegram_last": {
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 370
+   "messages": 394
   },
   "per_run": [
    {
@@ -82,6 +82,13 @@
     "sent": 0,
     "send_failed": 0,
     "errors_n": 0
+   },
+   {
+    "ts": "2026-11-02T14:07+00:00",
+    "checked": 5,
+    "sent": 1,
+    "send_failed": 0,
+    "errors_n": 0
    }
   ]
  },
@@ -104,6 +111,32 @@
     "האצה x3.5 מול הבסיס",
     "חדשה בשיח (לא דוברה 14 יום)",
     "פלואט 4.7M"
+   ],
+   "news": null,
+   "outcome": {}
+  },
+  {
+   "ts": "2026-11-02T14:07+00:00",
+   "ticker": "NRXP",
+   "score": 8,
+   "path": "reddit",
+   "urgent": false,
+   "price": 2.3291,
+   "prev_close": 2.66,
+   "move_pct": -12.44,
+   "rel_vol": 19.39,
+   "cap_m": 101.31,
+   "float_m": 38.26,
+   "short_pct": 26.01,
+   "invalidation": 1.9797,
+   "why": [
+    "פיזור ב-4 פורומים",
+    "6 כותבים שונים ברדיט ב-6 שעות",
+    "21 הודעות בסטוקטוויטס ב-6 שעות",
+    "שורט 26%",
+    "פלואט 38.3M",
+    "נפח פי 19.4 מהממוצע",
+    "SEC רגיל: 8-K 7.01 (מצגת/FD) (2026-11-02)"
    ],
    "news": null,
    "outcome": {}
@@ -521,20 +554,22 @@
  ],
  "candidates_today": [
   {
-   "ts": "2026-11-02T07:07+00:00",
-   "ticker": "LEE",
-   "score": 5,
-   "max_score": 5,
-   "price": 6.12,
-   "move_pct": -1.61,
-   "cap_m": 136.43,
+   "ts": "2026-11-02T14:07+00:00",
+   "ticker": "NRXP",
+   "score": 8,
+   "max_score": 8,
+   "price": 2.3291,
+   "move_pct": -12.44,
+   "cap_m": 101.31,
    "blocked": [],
    "tags": [
-    "relaxed_gate",
-    "accel",
-    "vel3h",
-    "novel",
-    "low_float"
+    "spread",
+    "authors",
+    "st_msgs",
+    "short",
+    "low_float",
+    "rvol",
+    "sec_weak"
    ],
    "alerted": true,
    "urgent": false
@@ -543,7 +578,7 @@
    "ts": "2026-11-02T11:06+00:00",
    "ticker": "GYGY",
    "score": 5,
-   "max_score": 5,
+   "max_score": 6,
    "price": 0.42,
    "move_pct": 6.92,
    "cap_m": 6.04,
@@ -560,6 +595,25 @@
     "sec_negative"
    ],
    "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-02T07:07+00:00",
+   "ticker": "LEE",
+   "score": 5,
+   "max_score": 5,
+   "price": 6.12,
+   "move_pct": -1.61,
+   "cap_m": 136.43,
+   "blocked": [],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "novel",
+    "low_float"
+   ],
+   "alerted": true,
    "urgent": false
   },
   {
@@ -3241,6 +3295,17 @@
  ],
  "social_today": {
   "reddit_top": {
+   "NRXP": {
+    "m24_max": 8,
+    "authors24_max": 6,
+    "subs": [
+     "Shortsqueeze",
+     "pennystocks",
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-11-02T12:15+00:00",
+    "sample": "r/pennystocks: NRx Pharmaceuticals (NRXP) - Debrief of last Friday's conference call and share price acti"
+   },
    "CRVO": {
     "m24_max": 4,
     "authors24_max": 3,
@@ -3250,6 +3315,14 @@
     "first_utc": "2026-11-02T00:07+00:00",
     "sample": "r/pennystocks: Cervomed (CRVO)"
    },
+   "GYGY": {
+    "m24_max": 4,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-02T06:13+00:00"
+   },
    "HTZ": {
     "m24_max": 3,
     "authors24_max": 3,
@@ -3257,14 +3330,6 @@
      "Shortsqueeze"
     ],
     "first_utc": "2026-11-02T01:51+00:00"
-   },
-   "GYGY": {
-    "m24_max": 3,
-    "authors24_max": 2,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-02T06:13+00:00"
    },
    "CLRO": {
     "m24_max": 3,
@@ -3483,19 +3548,36 @@
     ],
     "first_utc": "2026-11-02T12:23+00:00"
    },
-   "NRXP": {
+   "BLGO": {
     "m24_max": 1,
     "authors24_max": 1,
     "subs": [
      "pennystocks"
     ],
-    "first_utc": "2026-11-02T12:15+00:00"
+    "first_utc": "2026-11-02T14:00+00:00",
+    "sample": "r/pennystocks: BioLargo's Clyra Medical Gains Commercial Traction as Clinician Enthusiasm Drives Health S"
+   },
+   "CANF": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-02T14:02+00:00"
+   },
+   "BBLG": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-02T13:58+00:00"
    }
   },
   "telegram_top": {
    "INR": {
     "m24_max": 63,
-    "authors24_max": 6,
+    "authors24_max": 9,
     "chats24_max": 1,
     "first_utc": "2026-11-01T07:38+00:00"
    },
@@ -3513,13 +3595,13 @@
    },
    "SG": {
     "m24_max": 30,
-    "authors24_max": 3,
+    "authors24_max": 6,
     "chats24_max": 1,
     "first_utc": "2026-11-01T07:38+00:00"
    },
    "HKD": {
     "m24_max": 30,
-    "authors24_max": 3,
+    "authors24_max": 6,
     "chats24_max": 1,
     "first_utc": "2026-11-01T07:38+00:00"
    },
@@ -3540,6 +3622,12 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-01T09:51+00:00"
+   },
+   "CRWD": {
+    "m24_max": 4,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T13:27+00:00"
    },
    "BP": {
     "m24_max": 3,
@@ -3606,6 +3694,18 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T09:30+00:00"
+   },
+   "FIVE": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T12:02+00:00"
+   },
+   "WH": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T13:20+00:00"
    },
    "BROS": {
     "m24_max": 1,
@@ -3714,24 +3814,6 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-01T09:01+00:00"
-   },
-   "XRP": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-01T07:33+00:00"
-   },
-   "GABC": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-02T08:56+00:00"
-   },
-   "BCH": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-02T08:47+00:00"
    }
   },
   "telegram_all": {
@@ -3749,19 +3831,19 @@
    },
    "INR": {
     "m24_max": 63,
-    "authors24_max": 6,
+    "authors24_max": 9,
     "chats24_max": 1,
     "first_utc": "2026-11-01T07:38+00:00"
    },
    "SG": {
     "m24_max": 30,
-    "authors24_max": 3,
+    "authors24_max": 6,
     "chats24_max": 1,
     "first_utc": "2026-11-01T07:38+00:00"
    },
    "HKD": {
     "m24_max": 30,
-    "authors24_max": 3,
+    "authors24_max": 6,
     "chats24_max": 1,
     "first_utc": "2026-11-01T07:38+00:00"
    },
@@ -4042,7 +4124,7 @@
     "first_utc": "2026-11-02T11:47+00:00"
    },
    "FIVE": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T12:02+00:00"
@@ -4124,6 +4206,84 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T12:09+00:00"
+   },
+   "BKNG": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T14:03+00:00"
+   },
+   "CAT": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T14:01+00:00"
+   },
+   "MPAA": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T13:50+00:00"
+   },
+   "XMAX": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T13:47+00:00"
+   },
+   "CRWD": {
+    "m24_max": 4,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T13:27+00:00"
+   },
+   "NDAQ": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T13:41+00:00"
+   },
+   "SPOT": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T13:39+00:00"
+   },
+   "OZ": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T13:39+00:00"
+   },
+   "TV": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T13:37+00:00"
+   },
+   "LUMN": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T13:37+00:00"
+   },
+   "LITE": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T13:35+00:00"
+   },
+   "SOC": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T13:27+00:00"
+   },
+   "WH": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T13:20+00:00"
    }
   }
  },

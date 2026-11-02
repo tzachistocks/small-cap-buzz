@@ -5019,7 +5019,7 @@
    "first_utc": "2026-11-02T06:37+00:00"
   },
   "GYGY": {
-   "m24_max": 3,
+   "m24_max": 4,
    "authors24_max": 2,
    "subs": [
     "pennystocks"
@@ -5201,12 +5201,40 @@
    "first_utc": "2026-11-02T12:23+00:00"
   },
   "NRXP": {
+   "m24_max": 8,
+   "authors24_max": 6,
+   "subs": [
+    "Shortsqueeze",
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-02T12:15+00:00",
+   "sample": "r/pennystocks: NRx Pharmaceuticals (NRXP) - Debrief of last Friday's conference call and share price acti"
+  },
+  "BLGO": {
    "m24_max": 1,
    "authors24_max": 1,
    "subs": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-02T12:15+00:00"
+   "first_utc": "2026-11-02T14:00+00:00",
+   "sample": "r/pennystocks: BioLargo's Clyra Medical Gains Commercial Traction as Clinician Enthusiasm Drives Health S"
+  },
+  "CANF": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T14:02+00:00"
+  },
+  "BBLG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T13:58+00:00"
   }
  }
 }

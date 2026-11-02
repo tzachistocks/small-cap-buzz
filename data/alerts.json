@@ -1466,5 +1466,131 @@
   "telegram_sent": true,
   "outcome": {},
   "followups": {}
+ },
+ {
+  "id": "202611021407-NRXP",
+  "ts": "2026-11-02T14:07+00:00",
+  "ticker": "NRXP",
+  "score": 8,
+  "why": [
+   "פיזור ב-4 פורומים",
+   "6 כותבים שונים ברדיט ב-6 שעות",
+   "21 הודעות בסטוקטוויטס ב-6 שעות",
+   "שורט 26%",
+   "פלואט 38.3M",
+   "נפח פי 19.4 מהממוצע",
+   "SEC רגיל: 8-K 7.01 (מצגת/FD) (2026-11-02)"
+  ],
+  "price": {
+   "price": 2.3291,
+   "prev_close": 2.66,
+   "move_pct": -12.44,
+   "vol_today": 15459700,
+   "avg_vol20": 797490,
+   "rel_vol": 19.39,
+   "exchange": "NCM",
+   "name": "NRx Pharmaceuticals, Inc.",
+   "readiness": {
+    "points": 2,
+    "why": [
+     "נפח אתמול פי 22.6"
+    ],
+    "risk": [],
+    "asof": "2026-10-30",
+    "f": {
+     "rvol_1": 22.5524,
+     "atr_ratio": 1.3659,
+     "drawdown_60": -0.453,
+     "vol20": 0.0466,
+     "prior_runs_120": 1.0,
+     "ret_1d": -0.1466,
+     "ret_3d": -0.1561,
+     "ret_10d": -0.1269,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.763
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 101.31,
+   "float_m": 38.26,
+   "short_float_pct": 26.01,
+   "days_to_cover": 9.07,
+   "src": "finviz"
+  },
+  "m_now": 1,
+  "m_24h_ago": 1,
+  "spread": [
+   "pennystocks"
+  ],
+  "reddit": {
+   "m6": 8,
+   "m24": 8,
+   "authors6": 6,
+   "authors24": 6,
+   "subs6": [
+    "Shortsqueeze",
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "Shortsqueeze",
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-02T12:15+00:00",
+   "sample": "r/pennystocks: NRx Pharmaceuticals (NRXP) - Debrief of last Friday's conference call and share price acti"
+  },
+  "stocktwits": {
+   "msgs_6h": 21,
+   "users": 21,
+   "bull": 15,
+   "bear": 0,
+   "oldest_min": 1252,
+   "watchlist": 13682
+  },
+  "borrow": {
+   "fee": 6.1539,
+   "available": 1100000,
+   "fee_5d": null,
+   "available_5d": null
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "x": null,
+  "profile": {
+   "country": "DE",
+   "inc": "DE",
+   "asia": null,
+   "sic": "Pharmaceutical Preparations",
+   "ts": "2026-10-29T07:09+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [
+    "8-K 2026-11-02"
+   ],
+   "filings": [
+    {
+     "class": "weak",
+     "label": "8-K 7.01 (מצגת/FD)",
+     "date": "2026-11-02"
+    }
+   ],
+   "rsplit": null,
+   "cik": 1719406
+  },
+  "forum": {
+   "rising": null,
+   "novel": false
+  },
+  "invalidation": 1.9797,
+  "news": null,
+  "urgent": false,
+  "urgent_why": [],
+  "path": "reddit",
+  "telegram_sent": true,
+  "outcome": {}
  }
 ]
