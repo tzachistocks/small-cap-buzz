@@ -1,28 +1,28 @@
 {
  "date": "2026-11-02",
- "generated_at": "2026-11-02T08:07+00:00",
+ "generated_at": "2026-11-02T09:07+00:00",
  "final": false,
  "runs": {
-  "count": 2,
+  "count": 3,
   "first": "2026-11-02T07:07+00:00",
-  "last": "2026-11-02T08:07+00:00",
+  "last": "2026-11-02T09:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 544,
-   "mention_gate": 10,
+   "buzz_tickers": 811,
+   "mention_gate": 17,
    "reddit_path": 0,
    "telegram_path": 0,
-   "news_path": 2,
-   "skipped_large_cache": 22,
-   "shadow_gate": 15,
-   "to_check": 5,
-   "checked": 5,
+   "news_path": 3,
+   "skipped_large_cache": 35,
+   "shadow_gate": 22,
+   "to_check": 7,
+   "checked": 7,
    "not_checked_time": 0,
    "blocked": {
     "שווי": 2
    },
-   "below_score": 1,
+   "below_score": 2,
    "cooldown": 0,
-   "shadow_would_alert": 2,
+   "shadow_would_alert": 3,
    "sent": 0,
    "send_failed": 0
   },
@@ -30,7 +30,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 306
+   "messages": 318
   },
   "per_run": [
    {
@@ -42,6 +42,13 @@
    },
    {
     "ts": "2026-11-02T08:07+00:00",
+    "checked": 2,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 0
+   },
+   {
+    "ts": "2026-11-02T09:07+00:00",
     "checked": 2,
     "sent": 0,
     "send_failed": 0,
@@ -2625,7 +2632,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-11-01",
+    "checked": "2026-11-02",
     "days": 2,
     "last_pct": 1.6,
     "max_close_pct": 19.9,
@@ -2656,7 +2663,7 @@
    "blocked": true,
    "alerted": true,
    "outcome": {
-    "checked": "2026-11-01",
+    "checked": "2026-11-02",
     "days": 1,
     "last_pct": -32.5,
     "max_close_pct": -32.5,
@@ -2679,7 +2686,7 @@
    "blocked": false,
    "alerted": false,
    "outcome": {
-    "checked": "2026-11-01",
+    "checked": "2026-11-02",
     "days": 1,
     "last_pct": -8.9,
     "max_close_pct": -8.9,
@@ -2699,7 +2706,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-11-01",
+    "checked": "2026-11-02",
     "days": 1,
     "last_pct": 0.3,
     "max_close_pct": 0.3,
@@ -2722,7 +2729,7 @@
    "blocked": false,
    "alerted": true,
    "outcome": {
-    "checked": "2026-11-01",
+    "checked": "2026-11-02",
     "days": 1,
     "last_pct": -4.2,
     "max_close_pct": -4.2,
@@ -2744,7 +2751,7 @@
    "blocked": false,
    "alerted": false,
    "outcome": {
-    "checked": "2026-11-01",
+    "checked": "2026-11-02",
     "days": 1,
     "last_pct": -0.4,
     "max_close_pct": -0.4,
@@ -2766,7 +2773,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-11-01",
+    "checked": "2026-11-02",
     "days": 1,
     "last_pct": 0.6,
     "max_close_pct": 0.6,
@@ -2788,7 +2795,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-11-01",
+    "checked": "2026-11-02",
     "days": 1,
     "last_pct": -1.2,
     "max_close_pct": -1.2,
@@ -2809,7 +2816,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-11-01",
+    "checked": "2026-11-02",
     "days": 1,
     "last_pct": 0.9,
     "max_close_pct": 0.9,
@@ -2833,7 +2840,7 @@
    "blocked": false,
    "alerted": false,
    "outcome": {
-    "checked": "2026-11-01",
+    "checked": "2026-11-02",
     "days": 1,
     "last_pct": -5.5,
     "max_close_pct": -5.5,
@@ -2854,7 +2861,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-11-01",
+    "checked": "2026-11-02",
     "days": 1,
     "last_pct": -1.3,
     "max_close_pct": -1.3,
@@ -2876,7 +2883,7 @@
    "blocked": false,
    "alerted": false,
    "outcome": {
-    "checked": "2026-11-01",
+    "checked": "2026-11-02",
     "days": 1,
     "last_pct": 0.6,
     "max_close_pct": 0.6,
@@ -2898,7 +2905,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-11-01",
+    "checked": "2026-11-02",
     "days": 1,
     "last_pct": -1.6,
     "max_close_pct": -1.6,
@@ -2926,7 +2933,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-11-01",
+    "checked": "2026-11-02",
     "days": 1,
     "last_pct": 7.7,
     "max_close_pct": 7.7,
@@ -2946,7 +2953,7 @@
    "blocked": false,
    "alerted": false,
    "outcome": {
-    "checked": "2026-11-01",
+    "checked": "2026-11-02",
     "days": 1,
     "last_pct": -4.8,
     "max_close_pct": -4.8,
@@ -2968,7 +2975,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-11-01",
+    "checked": "2026-11-02",
     "days": 1,
     "last_pct": 6.3,
     "max_close_pct": 6.3,
@@ -2995,7 +3002,7 @@
    "blocked": false,
    "alerted": false,
    "outcome": {
-    "checked": "2026-11-01",
+    "checked": "2026-11-02",
     "days": 1,
     "last_pct": 1.7,
     "max_close_pct": 1.7,
@@ -3018,7 +3025,7 @@
    "blocked": false,
    "alerted": false,
    "outcome": {
-    "checked": "2026-11-01",
+    "checked": "2026-11-02",
     "days": 1,
     "last_pct": -1.3,
     "max_close_pct": -1.3,
@@ -3039,7 +3046,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-11-01",
+    "checked": "2026-11-02",
     "days": 1,
     "last_pct": 0.9,
     "max_close_pct": 0.9,
@@ -3062,7 +3069,7 @@
    "blocked": false,
    "alerted": false,
    "outcome": {
-    "checked": "2026-11-01",
+    "checked": "2026-11-02",
     "days": 1,
     "last_pct": 4.1,
     "max_close_pct": 4.1,
@@ -3083,7 +3090,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-11-01",
+    "checked": "2026-11-02",
     "days": 1,
     "last_pct": 1.4,
     "max_close_pct": 1.4,
@@ -3109,7 +3116,7 @@
    "blocked": true,
    "alerted": false,
    "outcome": {
-    "checked": "2026-11-01",
+    "checked": "2026-11-02",
     "days": 1,
     "last_pct": -11.2,
     "max_close_pct": -11.2,
@@ -3260,22 +3267,22 @@
     "first_utc": "2026-11-01T07:38+00:00"
    },
    "PMI": {
-    "m24_max": 4,
+    "m24_max": 5,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T00:32+00:00"
+   },
+   "PGP": {
+    "m24_max": 4,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-01T09:51+00:00"
    },
    "BP": {
     "m24_max": 3,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T07:07+00:00"
-   },
-   "PGP": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-01T09:51+00:00"
    },
    "RYAAY": {
     "m24_max": 2,
@@ -3312,6 +3319,12 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-01T23:06+00:00"
+   },
+   "GOLD": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "chats24_max": 2,
+    "first_utc": "2026-11-02T00:58+00:00"
    },
    "TTE": {
     "m24_max": 1,
@@ -3366,12 +3379,6 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T01:09+00:00"
-   },
-   "GOLD": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-02T00:58+00:00"
    },
    "DRUG": {
     "m24_max": 1,
@@ -3444,6 +3451,24 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-01T07:33+00:00"
+   },
+   "GABC": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T08:56+00:00"
+   },
+   "BCH": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T08:47+00:00"
+   },
+   "LIVE": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T08:18+00:00"
    }
   },
   "telegram_all": {
@@ -3514,7 +3539,7 @@
     "first_utc": "2026-11-02T04:50+00:00"
    },
    "PMI": {
-    "m24_max": 4,
+    "m24_max": 5,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T00:32+00:00"
@@ -3580,9 +3605,9 @@
     "first_utc": "2026-11-02T01:09+00:00"
    },
    "GOLD": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
+    "m24_max": 2,
+    "authors24_max": 2,
+    "chats24_max": 2,
     "first_utc": "2026-11-02T00:58+00:00"
    },
    "DRUG": {
@@ -3658,10 +3683,28 @@
     "first_utc": "2026-11-01T07:33+00:00"
    },
    "PGP": {
-    "m24_max": 3,
+    "m24_max": 4,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-01T09:51+00:00"
+   },
+   "GABC": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T08:56+00:00"
+   },
+   "BCH": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T08:47+00:00"
+   },
+   "LIVE": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T08:18+00:00"
    }
   }
  },
