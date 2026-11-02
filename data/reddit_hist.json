@@ -4971,23 +4971,28 @@
    "m24_max": 3,
    "authors24_max": 3,
    "subs": [
-    "Shortsqueeze"
+    "Shortsqueeze",
+    "pennystocks"
    ],
    "first_utc": "2026-11-02T01:51+00:00"
   },
   "INO": {
-   "m24_max": 2,
-   "authors24_max": 2,
+   "m24_max": 5,
+   "authors24_max": 4,
    "subs": [
-    "Shortsqueeze"
+    "Shortsqueeze",
+    "pennystocks",
+    "smallstreetbets"
    ],
-   "first_utc": "2026-11-02T03:59+00:00"
+   "first_utc": "2026-11-02T03:59+00:00",
+   "sample": "r/Shortsqueeze: INO Squeeze, what to watch for"
   },
   "NOV": {
-   "m24_max": 2,
-   "authors24_max": 2,
+   "m24_max": 4,
+   "authors24_max": 4,
    "subs": [
-    "RobinHoodPennyStocks"
+    "RobinHoodPennyStocks",
+    "pennystocks"
    ],
    "first_utc": "2026-11-02T06:02+00:00",
    "sample": "r/RobinHoodPennyStocks: MONDAY NOV 2 — POTENTIAL TOP GAINERS"
@@ -5048,7 +5053,8 @@
    "subs": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-02T03:54+00:00"
+   "first_utc": "2026-11-02T03:54+00:00",
+   "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AN WHY ?"
   },
   "XXII": {
    "m24_max": 1,
@@ -5056,7 +5062,8 @@
    "subs": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-02T01:41+00:00"
+   "first_utc": "2026-11-02T01:41+00:00",
+   "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AN WHY ?"
   },
   "SCD": {
    "m24_max": 1,
@@ -5067,12 +5074,13 @@
    "first_utc": "2026-11-02T00:09+00:00"
   },
   "SLGB": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-02T10:40+00:00"
+   "first_utc": "2026-11-02T10:40+00:00",
+   "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AN WHY ?"
   },
   "RZAI": {
    "m24_max": 1,
@@ -5083,12 +5091,14 @@
    "first_utc": "2026-11-02T10:40+00:00"
   },
   "CLRO": {
-   "m24_max": 3,
-   "authors24_max": 2,
+   "m24_max": 5,
+   "authors24_max": 3,
    "subs": [
-    "pennystocks"
+    "pennystocks",
+    "smallstreetbets"
    ],
-   "first_utc": "2026-11-02T10:40+00:00"
+   "first_utc": "2026-11-02T10:40+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
   "DYOR": {
    "m24_max": 1,
@@ -5109,7 +5119,7 @@
    "sample": "r/smallstreetbets: Neodyme magnets supply chain disruption"
   },
   "AIOK": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "subs": [
     "pennystocks"
@@ -5177,12 +5187,13 @@
    "first_utc": "2026-11-02T12:59+00:00"
   },
   "ELAB": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-02T12:39+00:00"
+   "first_utc": "2026-11-02T12:39+00:00",
+   "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AN WHY ?"
   },
   "GPUS": {
    "m24_max": 1,
@@ -5201,7 +5212,7 @@
    "first_utc": "2026-11-02T12:23+00:00"
   },
   "NRXP": {
-   "m24_max": 8,
+   "m24_max": 10,
    "authors24_max": 6,
    "subs": [
     "Shortsqueeze",
@@ -5229,12 +5240,108 @@
    "first_utc": "2026-11-02T14:02+00:00"
   },
   "BBLG": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T13:58+00:00"
+  },
+  "INLF": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-02T14:30+00:00",
+   "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AN WHY ?"
+  },
+  "IQST": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T14:58+00:00",
+   "sample": "r/pennystocks: iQSTEL (NASDAQ: IQST) Executives Discuss Path to $1 Billion Revenue, Ultranet Acquisition,"
+  },
+  "VJET": {
    "m24_max": 1,
    "authors24_max": 1,
    "subs": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-02T13:58+00:00"
+   "first_utc": "2026-11-02T15:04+00:00",
+   "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AN WHY ?"
+  },
+  "PMN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T15:04+00:00",
+   "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AN WHY ?"
+  },
+  "BRAI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T15:04+00:00",
+   "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AN WHY ?"
+  },
+  "CALC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T15:04+00:00",
+   "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AN WHY ?"
+  },
+  "JAGX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-02T14:30+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "DVLT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T14:50+00:00"
+  },
+  "GMHS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T14:39+00:00"
+  },
+  "CLIR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T14:23+00:00"
+  },
+  "HAIN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T14:13+00:00"
   }
  }
 }

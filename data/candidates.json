@@ -3712,5 +3712,49 @@
   "alerted": true,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-11-02|GMHS": {
+  "ts": "2026-11-02T15:07+00:00",
+  "ticker": "GMHS",
+  "score": 3,
+  "max_score": 3,
+  "price": 0.61,
+  "move_pct": -6.3,
+  "cap_m": 34.83,
+  "blocked": [],
+  "tags": [
+   "news_path",
+   "x_buzz",
+   "low_float",
+   "rvol",
+   "pr_strong",
+   "rsplit",
+   "asia"
+  ],
+  "alerted": true,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-02|INO": {
+  "ts": "2026-11-02T15:07+00:00",
+  "ticker": "INO",
+  "score": 7,
+  "max_score": 7,
+  "price": 1.7573,
+  "move_pct": 191.72,
+  "cap_m": 180.88,
+  "blocked": [
+   "כבר זזה +192%"
+  ],
+  "tags": [
+   "spread",
+   "authors",
+   "short",
+   "rvol",
+   "xueqiu"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }

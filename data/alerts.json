@@ -382,9 +382,9 @@
   "urgent_why": [],
   "telegram_sent": true,
   "outcome": {
-   "days": 3,
-   "last_close": 3.7899999618530273,
-   "last_pct": -8.5,
+   "days": 4,
+   "last_close": 3.859999895095825,
+   "last_pct": -6.8,
    "max_close_pct": -0.0,
    "max_high_pct": 4.6,
    "d1_pct": -0.0
@@ -482,9 +482,9 @@
   "urgent_why": [],
   "telegram_sent": true,
   "outcome": {
-   "days": 3,
-   "last_close": 4.53000020980835,
-   "last_pct": 4.4,
+   "days": 4,
+   "last_close": 4.559999942779541,
+   "last_pct": 5.1,
    "max_close_pct": 8.1,
    "max_high_pct": 13.0,
    "d1_pct": 4.2
@@ -601,9 +601,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 2,
-   "last_close": 2.2699999809265137,
-   "last_pct": -15.6,
+   "days": 3,
+   "last_close": 2.4049999713897705,
+   "last_pct": -10.6,
    "max_close_pct": -1.1,
    "max_high_pct": 5.6,
    "d1_pct": -1.1
@@ -726,9 +726,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 2,
-   "last_close": 4.53000020980835,
-   "last_pct": -4.3,
+   "days": 3,
+   "last_close": 4.559999942779541,
+   "last_pct": -3.7,
    "max_close_pct": -1.0,
    "max_high_pct": 3.5,
    "d1_pct": -1.0
@@ -858,9 +858,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 2,
-   "last_close": 1.2200000286102295,
-   "last_pct": -12.2,
+   "days": 3,
+   "last_close": 1.2136000394821167,
+   "last_pct": -12.7,
    "max_close_pct": -7.9,
    "max_high_pct": 2.9,
    "d1_pct": -7.9
@@ -973,9 +973,9 @@
   "path": "news",
   "telegram_sent": true,
   "outcome": {
-   "days": 2,
-   "last_close": 17.280000686645508,
-   "last_pct": 0.0,
+   "days": 3,
+   "last_close": 17.209999084472656,
+   "last_pct": -0.4,
    "max_close_pct": 0.0,
    "max_high_pct": 0.0,
    "d1_pct": 0.0
@@ -1087,9 +1087,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 1,
-   "last_close": 0.3930000066757202,
-   "last_pct": -4.2,
+   "days": 2,
+   "last_close": 0.38999998569488525,
+   "last_pct": -4.9,
    "max_close_pct": -4.2,
    "max_high_pct": -0.0,
    "d1_pct": -4.2
@@ -1218,10 +1218,10 @@
   "path": "reddit",
   "telegram_sent": true,
   "outcome": {
-   "days": 1,
-   "last_close": 2.2699999809265137,
-   "last_pct": -21.2,
-   "max_close_pct": -21.2,
+   "days": 2,
+   "last_close": 2.4049999713897705,
+   "last_pct": -16.5,
+   "max_close_pct": -16.5,
    "max_high_pct": -1.4,
    "d1_pct": -21.2
   },
@@ -1362,10 +1362,10 @@
   "path": "reddit",
   "telegram_sent": true,
   "outcome": {
-   "days": 1,
-   "last_close": 2.2699999809265137,
-   "last_pct": 6.6,
-   "max_close_pct": 6.6,
+   "days": 2,
+   "last_close": 2.4049999713897705,
+   "last_pct": 12.9,
+   "max_close_pct": 12.9,
    "max_high_pct": 33.3,
    "d1_pct": 6.6
   },
@@ -1464,7 +1464,14 @@
   "urgent_why": [],
   "path": "buzz",
   "telegram_sent": true,
-  "outcome": {},
+  "outcome": {
+   "days": 1,
+   "last_close": 6.170000076293945,
+   "last_pct": 0.8,
+   "max_close_pct": 0.8,
+   "max_high_pct": 0.8,
+   "d1_pct": 0.8
+  },
   "followups": {}
  },
  {
@@ -1591,6 +1598,150 @@
   "urgent_why": [],
   "path": "reddit",
   "telegram_sent": true,
-  "outcome": {}
+  "outcome": {
+   "days": 1,
+   "last_close": 2.4049999713897705,
+   "last_pct": 3.3,
+   "max_close_pct": 3.3,
+   "max_high_pct": 4.8,
+   "d1_pct": 3.3
+  },
+  "followups": {}
+ },
+ {
+  "id": "202611021507-GMHS",
+  "ts": "2026-11-02T15:07+00:00",
+  "ticker": "GMHS",
+  "score": 3,
+  "why": [
+   "📰 נכנסה דרך ידיעה: Gamehaus Signs Definitive Agreement to Acquire Majority Stake in Anama",
+   "באז ב-X: 7+ פוסטים מ-6 כותבים, 6 לייקים ב-24ש (7 ב-6ש)",
+   "פלואט 10.6M",
+   "נפח פי 4.4 מהממוצע",
+   "PR חזק (05:00 ET 02/11): Gamehaus Signs Definitive Agreement to Acquire Majority Stake in Anama",
+   "⚠️ איחוד מניות / שינוי יחס ADS לפני 34 ימים",
+   "חברה מסין"
+  ],
+  "price": {
+   "price": 0.61,
+   "prev_close": 0.651,
+   "move_pct": -6.3,
+   "vol_today": 284904,
+   "avg_vol20": 64585,
+   "rel_vol": 4.41,
+   "exchange": "NCM",
+   "name": "Gamehaus Holdings Inc.",
+   "readiness": {
+    "points": 2,
+    "why": [
+     "נפח אתמול פי 4.3",
+     "מתחת ל-$1"
+    ],
+    "risk": [],
+    "asof": "2026-10-30",
+    "f": {
+     "rvol_1": 4.327,
+     "atr_ratio": 1.0768,
+     "drawdown_60": -0.3858,
+     "vol20": 0.0364,
+     "prior_runs_120": 0.0,
+     "ret_1d": -0.0496,
+     "ret_3d": -0.024,
+     "ret_10d": 0.0124,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.8869
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 34.83,
+   "float_m": 10.64,
+   "short_float_pct": 1.61,
+   "days_to_cover": 1.13,
+   "src": "finviz"
+  },
+  "m_now": 0,
+  "m_24h_ago": 0,
+  "spread": [],
+  "reddit": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T14:39+00:00",
+   "sample": ""
+  },
+  "stocktwits": {
+   "msgs_6h": 2,
+   "users": 19,
+   "bull": 21,
+   "bear": 0,
+   "oldest_min": 211457,
+   "watchlist": 394
+  },
+  "borrow": {
+   "fee": 11.5506,
+   "available": 200000,
+   "fee_5d": null,
+   "available_5d": null
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "x": {
+   "posts": 7,
+   "posts6": 7,
+   "authors": 6,
+   "likes": 6,
+   "ts": "2026-11-02T13:07+00:00",
+   "full": true
+  },
+  "profile": {
+   "country": "F4",
+   "inc": "E9",
+   "asia": "סין",
+   "sic": "Services-Computer Processing & Data Preparation",
+   "ts": "2026-11-02T10:09+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [],
+   "filings": [],
+   "rsplit": "2026-09-29",
+   "cik": 2000530
+  },
+  "forum": {
+   "rising": null,
+   "novel": null
+  },
+  "invalidation": 0.5185,
+  "news": {
+   "ticker": "GMHS",
+   "title": "Gamehaus Signs Definitive Agreement to Acquire Majority Stake in Anamana",
+   "src": "PR Newswire",
+   "ts": "2026-11-02T10:00+00:00",
+   "class": "strong",
+   "rule": "Definitive Agreement",
+   "offering": false,
+   "amount_m": null
+  },
+  "urgent": false,
+  "urgent_why": [],
+  "path": "news",
+  "telegram_sent": true,
+  "outcome": {
+   "days": 1,
+   "last_close": 0.6100000143051147,
+   "last_pct": 0.0,
+   "max_close_pct": 0.0,
+   "max_high_pct": 12.8,
+   "d1_pct": 0.0
+  }
  }
 ]
