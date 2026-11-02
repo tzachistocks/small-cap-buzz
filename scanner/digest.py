@@ -165,6 +165,11 @@ def update_universe(store, now, alerts, cand_log):
                 for t in found:
                     add(t)
                 scraped[name] = day
+                if name == "premarket":  # ordered list for the X pilot (the premarket jumpers)
+                    p = uni.setdefault("_premarket", {})
+                    p[day] = [t.upper() for t in found[:20]]
+                    for dd in sorted(p)[:-10]:
+                        p.pop(dd)
                 if name == "gainers":  # ordered list (page is sorted by % change) for the social look-back
                     g = uni.setdefault("_gainers", {})
                     g[day] = [t.upper() for t in found[:40]]
@@ -321,6 +326,18 @@ def build(store, now, alerts, cand_log):
         except Exception as e:  # never breaks the digest
             sources.ERRORS.append(f"lookback: {type(e).__name__}: {e}")
 
+    x_pilot = {}
+    if now.hour >= config.LOOKBACK_HOUR_UTC:  # same time as the social look-back: after the close, once per day
+        try:
+            from . import x_buzz
+            x_buzz.pilot(store, now, uni, _open_utc(day))
+        except Exception as e:  # never breaks the digest
+            sources.ERRORS.append(f"x_pilot: {type(e).__name__}: {e}")
+    if config.X_PILOT_FROM <= day <= config.X_PILOT_UNTIL:
+        x_pilot = store.load_json("x_pilot.json", {})
+        x_pilot = {"today": (x_pilot.get("days") or {}).get(day, {}), "summary": x_pilot.get("summary"),
+                   "credits": x_pilot.get("credits")}
+
     dg = {"date": day, "generated_at": now.isoformat(timespec="minutes"),
           "final": closes_asof == day,
           "runs": {"count": len(runs), "first": runs[0]["ts"] if runs else None, "last": runs[-1]["ts"] if runs else None,
@@ -337,6 +354,7 @@ def build(store, now, alerts, cand_log):
           "social_today": {"reddit_top": top(reddit, 40), "telegram_top": top(tg, 40),
                            "telegram_all": tg},
           "social_lookback": lookback,
+          "x_pilot": x_pilot,
           "errors_today": dict(sorted(errs.items(), key=lambda kv: -kv[1])[:30]),
           "closes_asof": closes_asof, "closes": closes}
     store.save_json(os.path.join(DIGEST_DIR, f"{day}.json"), dg)

@@ -178,6 +178,19 @@ X_TIME_BUDGET_S = 60
 X_HTTP_TIMEOUT_S = 30
 X_SLEEP_S = 1.0
 
+# ---------- X reverse-analysis pilot (does X talk start BEFORE the jump?) ----------
+# After the close, for the day's top regular-session gainers + premarket gainers + a few control tickers that did
+# not move, count X posts in the X_PILOT_HOURS before the 09:30 ET open. Counts only (public repo). Self-stops.
+X_PILOT_FROM = "2026-11-03"     # first and last day (inclusive) the pilot runs
+X_PILOT_UNTIL = "2026-11-11"
+X_PILOT_GAINERS = 4             # top regular-session gainers
+X_PILOT_PREMARKET = 3           # top premarket gainers (not already counted)
+X_PILOT_CONTROL = 3             # control: universe tickers that were not gainers that day
+X_PILOT_HOURS = 48              # window before the open
+X_PILOT_POSTS = 10              # posts per ticker (1 credit per call + 1 per post)
+X_PILOT_CREDITS_MAX = 900       # hard cap for the whole pilot
+X_MONTHLY_HARD = 4800           # the pilot never pushes the month above this (Weir free tier is 5,000)
+
 # ---------- YouTube (optional, free API key) ----------
 YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY", "").strip()
 
