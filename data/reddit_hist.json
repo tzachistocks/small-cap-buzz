@@ -4968,8 +4968,8 @@
    "sample": "r/pennystocks: Cervomed (CRVO)"
   },
   "HTZ": {
-   "m24_max": 6,
-   "authors24_max": 5,
+   "m24_max": 7,
+   "authors24_max": 6,
    "subs": [
     "Shortsqueeze",
     "pennystocks"
@@ -4978,7 +4978,7 @@
   },
   "INO": {
    "m24_max": 12,
-   "authors24_max": 9,
+   "authors24_max": 10,
    "subs": [
     "Shortsqueeze",
     "pennystocks",

@@ -3796,7 +3796,8 @@
    "spread",
    "novel",
    "low_float",
-   "rvol"
+   "rvol",
+   "x_weak"
   ],
   "alerted": false,
   "urgent": false,

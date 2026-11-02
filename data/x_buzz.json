@@ -1,19 +1,20 @@
 {
  "month": "2026-11",
- "month_credits": 109,
+ "month_credits": 153,
  "exhausted": false,
  "day": "2026-11-02",
- "day_credits": 109,
+ "day_credits": 153,
  "done": [
-  "2026-11-02T12"
+  "2026-11-02T12",
+  "2026-11-02T17"
  ],
  "tickers": {
   "GMHS": {
    "posts": 7,
-   "posts6": 7,
+   "posts6": 3,
    "authors": 6,
-   "likes": 6,
-   "ts": "2026-11-02T13:07+00:00",
+   "likes": 4,
+   "ts": "2026-11-02T17:07+00:00",
    "full": true
   },
   "LEE": {
@@ -21,7 +22,7 @@
    "posts6": 0,
    "authors": 0,
    "likes": 0,
-   "ts": "2026-11-02T13:07+00:00",
+   "ts": "2026-11-02T17:07+00:00",
    "full": true
   },
   "INR": {
@@ -70,6 +71,22 @@
    "authors": 0,
    "likes": 0,
    "ts": "2026-11-02T13:07+00:00",
+   "full": true
+  },
+  "GYGY": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-02T17:07+00:00",
+   "full": true
+  },
+  "ELAB": {
+   "posts": 1,
+   "posts6": 1,
+   "authors": 1,
+   "likes": 0,
+   "ts": "2026-11-02T17:07+00:00",
    "full": true
   }
  },

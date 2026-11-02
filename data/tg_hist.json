@@ -6585,7 +6585,7 @@
    "first_utc": "2026-11-02T12:04+00:00"
   },
   "NSSC": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-02T12:04+00:00"
@@ -6699,7 +6699,7 @@
    "first_utc": "2026-11-02T13:50+00:00"
   },
   "XMAX": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-02T13:47+00:00"
@@ -6919,6 +6919,36 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-02T15:08+00:00"
+  },
+  "NSIT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T16:55+00:00"
+  },
+  "BILL": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T16:33+00:00"
+  },
+  "BID": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T16:33+00:00"
+  },
+  "UFI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T16:31+00:00"
+  },
+  "ACA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T16:29+00:00"
   }
  }
 }

@@ -1,11 +1,5 @@
 [
  {
-  "ticker": "ZION",
-  "title": "ZIONS BANCORPORATION'S BOARD ANNOUNCES APPROVAL OF SHARE REPURCHASE AND DECLARES DIVIDENDS ON COMMON AND PREFERRED STOCK",
-  "src": "PR Newswire",
-  "ts": "2026-10-30T17:04+00:00"
- },
- {
   "ticker": "GIL",
   "title": "GIL INVESTOR ALERT: Hagens Berman Urges Gildan Activewear Inc. (NYSE: GIL) Investors with Substantial Losses to Contact Firm Ahead of Dec. 14 Lead Plaintiff Deadline",
   "src": "PR Newswire",
@@ -232,5 +226,17 @@
   "title": "CCB INVESTOR ALERT: Coastal Financial Corporation Investors with Substantial Losses May Seek to Lead Class Action Lawsuit Before December 1, 2026 Deadline",
   "src": "PR Newswire",
   "ts": "2026-11-02T15:00+00:00"
+ },
+ {
+  "ticker": "EG",
+  "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against Everest Group, Ltd. (NYSE: EG) -- Investors Who Suffered Losses Are Encouraged to Contact the Firm",
+  "src": "PR Newswire",
+  "ts": "2026-11-02T17:00+00:00"
+ },
+ {
+  "ticker": "PRAA",
+  "title": "PRA Group Celebrates 30 Years of Business by Ringing Nasdaq Opening Bell",
+  "src": "PR Newswire",
+  "ts": "2026-11-02T16:54+00:00"
  }
 ]

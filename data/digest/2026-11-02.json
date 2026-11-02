@@ -1,29 +1,29 @@
 {
  "date": "2026-11-02",
- "generated_at": "2026-11-02T16:07+00:00",
+ "generated_at": "2026-11-02T17:07+00:00",
  "final": false,
  "runs": {
-  "count": 10,
+  "count": 11,
   "first": "2026-11-02T07:07+00:00",
-  "last": "2026-11-02T16:07+00:00",
+  "last": "2026-11-02T17:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 2682,
-   "mention_gate": 92,
-   "reddit_path": 4,
+   "buzz_tickers": 2958,
+   "mention_gate": 111,
+   "reddit_path": 5,
    "telegram_path": 0,
-   "news_path": 17,
-   "skipped_large_cache": 148,
-   "shadow_gate": 76,
-   "to_check": 41,
-   "checked": 41,
+   "news_path": 19,
+   "skipped_large_cache": 175,
+   "shadow_gate": 88,
+   "to_check": 48,
+   "checked": 48,
    "not_checked_time": 0,
    "blocked": {
-    "שווי": 6,
-    "דיווח": 6,
-    "כבר": 2
+    "שווי": 9,
+    "דיווח": 7,
+    "כבר": 3
    },
    "below_score": 13,
-   "cooldown": 7,
+   "cooldown": 9,
    "shadow_would_alert": 4,
    "sent": 3,
    "send_failed": 0
@@ -32,7 +32,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 371
+   "messages": 386
   },
   "per_run": [
    {
@@ -104,6 +104,13 @@
     "sent": 0,
     "send_failed": 0,
     "errors_n": 0
+   },
+   {
+    "ts": "2026-11-02T17:07+00:00",
+    "checked": 7,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 0
    }
   ]
  },
@@ -130,11 +137,11 @@
    "news": null,
    "outcome": {
     "days": 1,
-    "last_close": 5.914999961853027,
-    "last_pct": -3.3,
-    "max_close_pct": -3.3,
+    "last_close": 6.110000133514404,
+    "last_pct": -0.2,
+    "max_close_pct": -0.2,
     "max_high_pct": 2.3,
-    "d1_pct": -3.3
+    "d1_pct": -0.2
    }
   },
   {
@@ -163,11 +170,11 @@
    "news": null,
    "outcome": {
     "days": 1,
-    "last_close": 2.200000047683716,
-    "last_pct": -5.5,
-    "max_close_pct": -5.5,
+    "last_close": 2.234999895095825,
+    "last_pct": -4.0,
+    "max_close_pct": -4.0,
     "max_high_pct": 4.8,
-    "d1_pct": -5.5
+    "d1_pct": -4.0
    }
   },
   {
@@ -196,11 +203,11 @@
    "news": "Gamehaus Signs Definitive Agreement to Acquire Majority Stake in Anamana",
    "outcome": {
     "days": 1,
-    "last_close": 0.6812000274658203,
-    "last_pct": 11.7,
-    "max_close_pct": 11.7,
+    "last_close": 0.6388000249862671,
+    "last_pct": 4.7,
+    "max_close_pct": 4.7,
     "max_high_pct": 12.8,
-    "d1_pct": 11.7
+    "d1_pct": 4.7
    }
   }
  ],
@@ -355,8 +362,8 @@
    "news": null,
    "outcome": {
     "days": 4,
-    "last_close": 3.7100000381469727,
-    "last_pct": -10.4,
+    "last_close": 3.700000047683716,
+    "last_pct": -10.6,
     "max_close_pct": -0.0,
     "max_high_pct": 4.6,
     "d1_pct": -0.0
@@ -384,8 +391,8 @@
    "news": null,
    "outcome": {
     "days": 4,
-    "last_close": 4.400000095367432,
-    "last_pct": 1.4,
+    "last_close": 4.539999961853027,
+    "last_pct": 4.7,
     "max_close_pct": 8.1,
     "max_high_pct": 13.0,
     "d1_pct": 4.2
@@ -417,8 +424,8 @@
    "news": null,
    "outcome": {
     "days": 3,
-    "last_close": 2.200000047683716,
-    "last_pct": -18.2,
+    "last_close": 2.234999895095825,
+    "last_pct": -16.9,
     "max_close_pct": -1.1,
     "max_high_pct": 5.6,
     "d1_pct": -1.1
@@ -448,8 +455,8 @@
    "news": null,
    "outcome": {
     "days": 3,
-    "last_close": 4.400000095367432,
-    "last_pct": -7.1,
+    "last_close": 4.539999961853027,
+    "last_pct": -4.1,
     "max_close_pct": -1.0,
     "max_high_pct": 3.5,
     "d1_pct": -1.0
@@ -480,8 +487,8 @@
    "news": "Stoneridge and Kodiak AI Announce Collaboration to Advance Autonomous Commercial Vehicles",
    "outcome": {
     "days": 3,
-    "last_close": 1.2450000047683716,
-    "last_pct": -10.4,
+    "last_close": 1.2122999429702759,
+    "last_pct": -12.8,
     "max_close_pct": -7.9,
     "max_high_pct": 2.9,
     "d1_pct": -7.9
@@ -538,9 +545,9 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 0.4099999964237213,
-    "last_pct": -0.0,
-    "max_close_pct": -0.0,
+    "last_close": 0.39989998936653137,
+    "last_pct": -2.5,
+    "max_close_pct": -2.5,
     "max_high_pct": -0.0,
     "d1_pct": -4.2
    }
@@ -571,8 +578,8 @@
    "news": "NRx Pharmaceuticals (Nasdaq: NRXP) to Host Conference Call on October 30, 2026 to Discuss Regulatory Milestone for Preservative-Free Ketamine",
    "outcome": {
     "days": 2,
-    "last_close": 2.200000047683716,
-    "last_pct": -23.6,
+    "last_close": 2.234999895095825,
+    "last_pct": -22.4,
     "max_close_pct": -21.2,
     "max_high_pct": -1.4,
     "d1_pct": -21.2
@@ -606,8 +613,8 @@
    "news": "NRx Pharmaceuticals (Nasdaq:NRXP) Receives FDA Approval of Preservative-Free Ketamine Ahead of November 10 FDA Goal Date",
    "outcome": {
     "days": 2,
-    "last_close": 2.200000047683716,
-    "last_pct": 3.3,
+    "last_close": 2.234999895095825,
+    "last_pct": 4.9,
     "max_close_pct": 6.6,
     "max_high_pct": 33.3,
     "d1_pct": 6.6
@@ -697,7 +704,8 @@
     "spread",
     "novel",
     "low_float",
-    "rvol"
+    "rvol",
+    "x_weak"
    ],
    "alerted": false,
    "urgent": false
@@ -3444,7 +3452,7 @@
   "reddit_top": {
    "INO": {
     "m24_max": 12,
-    "authors24_max": 9,
+    "authors24_max": 10,
     "subs": [
      "Shortsqueeze",
      "pennystocks",
@@ -3464,6 +3472,15 @@
     "first_utc": "2026-11-02T12:15+00:00",
     "sample": "r/pennystocks: NRx Pharmaceuticals (NRXP) - Debrief of last Friday's conference call and share price acti"
    },
+   "HTZ": {
+    "m24_max": 7,
+    "authors24_max": 6,
+    "subs": [
+     "Shortsqueeze",
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-02T01:51+00:00"
+   },
    "NOV": {
     "m24_max": 7,
     "authors24_max": 4,
@@ -3473,15 +3490,6 @@
     ],
     "first_utc": "2026-11-02T06:02+00:00",
     "sample": "r/RobinHoodPennyStocks: MONDAY NOV 2 — POTENTIAL TOP GAINERS"
-   },
-   "HTZ": {
-    "m24_max": 6,
-    "authors24_max": 5,
-    "subs": [
-     "Shortsqueeze",
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-02T01:51+00:00"
    },
    "CLRO": {
     "m24_max": 5,
@@ -3934,11 +3942,23 @@
     "chats24_max": 1,
     "first_utc": "2026-11-02T09:30+00:00"
    },
+   "NSSC": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T12:04+00:00"
+   },
    "FIVE": {
     "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T12:02+00:00"
+   },
+   "XMAX": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T13:47+00:00"
    },
    "WH": {
     "m24_max": 2,
@@ -3982,6 +4002,12 @@
     "chats24_max": 2,
     "first_utc": "2026-11-02T14:14+00:00"
    },
+   "BILL": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T16:33+00:00"
+   },
    "BROS": {
     "m24_max": 1,
     "authors24_max": 1,
@@ -4023,24 +4049,6 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T01:44+00:00"
-   },
-   "KEP": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-02T01:09+00:00"
-   },
-   "APP": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-02T00:27+00:00"
-   },
-   "SYBT": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-01T23:06+00:00"
    }
   },
   "telegram_all": {
@@ -4339,7 +4347,7 @@
     "first_utc": "2026-11-02T12:04+00:00"
    },
    "NSSC": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T12:04+00:00"
@@ -4453,7 +4461,7 @@
     "first_utc": "2026-11-02T13:50+00:00"
    },
    "XMAX": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T13:47+00:00"
@@ -4673,10 +4681,41 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T15:08+00:00"
+   },
+   "NSIT": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T16:55+00:00"
+   },
+   "BILL": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T16:33+00:00"
+   },
+   "BID": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T16:33+00:00"
+   },
+   "UFI": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T16:31+00:00"
+   },
+   "ACA": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T16:29+00:00"
    }
   }
  },
  "social_lookback": {},
+ "x_pilot": {},
  "errors_today": {
   "x_buzz:  Weir error (HTTP 503) – slot will retry next run": 1
  },
