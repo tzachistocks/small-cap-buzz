@@ -3685,7 +3685,8 @@
    "relaxed_gate",
    "spread",
    "xueqiu",
-   "pr_weak"
+   "pr_weak",
+   "vel3h"
   ],
   "alerted": false,
   "urgent": false,
@@ -3799,6 +3800,28 @@
    "rvol",
    "x_weak",
    "vel3h"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-02|AEHR": {
+  "ts": "2026-11-02T19:07+00:00",
+  "ticker": "AEHR",
+  "score": 4,
+  "max_score": 4,
+  "price": 51.49,
+  "move_pct": -6.19,
+  "cap_m": 1680.0,
+  "blocked": [
+   "שווי $1680M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel",
+   "low_float"
   ],
   "alerted": false,
   "urgent": false,

@@ -1,11 +1,5 @@
 [
  {
-  "ticker": "YRD",
-  "title": "YRD Investors Have Opportunity to Lead Yiren Digital Ltd. Securities Fraud Lawsuit Filed by The Rosen Law Firm",
-  "src": "PR Newswire",
-  "ts": "2026-10-30T18:14+00:00"
- },
- {
   "ticker": "TMDX",
   "title": "TransMedics Reports Inducement Grants Under NASDAQ Listing Rule 5635(c)(4)",
   "src": "PR Newswire",
@@ -202,5 +196,23 @@
   "title": "BetterInvesting™ Magazine Update on Amazon.com and UnitedHealth Group",
   "src": "PR Newswire",
   "ts": "2026-11-02T18:00+00:00"
+ },
+ {
+  "ticker": "BSX",
+  "title": "SIMPLAAFY study of the WATCHMAN FLX™ Pro Left Atrial Appendage Closure Device meets primary endpoints",
+  "src": "PR Newswire",
+  "ts": "2026-11-02T19:02+00:00"
+ },
+ {
+  "ticker": "XTIA",
+  "title": "Drone Nerds Expands Drone Detection Portfolio Through AirSight Partnership",
+  "src": "PR Newswire",
+  "ts": "2026-11-02T19:00+00:00"
+ },
+ {
+  "ticker": "LTH",
+  "title": "Life Time and Dewitt Carolinas Break Ground on Life Time Living at The Exchange Raleigh",
+  "src": "PR Newswire",
+  "ts": "2026-11-02T18:21+00:00"
  }
 ]

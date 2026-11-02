@@ -4968,13 +4968,14 @@
    "sample": "r/pennystocks: Cervomed (CRVO)"
   },
   "HTZ": {
-   "m24_max": 7,
-   "authors24_max": 6,
+   "m24_max": 10,
+   "authors24_max": 9,
    "subs": [
     "Shortsqueeze",
     "pennystocks"
    ],
-   "first_utc": "2026-11-02T01:51+00:00"
+   "first_utc": "2026-11-02T01:51+00:00",
+   "sample": "r/Shortsqueeze: Added 4k more shares of $HTZ to my position."
   },
   "INO": {
    "m24_max": 16,
@@ -5515,12 +5516,13 @@
    "first_utc": "2026-11-02T15:58+00:00"
   },
   "CAR": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "Shortsqueeze"
    ],
-   "first_utc": "2026-11-02T15:50+00:00"
+   "first_utc": "2026-11-02T15:50+00:00",
+   "sample": "r/Shortsqueeze: Added 4k more shares of $HTZ to my position."
   },
   "GRAB": {
    "m24_max": 1,
@@ -5539,8 +5541,8 @@
    "first_utc": "2026-11-02T15:27+00:00"
   },
   "SEGG": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],
@@ -5569,6 +5571,14 @@
     "pennystocks"
    ],
    "first_utc": "2026-11-02T17:42+00:00"
+  },
+  "CMPS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T19:06+00:00"
   }
  }
 }

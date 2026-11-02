@@ -1,29 +1,29 @@
 {
  "date": "2026-11-02",
- "generated_at": "2026-11-02T18:07+00:00",
+ "generated_at": "2026-11-02T19:07+00:00",
  "final": false,
  "runs": {
-  "count": 12,
+  "count": 13,
   "first": "2026-11-02T07:07+00:00",
-  "last": "2026-11-02T18:07+00:00",
+  "last": "2026-11-02T19:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 3235,
-   "mention_gate": 132,
-   "reddit_path": 6,
+   "buzz_tickers": 3511,
+   "mention_gate": 157,
+   "reddit_path": 7,
    "telegram_path": 0,
-   "news_path": 21,
-   "skipped_large_cache": 204,
-   "shadow_gate": 98,
-   "to_check": 53,
-   "checked": 53,
+   "news_path": 23,
+   "skipped_large_cache": 236,
+   "shadow_gate": 109,
+   "to_check": 60,
+   "checked": 60,
    "not_checked_time": 0,
    "blocked": {
-    "שווי": 10,
-    "דיווח": 8,
-    "כבר": 4
+    "שווי": 12,
+    "דיווח": 9,
+    "כבר": 5
    },
-   "below_score": 13,
-   "cooldown": 11,
+   "below_score": 14,
+   "cooldown": 13,
    "shadow_would_alert": 4,
    "sent": 3,
    "send_failed": 0
@@ -32,7 +32,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 393
+   "messages": 407
   },
   "per_run": [
    {
@@ -118,6 +118,13 @@
     "sent": 0,
     "send_failed": 0,
     "errors_n": 0
+   },
+   {
+    "ts": "2026-11-02T19:07+00:00",
+    "checked": 7,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 0
    }
   ]
  },
@@ -144,11 +151,11 @@
    "news": null,
    "outcome": {
     "days": 1,
-    "last_close": 6.085000038146973,
-    "last_pct": -0.6,
-    "max_close_pct": -0.6,
+    "last_close": 6.0100998878479,
+    "last_pct": -1.8,
+    "max_close_pct": -1.8,
     "max_high_pct": 2.3,
-    "d1_pct": -0.6
+    "d1_pct": -1.8
    }
   },
   {
@@ -177,11 +184,11 @@
    "news": null,
    "outcome": {
     "days": 1,
-    "last_close": 2.2500998973846436,
-    "last_pct": -3.4,
-    "max_close_pct": -3.4,
+    "last_close": 2.200000047683716,
+    "last_pct": -5.5,
+    "max_close_pct": -5.5,
     "max_high_pct": 4.8,
-    "d1_pct": -3.4
+    "d1_pct": -5.5
    }
   },
   {
@@ -369,8 +376,8 @@
    "news": null,
    "outcome": {
     "days": 4,
-    "last_close": 3.759999990463257,
-    "last_pct": -9.2,
+    "last_close": 3.7699999809265137,
+    "last_pct": -8.9,
     "max_close_pct": -0.0,
     "max_high_pct": 4.6,
     "d1_pct": -0.0
@@ -398,8 +405,8 @@
    "news": null,
    "outcome": {
     "days": 4,
-    "last_close": 4.474999904632568,
-    "last_pct": 3.2,
+    "last_close": 4.269999980926514,
+    "last_pct": -1.6,
     "max_close_pct": 8.1,
     "max_high_pct": 13.0,
     "d1_pct": 4.2
@@ -431,8 +438,8 @@
    "news": null,
    "outcome": {
     "days": 3,
-    "last_close": 2.2500998973846436,
-    "last_pct": -16.4,
+    "last_close": 2.1900999546051025,
+    "last_pct": -18.6,
     "max_close_pct": -1.1,
     "max_high_pct": 5.6,
     "d1_pct": -1.1
@@ -462,8 +469,8 @@
    "news": null,
    "outcome": {
     "days": 3,
-    "last_close": 4.474999904632568,
-    "last_pct": -5.5,
+    "last_close": 4.269999980926514,
+    "last_pct": -9.8,
     "max_close_pct": -1.0,
     "max_high_pct": 3.5,
     "d1_pct": -1.0
@@ -494,8 +501,8 @@
    "news": "Stoneridge and Kodiak AI Announce Collaboration to Advance Autonomous Commercial Vehicles",
    "outcome": {
     "days": 3,
-    "last_close": 1.1730999946594238,
-    "last_pct": -15.6,
+    "last_close": 1.149999976158142,
+    "last_pct": -17.3,
     "max_close_pct": -7.9,
     "max_high_pct": 2.9,
     "d1_pct": -7.9
@@ -552,9 +559,9 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 0.39089998602867126,
-    "last_pct": -4.7,
-    "max_close_pct": -4.2,
+    "last_close": 0.39559999108314514,
+    "last_pct": -3.6,
+    "max_close_pct": -3.6,
     "max_high_pct": -0.0,
     "d1_pct": -4.2
    }
@@ -585,8 +592,8 @@
    "news": "NRx Pharmaceuticals (Nasdaq: NRXP) to Host Conference Call on October 30, 2026 to Discuss Regulatory Milestone for Preservative-Free Ketamine",
    "outcome": {
     "days": 2,
-    "last_close": 2.2500998973846436,
-    "last_pct": -21.9,
+    "last_close": 2.200000047683716,
+    "last_pct": -23.6,
     "max_close_pct": -21.2,
     "max_high_pct": -1.4,
     "d1_pct": -21.2
@@ -620,8 +627,8 @@
    "news": "NRx Pharmaceuticals (Nasdaq:NRXP) Receives FDA Approval of Preservative-Free Ketamine Ahead of November 10 FDA Goal Date",
    "outcome": {
     "days": 2,
-    "last_close": 2.2500998973846436,
-    "last_pct": 5.6,
+    "last_close": 2.200000047683716,
+    "last_pct": 3.3,
     "max_close_pct": 6.6,
     "max_high_pct": 33.3,
     "d1_pct": 6.6
@@ -801,6 +808,27 @@
    "urgent": false
   },
   {
+   "ts": "2026-11-02T19:07+00:00",
+   "ticker": "AEHR",
+   "score": 4,
+   "max_score": 4,
+   "price": 51.49,
+   "move_pct": -6.19,
+   "cap_m": 1680.0,
+   "blocked": [
+    "שווי $1680M"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "novel",
+    "low_float"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
    "ts": "2026-11-02T13:07+00:00",
    "ticker": "IQ",
    "score": 3,
@@ -813,7 +841,8 @@
     "relaxed_gate",
     "spread",
     "xueqiu",
-    "pr_weak"
+    "pr_weak",
+    "vel3h"
    ],
    "alerted": false,
    "urgent": false
@@ -3469,6 +3498,16 @@
     "first_utc": "2026-11-02T03:59+00:00",
     "sample": "r/Shortsqueeze: INO Squeeze, what to watch for"
    },
+   "HTZ": {
+    "m24_max": 10,
+    "authors24_max": 9,
+    "subs": [
+     "Shortsqueeze",
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-02T01:51+00:00",
+    "sample": "r/Shortsqueeze: Added 4k more shares of $HTZ to my position."
+   },
    "NRXP": {
     "m24_max": 10,
     "authors24_max": 6,
@@ -3479,15 +3518,6 @@
     ],
     "first_utc": "2026-11-02T12:15+00:00",
     "sample": "r/pennystocks: NRx Pharmaceuticals (NRXP) - Debrief of last Friday's conference call and share price acti"
-   },
-   "HTZ": {
-    "m24_max": 7,
-    "authors24_max": 6,
-    "subs": [
-     "Shortsqueeze",
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-02T01:51+00:00"
    },
    "NOV": {
     "m24_max": 7,
@@ -3687,6 +3717,23 @@
     "first_utc": "2026-11-02T15:08+00:00",
     "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
    },
+   "CAR": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "subs": [
+     "Shortsqueeze"
+    ],
+    "first_utc": "2026-11-02T15:50+00:00",
+    "sample": "r/Shortsqueeze: Added 4k more shares of $HTZ to my position."
+   },
+   "SEGG": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-02T18:04+00:00"
+   },
    "DTE": {
     "m24_max": 1,
     "authors24_max": 1,
@@ -3790,24 +3837,6 @@
     "sample": "r/Shortsqueeze: SqueezeFinder - Nov 2nd 2026"
    },
    "PURR": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "Shortsqueeze"
-    ],
-    "first_utc": "2026-11-02T13:01+00:00",
-    "sample": "r/Shortsqueeze: SqueezeFinder - Nov 2nd 2026"
-   },
-   "PMI": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "Shortsqueeze"
-    ],
-    "first_utc": "2026-11-02T13:01+00:00",
-    "sample": "r/Shortsqueeze: SqueezeFinder - Nov 2nd 2026"
-   },
-   "RDDT": {
     "m24_max": 1,
     "authors24_max": 1,
     "subs": [
@@ -4761,6 +4790,72 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T17:27+00:00"
+   },
+   "TSAT": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T19:02+00:00"
+   },
+   "ARTC": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T18:53+00:00"
+   },
+   "CMPS": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T18:52+00:00"
+   },
+   "CAF": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T18:42+00:00"
+   },
+   "FUND": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T18:42+00:00"
+   },
+   "HLP": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T18:41+00:00"
+   },
+   "MPT": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T18:36+00:00"
+   },
+   "QUMS": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T18:22+00:00"
+   },
+   "MGRC": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T18:13+00:00"
+   },
+   "PROK": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T18:12+00:00"
+   },
+   "RIOT": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T18:11+00:00"
    }
   }
  },
