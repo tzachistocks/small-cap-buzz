@@ -1,53 +1,5 @@
 [
  {
-  "ticker": "PBK",
-  "title": "PowerBank Announces Results of Annual General Meeting",
-  "src": "PR Newswire",
-  "ts": "2026-10-30T21:00+00:00"
- },
- {
-  "ticker": "BMM",
-  "title": "Blue Moon Metals Announces Termination of Ropa Acquisition and Completion of Continuance to Ontario",
-  "src": "PR Newswire",
-  "ts": "2026-10-30T21:00+00:00"
- },
- {
-  "ticker": "NHS",
-  "title": "NEUBERGER HIGH YIELD STRATEGIES FUND ANNOUNCES MONTHLY DISTRIBUTION",
-  "src": "PR Newswire",
-  "ts": "2026-10-30T20:30+00:00"
- },
- {
-  "ticker": "NRO",
-  "title": "NEUBERGER REAL ESTATE SECURITIES INCOME FUND ANNOUNCES MONTHLY DISTRIBUTION",
-  "src": "PR Newswire",
-  "ts": "2026-10-30T20:30+00:00"
- },
- {
-  "ticker": "NBXG",
-  "title": "NEUBERGER NEXT GENERATION CONNECTIVITY FUND INC. NOTICE TO SHAREHOLDERS - SOURCES OF DISTRIBUTION UNDER SECTION 19(a)",
-  "src": "PR Newswire",
-  "ts": "2026-10-30T20:30+00:00"
- },
- {
-  "ticker": "NBXG",
-  "title": "NEUBERGER NEXT GENERATION CONNECTIVITY FUND ANNOUNCES INCREASE IN DISTRIBUTION RATE AND DECLARATION OF NEXT MONTHLY DISTRIBUTION",
-  "src": "PR Newswire",
-  "ts": "2026-10-30T20:30+00:00"
- },
- {
-  "ticker": "NML",
-  "title": "NEUBERGER ENERGY INFRASTRUCTURE AND INCOME FUND ANNOUNCES MONTHLY DISTRIBUTION",
-  "src": "PR Newswire",
-  "ts": "2026-10-30T20:30+00:00"
- },
- {
-  "ticker": "PTCT",
-  "title": "PTC Therapeutics Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
-  "src": "PR Newswire",
-  "ts": "2026-10-30T20:30+00:00"
- },
- {
   "ticker": "MDB",
   "title": "MongoDB Investigation Continued: Kahn Swick & Foti, LLC Continues to Investigate the Officers and Directors of MongoDB, Inc. - MDB",
   "src": "PR Newswire",
@@ -214,5 +166,53 @@
   "title": "Compass, Inc. (COMP) Class Action Lawsuit Seeks Recovery for Investors; December 8, 2026 Deadline- Contact Kessler Topaz Meltzer & Check, LLP",
   "src": "PR Newswire",
   "ts": "2026-11-02T19:36+00:00"
+ },
+ {
+  "ticker": "RLGT",
+  "title": "RADIANT LOGISTICS TO HOST INVESTOR CALL TO DISCUSS FINANCIAL RESULTS FOR FIRST FISCAL QUARTER ENDED SEPTEMBER 30, 2026",
+  "src": "PR Newswire",
+  "ts": "2026-11-02T21:05+00:00"
+ },
+ {
+  "ticker": "CPS",
+  "title": "Cooper Standard Adopts Tax Benefits Preservation Plan to Protect its Tax Benefits and Shareholder Value",
+  "src": "PR Newswire",
+  "ts": "2026-11-02T21:05+00:00"
+ },
+ {
+  "ticker": "POM",
+  "title": "POMDOCTOR LIMITED Announces Receipt of Nasdaq Notifications Regarding Continued Listing Requirements",
+  "src": "PR Newswire",
+  "ts": "2026-11-02T21:05+00:00"
+ },
+ {
+  "ticker": "CHI",
+  "title": "Calamos Investments Closed-End Funds (NASDAQ: CHI, CHY, CSQ, CGO, CHW, CCD and CPZ) Announce Monthly Distributions and Required Notifications of Sources of Distribution",
+  "src": "PR Newswire",
+  "ts": "2026-11-02T21:05+00:00"
+ },
+ {
+  "ticker": "ADCT",
+  "title": "ADC Therapeutics Announces New Employee Inducement Grant",
+  "src": "PR Newswire",
+  "ts": "2026-11-02T21:05+00:00"
+ },
+ {
+  "ticker": "WAY",
+  "title": "Waystar Reports Third Quarter 2026 Results",
+  "src": "PR Newswire",
+  "ts": "2026-11-02T21:05+00:00"
+ },
+ {
+  "ticker": "INO",
+  "title": "INOVIO to Participate in Upcoming Scientific Conferences",
+  "src": "PR Newswire",
+  "ts": "2026-11-02T21:01+00:00"
+ },
+ {
+  "ticker": "TBLD",
+  "title": "Thornburg Income Builder Opportunities Trust Announces Distribution",
+  "src": "PR Newswire",
+  "ts": "2026-11-02T21:01+00:00"
  }
 ]
