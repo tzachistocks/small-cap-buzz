@@ -1,28 +1,28 @@
 {
  "date": "2026-11-02",
- "generated_at": "2026-11-02T11:06+00:00",
+ "generated_at": "2026-11-02T12:07+00:00",
  "final": false,
  "runs": {
-  "count": 5,
+  "count": 6,
   "first": "2026-11-02T07:07+00:00",
-  "last": "2026-11-02T11:06+00:00",
+  "last": "2026-11-02T12:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 1339,
-   "mention_gate": 32,
+   "buzz_tickers": 1605,
+   "mention_gate": 40,
    "reddit_path": 0,
    "telegram_path": 0,
-   "news_path": 7,
-   "skipped_large_cache": 58,
-   "shadow_gate": 34,
-   "to_check": 15,
-   "checked": 15,
+   "news_path": 9,
+   "skipped_large_cache": 72,
+   "shadow_gate": 43,
+   "to_check": 20,
+   "checked": 20,
    "not_checked_time": 0,
    "blocked": {
-    "שווי": 3,
-    "דיווח": 1
+    "שווי": 4,
+    "דיווח": 2
    },
-   "below_score": 6,
-   "cooldown": 0,
+   "below_score": 8,
+   "cooldown": 1,
    "shadow_would_alert": 4,
    "sent": 1,
    "send_failed": 0
@@ -31,7 +31,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 333
+   "messages": 360
   },
   "per_run": [
    {
@@ -68,6 +68,13 @@
     "sent": 1,
     "send_failed": 0,
     "errors_n": 0
+   },
+   {
+    "ts": "2026-11-02T12:07+00:00",
+    "checked": 5,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 1
    }
   ]
  },
@@ -544,6 +551,28 @@
     "rvol",
     "borrow_fee",
     "sec_negative"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-02T12:07+00:00",
+   "ticker": "LNG",
+   "score": 5,
+   "max_score": 5,
+   "price": 326.0,
+   "move_pct": 2.21,
+   "cap_m": 66670.0,
+   "blocked": [
+    "שווי $66670M"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "spread",
+    "novel",
+    "rvol"
    ],
    "alerted": false,
    "urgent": false
@@ -3212,6 +3241,14 @@
     ],
     "first_utc": "2026-11-02T06:13+00:00"
    },
+   "CLRO": {
+    "m24_max": 3,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-02T10:40+00:00"
+   },
    "INO": {
     "m24_max": 2,
     "authors24_max": 2,
@@ -3311,13 +3348,47 @@
     ],
     "first_utc": "2026-11-02T10:40+00:00"
    },
-   "CLRO": {
+   "DYOR": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-11-02T12:02+00:00",
+    "sample": "r/smallstreetbets: Neodyme magnets supply chain disruption"
+   },
+   "USAR": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-11-02T12:02+00:00",
+    "sample": "r/smallstreetbets: Neodyme magnets supply chain disruption"
+   },
+   "AIOK": {
     "m24_max": 1,
     "authors24_max": 1,
     "subs": [
      "pennystocks"
     ],
-    "first_utc": "2026-11-02T10:40+00:00"
+    "first_utc": "2026-11-02T11:49+00:00"
+   },
+   "BURU": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-02T11:49+00:00"
+   },
+   "SGRX": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-02T11:49+00:00"
    }
   },
   "telegram_top": {
@@ -3357,6 +3428,12 @@
     "chats24_max": 1,
     "first_utc": "2026-11-02T00:32+00:00"
    },
+   "EQNR": {
+    "m24_max": 6,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T11:47+00:00"
+   },
    "PGP": {
     "m24_max": 4,
     "authors24_max": 1,
@@ -3368,6 +3445,12 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T07:07+00:00"
+   },
+   "TTE": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T07:06+00:00"
    },
    "RYAAY": {
     "m24_max": 2,
@@ -3422,12 +3505,6 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T09:30+00:00"
-   },
-   "TTE": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-02T07:06+00:00"
    },
    "BROS": {
     "m24_max": 1,
@@ -3554,12 +3631,6 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T08:47+00:00"
-   },
-   "LIVE": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-02T08:18+00:00"
    }
   },
   "telegram_all": {
@@ -3600,7 +3671,7 @@
     "first_utc": "2026-11-02T07:07+00:00"
    },
    "TTE": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T07:06+00:00"
@@ -3850,11 +3921,61 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T11:05+00:00"
+   },
+   "SAN": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T12:04+00:00"
+   },
+   "NSSC": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T12:04+00:00"
+   },
+   "EQNR": {
+    "m24_max": 6,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T11:47+00:00"
+   },
+   "FIVE": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T12:02+00:00"
+   },
+   "XEL": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T12:01+00:00"
+   },
+   "KTB": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T11:59+00:00"
+   },
+   "FT": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T11:56+00:00"
+   },
+   "RPM": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T11:53+00:00"
    }
   }
  },
  "social_lookback": {},
- "errors_today": {},
+ "errors_today": {
+  "x_buzz:  Weir error (HTTP 503) – slot will retry next run": 1
+ },
  "closes_asof": null,
  "closes": {}
 }

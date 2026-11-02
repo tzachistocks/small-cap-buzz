@@ -3648,5 +3648,28 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-11-02|LNG": {
+  "ts": "2026-11-02T12:07+00:00",
+  "ticker": "LNG",
+  "score": 5,
+  "max_score": 5,
+  "price": 326.0,
+  "move_pct": 2.21,
+  "cap_m": 66670.0,
+  "blocked": [
+   "שווי $66670M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "spread",
+   "novel",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }

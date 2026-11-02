@@ -5083,12 +5083,54 @@
    "first_utc": "2026-11-02T10:40+00:00"
   },
   "CLRO": {
+   "m24_max": 3,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T10:40+00:00"
+  },
+  "DYOR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-02T12:02+00:00",
+   "sample": "r/smallstreetbets: Neodyme magnets supply chain disruption"
+  },
+  "USAR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-02T12:02+00:00",
+   "sample": "r/smallstreetbets: Neodyme magnets supply chain disruption"
+  },
+  "AIOK": {
    "m24_max": 1,
    "authors24_max": 1,
    "subs": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-02T10:40+00:00"
+   "first_utc": "2026-11-02T11:49+00:00"
+  },
+  "BURU": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T11:49+00:00"
+  },
+  "SGRX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T11:49+00:00"
   }
  }
 }

@@ -1,8 +1,22 @@
 {
- "ts": "2026-11-02T11:06+00:00",
+ "ts": "2026-11-02T12:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
+  "CLRO": {
+   "m6": 3,
+   "m24": 3,
+   "authors6": 2,
+   "authors24": 2,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T10:40+00:00",
+   "sample": ""
+  },
   "GYGY": {
    "m6": 3,
    "m24": 3,
@@ -41,14 +55,40 @@
    "first_utc": "2026-11-02T03:59+00:00",
    "sample": ""
   },
-  "NOV": {
+  "DYOR": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
    "authors24": 1,
    "subs6": [
-    "RobinHoodPennyStocks"
+    "smallstreetbets"
    ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-02T12:02+00:00",
+   "sample": "r/smallstreetbets: Neodyme magnets supply chain disruption"
+  },
+  "USAR": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-02T12:02+00:00",
+   "sample": "r/smallstreetbets: Neodyme magnets supply chain disruption"
+  },
+  "NOV": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
    "subs24": [
     "RobinHoodPennyStocks"
    ],
@@ -79,7 +119,7 @@
    "first_utc": "2026-11-01T18:35+00:00",
    "sample": "r/smallstreetbets: DONT BUY GOOGLE CALLS! ❌❌🚨🚨❌"
   },
-  "SLGB": {
+  "AIOK": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -90,7 +130,35 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-02T10:40+00:00",
+   "first_utc": "2026-11-02T11:49+00:00",
+   "sample": ""
+  },
+  "BURU": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T11:49+00:00",
+   "sample": ""
+  },
+  "SGRX": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T11:49+00:00",
    "sample": ""
   },
   "RZAI": {
@@ -107,7 +175,7 @@
    "first_utc": "2026-11-02T10:40+00:00",
    "sample": ""
   },
-  "CLRO": {
+  "SLGB": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -136,13 +204,11 @@
    "sample": ""
   },
   "GVH": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
@@ -150,13 +216,11 @@
    "sample": ""
   },
   "SOUN": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "Shortsqueeze"
-   ],
+   "subs6": [],
    "subs24": [
     "Shortsqueeze"
    ],

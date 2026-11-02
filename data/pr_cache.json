@@ -1,35 +1,5 @@
 [
  {
-  "ticker": "INTS",
-  "title": "Intensity Therapeutics to Announce Third Quarter 2026 Financial Results on November 5, 2026",
-  "src": "PR Newswire",
-  "ts": "2026-10-30T12:00+00:00"
- },
- {
-  "ticker": "PANW",
-  "title": "Palo Alto Networks Recommends Stockholders Reject Mini-Tender Offer by Tutanota LLC",
-  "src": "PR Newswire",
-  "ts": "2026-10-30T12:00+00:00"
- },
- {
-  "ticker": "OPY",
-  "title": "Oppenheimer Holdings Inc. Reports Third Quarter 2026 Earnings",
-  "src": "PR Newswire",
-  "ts": "2026-10-30T12:00+00:00"
- },
- {
-  "ticker": "AZTA",
-  "title": "Azenta Announces Strategic Investments to Advance the Next Generation of GENEWIZ Gene Synthesis Capabilities",
-  "src": "PR Newswire",
-  "ts": "2026-10-30T12:00+00:00"
- },
- {
-  "ticker": "QTRHF",
-  "title": "Quarterhill Announces Repayment of Convertible Debentures",
-  "src": "PR Newswire",
-  "ts": "2026-10-30T12:00+00:00"
- },
- {
   "ticker": "APPS",
   "title": "Digital Turbine Reschedules Fiscal 2027 Second Quarter Financial Results Conference Call to November 9, 2026, at 4:30pm ET",
   "src": "PR Newswire",
@@ -274,5 +244,11 @@
   "title": "Robo.ai Appoints W Motors Founder Ralph R. Debbas as Group President",
   "src": "PR Newswire",
   "ts": "2026-11-02T11:00+00:00"
+ },
+ {
+  "ticker": "NSSC",
+  "title": "NAPCO Security Technologies, Inc. Reports Fiscal Q1 2027 Results",
+  "src": "PR Newswire",
+  "ts": "2026-11-02T12:00+00:00"
  }
 ]
