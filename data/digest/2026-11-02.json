@@ -1,29 +1,29 @@
 {
  "date": "2026-11-02",
- "generated_at": "2026-11-02T15:07+00:00",
+ "generated_at": "2026-11-02T16:07+00:00",
  "final": false,
  "runs": {
-  "count": 9,
+  "count": 10,
   "first": "2026-11-02T07:07+00:00",
-  "last": "2026-11-02T15:07+00:00",
+  "last": "2026-11-02T16:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 2406,
-   "mention_gate": 77,
-   "reddit_path": 3,
+   "buzz_tickers": 2682,
+   "mention_gate": 92,
+   "reddit_path": 4,
    "telegram_path": 0,
-   "news_path": 15,
-   "skipped_large_cache": 127,
-   "shadow_gate": 67,
-   "to_check": 35,
-   "checked": 35,
+   "news_path": 17,
+   "skipped_large_cache": 148,
+   "shadow_gate": 76,
+   "to_check": 41,
+   "checked": 41,
    "not_checked_time": 0,
    "blocked": {
-    "שווי": 4,
-    "דיווח": 5,
-    "כבר": 1
+    "שווי": 6,
+    "דיווח": 6,
+    "כבר": 2
    },
    "below_score": 13,
-   "cooldown": 5,
+   "cooldown": 7,
    "shadow_would_alert": 4,
    "sent": 3,
    "send_failed": 0
@@ -32,7 +32,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 413
+   "messages": 371
   },
   "per_run": [
    {
@@ -97,6 +97,13 @@
     "sent": 1,
     "send_failed": 0,
     "errors_n": 0
+   },
+   {
+    "ts": "2026-11-02T16:07+00:00",
+    "checked": 6,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 0
    }
   ]
  },
@@ -123,11 +130,11 @@
    "news": null,
    "outcome": {
     "days": 1,
-    "last_close": 6.170000076293945,
-    "last_pct": 0.8,
-    "max_close_pct": 0.8,
-    "max_high_pct": 0.8,
-    "d1_pct": 0.8
+    "last_close": 5.914999961853027,
+    "last_pct": -3.3,
+    "max_close_pct": -3.3,
+    "max_high_pct": 2.3,
+    "d1_pct": -3.3
    }
   },
   {
@@ -156,11 +163,11 @@
    "news": null,
    "outcome": {
     "days": 1,
-    "last_close": 2.4049999713897705,
-    "last_pct": 3.3,
-    "max_close_pct": 3.3,
+    "last_close": 2.200000047683716,
+    "last_pct": -5.5,
+    "max_close_pct": -5.5,
     "max_high_pct": 4.8,
-    "d1_pct": 3.3
+    "d1_pct": -5.5
    }
   },
   {
@@ -189,11 +196,11 @@
    "news": "Gamehaus Signs Definitive Agreement to Acquire Majority Stake in Anamana",
    "outcome": {
     "days": 1,
-    "last_close": 0.6100000143051147,
-    "last_pct": 0.0,
-    "max_close_pct": 0.0,
+    "last_close": 0.6812000274658203,
+    "last_pct": 11.7,
+    "max_close_pct": 11.7,
     "max_high_pct": 12.8,
-    "d1_pct": 0.0
+    "d1_pct": 11.7
    }
   }
  ],
@@ -348,8 +355,8 @@
    "news": null,
    "outcome": {
     "days": 4,
-    "last_close": 3.859999895095825,
-    "last_pct": -6.8,
+    "last_close": 3.7100000381469727,
+    "last_pct": -10.4,
     "max_close_pct": -0.0,
     "max_high_pct": 4.6,
     "d1_pct": -0.0
@@ -377,8 +384,8 @@
    "news": null,
    "outcome": {
     "days": 4,
-    "last_close": 4.559999942779541,
-    "last_pct": 5.1,
+    "last_close": 4.400000095367432,
+    "last_pct": 1.4,
     "max_close_pct": 8.1,
     "max_high_pct": 13.0,
     "d1_pct": 4.2
@@ -410,8 +417,8 @@
    "news": null,
    "outcome": {
     "days": 3,
-    "last_close": 2.4049999713897705,
-    "last_pct": -10.6,
+    "last_close": 2.200000047683716,
+    "last_pct": -18.2,
     "max_close_pct": -1.1,
     "max_high_pct": 5.6,
     "d1_pct": -1.1
@@ -441,8 +448,8 @@
    "news": null,
    "outcome": {
     "days": 3,
-    "last_close": 4.559999942779541,
-    "last_pct": -3.7,
+    "last_close": 4.400000095367432,
+    "last_pct": -7.1,
     "max_close_pct": -1.0,
     "max_high_pct": 3.5,
     "d1_pct": -1.0
@@ -473,8 +480,8 @@
    "news": "Stoneridge and Kodiak AI Announce Collaboration to Advance Autonomous Commercial Vehicles",
    "outcome": {
     "days": 3,
-    "last_close": 1.2136000394821167,
-    "last_pct": -12.7,
+    "last_close": 1.2450000047683716,
+    "last_pct": -10.4,
     "max_close_pct": -7.9,
     "max_high_pct": 2.9,
     "d1_pct": -7.9
@@ -502,8 +509,8 @@
    "news": "TEXAS COMMUNITY BANCSHARES, INC. AND THE BANC OF SAN JACINTO COUNTY BANCSHARES, INC., THE PARENT OF THE BANK OF SAN JACINTO COUNTY, COLDSPRING, TEXAS, ANNOUNCE MERGER AGREEMENT",
    "outcome": {
     "days": 3,
-    "last_close": 17.209999084472656,
-    "last_pct": -0.4,
+    "last_close": 17.25,
+    "last_pct": -0.2,
     "max_close_pct": 0.0,
     "max_high_pct": 0.0,
     "d1_pct": 0.0
@@ -531,9 +538,9 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 0.38999998569488525,
-    "last_pct": -4.9,
-    "max_close_pct": -4.2,
+    "last_close": 0.4099999964237213,
+    "last_pct": -0.0,
+    "max_close_pct": -0.0,
     "max_high_pct": -0.0,
     "d1_pct": -4.2
    }
@@ -564,9 +571,9 @@
    "news": "NRx Pharmaceuticals (Nasdaq: NRXP) to Host Conference Call on October 30, 2026 to Discuss Regulatory Milestone for Preservative-Free Ketamine",
    "outcome": {
     "days": 2,
-    "last_close": 2.4049999713897705,
-    "last_pct": -16.5,
-    "max_close_pct": -16.5,
+    "last_close": 2.200000047683716,
+    "last_pct": -23.6,
+    "max_close_pct": -21.2,
     "max_high_pct": -1.4,
     "d1_pct": -21.2
    }
@@ -599,9 +606,9 @@
    "news": "NRx Pharmaceuticals (Nasdaq:NRXP) Receives FDA Approval of Preservative-Free Ketamine Ahead of November 10 FDA Goal Date",
    "outcome": {
     "days": 2,
-    "last_close": 2.4049999713897705,
-    "last_pct": 12.9,
-    "max_close_pct": 12.9,
+    "last_close": 2.200000047683716,
+    "last_pct": 3.3,
+    "max_close_pct": 6.6,
     "max_high_pct": 33.3,
     "d1_pct": 6.6
    }
@@ -674,6 +681,28 @@
    "urgent": false
   },
   {
+   "ts": "2026-11-02T16:07+00:00",
+   "ticker": "ELAB",
+   "score": 6,
+   "max_score": 6,
+   "price": 2.175,
+   "move_pct": -16.35,
+   "cap_m": 1.76,
+   "blocked": [
+    "שווי $1.8M (נמוך מדי או נתון שגוי)"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "spread",
+    "novel",
+    "low_float",
+    "rvol"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
    "ts": "2026-11-02T07:07+00:00",
    "ticker": "LEE",
    "score": 5,
@@ -710,6 +739,27 @@
     "spread",
     "novel",
     "rvol"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-02T16:07+00:00",
+   "ticker": "SOUN",
+   "score": 5,
+   "max_score": 5,
+   "price": 4.37,
+   "move_pct": 3.55,
+   "cap_m": 1970.0,
+   "blocked": [
+    "שווי $1970M"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "rising",
+    "short"
    ],
    "alerted": false,
    "urgent": false
@@ -3392,6 +3442,17 @@
  ],
  "social_today": {
   "reddit_top": {
+   "INO": {
+    "m24_max": 12,
+    "authors24_max": 9,
+    "subs": [
+     "Shortsqueeze",
+     "pennystocks",
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-11-02T03:59+00:00",
+    "sample": "r/Shortsqueeze: INO Squeeze, what to watch for"
+   },
    "NRXP": {
     "m24_max": 10,
     "authors24_max": 6,
@@ -3403,16 +3464,24 @@
     "first_utc": "2026-11-02T12:15+00:00",
     "sample": "r/pennystocks: NRx Pharmaceuticals (NRXP) - Debrief of last Friday's conference call and share price acti"
    },
-   "INO": {
-    "m24_max": 5,
+   "NOV": {
+    "m24_max": 7,
     "authors24_max": 4,
     "subs": [
-     "Shortsqueeze",
-     "pennystocks",
-     "smallstreetbets"
+     "RobinHoodPennyStocks",
+     "pennystocks"
     ],
-    "first_utc": "2026-11-02T03:59+00:00",
-    "sample": "r/Shortsqueeze: INO Squeeze, what to watch for"
+    "first_utc": "2026-11-02T06:02+00:00",
+    "sample": "r/RobinHoodPennyStocks: MONDAY NOV 2 — POTENTIAL TOP GAINERS"
+   },
+   "HTZ": {
+    "m24_max": 6,
+    "authors24_max": 5,
+    "subs": [
+     "Shortsqueeze",
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-02T01:51+00:00"
    },
    "CLRO": {
     "m24_max": 5,
@@ -3424,6 +3493,24 @@
     "first_utc": "2026-11-02T10:40+00:00",
     "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
    },
+   "ELAB": {
+    "m24_max": 5,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-02T12:39+00:00",
+    "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AN WHY ?"
+   },
+   "IQST": {
+    "m24_max": 5,
+    "authors24_max": 5,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-02T14:58+00:00",
+    "sample": "r/pennystocks: iQSTEL (NASDAQ: IQST) Executives Discuss Path to $1 Billion Revenue, Ultranet Acquisition,"
+   },
    "CRVO": {
     "m24_max": 4,
     "authors24_max": 3,
@@ -3433,16 +3520,6 @@
     "first_utc": "2026-11-02T00:07+00:00",
     "sample": "r/pennystocks: Cervomed (CRVO)"
    },
-   "NOV": {
-    "m24_max": 4,
-    "authors24_max": 4,
-    "subs": [
-     "RobinHoodPennyStocks",
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-02T06:02+00:00",
-    "sample": "r/RobinHoodPennyStocks: MONDAY NOV 2 — POTENTIAL TOP GAINERS"
-   },
    "GYGY": {
     "m24_max": 4,
     "authors24_max": 2,
@@ -3451,14 +3528,33 @@
     ],
     "first_utc": "2026-11-02T06:13+00:00"
    },
-   "HTZ": {
+   "JAGX": {
     "m24_max": 3,
-    "authors24_max": 3,
+    "authors24_max": 2,
     "subs": [
-     "Shortsqueeze",
+     "pennystocks",
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-11-02T14:30+00:00",
+    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+   },
+   "KOS": {
+    "m24_max": 3,
+    "authors24_max": 1,
+    "subs": [
      "pennystocks"
     ],
-    "first_utc": "2026-11-02T01:51+00:00"
+    "first_utc": "2026-11-02T15:08+00:00",
+    "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
+   },
+   "XXII": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-02T01:41+00:00",
+    "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AN WHY ?"
    },
    "SLGB": {
     "m24_max": 2,
@@ -3485,15 +3581,6 @@
     ],
     "first_utc": "2026-11-02T11:49+00:00"
    },
-   "ELAB": {
-    "m24_max": 2,
-    "authors24_max": 2,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-02T12:39+00:00",
-    "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AN WHY ?"
-   },
    "BBLG": {
     "m24_max": 2,
     "authors24_max": 2,
@@ -3512,14 +3599,77 @@
     "first_utc": "2026-11-02T14:30+00:00",
     "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AN WHY ?"
    },
-   "IQST": {
+   "VJET": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-02T15:04+00:00",
+    "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AN WHY ?"
+   },
+   "PMN": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-02T15:04+00:00",
+    "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AN WHY ?"
+   },
+   "BRAI": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-02T15:04+00:00",
+    "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AN WHY ?"
+   },
+   "CALC": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-02T15:04+00:00",
+    "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AN WHY ?"
+   },
+   "GMHS": {
     "m24_max": 2,
     "authors24_max": 2,
     "subs": [
      "pennystocks"
     ],
-    "first_utc": "2026-11-02T14:58+00:00",
-    "sample": "r/pennystocks: iQSTEL (NASDAQ: IQST) Executives Discuss Path to $1 Billion Revenue, Ultranet Acquisition,"
+    "first_utc": "2026-11-02T14:39+00:00",
+    "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
+   },
+   "CHOW": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-02T15:08+00:00",
+    "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
+   },
+   "FNGR": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-02T15:08+00:00",
+    "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
+   },
+   "HUBC": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-02T15:08+00:00",
+    "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
    },
    "DTE": {
     "m24_max": 1,
@@ -3570,15 +3720,6 @@
      "pennystocks"
     ],
     "first_utc": "2026-11-02T03:54+00:00",
-    "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AN WHY ?"
-   },
-   "XXII": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-02T01:41+00:00",
     "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AN WHY ?"
    },
    "SCD": {
@@ -3658,92 +3799,6 @@
     ],
     "first_utc": "2026-11-02T13:01+00:00",
     "sample": "r/Shortsqueeze: SqueezeFinder - Nov 2nd 2026"
-   },
-   "EVGO": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-02T12:59+00:00"
-   },
-   "GPUS": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-02T12:39+00:00"
-   },
-   "FGL": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-02T12:23+00:00"
-   },
-   "BLGO": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-02T14:00+00:00",
-    "sample": "r/pennystocks: BioLargo's Clyra Medical Gains Commercial Traction as Clinician Enthusiasm Drives Health S"
-   },
-   "CANF": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-02T14:02+00:00"
-   },
-   "VJET": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-02T15:04+00:00",
-    "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AN WHY ?"
-   },
-   "PMN": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-02T15:04+00:00",
-    "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AN WHY ?"
-   },
-   "BRAI": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-02T15:04+00:00",
-    "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AN WHY ?"
-   },
-   "CALC": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-02T15:04+00:00",
-    "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AN WHY ?"
-   },
-   "JAGX": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-11-02T14:30+00:00",
-    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
    }
   },
   "telegram_top": {
@@ -3807,6 +3862,12 @@
     "chats24_max": 1,
     "first_utc": "2026-11-02T07:07+00:00"
    },
+   "DRUG": {
+    "m24_max": 3,
+    "authors24_max": 2,
+    "chats24_max": 2,
+    "first_utc": "2026-11-02T00:38+00:00"
+   },
    "TTE": {
     "m24_max": 2,
     "authors24_max": 1,
@@ -3855,12 +3916,6 @@
     "chats24_max": 2,
     "first_utc": "2026-11-02T00:58+00:00"
    },
-   "DRUG": {
-    "m24_max": 2,
-    "authors24_max": 2,
-    "chats24_max": 2,
-    "first_utc": "2026-11-02T00:38+00:00"
-   },
    "EL": {
     "m24_max": 2,
     "authors24_max": 1,
@@ -3890,6 +3945,12 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T13:20+00:00"
+   },
+   "TMUS": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T15:01+00:00"
    },
    "ROAD": {
     "m24_max": 2,
@@ -3980,12 +4041,6 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-01T23:06+00:00"
-   },
-   "MAX": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-01T22:25+00:00"
    }
   },
   "telegram_all": {
@@ -4128,7 +4183,7 @@
     "first_utc": "2026-11-02T00:58+00:00"
    },
    "DRUG": {
-    "m24_max": 2,
+    "m24_max": 3,
     "authors24_max": 2,
     "chats24_max": 2,
     "first_utc": "2026-11-02T00:38+00:00"
@@ -4464,7 +4519,7 @@
     "first_utc": "2026-11-02T15:04+00:00"
    },
    "TMUS": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T15:01+00:00"
@@ -4576,6 +4631,48 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T14:14+00:00"
+   },
+   "ACGC": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T15:53+00:00"
+   },
+   "ACP": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T15:53+00:00"
+   },
+   "CRCL": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T15:50+00:00"
+   },
+   "MRNA": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T15:50+00:00"
+   },
+   "ADM": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T15:24+00:00"
+   },
+   "BSX": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T15:21+00:00"
+   },
+   "OFRM": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T15:08+00:00"
    }
   }
  },

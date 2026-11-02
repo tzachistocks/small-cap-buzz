@@ -6429,7 +6429,7 @@
    "first_utc": "2026-11-02T00:58+00:00"
   },
   "DRUG": {
-   "m24_max": 2,
+   "m24_max": 3,
    "authors24_max": 2,
    "chats24_max": 2,
    "first_utc": "2026-11-02T00:38+00:00"
@@ -6765,7 +6765,7 @@
    "first_utc": "2026-11-02T15:04+00:00"
   },
   "TMUS": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-02T15:01+00:00"
@@ -6877,6 +6877,48 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-02T14:14+00:00"
+  },
+  "ACGC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T15:53+00:00"
+  },
+  "ACP": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T15:53+00:00"
+  },
+  "CRCL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T15:50+00:00"
+  },
+  "MRNA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T15:50+00:00"
+  },
+  "ADM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T15:24+00:00"
+  },
+  "BSX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T15:21+00:00"
+  },
+  "OFRM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T15:08+00:00"
   }
  }
 }
