@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-02T12:07+00:00",
+ "ts": "2026-11-02T13:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
@@ -18,7 +18,7 @@
    "sample": ""
   },
   "GYGY": {
-   "m6": 3,
+   "m6": 2,
    "m24": 3,
    "authors6": 2,
    "authors24": 2,
@@ -31,16 +31,32 @@
    "first_utc": "2026-11-02T06:13+00:00",
    "sample": ""
   },
-  "HTZ": {
-   "m6": 0,
-   "m24": 3,
-   "authors6": 0,
-   "authors24": 3,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
+  "NOV": {
+   "m6": 1,
+   "m24": 2,
+   "authors6": 1,
+   "authors24": 2,
+   "subs6": [
+    "RobinHoodPennyStocks"
    ],
-   "first_utc": "2026-11-02T01:51+00:00",
+   "subs24": [
+    "RobinHoodPennyStocks"
+   ],
+   "first_utc": "2026-11-02T06:02+00:00",
+   "sample": "r/RobinHoodPennyStocks: MONDAY NOV 2 — POTENTIAL TOP GAINERS"
+  },
+  "BURU": {
+   "m6": 2,
+   "m24": 2,
+   "authors6": 2,
+   "authors24": 2,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T11:49+00:00",
    "sample": ""
   },
   "INO": {
@@ -55,19 +71,73 @@
    "first_utc": "2026-11-02T03:59+00:00",
    "sample": ""
   },
-  "DYOR": {
+  "HTZ": {
+   "m6": 0,
+   "m24": 2,
+   "authors6": 0,
+   "authors24": 2,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-02T03:22+00:00",
+   "sample": ""
+  },
+  "TENB": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
    "authors24": 1,
    "subs6": [
-    "smallstreetbets"
+    "Shortsqueeze"
    ],
    "subs24": [
-    "smallstreetbets"
+    "Shortsqueeze"
    ],
-   "first_utc": "2026-11-02T12:02+00:00",
-   "sample": "r/smallstreetbets: Neodyme magnets supply chain disruption"
+   "first_utc": "2026-11-02T13:01+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 2nd 2026"
+  },
+  "PURR": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-02T13:01+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 2nd 2026"
+  },
+  "PMI": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-02T13:01+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 2nd 2026"
+  },
+  "RDDT": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-02T13:01+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 2nd 2026"
   },
   "USAR": {
    "m6": 1,
@@ -83,17 +153,19 @@
    "first_utc": "2026-11-02T12:02+00:00",
    "sample": "r/smallstreetbets: Neodyme magnets supply chain disruption"
   },
-  "NOV": {
-   "m6": 0,
+  "DYOR": {
+   "m6": 1,
    "m24": 1,
-   "authors6": 0,
+   "authors6": 1,
    "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "RobinHoodPennyStocks"
+   "subs6": [
+    "smallstreetbets"
    ],
-   "first_utc": "2026-11-02T06:02+00:00",
-   "sample": "r/RobinHoodPennyStocks: MONDAY NOV 2 — POTENTIAL TOP GAINERS"
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-02T12:02+00:00",
+   "sample": "r/smallstreetbets: Neodyme magnets supply chain disruption"
   },
   "CRVO": {
    "m6": 0,
@@ -119,7 +191,7 @@
    "first_utc": "2026-11-01T18:35+00:00",
    "sample": "r/smallstreetbets: DONT BUY GOOGLE CALLS! ❌❌🚨🚨❌"
   },
-  "AIOK": {
+  "EVGO": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -130,10 +202,66 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-02T11:49+00:00",
+   "first_utc": "2026-11-02T12:59+00:00",
    "sample": ""
   },
-  "BURU": {
+  "ELAB": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T12:39+00:00",
+   "sample": ""
+  },
+  "GPUS": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T12:39+00:00",
+   "sample": ""
+  },
+  "FGL": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T12:23+00:00",
+   "sample": ""
+  },
+  "NRXP": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T12:15+00:00",
+   "sample": ""
+  },
+  "AIOK": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -161,20 +289,6 @@
    "first_utc": "2026-11-02T11:49+00:00",
    "sample": ""
   },
-  "RZAI": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-02T10:40+00:00",
-   "sample": ""
-  },
   "SLGB": {
    "m6": 1,
    "m24": 1,
@@ -189,14 +303,26 @@
    "first_utc": "2026-11-02T10:40+00:00",
    "sample": ""
   },
-  "DH": {
+  "RZAI": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
    "authors24": 1,
    "subs6": [
-    "smallstreetbets"
+    "pennystocks"
    ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T10:40+00:00",
+   "sample": ""
+  },
+  "DH": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
    "subs24": [
     "smallstreetbets"
    ],
@@ -237,18 +363,6 @@
     "pennystocks"
    ],
    "first_utc": "2026-11-02T03:54+00:00",
-   "sample": ""
-  },
-  "XXII": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-02T01:41+00:00",
    "sample": ""
   }
  },

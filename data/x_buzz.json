@@ -1,9 +1,86 @@
 {
  "month": "2026-11",
- "month_credits": 0,
+ "month_credits": 109,
  "exhausted": false,
  "day": "2026-11-02",
- "day_credits": 0,
- "done": [],
- "tickers": {}
+ "day_credits": 109,
+ "done": [
+  "2026-11-02T12"
+ ],
+ "tickers": {
+  "GMHS": {
+   "posts": 7,
+   "posts6": 7,
+   "authors": 6,
+   "likes": 6,
+   "ts": "2026-11-02T13:07+00:00",
+   "full": true
+  },
+  "LEE": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-02T13:07+00:00",
+   "full": true
+  },
+  "INR": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-02T13:07+00:00",
+   "full": true
+  },
+  "HQ": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-02T13:07+00:00",
+   "full": true
+  },
+  "PAY": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-02T13:07+00:00",
+   "full": true
+  },
+  "HKD": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-02T13:07+00:00",
+   "full": true
+  },
+  "SG": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-02T13:07+00:00",
+   "full": true
+  },
+  "GOLD": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-02T13:07+00:00",
+   "full": true
+  }
+ },
+ "discovery": {
+  "day": "2026-11-02",
+  "tickers": {
+   "LIT": 1,
+   "BTC": 1,
+   "SOL": 1,
+   "GME": 1
+  }
+ },
+ "discovery_day": "2026-11-02"
 }

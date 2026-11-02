@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-02T12:07+00:00",
+ "ts": "2026-11-02T13:07+00:00",
  "reddit_ok": true,
  "stocktwits_trending": 30,
  "apewisdom_main": 300,
@@ -13,34 +13,33 @@
   "stocks",
   "wallstreetbets"
  ],
- "candidates": 5,
+ "candidates": 4,
  "telegram_groups": {
   "mode": "ok",
   "chats_ok": 14,
   "chats_failed": 0,
-  "messages": 360
+  "messages": 370
  },
  "x_weir": {
-  "mode": "failed",
-  "queried": 0,
-  "credits": 0,
-  "month_credits": 0,
-  "hits": 0,
-  "note": "error (HTTP 503)"
+  "mode": "ok",
+  "queried": 8,
+  "credits": 109,
+  "month_credits": 109,
+  "hits": 1,
+  "note": ""
  },
  "funnel": {
-  "buzz_tickers": 266,
-  "mention_gate": 8,
+  "buzz_tickers": 267,
+  "mention_gate": 10,
   "reddit_path": 0,
   "telegram_path": 0,
   "news_path": 2,
-  "skipped_large_cache": 14,
+  "skipped_large_cache": 17,
   "shadow_gate": 9,
-  "to_check": 5,
-  "checked": 5,
+  "to_check": 4,
+  "checked": 4,
   "not_checked_time": 0,
   "blocked": {
-   "שווי": 1,
    "דיווח": 1
   },
   "below_score": 2,
@@ -50,7 +49,5 @@
   "send_failed": 0
  },
  "not_checked": [],
- "errors": [
-  "x_buzz: Weir error (HTTP 503) – slot will retry next run"
- ]
+ "errors": []
 }

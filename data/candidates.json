@@ -3671,5 +3671,24 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-11-02|IQ": {
+  "ts": "2026-11-02T13:07+00:00",
+  "ticker": "IQ",
+  "score": 3,
+  "max_score": 3,
+  "price": 0.8389,
+  "move_pct": 0.76,
+  "cap_m": 445.1,
+  "blocked": [],
+  "tags": [
+   "relaxed_gate",
+   "spread",
+   "xueqiu",
+   "pr_weak"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }
