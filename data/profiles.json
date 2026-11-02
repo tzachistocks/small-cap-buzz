@@ -180,5 +180,12 @@
   "asia": null,
   "sic": "Transportation Services",
   "ts": "2026-11-01T10:28+00:00"
+ },
+ "LEE": {
+  "country": "IA",
+  "inc": "DE",
+  "asia": null,
+  "sic": "Newspapers: Publishing or  Publishing & Printing",
+  "ts": "2026-11-02T07:08+00:00"
  }
 }

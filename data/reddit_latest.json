@@ -1,58 +1,68 @@
 {
- "ts": "2026-11-01T23:07+00:00",
+ "ts": "2026-11-02T07:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
-  "HTZ": {
-   "m6": 2,
-   "m24": 6,
-   "authors6": 2,
-   "authors24": 5,
-   "subs6": [
-    "Shortsqueeze"
-   ],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-01T14:33+00:00",
-   "sample": ""
-  },
-  "SNDK": {
-   "m6": 1,
+  "CRVO": {
+   "m6": 0,
    "m24": 4,
-   "authors6": 1,
-   "authors24": 2,
+   "authors6": 0,
+   "authors24": 3,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T00:07+00:00",
+   "sample": "r/pennystocks: Cervomed (CRVO)"
+  },
+  "HTZ": {
+   "m6": 3,
+   "m24": 3,
+   "authors6": 3,
+   "authors24": 3,
    "subs6": [
-    "smallstreetbets"
+    "Shortsqueeze"
    ],
    "subs24": [
-    "smallstreetbets"
+    "Shortsqueeze"
    ],
-   "first_utc": "2026-11-01T15:54+00:00",
+   "first_utc": "2026-11-02T01:51+00:00",
    "sample": ""
   },
-  "SI": {
-   "m6": 1,
+  "INO": {
+   "m6": 2,
    "m24": 2,
-   "authors6": 1,
+   "authors6": 2,
    "authors24": 2,
    "subs6": [
-    "smallstreetbets"
+    "Shortsqueeze"
    ],
    "subs24": [
-    "smallstreetbets"
+    "Shortsqueeze"
    ],
-   "first_utc": "2026-11-01T14:43+00:00",
+   "first_utc": "2026-11-02T03:59+00:00",
    "sample": ""
   },
-  "DTE": {
+  "NOV": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
    "authors24": 1,
    "subs6": [
-    "smallstreetbets"
+    "RobinHoodPennyStocks"
    ],
+   "subs24": [
+    "RobinHoodPennyStocks"
+   ],
+   "first_utc": "2026-11-02T06:02+00:00",
+   "sample": "r/RobinHoodPennyStocks: MONDAY NOV 2 — POTENTIAL TOP GAINERS"
+  },
+  "DTE": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
    "subs24": [
     "smallstreetbets"
    ],
@@ -71,7 +81,7 @@
    "first_utc": "2026-11-01T07:26+00:00",
    "sample": "r/smallstreetbets: Am I regarded"
   },
-  "SPCE": {
+  "DH": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -82,7 +92,7 @@
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-11-01T21:16+00:00",
+   "first_utc": "2026-11-02T06:37+00:00",
    "sample": ""
   },
   "GYGY": {
@@ -96,10 +106,24 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-01T20:20+00:00",
+   "first_utc": "2026-11-02T06:13+00:00",
    "sample": ""
   },
-  "LFVN": {
+  "GVH": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T05:55+00:00",
+   "sample": ""
+  },
+  "SOUN": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -110,24 +134,10 @@
    "subs24": [
     "Shortsqueeze"
    ],
-   "first_utc": "2026-11-01T19:06+00:00",
+   "first_utc": "2026-11-02T05:54+00:00",
    "sample": ""
   },
-  "SPCX": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-01T19:05+00:00",
-   "sample": ""
-  },
-  "NLST": {
+  "HXHX": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -138,34 +148,24 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-01T17:08+00:00",
+   "first_utc": "2026-11-02T03:54+00:00",
    "sample": ""
   },
-  "BWET": {
-   "m6": 0,
+  "XXII": {
+   "m6": 1,
    "m24": 1,
-   "authors6": 0,
+   "authors6": 1,
    "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
+   "subs6": [
+    "pennystocks"
    ],
-   "first_utc": "2026-11-01T15:13+00:00",
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T01:41+00:00",
    "sample": ""
   },
-  "INO": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-01T14:52+00:00",
-   "sample": ""
-  },
-  "FCEL": {
+  "SCD": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -174,31 +174,7 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-01T14:35+00:00",
-   "sample": ""
-  },
-  "SERV": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-01T14:35+00:00",
-   "sample": ""
-  },
-  "VRRM": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-01T14:35+00:00",
+   "first_utc": "2026-11-02T00:09+00:00",
    "sample": ""
   }
  },

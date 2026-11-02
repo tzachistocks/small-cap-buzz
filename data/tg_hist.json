@@ -6288,5 +6288,223 @@
    "chats24_max": 1,
    "first_utc": "2026-11-01T22:25+00:00"
   }
+ },
+ "2026-11-02": {
+  "HQ": {
+   "m24_max": 33,
+   "authors24_max": 3,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T08:03+00:00"
+  },
+  "PAY": {
+   "m24_max": 33,
+   "authors24_max": 3,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T08:03+00:00"
+  },
+  "INR": {
+   "m24_max": 63,
+   "authors24_max": 6,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T07:38+00:00"
+  },
+  "SG": {
+   "m24_max": 30,
+   "authors24_max": 3,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T07:38+00:00"
+  },
+  "HKD": {
+   "m24_max": 30,
+   "authors24_max": 3,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T07:38+00:00"
+  },
+  "BP": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T07:07+00:00"
+  },
+  "TTE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T07:06+00:00"
+  },
+  "RYAAY": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T06:06+00:00"
+  },
+  "BROS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T06:09+00:00"
+  },
+  "WKC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T06:09+00:00"
+  },
+  "SMFG": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T04:50+00:00"
+  },
+  "PMI": {
+   "m24_max": 4,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T00:32+00:00"
+  },
+  "MFG": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T00:32+00:00"
+  },
+  "HSBC": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T05:01+00:00"
+  },
+  "VS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T05:01+00:00"
+  },
+  "LNG": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T21:37+00:00"
+  },
+  "NBHC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T04:37+00:00"
+  },
+  "AIT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T04:06+00:00"
+  },
+  "RBA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T03:01+00:00"
+  },
+  "PSMT": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T23:06+00:00"
+  },
+  "PCB": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T01:44+00:00"
+  },
+  "KEP": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T01:09+00:00"
+  },
+  "GOLD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T00:58+00:00"
+  },
+  "DRUG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T00:38+00:00"
+  },
+  "APP": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-02T00:27+00:00"
+  },
+  "SYBT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T23:06+00:00"
+  },
+  "MAX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T22:25+00:00"
+  },
+  "EL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T21:38+00:00"
+  },
+  "HELP": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T21:38+00:00"
+  },
+  "SAY": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T21:38+00:00"
+  },
+  "GEHC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T17:44+00:00"
+  },
+  "GE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T17:44+00:00"
+  },
+  "SUI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T09:55+00:00"
+  },
+  "ATOM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T09:01+00:00"
+  },
+  "XRP": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T07:33+00:00"
+  },
+  "PGP": {
+   "m24_max": 3,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-01T09:51+00:00"
+  }
  }
 }
