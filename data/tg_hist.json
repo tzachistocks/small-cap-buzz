@@ -7781,7 +7781,7 @@
    "first_utc": "2026-11-02T20:44+00:00"
   },
   "SEDG": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-02T20:42+00:00"
@@ -8945,9 +8945,9 @@
    "first_utc": "2026-11-03T14:14+00:00"
   },
   "SUPN": {
-   "m24_max": 1,
-   "authors24_max": 1,
-   "chats24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
+   "chats24_max": 2,
    "first_utc": "2026-11-03T14:14+00:00"
   },
   "EBS": {
@@ -9159,6 +9159,48 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-03T18:25+00:00"
+  },
+  "ZBRA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T20:02+00:00"
+  },
+  "QRED": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T19:59+00:00"
+  },
+  "UMH": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T19:58+00:00"
+  },
+  "SDHI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T19:42+00:00"
+  },
+  "AIIA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T19:23+00:00"
+  },
+  "FTHA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T19:17+00:00"
+  },
+  "CVGI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T19:14+00:00"
   }
  }
 }

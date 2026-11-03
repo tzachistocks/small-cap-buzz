@@ -6245,7 +6245,7 @@
    "first_utc": "2026-11-03T13:30+00:00"
   },
   "PARA": {
-   "m24_max": 3,
+   "m24_max": 4,
    "authors24_max": 3,
    "subs": [
     "pennystocks",
@@ -6398,8 +6398,8 @@
    "first_utc": "2026-11-03T17:50+00:00"
   },
   "BAER": {
-   "m24_max": 2,
-   "authors24_max": 2,
+   "m24_max": 3,
+   "authors24_max": 3,
    "subs": [
     "pennystocks"
    ],
@@ -6437,6 +6437,14 @@
     "pennystocks"
    ],
    "first_utc": "2026-11-03T18:21+00:00"
+  },
+  "CEG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T19:08+00:00"
   }
  }
 }
