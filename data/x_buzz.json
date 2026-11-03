@@ -1,12 +1,13 @@
 {
  "month": "2026-11",
- "month_credits": 153,
+ "month_credits": 255,
  "exhausted": false,
- "day": "2026-11-02",
- "day_credits": 153,
+ "day": "2026-11-03",
+ "day_credits": 102,
  "done": [
   "2026-11-02T12",
-  "2026-11-02T17"
+  "2026-11-02T17",
+  "2026-11-03T12"
  ],
  "tickers": {
   "GMHS": {
@@ -30,7 +31,7 @@
    "posts6": 0,
    "authors": 0,
    "likes": 0,
-   "ts": "2026-11-02T13:07+00:00",
+   "ts": "2026-11-03T12:07+00:00",
    "full": true
   },
   "HQ": {
@@ -54,7 +55,7 @@
    "posts6": 0,
    "authors": 0,
    "likes": 0,
-   "ts": "2026-11-02T13:07+00:00",
+   "ts": "2026-11-03T12:07+00:00",
    "full": true
   },
   "SG": {
@@ -62,7 +63,7 @@
    "posts6": 0,
    "authors": 0,
    "likes": 0,
-   "ts": "2026-11-02T13:07+00:00",
+   "ts": "2026-11-03T12:07+00:00",
    "full": true
   },
   "GOLD": {
@@ -82,22 +83,53 @@
    "full": true
   },
   "ELAB": {
-   "posts": 1,
-   "posts6": 1,
-   "authors": 1,
+   "posts": 6,
+   "posts6": 6,
+   "authors": 6,
    "likes": 0,
-   "ts": "2026-11-02T17:07+00:00",
+   "ts": "2026-11-03T12:07+00:00",
+   "full": true
+  },
+  "PTCT": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-03T12:07+00:00",
+   "full": false
+  },
+  "IQ": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-03T12:07+00:00",
+   "full": true
+  },
+  "INO": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-03T12:07+00:00",
+   "full": true
+  },
+  "KRYS": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-03T12:07+00:00",
    "full": true
   }
  },
  "discovery": {
-  "day": "2026-11-02",
+  "day": "2026-11-03",
   "tickers": {
-   "LIT": 1,
-   "BTC": 1,
-   "SOL": 1,
-   "GME": 1
+   "SHORT": 1,
+   "SEAL": 1,
+   "NEAR": 1
   }
  },
- "discovery_day": "2026-11-02"
+ "discovery_day": "2026-11-03"
 }

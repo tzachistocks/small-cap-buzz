@@ -4077,7 +4077,8 @@
    "accel",
    "novel",
    "low_float",
-   "rvol"
+   "rvol",
+   "x_buzz"
   ],
   "alerted": false,
   "urgent": false,
@@ -4207,6 +4208,28 @@
    "short",
    "low_float",
    "borrow_fee"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-03|SHOP": {
+  "ts": "2026-11-03T12:07+00:00",
+  "ticker": "SHOP",
+  "score": 4,
+  "max_score": 4,
+  "price": 133.7932,
+  "move_pct": -15.05,
+  "cap_m": 171490.0,
+  "blocked": [
+   "שווי $171490M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel",
+   "st_trend"
   ],
   "alerted": false,
   "urgent": false,
