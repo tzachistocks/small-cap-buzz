@@ -1,31 +1,31 @@
 {
  "date": "2026-11-03",
- "generated_at": "2026-11-03T17:07+00:00",
+ "generated_at": "2026-11-03T18:07+00:00",
  "final": false,
  "runs": {
-  "count": 12,
+  "count": 13,
   "first": "2026-11-03T07:07+00:00",
-  "last": "2026-11-03T17:07+00:00",
+  "last": "2026-11-03T18:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 3276,
-   "mention_gate": 331,
-   "reddit_path": 3,
-   "telegram_path": 1,
-   "news_path": 6,
-   "skipped_large_cache": 506,
-   "shadow_gate": 246,
-   "to_check": 81,
-   "checked": 81,
+   "buzz_tickers": 3547,
+   "mention_gate": 347,
+   "reddit_path": 4,
+   "telegram_path": 2,
+   "news_path": 7,
+   "skipped_large_cache": 538,
+   "shadow_gate": 264,
+   "to_check": 86,
+   "checked": 86,
    "not_checked_time": 0,
    "blocked": {
     "שווי": 20,
     "דיווח": 3,
-    "אין": 3,
+    "אין": 4,
     "כבר": 1
    },
-   "below_score": 46,
+   "below_score": 49,
    "cooldown": 0,
-   "shadow_would_alert": 8,
+   "shadow_would_alert": 9,
    "sent": 0,
    "send_failed": 0
   },
@@ -33,7 +33,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 573
+   "messages": 578
   },
   "per_run": [
    {
@@ -116,6 +116,13 @@
    {
     "ts": "2026-11-03T17:07+00:00",
     "checked": 7,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 2
+   },
+   {
+    "ts": "2026-11-03T18:07+00:00",
+    "checked": 5,
     "sent": 0,
     "send_failed": 0,
     "errors_n": 2
@@ -338,8 +345,8 @@
    "news": null,
    "outcome": {
     "days": 4,
-    "last_close": 2.1549999713897705,
-    "last_pct": -19.9,
+    "last_close": 2.194999933242798,
+    "last_pct": -18.4,
     "max_close_pct": -1.1,
     "max_high_pct": 5.6,
     "d1_pct": -1.1
@@ -369,8 +376,8 @@
    "news": null,
    "outcome": {
     "days": 4,
-    "last_close": 4.210000038146973,
-    "last_pct": -11.1,
+    "last_close": 4.179999828338623,
+    "last_pct": -11.7,
     "max_close_pct": -1.0,
     "max_high_pct": 3.5,
     "d1_pct": -1.0
@@ -401,8 +408,8 @@
    "news": "Stoneridge and Kodiak AI Announce Collaboration to Advance Autonomous Commercial Vehicles",
    "outcome": {
     "days": 4,
-    "last_close": 1.190000057220459,
-    "last_pct": -14.4,
+    "last_close": 1.159999966621399,
+    "last_pct": -16.5,
     "max_close_pct": -7.9,
     "max_high_pct": 2.9,
     "d1_pct": -7.9
@@ -429,9 +436,9 @@
    ],
    "news": "TEXAS COMMUNITY BANCSHARES, INC. AND THE BANC OF SAN JACINTO COUNTY BANCSHARES, INC., THE PARENT OF THE BANK OF SAN JACINTO COUNTY, COLDSPRING, TEXAS, ANNOUNCE MERGER AGREEMENT",
    "outcome": {
-    "days": 3,
-    "last_close": 17.25,
-    "last_pct": -0.2,
+    "days": 4,
+    "last_close": 17.1825008392334,
+    "last_pct": -0.6,
     "max_close_pct": 0.0,
     "max_high_pct": 0.0,
     "d1_pct": 0.0
@@ -459,8 +466,8 @@
    "news": null,
    "outcome": {
     "days": 3,
-    "last_close": 0.3497999906539917,
-    "last_pct": -14.7,
+    "last_close": 0.32499998807907104,
+    "last_pct": -20.8,
     "max_close_pct": -2.5,
     "max_high_pct": -0.0,
     "d1_pct": -4.2
@@ -492,8 +499,8 @@
    "news": "NRx Pharmaceuticals (Nasdaq: NRXP) to Host Conference Call on October 30, 2026 to Discuss Regulatory Milestone for Preservative-Free Ketamine",
    "outcome": {
     "days": 3,
-    "last_close": 2.1549999713897705,
-    "last_pct": -25.2,
+    "last_close": 2.1900999546051025,
+    "last_pct": -24.0,
     "max_close_pct": -21.2,
     "max_high_pct": -1.4,
     "d1_pct": -21.2
@@ -527,8 +534,8 @@
    "news": "NRx Pharmaceuticals (Nasdaq:NRXP) Receives FDA Approval of Preservative-Free Ketamine Ahead of November 10 FDA Goal Date",
    "outcome": {
     "days": 3,
-    "last_close": 2.1549999713897705,
-    "last_pct": 1.2,
+    "last_close": 2.1900999546051025,
+    "last_pct": 2.8,
     "max_close_pct": 6.6,
     "max_high_pct": 33.3,
     "d1_pct": 6.6
@@ -556,8 +563,8 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 5.815000057220459,
-    "last_pct": -5.0,
+    "last_close": 5.940000057220459,
+    "last_pct": -2.9,
     "max_close_pct": -1.8,
     "max_high_pct": 2.3,
     "d1_pct": -1.8
@@ -589,9 +596,9 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 2.1549999713897705,
-    "last_pct": -7.5,
-    "max_close_pct": -6.8,
+    "last_close": 2.194999933242798,
+    "last_pct": -5.8,
+    "max_close_pct": -5.8,
     "max_high_pct": 4.8,
     "d1_pct": -6.8
    }
@@ -622,8 +629,8 @@
    "news": "Gamehaus Signs Definitive Agreement to Acquire Majority Stake in Anamana",
    "outcome": {
     "days": 2,
-    "last_close": 0.6197999715805054,
-    "last_pct": 1.6,
+    "last_close": 0.6136999726295471,
+    "last_pct": 0.6,
     "max_close_pct": 13.4,
     "max_high_pct": 19.0,
     "d1_pct": 13.4
@@ -4231,6 +4238,14 @@
     "first_utc": "2026-11-02T15:04+00:00",
     "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
    },
+   "GYGY": {
+    "m24_max": 4,
+    "authors24_max": 3,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-03T06:28+00:00"
+   },
    "JAGX": {
     "m24_max": 3,
     "authors24_max": 2,
@@ -4271,11 +4286,13 @@
    },
    "GRAB": {
     "m24_max": 3,
-    "authors24_max": 1,
+    "authors24_max": 3,
     "subs": [
-     "pennystocks"
+     "pennystocks",
+     "smallstreetbets"
     ],
-    "first_utc": "2026-11-03T10:26+00:00"
+    "first_utc": "2026-11-03T10:26+00:00",
+    "sample": "r/smallstreetbets: $GRAB: bullish opinion from a Singaporean"
    },
    "CLGN": {
     "m24_max": 3,
@@ -4403,14 +4420,6 @@
     ],
     "first_utc": "2026-11-02T14:00+00:00",
     "sample": "r/pennystocks: BioLargo's Clyra Medical Gains Commercial Traction as Clinician Enthusiasm Drives Health S"
-   },
-   "GYGY": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-03T06:28+00:00"
    },
    "CYPH": {
     "m24_max": 2,
@@ -4580,6 +4589,12 @@
     "chats24_max": 2,
     "first_utc": "2026-11-02T14:14+00:00"
    },
+   "NYT": {
+    "m24_max": 4,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T12:48+00:00"
+   },
    "LNG": {
     "m24_max": 3,
     "authors24_max": 1,
@@ -4694,6 +4709,12 @@
     "chats24_max": 2,
     "first_utc": "2026-11-02T20:45+00:00"
    },
+   "III": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T19:31+00:00"
+   },
    "FUND": {
     "m24_max": 2,
     "authors24_max": 1,
@@ -4729,18 +4750,6 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T13:47+00:00"
-   },
-   "FG": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-02T14:42+00:00"
-   },
-   "FGII": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-02T14:42+00:00"
    }
   },
   "telegram_all": {
@@ -5147,7 +5156,7 @@
     "first_utc": "2026-11-02T19:33+00:00"
    },
    "III": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T19:31+00:00"
@@ -6047,7 +6056,7 @@
     "first_utc": "2026-11-03T12:48+00:00"
    },
    "NYT": {
-    "m24_max": 1,
+    "m24_max": 4,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-03T12:48+00:00"
@@ -6315,6 +6324,66 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-03T17:02+00:00"
+   },
+   "BCCQ": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T18:08+00:00"
+   },
+   "RIG": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T18:04+00:00"
+   },
+   "GASS": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T18:00+00:00"
+   },
+   "IPFX": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T17:56+00:00"
+   },
+   "TOST": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T17:55+00:00"
+   },
+   "MET": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T17:52+00:00"
+   },
+   "SQNS": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T17:26+00:00"
+   },
+   "PPIH": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T17:23+00:00"
+   },
+   "IBTA": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T17:14+00:00"
+   },
+   "AIBT": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T17:11+00:00"
    }
   }
  },
@@ -6325,8 +6394,8 @@
   "credits": null
  },
  "errors_today": {
-  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/DS": 3,
-  "HTTP 404 https: //finviz.com/quote.ashx?t=DS&p=d": 3
+  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/DS": 4,
+  "HTTP 404 https: //finviz.com/quote.ashx?t=DS&p=d": 4
  },
  "closes_asof": null,
  "closes": {}

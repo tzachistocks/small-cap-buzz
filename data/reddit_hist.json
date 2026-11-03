@@ -6050,8 +6050,8 @@
    "sample": "r/smallstreetbets: Neodyme magnets supply chain disruption"
   },
   "GYGY": {
-   "m24_max": 2,
-   "authors24_max": 1,
+   "m24_max": 4,
+   "authors24_max": 3,
    "subs": [
     "pennystocks"
    ],
@@ -6156,11 +6156,13 @@
   },
   "GRAB": {
    "m24_max": 3,
-   "authors24_max": 1,
+   "authors24_max": 3,
    "subs": [
-    "pennystocks"
+    "pennystocks",
+    "smallstreetbets"
    ],
-   "first_utc": "2026-11-03T10:26+00:00"
+   "first_utc": "2026-11-03T10:26+00:00",
+   "sample": "r/smallstreetbets: $GRAB: bullish opinion from a Singaporean"
   },
   "MERC": {
    "m24_max": 1,
@@ -6377,6 +6379,39 @@
     "Shortsqueeze"
    ],
    "first_utc": "2026-11-03T16:45+00:00"
+  },
+  "SG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-03T17:45+00:00",
+   "sample": "r/smallstreetbets: $GRAB: bullish opinion from a Singaporean"
+  },
+  "UBER": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-03T17:50+00:00"
+  },
+  "BAER": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T17:37+00:00"
+  },
+  "ACRV": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T17:22+00:00"
   }
  }
 }
