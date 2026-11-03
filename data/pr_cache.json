@@ -1,11 +1,5 @@
 [
  {
-  "ticker": "MDB",
-  "title": "MongoDB Investigation Continued: Kahn Swick & Foti, LLC Continues to Investigate the Officers and Directors of MongoDB, Inc. - MDB",
-  "src": "PR Newswire",
-  "ts": "2026-10-31T02:00+00:00"
- },
- {
   "ticker": "TENX",
   "title": "TENX INVESTOR ALERT: Tenax Therapeutics, Inc. Investors with Substantial Losses May Seek to Lead Class Action Lawsuit Before December 28, 2026 Deadline",
   "src": "PR Newswire",
@@ -322,5 +316,29 @@
   "title": "MAA Announces Pricing of Senior Unsecured Notes Offering",
   "src": "PR Newswire",
   "ts": "2026-11-02T22:29+00:00"
+ },
+ {
+  "ticker": "PRAA",
+  "title": "Die PRA Group, Inc. feiert ihr 30-jähriges Firmenjubiläum mit dem Läuten der Nasdaq-Eröffnungsglocke",
+  "src": "PR Newswire",
+  "ts": "2026-11-03T07:02+00:00"
+ },
+ {
+  "ticker": "BMM",
+  "title": "Blue Moon Announces Sale of Blue Moon Norway to ACG Metals Limited",
+  "src": "PR Newswire",
+  "ts": "2026-11-03T07:00+00:00"
+ },
+ {
+  "ticker": "LKQ",
+  "title": "Rosen Law Firm Encourages LKQ Corporation Investors to Inquire About Securities Class Action Investigation - LKQ",
+  "src": "PR Newswire",
+  "ts": "2026-11-03T06:17+00:00"
+ },
+ {
+  "ticker": "MPWR",
+  "title": "Rosen Law Firm Announces Investigation of Breaches of Fiduciary Duties by the Directors and Officers of Monolithic Power Systems, Inc. - MPWR",
+  "src": "PR Newswire",
+  "ts": "2026-11-03T06:12+00:00"
  }
 ]
