@@ -7487,20 +7487,20 @@
  },
  "2026-11-03": {
   "HKD": {
-   "m24_max": 13,
-   "authors24_max": 13,
+   "m24_max": 16,
+   "authors24_max": 16,
    "chats24_max": 1,
    "first_utc": "2026-11-02T20:37+00:00"
   },
   "SG": {
-   "m24_max": 13,
-   "authors24_max": 13,
+   "m24_max": 16,
+   "authors24_max": 16,
    "chats24_max": 1,
    "first_utc": "2026-11-02T20:37+00:00"
   },
   "INR": {
-   "m24_max": 13,
-   "authors24_max": 13,
+   "m24_max": 16,
+   "authors24_max": 16,
    "chats24_max": 1,
    "first_utc": "2026-11-02T20:37+00:00"
   },
@@ -7595,7 +7595,7 @@
    "first_utc": "2026-11-02T22:48+00:00"
   },
   "FOX": {
-   "m24_max": 1,
+   "m24_max": 5,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-02T22:30+00:00"
@@ -7901,7 +7901,7 @@
    "first_utc": "2026-11-02T19:31+00:00"
   },
   "GABC": {
-   "m24_max": 5,
+   "m24_max": 6,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-02T08:56+00:00"
@@ -8835,6 +8835,54 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-03T12:11+00:00"
+  },
+  "FBIN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T14:07+00:00"
+  },
+  "PAY": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T13:37+00:00"
+  },
+  "SJM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T13:32+00:00"
+  },
+  "DE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T13:29+00:00"
+  },
+  "SAY": {
+   "m24_max": 4,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T13:28+00:00"
+  },
+  "HIT": {
+   "m24_max": 5,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T13:21+00:00"
+  },
+  "PBH": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T13:22+00:00"
+  },
+  "CACI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T13:18+00:00"
   }
  }
 }
