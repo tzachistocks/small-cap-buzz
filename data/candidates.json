@@ -4078,7 +4078,8 @@
    "novel",
    "low_float",
    "rvol",
-   "x_buzz"
+   "x_buzz",
+   "relaxed_gate"
   ],
   "alerted": false,
   "urgent": false,
@@ -4109,7 +4110,7 @@
   "ts": "2026-11-03T07:07+00:00",
   "ticker": "IQ",
   "score": 4,
-  "max_score": 4,
+  "max_score": 5,
   "price": 0.865,
   "move_pct": 4.76,
   "cap_m": 454.6,
@@ -4118,7 +4119,8 @@
    "vel3h",
    "spread",
    "rising",
-   "relaxed_gate"
+   "relaxed_gate",
+   "accel"
   ],
   "alerted": false,
   "urgent": false,
@@ -4230,6 +4232,50 @@
    "vel3h",
    "novel",
    "st_trend"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-03|LSCC": {
+  "ts": "2026-11-03T13:07+00:00",
+  "ticker": "LSCC",
+  "score": 5,
+  "max_score": 5,
+  "price": 105.4,
+  "move_pct": 13.37,
+  "cap_m": 14960.0,
+  "blocked": [
+   "שווי $14960M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "spread",
+   "novel",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-03|DDOG": {
+  "ts": "2026-11-03T13:07+00:00",
+  "ticker": "DDOG",
+  "score": 3,
+  "max_score": 3,
+  "price": 209.15,
+  "move_pct": -11.1,
+  "cap_m": 75330.0,
+  "blocked": [
+   "שווי $75330M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "spread",
+   "novel"
   ],
   "alerted": false,
   "urgent": false,
