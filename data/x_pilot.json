@@ -1,0 +1,147 @@
+{
+ "days": {
+  "2026-11-03": {
+   "SCREENER": {
+    "posts_before_open": 0,
+    "authors_before_open": 0,
+    "likes_before_open": 0,
+    "posts_before_premarket": 0,
+    "authors_before_premarket": 0,
+    "first_utc": null,
+    "lead_h": null,
+    "full": false,
+    "window_ok": true,
+    "group": "עולה"
+   },
+   "COMPARE": {
+    "posts_before_open": 0,
+    "authors_before_open": 0,
+    "likes_before_open": 0,
+    "posts_before_premarket": 0,
+    "authors_before_premarket": 0,
+    "first_utc": null,
+    "lead_h": null,
+    "full": false,
+    "window_ok": true,
+    "group": "עולה"
+   },
+   "INDUSTRY": {
+    "posts_before_open": 0,
+    "authors_before_open": 0,
+    "likes_before_open": 0,
+    "posts_before_premarket": 0,
+    "authors_before_premarket": 0,
+    "first_utc": null,
+    "lead_h": null,
+    "full": false,
+    "window_ok": true,
+    "group": "עולה"
+   },
+   "CHSN": {
+    "posts_before_open": 10,
+    "authors_before_open": 10,
+    "likes_before_open": 0,
+    "posts_before_premarket": 0,
+    "authors_before_premarket": 0,
+    "first_utc": "2026-11-03T13:25+00:00",
+    "lead_h": 1.1,
+    "full": true,
+    "window_ok": true,
+    "group": "עולה"
+   },
+   "INLF": {
+    "posts_before_open": 6,
+    "authors_before_open": 6,
+    "likes_before_open": 27,
+    "posts_before_premarket": 0,
+    "authors_before_premarket": 0,
+    "first_utc": "2026-11-03T14:22+00:00",
+    "lead_h": 0.1,
+    "full": false,
+    "window_ok": true,
+    "group": "פרה"
+   },
+   "BLZE": {
+    "posts_before_open": 3,
+    "authors_before_open": 3,
+    "likes_before_open": 7,
+    "posts_before_premarket": 0,
+    "authors_before_premarket": 0,
+    "first_utc": "2026-11-03T14:16+00:00",
+    "lead_h": 0.2,
+    "full": false,
+    "window_ok": true,
+    "group": "פרה"
+   },
+   "SGRX": {
+    "posts_before_open": 5,
+    "authors_before_open": 5,
+    "likes_before_open": 8,
+    "posts_before_premarket": 0,
+    "authors_before_premarket": 0,
+    "first_utc": "2026-11-03T14:21+00:00",
+    "lead_h": 0.1,
+    "full": false,
+    "window_ok": true,
+    "group": "פרה"
+   },
+   "SPCE": {
+    "posts_before_open": 9,
+    "authors_before_open": 8,
+    "likes_before_open": 0,
+    "posts_before_premarket": 0,
+    "authors_before_premarket": 0,
+    "first_utc": "2026-11-03T13:39+00:00",
+    "lead_h": 0.8,
+    "full": false,
+    "window_ok": true,
+    "group": "בקרה"
+   },
+   "GYGY": {
+    "posts_before_open": 1,
+    "authors_before_open": 1,
+    "likes_before_open": 2,
+    "posts_before_premarket": 0,
+    "authors_before_premarket": 0,
+    "first_utc": "2026-11-03T13:54+00:00",
+    "lead_h": 0.6,
+    "full": false,
+    "window_ok": true,
+    "group": "בקרה"
+   },
+   "ASIC": {
+    "posts_before_open": 0,
+    "authors_before_open": 0,
+    "likes_before_open": 0,
+    "posts_before_premarket": 0,
+    "authors_before_premarket": 0,
+    "first_utc": null,
+    "lead_h": null,
+    "full": false,
+    "window_ok": true,
+    "group": "בקרה"
+   }
+  }
+ },
+ "credits": 110,
+ "summary": {
+  "עולה": {
+   "n": 4,
+   "x3_before_open": 1,
+   "x3_before_premarket": 0,
+   "median_lead_h": 1.1
+  },
+  "פרה": {
+   "n": 3,
+   "x3_before_open": 3,
+   "x3_before_premarket": 0,
+   "median_lead_h": 0.1
+  },
+  "בקרה": {
+   "n": 3,
+   "x3_before_open": 1,
+   "x3_before_premarket": 0,
+   "median_lead_h": 0.8
+  }
+ }
+}

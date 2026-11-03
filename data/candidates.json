@@ -4089,7 +4089,7 @@
   "ts": "2026-11-03T07:07+00:00",
   "ticker": "GYGY",
   "score": 5,
-  "max_score": 5,
+  "max_score": 6,
   "price": 0.3901,
   "move_pct": -7.12,
   "cap_m": 5.61,
@@ -4100,7 +4100,9 @@
    "accel",
    "spread",
    "low_float",
-   "borrow_fee"
+   "borrow_fee",
+   "relaxed_gate",
+   "rising"
   ],
   "alerted": false,
   "urgent": false,

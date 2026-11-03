@@ -6398,8 +6398,8 @@
    "first_utc": "2026-11-03T17:50+00:00"
   },
   "BAER": {
-   "m24_max": 3,
-   "authors24_max": 3,
+   "m24_max": 4,
+   "authors24_max": 4,
    "subs": [
     "pennystocks"
    ],
@@ -6445,6 +6445,14 @@
     "pennystocks"
    ],
    "first_utc": "2026-11-03T19:08+00:00"
+  },
+  "DRMA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T20:22+00:00"
   }
  }
 }
