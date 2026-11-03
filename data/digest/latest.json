@@ -1,29 +1,29 @@
 {
  "date": "2026-11-03",
- "generated_at": "2026-11-03T10:07+00:00",
+ "generated_at": "2026-11-03T10:52+00:00",
  "final": false,
  "runs": {
-  "count": 4,
+  "count": 5,
   "first": "2026-11-03T07:07+00:00",
-  "last": "2026-11-03T10:07+00:00",
+  "last": "2026-11-03T10:52+00:00",
   "funnel_total": {
-   "buzz_tickers": 1087,
-   "mention_gate": 127,
+   "buzz_tickers": 1361,
+   "mention_gate": 158,
    "reddit_path": 0,
    "telegram_path": 0,
    "news_path": 0,
-   "skipped_large_cache": 166,
-   "shadow_gate": 68,
-   "to_check": 29,
-   "checked": 29,
+   "skipped_large_cache": 210,
+   "shadow_gate": 88,
+   "to_check": 36,
+   "checked": 36,
    "not_checked_time": 0,
    "blocked": {
-    "שווי": 8,
+    "שווי": 10,
     "דיווח": 3
    },
-   "below_score": 18,
+   "below_score": 22,
    "cooldown": 0,
-   "shadow_would_alert": 0,
+   "shadow_would_alert": 1,
    "sent": 0,
    "send_failed": 0
   },
@@ -58,6 +58,13 @@
    {
     "ts": "2026-11-03T10:07+00:00",
     "checked": 5,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 0
+   },
+   {
+    "ts": "2026-11-03T10:52+00:00",
+    "checked": 7,
     "sent": 0,
     "send_failed": 0,
     "errors_n": 0
@@ -613,6 +620,27 @@
    "urgent": false
   },
   {
+   "ts": "2026-11-03T10:52+00:00",
+   "ticker": "BYND",
+   "score": 6,
+   "max_score": 6,
+   "price": 7.05,
+   "move_pct": 2.03,
+   "cap_m": 128.95,
+   "blocked": [],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "st_msgs",
+    "short",
+    "low_float",
+    "borrow_fee"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
    "ts": "2026-11-03T07:07+00:00",
    "ticker": "GYGY",
    "score": 5,
@@ -689,6 +717,27 @@
     "vel3h",
     "novel",
     "low_float"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-03T10:52+00:00",
+   "ticker": "GRAB",
+   "score": 4,
+   "max_score": 4,
+   "price": 3.1,
+   "move_pct": 14.39,
+   "cap_m": 12640.0,
+   "blocked": [
+    "שווי $12640M"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "spread",
+    "rising",
+    "novel"
    ],
    "alerted": false,
    "urgent": false
@@ -4005,6 +4054,15 @@
     "first_utc": "2026-11-02T15:08+00:00",
     "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
    },
+   "NOV": {
+    "m24_max": 3,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-02T15:04+00:00",
+    "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
+   },
    "MRVL": {
     "m24_max": 2,
     "authors24_max": 2,
@@ -4104,15 +4162,6 @@
     "first_utc": "2026-11-02T15:04+00:00",
     "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
    },
-   "NOV": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-02T15:04+00:00",
-    "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-   },
    "BLGO": {
     "m24_max": 2,
     "authors24_max": 1,
@@ -4121,6 +4170,14 @@
     ],
     "first_utc": "2026-11-02T14:00+00:00",
     "sample": "r/pennystocks: BioLargo's Clyra Medical Gains Commercial Traction as Clinician Enthusiasm Drives Health S"
+   },
+   "CYPH": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-03T08:51+00:00"
    },
    "AKA": {
     "m24_max": 1,
@@ -4265,15 +4322,6 @@
     ],
     "first_utc": "2026-11-02T15:08+00:00",
     "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-   },
-   "RCT": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-02T15:08+00:00",
-    "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
    }
   },
   "telegram_top": {
@@ -4302,7 +4350,7 @@
     "first_utc": "2026-11-02T20:37+00:00"
    },
    "CRWD": {
-    "m24_max": 8,
+    "m24_max": 9,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T13:27+00:00"
@@ -4324,6 +4372,12 @@
     "authors24_max": 2,
     "chats24_max": 2,
     "first_utc": "2026-11-02T08:18+00:00"
+   },
+   "GABC": {
+    "m24_max": 4,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T08:56+00:00"
    },
    "INO": {
     "m24_max": 4,
@@ -4360,12 +4414,6 @@
     "authors24_max": 2,
     "chats24_max": 2,
     "first_utc": "2026-11-02T19:56+00:00"
-   },
-   "GABC": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-02T08:56+00:00"
    },
    "DRUG": {
     "m24_max": 3,
@@ -4439,6 +4487,12 @@
     "chats24_max": 1,
     "first_utc": "2026-11-02T16:33+00:00"
    },
+   "BID": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T16:33+00:00"
+   },
    "XMAX": {
     "m24_max": 2,
     "authors24_max": 1,
@@ -4506,12 +4560,6 @@
     "first_utc": "2026-11-02T14:14+00:00"
    },
    "KPTI": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-02T14:14+00:00"
-   },
-   "DNA": {
     "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
@@ -4934,7 +4982,7 @@
     "first_utc": "2026-11-02T19:31+00:00"
    },
    "GABC": {
-    "m24_max": 3,
+    "m24_max": 4,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T08:56+00:00"
@@ -5084,7 +5132,7 @@
     "first_utc": "2026-11-02T16:33+00:00"
    },
    "BID": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T16:33+00:00"
@@ -5234,7 +5282,7 @@
     "first_utc": "2026-11-02T12:02+00:00"
    },
    "CRWD": {
-    "m24_max": 8,
+    "m24_max": 9,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T13:27+00:00"

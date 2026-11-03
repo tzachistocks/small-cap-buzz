@@ -4167,5 +4167,49 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-11-03|GRAB": {
+  "ts": "2026-11-03T10:52+00:00",
+  "ticker": "GRAB",
+  "score": 4,
+  "max_score": 4,
+  "price": 3.1,
+  "move_pct": 14.39,
+  "cap_m": 12640.0,
+  "blocked": [
+   "שווי $12640M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "spread",
+   "rising",
+   "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-03|BYND": {
+  "ts": "2026-11-03T10:52+00:00",
+  "ticker": "BYND",
+  "score": 6,
+  "max_score": 6,
+  "price": 7.05,
+  "move_pct": 2.03,
+  "cap_m": 128.95,
+  "blocked": [],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "st_msgs",
+   "short",
+   "low_float",
+   "borrow_fee"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }
