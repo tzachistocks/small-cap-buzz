@@ -6093,6 +6093,38 @@
     "Shortsqueeze"
    ],
    "first_utc": "2026-11-02T23:55+00:00"
+  },
+  "DUOT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T07:29+00:00"
+  },
+  "KMB": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-03T07:14+00:00"
+  },
+  "OLN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-03T07:08+00:00"
+  },
+  "SWBI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-03T07:08+00:00"
   }
  }
 }
