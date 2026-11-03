@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-03T14:07+00:00",
+ "ts": "2026-11-03T15:07+00:00",
  "reddit_ok": true,
  "stocktwits_trending": 30,
  "apewisdom_main": 300,
@@ -18,7 +18,7 @@
   "mode": "ok",
   "chats_ok": 14,
   "chats_failed": 0,
-  "messages": 567
+  "messages": 568
  },
  "x_weir": {
   "mode": "idle",
@@ -29,18 +29,18 @@
   "note": "לא בחלון X"
  },
  "funnel": {
-  "buzz_tickers": 277,
-  "mention_gate": 26,
-  "reddit_path": 0,
+  "buzz_tickers": 273,
+  "mention_gate": 23,
+  "reddit_path": 1,
   "telegram_path": 0,
   "news_path": 1,
   "skipped_large_cache": 44,
-  "shadow_gate": 22,
+  "shadow_gate": 24,
   "to_check": 5,
   "checked": 5,
   "not_checked_time": 0,
   "blocked": {
-   "שווי": 1
+   "אין": 1
   },
   "below_score": 3,
   "cooldown": 0,
@@ -49,5 +49,8 @@
   "send_failed": 0
  },
  "not_checked": [],
- "errors": []
+ "errors": [
+  "HTTP 404 https://query1.finance.yahoo.com/v8/finance/chart/DS",
+  "HTTP 404 https://finviz.com/quote.ashx?t=DS&p=d"
+ ]
 }

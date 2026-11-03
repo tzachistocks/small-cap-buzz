@@ -5778,10 +5778,11 @@
    "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
   },
   "HUBC": {
-   "m24_max": 2,
-   "authors24_max": 1,
+   "m24_max": 3,
+   "authors24_max": 2,
    "subs": [
-    "pennystocks"
+    "pennystocks",
+    "smallstreetbets"
    ],
    "first_utc": "2026-11-02T15:08+00:00",
    "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
@@ -5796,8 +5797,8 @@
    "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
   },
   "NOV": {
-   "m24_max": 3,
-   "authors24_max": 2,
+   "m24_max": 4,
+   "authors24_max": 3,
    "subs": [
     "pennystocks"
    ],
@@ -5941,7 +5942,7 @@
    "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
   },
   "JDZG": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "subs": [
     "pennystocks"
@@ -6154,7 +6155,7 @@
    "first_utc": "2026-11-03T08:28+00:00"
   },
   "GRAB": {
-   "m24_max": 1,
+   "m24_max": 3,
    "authors24_max": 1,
    "subs": [
     "pennystocks"
@@ -6178,7 +6179,7 @@
    "first_utc": "2026-11-03T11:29+00:00"
   },
   "BURU": {
-   "m24_max": 4,
+   "m24_max": 5,
    "authors24_max": 2,
    "subs": [
     "pennystocks"
@@ -6202,7 +6203,7 @@
    "first_utc": "2026-11-03T12:36+00:00"
   },
   "CLGN": {
-   "m24_max": 1,
+   "m24_max": 3,
    "authors24_max": 1,
    "subs": [
     "pennystocks"
@@ -6240,6 +6241,68 @@
     "pennystocks"
    ],
    "first_utc": "2026-11-03T13:30+00:00"
+  },
+  "PARA": {
+   "m24_max": 3,
+   "authors24_max": 3,
+   "subs": [
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-03T14:29+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "BDMD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T14:56+00:00",
+   "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
+  },
+  "SHFS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T14:56+00:00",
+   "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
+  },
+  "VCIG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T14:56+00:00",
+   "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
+  },
+  "SGRX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-03T14:29+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "WFF": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T14:51+00:00"
+  },
+  "CADL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-03T14:10+00:00"
   }
  }
 }

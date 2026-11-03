@@ -382,12 +382,13 @@
   "urgent_why": [],
   "telegram_sent": true,
   "outcome": {
-   "days": 4,
-   "last_close": 3.7799999713897705,
-   "last_pct": -8.7,
+   "days": 5,
+   "last_close": 3.660099983215332,
+   "last_pct": -11.6,
    "max_close_pct": -0.0,
    "max_high_pct": 4.6,
-   "d1_pct": -0.0
+   "d1_pct": -0.0,
+   "final": true
   },
   "followups": {}
  },
@@ -482,12 +483,13 @@
   "urgent_why": [],
   "telegram_sent": true,
   "outcome": {
-   "days": 4,
-   "last_close": 4.349999904632568,
-   "last_pct": 0.3,
+   "days": 5,
+   "last_close": 4.380000114440918,
+   "last_pct": 1.0,
    "max_close_pct": 8.1,
    "max_high_pct": 13.0,
-   "d1_pct": 4.2
+   "d1_pct": 4.2,
+   "final": true
   },
   "followups": {}
  },
@@ -601,9 +603,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 3,
-   "last_close": 2.1700000762939453,
-   "last_pct": -19.3,
+   "days": 4,
+   "last_close": 2.1308999061584473,
+   "last_pct": -20.8,
    "max_close_pct": -1.1,
    "max_high_pct": 5.6,
    "d1_pct": -1.1
@@ -726,9 +728,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 3,
-   "last_close": 4.349999904632568,
-   "last_pct": -8.1,
+   "days": 4,
+   "last_close": 4.380000114440918,
+   "last_pct": -7.5,
    "max_close_pct": -1.0,
    "max_high_pct": 3.5,
    "d1_pct": -1.0
@@ -858,9 +860,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 3,
-   "last_close": 1.1200000047683716,
-   "last_pct": -19.4,
+   "days": 4,
+   "last_close": 1.236899971961975,
+   "last_pct": -11.0,
    "max_close_pct": -7.9,
    "max_high_pct": 2.9,
    "d1_pct": -7.9
@@ -1087,9 +1089,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 2,
-   "last_close": 0.4000000059604645,
-   "last_pct": -2.5,
+   "days": 3,
+   "last_close": 0.3601999878883362,
+   "last_pct": -12.2,
    "max_close_pct": -2.5,
    "max_high_pct": -0.0,
    "d1_pct": -4.2
@@ -1218,9 +1220,9 @@
   "path": "reddit",
   "telegram_sent": true,
   "outcome": {
-   "days": 2,
-   "last_close": 2.1700000762939453,
-   "last_pct": -24.7,
+   "days": 3,
+   "last_close": 2.1308999061584473,
+   "last_pct": -26.0,
    "max_close_pct": -21.2,
    "max_high_pct": -1.4,
    "d1_pct": -21.2
@@ -1362,9 +1364,9 @@
   "path": "reddit",
   "telegram_sent": true,
   "outcome": {
-   "days": 2,
-   "last_close": 2.1700000762939453,
-   "last_pct": 1.9,
+   "days": 3,
+   "last_close": 2.1308999061584473,
+   "last_pct": 0.0,
    "max_close_pct": 6.6,
    "max_high_pct": 33.3,
    "d1_pct": 6.6
@@ -1599,9 +1601,9 @@
   "path": "reddit",
   "telegram_sent": true,
   "outcome": {
-   "days": 1,
-   "last_close": 2.1700000762939453,
-   "last_pct": -6.8,
+   "days": 2,
+   "last_close": 2.1308999061584473,
+   "last_pct": -8.5,
    "max_close_pct": -6.8,
    "max_high_pct": 4.8,
    "d1_pct": -6.8
@@ -1736,9 +1738,9 @@
   "path": "news",
   "telegram_sent": true,
   "outcome": {
-   "days": 1,
-   "last_close": 0.6919999718666077,
-   "last_pct": 13.4,
+   "days": 2,
+   "last_close": 0.6078000068664551,
+   "last_pct": -0.4,
    "max_close_pct": 13.4,
    "max_high_pct": 19.0,
    "d1_pct": 13.4
