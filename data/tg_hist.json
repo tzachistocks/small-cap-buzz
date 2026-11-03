@@ -8105,7 +8105,7 @@
    "first_utc": "2026-11-02T14:14+00:00"
   },
   "ADM": {
-   "m24_max": 1,
+   "m24_max": 3,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-02T15:24+00:00"
@@ -8631,6 +8631,24 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-03T09:24+00:00"
+  },
+  "DD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T11:03+00:00"
+  },
+  "PEBO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T11:03+00:00"
+  },
+  "CRNT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T11:02+00:00"
   }
  }
 }
