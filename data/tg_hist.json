@@ -8201,7 +8201,7 @@
    "first_utc": "2026-11-02T12:02+00:00"
   },
   "CRWD": {
-   "m24_max": 6,
+   "m24_max": 8,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-02T13:27+00:00"
@@ -8613,6 +8613,24 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-03T07:28+00:00"
+  },
+  "BETA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T10:06+00:00"
+  },
+  "HOPE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T09:33+00:00"
+  },
+  "TRX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T09:24+00:00"
   }
  }
 }

@@ -3836,7 +3836,13 @@
   ],
   "alerted": true,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-03",
+   "days": 1,
+   "last_pct": 13.4,
+   "max_close_pct": 13.4,
+   "max_high_pct": 19.0
+  }
  },
  "2026-11-02|INO": {
   "ts": "2026-11-02T15:07+00:00",
@@ -3858,7 +3864,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-03",
+   "days": 1,
+   "last_pct": 7.6,
+   "max_close_pct": 7.6,
+   "max_high_pct": 23.5
+  }
  },
  "2026-11-02|SOUN": {
   "ts": "2026-11-02T16:07+00:00",
@@ -3880,7 +3892,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-03",
+   "days": 1,
+   "last_pct": -6.4,
+   "max_close_pct": -6.4,
+   "max_high_pct": 1.1
+  }
  },
  "2026-11-02|ELAB": {
   "ts": "2026-11-02T16:07+00:00",
@@ -3905,7 +3923,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-03",
+   "days": 1,
+   "last_pct": -3.4,
+   "max_close_pct": -3.4,
+   "max_high_pct": 17.2
+  }
  },
  "2026-11-02|AEHR": {
   "ts": "2026-11-02T19:07+00:00",
@@ -3927,7 +3951,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-03",
+   "days": 1,
+   "last_pct": -0.0,
+   "max_close_pct": -0.0,
+   "max_high_pct": 11.3
+  }
  },
  "2026-11-02|CC": {
   "ts": "2026-11-02T22:07+00:00",
@@ -3948,7 +3978,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-03",
+   "days": 1,
+   "last_pct": -1.8,
+   "max_close_pct": -1.8,
+   "max_high_pct": 3.1
+  }
  },
  "2026-11-02|FANG": {
   "ts": "2026-11-02T22:07+00:00",
@@ -3969,7 +4005,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-03",
+   "days": 1,
+   "last_pct": 0.0,
+   "max_close_pct": 0.0,
+   "max_high_pct": 4.9
+  }
  },
  "2026-11-02|BEAT": {
   "ts": "2026-11-02T22:07+00:00",
@@ -3990,7 +4032,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-03",
+   "days": 1,
+   "last_pct": -0.2,
+   "max_close_pct": -0.2,
+   "max_high_pct": 36.8
+  }
  },
  "2026-11-03|FN": {
   "ts": "2026-11-03T07:07+00:00",

@@ -1,12 +1,12 @@
 {
- "ts": "2026-11-03T09:07+00:00",
+ "ts": "2026-11-03T10:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
   "INO": {
-   "m6": 8,
+   "m6": 4,
    "m24": 16,
-   "authors6": 5,
+   "authors6": 3,
    "authors24": 10,
    "subs6": [
     "Shortsqueeze"
@@ -19,10 +19,10 @@
    "first_utc": "2026-11-02T14:30+00:00",
    "sample": "r/Shortsqueeze: $INO -- (FDA approved) 25% SI plus 300% upside or more"
   },
-  "RCAT": {
-   "m6": 9,
+  "BFRG": {
+   "m6": 5,
    "m24": 9,
-   "authors6": 6,
+   "authors6": 3,
    "authors24": 6,
    "subs6": [
     "pennystocks"
@@ -33,10 +33,10 @@
    "first_utc": "2026-11-03T03:43+00:00",
    "sample": "r/pennystocks: Three Clobbered Stocks With Potential Catalysts for a Rebound: BFRG, RCAT & SKYX"
   },
-  "BFRG": {
-   "m6": 9,
+  "RCAT": {
+   "m6": 5,
    "m24": 9,
-   "authors6": 6,
+   "authors6": 3,
    "authors24": 6,
    "subs6": [
     "pennystocks"
@@ -48,9 +48,9 @@
    "sample": "r/pennystocks: Three Clobbered Stocks With Potential Catalysts for a Rebound: BFRG, RCAT & SKYX"
   },
   "SKYX": {
-   "m6": 9,
+   "m6": 5,
    "m24": 9,
-   "authors6": 6,
+   "authors6": 3,
    "authors24": 6,
    "subs6": [
     "pennystocks"
@@ -62,9 +62,9 @@
    "sample": "r/pennystocks: Three Clobbered Stocks With Potential Catalysts for a Rebound: BFRG, RCAT & SKYX"
   },
   "SI": {
-   "m6": 5,
+   "m6": 2,
    "m24": 9,
-   "authors6": 4,
+   "authors6": 2,
    "authors24": 7,
    "subs6": [
     "Shortsqueeze"
@@ -91,19 +91,6 @@
    "first_utc": "2026-11-02T13:28+00:00",
    "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
   },
-  "INLF": {
-   "m6": 0,
-   "m24": 4,
-   "authors6": 0,
-   "authors24": 4,
-   "subs6": [],
-   "subs24": [
-    "pennystocks",
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-02T14:30+00:00",
-   "sample": "r/pennystocks: INLF continuation tmmr"
-  },
   "HTZ": {
    "m6": 3,
    "m24": 4,
@@ -117,6 +104,19 @@
    ],
    "first_utc": "2026-11-02T18:49+00:00",
    "sample": "r/Shortsqueeze: Added 4k more shares of $HTZ to my position."
+  },
+  "INLF": {
+   "m6": 0,
+   "m24": 3,
+   "authors6": 0,
+   "authors24": 3,
+   "subs6": [],
+   "subs24": [
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-02T14:30+00:00",
+   "sample": "r/pennystocks: INLF continuation tmmr"
   },
   "JAGX": {
    "m6": 0,
@@ -157,6 +157,30 @@
    "first_utc": "2026-11-02T22:45+00:00",
    "sample": "r/smallstreetbets: Why Did Both Marvel and Lumentum Stocks Tank After That $115B Deal?"
   },
+  "SLGB": {
+   "m6": 0,
+   "m24": 2,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T15:04+00:00",
+   "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
+  },
+  "PMN": {
+   "m6": 0,
+   "m24": 2,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T15:04+00:00",
+   "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
+  },
   "BRAI": {
    "m6": 0,
    "m24": 2,
@@ -169,7 +193,7 @@
    "first_utc": "2026-11-02T15:04+00:00",
    "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
   },
-  "VJET": {
+  "CALC": {
    "m6": 0,
    "m24": 2,
    "authors6": 0,
@@ -193,7 +217,7 @@
    "first_utc": "2026-11-02T15:04+00:00",
    "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
   },
-  "FNGR": {
+  "ELAB": {
    "m6": 0,
    "m24": 2,
    "authors6": 0,
@@ -202,10 +226,10 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-02T15:08+00:00",
+   "first_utc": "2026-11-02T15:04+00:00",
    "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
   },
-  "CALC": {
+  "VJET": {
    "m6": 0,
    "m24": 2,
    "authors6": 0,
@@ -229,18 +253,6 @@
    "first_utc": "2026-11-02T15:08+00:00",
    "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
   },
-  "SLGB": {
-   "m6": 0,
-   "m24": 2,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-02T15:04+00:00",
-   "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
-  },
   "CHOW": {
    "m6": 0,
    "m24": 2,
@@ -253,7 +265,7 @@
    "first_utc": "2026-11-02T15:08+00:00",
    "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
   },
-  "PMN": {
+  "FNGR": {
    "m6": 0,
    "m24": 2,
    "authors6": 0,
@@ -262,19 +274,7 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-02T15:04+00:00",
-   "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
-  },
-  "ELAB": {
-   "m6": 0,
-   "m24": 2,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-02T15:04+00:00",
+   "first_utc": "2026-11-02T15:08+00:00",
    "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
   },
   "NOV": {
@@ -317,28 +317,24 @@
    "first_utc": "2026-11-03T08:12+00:00",
    "sample": "r/smallstreetbets: F this bastards, I should short this Fker"
   },
-  "NOTE": {
-   "m6": 1,
+  "AKA": {
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
    "first_utc": "2026-11-03T03:43+00:00",
    "sample": "r/pennystocks: Three Clobbered Stocks With Potential Catalysts for a Rebound: BFRG, RCAT & SKYX"
   },
-  "AKA": {
-   "m6": 1,
+  "NOTE": {
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
@@ -356,6 +352,30 @@
    ],
    "first_utc": "2026-11-02T18:49+00:00",
    "sample": "r/Shortsqueeze: Added 4k more shares of $HTZ to my position."
+  },
+  "EVGO": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T15:23+00:00",
+   "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
+  },
+  "TGEN": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T15:23+00:00",
+   "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
   },
   "TE": {
    "m6": 0,
@@ -381,43 +401,7 @@
    "first_utc": "2026-11-02T15:23+00:00",
    "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
   },
-  "TGEN": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-02T15:23+00:00",
-   "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
-  },
-  "EVGO": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-02T15:23+00:00",
-   "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
-  },
   "EOSE": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-02T15:17+00:00",
-   "sample": "r/pennystocks: WHAT ARE THE MOST TRADED STOCKS YTD"
-  },
-  "PLUG": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -465,7 +449,19 @@
    "first_utc": "2026-11-02T15:17+00:00",
    "sample": "r/pennystocks: WHAT ARE THE MOST TRADED STOCKS YTD"
   },
-  "NORD": {
+  "PLUG": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-02T15:17+00:00",
+   "sample": "r/pennystocks: WHAT ARE THE MOST TRADED STOCKS YTD"
+  },
+  "JDZG": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -477,7 +473,7 @@
    "first_utc": "2026-11-02T15:08+00:00",
    "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
   },
-  "VIVK": {
+  "NORD": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -501,7 +497,7 @@
    "first_utc": "2026-11-02T15:08+00:00",
    "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
   },
-  "GMHS": {
+  "VIVK": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -513,7 +509,7 @@
    "first_utc": "2026-11-02T15:08+00:00",
    "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
   },
-  "JDZG": {
+  "GMHS": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -585,18 +581,6 @@
    "first_utc": "2026-11-02T13:01+00:00",
    "sample": "r/Shortsqueeze: SqueezeFinder - Nov 2nd 2026"
   },
-  "PMI": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-02T13:01+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 2nd 2026"
-  },
   "TENB": {
    "m6": 0,
    "m24": 1,
@@ -609,7 +593,19 @@
    "first_utc": "2026-11-02T13:01+00:00",
    "sample": "r/Shortsqueeze: SqueezeFinder - Nov 2nd 2026"
   },
-  "DYOR": {
+  "PMI": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-02T13:01+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 2nd 2026"
+  },
+  "USAR": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -621,7 +617,7 @@
    "first_utc": "2026-11-02T12:02+00:00",
    "sample": "r/smallstreetbets: Neodyme magnets supply chain disruption"
   },
-  "USAR": {
+  "DYOR": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -746,13 +742,11 @@
    "sample": ""
   },
   "CLIR": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
