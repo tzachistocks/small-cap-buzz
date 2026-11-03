@@ -4321,5 +4321,26 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-11-03|INO": {
+  "ts": "2026-11-03T17:07+00:00",
+  "ticker": "INO",
+  "score": 4,
+  "max_score": 4,
+  "price": 1.855,
+  "move_pct": -1.85,
+  "cap_m": 191.8,
+  "blocked": [
+   "כבר רצה +103% ב-3 ימים"
+  ],
+  "tags": [
+   "spread",
+   "authors",
+   "telegram_weak",
+   "short"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }

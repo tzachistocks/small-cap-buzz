@@ -1,30 +1,31 @@
 {
  "date": "2026-11-03",
- "generated_at": "2026-11-03T16:07+00:00",
+ "generated_at": "2026-11-03T17:07+00:00",
  "final": false,
  "runs": {
-  "count": 11,
+  "count": 12,
   "first": "2026-11-03T07:07+00:00",
-  "last": "2026-11-03T16:07+00:00",
+  "last": "2026-11-03T17:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 3005,
-   "mention_gate": 315,
-   "reddit_path": 1,
-   "telegram_path": 0,
-   "news_path": 5,
-   "skipped_large_cache": 470,
-   "shadow_gate": 223,
-   "to_check": 74,
-   "checked": 74,
+   "buzz_tickers": 3276,
+   "mention_gate": 331,
+   "reddit_path": 3,
+   "telegram_path": 1,
+   "news_path": 6,
+   "skipped_large_cache": 506,
+   "shadow_gate": 246,
+   "to_check": 81,
+   "checked": 81,
    "not_checked_time": 0,
    "blocked": {
-    "שווי": 19,
+    "שווי": 20,
     "דיווח": 3,
-    "אין": 2
+    "אין": 3,
+    "כבר": 1
    },
-   "below_score": 43,
+   "below_score": 46,
    "cooldown": 0,
-   "shadow_would_alert": 7,
+   "shadow_would_alert": 8,
    "sent": 0,
    "send_failed": 0
   },
@@ -32,7 +33,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 577
+   "messages": 573
   },
   "per_run": [
    {
@@ -108,6 +109,13 @@
    {
     "ts": "2026-11-03T16:07+00:00",
     "checked": 6,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 2
+   },
+   {
+    "ts": "2026-11-03T17:07+00:00",
+    "checked": 7,
     "sent": 0,
     "send_failed": 0,
     "errors_n": 2
@@ -330,8 +338,8 @@
    "news": null,
    "outcome": {
     "days": 4,
-    "last_close": 2.1449999809265137,
-    "last_pct": -20.3,
+    "last_close": 2.1549999713897705,
+    "last_pct": -19.9,
     "max_close_pct": -1.1,
     "max_high_pct": 5.6,
     "d1_pct": -1.1
@@ -361,8 +369,8 @@
    "news": null,
    "outcome": {
     "days": 4,
-    "last_close": 4.175099849700928,
-    "last_pct": -11.8,
+    "last_close": 4.210000038146973,
+    "last_pct": -11.1,
     "max_close_pct": -1.0,
     "max_high_pct": 3.5,
     "d1_pct": -1.0
@@ -451,8 +459,8 @@
    "news": null,
    "outcome": {
     "days": 3,
-    "last_close": 0.36500000953674316,
-    "last_pct": -11.0,
+    "last_close": 0.3497999906539917,
+    "last_pct": -14.7,
     "max_close_pct": -2.5,
     "max_high_pct": -0.0,
     "d1_pct": -4.2
@@ -484,8 +492,8 @@
    "news": "NRx Pharmaceuticals (Nasdaq: NRXP) to Host Conference Call on October 30, 2026 to Discuss Regulatory Milestone for Preservative-Free Ketamine",
    "outcome": {
     "days": 3,
-    "last_close": 2.1449999809265137,
-    "last_pct": -25.5,
+    "last_close": 2.1549999713897705,
+    "last_pct": -25.2,
     "max_close_pct": -21.2,
     "max_high_pct": -1.4,
     "d1_pct": -21.2
@@ -519,8 +527,8 @@
    "news": "NRx Pharmaceuticals (Nasdaq:NRXP) Receives FDA Approval of Preservative-Free Ketamine Ahead of November 10 FDA Goal Date",
    "outcome": {
     "days": 3,
-    "last_close": 2.1449999809265137,
-    "last_pct": 0.7,
+    "last_close": 2.1549999713897705,
+    "last_pct": 1.2,
     "max_close_pct": 6.6,
     "max_high_pct": 33.3,
     "d1_pct": 6.6
@@ -548,8 +556,8 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 6.0,
-    "last_pct": -2.0,
+    "last_close": 5.815000057220459,
+    "last_pct": -5.0,
     "max_close_pct": -1.8,
     "max_high_pct": 2.3,
     "d1_pct": -1.8
@@ -581,8 +589,8 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 2.1449999809265137,
-    "last_pct": -7.9,
+    "last_close": 2.1549999713897705,
+    "last_pct": -7.5,
     "max_close_pct": -6.8,
     "max_high_pct": 4.8,
     "d1_pct": -6.8
@@ -614,8 +622,8 @@
    "news": "Gamehaus Signs Definitive Agreement to Acquire Majority Stake in Anamana",
    "outcome": {
     "days": 2,
-    "last_close": 0.6225000023841858,
-    "last_pct": 2.0,
+    "last_close": 0.6197999715805054,
+    "last_pct": 1.6,
     "max_close_pct": 13.4,
     "max_high_pct": 19.0,
     "d1_pct": 13.4
@@ -829,6 +837,26 @@
     "vel3h",
     "novel",
     "st_trend"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-03T17:07+00:00",
+   "ticker": "INO",
+   "score": 4,
+   "max_score": 4,
+   "price": 1.855,
+   "move_pct": -1.85,
+   "cap_m": 191.8,
+   "blocked": [
+    "כבר רצה +103% ב-3 ימים"
+   ],
+   "tags": [
+    "spread",
+    "authors",
+    "telegram_weak",
+    "short"
    ],
    "alerted": false,
    "urgent": false
@@ -4109,8 +4137,8 @@
  "social_today": {
   "reddit_top": {
    "HTZ": {
-    "m24_max": 21,
-    "authors24_max": 15,
+    "m24_max": 34,
+    "authors24_max": 23,
     "subs": [
      "Shortsqueeze",
      "pennystocks"
@@ -4392,6 +4420,23 @@
     ],
     "first_utc": "2026-11-03T08:51+00:00"
    },
+   "RS": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-03T16:23+00:00",
+    "sample": "r/pennystocks: Why is nobody talking about Nightfood Holdings NGTFD?"
+   },
+   "HOG": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "subs": [
+     "Shortsqueeze"
+    ],
+    "first_utc": "2026-11-03T16:42+00:00"
+   },
    "AKA": {
     "m24_max": 1,
     "authors24_max": 1,
@@ -4454,24 +4499,6 @@
     ],
     "first_utc": "2026-11-02T15:17+00:00",
     "sample": "r/pennystocks: WHAT ARE THE MOST TRADED STOCKS YTD"
-   },
-   "EOSE": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-02T15:17+00:00",
-    "sample": "r/pennystocks: WHAT ARE THE MOST TRADED STOCKS YTD"
-   },
-   "JBLU": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-02T15:17+00:00",
-    "sample": "r/pennystocks: WHAT ARE THE MOST TRADED STOCKS YTD"
    }
   },
   "telegram_top": {
@@ -4481,13 +4508,13 @@
     "chats24_max": 1,
     "first_utc": "2026-11-03T03:32+00:00"
    },
-   "HKD": {
-    "m24_max": 19,
-    "authors24_max": 18,
-    "chats24_max": 1,
+   "SG": {
+    "m24_max": 20,
+    "authors24_max": 19,
+    "chats24_max": 2,
     "first_utc": "2026-11-02T20:37+00:00"
    },
-   "SG": {
+   "HKD": {
     "m24_max": 19,
     "authors24_max": 18,
     "chats24_max": 1,
@@ -4529,6 +4556,12 @@
     "chats24_max": 1,
     "first_utc": "2026-11-02T22:30+00:00"
    },
+   "SAY": {
+    "m24_max": 5,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T13:28+00:00"
+   },
    "HIT": {
     "m24_max": 5,
     "authors24_max": 1,
@@ -4546,12 +4579,6 @@
     "authors24_max": 2,
     "chats24_max": 2,
     "first_utc": "2026-11-02T14:14+00:00"
-   },
-   "SAY": {
-    "m24_max": 4,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-03T13:28+00:00"
    },
    "LNG": {
     "m24_max": 3,
@@ -4724,9 +4751,9 @@
     "first_utc": "2026-11-02T20:37+00:00"
    },
    "SG": {
-    "m24_max": 19,
-    "authors24_max": 18,
-    "chats24_max": 1,
+    "m24_max": 20,
+    "authors24_max": 19,
+    "chats24_max": 2,
     "first_utc": "2026-11-02T20:37+00:00"
    },
    "INR": {
@@ -6092,7 +6119,7 @@
     "first_utc": "2026-11-03T13:29+00:00"
    },
    "SAY": {
-    "m24_max": 4,
+    "m24_max": 5,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-03T13:28+00:00"
@@ -6240,6 +6267,54 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-03T15:09+00:00"
+   },
+   "SOPH": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T16:51+00:00"
+   },
+   "SA": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T16:51+00:00"
+   },
+   "TM": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T16:33+00:00"
+   },
+   "GILD": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T16:32+00:00"
+   },
+   "INGM": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T16:27+00:00"
+   },
+   "BLZE": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T16:23+00:00"
+   },
+   "FOUR": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T16:12+00:00"
+   },
+   "NBND": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T17:02+00:00"
    }
   }
  },
@@ -6250,8 +6325,8 @@
   "credits": null
  },
  "errors_today": {
-  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/DS": 2,
-  "HTTP 404 https: //finviz.com/quote.ashx?t=DS&p=d": 2
+  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/DS": 3,
+  "HTTP 404 https: //finviz.com/quote.ashx?t=DS&p=d": 3
  },
  "closes_asof": null,
  "closes": {}
