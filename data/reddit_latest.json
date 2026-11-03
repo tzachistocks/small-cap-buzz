@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-03T18:07+00:00",
+ "ts": "2026-11-03T19:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
   "HTZ": {
-   "m6": 26,
-   "m24": 27,
-   "authors6": 20,
-   "authors24": 20,
+   "m6": 19,
+   "m24": 19,
+   "authors6": 16,
+   "authors24": 16,
    "subs6": [
     "Shortsqueeze",
     "pennystocks"
@@ -16,14 +16,14 @@
     "Shortsqueeze",
     "pennystocks"
    ],
-   "first_utc": "2026-11-02T18:49+00:00",
+   "first_utc": "2026-11-03T14:53+00:00",
    "sample": "r/Shortsqueeze: $HTZ 135,000 Shares Locked and Loaded"
   },
   "GYGY": {
-   "m6": 4,
-   "m24": 4,
-   "authors6": 3,
-   "authors24": 3,
+   "m6": 6,
+   "m24": 6,
+   "authors6": 4,
+   "authors24": 4,
    "subs6": [
     "pennystocks"
    ],
@@ -77,6 +77,62 @@
    "first_utc": "2026-11-03T14:29+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
+  "BFRG": {
+   "m6": 2,
+   "m24": 3,
+   "authors6": 2,
+   "authors24": 3,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T03:43+00:00",
+   "sample": "r/pennystocks: Three Clobbered Stocks With Potential Catalysts for a Rebound: BFRG, RCAT & SKYX"
+  },
+  "SKYX": {
+   "m6": 2,
+   "m24": 3,
+   "authors6": 2,
+   "authors24": 3,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T03:43+00:00",
+   "sample": "r/pennystocks: Three Clobbered Stocks With Potential Catalysts for a Rebound: BFRG, RCAT & SKYX"
+  },
+  "RCAT": {
+   "m6": 2,
+   "m24": 3,
+   "authors6": 2,
+   "authors24": 3,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T03:43+00:00",
+   "sample": "r/pennystocks: Three Clobbered Stocks With Potential Catalysts for a Rebound: BFRG, RCAT & SKYX"
+  },
+  "MDXH": {
+   "m6": 2,
+   "m24": 2,
+   "authors6": 2,
+   "authors24": 2,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T18:42+00:00",
+   "sample": "r/pennystocks: MDXH -who could buy MDx health,and at what price"
+  },
   "RS": {
    "m6": 2,
    "m24": 2,
@@ -90,34 +146,6 @@
    ],
    "first_utc": "2026-11-03T16:23+00:00",
    "sample": "r/pennystocks: Why is nobody talking about Nightfood Holdings NGTFD?"
-  },
-  "CAR": {
-   "m6": 1,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 2,
-   "subs6": [
-    "Shortsqueeze"
-   ],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-02T18:49+00:00",
-   "sample": "r/Shortsqueeze: $HTZ 135,000 Shares Locked and Loaded"
-  },
-  "NOV": {
-   "m6": 2,
-   "m24": 2,
-   "authors6": 2,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-03T14:56+00:00",
-   "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
   },
   "INLF": {
    "m6": 1,
@@ -146,49 +174,7 @@
    "first_utc": "2026-11-02T22:45+00:00",
    "sample": "r/smallstreetbets: Why Did Both Marvel and Lumentum Stocks Tank After That $115B Deal?"
   },
-  "BFRG": {
-   "m6": 1,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-03T03:43+00:00",
-   "sample": "r/pennystocks: Three Clobbered Stocks With Potential Catalysts for a Rebound: BFRG, RCAT & SKYX"
-  },
-  "RCAT": {
-   "m6": 1,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-03T03:43+00:00",
-   "sample": "r/pennystocks: Three Clobbered Stocks With Potential Catalysts for a Rebound: BFRG, RCAT & SKYX"
-  },
-  "SKYX": {
-   "m6": 1,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-03T03:43+00:00",
-   "sample": "r/pennystocks: Three Clobbered Stocks With Potential Catalysts for a Rebound: BFRG, RCAT & SKYX"
-  },
-  "BURU": {
+  "BAER": {
    "m6": 2,
    "m24": 2,
    "authors6": 2,
@@ -199,7 +185,21 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-03T16:08+00:00",
+   "first_utc": "2026-11-03T17:37+00:00",
+   "sample": ""
+  },
+  "BYND": {
+   "m6": 2,
+   "m24": 2,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-03T18:59+00:00",
    "sample": ""
   },
   "HOG": {
@@ -230,6 +230,20 @@
    "first_utc": "2026-11-03T17:45+00:00",
    "sample": "r/smallstreetbets: $GRAB: bullish opinion from a Singaporean"
   },
+  "CAR": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-03T15:26+00:00",
+   "sample": "r/Shortsqueeze: $HTZ 135,000 Shares Locked and Loaded"
+  },
   "CVNA": {
    "m6": 1,
    "m24": 1,
@@ -243,6 +257,62 @@
    ],
    "first_utc": "2026-11-03T15:26+00:00",
    "sample": "r/Shortsqueeze: $HTZ 135,000 Shares Locked and Loaded"
+  },
+  "NOV": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T14:56+00:00",
+   "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
+  },
+  "JDZG": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T14:56+00:00",
+   "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
+  },
+  "HXHX": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T14:56+00:00",
+   "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
+  },
+  "BDMD": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T14:56+00:00",
+   "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
   },
   "SHFS": {
    "m6": 1,
@@ -286,48 +356,6 @@
    "first_utc": "2026-11-03T14:56+00:00",
    "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
   },
-  "BDMD": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-03T14:56+00:00",
-   "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
-  },
-  "HXHX": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-03T14:56+00:00",
-   "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
-  },
-  "JDZG": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-03T14:56+00:00",
-   "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
-  },
   "BLGO": {
    "m6": 1,
    "m24": 1,
@@ -342,7 +370,7 @@
    "first_utc": "2026-11-03T14:47+00:00",
    "sample": "r/pennystocks: BioLargo Announces Launch of barebird.com"
   },
-  "HUBC": {
+  "SGRX": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -356,7 +384,7 @@
    "first_utc": "2026-11-03T14:29+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
-  "SGRX": {
+  "HUBC": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -382,7 +410,7 @@
    "first_utc": "2026-11-03T08:12+00:00",
    "sample": "r/smallstreetbets: F this bastards, I should short this Fker"
   },
-  "AKA": {
+  "NOTE": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -394,7 +422,7 @@
    "first_utc": "2026-11-03T03:43+00:00",
    "sample": "r/pennystocks: Three Clobbered Stocks With Potential Catalysts for a Rebound: BFRG, RCAT & SKYX"
   },
-  "NOTE": {
+  "AKA": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -417,6 +445,20 @@
    ],
    "first_utc": "2026-11-03T02:47+00:00",
    "sample": "r/Shortsqueeze: $INO -- (FDA approved) 25% SI plus 300% upside or more"
+  },
+  "KEEL": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T18:21+00:00",
+   "sample": ""
   },
   "UBER": {
    "m6": 1,
@@ -444,20 +486,6 @@
     "Shortsqueeze"
    ],
    "first_utc": "2026-11-03T17:46+00:00",
-   "sample": ""
-  },
-  "BAER": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-03T17:37+00:00",
    "sample": ""
   },
   "ACRV": {
@@ -488,6 +516,20 @@
    "first_utc": "2026-11-03T16:45+00:00",
    "sample": ""
   },
+  "BURU": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T16:44+00:00",
+   "sample": ""
+  },
   "MERC": {
    "m6": 1,
    "m24": 1,
@@ -500,48 +542,6 @@
     "pennystocks"
    ],
    "first_utc": "2026-11-03T16:28+00:00",
-   "sample": ""
-  },
-  "NRXP": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-03T16:13+00:00",
-   "sample": ""
-  },
-  "CPWR": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-03T16:01+00:00",
-   "sample": ""
-  },
-  "PC": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-03T15:58+00:00",
    "sample": ""
   }
  },

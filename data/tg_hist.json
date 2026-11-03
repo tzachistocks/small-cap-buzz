@@ -7487,20 +7487,20 @@
  },
  "2026-11-03": {
   "HKD": {
-   "m24_max": 19,
-   "authors24_max": 18,
+   "m24_max": 22,
+   "authors24_max": 21,
    "chats24_max": 1,
    "first_utc": "2026-11-02T20:37+00:00"
   },
   "SG": {
-   "m24_max": 20,
-   "authors24_max": 19,
+   "m24_max": 23,
+   "authors24_max": 22,
    "chats24_max": 2,
    "first_utc": "2026-11-02T20:37+00:00"
   },
   "INR": {
-   "m24_max": 19,
-   "authors24_max": 18,
+   "m24_max": 22,
+   "authors24_max": 21,
    "chats24_max": 1,
    "first_utc": "2026-11-02T20:37+00:00"
   },
@@ -7565,7 +7565,7 @@
    "first_utc": "2026-11-03T01:21+00:00"
   },
   "TV": {
-   "m24_max": 3,
+   "m24_max": 4,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-02T13:37+00:00"
@@ -8789,7 +8789,7 @@
    "first_utc": "2026-11-03T12:48+00:00"
   },
   "NYT": {
-   "m24_max": 4,
+   "m24_max": 5,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-03T12:48+00:00"
@@ -8963,9 +8963,9 @@
    "first_utc": "2026-11-03T14:14+00:00"
   },
   "MDGL": {
-   "m24_max": 1,
-   "authors24_max": 1,
-   "chats24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
+   "chats24_max": 2,
    "first_utc": "2026-11-03T14:14+00:00"
   },
   "BOC": {
@@ -9117,6 +9117,48 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-03T17:11+00:00"
+  },
+  "ADEA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T18:55+00:00"
+  },
+  "SIBN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T18:55+00:00"
+  },
+  "SI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T18:55+00:00"
+  },
+  "XIFR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T18:54+00:00"
+  },
+  "CTO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T18:33+00:00"
+  },
+  "CPNG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T18:32+00:00"
+  },
+  "BVS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-03T18:25+00:00"
   }
  }
 }

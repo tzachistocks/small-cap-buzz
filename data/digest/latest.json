@@ -1,31 +1,31 @@
 {
  "date": "2026-11-03",
- "generated_at": "2026-11-03T18:07+00:00",
+ "generated_at": "2026-11-03T19:07+00:00",
  "final": false,
  "runs": {
-  "count": 13,
+  "count": 14,
   "first": "2026-11-03T07:07+00:00",
-  "last": "2026-11-03T18:07+00:00",
+  "last": "2026-11-03T19:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 3547,
-   "mention_gate": 347,
-   "reddit_path": 4,
-   "telegram_path": 2,
-   "news_path": 7,
-   "skipped_large_cache": 538,
-   "shadow_gate": 264,
-   "to_check": 86,
-   "checked": 86,
+   "buzz_tickers": 3820,
+   "mention_gate": 363,
+   "reddit_path": 5,
+   "telegram_path": 3,
+   "news_path": 8,
+   "skipped_large_cache": 564,
+   "shadow_gate": 277,
+   "to_check": 92,
+   "checked": 92,
    "not_checked_time": 0,
    "blocked": {
-    "שווי": 20,
+    "שווי": 21,
     "דיווח": 3,
-    "אין": 4,
+    "אין": 5,
     "כבר": 1
    },
-   "below_score": 49,
+   "below_score": 52,
    "cooldown": 0,
-   "shadow_would_alert": 9,
+   "shadow_would_alert": 10,
    "sent": 0,
    "send_failed": 0
   },
@@ -33,7 +33,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 578
+   "messages": 581
   },
   "per_run": [
    {
@@ -123,6 +123,13 @@
    {
     "ts": "2026-11-03T18:07+00:00",
     "checked": 5,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 2
+   },
+   {
+    "ts": "2026-11-03T19:07+00:00",
+    "checked": 6,
     "sent": 0,
     "send_failed": 0,
     "errors_n": 2
@@ -345,8 +352,8 @@
    "news": null,
    "outcome": {
     "days": 4,
-    "last_close": 2.194999933242798,
-    "last_pct": -18.4,
+    "last_close": 2.305000066757202,
+    "last_pct": -14.3,
     "max_close_pct": -1.1,
     "max_high_pct": 5.6,
     "d1_pct": -1.1
@@ -376,8 +383,8 @@
    "news": null,
    "outcome": {
     "days": 4,
-    "last_close": 4.179999828338623,
-    "last_pct": -11.7,
+    "last_close": 4.125,
+    "last_pct": -12.9,
     "max_close_pct": -1.0,
     "max_high_pct": 3.5,
     "d1_pct": -1.0
@@ -408,8 +415,8 @@
    "news": "Stoneridge and Kodiak AI Announce Collaboration to Advance Autonomous Commercial Vehicles",
    "outcome": {
     "days": 4,
-    "last_close": 1.159999966621399,
-    "last_pct": -16.5,
+    "last_close": 1.149999976158142,
+    "last_pct": -17.3,
     "max_close_pct": -7.9,
     "max_high_pct": 2.9,
     "d1_pct": -7.9
@@ -437,8 +444,8 @@
    "news": "TEXAS COMMUNITY BANCSHARES, INC. AND THE BANC OF SAN JACINTO COUNTY BANCSHARES, INC., THE PARENT OF THE BANK OF SAN JACINTO COUNTY, COLDSPRING, TEXAS, ANNOUNCE MERGER AGREEMENT",
    "outcome": {
     "days": 4,
-    "last_close": 17.1825008392334,
-    "last_pct": -0.6,
+    "last_close": 17.25,
+    "last_pct": -0.2,
     "max_close_pct": 0.0,
     "max_high_pct": 0.0,
     "d1_pct": 0.0
@@ -466,8 +473,8 @@
    "news": null,
    "outcome": {
     "days": 3,
-    "last_close": 0.32499998807907104,
-    "last_pct": -20.8,
+    "last_close": 0.3215000033378601,
+    "last_pct": -21.6,
     "max_close_pct": -2.5,
     "max_high_pct": -0.0,
     "d1_pct": -4.2
@@ -499,9 +506,9 @@
    "news": "NRx Pharmaceuticals (Nasdaq: NRXP) to Host Conference Call on October 30, 2026 to Discuss Regulatory Milestone for Preservative-Free Ketamine",
    "outcome": {
     "days": 3,
-    "last_close": 2.1900999546051025,
-    "last_pct": -24.0,
-    "max_close_pct": -21.2,
+    "last_close": 2.305000066757202,
+    "last_pct": -20.0,
+    "max_close_pct": -20.0,
     "max_high_pct": -1.4,
     "d1_pct": -21.2
    }
@@ -534,9 +541,9 @@
    "news": "NRx Pharmaceuticals (Nasdaq:NRXP) Receives FDA Approval of Preservative-Free Ketamine Ahead of November 10 FDA Goal Date",
    "outcome": {
     "days": 3,
-    "last_close": 2.1900999546051025,
-    "last_pct": 2.8,
-    "max_close_pct": 6.6,
+    "last_close": 2.305000066757202,
+    "last_pct": 8.2,
+    "max_close_pct": 8.2,
     "max_high_pct": 33.3,
     "d1_pct": 6.6
    }
@@ -563,9 +570,9 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 5.940000057220459,
-    "last_pct": -2.9,
-    "max_close_pct": -1.8,
+    "last_close": 6.034999847412109,
+    "last_pct": -1.4,
+    "max_close_pct": -1.4,
     "max_high_pct": 2.3,
     "d1_pct": -1.8
    }
@@ -596,9 +603,9 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 2.194999933242798,
-    "last_pct": -5.8,
-    "max_close_pct": -5.8,
+    "last_close": 2.305000066757202,
+    "last_pct": -1.0,
+    "max_close_pct": -1.0,
     "max_high_pct": 4.8,
     "d1_pct": -6.8
    }
@@ -629,7 +636,7 @@
    "news": "Gamehaus Signs Definitive Agreement to Acquire Majority Stake in Anamana",
    "outcome": {
     "days": 2,
-    "last_close": 0.6136999726295471,
+    "last_close": 0.6136000156402588,
     "last_pct": 0.6,
     "max_close_pct": 13.4,
     "max_high_pct": 19.0,
@@ -697,7 +704,8 @@
     "st_msgs",
     "short",
     "low_float",
-    "borrow_fee"
+    "borrow_fee",
+    "spread"
    ],
    "alerted": false,
    "urgent": false
@@ -781,6 +789,27 @@
     "spread",
     "novel",
     "rvol"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-03T19:07+00:00",
+   "ticker": "RS",
+   "score": 5,
+   "max_score": 5,
+   "price": 447.975,
+   "move_pct": -0.02,
+   "cap_m": 22830.0,
+   "blocked": [
+    "שווי $22830M"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "spread",
+    "novel"
    ],
    "alerted": false,
    "urgent": false
@@ -4210,6 +4239,14 @@
     "first_utc": "2026-11-02T14:30+00:00",
     "sample": "r/pennystocks: INLF continuation tmmr"
    },
+   "GYGY": {
+    "m24_max": 6,
+    "authors24_max": 4,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-03T06:28+00:00"
+   },
    "NRXP": {
     "m24_max": 5,
     "authors24_max": 3,
@@ -4237,14 +4274,6 @@
     ],
     "first_utc": "2026-11-02T15:04+00:00",
     "sample": "r/pennystocks: 02 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-   },
-   "GYGY": {
-    "m24_max": 4,
-    "authors24_max": 3,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-03T06:28+00:00"
    },
    "JAGX": {
     "m24_max": 3,
@@ -4446,6 +4475,31 @@
     ],
     "first_utc": "2026-11-03T16:42+00:00"
    },
+   "BAER": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-03T17:37+00:00"
+   },
+   "MDXH": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-03T18:42+00:00",
+    "sample": "r/pennystocks: MDXH -who could buy MDx health,and at what price"
+   },
+   "BYND": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "subs": [
+     "Shortsqueeze"
+    ],
+    "first_utc": "2026-11-03T18:59+00:00"
+   },
    "AKA": {
     "m24_max": 1,
     "authors24_max": 1,
@@ -4481,33 +4535,6 @@
     ],
     "first_utc": "2026-11-02T15:23+00:00",
     "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
-   },
-   "TGEN": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-02T15:23+00:00",
-    "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
-   },
-   "LODE": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-02T15:23+00:00",
-    "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
-   },
-   "MPT": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-02T15:17+00:00",
-    "sample": "r/pennystocks: WHAT ARE THE MOST TRADED STOCKS YTD"
    }
   },
   "telegram_top": {
@@ -4518,20 +4545,20 @@
     "first_utc": "2026-11-03T03:32+00:00"
    },
    "SG": {
-    "m24_max": 20,
-    "authors24_max": 19,
+    "m24_max": 23,
+    "authors24_max": 22,
     "chats24_max": 2,
     "first_utc": "2026-11-02T20:37+00:00"
    },
    "HKD": {
-    "m24_max": 19,
-    "authors24_max": 18,
+    "m24_max": 22,
+    "authors24_max": 21,
     "chats24_max": 1,
     "first_utc": "2026-11-02T20:37+00:00"
    },
    "INR": {
-    "m24_max": 19,
-    "authors24_max": 18,
+    "m24_max": 22,
+    "authors24_max": 21,
     "chats24_max": 1,
     "first_utc": "2026-11-02T20:37+00:00"
    },
@@ -4565,6 +4592,12 @@
     "chats24_max": 1,
     "first_utc": "2026-11-02T22:30+00:00"
    },
+   "NYT": {
+    "m24_max": 5,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T12:48+00:00"
+   },
    "SAY": {
     "m24_max": 5,
     "authors24_max": 1,
@@ -4583,29 +4616,23 @@
     "chats24_max": 2,
     "first_utc": "2026-11-02T08:18+00:00"
    },
+   "TV": {
+    "m24_max": 4,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T13:37+00:00"
+   },
    "INO": {
     "m24_max": 4,
     "authors24_max": 2,
     "chats24_max": 2,
     "first_utc": "2026-11-02T14:14+00:00"
    },
-   "NYT": {
-    "m24_max": 4,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-03T12:48+00:00"
-   },
    "LNG": {
     "m24_max": 3,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-03T03:00+00:00"
-   },
-   "TV": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-02T13:37+00:00"
    },
    "TMUS": {
     "m24_max": 3,
@@ -4754,20 +4781,20 @@
   },
   "telegram_all": {
    "HKD": {
-    "m24_max": 19,
-    "authors24_max": 18,
+    "m24_max": 22,
+    "authors24_max": 21,
     "chats24_max": 1,
     "first_utc": "2026-11-02T20:37+00:00"
    },
    "SG": {
-    "m24_max": 20,
-    "authors24_max": 19,
+    "m24_max": 23,
+    "authors24_max": 22,
     "chats24_max": 2,
     "first_utc": "2026-11-02T20:37+00:00"
    },
    "INR": {
-    "m24_max": 19,
-    "authors24_max": 18,
+    "m24_max": 22,
+    "authors24_max": 21,
     "chats24_max": 1,
     "first_utc": "2026-11-02T20:37+00:00"
    },
@@ -4832,7 +4859,7 @@
     "first_utc": "2026-11-03T01:21+00:00"
    },
    "TV": {
-    "m24_max": 3,
+    "m24_max": 4,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T13:37+00:00"
@@ -6056,7 +6083,7 @@
     "first_utc": "2026-11-03T12:48+00:00"
    },
    "NYT": {
-    "m24_max": 4,
+    "m24_max": 5,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-03T12:48+00:00"
@@ -6230,9 +6257,9 @@
     "first_utc": "2026-11-03T14:14+00:00"
    },
    "MDGL": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
+    "m24_max": 2,
+    "authors24_max": 2,
+    "chats24_max": 2,
     "first_utc": "2026-11-03T14:14+00:00"
    },
    "BOC": {
@@ -6384,6 +6411,48 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-03T17:11+00:00"
+   },
+   "ADEA": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T18:55+00:00"
+   },
+   "SIBN": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T18:55+00:00"
+   },
+   "SI": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T18:55+00:00"
+   },
+   "XIFR": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T18:54+00:00"
+   },
+   "CTO": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T18:33+00:00"
+   },
+   "CPNG": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T18:32+00:00"
+   },
+   "BVS": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T18:25+00:00"
    }
   }
  },
@@ -6394,8 +6463,8 @@
   "credits": null
  },
  "errors_today": {
-  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/DS": 4,
-  "HTTP 404 https: //finviz.com/quote.ashx?t=DS&p=d": 4
+  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/DS": 5,
+  "HTTP 404 https: //finviz.com/quote.ashx?t=DS&p=d": 5
  },
  "closes_asof": null,
  "closes": {}

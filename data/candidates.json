@@ -4209,7 +4209,8 @@
    "st_msgs",
    "short",
    "low_float",
-   "borrow_fee"
+   "borrow_fee",
+   "spread"
   ],
   "alerted": false,
   "urgent": false,
@@ -4338,6 +4339,28 @@
    "authors",
    "telegram_weak",
    "short"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-03|RS": {
+  "ts": "2026-11-03T19:07+00:00",
+  "ticker": "RS",
+  "score": 5,
+  "max_score": 5,
+  "price": 447.975,
+  "move_pct": -0.02,
+  "cap_m": 22830.0,
+  "blocked": [
+   "שווי $22830M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "spread",
+   "novel"
   ],
   "alerted": false,
   "urgent": false,
