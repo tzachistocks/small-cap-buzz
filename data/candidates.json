@@ -4367,5 +4367,45 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-11-03|SU": {
+  "ts": "2026-11-03T22:07+00:00",
+  "ticker": "SU",
+  "score": 3,
+  "max_score": 3,
+  "price": 75.72,
+  "move_pct": 0.4,
+  "cap_m": 88250.0,
+  "blocked": [
+   "שווי $88250M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-03|CTM": {
+  "ts": "2026-11-03T22:07+00:00",
+  "ticker": "CTM",
+  "score": 3,
+  "max_score": 3,
+  "price": 0.4802,
+  "move_pct": 0.88,
+  "cap_m": 45.5,
+  "blocked": [],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "spread",
+   "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }
