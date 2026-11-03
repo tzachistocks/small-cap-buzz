@@ -5657,8 +5657,8 @@
    "sample": "r/pennystocks: INLF continuation tmmr"
   },
   "HTZ": {
-   "m24_max": 6,
-   "authors24_max": 5,
+   "m24_max": 21,
+   "authors24_max": 15,
    "subs": [
     "Shortsqueeze",
     "pennystocks"
@@ -5798,7 +5798,7 @@
   },
   "NOV": {
    "m24_max": 4,
-   "authors24_max": 3,
+   "authors24_max": 4,
    "subs": [
     "pennystocks"
    ],
@@ -6303,6 +6303,55 @@
     "Shortsqueeze"
    ],
    "first_utc": "2026-11-03T14:10+00:00"
+  },
+  "CVNA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-03T15:26+00:00",
+   "sample": "r/Shortsqueeze: $HTZ 135,000 Shares Locked and Loaded"
+  },
+  "CPWR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T16:01+00:00"
+  },
+  "PC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-03T15:58+00:00"
+  },
+  "HCTI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T15:53+00:00"
+  },
+  "BETR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T15:44+00:00"
+  },
+  "WVE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T15:13+00:00"
   }
  }
 }

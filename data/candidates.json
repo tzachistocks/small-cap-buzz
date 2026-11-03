@@ -4300,5 +4300,26 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-11-03|ANET": {
+  "ts": "2026-11-03T16:07+00:00",
+  "ticker": "ANET",
+  "score": 3,
+  "max_score": 3,
+  "price": 170.005,
+  "move_pct": 3.57,
+  "cap_m": 214390.0,
+  "blocked": [
+   "שווי $214390M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "spread",
+   "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }

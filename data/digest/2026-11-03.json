@@ -1,30 +1,30 @@
 {
  "date": "2026-11-03",
- "generated_at": "2026-11-03T15:07+00:00",
+ "generated_at": "2026-11-03T16:07+00:00",
  "final": false,
  "runs": {
-  "count": 10,
+  "count": 11,
   "first": "2026-11-03T07:07+00:00",
-  "last": "2026-11-03T15:07+00:00",
+  "last": "2026-11-03T16:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 2730,
-   "mention_gate": 297,
+   "buzz_tickers": 3005,
+   "mention_gate": 315,
    "reddit_path": 1,
    "telegram_path": 0,
-   "news_path": 4,
-   "skipped_large_cache": 433,
-   "shadow_gate": 199,
-   "to_check": 68,
-   "checked": 68,
+   "news_path": 5,
+   "skipped_large_cache": 470,
+   "shadow_gate": 223,
+   "to_check": 74,
+   "checked": 74,
    "not_checked_time": 0,
    "blocked": {
-    "שווי": 18,
+    "שווי": 19,
     "דיווח": 3,
-    "אין": 1
+    "אין": 2
    },
-   "below_score": 40,
+   "below_score": 43,
    "cooldown": 0,
-   "shadow_would_alert": 6,
+   "shadow_would_alert": 7,
    "sent": 0,
    "send_failed": 0
   },
@@ -32,7 +32,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 568
+   "messages": 577
   },
   "per_run": [
    {
@@ -101,6 +101,13 @@
    {
     "ts": "2026-11-03T15:07+00:00",
     "checked": 5,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 2
+   },
+   {
+    "ts": "2026-11-03T16:07+00:00",
+    "checked": 6,
     "sent": 0,
     "send_failed": 0,
     "errors_n": 2
@@ -323,8 +330,8 @@
    "news": null,
    "outcome": {
     "days": 4,
-    "last_close": 2.1308999061584473,
-    "last_pct": -20.8,
+    "last_close": 2.1449999809265137,
+    "last_pct": -20.3,
     "max_close_pct": -1.1,
     "max_high_pct": 5.6,
     "d1_pct": -1.1
@@ -354,8 +361,8 @@
    "news": null,
    "outcome": {
     "days": 4,
-    "last_close": 4.380000114440918,
-    "last_pct": -7.5,
+    "last_close": 4.175099849700928,
+    "last_pct": -11.8,
     "max_close_pct": -1.0,
     "max_high_pct": 3.5,
     "d1_pct": -1.0
@@ -386,8 +393,8 @@
    "news": "Stoneridge and Kodiak AI Announce Collaboration to Advance Autonomous Commercial Vehicles",
    "outcome": {
     "days": 4,
-    "last_close": 1.236899971961975,
-    "last_pct": -11.0,
+    "last_close": 1.190000057220459,
+    "last_pct": -14.4,
     "max_close_pct": -7.9,
     "max_high_pct": 2.9,
     "d1_pct": -7.9
@@ -444,8 +451,8 @@
    "news": null,
    "outcome": {
     "days": 3,
-    "last_close": 0.3601999878883362,
-    "last_pct": -12.2,
+    "last_close": 0.36500000953674316,
+    "last_pct": -11.0,
     "max_close_pct": -2.5,
     "max_high_pct": -0.0,
     "d1_pct": -4.2
@@ -477,8 +484,8 @@
    "news": "NRx Pharmaceuticals (Nasdaq: NRXP) to Host Conference Call on October 30, 2026 to Discuss Regulatory Milestone for Preservative-Free Ketamine",
    "outcome": {
     "days": 3,
-    "last_close": 2.1308999061584473,
-    "last_pct": -26.0,
+    "last_close": 2.1449999809265137,
+    "last_pct": -25.5,
     "max_close_pct": -21.2,
     "max_high_pct": -1.4,
     "d1_pct": -21.2
@@ -512,8 +519,8 @@
    "news": "NRx Pharmaceuticals (Nasdaq:NRXP) Receives FDA Approval of Preservative-Free Ketamine Ahead of November 10 FDA Goal Date",
    "outcome": {
     "days": 3,
-    "last_close": 2.1308999061584473,
-    "last_pct": 0.0,
+    "last_close": 2.1449999809265137,
+    "last_pct": 0.7,
     "max_close_pct": 6.6,
     "max_high_pct": 33.3,
     "d1_pct": 6.6
@@ -540,9 +547,9 @@
    ],
    "news": null,
    "outcome": {
-    "days": 1,
-    "last_close": 6.010000228881836,
-    "last_pct": -1.8,
+    "days": 2,
+    "last_close": 6.0,
+    "last_pct": -2.0,
     "max_close_pct": -1.8,
     "max_high_pct": 2.3,
     "d1_pct": -1.8
@@ -574,8 +581,8 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 2.1308999061584473,
-    "last_pct": -8.5,
+    "last_close": 2.1449999809265137,
+    "last_pct": -7.9,
     "max_close_pct": -6.8,
     "max_high_pct": 4.8,
     "d1_pct": -6.8
@@ -607,8 +614,8 @@
    "news": "Gamehaus Signs Definitive Agreement to Acquire Majority Stake in Anamana",
    "outcome": {
     "days": 2,
-    "last_close": 0.6078000068664551,
-    "last_pct": -0.4,
+    "last_close": 0.6225000023841858,
+    "last_pct": 2.0,
     "max_close_pct": 13.4,
     "max_high_pct": 19.0,
     "d1_pct": 13.4
@@ -861,6 +868,26 @@
     "st_msgs",
     "low_float",
     "pr_weak"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-03T16:07+00:00",
+   "ticker": "ANET",
+   "score": 3,
+   "max_score": 3,
+   "price": 170.005,
+   "move_pct": 3.57,
+   "cap_m": 214390.0,
+   "blocked": [
+    "שווי $214390M"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "spread",
+    "novel"
    ],
    "alerted": false,
    "urgent": false
@@ -4081,6 +4108,16 @@
  ],
  "social_today": {
   "reddit_top": {
+   "HTZ": {
+    "m24_max": 21,
+    "authors24_max": 15,
+    "subs": [
+     "Shortsqueeze",
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-02T18:49+00:00",
+    "sample": "r/Shortsqueeze: Added 4k more shares of $HTZ to my position."
+   },
    "INO": {
     "m24_max": 17,
     "authors24_max": 11,
@@ -4138,16 +4175,6 @@
     "first_utc": "2026-11-02T14:30+00:00",
     "sample": "r/pennystocks: INLF continuation tmmr"
    },
-   "HTZ": {
-    "m24_max": 6,
-    "authors24_max": 5,
-    "subs": [
-     "Shortsqueeze",
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-02T18:49+00:00",
-    "sample": "r/Shortsqueeze: Added 4k more shares of $HTZ to my position."
-   },
    "NRXP": {
     "m24_max": 5,
     "authors24_max": 3,
@@ -4169,7 +4196,7 @@
    },
    "NOV": {
     "m24_max": 4,
-    "authors24_max": 3,
+    "authors24_max": 4,
     "subs": [
      "pennystocks"
     ],
@@ -4455,20 +4482,20 @@
     "first_utc": "2026-11-03T03:32+00:00"
    },
    "HKD": {
-    "m24_max": 16,
-    "authors24_max": 16,
+    "m24_max": 19,
+    "authors24_max": 18,
     "chats24_max": 1,
     "first_utc": "2026-11-02T20:37+00:00"
    },
    "SG": {
-    "m24_max": 16,
-    "authors24_max": 16,
+    "m24_max": 19,
+    "authors24_max": 18,
     "chats24_max": 1,
     "first_utc": "2026-11-02T20:37+00:00"
    },
    "INR": {
-    "m24_max": 16,
-    "authors24_max": 16,
+    "m24_max": 19,
+    "authors24_max": 18,
     "chats24_max": 1,
     "first_utc": "2026-11-02T20:37+00:00"
    },
@@ -4604,11 +4631,23 @@
     "chats24_max": 1,
     "first_utc": "2026-11-02T07:43+00:00"
    },
+   "RYTM": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T01:53+00:00"
+   },
    "MQ": {
     "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-03T01:21+00:00"
+   },
+   "STT": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-02T21:33+00:00"
    },
    "NDAQ": {
     "m24_max": 2,
@@ -4675,36 +4714,24 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T14:42+00:00"
-   },
-   "FIVE": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-02T12:02+00:00"
-   },
-   "WH": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-02T13:20+00:00"
    }
   },
   "telegram_all": {
    "HKD": {
-    "m24_max": 16,
-    "authors24_max": 16,
+    "m24_max": 19,
+    "authors24_max": 18,
     "chats24_max": 1,
     "first_utc": "2026-11-02T20:37+00:00"
    },
    "SG": {
-    "m24_max": 16,
-    "authors24_max": 16,
+    "m24_max": 19,
+    "authors24_max": 18,
     "chats24_max": 1,
     "first_utc": "2026-11-02T20:37+00:00"
    },
    "INR": {
-    "m24_max": 16,
-    "authors24_max": 16,
+    "m24_max": 19,
+    "authors24_max": 18,
     "chats24_max": 1,
     "first_utc": "2026-11-02T20:37+00:00"
    },
@@ -4751,7 +4778,7 @@
     "first_utc": "2026-11-02T07:43+00:00"
    },
    "RYTM": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-03T01:53+00:00"
@@ -4841,7 +4868,7 @@
     "first_utc": "2026-11-02T21:35+00:00"
    },
    "STT": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-02T21:33+00:00"
@@ -5861,7 +5888,7 @@
     "first_utc": "2026-11-03T12:05+00:00"
    },
    "FCF": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-03T12:03+00:00"
@@ -6171,6 +6198,48 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-03T14:14+00:00"
+   },
+   "BOC": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T16:02+00:00"
+   },
+   "SLS": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T16:01+00:00"
+   },
+   "KMDA": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T15:39+00:00"
+   },
+   "IFRX": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T15:33+00:00"
+   },
+   "ACB": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T15:26+00:00"
+   },
+   "HLI": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T15:09+00:00"
+   },
+   "STVN": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T15:09+00:00"
    }
   }
  },
@@ -6181,8 +6250,8 @@
   "credits": null
  },
  "errors_today": {
-  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/DS": 1,
-  "HTTP 404 https: //finviz.com/quote.ashx?t=DS&p=d": 1
+  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/DS": 2,
+  "HTTP 404 https: //finviz.com/quote.ashx?t=DS&p=d": 2
  },
  "closes_asof": null,
  "closes": {}
