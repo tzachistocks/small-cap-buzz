@@ -6350,8 +6350,8 @@
    "first_utc": "2026-11-03T15:44+00:00"
   },
   "WVE": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],

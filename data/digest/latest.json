@@ -1,31 +1,31 @@
 {
  "date": "2026-11-03",
- "generated_at": "2026-11-03T22:07+00:00",
+ "generated_at": "2026-11-03T23:07+00:00",
  "final": true,
  "runs": {
-  "count": 17,
+  "count": 18,
   "first": "2026-11-03T07:07+00:00",
-  "last": "2026-11-03T22:07+00:00",
+  "last": "2026-11-03T23:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 4642,
-   "mention_gate": 394,
+   "buzz_tickers": 4919,
+   "mention_gate": 403,
    "reddit_path": 6,
    "telegram_path": 6,
-   "news_path": 14,
-   "skipped_large_cache": 629,
-   "shadow_gate": 315,
-   "to_check": 106,
-   "checked": 106,
+   "news_path": 17,
+   "skipped_large_cache": 651,
+   "shadow_gate": 329,
+   "to_check": 110,
+   "checked": 110,
    "not_checked_time": 0,
    "blocked": {
-    "שווי": 24,
+    "שווי": 26,
     "דיווח": 4,
     "אין": 5,
     "כבר": 1
    },
-   "below_score": 59,
+   "below_score": 60,
    "cooldown": 0,
-   "shadow_would_alert": 13,
+   "shadow_would_alert": 14,
    "sent": 0,
    "send_failed": 0
   },
@@ -33,7 +33,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 576
+   "messages": 580
   },
   "per_run": [
    {
@@ -151,6 +151,13 @@
    {
     "ts": "2026-11-03T22:07+00:00",
     "checked": 5,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 0
+   },
+   {
+    "ts": "2026-11-03T23:07+00:00",
+    "checked": 4,
     "sent": 0,
     "send_failed": 0,
     "errors_n": 0
@@ -667,6 +674,30 @@
  ],
  "candidates_today": [
   {
+   "ts": "2026-11-03T23:07+00:00",
+   "ticker": "DUOL",
+   "score": 7,
+   "max_score": 7,
+   "price": 142.14,
+   "move_pct": 5.08,
+   "cap_m": 5990.0,
+   "blocked": [
+    "שווי $5990M"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "novel",
+    "st_trend",
+    "low_float",
+    "rvol",
+    "xueqiu"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
    "ts": "2026-11-03T07:07+00:00",
    "ticker": "FN",
    "score": 6,
@@ -833,6 +864,28 @@
     "vel3h",
     "spread",
     "novel"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-03T23:07+00:00",
+   "ticker": "NVTS",
+   "score": 5,
+   "max_score": 5,
+   "price": 9.05,
+   "move_pct": 14.12,
+   "cap_m": 2230.0,
+   "blocked": [
+    "שווי $2230M"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "spread",
+    "novel",
+    "st_trend",
+    "short"
    ],
    "alerted": false,
    "urgent": false
@@ -4536,6 +4589,14 @@
     ],
     "first_utc": "2026-11-03T08:51+00:00"
    },
+   "WVE": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-03T15:13+00:00"
+   },
    "RS": {
     "m24_max": 2,
     "authors24_max": 2,
@@ -4587,15 +4648,6 @@
     ],
     "first_utc": "2026-11-03T03:43+00:00",
     "sample": "r/pennystocks: Three Clobbered Stocks With Potential Catalysts for a Rebound: BFRG, RCAT & SKYX"
-   },
-   "TE": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-02T15:23+00:00",
-    "sample": "r/pennystocks: IF YOU ARE TO DO LAZY TO DO THE HOMEWORK , DON'T WORRY LOOK AT THIS YEAR TO DATE WINNERS A"
    }
   },
   "telegram_top": {
@@ -6898,6 +6950,24 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-03T22:07+00:00"
+   },
+   "UNIT": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T22:31+00:00"
+   },
+   "PC": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T22:31+00:00"
+   },
+   "DEI": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T22:19+00:00"
    }
   }
  },
@@ -28339,6 +28409,68 @@
     "date": "2026-11-03",
     "close": 0.2344,
     "high": 0.2481
+   }
+  ],
+  "AVUV": [
+   {
+    "date": "2026-10-19",
+    "close": 119.68,
+    "high": 120.47
+   },
+   {
+    "date": "2026-10-20",
+    "close": 120.95,
+    "high": 121.29
+   },
+   {
+    "date": "2026-10-21",
+    "close": 120.92,
+    "high": 121.349
+   },
+   {
+    "date": "2026-10-22",
+    "close": 122.07,
+    "high": 122.13
+   },
+   {
+    "date": "2026-10-23",
+    "close": 122.06,
+    "high": 122.25
+   },
+   {
+    "date": "2026-10-26",
+    "close": 122.67,
+    "high": 123.57
+   },
+   {
+    "date": "2026-10-27",
+    "close": 122.94,
+    "high": 123.11
+   },
+   {
+    "date": "2026-10-28",
+    "close": 122.65,
+    "high": 123.28
+   },
+   {
+    "date": "2026-10-29",
+    "close": 124.26,
+    "high": 124.43
+   },
+   {
+    "date": "2026-10-30",
+    "close": 123.43,
+    "high": 124.36
+   },
+   {
+    "date": "2026-11-02",
+    "close": 123.97,
+    "high": 125.42
+   },
+   {
+    "date": "2026-11-03",
+    "close": 122.8,
+    "high": 124.13
    }
   ]
  }
