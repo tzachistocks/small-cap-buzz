@@ -4721,5 +4721,27 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-11-04|KMB": {
+  "ts": "2026-11-04T18:07+00:00",
+  "ticker": "KMB",
+  "score": 4,
+  "max_score": 4,
+  "price": 109.755,
+  "move_pct": 5.07,
+  "cap_m": 67350.0,
+  "blocked": [
+   "שווי $67350M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "spread",
+   "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }
