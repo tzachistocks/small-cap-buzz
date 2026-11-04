@@ -4787,5 +4787,27 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-11-04|TTD": {
+  "ts": "2026-11-04T23:07+00:00",
+  "ticker": "TTD",
+  "score": 4,
+  "max_score": 4,
+  "price": 13.2885,
+  "move_pct": 3.33,
+  "cap_m": 6260.0,
+  "blocked": [
+   "שווי $6260M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel",
+   "st_trend"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }

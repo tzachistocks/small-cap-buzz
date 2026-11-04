@@ -6511,7 +6511,7 @@
  "2026-11-04": {
   "HTZ": {
    "m24_max": 56,
-   "authors24_max": 29,
+   "authors24_max": 30,
    "subs": [
     "Shortsqueeze",
     "pennystocks",
@@ -7132,8 +7132,8 @@
    "first_utc": "2026-11-04T16:13+00:00"
   },
   "LUNR": {
-   "m24_max": 4,
-   "authors24_max": 2,
+   "m24_max": 6,
+   "authors24_max": 4,
    "subs": [
     "smallstreetbets"
    ],
@@ -7337,6 +7337,30 @@
     "smallstreetbets"
    ],
    "first_utc": "2026-11-04T21:12+00:00"
+  },
+  "SLS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T22:51+00:00"
+  },
+  "CHE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-04T22:48+00:00"
+  },
+  "BYND": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T22:14+00:00"
   }
  }
 }
