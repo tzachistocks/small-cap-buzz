@@ -6510,8 +6510,8 @@
  },
  "2026-11-04": {
   "HTZ": {
-   "m24_max": 6,
-   "authors24_max": 3,
+   "m24_max": 8,
+   "authors24_max": 7,
    "subs": [
     "Shortsqueeze"
    ],
@@ -6771,7 +6771,8 @@
    "m24_max": 3,
    "authors24_max": 2,
    "subs": [
-    "Shortsqueeze"
+    "Shortsqueeze",
+    "pennystocks"
    ],
    "first_utc": "2026-11-04T07:42+00:00"
   },
@@ -6939,6 +6940,78 @@
     "pennystocks"
    ],
    "first_utc": "2026-11-04T11:37+00:00"
+  },
+  "EHGO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T13:05+00:00"
+  },
+  "MERC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T13:05+00:00"
+  },
+  "CENN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T13:05+00:00"
+  },
+  "LBGJ": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T13:05+00:00"
+  },
+  "FTCI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T12:56+00:00"
+  },
+  "DKI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T12:37+00:00"
+  },
+  "CRIS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T12:27+00:00"
+  },
+  "IVVD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T12:20+00:00"
+  },
+  "AMC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:10+00:00"
   }
  }
 }

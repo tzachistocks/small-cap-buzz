@@ -1,26 +1,26 @@
 {
  "date": "2026-11-04",
- "generated_at": "2026-11-04T12:07+00:00",
+ "generated_at": "2026-11-04T13:07+00:00",
  "final": false,
  "runs": {
-  "count": 7,
+  "count": 8,
   "first": "2026-11-04T07:07+00:00",
-  "last": "2026-11-04T12:07+00:00",
+  "last": "2026-11-04T13:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 1964,
-   "mention_gate": 48,
+   "buzz_tickers": 2245,
+   "mention_gate": 55,
    "reddit_path": 0,
    "telegram_path": 0,
-   "news_path": 14,
-   "skipped_large_cache": 143,
-   "shadow_gate": 97,
-   "to_check": 16,
-   "checked": 16,
+   "news_path": 16,
+   "skipped_large_cache": 160,
+   "shadow_gate": 107,
+   "to_check": 18,
+   "checked": 18,
    "not_checked_time": 0,
    "blocked": {
-    "דיווח": 7,
+    "דיווח": 8,
     "שווי": 1,
-    "כבר": 7
+    "כבר": 8
    },
    "below_score": 0,
    "cooldown": 0,
@@ -32,7 +32,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 603
+   "messages": 609
   },
   "per_run": [
    {
@@ -79,6 +79,13 @@
    },
    {
     "ts": "2026-11-04T12:07+00:00",
+    "checked": 2,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 0
+   },
+   {
+    "ts": "2026-11-04T13:07+00:00",
     "checked": 2,
     "sent": 0,
     "send_failed": 0,
@@ -4341,8 +4348,8 @@
  "social_today": {
   "reddit_top": {
    "HTZ": {
-    "m24_max": 6,
-    "authors24_max": 3,
+    "m24_max": 8,
+    "authors24_max": 7,
     "subs": [
      "Shortsqueeze"
     ],
@@ -4371,7 +4378,8 @@
     "m24_max": 3,
     "authors24_max": 2,
     "subs": [
-     "Shortsqueeze"
+     "Shortsqueeze",
+     "pennystocks"
     ],
     "first_utc": "2026-11-04T07:42+00:00"
    },
@@ -4723,6 +4731,12 @@
     "chats24_max": 1,
     "first_utc": "2026-11-03T12:48+00:00"
    },
+   "GABC": {
+    "m24_max": 7,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T10:32+00:00"
+   },
    "NVO": {
     "m24_max": 7,
     "authors24_max": 1,
@@ -4741,12 +4755,6 @@
     "chats24_max": 1,
     "first_utc": "2026-11-03T13:21+00:00"
    },
-   "GABC": {
-    "m24_max": 6,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-03T10:32+00:00"
-   },
    "FOX": {
     "m24_max": 5,
     "authors24_max": 1,
@@ -4764,6 +4772,12 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-03T08:44+00:00"
+   },
+   "CVS": {
+    "m24_max": 4,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T23:20+00:00"
    },
    "PMI": {
     "m24_max": 3,
@@ -4830,12 +4844,6 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T00:20+00:00"
-   },
-   "CVS": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-03T23:20+00:00"
    },
    "AIG": {
     "m24_max": 2,
@@ -5074,7 +5082,7 @@
     "first_utc": "2026-11-04T00:04+00:00"
    },
    "CVS": {
-    "m24_max": 2,
+    "m24_max": 4,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-03T23:20+00:00"
@@ -5818,7 +5826,7 @@
     "first_utc": "2026-11-03T13:32+00:00"
    },
    "GABC": {
-    "m24_max": 6,
+    "m24_max": 7,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-03T10:32+00:00"
@@ -6340,7 +6348,7 @@
     "first_utc": "2026-11-04T11:03+00:00"
    },
    "KHC": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T12:06+00:00"
@@ -6352,7 +6360,7 @@
     "first_utc": "2026-11-04T12:03+00:00"
    },
    "JLL": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T12:03+00:00"
@@ -6428,6 +6436,66 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T11:26+00:00"
+   },
+   "JOBY": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T13:07+00:00"
+   },
+   "DHI": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T13:07+00:00"
+   },
+   "FICO": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T13:07+00:00"
+   },
+   "CMG": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T13:07+00:00"
+   },
+   "BTU": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T12:46+00:00"
+   },
+   "FIS": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T12:39+00:00"
+   },
+   "SIG": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T12:37+00:00"
+   },
+   "CDW": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T12:12+00:00"
+   },
+   "GFS": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T12:09+00:00"
+   },
+   "QBTS": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T12:08+00:00"
    }
   }
  },
