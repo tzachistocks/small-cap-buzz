@@ -1092,7 +1092,7 @@
   "telegram_sent": true,
   "outcome": {
    "days": 3,
-   "last_close": 0.289900004863739,
+   "last_close": 0.28999999165534973,
    "last_pct": -29.3,
    "max_close_pct": -2.5,
    "max_high_pct": -0.0,
@@ -1743,7 +1743,7 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 0.6067000031471252,
+   "last_close": 0.6069999933242798,
    "last_pct": -0.5,
    "max_close_pct": 13.4,
    "max_high_pct": 19.0,
