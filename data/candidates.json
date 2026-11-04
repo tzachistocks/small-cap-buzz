@@ -4767,5 +4767,25 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-11-04|DJT": {
+  "ts": "2026-11-04T22:07+00:00",
+  "ticker": "DJT",
+  "score": 4,
+  "max_score": 4,
+  "price": 4.59,
+  "move_pct": -22.86,
+  "cap_m": 1250.0,
+  "blocked": [
+   "שווי $1250M"
+  ],
+  "tags": [
+   "accel",
+   "rising",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }
