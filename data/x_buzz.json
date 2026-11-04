@@ -1,14 +1,15 @@
 {
  "month": "2026-11",
- "month_credits": 420,
+ "month_credits": 518,
  "exhausted": false,
- "day": "2026-11-03",
- "day_credits": 157,
+ "day": "2026-11-04",
+ "day_credits": 98,
  "done": [
   "2026-11-02T12",
   "2026-11-02T17",
   "2026-11-03T12",
-  "2026-11-03T17"
+  "2026-11-03T17",
+  "2026-11-04T12"
  ],
  "tickers": {
   "GMHS": {
@@ -32,7 +33,7 @@
    "posts6": 0,
    "authors": 0,
    "likes": 0,
-   "ts": "2026-11-03T17:07+00:00",
+   "ts": "2026-11-04T12:07+00:00",
    "full": true
   },
   "HQ": {
@@ -56,7 +57,7 @@
    "posts6": 0,
    "authors": 0,
    "likes": 0,
-   "ts": "2026-11-03T17:07+00:00",
+   "ts": "2026-11-04T12:07+00:00",
    "full": true
   },
   "SG": {
@@ -80,7 +81,7 @@
    "posts6": 0,
    "authors": 0,
    "likes": 0,
-   "ts": "2026-11-02T17:07+00:00",
+   "ts": "2026-11-04T12:07+00:00",
    "full": true
   },
   "ELAB": {
@@ -122,15 +123,50 @@
    "likes": 0,
    "ts": "2026-11-03T12:07+00:00",
    "full": true
+  },
+  "SUPN": {
+   "posts": 7,
+   "posts6": 3,
+   "authors": 7,
+   "likes": 0,
+   "ts": "2026-11-04T12:07+00:00",
+   "full": true
+  },
+  "MDGL": {
+   "posts": 8,
+   "posts6": 7,
+   "authors": 6,
+   "likes": 6,
+   "ts": "2026-11-04T12:07+00:00",
+   "full": true
+  },
+  "CAPR": {
+   "posts": 3,
+   "posts6": 3,
+   "authors": 3,
+   "likes": 0,
+   "ts": "2026-11-04T12:07+00:00",
+   "full": true
+  },
+  "IFRX": {
+   "posts": 10,
+   "posts6": 7,
+   "authors": 10,
+   "likes": 0,
+   "ts": "2026-11-04T12:07+00:00",
+   "full": true
   }
  },
  "discovery": {
-  "day": "2026-11-03",
+  "day": "2026-11-04",
   "tickers": {
-   "SHORT": 1,
-   "SEAL": 1,
-   "NEAR": 1
+   "GME": 2,
+   "HTZ": 2,
+   "ONDS": 1,
+   "POWL": 1,
+   "NBIS": 1,
+   "OPEN": 1
   }
  },
- "discovery_day": "2026-11-03"
+ "discovery_day": "2026-11-04"
 }

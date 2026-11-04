@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-04T11:07+00:00",
+ "ts": "2026-11-04T12:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
@@ -31,6 +31,20 @@
    "first_utc": "2026-11-03T15:40+00:00",
    "sample": "r/Shortsqueeze: INO -- INOVIO Receives FDA Accelerated Approval for VOCERYQ to Reduce Surgery Frequency in"
   },
+  "HTZ": {
+   "m6": 1,
+   "m24": 3,
+   "authors6": 1,
+   "authors24": 3,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-03T14:53+00:00",
+   "sample": "r/Shortsqueeze: $HTZ 135,000 Shares Locked and Loaded"
+  },
   "TE": {
    "m6": 3,
    "m24": 3,
@@ -58,18 +72,6 @@
    ],
    "first_utc": "2026-11-03T21:36+00:00",
    "sample": "r/smallstreetbets: $AMD has the AI narrative, now it needs to hold $520"
-  },
-  "HTZ": {
-   "m6": 0,
-   "m24": 2,
-   "authors6": 0,
-   "authors24": 2,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-03T14:53+00:00",
-   "sample": "r/Shortsqueeze: $HTZ 135,000 Shares Locked and Loaded"
   },
   "NOV": {
    "m6": 1,
@@ -127,6 +129,160 @@
    "first_utc": "2026-11-04T07:33+00:00",
    "sample": ""
   },
+  "RDDT": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "PMI": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "UBER": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "DDOG": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "PRCH": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "GXO": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "CCXI": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "ADP": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "QCOM": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "APP": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "MCD": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
   "PS": {
    "m6": 1,
    "m24": 1,
@@ -155,7 +311,7 @@
    "first_utc": "2026-11-04T07:31+00:00",
    "sample": "r/smallstreetbets: $AMD has the AI narrative, now it needs to hold $520"
   },
-  "TBI": {
+  "MS": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -167,7 +323,7 @@
    "first_utc": "2026-11-03T21:09+00:00",
    "sample": "r/pennystocks: NGEN at $1.30"
   },
-  "MS": {
+  "TBI": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -239,18 +395,6 @@
    "first_utc": "2026-11-03T16:23+00:00",
    "sample": "r/pennystocks: Why is nobody talking about Nightfood Holdings NGTFD?"
   },
-  "CAR": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-03T15:26+00:00",
-   "sample": "r/Shortsqueeze: $HTZ 135,000 Shares Locked and Loaded"
-  },
   "CVNA": {
    "m6": 0,
    "m24": 1,
@@ -263,19 +407,19 @@
    "first_utc": "2026-11-03T15:26+00:00",
    "sample": "r/Shortsqueeze: $HTZ 135,000 Shares Locked and Loaded"
   },
-  "JDZG": {
+  "CAR": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
    "authors24": 1,
    "subs6": [],
    "subs24": [
-    "pennystocks"
+    "Shortsqueeze"
    ],
-   "first_utc": "2026-11-03T14:56+00:00",
-   "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
+   "first_utc": "2026-11-03T15:26+00:00",
+   "sample": "r/Shortsqueeze: $HTZ 135,000 Shares Locked and Loaded"
   },
-  "HXHX": {
+  "VCIG": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -299,7 +443,31 @@
    "first_utc": "2026-11-03T14:56+00:00",
    "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
   },
+  "HXHX": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T14:56+00:00",
+   "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
+  },
   "SHFS": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T14:56+00:00",
+   "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
+  },
+  "JDZG": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -323,18 +491,6 @@
    "first_utc": "2026-11-03T14:56+00:00",
    "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
   },
-  "VCIG": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-03T14:56+00:00",
-   "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
-  },
   "BLGO": {
    "m6": 0,
    "m24": 1,
@@ -347,7 +503,7 @@
    "first_utc": "2026-11-03T14:47+00:00",
    "sample": "r/pennystocks: BioLargo Announces Launch of barebird.com"
   },
-  "PARA": {
+  "INLF": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -383,7 +539,7 @@
    "first_utc": "2026-11-03T14:29+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
-  "INLF": {
+  "PARA": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -394,6 +550,20 @@
    ],
    "first_utc": "2026-11-03T14:29+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "AIOK": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T11:37+00:00",
+   "sample": ""
   },
   "EONR": {
    "m6": 1,
