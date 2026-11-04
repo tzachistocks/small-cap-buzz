@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-04T10:07+00:00",
+ "ts": "2026-11-04T10:55+00:00",
  "reddit_ok": true,
  "stocktwits_trending": 30,
  "apewisdom_main": 300,
@@ -18,7 +18,7 @@
   "mode": "ok",
   "chats_ok": 14,
   "chats_failed": 0,
-  "messages": 599
+  "messages": 602
  },
  "x_weir": {
   "mode": "idle",
@@ -34,8 +34,8 @@
   "reddit_path": 0,
   "telegram_path": 0,
   "news_path": 2,
-  "skipped_large_cache": 20,
-  "shadow_gate": 14,
+  "skipped_large_cache": 19,
+  "shadow_gate": 13,
   "to_check": 2,
   "checked": 2,
   "not_checked_time": 0,

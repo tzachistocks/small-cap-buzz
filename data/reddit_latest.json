@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-04T10:07+00:00",
+ "ts": "2026-11-04T10:55+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
@@ -31,20 +31,6 @@
    "first_utc": "2026-11-03T15:40+00:00",
    "sample": "r/Shortsqueeze: INO -- INOVIO Receives FDA Accelerated Approval for VOCERYQ to Reduce Surgery Frequency in"
   },
-  "HTZ": {
-   "m6": 1,
-   "m24": 3,
-   "authors6": 1,
-   "authors24": 2,
-   "subs6": [
-    "Shortsqueeze"
-   ],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-03T14:53+00:00",
-   "sample": "r/Shortsqueeze: $HTZ 135,000 Shares Locked and Loaded"
-  },
   "TE": {
    "m6": 3,
    "m24": 3,
@@ -73,6 +59,18 @@
    "first_utc": "2026-11-03T21:36+00:00",
    "sample": "r/smallstreetbets: $AMD has the AI narrative, now it needs to hold $520"
   },
+  "HTZ": {
+   "m6": 0,
+   "m24": 2,
+   "authors6": 0,
+   "authors24": 2,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-03T14:53+00:00",
+   "sample": "r/Shortsqueeze: $HTZ 135,000 Shares Locked and Loaded"
+  },
   "NOV": {
    "m6": 1,
    "m24": 2,
@@ -86,62 +84,6 @@
    ],
    "first_utc": "2026-11-03T14:56+00:00",
    "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
-  },
-  "PARA": {
-   "m6": 1,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-03T14:29+00:00",
-   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
-  },
-  "HUBC": {
-   "m6": 1,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-03T14:29+00:00",
-   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
-  },
-  "INLF": {
-   "m6": 1,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-03T14:29+00:00",
-   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
-  },
-  "SGRX": {
-   "m6": 1,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-03T14:29+00:00",
-   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
   "NLST": {
    "m6": 2,
@@ -171,6 +113,20 @@
    "first_utc": "2026-11-04T07:33+00:00",
    "sample": ""
   },
+  "PS": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T10:28+00:00",
+   "sample": "r/pennystocks: Farewell Post: Ten Yolo Trade Challenge Results"
+  },
   "HBM": {
    "m6": 1,
    "m24": 1,
@@ -197,7 +153,7 @@
    "first_utc": "2026-11-03T21:09+00:00",
    "sample": "r/pennystocks: NGEN at $1.30"
   },
-  "MS": {
+  "TBI": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -209,7 +165,7 @@
    "first_utc": "2026-11-03T21:09+00:00",
    "sample": "r/pennystocks: NGEN at $1.30"
   },
-  "TBI": {
+  "MS": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -233,7 +189,7 @@
    "first_utc": "2026-11-03T18:42+00:00",
    "sample": "r/pennystocks: MDXH -who could buy MDx health,and at what price"
   },
-  "SG": {
+  "GRAB": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -245,7 +201,7 @@
    "first_utc": "2026-11-03T17:45+00:00",
    "sample": "r/smallstreetbets: $GRAB: bullish opinion from a Singaporean"
   },
-  "GRAB": {
+  "SG": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -305,7 +261,19 @@
    "first_utc": "2026-11-03T14:56+00:00",
    "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
   },
-  "SHFS": {
+  "JAGX": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T14:56+00:00",
+   "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
+  },
+  "JDZG": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -329,19 +297,7 @@
    "first_utc": "2026-11-03T14:56+00:00",
    "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
   },
-  "JAGX": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-03T14:56+00:00",
-   "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
-  },
-  "JDZG": {
+  "SHFS": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -376,6 +332,54 @@
    ],
    "first_utc": "2026-11-03T14:47+00:00",
    "sample": "r/pennystocks: BioLargo Announces Launch of barebird.com"
+  },
+  "INLF": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-03T14:29+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "PARA": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-03T14:29+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "SGRX": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-03T14:29+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "HUBC": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-03T14:29+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
   "EONR": {
    "m6": 1,
