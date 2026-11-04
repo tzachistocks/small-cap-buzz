@@ -4609,7 +4609,8 @@
    "relaxed_gate",
    "accel",
    "low_float",
-   "borrow_fee"
+   "borrow_fee",
+   "spread"
   ],
   "alerted": false,
   "urgent": false,
