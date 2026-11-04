@@ -1,11 +1,5 @@
 [
  {
-  "ticker": "TENX",
-  "title": "TENX INVESTOR ALERT: Tenax Therapeutics, Inc. Investors with Substantial Losses May Seek to Lead Class Action Lawsuit Before December 28, 2026 Deadline",
-  "src": "PR Newswire",
-  "ts": "2026-11-01T19:30+00:00"
- },
- {
   "ticker": "BORR",
   "title": "Borr Drilling Limited - Prospector 5 Rig Incident Update - November 2, 2026",
   "src": "PR Newswire",
@@ -886,5 +880,11 @@
   "title": "Fluence Energy, Inc. (FLNC) Investors: November 27, 2026, Filing Deadline in Securities Fraud Class Action - Contact Kessler Topaz Meltzer & Check, LLP",
   "src": "PR Newswire",
   "ts": "2026-11-04T17:34+00:00"
+ },
+ {
+  "ticker": "QUAD",
+  "title": "Rise named among top providers in 2026 independent media management services evaluation",
+  "src": "PR Newswire",
+  "ts": "2026-11-04T20:07+00:00"
  }
 ]

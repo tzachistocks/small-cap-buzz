@@ -1,28 +1,28 @@
 {
  "date": "2026-11-04",
- "generated_at": "2026-11-04T19:07+00:00",
+ "generated_at": "2026-11-04T20:07+00:00",
  "final": false,
  "runs": {
-  "count": 13,
+  "count": 14,
   "first": "2026-11-04T07:07+00:00",
-  "last": "2026-11-04T19:07+00:00",
+  "last": "2026-11-04T20:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 3661,
-   "mention_gate": 81,
+   "buzz_tickers": 3948,
+   "mention_gate": 87,
    "reddit_path": 1,
    "telegram_path": 0,
    "news_path": 18,
-   "skipped_large_cache": 238,
-   "shadow_gate": 163,
-   "to_check": 25,
-   "checked": 25,
+   "skipped_large_cache": 254,
+   "shadow_gate": 174,
+   "to_check": 26,
+   "checked": 26,
    "not_checked_time": 0,
    "blocked": {
     "דיווח": 10,
     "שווי": 4,
     "כבר": 8
    },
-   "below_score": 2,
+   "below_score": 3,
    "cooldown": 0,
    "shadow_would_alert": 1,
    "sent": 0,
@@ -32,7 +32,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 630
+   "messages": 629
   },
   "per_run": [
    {
@@ -121,6 +121,13 @@
    },
    {
     "ts": "2026-11-04T19:07+00:00",
+    "checked": 1,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 0
+   },
+   {
+    "ts": "2026-11-04T20:07+00:00",
     "checked": 1,
     "sent": 0,
     "send_failed": 0,
@@ -468,8 +475,8 @@
    "news": null,
    "outcome": {
     "days": 4,
-    "last_close": 0.3147999942302704,
-    "last_pct": -23.3,
+    "last_close": 0.3375000059604645,
+    "last_pct": -17.7,
     "max_close_pct": -2.5,
     "max_high_pct": -0.0,
     "d1_pct": -4.2
@@ -501,9 +508,9 @@
    "news": "NRx Pharmaceuticals (Nasdaq: NRXP) to Host Conference Call on October 30, 2026 to Discuss Regulatory Milestone for Preservative-Free Ketamine",
    "outcome": {
     "days": 4,
-    "last_close": 2.490000009536743,
-    "last_pct": -13.5,
-    "max_close_pct": -13.5,
+    "last_close": 2.4549999237060547,
+    "last_pct": -14.8,
+    "max_close_pct": -14.8,
     "max_high_pct": -1.4,
     "d1_pct": -21.2
    }
@@ -536,9 +543,9 @@
    "news": "NRx Pharmaceuticals (Nasdaq:NRXP) Receives FDA Approval of Preservative-Free Ketamine Ahead of November 10 FDA Goal Date",
    "outcome": {
     "days": 4,
-    "last_close": 2.490000009536743,
-    "last_pct": 16.9,
-    "max_close_pct": 16.9,
+    "last_close": 2.4549999237060547,
+    "last_pct": 15.3,
+    "max_close_pct": 15.3,
     "max_high_pct": 33.3,
     "d1_pct": 6.6
    }
@@ -565,9 +572,9 @@
    "news": null,
    "outcome": {
     "days": 3,
-    "last_close": 6.300000190734863,
-    "last_pct": 2.9,
-    "max_close_pct": 2.9,
+    "last_close": 6.210000038146973,
+    "last_pct": 1.5,
+    "max_close_pct": 1.5,
     "max_high_pct": 6.4,
     "d1_pct": -1.8
    }
@@ -598,9 +605,9 @@
    "news": null,
    "outcome": {
     "days": 3,
-    "last_close": 2.490000009536743,
-    "last_pct": 6.9,
-    "max_close_pct": 6.9,
+    "last_close": 2.4549999237060547,
+    "last_pct": 5.4,
+    "max_close_pct": 5.4,
     "max_high_pct": 7.8,
     "d1_pct": -6.8
    }
@@ -631,8 +638,8 @@
    "news": "Gamehaus Signs Definitive Agreement to Acquire Majority Stake in Anamana",
    "outcome": {
     "days": 3,
-    "last_close": 0.6100999712944031,
-    "last_pct": 0.0,
+    "last_close": 0.6119999885559082,
+    "last_pct": 0.3,
     "max_close_pct": 13.4,
     "max_high_pct": 19.0,
     "d1_pct": 13.4
@@ -4452,10 +4459,30 @@
     "authors24_max": 29,
     "subs": [
      "Shortsqueeze",
-     "pennystocks"
+     "pennystocks",
+     "smallstreetbets"
     ],
     "first_utc": "2026-11-03T14:53+00:00",
     "sample": "r/Shortsqueeze: $HTZ 135,000 Shares Locked and Loaded"
+   },
+   "CRIS": {
+    "m24_max": 4,
+    "authors24_max": 3,
+    "subs": [
+     "pennystocks",
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-11-04T12:27+00:00",
+    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+   },
+   "OPEN": {
+    "m24_max": 4,
+    "authors24_max": 3,
+    "subs": [
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-11-04T19:49+00:00",
+    "sample": "r/smallstreetbets: $Open Opendoor ! People keep saying OPEN is dead. A dead stock doesn’t just bounce 16% in "
    },
    "PEW": {
     "m24_max": 3,
@@ -4599,16 +4626,6 @@
      "smallstreetbets"
     ],
     "first_utc": "2026-11-04T12:37+00:00",
-    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
-   },
-   "CRIS": {
-    "m24_max": 2,
-    "authors24_max": 2,
-    "subs": [
-     "pennystocks",
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-11-04T12:27+00:00",
     "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
    },
    "AMC": {
@@ -4795,14 +4812,6 @@
      "smallstreetbets"
     ],
     "first_utc": "2026-11-04T07:55+00:00"
-   },
-   "WKHS": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "Shortsqueeze"
-    ],
-    "first_utc": "2026-11-04T07:45+00:00"
    }
   },
   "telegram_top": {
@@ -4825,7 +4834,7 @@
     "first_utc": "2026-11-03T08:44+00:00"
    },
    "FT": {
-    "m24_max": 9,
+    "m24_max": 10,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-03T12:50+00:00"
@@ -5091,7 +5100,7 @@
     "first_utc": "2026-11-03T14:33+00:00"
    },
    "FT": {
-    "m24_max": 9,
+    "m24_max": 10,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-03T12:50+00:00"
@@ -6567,7 +6576,7 @@
     "first_utc": "2026-11-04T13:07+00:00"
    },
    "BTU": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T12:46+00:00"
@@ -6765,7 +6774,7 @@
     "first_utc": "2026-11-04T15:27+00:00"
    },
    "LYFT": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T15:22+00:00"
@@ -6855,7 +6864,7 @@
     "first_utc": "2026-11-04T16:01+00:00"
    },
    "FSLR": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T16:44+00:00"
@@ -7051,6 +7060,150 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T18:18+00:00"
+   },
+   "CLOV": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T20:06+00:00"
+   },
+   "FLYW": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T20:02+00:00"
+   },
+   "DDOG": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T20:01+00:00"
+   },
+   "VFC": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T19:59+00:00"
+   },
+   "SIRI": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T19:57+00:00"
+   },
+   "OXY": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T19:56+00:00"
+   },
+   "NXT": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T19:54+00:00"
+   },
+   "DJT": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T19:35+00:00"
+   },
+   "WEYS": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T19:49+00:00"
+   },
+   "BDC": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T19:45+00:00"
+   },
+   "PSBD": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T19:45+00:00"
+   },
+   "KTOS": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T19:41+00:00"
+   },
+   "TLRY": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T19:27+00:00"
+   },
+   "LMRI": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T19:26+00:00"
+   },
+   "KMTS": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T19:24+00:00"
+   },
+   "GEO": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T19:24+00:00"
+   },
+   "GRX": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T19:21+00:00"
+   },
+   "SITE": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T19:19+00:00"
+   },
+   "SITC": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T19:19+00:00"
+   },
+   "MOS": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T19:17+00:00"
+   },
+   "LB": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T19:16+00:00"
+   },
+   "HELE": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T19:14+00:00"
+   },
+   "KURA": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T19:09+00:00"
+   },
+   "DAVI": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T19:54+00:00"
    }
   }
  },

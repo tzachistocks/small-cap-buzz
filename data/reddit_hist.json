@@ -6514,7 +6514,8 @@
    "authors24_max": 29,
    "subs": [
     "Shortsqueeze",
-    "pennystocks"
+    "pennystocks",
+    "smallstreetbets"
    ],
    "first_utc": "2026-11-03T14:53+00:00",
    "sample": "r/Shortsqueeze: $HTZ 135,000 Shares Locked and Loaded"
@@ -6997,8 +6998,8 @@
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
   "CRIS": {
-   "m24_max": 2,
-   "authors24_max": 2,
+   "m24_max": 4,
+   "authors24_max": 3,
    "subs": [
     "pennystocks",
     "smallstreetbets"
@@ -7170,6 +7171,71 @@
     "pennystocks"
    ],
    "first_utc": "2026-11-04T18:09+00:00"
+  },
+  "OPEN": {
+   "m24_max": 4,
+   "authors24_max": 3,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-04T19:49+00:00",
+   "sample": "r/smallstreetbets: $Open Opendoor ! People keep saying OPEN is dead. A dead stock doesn’t just bounce 16% in "
+  },
+  "ANNA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T20:00+00:00"
+  },
+  "PRME": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T19:24+00:00"
+  },
+  "EOSE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T19:24+00:00"
+  },
+  "SEGG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T19:22+00:00"
+  },
+  "GME": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T19:18+00:00"
+  },
+  "LINK": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-04T19:10+00:00"
+  },
+  "BBLG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T19:09+00:00"
   }
  }
 }

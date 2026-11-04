@@ -1,21 +1,52 @@
 {
- "ts": "2026-11-04T19:07+00:00",
+ "ts": "2026-11-04T20:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
   "HTZ": {
-   "m6": 56,
-   "m24": 56,
+   "m6": 41,
+   "m24": 41,
    "authors6": 29,
    "authors24": 29,
    "subs6": [
-    "Shortsqueeze"
+    "Shortsqueeze",
+    "smallstreetbets"
    ],
    "subs24": [
-    "Shortsqueeze"
+    "Shortsqueeze",
+    "smallstreetbets"
    ],
    "first_utc": "2026-11-04T17:25+00:00",
-   "sample": "r/Shortsqueeze: $HTZ - short squeeze incoming?? CTB 274%"
+   "sample": "r/smallstreetbets: HTZ, should I sell??"
+  },
+  "OPEN": {
+   "m6": 4,
+   "m24": 4,
+   "authors6": 3,
+   "authors24": 3,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-04T19:49+00:00",
+   "sample": "r/smallstreetbets: $Open Opendoor ! People keep saying OPEN is dead. A dead stock doesn’t just bounce 16% in "
+  },
+  "CRIS": {
+   "m6": 3,
+   "m24": 4,
+   "authors6": 2,
+   "authors24": 3,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-04T14:03+00:00",
+   "sample": "r/pennystocks: CRIS 5M mcap and actual growth potential"
   },
   "PC": {
    "m6": 0,
@@ -28,35 +59,6 @@
    ],
    "first_utc": "2026-11-03T21:36+00:00",
    "sample": "r/smallstreetbets: $AMD has the AI narrative, now it needs to hold $520"
-  },
-  "PEW": {
-   "m6": 1,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-04T02:13+00:00",
-   "sample": "r/pennystocks: PEW is going to run"
-  },
-  "MS": {
-   "m6": 1,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 2,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "pennystocks",
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-03T21:09+00:00",
-   "sample": "r/pennystocks: NGEN at $1.30"
   },
   "LUNR": {
    "m6": 1,
@@ -86,28 +88,24 @@
    "first_utc": "2026-11-04T18:03+00:00",
    "sample": "r/smallstreetbets: My Regarded DD for LUNR - (NASA Contracts, Earnings and RIP Sir Patrick Stewart)"
   },
-  "HPAI": {
-   "m6": 1,
+  "DOX": {
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
+   "subs6": [],
    "subs24": [
     "smallstreetbets"
    ],
    "first_utc": "2026-11-04T14:03+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
-  "DOX": {
-   "m6": 1,
+  "HPAI": {
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
+   "subs6": [],
    "subs24": [
     "smallstreetbets"
    ],
@@ -115,130 +113,18 @@
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
   "DKI": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-04T14:03+00:00",
-   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
-  },
-  "CRIS": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-04T14:03+00:00",
-   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
-  },
-  "QCOM": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
    "authors24": 1,
    "subs6": [],
    "subs24": [
-    "Shortsqueeze"
+    "smallstreetbets"
    ],
-   "first_utc": "2026-11-04T12:05+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
-  },
-  "RDDT": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T12:05+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+   "first_utc": "2026-11-04T14:03+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
   "PRCH": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T12:05+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
-  },
-  "PMI": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T12:05+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
-  },
-  "UBER": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T12:05+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
-  },
-  "APP": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T12:05+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
-  },
-  "DDOG": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T12:05+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
-  },
-  "MCD": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T12:05+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
-  },
-  "CCXI": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -262,7 +148,103 @@
    "first_utc": "2026-11-04T12:05+00:00",
    "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
   },
+  "RDDT": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
   "ADP": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "QCOM": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "MCD": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "PMI": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "APP": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "UBER": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "DDOG": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "CCXI": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -297,6 +279,18 @@
    ],
    "first_utc": "2026-11-04T07:31+00:00",
    "sample": "r/smallstreetbets: $AMD has the AI narrative, now it needs to hold $520"
+  },
+  "PEW": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T02:13+00:00",
+   "sample": "r/pennystocks: PEW is going to run"
   },
   "INO": {
    "m6": 0,
@@ -334,6 +328,116 @@
    "first_utc": "2026-11-03T21:09+00:00",
    "sample": "r/pennystocks: NGEN at $1.30"
   },
+  "MS": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T21:09+00:00",
+   "sample": "r/pennystocks: NGEN at $1.30"
+  },
+  "ANNA": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T20:00+00:00",
+   "sample": ""
+  },
+  "PRME": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T19:24+00:00",
+   "sample": ""
+  },
+  "EOSE": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T19:24+00:00",
+   "sample": ""
+  },
+  "SEGG": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T19:22+00:00",
+   "sample": ""
+  },
+  "GME": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T19:18+00:00",
+   "sample": ""
+  },
+  "LINK": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-04T19:10+00:00",
+   "sample": ""
+  },
+  "BBLG": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T19:09+00:00",
+   "sample": ""
+  },
   "GYGY": {
    "m6": 1,
    "m24": 1,
@@ -360,34 +464,6 @@
     "Shortsqueeze"
    ],
    "first_utc": "2026-11-04T18:24+00:00",
-   "sample": ""
-  },
-  "RZLV": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-04T18:16+00:00",
-   "sample": ""
-  },
-  "NEXR": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-04T18:09+00:00",
    "sample": ""
   }
  },
