@@ -1,28 +1,28 @@
 {
  "date": "2026-11-04",
- "generated_at": "2026-11-04T18:07+00:00",
+ "generated_at": "2026-11-04T19:07+00:00",
  "final": false,
  "runs": {
-  "count": 12,
+  "count": 13,
   "first": "2026-11-04T07:07+00:00",
-  "last": "2026-11-04T18:07+00:00",
+  "last": "2026-11-04T19:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 3376,
-   "mention_gate": 75,
+   "buzz_tickers": 3661,
+   "mention_gate": 81,
    "reddit_path": 1,
    "telegram_path": 0,
    "news_path": 18,
-   "skipped_large_cache": 221,
-   "shadow_gate": 151,
-   "to_check": 24,
-   "checked": 24,
+   "skipped_large_cache": 238,
+   "shadow_gate": 163,
+   "to_check": 25,
+   "checked": 25,
    "not_checked_time": 0,
    "blocked": {
     "דיווח": 10,
     "שווי": 4,
     "כבר": 8
    },
-   "below_score": 1,
+   "below_score": 2,
    "cooldown": 0,
    "shadow_would_alert": 1,
    "sent": 0,
@@ -32,7 +32,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 603
+   "messages": 630
   },
   "per_run": [
    {
@@ -115,6 +115,13 @@
    {
     "ts": "2026-11-04T18:07+00:00",
     "checked": 2,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 0
+   },
+   {
+    "ts": "2026-11-04T19:07+00:00",
+    "checked": 1,
     "sent": 0,
     "send_failed": 0,
     "errors_n": 0
@@ -461,8 +468,8 @@
    "news": null,
    "outcome": {
     "days": 4,
-    "last_close": 0.3174000084400177,
-    "last_pct": -22.6,
+    "last_close": 0.3147999942302704,
+    "last_pct": -23.3,
     "max_close_pct": -2.5,
     "max_high_pct": -0.0,
     "d1_pct": -4.2
@@ -494,9 +501,9 @@
    "news": "NRx Pharmaceuticals (Nasdaq: NRXP) to Host Conference Call on October 30, 2026 to Discuss Regulatory Milestone for Preservative-Free Ketamine",
    "outcome": {
     "days": 4,
-    "last_close": 2.460200071334839,
-    "last_pct": -14.6,
-    "max_close_pct": -14.6,
+    "last_close": 2.490000009536743,
+    "last_pct": -13.5,
+    "max_close_pct": -13.5,
     "max_high_pct": -1.4,
     "d1_pct": -21.2
    }
@@ -529,9 +536,9 @@
    "news": "NRx Pharmaceuticals (Nasdaq:NRXP) Receives FDA Approval of Preservative-Free Ketamine Ahead of November 10 FDA Goal Date",
    "outcome": {
     "days": 4,
-    "last_close": 2.460200071334839,
-    "last_pct": 15.5,
-    "max_close_pct": 15.5,
+    "last_close": 2.490000009536743,
+    "last_pct": 16.9,
+    "max_close_pct": 16.9,
     "max_high_pct": 33.3,
     "d1_pct": 6.6
    }
@@ -558,10 +565,10 @@
    "news": null,
    "outcome": {
     "days": 3,
-    "last_close": 6.309999942779541,
-    "last_pct": 3.1,
-    "max_close_pct": 3.1,
-    "max_high_pct": 3.1,
+    "last_close": 6.300000190734863,
+    "last_pct": 2.9,
+    "max_close_pct": 2.9,
+    "max_high_pct": 6.4,
     "d1_pct": -1.8
    }
   },
@@ -591,10 +598,10 @@
    "news": null,
    "outcome": {
     "days": 3,
-    "last_close": 2.460200071334839,
-    "last_pct": 5.6,
-    "max_close_pct": 5.6,
-    "max_high_pct": 6.0,
+    "last_close": 2.490000009536743,
+    "last_pct": 6.9,
+    "max_close_pct": 6.9,
+    "max_high_pct": 7.8,
     "d1_pct": -6.8
    }
   },
@@ -624,8 +631,8 @@
    "news": "Gamehaus Signs Definitive Agreement to Acquire Majority Stake in Anamana",
    "outcome": {
     "days": 3,
-    "last_close": 0.6200000047683716,
-    "last_pct": 1.6,
+    "last_close": 0.6100999712944031,
+    "last_pct": 0.0,
     "max_close_pct": 13.4,
     "max_high_pct": 19.0,
     "d1_pct": 13.4
@@ -4441,8 +4448,8 @@
  "social_today": {
   "reddit_top": {
    "HTZ": {
-    "m24_max": 29,
-    "authors24_max": 14,
+    "m24_max": 56,
+    "authors24_max": 29,
     "subs": [
      "Shortsqueeze",
      "pennystocks"
@@ -4853,6 +4860,12 @@
     "chats24_max": 1,
     "first_utc": "2026-11-03T13:21+00:00"
    },
+   "CVS": {
+    "m24_max": 6,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-03T23:20+00:00"
+   },
    "PMI": {
     "m24_max": 5,
     "authors24_max": 1,
@@ -4864,12 +4877,6 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-03T13:19+00:00"
-   },
-   "CVS": {
-    "m24_max": 5,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-03T23:20+00:00"
    },
    "SAY": {
     "m24_max": 5,
@@ -4997,6 +5004,12 @@
     "chats24_max": 1,
     "first_utc": "2026-11-04T00:20+00:00"
    },
+   "POST": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T01:24+00:00"
+   },
    "MMM": {
     "m24_max": 2,
     "authors24_max": 1,
@@ -5032,12 +5045,6 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-03T20:12+00:00"
-   },
-   "CBNA": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-03T20:56+00:00"
    }
   },
   "telegram_all": {
@@ -5156,7 +5163,7 @@
     "first_utc": "2026-11-04T01:32+00:00"
    },
    "POST": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T01:24+00:00"
@@ -5180,7 +5187,7 @@
     "first_utc": "2026-11-04T00:04+00:00"
    },
    "CVS": {
-    "m24_max": 5,
+    "m24_max": 6,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-03T23:20+00:00"
@@ -6806,7 +6813,7 @@
     "first_utc": "2026-11-04T14:38+00:00"
    },
    "FMX": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T14:35+00:00"
@@ -6972,6 +6979,78 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T17:12+00:00"
+   },
+   "GPRK": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T18:57+00:00"
+   },
+   "MCS": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T18:57+00:00"
+   },
+   "TTWO": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T18:54+00:00"
+   },
+   "ECG": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T18:51+00:00"
+   },
+   "OPRT": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T18:47+00:00"
+   },
+   "GCL": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T18:44+00:00"
+   },
+   "YOU": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T18:34+00:00"
+   },
+   "VRDN": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T18:32+00:00"
+   },
+   "COUR": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T18:23+00:00"
+   },
+   "QXO": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T18:23+00:00"
+   },
+   "TBLA": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T18:20+00:00"
+   },
+   "ANGI": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T18:18+00:00"
    }
   }
  },

@@ -1,20 +1,20 @@
 {
- "ts": "2026-11-04T18:07+00:00",
+ "ts": "2026-11-04T19:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
   "HTZ": {
-   "m6": 29,
-   "m24": 29,
-   "authors6": 14,
-   "authors24": 14,
+   "m6": 56,
+   "m24": 56,
+   "authors6": 29,
+   "authors24": 29,
    "subs6": [
     "Shortsqueeze"
    ],
    "subs24": [
     "Shortsqueeze"
    ],
-   "first_utc": "2026-11-04T16:54+00:00",
+   "first_utc": "2026-11-04T17:25+00:00",
    "sample": "r/Shortsqueeze: $HTZ - short squeeze incoming?? CTB 274%"
   },
   "PC": {
@@ -58,20 +58,6 @@
    "first_utc": "2026-11-03T21:09+00:00",
    "sample": "r/pennystocks: NGEN at $1.30"
   },
-  "CSIQ": {
-   "m6": 2,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "Shortsqueeze"
-   ],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T16:54+00:00",
-   "sample": ""
-  },
   "LUNR": {
    "m6": 1,
    "m24": 1,
@@ -100,20 +86,6 @@
    "first_utc": "2026-11-04T18:03+00:00",
    "sample": "r/smallstreetbets: My Regarded DD for LUNR - (NASA Contracts, Earnings and RIP Sir Patrick Stewart)"
   },
-  "DOX": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-04T14:03+00:00",
-   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
-  },
   "HPAI": {
    "m6": 1,
    "m24": 1,
@@ -128,7 +100,7 @@
    "first_utc": "2026-11-04T14:03+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
-  "CRIS": {
+  "DOX": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -156,7 +128,21 @@
    "first_utc": "2026-11-04T14:03+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
-  "GXO": {
+  "CRIS": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-04T14:03+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "QCOM": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -168,7 +154,7 @@
    "first_utc": "2026-11-04T12:05+00:00",
    "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
   },
-  "DDOG": {
+  "RDDT": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -192,7 +178,7 @@
    "first_utc": "2026-11-04T12:05+00:00",
    "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
   },
-  "ADP": {
+  "PMI": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -228,31 +214,19 @@
    "first_utc": "2026-11-04T12:05+00:00",
    "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
   },
+  "DDOG": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
   "MCD": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T12:05+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
-  },
-  "PMI": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T12:05+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
-  },
-  "RDDT": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -276,7 +250,19 @@
    "first_utc": "2026-11-04T12:05+00:00",
    "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
   },
-  "QCOM": {
+  "GXO": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "ADP": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -324,18 +310,6 @@
    "first_utc": "2026-11-04T01:23+00:00",
    "sample": "r/Shortsqueeze: INO -- INOVIO Receives FDA Accelerated Approval for VOCERYQ to Reduce Surgery Frequency in"
   },
-  "NGEN": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-03T21:09+00:00",
-   "sample": "r/pennystocks: NGEN at $1.30"
-  },
   "TBI": {
    "m6": 0,
    "m24": 1,
@@ -348,7 +322,7 @@
    "first_utc": "2026-11-03T21:09+00:00",
    "sample": "r/pennystocks: NGEN at $1.30"
   },
-  "MDXH": {
+  "NGEN": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -357,8 +331,36 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-03T18:42+00:00",
-   "sample": "r/pennystocks: MDXH -who could buy MDx health,and at what price"
+   "first_utc": "2026-11-03T21:09+00:00",
+   "sample": "r/pennystocks: NGEN at $1.30"
+  },
+  "GYGY": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T18:55+00:00",
+   "sample": ""
+  },
+  "AMC": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T18:24+00:00",
+   "sample": ""
   },
   "RZLV": {
    "m6": 1,
@@ -366,15 +368,15 @@
    "authors6": 1,
    "authors24": 1,
    "subs6": [
-    "Shortsqueeze"
+    "pennystocks"
    ],
    "subs24": [
-    "Shortsqueeze"
+    "pennystocks"
    ],
-   "first_utc": "2026-11-04T17:21+00:00",
+   "first_utc": "2026-11-04T18:16+00:00",
    "sample": ""
   },
-  "GVH": {
+  "NEXR": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -385,35 +387,7 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-04T17:14+00:00",
-   "sample": ""
-  },
-  "SSB": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-04T17:11+00:00",
-   "sample": ""
-  },
-  "FTCI": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-04T16:49+00:00",
+   "first_utc": "2026-11-04T18:09+00:00",
    "sample": ""
   }
  },

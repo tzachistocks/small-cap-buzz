@@ -6510,8 +6510,8 @@
  },
  "2026-11-04": {
   "HTZ": {
-   "m24_max": 29,
-   "authors24_max": 14,
+   "m24_max": 56,
+   "authors24_max": 29,
    "subs": [
     "Shortsqueeze",
     "pennystocks"
@@ -7162,6 +7162,14 @@
     "smallstreetbets"
    ],
    "first_utc": "2026-11-04T17:11+00:00"
+  },
+  "NEXR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T18:09+00:00"
   }
  }
 }
