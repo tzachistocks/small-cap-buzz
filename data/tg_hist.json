@@ -9589,13 +9589,13 @@
    "first_utc": "2026-11-04T07:05+00:00"
   },
   "SPOT": {
-   "m24_max": 1,
+   "m24_max": 3,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-04T06:04+00:00"
   },
   "OZ": {
-   "m24_max": 1,
+   "m24_max": 3,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-04T06:04+00:00"
@@ -9625,7 +9625,7 @@
    "first_utc": "2026-11-03T23:20+00:00"
   },
   "PMI": {
-   "m24_max": 3,
+   "m24_max": 5,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-04T05:01+00:00"
@@ -9739,7 +9739,7 @@
    "first_utc": "2026-11-03T22:07+00:00"
   },
   "GOOS": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-03T22:05+00:00"
@@ -9901,7 +9901,7 @@
    "first_utc": "2026-11-03T20:59+00:00"
   },
   "CLVT": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-03T20:59+00:00"
@@ -9979,7 +9979,7 @@
    "first_utc": "2026-11-03T20:41+00:00"
   },
   "TREE": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-03T20:41+00:00"
@@ -10057,13 +10057,13 @@
    "first_utc": "2026-11-03T19:58+00:00"
   },
   "RIOT": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-03T19:56+00:00"
   },
   "SEDG": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-03T19:50+00:00"
@@ -10813,9 +10813,9 @@
    "first_utc": "2026-11-03T14:14+00:00"
   },
   "NRIX": {
-   "m24_max": 2,
-   "authors24_max": 1,
-   "chats24_max": 1,
+   "m24_max": 3,
+   "authors24_max": 2,
+   "chats24_max": 2,
    "first_utc": "2026-11-03T22:07+00:00"
   },
   "NX": {
@@ -10897,7 +10897,7 @@
    "first_utc": "2026-11-03T17:11+00:00"
   },
   "NBND": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-03T17:02+00:00"
@@ -11005,7 +11005,7 @@
    "first_utc": "2026-11-04T12:01+00:00"
   },
   "UBER": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-04T11:58+00:00"
@@ -11137,7 +11137,7 @@
    "first_utc": "2026-11-04T14:01+00:00"
   },
   "IONQ": {
-   "m24_max": 1,
+   "m24_max": 3,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-04T13:51+00:00"
@@ -11203,9 +11203,9 @@
    "first_utc": "2026-11-04T14:07+00:00"
   },
   "STIM": {
-   "m24_max": 1,
-   "authors24_max": 1,
-   "chats24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
+   "chats24_max": 2,
    "first_utc": "2026-11-04T14:07+00:00"
   },
   "BRKR": {
@@ -11219,6 +11219,156 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-04T13:30+00:00"
+  },
+  "BLX": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T14:18+00:00"
+  },
+  "RTAC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T16:01+00:00"
+  },
+  "KLAC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T15:56+00:00"
+  },
+  "CRCT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T15:49+00:00"
+  },
+  "JD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T15:42+00:00"
+  },
+  "DUOL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T15:39+00:00"
+  },
+  "DOX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T15:39+00:00"
+  },
+  "GPOR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T15:36+00:00"
+  },
+  "ONDS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T15:28+00:00"
+  },
+  "BP": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T15:27+00:00"
+  },
+  "LYFT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T15:22+00:00"
+  },
+  "ARRY": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T15:14+00:00"
+  },
+  "CBOE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T15:10+00:00"
+  },
+  "SMRT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T14:54+00:00"
+  },
+  "MW": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T14:51+00:00"
+  },
+  "F": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T14:45+00:00"
+  },
+  "CMTG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T14:40+00:00"
+  },
+  "ALIT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T14:38+00:00"
+  },
+  "FMX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T14:35+00:00"
+  },
+  "AIR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T14:22+00:00"
+  },
+  "CAKE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T14:10+00:00"
+  },
+  "MFA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T14:08+00:00"
+  },
+  "PH": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T16:01+00:00"
+  },
+  "ABTS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T16:01+00:00"
+  },
+  "MC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-04T16:01+00:00"
   }
  }
 }

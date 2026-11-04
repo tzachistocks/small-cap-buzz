@@ -6677,7 +6677,8 @@
    "m24_max": 1,
    "authors24_max": 1,
    "subs": [
-    "Shortsqueeze"
+    "Shortsqueeze",
+    "pennystocks"
    ],
    "first_utc": "2026-11-03T15:26+00:00",
    "sample": "r/Shortsqueeze: $HTZ 135,000 Shares Locked and Loaded"
@@ -7061,6 +7062,54 @@
     "pennystocks"
    ],
    "first_utc": "2026-11-04T13:09+00:00"
+  },
+  "MRVL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-04T15:51+00:00"
+  },
+  "DUOT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T15:45+00:00"
+  },
+  "SWK": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-04T15:32+00:00"
+  },
+  "DEFT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T15:29+00:00"
+  },
+  "ADM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-04T15:28+00:00"
+  },
+  "CXAI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T15:12+00:00"
   }
  }
 }

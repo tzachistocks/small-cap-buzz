@@ -4679,5 +4679,26 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-11-04|CSCO": {
+  "ts": "2026-11-04T16:07+00:00",
+  "ticker": "CSCO",
+  "score": 3,
+  "max_score": 3,
+  "price": 102.78,
+  "move_pct": -0.18,
+  "cap_m": 404540.0,
+  "blocked": [
+   "שווי $404540M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "spread",
+   "rising"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }
