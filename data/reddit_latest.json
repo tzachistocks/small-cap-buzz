@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-04T10:55+00:00",
+ "ts": "2026-11-04T11:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
@@ -85,6 +85,20 @@
    "first_utc": "2026-11-03T14:56+00:00",
    "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
   },
+  "CYPH": {
+   "m6": 2,
+   "m24": 2,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T07:03+00:00",
+   "sample": ""
+  },
   "NLST": {
    "m6": 2,
    "m24": 2,
@@ -141,18 +155,6 @@
    "first_utc": "2026-11-04T07:31+00:00",
    "sample": "r/smallstreetbets: $AMD has the AI narrative, now it needs to hold $520"
   },
-  "NGEN": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-03T21:09+00:00",
-   "sample": "r/pennystocks: NGEN at $1.30"
-  },
   "TBI": {
    "m6": 0,
    "m24": 1,
@@ -166,6 +168,18 @@
    "sample": "r/pennystocks: NGEN at $1.30"
   },
   "MS": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T21:09+00:00",
+   "sample": "r/pennystocks: NGEN at $1.30"
+  },
+  "NGEN": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -225,6 +239,18 @@
    "first_utc": "2026-11-03T16:23+00:00",
    "sample": "r/pennystocks: Why is nobody talking about Nightfood Holdings NGTFD?"
   },
+  "CAR": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-03T15:26+00:00",
+   "sample": "r/Shortsqueeze: $HTZ 135,000 Shares Locked and Loaded"
+  },
   "CVNA": {
    "m6": 0,
    "m24": 1,
@@ -237,17 +263,17 @@
    "first_utc": "2026-11-03T15:26+00:00",
    "sample": "r/Shortsqueeze: $HTZ 135,000 Shares Locked and Loaded"
   },
-  "CAR": {
+  "JDZG": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
    "authors24": 1,
    "subs6": [],
    "subs24": [
-    "Shortsqueeze"
+    "pennystocks"
    ],
-   "first_utc": "2026-11-03T15:26+00:00",
-   "sample": "r/Shortsqueeze: $HTZ 135,000 Shares Locked and Loaded"
+   "first_utc": "2026-11-03T14:56+00:00",
+   "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
   },
   "HXHX": {
    "m6": 0,
@@ -262,30 +288,6 @@
    "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
   },
   "JAGX": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-03T14:56+00:00",
-   "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
-  },
-  "JDZG": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-03T14:56+00:00",
-   "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
-  },
-  "VCIG": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -321,6 +323,18 @@
    "first_utc": "2026-11-03T14:56+00:00",
    "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
   },
+  "VCIG": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T14:56+00:00",
+   "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
+  },
   "BLGO": {
    "m6": 0,
    "m24": 1,
@@ -332,18 +346,6 @@
    ],
    "first_utc": "2026-11-03T14:47+00:00",
    "sample": "r/pennystocks: BioLargo Announces Launch of barebird.com"
-  },
-  "INLF": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-03T14:29+00:00",
-   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
   "PARA": {
    "m6": 0,
@@ -370,6 +372,18 @@
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
   "HUBC": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-03T14:29+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "INLF": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -421,20 +435,6 @@
     "Shortsqueeze"
    ],
    "first_utc": "2026-11-04T07:45+00:00",
-   "sample": ""
-  },
-  "CYPH": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-04T07:03+00:00",
    "sample": ""
   }
  },

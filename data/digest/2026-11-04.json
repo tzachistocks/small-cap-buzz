@@ -1,26 +1,26 @@
 {
  "date": "2026-11-04",
- "generated_at": "2026-11-04T10:55+00:00",
+ "generated_at": "2026-11-04T11:07+00:00",
  "final": false,
  "runs": {
-  "count": 5,
+  "count": 6,
   "first": "2026-11-04T07:07+00:00",
-  "last": "2026-11-04T10:55+00:00",
+  "last": "2026-11-04T11:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 1403,
-   "mention_gate": 34,
+   "buzz_tickers": 1684,
+   "mention_gate": 41,
    "reddit_path": 0,
    "telegram_path": 0,
-   "news_path": 10,
-   "skipped_large_cache": 106,
-   "shadow_gate": 74,
-   "to_check": 12,
-   "checked": 12,
+   "news_path": 12,
+   "skipped_large_cache": 125,
+   "shadow_gate": 86,
+   "to_check": 14,
+   "checked": 14,
    "not_checked_time": 0,
    "blocked": {
-    "דיווח": 5,
+    "דיווח": 6,
     "שווי": 1,
-    "כבר": 5
+    "כבר": 6
    },
    "below_score": 0,
    "cooldown": 0,
@@ -32,7 +32,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 602
+   "messages": 605
   },
   "per_run": [
    {
@@ -65,6 +65,13 @@
    },
    {
     "ts": "2026-11-04T10:55+00:00",
+    "checked": 2,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 0
+   },
+   {
+    "ts": "2026-11-04T11:07+00:00",
     "checked": 2,
     "sent": 0,
     "send_failed": 0,
@@ -6285,6 +6292,18 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T10:33+00:00"
+   },
+   "VET": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T11:03+00:00"
+   },
+   "ENB": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T11:03+00:00"
    }
   }
  },
