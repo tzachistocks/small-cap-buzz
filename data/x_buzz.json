@@ -1,15 +1,16 @@
 {
  "month": "2026-11",
- "month_credits": 518,
+ "month_credits": 573,
  "exhausted": false,
  "day": "2026-11-04",
- "day_credits": 98,
+ "day_credits": 153,
  "done": [
   "2026-11-02T12",
   "2026-11-02T17",
   "2026-11-03T12",
   "2026-11-03T17",
-  "2026-11-04T12"
+  "2026-11-04T12",
+  "2026-11-04T17"
  ],
  "tickers": {
   "GMHS": {
@@ -33,7 +34,7 @@
    "posts6": 0,
    "authors": 0,
    "likes": 0,
-   "ts": "2026-11-04T12:07+00:00",
+   "ts": "2026-11-04T17:07+00:00",
    "full": true
   },
   "HQ": {
@@ -57,7 +58,7 @@
    "posts6": 0,
    "authors": 0,
    "likes": 0,
-   "ts": "2026-11-04T12:07+00:00",
+   "ts": "2026-11-04T17:07+00:00",
    "full": true
   },
   "SG": {
@@ -133,11 +134,11 @@
    "full": true
   },
   "MDGL": {
-   "posts": 8,
-   "posts6": 7,
-   "authors": 6,
-   "likes": 6,
-   "ts": "2026-11-04T12:07+00:00",
+   "posts": 9,
+   "posts6": 9,
+   "authors": 9,
+   "likes": 38,
+   "ts": "2026-11-04T17:07+00:00",
    "full": true
   },
   "CAPR": {
@@ -154,6 +155,22 @@
    "authors": 10,
    "likes": 0,
    "ts": "2026-11-04T12:07+00:00",
+   "full": true
+  },
+  "NRIX": {
+   "posts": 8,
+   "posts6": 8,
+   "authors": 7,
+   "likes": 5,
+   "ts": "2026-11-04T17:07+00:00",
+   "full": true
+  },
+  "STIM": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-04T17:07+00:00",
    "full": true
   }
  },

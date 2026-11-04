@@ -4700,5 +4700,26 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-11-04|MPLX": {
+  "ts": "2026-11-04T17:07+00:00",
+  "ticker": "MPLX",
+  "score": 3,
+  "max_score": 3,
+  "price": 55.96,
+  "move_pct": -2.68,
+  "cap_m": 56740.0,
+  "blocked": [
+   "שווי $56740M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }

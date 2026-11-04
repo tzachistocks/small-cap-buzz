@@ -6611,8 +6611,8 @@
    "sample": "r/pennystocks: NGEN at $1.30"
   },
   "NGEN": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],
@@ -6978,8 +6978,8 @@
    "first_utc": "2026-11-04T13:05+00:00"
   },
   "FTCI": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 3,
+   "authors24_max": 3,
    "subs": [
     "pennystocks"
    ],
@@ -7110,6 +7110,22 @@
     "pennystocks"
    ],
    "first_utc": "2026-11-04T15:12+00:00"
+  },
+  "CSIQ": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T16:54+00:00"
+  },
+  "MF": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T16:13+00:00"
   }
  }
 }
