@@ -4366,7 +4366,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-04",
+   "days": 1,
+   "last_pct": 5.4,
+   "max_close_pct": 5.4,
+   "max_high_pct": 6.3
+  }
  },
  "2026-11-03|BEAT": {
   "ts": "2026-11-03T15:07+00:00",
@@ -4386,7 +4392,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-04",
+   "days": 1,
+   "last_pct": -4.1,
+   "max_close_pct": -4.1,
+   "max_high_pct": 6.2
+  }
  },
  "2026-11-03|ANET": {
   "ts": "2026-11-03T16:07+00:00",
@@ -4407,7 +4419,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-04",
+   "days": 1,
+   "last_pct": -0.1,
+   "max_close_pct": -0.1,
+   "max_high_pct": 1.1
+  }
  },
  "2026-11-03|INO": {
   "ts": "2026-11-03T17:07+00:00",
@@ -4428,7 +4446,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-04",
+   "days": 1,
+   "last_pct": -10.5,
+   "max_close_pct": -10.5,
+   "max_high_pct": 10.0
+  }
  },
  "2026-11-03|RS": {
   "ts": "2026-11-03T19:07+00:00",
@@ -4450,7 +4474,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-04",
+   "days": 1,
+   "last_pct": -0.9,
+   "max_close_pct": -0.9,
+   "max_high_pct": 0.6
+  }
  },
  "2026-11-03|SU": {
   "ts": "2026-11-03T22:07+00:00",
@@ -4471,7 +4501,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-04",
+   "days": 1,
+   "last_pct": -0.4,
+   "max_close_pct": -0.4,
+   "max_high_pct": 0.4
+  }
  },
  "2026-11-03|CTM": {
   "ts": "2026-11-03T22:07+00:00",
@@ -4490,7 +4526,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-04",
+   "days": 1,
+   "last_pct": -0.0,
+   "max_close_pct": -0.0,
+   "max_high_pct": 3.3
+  }
  },
  "2026-11-03|DUOL": {
   "ts": "2026-11-03T23:07+00:00",
@@ -4515,7 +4557,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-04",
+   "days": 1,
+   "last_pct": -9.9,
+   "max_close_pct": -9.9,
+   "max_high_pct": -4.5
+  }
  },
  "2026-11-03|NVTS": {
   "ts": "2026-11-03T23:07+00:00",
@@ -4538,7 +4586,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-04",
+   "days": 1,
+   "last_pct": -5.4,
+   "max_close_pct": -5.4,
+   "max_high_pct": -1.2
+  }
  },
  "2026-11-04|GYGY": {
   "ts": "2026-11-04T07:07+00:00",
@@ -4607,7 +4661,7 @@
   "ts": "2026-11-04T07:07+00:00",
   "ticker": "INO",
   "score": 3,
-  "max_score": 3,
+  "max_score": 4,
   "price": 1.6501,
   "move_pct": -12.69,
   "cap_m": 171.64,
@@ -4618,7 +4672,8 @@
    "relaxed_gate",
    "spread",
    "short",
-   "rvol"
+   "rvol",
+   "xueqiu"
   ],
   "alerted": false,
   "urgent": false,

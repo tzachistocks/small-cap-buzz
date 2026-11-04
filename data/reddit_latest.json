@@ -1,21 +1,21 @@
 {
- "ts": "2026-11-04T09:07+00:00",
+ "ts": "2026-11-04T10:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
-  "HTZ": {
+  "PEW": {
    "m6": 2,
-   "m24": 4,
-   "authors6": 1,
+   "m24": 3,
+   "authors6": 2,
    "authors24": 2,
    "subs6": [
-    "Shortsqueeze"
+    "pennystocks"
    ],
    "subs24": [
-    "Shortsqueeze"
+    "pennystocks"
    ],
-   "first_utc": "2026-11-03T14:53+00:00",
-   "sample": "r/Shortsqueeze: $HTZ 135,000 Shares Locked and Loaded"
+   "first_utc": "2026-11-04T02:13+00:00",
+   "sample": "r/pennystocks: PEW is going to run"
   },
   "INO": {
    "m6": 1,
@@ -30,6 +30,20 @@
    ],
    "first_utc": "2026-11-03T15:40+00:00",
    "sample": "r/Shortsqueeze: INO -- INOVIO Receives FDA Accelerated Approval for VOCERYQ to Reduce Surgery Frequency in"
+  },
+  "HTZ": {
+   "m6": 1,
+   "m24": 3,
+   "authors6": 1,
+   "authors24": 2,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-03T14:53+00:00",
+   "sample": "r/Shortsqueeze: $HTZ 135,000 Shares Locked and Loaded"
   },
   "TE": {
    "m6": 3,
@@ -59,20 +73,6 @@
    "first_utc": "2026-11-03T21:36+00:00",
    "sample": "r/smallstreetbets: $AMD has the AI narrative, now it needs to hold $520"
   },
-  "PEW": {
-   "m6": 1,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-04T02:13+00:00",
-   "sample": "r/pennystocks: PEW is going to run"
-  },
   "NOV": {
    "m6": 1,
    "m24": 2,
@@ -87,7 +87,7 @@
    "first_utc": "2026-11-03T14:56+00:00",
    "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
   },
-  "INLF": {
+  "PARA": {
    "m6": 1,
    "m24": 2,
    "authors6": 1,
@@ -115,7 +115,7 @@
    "first_utc": "2026-11-03T14:29+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
-  "PARA": {
+  "INLF": {
    "m6": 1,
    "m24": 2,
    "authors6": 1,
@@ -185,7 +185,7 @@
    "first_utc": "2026-11-04T07:31+00:00",
    "sample": "r/smallstreetbets: $AMD has the AI narrative, now it needs to hold $520"
   },
-  "MS": {
+  "NGEN": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -197,7 +197,7 @@
    "first_utc": "2026-11-03T21:09+00:00",
    "sample": "r/pennystocks: NGEN at $1.30"
   },
-  "NGEN": {
+  "MS": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -269,18 +269,6 @@
    "first_utc": "2026-11-03T16:23+00:00",
    "sample": "r/pennystocks: Why is nobody talking about Nightfood Holdings NGTFD?"
   },
-  "CAR": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-03T15:26+00:00",
-   "sample": "r/Shortsqueeze: $HTZ 135,000 Shares Locked and Loaded"
-  },
   "CVNA": {
    "m6": 0,
    "m24": 1,
@@ -293,19 +281,19 @@
    "first_utc": "2026-11-03T15:26+00:00",
    "sample": "r/Shortsqueeze: $HTZ 135,000 Shares Locked and Loaded"
   },
-  "VCIG": {
+  "CAR": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
    "authors24": 1,
    "subs6": [],
    "subs24": [
-    "pennystocks"
+    "Shortsqueeze"
    ],
-   "first_utc": "2026-11-03T14:56+00:00",
-   "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
+   "first_utc": "2026-11-03T15:26+00:00",
+   "sample": "r/Shortsqueeze: $HTZ 135,000 Shares Locked and Loaded"
   },
-  "JAGX": {
+  "HXHX": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -329,7 +317,19 @@
    "first_utc": "2026-11-03T14:56+00:00",
    "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
   },
-  "HXHX": {
+  "VCIG": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-03T14:56+00:00",
+   "sample": "r/pennystocks: 03 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
+  },
+  "JAGX": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
