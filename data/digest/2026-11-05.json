@@ -1,29 +1,29 @@
 {
  "date": "2026-11-05",
- "generated_at": "2026-11-05T14:07+00:00",
+ "generated_at": "2026-11-05T15:07+00:00",
  "final": false,
  "runs": {
-  "count": 9,
+  "count": 10,
   "first": "2026-11-05T07:07+00:00",
-  "last": "2026-11-05T14:07+00:00",
+  "last": "2026-11-05T15:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 2539,
-   "mention_gate": 342,
+   "buzz_tickers": 2815,
+   "mention_gate": 393,
    "reddit_path": 1,
-   "telegram_path": 1,
-   "news_path": 2,
-   "skipped_large_cache": 534,
-   "shadow_gate": 217,
-   "to_check": 29,
-   "checked": 29,
+   "telegram_path": 2,
+   "news_path": 3,
+   "skipped_large_cache": 611,
+   "shadow_gate": 251,
+   "to_check": 39,
+   "checked": 39,
    "not_checked_time": 0,
    "blocked": {
-    "כבר": 36,
-    "שווי": 6
+    "כבר": 38,
+    "שווי": 10
    },
-   "below_score": 3,
+   "below_score": 6,
    "cooldown": 0,
-   "shadow_would_alert": 2,
+   "shadow_would_alert": 3,
    "sent": 0,
    "send_failed": 0
   },
@@ -31,7 +31,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 493
+   "messages": 494
   },
   "per_run": [
    {
@@ -93,6 +93,13 @@
    {
     "ts": "2026-11-05T14:07+00:00",
     "checked": 4,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 0
+   },
+   {
+    "ts": "2026-11-05T15:07+00:00",
+    "checked": 10,
     "sent": 0,
     "send_failed": 0,
     "errors_n": 0
@@ -439,12 +446,13 @@
    ],
    "news": null,
    "outcome": {
-    "days": 4,
-    "last_close": 0.33799999952316284,
-    "last_pct": -17.6,
+    "days": 5,
+    "last_close": 0.29989999532699585,
+    "last_pct": -26.9,
     "max_close_pct": -2.5,
     "max_high_pct": -0.0,
-    "d1_pct": -4.2
+    "d1_pct": -4.2,
+    "final": true
    }
   },
   {
@@ -472,12 +480,13 @@
    ],
    "news": "NRx Pharmaceuticals (Nasdaq: NRXP) to Host Conference Call on October 30, 2026 to Discuss Regulatory Milestone for Preservative-Free Ketamine",
    "outcome": {
-    "days": 4,
-    "last_close": 2.490000009536743,
-    "last_pct": -13.5,
+    "days": 5,
+    "last_close": 2.3199000358581543,
+    "last_pct": -19.4,
     "max_close_pct": -13.5,
     "max_high_pct": -1.4,
-    "d1_pct": -21.2
+    "d1_pct": -21.2,
+    "final": true
    }
   },
   {
@@ -507,12 +516,13 @@
    ],
    "news": "NRx Pharmaceuticals (Nasdaq:NRXP) Receives FDA Approval of Preservative-Free Ketamine Ahead of November 10 FDA Goal Date",
    "outcome": {
-    "days": 4,
-    "last_close": 2.490000009536743,
-    "last_pct": 16.9,
+    "days": 5,
+    "last_close": 2.3199000358581543,
+    "last_pct": 8.9,
     "max_close_pct": 16.9,
     "max_high_pct": 33.3,
-    "d1_pct": 6.6
+    "d1_pct": 6.6,
+    "final": true
    }
   },
   {
@@ -536,11 +546,11 @@
    ],
    "news": null,
    "outcome": {
-    "days": 3,
-    "last_close": 6.590000152587891,
-    "last_pct": 7.7,
-    "max_close_pct": 7.7,
-    "max_high_pct": 7.7,
+    "days": 4,
+    "last_close": 6.75,
+    "last_pct": 10.3,
+    "max_close_pct": 10.3,
+    "max_high_pct": 10.6,
     "d1_pct": -1.8
    }
   },
@@ -569,9 +579,9 @@
    ],
    "news": null,
    "outcome": {
-    "days": 3,
-    "last_close": 2.490000009536743,
-    "last_pct": 6.9,
+    "days": 4,
+    "last_close": 2.3199000358581543,
+    "last_pct": -0.4,
     "max_close_pct": 6.9,
     "max_high_pct": 7.8,
     "d1_pct": -6.8
@@ -602,9 +612,9 @@
    ],
    "news": "Gamehaus Signs Definitive Agreement to Acquire Majority Stake in Anamana",
    "outcome": {
-    "days": 3,
-    "last_close": 0.6819999814033508,
-    "last_pct": 11.8,
+    "days": 4,
+    "last_close": 0.666700005531311,
+    "last_pct": 9.3,
     "max_close_pct": 13.4,
     "max_high_pct": 21.3,
     "d1_pct": 13.4
@@ -777,6 +787,60 @@
     "accel",
     "novel",
     "rvol"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-05T15:07+00:00",
+   "ticker": "LOT",
+   "score": 3,
+   "max_score": 3,
+   "price": 0.2999,
+   "move_pct": -11.32,
+   "cap_m": 192.07,
+   "blocked": [],
+   "tags": [
+    "vel3h",
+    "spread",
+    "sec_weak",
+    "pr_weak"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-05T15:07+00:00",
+   "ticker": "IQ",
+   "score": 3,
+   "max_score": 3,
+   "price": 0.8748,
+   "move_pct": -4.76,
+   "cap_m": 465.37,
+   "blocked": [],
+   "tags": [
+    "vel3h",
+    "spread"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-05T15:07+00:00",
+   "ticker": "SONY",
+   "score": 3,
+   "max_score": 3,
+   "price": 27.78,
+   "move_pct": 7.05,
+   "cap_m": 163150.0,
+   "blocked": [
+    "שווי $163150M"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "novel"
    ],
    "alerted": false,
    "urgent": false
@@ -4703,7 +4767,7 @@
   "reddit_top": {
    "HTZ": {
     "m24_max": 59,
-    "authors24_max": 32,
+    "authors24_max": 36,
     "subs": [
      "Shortsqueeze",
      "pennystocks",
@@ -4730,6 +4794,33 @@
     "first_utc": "2026-11-05T06:10+00:00",
     "sample": "r/smallstreetbets: CSCO earnings will mark the end of the AI Bull market in 2026"
    },
+   "IREN": {
+    "m24_max": 4,
+    "authors24_max": 3,
+    "subs": [
+     "Shortsqueeze"
+    ],
+    "first_utc": "2026-11-04T20:43+00:00",
+    "sample": "r/Shortsqueeze: $IREN short interested increased ~20M shares over 1 months timeframe"
+   },
+   "IQST": {
+    "m24_max": 4,
+    "authors24_max": 4,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-05T13:59+00:00",
+    "sample": "r/pennystocks: iQSTEL (NASDAQ: IQST) Reports Preliminary Q3 2026 Revenue of $106.0 Million; Nine-Month Re"
+   },
+   "NOV": {
+    "m24_max": 4,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-05T15:04+00:00",
+    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
+   },
    "CRIS": {
     "m24_max": 3,
     "authors24_max": 3,
@@ -4748,15 +4839,6 @@
      "pennystocks"
     ],
     "first_utc": "2026-11-05T05:51+00:00"
-   },
-   "IREN": {
-    "m24_max": 3,
-    "authors24_max": 3,
-    "subs": [
-     "Shortsqueeze"
-    ],
-    "first_utc": "2026-11-04T20:43+00:00",
-    "sample": "r/Shortsqueeze: $IREN short interested increased ~20M shares over 1 months timeframe"
    },
    "SI": {
     "m24_max": 3,
@@ -4783,6 +4865,15 @@
     ],
     "first_utc": "2026-11-05T04:55+00:00"
    },
+   "LUNR": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "subs": [
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-11-04T18:03+00:00",
+    "sample": "r/smallstreetbets: My Regarded DD for LUNR - (NASA Contracts, Earnings and RIP Sir Patrick Stewart)"
+   },
    "SIRI": {
     "m24_max": 2,
     "authors24_max": 2,
@@ -4805,18 +4896,11 @@
     "authors24_max": 2,
     "subs": [
      "Shortsqueeze",
-     "pennystocks"
+     "pennystocks",
+     "smallstreetbets"
     ],
-    "first_utc": "2026-11-05T12:23+00:00"
-   },
-   "IQST": {
-    "m24_max": 2,
-    "authors24_max": 2,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-05T13:59+00:00",
-    "sample": "r/pennystocks: iQSTEL (NASDAQ: IQST) Reports Preliminary Q3 2026 Revenue of $106.0 Million; Nine-Month Re"
+    "first_utc": "2026-11-05T12:23+00:00",
+    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
    },
    "CCC": {
     "m24_max": 2,
@@ -4833,6 +4917,26 @@
      "smallstreetbets"
     ],
     "first_utc": "2026-11-05T13:24+00:00"
+   },
+   "LABT": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks",
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-11-05T13:37+00:00",
+    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+   },
+   "ZNB": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks",
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-11-05T14:16+00:00",
+    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
    },
    "UVIX": {
     "m24_max": 1,
@@ -4887,15 +4991,6 @@
     ],
     "first_utc": "2026-11-04T20:43+00:00",
     "sample": "r/Shortsqueeze: $IREN short interested increased ~20M shares over 1 months timeframe"
-   },
-   "LUNR": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-11-04T18:03+00:00",
-    "sample": "r/smallstreetbets: My Regarded DD for LUNR - (NASA Contracts, Earnings and RIP Sir Patrick Stewart)"
    },
    "CLPS": {
     "m24_max": 1,
@@ -5031,33 +5126,6 @@
     ],
     "first_utc": "2026-11-04T12:05+00:00",
     "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
-   },
-   "PS": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-04T10:28+00:00",
-    "sample": "r/pennystocks: Farewell Post: Ten Yolo Trade Challenge Results"
-   },
-   "HBM": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-11-04T07:31+00:00",
-    "sample": "r/smallstreetbets: $AMD has the AI narrative, now it needs to hold $520"
-   },
-   "PC": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-11-04T07:31+00:00",
-    "sample": "r/smallstreetbets: $AMD has the AI narrative, now it needs to hold $520"
    }
   },
   "telegram_top": {
@@ -5127,6 +5195,12 @@
     "chats24_max": 1,
     "first_utc": "2026-11-04T11:26+00:00"
    },
+   "DOW": {
+    "m24_max": 4,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T14:32+00:00"
+   },
    "DJT": {
     "m24_max": 4,
     "authors24_max": 1,
@@ -5150,12 +5224,6 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T20:23+00:00"
-   },
-   "DOW": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-04T14:32+00:00"
    },
    "VET": {
     "m24_max": 3,
@@ -5229,6 +5297,12 @@
     "chats24_max": 1,
     "first_utc": "2026-11-04T21:24+00:00"
    },
+   "MET": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T21:21+00:00"
+   },
    "DHI": {
     "m24_max": 2,
     "authors24_max": 1,
@@ -5246,6 +5320,12 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T21:20+00:00"
+   },
+   "NDAQ": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T21:11+00:00"
    },
    "BRKR": {
     "m24_max": 2,
@@ -5288,18 +5368,6 @@
     "authors24_max": 2,
     "chats24_max": 2,
     "first_utc": "2026-11-04T20:27+00:00"
-   },
-   "BTU": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-04T12:46+00:00"
-   },
-   "XYZ": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-04T16:24+00:00"
    }
   },
   "telegram_all": {
@@ -5580,7 +5648,7 @@
     "first_utc": "2026-11-04T11:26+00:00"
    },
    "MET": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T21:21+00:00"
@@ -5616,13 +5684,13 @@
     "first_utc": "2026-11-04T21:14+00:00"
    },
    "DOW": {
-    "m24_max": 3,
+    "m24_max": 4,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T14:32+00:00"
    },
    "NDAQ": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T21:11+00:00"
@@ -7302,9 +7370,9 @@
     "first_utc": "2026-11-05T14:07+00:00"
    },
    "VCYT": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
+    "m24_max": 2,
+    "authors24_max": 2,
+    "chats24_max": 2,
     "first_utc": "2026-11-05T14:07+00:00"
    },
    "IRWD": {
@@ -7330,6 +7398,126 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-05T14:04+00:00"
+   },
+   "JAN": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T15:04+00:00"
+   },
+   "WU": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T15:03+00:00"
+   },
+   "ALKT": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T15:01+00:00"
+   },
+   "PTON": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:56+00:00"
+   },
+   "OXLC": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:54+00:00"
+   },
+   "RYDE": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:50+00:00"
+   },
+   "DTIL": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:43+00:00"
+   },
+   "MNTN": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:37+00:00"
+   },
+   "AMTX": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:34+00:00"
+   },
+   "AIZ": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:34+00:00"
+   },
+   "WKC": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:32+00:00"
+   },
+   "VS": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:32+00:00"
+   },
+   "APYX": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:31+00:00"
+   },
+   "AACI": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:31+00:00"
+   },
+   "ARQ": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:30+00:00"
+   },
+   "APPS": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:16+00:00"
+   },
+   "DT": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:16+00:00"
+   },
+   "CARE": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:09+00:00"
+   },
+   "UL": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:09+00:00"
+   },
+   "ULS": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:09+00:00"
    }
   }
  },

@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-05T14:07+00:00",
+ "ts": "2026-11-05T15:07+00:00",
  "reddit_ok": true,
  "stocktwits_trending": 30,
  "apewisdom_main": 300,
@@ -13,12 +13,12 @@
   "stocks",
   "wallstreetbets"
  ],
- "candidates": 4,
+ "candidates": 10,
  "telegram_groups": {
   "mode": "ok",
   "chats_ok": 14,
   "chats_failed": 0,
-  "messages": 493
+  "messages": 494
  },
  "x_weir": {
   "mode": "idle",
@@ -29,20 +29,21 @@
   "note": "לא בחלון X"
  },
  "funnel": {
-  "buzz_tickers": 281,
-  "mention_gate": 44,
+  "buzz_tickers": 276,
+  "mention_gate": 51,
   "reddit_path": 0,
   "telegram_path": 1,
   "news_path": 1,
-  "skipped_large_cache": 69,
-  "shadow_gate": 27,
-  "to_check": 4,
-  "checked": 4,
+  "skipped_large_cache": 77,
+  "shadow_gate": 34,
+  "to_check": 10,
+  "checked": 10,
   "not_checked_time": 0,
   "blocked": {
-   "כבר": 4
+   "שווי": 4,
+   "כבר": 2
   },
-  "below_score": 1,
+  "below_score": 3,
   "cooldown": 0,
   "shadow_would_alert": 1,
   "sent": 0,

@@ -1095,12 +1095,13 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 4,
-   "last_close": 0.33799999952316284,
-   "last_pct": -17.6,
+   "days": 5,
+   "last_close": 0.29989999532699585,
+   "last_pct": -26.9,
    "max_close_pct": -2.5,
    "max_high_pct": -0.0,
-   "d1_pct": -4.2
+   "d1_pct": -4.2,
+   "final": true
   },
   "followups": {
    "stop": "2026-11-03T18:07+00:00"
@@ -1228,12 +1229,13 @@
   "path": "reddit",
   "telegram_sent": true,
   "outcome": {
-   "days": 4,
-   "last_close": 2.490000009536743,
-   "last_pct": -13.5,
+   "days": 5,
+   "last_close": 2.3199000358581543,
+   "last_pct": -19.4,
    "max_close_pct": -13.5,
    "max_high_pct": -1.4,
-   "d1_pct": -21.2
+   "d1_pct": -21.2,
+   "final": true
   },
   "followups": {}
  },
@@ -1372,12 +1374,13 @@
   "path": "reddit",
   "telegram_sent": true,
   "outcome": {
-   "days": 4,
-   "last_close": 2.490000009536743,
-   "last_pct": 16.9,
+   "days": 5,
+   "last_close": 2.3199000358581543,
+   "last_pct": 8.9,
    "max_close_pct": 16.9,
    "max_high_pct": 33.3,
-   "d1_pct": 6.6
+   "d1_pct": 6.6,
+   "final": true
   },
   "followups": {}
  },
@@ -1475,11 +1478,11 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 3,
-   "last_close": 6.590000152587891,
-   "last_pct": 7.7,
-   "max_close_pct": 7.7,
-   "max_high_pct": 7.7,
+   "days": 4,
+   "last_close": 6.75,
+   "last_pct": 10.3,
+   "max_close_pct": 10.3,
+   "max_high_pct": 10.6,
    "d1_pct": -1.8
   },
   "followups": {}
@@ -1609,9 +1612,9 @@
   "path": "reddit",
   "telegram_sent": true,
   "outcome": {
-   "days": 3,
-   "last_close": 2.490000009536743,
-   "last_pct": 6.9,
+   "days": 4,
+   "last_close": 2.3199000358581543,
+   "last_pct": -0.4,
    "max_close_pct": 6.9,
    "max_high_pct": 7.8,
    "d1_pct": -6.8
@@ -1746,9 +1749,9 @@
   "path": "news",
   "telegram_sent": true,
   "outcome": {
-   "days": 3,
-   "last_close": 0.6819999814033508,
-   "last_pct": 11.8,
+   "days": 4,
+   "last_close": 0.666700005531311,
+   "last_pct": 9.3,
    "max_close_pct": 13.4,
    "max_high_pct": 21.3,
    "d1_pct": 13.4

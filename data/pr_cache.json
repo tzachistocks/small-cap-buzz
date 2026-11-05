@@ -1,11 +1,5 @@
 [
  {
-  "ticker": "CCB",
-  "title": "CCB INVESTOR ALERT: Coastal Financial Corporation Investors with Substantial Losses May Seek to Lead Class Action Lawsuit Before December 1, 2026 Deadline",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T15:00+00:00"
- },
- {
   "ticker": "EG",
   "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against Everest Group, Ltd. (NYSE: EG) -- Investors Who Suffered Losses Are Encouraged to Contact the Firm",
   "src": "PR Newswire",
@@ -1066,5 +1060,11 @@
   "title": "Calumet Announces CMR Asset Lease Details and Revised Agreement with Warburg Pincus",
   "src": "PR Newswire",
   "ts": "2026-11-05T13:01+00:00"
+ },
+ {
+  "ticker": "ALKT",
+  "title": "Fidelity Bank Expands Relationship with Alkami by Launching MANTL Loan Origination",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T15:00+00:00"
  }
 ]
