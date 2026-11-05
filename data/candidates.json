@@ -5061,7 +5061,7 @@
    "short",
    "sec_weak"
   ],
-  "alerted": false,
+  "alerted": true,
   "urgent": false,
   "outcome": {}
  },
@@ -5238,7 +5238,7 @@
   "ts": "2026-11-05T17:07+00:00",
   "ticker": "UP",
   "score": 4,
-  "max_score": 4,
+  "max_score": 5,
   "price": 2.96,
   "move_pct": -3.58,
   "cap_m": 107.74,
@@ -5249,7 +5249,8 @@
    "spread",
    "low_float",
    "sec_strong",
-   "word"
+   "word",
+   "rvol"
   ],
   "alerted": true,
   "urgent": false,
@@ -5524,6 +5525,112 @@
    "telegram_weak",
    "low_float",
    "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-05|DC": {
+  "ts": "2026-11-05T19:07+00:00",
+  "ticker": "DC",
+  "score": 6,
+  "max_score": 6,
+  "price": 5.55,
+  "move_pct": -2.8,
+  "cap_m": 745.33,
+  "blocked": [
+   "שווי $745M"
+  ],
+  "tags": [
+   "accel",
+   "vel3h",
+   "spread",
+   "rising"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-05|RUN": {
+  "ts": "2026-11-05T19:07+00:00",
+  "ticker": "RUN",
+  "score": 4,
+  "max_score": 4,
+  "price": 9.625,
+  "move_pct": 9.5,
+  "cap_m": 2320.0,
+  "blocked": [
+   "שווי $2320M"
+  ],
+  "tags": [
+   "accel",
+   "novel",
+   "st_trend",
+   "short",
+   "rvol",
+   "word"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-05|BJ": {
+  "ts": "2026-11-05T19:07+00:00",
+  "ticker": "BJ",
+  "score": 3,
+  "max_score": 3,
+  "price": 111.0,
+  "move_pct": 0.09,
+  "cap_m": 14020.0,
+  "blocked": [
+   "שווי $14020M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-05|COOK": {
+  "ts": "2026-11-05T19:07+00:00",
+  "ticker": "COOK",
+  "score": 4,
+  "max_score": 4,
+  "price": 51.15,
+  "move_pct": 2.81,
+  "cap_m": 143.27,
+  "blocked": [],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel",
+   "low_float",
+   "sec_weak",
+   "pr_weak"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-05|LINK": {
+  "ts": "2026-11-05T19:07+00:00",
+  "ticker": "LINK",
+  "score": 4,
+  "max_score": 4,
+  "price": 2.9201,
+  "move_pct": -12.05,
+  "cap_m": 47.57,
+  "blocked": [],
+  "tags": [
+   "relaxed_gate",
+   "vel3h",
+   "spread",
+   "low_float"
   ],
   "alerted": false,
   "urgent": false,

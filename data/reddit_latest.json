@@ -1,11 +1,11 @@
 {
- "ts": "2026-11-05T18:07+00:00",
+ "ts": "2026-11-05T19:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
   "HTZ": {
-   "m6": 4,
-   "m24": 7,
+   "m6": 6,
+   "m24": 9,
    "authors6": 4,
    "authors24": 6,
    "subs6": [
@@ -20,10 +20,10 @@
    "sample": "r/Shortsqueeze: Hertz the master of the reverse squeeze"
   },
   "DJT": {
-   "m6": 5,
-   "m24": 5,
-   "authors6": 5,
-   "authors24": 5,
+   "m6": 2,
+   "m24": 3,
+   "authors6": 1,
+   "authors24": 2,
    "subs6": [
     "smallstreetbets"
    ],
@@ -32,20 +32,6 @@
    ],
    "first_utc": "2026-11-05T12:25+00:00",
    "sample": "r/smallstreetbets: DJT Puts"
-  },
-  "IREN": {
-   "m6": 2,
-   "m24": 3,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "Shortsqueeze"
-   ],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T20:43+00:00",
-   "sample": "r/Shortsqueeze: $IREN short interested increased ~20M shares over 1 months timeframe"
   },
   "SNDK": {
    "m6": 1,
@@ -89,22 +75,6 @@
    "first_utc": "2026-11-05T15:04+00:00",
    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
   },
-  "ZNB": {
-   "m6": 2,
-   "m24": 2,
-   "authors6": 2,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks",
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "pennystocks",
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-05T14:16+00:00",
-   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-  },
   "LABT": {
    "m6": 2,
    "m24": 2,
@@ -137,6 +107,36 @@
    "first_utc": "2026-11-05T14:16+00:00",
    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
+  "ZNB": {
+   "m6": 2,
+   "m24": 2,
+   "authors6": 2,
+   "authors24": 2,
+   "subs6": [
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T14:16+00:00",
+   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "BE": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T17:58+00:00",
+   "sample": "r/smallstreetbets: Leopold Blows Up….Again 😂"
+  },
   "CORZ": {
    "m6": 1,
    "m24": 1,
@@ -152,20 +152,6 @@
    "sample": "r/smallstreetbets: Leopold Blows Up….Again 😂"
   },
   "CRWV": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-05T17:58+00:00",
-   "sample": "r/smallstreetbets: Leopold Blows Up….Again 😂"
-  },
-  "BE": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -249,7 +235,21 @@
    "first_utc": "2026-11-05T16:00+00:00",
    "sample": "r/smallstreetbets: Reason for Market bleeding red"
   },
-  "BZFD": {
+  "ADGM": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T15:06+00:00",
+   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
+  },
+  "PARA": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -291,21 +291,7 @@
    "first_utc": "2026-11-05T15:06+00:00",
    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
   },
-  "AKBA": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-05T15:06+00:00",
-   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-  },
-  "ADGM": {
+  "NWGL": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -333,49 +319,7 @@
    "first_utc": "2026-11-05T15:06+00:00",
    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
   },
-  "NWGL": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-05T15:06+00:00",
-   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-  },
-  "ANVS": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-05T15:06+00:00",
-   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-  },
-  "PARA": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-05T15:06+00:00",
-   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-  },
-  "TEAD": {
+  "AKBA": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -403,7 +347,105 @@
    "first_utc": "2026-11-05T15:06+00:00",
    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
   },
+  "TEAD": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T15:06+00:00",
+   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
+  },
+  "BZFD": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T15:06+00:00",
+   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
+  },
+  "ANVS": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T15:06+00:00",
+   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
+  },
+  "PLCE": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T15:04+00:00",
+   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "JDZG": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T15:04+00:00",
+   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "HIHO": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T15:04+00:00",
+   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
   "ARQ": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T15:04+00:00",
+   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "CCLD": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -445,63 +487,7 @@
    "first_utc": "2026-11-05T15:04+00:00",
    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
-  "CCLD": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-05T15:04+00:00",
-   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-  },
-  "JDZG": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-05T15:04+00:00",
-   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-  },
-  "PLCE": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-05T15:04+00:00",
-   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-  },
-  "HIHO": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-05T15:04+00:00",
-   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-  },
-  "AEC": {
+  "BLGO": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -515,7 +501,7 @@
    "first_utc": "2026-11-05T14:31+00:00",
    "sample": "r/pennystocks: BioLargo's BEST Expands Industrial PFAS Treatment Activities Amid Major PFAS Settlements"
   },
-  "BLGO": {
+  "AEC": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -557,7 +543,7 @@
    "first_utc": "2026-11-05T14:16+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
-  "TV": {
+  "IQST": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -571,7 +557,7 @@
    "first_utc": "2026-11-05T13:59+00:00",
    "sample": "r/pennystocks: iQSTEL (NASDAQ: IQST) Reports Preliminary Q3 2026 Revenue of $106.0 Million; Nine-Month Re"
   },
-  "IQST": {
+  "TV": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -597,7 +583,7 @@
    "first_utc": "2026-11-05T08:38+00:00",
    "sample": "r/smallstreetbets: SIRI or INTC: Which contrarian trade actually makes sense right now?"
   },
-  "CSCO": {
+  "UVIX": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -609,7 +595,7 @@
    "first_utc": "2026-11-05T06:10+00:00",
    "sample": "r/smallstreetbets: CSCO earnings will mark the end of the AI Bull market in 2026"
   },
-  "UVIX": {
+  "CSCO": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -657,6 +643,18 @@
    "first_utc": "2026-11-04T21:11+00:00",
    "sample": "r/pennystocks: What do we think about CBL properties…"
   },
+  "IREN": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T20:43+00:00",
+   "sample": "r/Shortsqueeze: $IREN short interested increased ~20M shares over 1 months timeframe"
+  },
   "MC": {
    "m6": 0,
    "m24": 1,
@@ -680,48 +678,6 @@
    ],
    "first_utc": "2026-11-04T19:31+00:00",
    "sample": "r/pennystocks: CRIS 5M mcap and actual growth potential"
-  },
-  "GME": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "Shortsqueeze"
-   ],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-05T17:53+00:00",
-   "sample": ""
-  },
-  "DNUT": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-05T17:48+00:00",
-   "sample": ""
-  },
-  "ED": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "Shortsqueeze"
-   ],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-05T17:33+00:00",
-   "sample": ""
   }
  },
  "apewisdom_forums": {}

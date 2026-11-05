@@ -1479,10 +1479,10 @@
   "telegram_sent": true,
   "outcome": {
    "days": 4,
-   "last_close": 6.724999904632568,
-   "last_pct": 9.9,
-   "max_close_pct": 9.9,
-   "max_high_pct": 10.6,
+   "last_close": 6.760000228881836,
+   "last_pct": 10.5,
+   "max_close_pct": 10.5,
+   "max_high_pct": 11.3,
    "d1_pct": -1.8
   },
   "followups": {}
@@ -1613,7 +1613,7 @@
   "telegram_sent": true,
   "outcome": {
    "days": 4,
-   "last_close": 2.289900064468384,
+   "last_close": 2.2899999618530273,
    "last_pct": -1.7,
    "max_close_pct": 6.9,
    "max_high_pct": 7.8,
@@ -1750,8 +1750,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 4,
-   "last_close": 0.6850000023841858,
-   "last_pct": 12.3,
+   "last_close": 0.6617000102996826,
+   "last_pct": 8.5,
    "max_close_pct": 13.4,
    "max_high_pct": 21.3,
    "d1_pct": 13.4
@@ -1859,11 +1859,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 0.8255000114440918,
-   "last_pct": -0.9,
-   "max_close_pct": -0.9,
+   "last_close": 0.8306999802589417,
+   "last_pct": -0.3,
+   "max_close_pct": -0.3,
    "max_high_pct": 9.8,
-   "d1_pct": -0.9
+   "d1_pct": -0.3
   },
   "followups": {}
  },
@@ -1987,11 +1987,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 3.0,
-   "last_pct": 1.4,
-   "max_close_pct": 1.4,
+   "last_close": 2.956899881362915,
+   "last_pct": -0.1,
+   "max_close_pct": -0.1,
    "max_high_pct": 5.4,
-   "d1_pct": 1.4
+   "d1_pct": -0.1
   },
   "followups": {}
  },
@@ -2126,11 +2126,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 0.31630000472068787,
-   "last_pct": 3.0,
-   "max_close_pct": 3.0,
+   "last_close": 0.3188000023365021,
+   "last_pct": 3.8,
+   "max_close_pct": 3.8,
    "max_high_pct": 17.2,
-   "d1_pct": 3.0
+   "d1_pct": 3.8
   },
   "followups": {}
  },
@@ -2261,10 +2261,120 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 4.400000095367432,
+   "last_close": 4.269999980926514,
+   "last_pct": -3.0,
+   "max_close_pct": -3.0,
+   "max_high_pct": 6.6,
+   "d1_pct": -3.0
+  },
+  "followups": {}
+ },
+ {
+  "id": "202611051907-RNA",
+  "ts": "2026-11-05T19:07+00:00",
+  "ticker": "RNA",
+  "score": 4,
+  "why": [
+   "האצה x3.5 מול הבסיס",
+   "חדשה בשיח (לא דוברה 14 יום)",
+   "פלואט 21.6M",
+   "SEC רגיל: 8-K 7.01 (מצגת/FD) (2026-11-02)"
+  ],
+  "price": {
+   "price": 8.42,
+   "prev_close": 8.68,
+   "move_pct": -3.0,
+   "vol_today": 112026,
+   "avg_vol20": 254630,
+   "rel_vol": 0.44,
+   "exchange": "NMS",
+   "name": "Atrium Therapeutics, Inc.",
+   "readiness": {
+    "points": 0,
+    "why": [],
+    "risk": [],
+    "asof": "2026-11-04",
+    "f": {
+     "rvol_1": 0.6724,
+     "atr_ratio": 1.1204,
+     "drawdown_60": -0.4087,
+     "vol20": 0.0254,
+     "prior_runs_120": 0.0,
+     "ret_1d": -0.0046,
+     "ret_3d": 0.0496,
+     "ret_10d": 0.085,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.9655
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 186.45,
+   "float_m": 21.62,
+   "short_float_pct": 17.24,
+   "days_to_cover": 13.07,
+   "src": "finviz"
+  },
+  "m_now": 5,
+  "m_24h_ago": 0,
+  "spread": [],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 0,
+   "users": 18,
+   "bull": 6,
+   "bear": 1,
+   "oldest_min": 174284,
+   "watchlist": 1542
+  },
+  "borrow": {
+   "fee": 0.6326,
+   "available": 1000000,
+   "fee_5d": 0.8999,
+   "available_5d": 950000
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "x": null,
+  "profile": {
+   "country": "CA",
+   "inc": "DE",
+   "asia": null,
+   "sic": "Pharmaceutical Preparations",
+   "ts": "2026-10-22T23:15+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [
+    "8-K 2026-11-02"
+   ],
+   "filings": [
+    {
+     "class": "weak",
+     "label": "8-K 7.01 (מצגת/FD)",
+     "date": "2026-11-02"
+    }
+   ],
+   "rsplit": null,
+   "cik": 2093101
+  },
+  "forum": {
+   "rising": null,
+   "novel": true
+  },
+  "invalidation": 7.157,
+  "news": null,
+  "urgent": false,
+  "urgent_why": [],
+  "path": "buzz",
+  "telegram_sent": true,
+  "outcome": {
+   "days": 1,
+   "last_close": 8.420000076293945,
    "last_pct": 0.0,
    "max_close_pct": 0.0,
-   "max_high_pct": 6.6,
+   "max_high_pct": 3.7,
    "d1_pct": 0.0
   }
  }

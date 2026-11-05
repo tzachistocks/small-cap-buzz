@@ -1,38 +1,38 @@
 {
  "date": "2026-11-05",
- "generated_at": "2026-11-05T18:07+00:00",
+ "generated_at": "2026-11-05T19:07+00:00",
  "final": false,
  "runs": {
-  "count": 12,
+  "count": 13,
   "first": "2026-11-05T07:07+00:00",
-  "last": "2026-11-05T18:07+00:00",
+  "last": "2026-11-05T19:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 3342,
-   "mention_gate": 569,
+   "buzz_tickers": 3604,
+   "mention_gate": 667,
    "reddit_path": 1,
-   "telegram_path": 4,
-   "news_path": 5,
-   "skipped_large_cache": 836,
-   "shadow_gate": 339,
-   "to_check": 82,
-   "checked": 82,
+   "telegram_path": 5,
+   "news_path": 6,
+   "skipped_large_cache": 950,
+   "shadow_gate": 377,
+   "to_check": 106,
+   "checked": 106,
    "not_checked_time": 0,
    "blocked": {
-    "כבר": 47,
-    "שווי": 26,
-    "אין": 2
+    "כבר": 51,
+    "שווי": 33,
+    "אין": 4
    },
-   "below_score": 14,
-   "cooldown": 2,
-   "shadow_would_alert": 8,
-   "sent": 4,
+   "below_score": 19,
+   "cooldown": 5,
+   "shadow_would_alert": 11,
+   "sent": 5,
    "send_failed": 0
   },
   "telegram_last": {
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 476
+   "messages": 467
   },
   "per_run": [
    {
@@ -118,6 +118,13 @@
     "sent": 1,
     "send_failed": 0,
     "errors_n": 3
+   },
+   {
+    "ts": "2026-11-05T19:07+00:00",
+    "checked": 24,
+    "sent": 1,
+    "send_failed": 0,
+    "errors_n": 5
    }
   ]
  },
@@ -147,11 +154,11 @@
    "news": null,
    "outcome": {
     "days": 1,
-    "last_close": 0.8255000114440918,
-    "last_pct": -0.9,
-    "max_close_pct": -0.9,
+    "last_close": 0.8306999802589417,
+    "last_pct": -0.3,
+    "max_close_pct": -0.3,
     "max_high_pct": 9.8,
-    "d1_pct": -0.9
+    "d1_pct": -0.3
    }
   },
   {
@@ -179,11 +186,11 @@
    "news": "Wheels Up Announces Third Quarter Results",
    "outcome": {
     "days": 1,
-    "last_close": 3.0,
-    "last_pct": 1.4,
-    "max_close_pct": 1.4,
+    "last_close": 2.956899881362915,
+    "last_pct": -0.1,
+    "max_close_pct": -0.1,
     "max_high_pct": 5.4,
-    "d1_pct": 1.4
+    "d1_pct": -0.1
    }
   },
   {
@@ -210,11 +217,11 @@
    "news": "International companies to host live webcasts at Deutsche Bank’s Depositary Receipts Virtual Investor Conference on November 12, 2026",
    "outcome": {
     "days": 1,
-    "last_close": 0.31630000472068787,
-    "last_pct": 3.0,
-    "max_close_pct": 3.0,
+    "last_close": 0.3188000023365021,
+    "last_pct": 3.8,
+    "max_close_pct": 3.8,
     "max_high_pct": 17.2,
-    "d1_pct": 3.0
+    "d1_pct": 3.8
    }
   },
   {
@@ -242,10 +249,40 @@
    "news": "WISeQey, SEALSQ, SEALCOIN and Eco Wave Power Sign Three-Year MoU and Demonstrate Trusted Energy Transactions for AI Data Centers",
    "outcome": {
     "days": 1,
-    "last_close": 4.400000095367432,
+    "last_close": 4.269999980926514,
+    "last_pct": -3.0,
+    "max_close_pct": -3.0,
+    "max_high_pct": 6.6,
+    "d1_pct": -3.0
+   }
+  },
+  {
+   "ts": "2026-11-05T19:07+00:00",
+   "ticker": "RNA",
+   "score": 4,
+   "path": "buzz",
+   "urgent": false,
+   "price": 8.42,
+   "prev_close": 8.68,
+   "move_pct": -3.0,
+   "rel_vol": 0.44,
+   "cap_m": 186.45,
+   "float_m": 21.62,
+   "short_pct": 17.24,
+   "invalidation": 7.157,
+   "why": [
+    "האצה x3.5 מול הבסיס",
+    "חדשה בשיח (לא דוברה 14 יום)",
+    "פלואט 21.6M",
+    "SEC רגיל: 8-K 7.01 (מצגת/FD) (2026-11-02)"
+   ],
+   "news": null,
+   "outcome": {
+    "days": 1,
+    "last_close": 8.420000076293945,
     "last_pct": 0.0,
     "max_close_pct": 0.0,
-    "max_high_pct": 6.6,
+    "max_high_pct": 3.7,
     "d1_pct": 0.0
    }
   }
@@ -690,10 +727,10 @@
    "news": null,
    "outcome": {
     "days": 4,
-    "last_close": 6.724999904632568,
-    "last_pct": 9.9,
-    "max_close_pct": 9.9,
-    "max_high_pct": 10.6,
+    "last_close": 6.760000228881836,
+    "last_pct": 10.5,
+    "max_close_pct": 10.5,
+    "max_high_pct": 11.3,
     "d1_pct": -1.8
    }
   },
@@ -723,7 +760,7 @@
    "news": null,
    "outcome": {
     "days": 4,
-    "last_close": 2.289900064468384,
+    "last_close": 2.2899999618530273,
     "last_pct": -1.7,
     "max_close_pct": 6.9,
     "max_high_pct": 7.8,
@@ -756,8 +793,8 @@
    "news": "Gamehaus Signs Definitive Agreement to Acquire Majority Stake in Anamana",
    "outcome": {
     "days": 4,
-    "last_close": 0.6850000023841858,
-    "last_pct": 12.3,
+    "last_close": 0.6617000102996826,
+    "last_pct": 8.5,
     "max_close_pct": 13.4,
     "max_high_pct": 21.3,
     "d1_pct": 13.4
@@ -882,6 +919,26 @@
    "urgent": false
   },
   {
+   "ts": "2026-11-05T19:07+00:00",
+   "ticker": "DC",
+   "score": 6,
+   "max_score": 6,
+   "price": 5.55,
+   "move_pct": -2.8,
+   "cap_m": 745.33,
+   "blocked": [
+    "שווי $745M"
+   ],
+   "tags": [
+    "accel",
+    "vel3h",
+    "spread",
+    "rising"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
    "ts": "2026-11-05T07:07+00:00",
    "ticker": "OMH",
    "score": 5,
@@ -942,7 +999,28 @@
     "short",
     "sec_weak"
    ],
-   "alerted": false,
+   "alerted": true,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-05T17:07+00:00",
+   "ticker": "UP",
+   "score": 4,
+   "max_score": 5,
+   "price": 2.96,
+   "move_pct": -3.58,
+   "cap_m": 107.74,
+   "blocked": [],
+   "tags": [
+    "accel",
+    "vel3h",
+    "spread",
+    "low_float",
+    "sec_strong",
+    "word",
+    "rvol"
+   ],
+   "alerted": true,
    "urgent": false
   },
   {
@@ -1086,26 +1164,6 @@
   },
   {
    "ts": "2026-11-05T17:07+00:00",
-   "ticker": "UP",
-   "score": 4,
-   "max_score": 4,
-   "price": 2.96,
-   "move_pct": -3.58,
-   "cap_m": 107.74,
-   "blocked": [],
-   "tags": [
-    "accel",
-    "vel3h",
-    "spread",
-    "low_float",
-    "sec_strong",
-    "word"
-   ],
-   "alerted": true,
-   "urgent": false
-  },
-  {
-   "ts": "2026-11-05T17:07+00:00",
    "ticker": "HERE",
    "score": 4,
    "max_score": 4,
@@ -1161,6 +1219,67 @@
     "telegram_weak",
     "low_float",
     "rvol"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-05T19:07+00:00",
+   "ticker": "RUN",
+   "score": 4,
+   "max_score": 4,
+   "price": 9.625,
+   "move_pct": 9.5,
+   "cap_m": 2320.0,
+   "blocked": [
+    "שווי $2320M"
+   ],
+   "tags": [
+    "accel",
+    "novel",
+    "st_trend",
+    "short",
+    "rvol",
+    "word"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-05T19:07+00:00",
+   "ticker": "COOK",
+   "score": 4,
+   "max_score": 4,
+   "price": 51.15,
+   "move_pct": 2.81,
+   "cap_m": 143.27,
+   "blocked": [],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "novel",
+    "low_float",
+    "sec_weak",
+    "pr_weak"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-05T19:07+00:00",
+   "ticker": "LINK",
+   "score": 4,
+   "max_score": 4,
+   "price": 2.9201,
+   "move_pct": -12.05,
+   "cap_m": 47.57,
+   "blocked": [],
+   "tags": [
+    "relaxed_gate",
+    "vel3h",
+    "spread",
+    "low_float"
    ],
    "alerted": false,
    "urgent": false
@@ -1352,6 +1471,26 @@
     "accel",
     "vel3h",
     "low_float"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-05T19:07+00:00",
+   "ticker": "BJ",
+   "score": 3,
+   "max_score": 3,
+   "price": 111.0,
+   "move_pct": 0.09,
+   "cap_m": 14020.0,
+   "blocked": [
+    "שווי $14020M"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "novel"
    ],
    "alerted": false,
    "urgent": false
@@ -5671,17 +5810,23 @@
     "chats24_max": 1,
     "first_utc": "2026-11-04T11:33+00:00"
    },
+   "GOLD": {
+    "m24_max": 5,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T20:37+00:00"
+   },
    "FT": {
     "m24_max": 5,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T19:53+00:00"
    },
-   "GOLD": {
-    "m24_max": 4,
+   "DJT": {
+    "m24_max": 5,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-11-04T20:37+00:00"
+    "first_utc": "2026-11-04T19:35+00:00"
    },
    "UK": {
     "m24_max": 4,
@@ -5718,12 +5863,6 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T21:11+00:00"
-   },
-   "DJT": {
-    "m24_max": 4,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-04T19:35+00:00"
    },
    "RIOT": {
     "m24_max": 4,
@@ -5809,6 +5948,12 @@
     "chats24_max": 1,
     "first_utc": "2026-11-04T16:41+00:00"
    },
+   "BNY": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T22:16+00:00"
+   },
    "WDS": {
     "m24_max": 2,
     "authors24_max": 1,
@@ -5874,12 +6019,6 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T20:57+00:00"
-   },
-   "U": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-04T20:52+00:00"
    }
   },
   "telegram_all": {
@@ -5908,7 +6047,7 @@
     "first_utc": "2026-11-04T10:34+00:00"
    },
    "GOLD": {
-    "m24_max": 4,
+    "m24_max": 5,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T20:37+00:00"
@@ -6034,7 +6173,7 @@
     "first_utc": "2026-11-04T21:02+00:00"
    },
    "BNY": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T22:16+00:00"
@@ -6466,7 +6605,7 @@
     "first_utc": "2026-11-04T20:46+00:00"
    },
    "RYTM": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T20:43+00:00"
@@ -6670,7 +6809,7 @@
     "first_utc": "2026-11-04T12:46+00:00"
    },
    "DJT": {
-    "m24_max": 4,
+    "m24_max": 5,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T19:35+00:00"
@@ -8062,7 +8201,7 @@
     "first_utc": "2026-11-05T16:54+00:00"
    },
    "FUND": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-05T16:54+00:00"
@@ -8324,6 +8463,138 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-05T17:17+00:00"
+   },
+   "DAVE": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T19:06+00:00"
+   },
+   "HIMX": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T19:05+00:00"
+   },
+   "SA": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T19:00+00:00"
+   },
+   "TTAM": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T19:04+00:00"
+   },
+   "NBTX": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T19:00+00:00"
+   },
+   "SRI": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T18:58+00:00"
+   },
+   "PTLO": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T18:55+00:00"
+   },
+   "DDD": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T18:54+00:00"
+   },
+   "MGNI": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T18:53+00:00"
+   },
+   "ASA": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T18:51+00:00"
+   },
+   "DHF": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T18:44+00:00"
+   },
+   "GTEN": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T18:41+00:00"
+   },
+   "ZGN": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T18:38+00:00"
+   },
+   "ACDC": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T18:34+00:00"
+   },
+   "BWMN": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T18:32+00:00"
+   },
+   "JLHL": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T18:31+00:00"
+   },
+   "CRNT": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T18:31+00:00"
+   },
+   "INSM": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T18:29+00:00"
+   },
+   "AIIA": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T18:27+00:00"
+   },
+   "HLP": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T18:25+00:00"
+   },
+   "LYNX": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T18:23+00:00"
+   },
+   "ZKP": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T18:10+00:00"
    }
   }
  },
@@ -8353,9 +8624,11 @@
   "credits": 220
  },
  "errors_today": {
-  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/BABY": 2,
-  "HTTP 404 https: //finviz.com/quote.ashx?t=BABY&p=d": 2,
-  "HTTP 404 https: //api.stocktwits.com/api/2/streams/symbol/ANY.json": 1
+  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/BABY": 3,
+  "HTTP 404 https: //finviz.com/quote.ashx?t=BABY&p=d": 3,
+  "HTTP 404 https: //api.stocktwits.com/api/2/streams/symbol/ANY.json": 2,
+  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/SAVE": 1,
+  "HTTP 404 https: //finviz.com/quote.ashx?t=SAVE&p=d": 1
  },
  "closes_asof": null,
  "closes": {}
