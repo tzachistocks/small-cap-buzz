@@ -1,29 +1,29 @@
 {
  "date": "2026-11-05",
- "generated_at": "2026-11-05T12:07+00:00",
+ "generated_at": "2026-11-05T13:07+00:00",
  "final": false,
  "runs": {
-  "count": 7,
+  "count": 8,
   "first": "2026-11-05T07:07+00:00",
-  "last": "2026-11-05T12:07+00:00",
+  "last": "2026-11-05T13:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 1977,
-   "mention_gate": 256,
+   "buzz_tickers": 2258,
+   "mention_gate": 298,
    "reddit_path": 1,
    "telegram_path": 0,
-   "news_path": 0,
-   "skipped_large_cache": 399,
-   "shadow_gate": 162,
-   "to_check": 20,
-   "checked": 20,
+   "news_path": 1,
+   "skipped_large_cache": 465,
+   "shadow_gate": 190,
+   "to_check": 25,
+   "checked": 25,
    "not_checked_time": 0,
    "blocked": {
-    "כבר": 28,
-    "שווי": 4
+    "כבר": 32,
+    "שווי": 6
    },
    "below_score": 2,
    "cooldown": 0,
-   "shadow_would_alert": 0,
+   "shadow_would_alert": 1,
    "sent": 0,
    "send_failed": 0
   },
@@ -31,7 +31,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 509
+   "messages": 501
   },
   "per_run": [
    {
@@ -79,6 +79,13 @@
    {
     "ts": "2026-11-05T12:07+00:00",
     "checked": 2,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 0
+   },
+   {
+    "ts": "2026-11-05T13:07+00:00",
+    "checked": 5,
     "sent": 0,
     "send_failed": 0,
     "errors_n": 0
@@ -616,7 +623,8 @@
     "rising",
     "novel",
     "low_float",
-    "rvol"
+    "rvol",
+    "relaxed_gate"
    ],
    "alerted": false,
    "urgent": false
@@ -686,6 +694,27 @@
    "urgent": false
   },
   {
+   "ts": "2026-11-05T13:07+00:00",
+   "ticker": "RNA",
+   "score": 5,
+   "max_score": 5,
+   "price": 8.68,
+   "move_pct": -0.46,
+   "cap_m": 193.36,
+   "blocked": [],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "novel",
+    "low_float",
+    "short",
+    "sec_weak"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
    "ts": "2026-11-05T10:56+00:00",
    "ticker": "TXN",
    "score": 4,
@@ -721,6 +750,26 @@
     "accel",
     "vel3h",
     "novel"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-05T13:07+00:00",
+   "ticker": "CAVA",
+   "score": 3,
+   "max_score": 3,
+   "price": 57.3,
+   "move_pct": -4.99,
+   "cap_m": 6680.0,
+   "blocked": [
+    "שווי $6680M"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "novel",
+    "rvol"
    ],
    "alerted": false,
    "urgent": false
@@ -4646,8 +4695,8 @@
  "social_today": {
   "reddit_top": {
    "HTZ": {
-    "m24_max": 25,
-    "authors24_max": 16,
+    "m24_max": 59,
+    "authors24_max": 26,
     "subs": [
      "Shortsqueeze",
      "pennystocks",
@@ -4655,6 +4704,15 @@
     ],
     "first_utc": "2026-11-04T17:25+00:00",
     "sample": "r/Shortsqueeze: $HTZ just joined the 100% Squeezability Club, and ER is tomorrow morning!"
+   },
+   "DJT": {
+    "m24_max": 13,
+    "authors24_max": 13,
+    "subs": [
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-11-05T12:25+00:00",
+    "sample": "r/smallstreetbets: DJT going to zero"
    },
    "CSCO": {
     "m24_max": 5,
@@ -4734,6 +4792,14 @@
      "Shortsqueeze"
     ],
     "first_utc": "2026-11-05T11:00+00:00"
+   },
+   "ELPW": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-05T12:23+00:00"
    },
    "UVIX": {
     "m24_max": 1,
@@ -4983,22 +5049,6 @@
      "pennystocks"
     ],
     "first_utc": "2026-11-05T04:14+00:00"
-   },
-   "SEV": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "Shortsqueeze"
-    ],
-    "first_utc": "2026-11-05T07:49+00:00"
-   },
-   "NGEN": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-05T07:19+00:00"
    }
   },
   "telegram_top": {
@@ -6919,9 +6969,9 @@
     "first_utc": "2026-11-04T16:01+00:00"
    },
    "PH": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
+    "m24_max": 2,
+    "authors24_max": 2,
+    "chats24_max": 2,
     "first_utc": "2026-11-04T16:01+00:00"
    },
    "MC": {
@@ -7075,7 +7125,7 @@
     "first_utc": "2026-11-05T12:01+00:00"
    },
    "BOE": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-05T12:01+00:00"
@@ -7157,6 +7207,60 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-05T11:09+00:00"
+   },
+   "SLB": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T13:00+00:00"
+   },
+   "SABR": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T12:56+00:00"
+   },
+   "SO": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T12:37+00:00"
+   },
+   "IBP": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T12:37+00:00"
+   },
+   "IMAX": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T12:34+00:00"
+   },
+   "CMI": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T12:33+00:00"
+   },
+   "NTCT": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T12:33+00:00"
+   },
+   "MNKD": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T12:13+00:00"
+   },
+   "COP": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T12:09+00:00"
    }
   }
  },

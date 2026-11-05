@@ -7365,8 +7365,8 @@
  },
  "2026-11-05": {
   "HTZ": {
-   "m24_max": 25,
-   "authors24_max": 16,
+   "m24_max": 59,
+   "authors24_max": 26,
    "subs": [
     "Shortsqueeze",
     "pennystocks",
@@ -7830,6 +7830,47 @@
     "pennystocks"
    ],
    "first_utc": "2026-11-05T11:23+00:00"
+  },
+  "DJT": {
+   "m24_max": 13,
+   "authors24_max": 13,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T12:25+00:00",
+   "sample": "r/smallstreetbets: DJT going to zero"
+  },
+  "ELPW": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T12:23+00:00"
+  },
+  "IBM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T12:57+00:00"
+  },
+  "CTM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T12:54+00:00"
+  },
+  "JDZG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T12:23+00:00"
   }
  }
 }

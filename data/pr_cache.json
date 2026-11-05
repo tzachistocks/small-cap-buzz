@@ -1,11 +1,5 @@
 [
  {
-  "ticker": "TOYO",
-  "title": "TOYO to Exhibit at RE+ 2026 and Participate in ROTH Solar & Storage Symposium",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T13:00+00:00"
- },
- {
   "ticker": "BULL",
   "title": "NASDAQ: BULL INVESTOR ALERT: Berger Montague Advises Webull Corporation (NASDAQ: BULL) Investors of a December 7, 2026 Deadline",
   "src": "PR Newswire",
@@ -1030,5 +1024,65 @@
   "title": "Evogene Schedules Third Quarter 2026 Financial Results Release",
   "src": "PR Newswire",
   "ts": "2026-11-05T12:00+00:00"
+ },
+ {
+  "ticker": "ANVS",
+  "title": "Annovis Announces Pricing of $21.0 Million Public Offering",
+  "src": "GlobeNewswire",
+  "ts": "2026-11-05T13:05+00:00"
+ },
+ {
+  "ticker": "RTSN",
+  "title": "Retension Pharmaceuticals to Participate in the Guggenheim 3rd Annual Healthcare Innovation Conference",
+  "src": "GlobeNewswire",
+  "ts": "2026-11-05T13:02+00:00"
+ },
+ {
+  "ticker": "AIIR",
+  "title": "AIR Submits Premarket Tobacco Product Application for Crown Switch Rechargeable Pod Vape Platform",
+  "src": "GlobeNewswire",
+  "ts": "2026-11-05T13:00+00:00"
+ },
+ {
+  "ticker": "GRCE",
+  "title": "Grace Therapeutics Announces Participation in Upcoming Industry and Investor Events in November 2026",
+  "src": "GlobeNewswire",
+  "ts": "2026-11-05T13:00+00:00"
+ },
+ {
+  "ticker": "FRPT",
+  "title": "Freshpet, Inc. to Participate in Upcoming Investor Conferences",
+  "src": "GlobeNewswire",
+  "ts": "2026-11-05T13:00+00:00"
+ },
+ {
+  "ticker": "BLTE",
+  "title": "Belite Bio to Host Webcast on November 12, 2026, to Discuss Third Quarter 2026 Financial Results",
+  "src": "GlobeNewswire",
+  "ts": "2026-11-05T13:00+00:00"
+ },
+ {
+  "ticker": "WCT",
+  "title": "Wellchange Holdings Company Limited Announces 1-for-10 Reverse Stock Split Effective November 9, 2026",
+  "src": "GlobeNewswire",
+  "ts": "2026-11-05T13:00+00:00"
+ },
+ {
+  "ticker": "RHI",
+  "title": "Robert Half promotes David King to lead Executive Search across the Americas and Europe",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T13:05+00:00"
+ },
+ {
+  "ticker": "LABT",
+  "title": "Lakewood-Amedex Biotherapeutics Announces Completion of Series C Convertible Preferred Stock Redemption",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T13:02+00:00"
+ },
+ {
+  "ticker": "CLMT",
+  "title": "Calumet Announces CMR Asset Lease Details and Revised Agreement with Warburg Pincus",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T13:01+00:00"
  }
 ]

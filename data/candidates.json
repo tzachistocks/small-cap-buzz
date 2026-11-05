@@ -4927,7 +4927,8 @@
    "rising",
    "novel",
    "low_float",
-   "rvol"
+   "rvol",
+   "relaxed_gate"
   ],
   "alerted": false,
   "urgent": false,
@@ -5037,6 +5038,49 @@
    "accel",
    "vel3h",
    "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-05|RNA": {
+  "ts": "2026-11-05T13:07+00:00",
+  "ticker": "RNA",
+  "score": 5,
+  "max_score": 5,
+  "price": 8.68,
+  "move_pct": -0.46,
+  "cap_m": 193.36,
+  "blocked": [],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel",
+   "low_float",
+   "short",
+   "sec_weak"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-05|CAVA": {
+  "ts": "2026-11-05T13:07+00:00",
+  "ticker": "CAVA",
+  "score": 3,
+  "max_score": 3,
+  "price": 57.3,
+  "move_pct": -4.99,
+  "cap_m": 6680.0,
+  "blocked": [
+   "שווי $6680M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "novel",
+   "rvol"
   ],
   "alerted": false,
   "urgent": false,
