@@ -4999,5 +4999,47 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-11-05|TXN": {
+  "ts": "2026-11-05T10:56+00:00",
+  "ticker": "TXN",
+  "score": 4,
+  "max_score": 4,
+  "price": 306.7,
+  "move_pct": -1.85,
+  "cap_m": 280130.0,
+  "blocked": [
+   "שווי $280130M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-05|DEI": {
+  "ts": "2026-11-05T10:56+00:00",
+  "ticker": "DEI",
+  "score": 3,
+  "max_score": 3,
+  "price": 10.58,
+  "move_pct": 7.41,
+  "cap_m": 1770.0,
+  "blocked": [
+   "שווי $1770M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }

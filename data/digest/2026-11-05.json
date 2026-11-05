@@ -1,25 +1,25 @@
 {
  "date": "2026-11-05",
- "generated_at": "2026-11-05T10:07+00:00",
+ "generated_at": "2026-11-05T10:56+00:00",
  "final": false,
  "runs": {
-  "count": 4,
+  "count": 5,
   "first": "2026-11-05T07:07+00:00",
-  "last": "2026-11-05T10:07+00:00",
+  "last": "2026-11-05T10:56+00:00",
   "funnel_total": {
-   "buzz_tickers": 1129,
-   "mention_gate": 130,
+   "buzz_tickers": 1412,
+   "mention_gate": 173,
    "reddit_path": 1,
    "telegram_path": 0,
    "news_path": 0,
-   "skipped_large_cache": 206,
-   "shadow_gate": 87,
-   "to_check": 12,
-   "checked": 12,
+   "skipped_large_cache": 270,
+   "shadow_gate": 112,
+   "to_check": 16,
+   "checked": 16,
    "not_checked_time": 0,
    "blocked": {
-    "כבר": 16,
-    "שווי": 2
+    "כבר": 20,
+    "שווי": 4
    },
    "below_score": 2,
    "cooldown": 0,
@@ -31,7 +31,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 521
+   "messages": 519
   },
   "per_run": [
    {
@@ -58,6 +58,13 @@
    {
     "ts": "2026-11-05T10:07+00:00",
     "checked": 2,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 0
+   },
+   {
+    "ts": "2026-11-05T10:56+00:00",
+    "checked": 4,
     "sent": 0,
     "send_failed": 0,
     "errors_n": 0
@@ -660,6 +667,46 @@
     "vel3h",
     "short",
     "rvol"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-05T10:56+00:00",
+   "ticker": "TXN",
+   "score": 4,
+   "max_score": 4,
+   "price": 306.7,
+   "move_pct": -1.85,
+   "cap_m": 280130.0,
+   "blocked": [
+    "שווי $280130M"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "novel"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-05T10:56+00:00",
+   "ticker": "DEI",
+   "score": 3,
+   "max_score": 3,
+   "price": 10.58,
+   "move_pct": 7.41,
+   "cap_m": 1770.0,
+   "blocked": [
+    "שווי $1770M"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "novel"
    ],
    "alerted": false,
    "urgent": false
@@ -4959,17 +5006,17 @@
     "chats24_max": 1,
     "first_utc": "2026-11-04T08:57+00:00"
    },
+   "GABC": {
+    "m24_max": 6,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T10:34+00:00"
+   },
    "CVS": {
     "m24_max": 6,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T11:33+00:00"
-   },
-   "GABC": {
-    "m24_max": 5,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-04T10:34+00:00"
    },
    "FT": {
     "m24_max": 5,
@@ -5202,7 +5249,7 @@
     "first_utc": "2026-11-04T08:57+00:00"
    },
    "GABC": {
-    "m24_max": 5,
+    "m24_max": 6,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T10:34+00:00"
@@ -6928,6 +6975,24 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-05T09:10+00:00"
+   },
+   "FMS": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T10:13+00:00"
+   },
+   "DE": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T10:13+00:00"
+   },
+   "SUI": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T10:12+00:00"
    }
   }
  },
