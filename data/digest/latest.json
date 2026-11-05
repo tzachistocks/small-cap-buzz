@@ -1,29 +1,29 @@
 {
  "date": "2026-11-05",
- "generated_at": "2026-11-05T13:07+00:00",
+ "generated_at": "2026-11-05T14:07+00:00",
  "final": false,
  "runs": {
-  "count": 8,
+  "count": 9,
   "first": "2026-11-05T07:07+00:00",
-  "last": "2026-11-05T13:07+00:00",
+  "last": "2026-11-05T14:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 2258,
-   "mention_gate": 298,
+   "buzz_tickers": 2539,
+   "mention_gate": 342,
    "reddit_path": 1,
-   "telegram_path": 0,
-   "news_path": 1,
-   "skipped_large_cache": 465,
-   "shadow_gate": 190,
-   "to_check": 25,
-   "checked": 25,
+   "telegram_path": 1,
+   "news_path": 2,
+   "skipped_large_cache": 534,
+   "shadow_gate": 217,
+   "to_check": 29,
+   "checked": 29,
    "not_checked_time": 0,
    "blocked": {
-    "כבר": 32,
+    "כבר": 36,
     "שווי": 6
    },
-   "below_score": 2,
+   "below_score": 3,
    "cooldown": 0,
-   "shadow_would_alert": 1,
+   "shadow_would_alert": 2,
    "sent": 0,
    "send_failed": 0
   },
@@ -31,7 +31,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 501
+   "messages": 493
   },
   "per_run": [
    {
@@ -86,6 +86,13 @@
    {
     "ts": "2026-11-05T13:07+00:00",
     "checked": 5,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 0
+   },
+   {
+    "ts": "2026-11-05T14:07+00:00",
+    "checked": 4,
     "sent": 0,
     "send_failed": 0,
     "errors_n": 0
@@ -4696,7 +4703,7 @@
   "reddit_top": {
    "HTZ": {
     "m24_max": 59,
-    "authors24_max": 26,
+    "authors24_max": 32,
     "subs": [
      "Shortsqueeze",
      "pennystocks",
@@ -4706,8 +4713,8 @@
     "sample": "r/Shortsqueeze: $HTZ just joined the 100% Squeezability Club, and ER is tomorrow morning!"
    },
    "DJT": {
-    "m24_max": 13,
-    "authors24_max": 13,
+    "m24_max": 18,
+    "authors24_max": 14,
     "subs": [
      "smallstreetbets"
     ],
@@ -4797,9 +4804,35 @@
     "m24_max": 2,
     "authors24_max": 2,
     "subs": [
+     "Shortsqueeze",
      "pennystocks"
     ],
     "first_utc": "2026-11-05T12:23+00:00"
+   },
+   "IQST": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-05T13:59+00:00",
+    "sample": "r/pennystocks: iQSTEL (NASDAQ: IQST) Reports Preliminary Q3 2026 Revenue of $106.0 Million; Nine-Month Re"
+   },
+   "CCC": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "subs": [
+     "Shortsqueeze"
+    ],
+    "first_utc": "2026-11-05T13:52+00:00"
+   },
+   "CRWV": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "subs": [
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-11-05T13:24+00:00"
    },
    "UVIX": {
     "m24_max": 1,
@@ -5025,40 +5058,16 @@
     ],
     "first_utc": "2026-11-04T07:31+00:00",
     "sample": "r/smallstreetbets: $AMD has the AI narrative, now it needs to hold $520"
-   },
-   "CYPH": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-05T06:29+00:00"
-   },
-   "BWET": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-11-05T05:15+00:00"
-   },
-   "RZLV": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-05T04:14+00:00"
    }
   },
   "telegram_top": {
-   "HKD": {
-    "m24_max": 30,
+   "SG": {
+    "m24_max": 31,
     "authors24_max": 24,
-    "chats24_max": 1,
+    "chats24_max": 2,
     "first_utc": "2026-11-04T08:57+00:00"
    },
-   "SG": {
+   "HKD": {
     "m24_max": 30,
     "authors24_max": 24,
     "chats24_max": 1,
@@ -5117,6 +5126,12 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T11:26+00:00"
+   },
+   "DJT": {
+    "m24_max": 4,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T19:35+00:00"
    },
    "RIOT": {
     "m24_max": 4,
@@ -5268,29 +5283,23 @@
     "chats24_max": 1,
     "first_utc": "2026-11-04T17:19+00:00"
    },
+   "ADMA": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "chats24_max": 2,
+    "first_utc": "2026-11-04T20:27+00:00"
+   },
    "BTU": {
     "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T12:46+00:00"
    },
-   "DJT": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-04T19:35+00:00"
-   },
    "XYZ": {
     "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T16:24+00:00"
-   },
-   "LYFT": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-04T15:22+00:00"
    }
   },
   "telegram_all": {
@@ -5301,9 +5310,9 @@
     "first_utc": "2026-11-04T08:57+00:00"
    },
    "SG": {
-    "m24_max": 30,
+    "m24_max": 31,
     "authors24_max": 24,
-    "chats24_max": 1,
+    "chats24_max": 2,
     "first_utc": "2026-11-04T08:57+00:00"
    },
    "INR": {
@@ -5961,9 +5970,9 @@
     "first_utc": "2026-11-04T20:28+00:00"
    },
    "ADMA": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
+    "m24_max": 2,
+    "authors24_max": 2,
+    "chats24_max": 2,
     "first_utc": "2026-11-04T20:27+00:00"
    },
    "RXST": {
@@ -6081,7 +6090,7 @@
     "first_utc": "2026-11-04T12:46+00:00"
    },
    "DJT": {
-    "m24_max": 2,
+    "m24_max": 4,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T19:35+00:00"
@@ -7261,6 +7270,66 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-05T12:09+00:00"
+   },
+   "IBM": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:06+00:00"
+   },
+   "UNIT": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T13:31+00:00"
+   },
+   "DCI": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T13:08+00:00"
+   },
+   "KPTI": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:07+00:00"
+   },
+   "EVMN": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:07+00:00"
+   },
+   "VCYT": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:07+00:00"
+   },
+   "IRWD": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:07+00:00"
+   },
+   "AKBA": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:07+00:00"
+   },
+   "ANVS": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:07+00:00"
+   },
+   "NUR": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T14:04+00:00"
    }
   }
  },

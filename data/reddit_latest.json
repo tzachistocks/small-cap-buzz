@@ -1,31 +1,29 @@
 {
- "ts": "2026-11-05T13:07+00:00",
+ "ts": "2026-11-05T14:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
   "HTZ": {
-   "m6": 56,
-   "m24": 59,
-   "authors6": 23,
-   "authors24": 26,
+   "m6": 52,
+   "m24": 55,
+   "authors6": 30,
+   "authors24": 32,
    "subs6": [
     "Shortsqueeze",
-    "pennystocks",
     "smallstreetbets"
    ],
    "subs24": [
     "Shortsqueeze",
-    "pennystocks",
     "smallstreetbets"
    ],
    "first_utc": "2026-11-04T17:25+00:00",
-   "sample": "r/Shortsqueeze: $HTZ Cost to borrow 519% on Robinhood"
+   "sample": "r/smallstreetbets: HTZ Pre-earnings call thoughts?"
   },
   "DJT": {
-   "m6": 13,
-   "m24": 13,
-   "authors6": 13,
-   "authors24": 13,
+   "m6": 18,
+   "m24": 18,
+   "authors6": 14,
+   "authors24": 14,
    "subs6": [
     "smallstreetbets"
    ],
@@ -35,20 +33,19 @@
    "first_utc": "2026-11-05T12:25+00:00",
    "sample": "r/smallstreetbets: DJT going to zero"
   },
-  "CRIS": {
-   "m6": 1,
-   "m24": 3,
-   "authors6": 1,
-   "authors24": 3,
+  "IQST": {
+   "m6": 2,
+   "m24": 2,
+   "authors6": 2,
+   "authors24": 2,
    "subs6": [
     "pennystocks"
    ],
    "subs24": [
-    "pennystocks",
-    "smallstreetbets"
+    "pennystocks"
    ],
-   "first_utc": "2026-11-04T14:03+00:00",
-   "sample": "r/pennystocks: CRIS 5M mcap and actual growth potential"
+   "first_utc": "2026-11-05T13:59+00:00",
+   "sample": "r/pennystocks: iQSTEL (NASDAQ: IQST) Reports Preliminary Q3 2026 Revenue of $106.0 Million; Nine-Month Re"
   },
   "CSCO": {
    "m6": 1,
@@ -78,19 +75,47 @@
    "first_utc": "2026-11-04T20:43+00:00",
    "sample": "r/Shortsqueeze: $IREN short interested increased ~20M shares over 1 months timeframe"
   },
-  "ELPW": {
+  "CCC": {
+   "m6": 2,
+   "m24": 2,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-05T13:52+00:00",
+   "sample": ""
+  },
+  "CRWV": {
    "m6": 2,
    "m24": 2,
    "authors6": 2,
    "authors24": 2,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T13:24+00:00",
+   "sample": ""
+  },
+  "TV": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
    "subs6": [
     "pennystocks"
    ],
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-05T12:23+00:00",
-   "sample": ""
+   "first_utc": "2026-11-05T13:59+00:00",
+   "sample": "r/pennystocks: iQSTEL (NASDAQ: IQST) Reports Preliminary Q3 2026 Revenue of $106.0 Million; Nine-Month Re"
   },
   "SIRI": {
    "m6": 1,
@@ -190,6 +215,18 @@
    "first_utc": "2026-11-04T20:43+00:00",
    "sample": "r/Shortsqueeze: $IREN short interested increased ~20M shares over 1 months timeframe"
   },
+  "CRIS": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T19:31+00:00",
+   "sample": "r/pennystocks: CRIS 5M mcap and actual growth potential"
+  },
   "CLPS": {
    "m6": 0,
    "m24": 1,
@@ -214,57 +251,21 @@
    "first_utc": "2026-11-04T18:03+00:00",
    "sample": "r/smallstreetbets: My Regarded DD for LUNR - (NASA Contracts, Earnings and RIP Sir Patrick Stewart)"
   },
-  "HPAI": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-04T14:03+00:00",
-   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
-  },
-  "DOX": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-04T14:03+00:00",
-   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
-  },
-  "DKI": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-04T14:03+00:00",
-   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
-  },
-  "IBM": {
+  "ELPW": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
    "authors24": 1,
    "subs6": [
-    "smallstreetbets"
+    "Shortsqueeze"
    ],
    "subs24": [
-    "smallstreetbets"
+    "Shortsqueeze"
    ],
-   "first_utc": "2026-11-05T12:57+00:00",
+   "first_utc": "2026-11-05T13:53+00:00",
    "sample": ""
   },
-  "CTM": {
+  "LABT": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -275,10 +276,10 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-05T12:54+00:00",
+   "first_utc": "2026-11-05T13:37+00:00",
    "sample": ""
   },
-  "JDZG": {
+  "YMAT": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -289,7 +290,63 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-05T12:23+00:00",
+   "first_utc": "2026-11-05T13:37+00:00",
+   "sample": ""
+  },
+  "BBLG": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T13:34+00:00",
+   "sample": ""
+  },
+  "INO": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-05T13:26+00:00",
+   "sample": ""
+  },
+  "RPD": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-05T13:16+00:00",
+   "sample": ""
+  },
+  "DPU": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-05T13:16+00:00",
    "sample": ""
   }
  },

@@ -12279,9 +12279,9 @@
    "first_utc": "2026-11-04T08:57+00:00"
   },
   "SG": {
-   "m24_max": 30,
+   "m24_max": 31,
    "authors24_max": 24,
-   "chats24_max": 1,
+   "chats24_max": 2,
    "first_utc": "2026-11-04T08:57+00:00"
   },
   "INR": {
@@ -12939,9 +12939,9 @@
    "first_utc": "2026-11-04T20:28+00:00"
   },
   "ADMA": {
-   "m24_max": 1,
-   "authors24_max": 1,
-   "chats24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
+   "chats24_max": 2,
    "first_utc": "2026-11-04T20:27+00:00"
   },
   "RXST": {
@@ -13059,7 +13059,7 @@
    "first_utc": "2026-11-04T12:46+00:00"
   },
   "DJT": {
-   "m24_max": 2,
+   "m24_max": 4,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-04T19:35+00:00"
@@ -14239,6 +14239,66 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-05T12:09+00:00"
+  },
+  "IBM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T14:06+00:00"
+  },
+  "UNIT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T13:31+00:00"
+  },
+  "DCI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T13:08+00:00"
+  },
+  "KPTI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T14:07+00:00"
+  },
+  "EVMN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T14:07+00:00"
+  },
+  "VCYT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T14:07+00:00"
+  },
+  "IRWD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T14:07+00:00"
+  },
+  "AKBA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T14:07+00:00"
+  },
+  "ANVS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T14:07+00:00"
+  },
+  "NUR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T14:04+00:00"
   }
  }
 }

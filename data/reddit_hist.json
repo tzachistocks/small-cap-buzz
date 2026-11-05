@@ -7366,7 +7366,7 @@
  "2026-11-05": {
   "HTZ": {
    "m24_max": 59,
-   "authors24_max": 26,
+   "authors24_max": 32,
    "subs": [
     "Shortsqueeze",
     "pennystocks",
@@ -7832,8 +7832,8 @@
    "first_utc": "2026-11-05T11:23+00:00"
   },
   "DJT": {
-   "m24_max": 13,
-   "authors24_max": 13,
+   "m24_max": 18,
+   "authors24_max": 14,
    "subs": [
     "smallstreetbets"
    ],
@@ -7844,6 +7844,7 @@
    "m24_max": 2,
    "authors24_max": 2,
    "subs": [
+    "Shortsqueeze",
     "pennystocks"
    ],
    "first_utc": "2026-11-05T12:23+00:00"
@@ -7871,6 +7872,88 @@
     "pennystocks"
    ],
    "first_utc": "2026-11-05T12:23+00:00"
+  },
+  "IQST": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T13:59+00:00",
+   "sample": "r/pennystocks: iQSTEL (NASDAQ: IQST) Reports Preliminary Q3 2026 Revenue of $106.0 Million; Nine-Month Re"
+  },
+  "CCC": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-05T13:52+00:00"
+  },
+  "CRWV": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T13:24+00:00"
+  },
+  "TV": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T13:59+00:00",
+   "sample": "r/pennystocks: iQSTEL (NASDAQ: IQST) Reports Preliminary Q3 2026 Revenue of $106.0 Million; Nine-Month Re"
+  },
+  "LABT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T13:37+00:00"
+  },
+  "YMAT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T13:37+00:00"
+  },
+  "BBLG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T13:34+00:00"
+  },
+  "INO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-05T13:26+00:00"
+  },
+  "RPD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-05T13:16+00:00"
+  },
+  "DPU": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-05T13:16+00:00"
   }
  }
 }
