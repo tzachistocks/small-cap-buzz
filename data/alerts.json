@@ -980,12 +980,13 @@
   "path": "news",
   "telegram_sent": true,
   "outcome": {
-   "days": 4,
+   "days": 5,
    "last_close": 17.200000762939453,
    "last_pct": -0.5,
    "max_close_pct": 0.0,
    "max_high_pct": 0.0,
-   "d1_pct": 0.0
+   "d1_pct": 0.0,
+   "final": true
   },
   "followups": {}
  },
@@ -1095,7 +1096,7 @@
   "telegram_sent": true,
   "outcome": {
    "days": 4,
-   "last_close": 0.33820000290870667,
+   "last_close": 0.33799999952316284,
    "last_pct": -17.6,
    "max_close_pct": -2.5,
    "max_high_pct": -0.0,

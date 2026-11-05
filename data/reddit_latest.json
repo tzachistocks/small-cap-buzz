@@ -1,29 +1,27 @@
 {
- "ts": "2026-11-04T23:07+00:00",
+ "ts": "2026-11-05T07:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
   "HTZ": {
-   "m6": 35,
-   "m24": 35,
-   "authors6": 30,
-   "authors24": 30,
+   "m6": 18,
+   "m24": 21,
+   "authors6": 14,
+   "authors24": 15,
    "subs6": [
     "Shortsqueeze",
-    "pennystocks",
     "smallstreetbets"
    ],
    "subs24": [
     "Shortsqueeze",
-    "pennystocks",
     "smallstreetbets"
    ],
    "first_utc": "2026-11-04T17:25+00:00",
    "sample": "r/Shortsqueeze: $HTZ just joined the 100% Squeezability Club, and ER is tomorrow morning!"
   },
-  "LUNR": {
-   "m6": 6,
-   "m24": 6,
+  "CSCO": {
+   "m6": 5,
+   "m24": 5,
    "authors6": 4,
    "authors24": 4,
    "subs6": [
@@ -32,28 +30,14 @@
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-11-04T18:03+00:00",
-   "sample": "r/smallstreetbets: My Regarded DD for LUNR - (NASA Contracts, Earnings and RIP Sir Patrick Stewart)"
-  },
-  "OPEN": {
-   "m6": 3,
-   "m24": 3,
-   "authors6": 3,
-   "authors24": 3,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-04T21:21+00:00",
-   "sample": ""
+   "first_utc": "2026-11-05T06:10+00:00",
+   "sample": "r/smallstreetbets: CSCO earnings will mark the end of the AI Bull market in 2026"
   },
   "CRIS": {
    "m6": 1,
-   "m24": 2,
+   "m24": 3,
    "authors6": 1,
-   "authors24": 2,
+   "authors24": 3,
    "subs6": [
     "pennystocks"
    ],
@@ -64,14 +48,108 @@
    "first_utc": "2026-11-04T14:03+00:00",
    "sample": "r/pennystocks: CRIS 5M mcap and actual growth potential"
   },
-  "CBL": {
+  "ENVX": {
+   "m6": 3,
+   "m24": 3,
+   "authors6": 2,
+   "authors24": 2,
+   "subs6": [
+    "Shortsqueeze",
+    "pennystocks"
+   ],
+   "subs24": [
+    "Shortsqueeze",
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T05:51+00:00",
+   "sample": ""
+  },
+  "HD": {
+   "m6": 2,
+   "m24": 2,
+   "authors6": 2,
+   "authors24": 2,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T02:03+00:00",
+   "sample": "r/smallstreetbets: HD Gains. We ride for Earnings."
+  },
+  "BBW": {
+   "m6": 2,
+   "m24": 2,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-05T04:55+00:00",
+   "sample": ""
+  },
+  "UVIX": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
    "authors24": 1,
    "subs6": [
-    "pennystocks"
+    "smallstreetbets"
    ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T06:10+00:00",
+   "sample": "r/smallstreetbets: CSCO earnings will mark the end of the AI Bull market in 2026"
+  },
+  "HP": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T06:10+00:00",
+   "sample": "r/smallstreetbets: CSCO earnings will mark the end of the AI Bull market in 2026"
+  },
+  "NBIS": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T00:13+00:00",
+   "sample": "r/smallstreetbets: October winners, keep them or substitute for losers? Sell Nike stock, buy NVDA?"
+  },
+  "SNDK": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T00:13+00:00",
+   "sample": "r/smallstreetbets: October winners, keep them or substitute for losers? Sell Nike stock, buy NVDA?"
+  },
+  "CBL": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
@@ -79,13 +157,11 @@
    "sample": "r/pennystocks: What do we think about CBL properties…"
   },
   "IREN": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "Shortsqueeze"
-   ],
+   "subs6": [],
    "subs24": [
     "Shortsqueeze"
    ],
@@ -93,34 +169,42 @@
    "sample": "r/Shortsqueeze: $IREN short interested increased ~20M shares over 1 months timeframe"
   },
   "MC": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "Shortsqueeze"
-   ],
+   "subs6": [],
    "subs24": [
     "Shortsqueeze"
    ],
    "first_utc": "2026-11-04T20:43+00:00",
    "sample": "r/Shortsqueeze: $IREN short interested increased ~20M shares over 1 months timeframe"
   },
-  "CLPS": {
-   "m6": 1,
+  "LUNR": {
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
+   "subs6": [],
    "subs24": [
     "smallstreetbets"
    ],
    "first_utc": "2026-11-04T18:03+00:00",
    "sample": "r/smallstreetbets: My Regarded DD for LUNR - (NASA Contracts, Earnings and RIP Sir Patrick Stewart)"
   },
-  "HPAI": {
+  "CLPS": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-04T18:03+00:00",
+   "sample": "r/smallstreetbets: My Regarded DD for LUNR - (NASA Contracts, Earnings and RIP Sir Patrick Stewart)"
+  },
+  "DOX": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -144,7 +228,7 @@
    "first_utc": "2026-11-04T14:03+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
-  "DOX": {
+  "HPAI": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -156,31 +240,19 @@
    "first_utc": "2026-11-04T14:03+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
+  "DDOG": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
   "QCOM": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T12:05+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
-  },
-  "PMI": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T12:05+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
-  },
-  "RDDT": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -204,6 +276,18 @@
    "first_utc": "2026-11-04T12:05+00:00",
    "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
   },
+  "GXO": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
   "MCD": {
    "m6": 0,
    "m24": 1,
@@ -216,19 +300,7 @@
    "first_utc": "2026-11-04T12:05+00:00",
    "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
   },
-  "UBER": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T12:05+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
-  },
-  "CCXI": {
+  "PMI": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -252,7 +324,7 @@
    "first_utc": "2026-11-04T12:05+00:00",
    "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
   },
-  "DDOG": {
+  "CCXI": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -276,7 +348,19 @@
    "first_utc": "2026-11-04T12:05+00:00",
    "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
   },
-  "GXO": {
+  "RDDT": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "UBER": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -300,18 +384,6 @@
    "first_utc": "2026-11-04T10:28+00:00",
    "sample": "r/pennystocks: Farewell Post: Ten Yolo Trade Challenge Results"
   },
-  "PC": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-04T07:31+00:00",
-   "sample": "r/smallstreetbets: $AMD has the AI narrative, now it needs to hold $520"
-  },
   "HBM": {
    "m6": 0,
    "m24": 1,
@@ -324,31 +396,19 @@
    "first_utc": "2026-11-04T07:31+00:00",
    "sample": "r/smallstreetbets: $AMD has the AI narrative, now it needs to hold $520"
   },
-  "PEW": {
+  "PC": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
    "authors24": 1,
    "subs6": [],
    "subs24": [
-    "pennystocks"
+    "smallstreetbets"
    ],
-   "first_utc": "2026-11-04T02:13+00:00",
-   "sample": "r/pennystocks: PEW is going to run"
+   "first_utc": "2026-11-04T07:31+00:00",
+   "sample": "r/smallstreetbets: $AMD has the AI narrative, now it needs to hold $520"
   },
-  "INO": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T01:23+00:00",
-   "sample": "r/Shortsqueeze: INO -- INOVIO Receives FDA Accelerated Approval for VOCERYQ to Reduce Surgery Frequency in"
-  },
-  "SLS": {
+  "CYPH": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -359,10 +419,10 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-04T22:51+00:00",
+   "first_utc": "2026-11-05T06:29+00:00",
    "sample": ""
   },
-  "CHE": {
+  "BWET": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -373,105 +433,21 @@
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-11-04T22:48+00:00",
+   "first_utc": "2026-11-05T05:15+00:00",
    "sample": ""
   },
-  "GME": {
+  "RZLV": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
    "authors24": 1,
    "subs6": [
-    "Shortsqueeze"
+    "pennystocks"
    ],
    "subs24": [
-    "Shortsqueeze"
+    "pennystocks"
    ],
-   "first_utc": "2026-11-04T22:14+00:00",
-   "sample": ""
-  },
-  "AMC": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "Shortsqueeze"
-   ],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T22:14+00:00",
-   "sample": ""
-  },
-  "BYND": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "Shortsqueeze"
-   ],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T22:14+00:00",
-   "sample": ""
-  },
-  "CXAI": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "Shortsqueeze"
-   ],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T22:00+00:00",
-   "sample": ""
-  },
-  "ARCC": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-04T21:47+00:00",
-   "sample": ""
-  },
-  "BDC": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-04T21:47+00:00",
-   "sample": ""
-  },
-  "FLY": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-04T21:29+00:00",
+   "first_utc": "2026-11-05T04:14+00:00",
    "sample": ""
   }
  },

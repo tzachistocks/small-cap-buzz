@@ -7362,5 +7362,320 @@
    ],
    "first_utc": "2026-11-04T22:14+00:00"
   }
+ },
+ "2026-11-05": {
+  "HTZ": {
+   "m24_max": 21,
+   "authors24_max": 15,
+   "subs": [
+    "Shortsqueeze",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-04T17:25+00:00",
+   "sample": "r/Shortsqueeze: $HTZ just joined the 100% Squeezability Club, and ER is tomorrow morning!"
+  },
+  "CSCO": {
+   "m24_max": 5,
+   "authors24_max": 4,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T06:10+00:00",
+   "sample": "r/smallstreetbets: CSCO earnings will mark the end of the AI Bull market in 2026"
+  },
+  "CRIS": {
+   "m24_max": 3,
+   "authors24_max": 3,
+   "subs": [
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-04T14:03+00:00",
+   "sample": "r/pennystocks: CRIS 5M mcap and actual growth potential"
+  },
+  "ENVX": {
+   "m24_max": 3,
+   "authors24_max": 2,
+   "subs": [
+    "Shortsqueeze",
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T05:51+00:00"
+  },
+  "HD": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T02:03+00:00",
+   "sample": "r/smallstreetbets: HD Gains. We ride for Earnings."
+  },
+  "BBW": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-05T04:55+00:00"
+  },
+  "UVIX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T06:10+00:00",
+   "sample": "r/smallstreetbets: CSCO earnings will mark the end of the AI Bull market in 2026"
+  },
+  "HP": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T06:10+00:00",
+   "sample": "r/smallstreetbets: CSCO earnings will mark the end of the AI Bull market in 2026"
+  },
+  "NBIS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T00:13+00:00",
+   "sample": "r/smallstreetbets: October winners, keep them or substitute for losers? Sell Nike stock, buy NVDA?"
+  },
+  "SNDK": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T00:13+00:00",
+   "sample": "r/smallstreetbets: October winners, keep them or substitute for losers? Sell Nike stock, buy NVDA?"
+  },
+  "CBL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T21:11+00:00",
+   "sample": "r/pennystocks: What do we think about CBL properties…"
+  },
+  "IREN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T20:43+00:00",
+   "sample": "r/Shortsqueeze: $IREN short interested increased ~20M shares over 1 months timeframe"
+  },
+  "MC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T20:43+00:00",
+   "sample": "r/Shortsqueeze: $IREN short interested increased ~20M shares over 1 months timeframe"
+  },
+  "LUNR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-04T18:03+00:00",
+   "sample": "r/smallstreetbets: My Regarded DD for LUNR - (NASA Contracts, Earnings and RIP Sir Patrick Stewart)"
+  },
+  "CLPS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-04T18:03+00:00",
+   "sample": "r/smallstreetbets: My Regarded DD for LUNR - (NASA Contracts, Earnings and RIP Sir Patrick Stewart)"
+  },
+  "DOX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-04T14:03+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "DKI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-04T14:03+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "HPAI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-04T14:03+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "DDOG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "QCOM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "ADP": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "GXO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "MCD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "PMI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "APP": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "CCXI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "PRCH": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "RDDT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "UBER": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "PS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-04T10:28+00:00",
+   "sample": "r/pennystocks: Farewell Post: Ten Yolo Trade Challenge Results"
+  },
+  "HBM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-04T07:31+00:00",
+   "sample": "r/smallstreetbets: $AMD has the AI narrative, now it needs to hold $520"
+  },
+  "PC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-04T07:31+00:00",
+   "sample": "r/smallstreetbets: $AMD has the AI narrative, now it needs to hold $520"
+  },
+  "CYPH": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T06:29+00:00"
+  },
+  "BWET": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T05:15+00:00"
+  },
+  "RZLV": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T04:14+00:00"
+  }
  }
 }

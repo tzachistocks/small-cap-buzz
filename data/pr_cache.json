@@ -1,23 +1,5 @@
 [
  {
-  "ticker": "BORR",
-  "title": "Borr Drilling Limited - Prospector 5 Rig Incident Update - November 2, 2026",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T06:47+00:00"
- },
- {
-  "ticker": "LAZ",
-  "title": "Lazard Completes Its Acquisition of Campbell Lutyens and Launches Lazard CL, the Global Leader for the Next Era of Private Capital",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T06:00+00:00"
- },
- {
-  "ticker": "CEVA",
-  "title": "Ceva Extends Wireless Connectivity IP Leadership as AI Moves to Connected Devices",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T05:00+00:00"
- },
- {
   "ticker": "ALGT",
   "title": "Allegiant Partners with UNLV's College of Hospitality to Launch Customer Experience Training for Flight Attendants",
   "src": "PR Newswire",
@@ -994,5 +976,35 @@
   "title": "Century Communities Announces Quarterly Cash Dividend",
   "src": "PR Newswire",
   "ts": "2026-11-04T22:42+00:00"
+ },
+ {
+  "ticker": "BIDU",
+  "title": "Baidu, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - BIDU",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T06:52+00:00"
+ },
+ {
+  "ticker": "DUOL",
+  "title": "Duolingo, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - DUOL",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T06:38+00:00"
+ },
+ {
+  "ticker": "DAVA",
+  "title": "Endava plc Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - DAVA",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T06:38+00:00"
+ },
+ {
+  "ticker": "BETR",
+  "title": "Better Home & Finance Holding Company Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - BETR",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T06:36+00:00"
+ },
+ {
+  "ticker": "CCB",
+  "title": "Coastal Financial Corporation Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - CCB",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T06:34+00:00"
  }
 ]
