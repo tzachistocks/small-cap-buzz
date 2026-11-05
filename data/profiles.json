@@ -222,5 +222,19 @@
   "asia": null,
   "sic": "General Industrial Machinery & Equipment, NEC",
   "ts": "2026-11-05T17:09+00:00"
+ },
+ "WAVE": {
+  "country": "V7",
+  "inc": "V7",
+  "asia": null,
+  "sic": "Electric Services",
+  "ts": "2026-11-05T18:08+00:00"
+ },
+ "IA": {
+  "country": "PA",
+  "inc": "PA",
+  "asia": null,
+  "sic": "Services-Computer Programming Services",
+  "ts": "2026-11-05T18:09+00:00"
  }
 }

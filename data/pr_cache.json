@@ -1,17 +1,5 @@
 [
  {
-  "ticker": "UNH",
-  "title": "BetterInvesting™ Magazine Update on Amazon.com and UnitedHealth Group",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T18:00+00:00"
- },
- {
-  "ticker": "AMZN",
-  "title": "BetterInvesting™ Magazine Update on Amazon.com and UnitedHealth Group",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T18:00+00:00"
- },
- {
   "ticker": "BSX",
   "title": "SIMPLAAFY study of the WATCHMAN FLX™ Pro Left Atrial Appendage Closure Device meets primary endpoints",
   "src": "PR Newswire",
@@ -1060,5 +1048,11 @@
   "title": "Chesapeake Utilities Corporation Announces Quarterly Dividend",
   "src": "PR Newswire",
   "ts": "2026-11-05T17:00+00:00"
+ },
+ {
+  "ticker": "RSSS",
+  "title": "Research Solutions to Announce First Quarter Fiscal Year 2027 Results on Thursday, November 12, 2026",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T17:56+00:00"
  }
 ]

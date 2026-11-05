@@ -7439,8 +7439,8 @@
    "sample": "r/smallstreetbets: CSCO earnings will mark the end of the AI Bull market in 2026"
   },
   "NBIS": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "smallstreetbets"
    ],
@@ -7448,8 +7448,8 @@
    "sample": "r/smallstreetbets: October winners, keep them or substitute for losers? Sell Nike stock, buy NVDA?"
   },
   "SNDK": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "smallstreetbets"
    ],
@@ -7899,7 +7899,8 @@
    "subs": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-11-05T13:24+00:00"
+   "first_utc": "2026-11-05T13:24+00:00",
+   "sample": "r/smallstreetbets: Leopold Blows Up….Again 😂"
   },
   "TV": {
    "m24_max": 1,
@@ -8244,6 +8245,40 @@
     "smallstreetbets"
    ],
    "first_utc": "2026-11-05T16:55+00:00"
+  },
+  "CORZ": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T17:58+00:00",
+   "sample": "r/smallstreetbets: Leopold Blows Up….Again 😂"
+  },
+  "BE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T17:58+00:00",
+   "sample": "r/smallstreetbets: Leopold Blows Up….Again 😂"
+  },
+  "GME": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-05T17:53+00:00"
+  },
+  "ED": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-05T17:33+00:00"
   }
  }
 }
