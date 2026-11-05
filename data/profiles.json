@@ -243,5 +243,12 @@
   "asia": null,
   "sic": "Household Appliances",
   "ts": "2026-11-05T19:09+00:00"
+ },
+ "STEM": {
+  "country": "TX",
+  "inc": "",
+  "asia": null,
+  "sic": "Services-Computer Integrated Systems Design",
+  "ts": "2026-11-05T21:09+00:00"
  }
 }

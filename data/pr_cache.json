@@ -1,53 +1,5 @@
 [
  {
-  "ticker": "RLGT",
-  "title": "RADIANT LOGISTICS TO HOST INVESTOR CALL TO DISCUSS FINANCIAL RESULTS FOR FIRST FISCAL QUARTER ENDED SEPTEMBER 30, 2026",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T21:05+00:00"
- },
- {
-  "ticker": "CPS",
-  "title": "Cooper Standard Adopts Tax Benefits Preservation Plan to Protect its Tax Benefits and Shareholder Value",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T21:05+00:00"
- },
- {
-  "ticker": "POM",
-  "title": "POMDOCTOR LIMITED Announces Receipt of Nasdaq Notifications Regarding Continued Listing Requirements",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T21:05+00:00"
- },
- {
-  "ticker": "CHI",
-  "title": "Calamos Investments Closed-End Funds (NASDAQ: CHI, CHY, CSQ, CGO, CHW, CCD and CPZ) Announce Monthly Distributions and Required Notifications of Sources of Distribution",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T21:05+00:00"
- },
- {
-  "ticker": "ADCT",
-  "title": "ADC Therapeutics Announces New Employee Inducement Grant",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T21:05+00:00"
- },
- {
-  "ticker": "WAY",
-  "title": "Waystar Reports Third Quarter 2026 Results",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T21:05+00:00"
- },
- {
-  "ticker": "INO",
-  "title": "INOVIO to Participate in Upcoming Scientific Conferences",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T21:01+00:00"
- },
- {
-  "ticker": "TBLD",
-  "title": "Thornburg Income Builder Opportunities Trust Announces Distribution",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T21:01+00:00"
- },
- {
   "ticker": "TTI",
   "title": "TETRA TECHNOLOGIES, INC. REPORTS STRONG THIRD-QUARTER 2026 RESULTS",
   "src": "PR Newswire",
@@ -1072,5 +1024,59 @@
   "title": "Cellebrite ernennt Rogerio Rizzi zum Executive Vice President für Corporate Strategy and Development",
   "src": "PR Newswire",
   "ts": "2026-11-05T19:31+00:00"
+ },
+ {
+  "ticker": "OUT",
+  "title": "OUTFRONT Media Announces Quarterly Dividend",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T21:06+00:00"
+ },
+ {
+  "ticker": "KR",
+  "title": "Kroger Announces Third Quarter Conference Call with Investors",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T21:05+00:00"
+ },
+ {
+  "ticker": "STAK",
+  "title": "STAK Inc. Discloses Initial Progress in Gas-Powered Generator Business",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T21:05+00:00"
+ },
+ {
+  "ticker": "TYRA",
+  "title": "Tyra Biosciences to Participate in Upcoming Investor Conferences",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T21:05+00:00"
+ },
+ {
+  "ticker": "NGVC",
+  "title": "Natural Grocers by Vitamin Cottage, Inc. Announces Fourth Quarter and Fiscal Year 2026 Earnings Conference Call and Webcast",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T21:05+00:00"
+ },
+ {
+  "ticker": "PRAA",
+  "title": "PRA Group Reports Third Quarter 2026 Results",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T21:05+00:00"
+ },
+ {
+  "ticker": "SNPS",
+  "title": "Synopsys Announces Earnings Release Date For Fourth Quarter and Fiscal Year 2026",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T21:05+00:00"
+ },
+ {
+  "ticker": "GLOB",
+  "title": "Globant to Announce Third Quarter 2026 Financial Results on November 19th",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T21:05+00:00"
+ },
+ {
+  "ticker": "BRX",
+  "title": "BRIXMOR PROPERTY GROUP CLOSES $400 MILLION UNSECURED TERM LOAN",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T21:05+00:00"
  }
 ]
