@@ -1,11 +1,11 @@
 {
- "ts": "2026-11-05T07:07+00:00",
+ "ts": "2026-11-05T08:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
   "HTZ": {
-   "m6": 18,
-   "m24": 21,
+   "m6": 17,
+   "m24": 20,
    "authors6": 14,
    "authors24": 15,
    "subs6": [
@@ -65,9 +65,9 @@
    "sample": ""
   },
   "HD": {
-   "m6": 2,
+   "m6": 1,
    "m24": 2,
-   "authors6": 2,
+   "authors6": 1,
    "authors24": 2,
    "subs6": [
     "smallstreetbets"
@@ -120,7 +120,7 @@
    "first_utc": "2026-11-05T06:10+00:00",
    "sample": "r/smallstreetbets: CSCO earnings will mark the end of the AI Bull market in 2026"
   },
-  "NBIS": {
+  "SNDK": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -132,7 +132,7 @@
    "first_utc": "2026-11-05T00:13+00:00",
    "sample": "r/smallstreetbets: October winners, keep them or substitute for losers? Sell Nike stock, buy NVDA?"
   },
-  "SNDK": {
+  "NBIS": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -180,7 +180,7 @@
    "first_utc": "2026-11-04T20:43+00:00",
    "sample": "r/Shortsqueeze: $IREN short interested increased ~20M shares over 1 months timeframe"
   },
-  "LUNR": {
+  "CLPS": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -192,7 +192,7 @@
    "first_utc": "2026-11-04T18:03+00:00",
    "sample": "r/smallstreetbets: My Regarded DD for LUNR - (NASA Contracts, Earnings and RIP Sir Patrick Stewart)"
   },
-  "CLPS": {
+  "LUNR": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -240,79 +240,7 @@
    "first_utc": "2026-11-04T14:03+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
-  "DDOG": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T12:05+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
-  },
-  "QCOM": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T12:05+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
-  },
   "ADP": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T12:05+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
-  },
-  "GXO": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T12:05+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
-  },
-  "MCD": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T12:05+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
-  },
-  "PMI": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T12:05+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
-  },
-  "APP": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -336,7 +264,31 @@
    "first_utc": "2026-11-04T12:05+00:00",
    "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
   },
-  "PRCH": {
+  "PMI": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "QCOM": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "DDOG": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -349,6 +301,54 @@
    "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
   },
   "RDDT": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "GXO": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "PRCH": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "MCD": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "APP": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -384,29 +384,33 @@
    "first_utc": "2026-11-04T10:28+00:00",
    "sample": "r/pennystocks: Farewell Post: Ten Yolo Trade Challenge Results"
   },
-  "HBM": {
-   "m6": 0,
+  "SEV": {
+   "m6": 1,
    "m24": 1,
-   "authors6": 0,
+   "authors6": 1,
    "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
+   "subs6": [
+    "Shortsqueeze"
    ],
-   "first_utc": "2026-11-04T07:31+00:00",
-   "sample": "r/smallstreetbets: $AMD has the AI narrative, now it needs to hold $520"
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-05T07:49+00:00",
+   "sample": ""
   },
-  "PC": {
-   "m6": 0,
+  "NGEN": {
+   "m6": 1,
    "m24": 1,
-   "authors6": 0,
+   "authors6": 1,
    "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
+   "subs6": [
+    "pennystocks"
    ],
-   "first_utc": "2026-11-04T07:31+00:00",
-   "sample": "r/smallstreetbets: $AMD has the AI narrative, now it needs to hold $520"
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T07:19+00:00",
+   "sample": ""
   },
   "CYPH": {
    "m6": 1,
