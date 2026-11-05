@@ -12591,7 +12591,7 @@
    "first_utc": "2026-11-04T14:32+00:00"
   },
   "NDAQ": {
-   "m24_max": 4,
+   "m24_max": 5,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-04T21:11+00:00"
@@ -13095,7 +13095,7 @@
    "first_utc": "2026-11-04T19:39+00:00"
   },
   "LYFT": {
-   "m24_max": 2,
+   "m24_max": 3,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-04T15:22+00:00"
@@ -13413,7 +13413,7 @@
    "first_utc": "2026-11-04T16:13+00:00"
   },
   "GOOS": {
-   "m24_max": 2,
+   "m24_max": 4,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-04T14:32+00:00"
@@ -14283,13 +14283,13 @@
    "first_utc": "2026-11-05T14:07+00:00"
   },
   "AKBA": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-05T14:07+00:00"
   },
   "ANVS": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-05T14:07+00:00"
@@ -14337,9 +14337,9 @@
    "first_utc": "2026-11-05T14:50+00:00"
   },
   "DTIL": {
-   "m24_max": 1,
-   "authors24_max": 1,
-   "chats24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
+   "chats24_max": 2,
    "first_utc": "2026-11-05T14:43+00:00"
   },
   "MNTN": {
@@ -14409,13 +14409,13 @@
    "first_utc": "2026-11-05T14:09+00:00"
   },
   "UL": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-05T14:09+00:00"
   },
   "ULS": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-05T14:09+00:00"
@@ -14481,7 +14481,7 @@
    "first_utc": "2026-11-05T16:35+00:00"
   },
   "BILL": {
-   "m24_max": 2,
+   "m24_max": 3,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-05T16:33+00:00"
@@ -14637,9 +14637,9 @@
    "first_utc": "2026-11-05T17:41+00:00"
   },
   "XERS": {
-   "m24_max": 1,
-   "authors24_max": 1,
-   "chats24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
+   "chats24_max": 2,
    "first_utc": "2026-11-05T17:41+00:00"
   },
   "WW": {
@@ -15363,9 +15363,9 @@
    "first_utc": "2026-11-05T20:52+00:00"
   },
   "EWTX": {
-   "m24_max": 1,
-   "authors24_max": 1,
-   "chats24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
+   "chats24_max": 2,
    "first_utc": "2026-11-05T20:51+00:00"
   },
   "VERX": {
@@ -15607,6 +15607,198 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-05T20:08+00:00"
+  },
+  "EXR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T22:05+00:00"
+  },
+  "NOG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T21:37+00:00"
+  },
+  "AMN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T21:33+00:00"
+  },
+  "FNF": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T21:33+00:00"
+  },
+  "PNC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T21:33+00:00"
+  },
+  "JOB": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T21:32+00:00"
+  },
+  "PRG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T21:32+00:00"
+  },
+  "HASI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T21:32+00:00"
+  },
+  "FIGS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T21:31+00:00"
+  },
+  "PAR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T21:31+00:00"
+  },
+  "NUS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T21:31+00:00"
+  },
+  "GRNT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T21:31+00:00"
+  },
+  "DKNG": {
+   "m24_max": 3,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T21:25+00:00"
+  },
+  "BCC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T21:24+00:00"
+  },
+  "PYXS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T22:07+00:00"
+  },
+  "SE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T22:07+00:00"
+  },
+  "DYN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T22:07+00:00"
+  },
+  "PD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T22:07+00:00"
+  },
+  "EVO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T22:07+00:00"
+  },
+  "AGEN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T22:07+00:00"
+  },
+  "MD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T22:07+00:00"
+  },
+  "HCM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T22:07+00:00"
+  },
+  "MSS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T22:07+00:00"
+  },
+  "CCCC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T22:07+00:00"
+  },
+  "INTS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T22:07+00:00"
+  },
+  "RGNX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T22:07+00:00"
+  },
+  "GALT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T22:07+00:00"
+  },
+  "TRDA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T22:07+00:00"
+  },
+  "CE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T22:07+00:00"
+  },
+  "LABT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T22:07+00:00"
+  },
+  "BDMD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T22:07+00:00"
+  },
+  "XP": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T22:07+00:00"
   }
  }
 }

@@ -1,53 +1,5 @@
 [
  {
-  "ticker": "TTI",
-  "title": "TETRA TECHNOLOGIES, INC. REPORTS STRONG THIRD-QUARTER 2026 RESULTS",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T22:00+00:00"
- },
- {
-  "ticker": "NBIX",
-  "title": "Neurocrine Biosciences Reports Third-Quarter 2026 Financial Results",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T21:49+00:00"
- },
- {
-  "ticker": "PAM",
-  "title": "Pampa Energía announces nine-month period and third quarter 2026 results",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T21:39+00:00"
- },
- {
-  "ticker": "BIOA",
-  "title": "BioArctic collaborator Novartis terminates agreement",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T21:36+00:00"
- },
- {
-  "ticker": "CC",
-  "title": "The Chemours Company Reports Third Quarter Results",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T21:30+00:00"
- },
- {
-  "ticker": "ALG",
-  "title": "ALAMO GROUP ANNOUNCES FINANCIAL RESULTS FOR THE THIRD QUARTER 2026 AND STRENGTHENS ITS INDUSTRIAL PORTFOLIO",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T21:30+00:00"
- },
- {
-  "ticker": "LDOS",
-  "title": "Leidos mobilizes supply chain to scale production of thousands of U.S. cruise missiles",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T21:30+00:00"
- },
- {
-  "ticker": "NXDT",
-  "title": "NexPoint Diversified Real Estate Trust Announces Preferred Share Distribution",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T21:30+00:00"
- },
- {
   "ticker": "MRP",
   "title": "MRP Investors Have Opportunity to Lead Millrose Properties, Inc. Securities Fraud Lawsuit",
   "src": "PR Newswire",
@@ -1078,5 +1030,53 @@
   "title": "BRIXMOR PROPERTY GROUP CLOSES $400 MILLION UNSECURED TERM LOAN",
   "src": "PR Newswire",
   "ts": "2026-11-05T21:05+00:00"
+ },
+ {
+  "ticker": "SVM",
+  "title": "SILVERCORP REPORTS ADJUSTED NET INCOME OF $18.4 MILLION, $0.08 PER SHARE, AND CASH FLOW FROM OPERATING ACTIVITIES OF $62.7 MILLION FOR Q2 FISCAL 2027",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T22:05+00:00"
+ },
+ {
+  "ticker": "TCX",
+  "title": "Tucows Reports Third Quarter Results In Line with Expectations with Progress on Balance Sheet Obligations",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T22:05+00:00"
+ },
+ {
+  "ticker": "TC",
+  "title": "Tucows Reports Third Quarter Results In Line with Expectations with Progress on Balance Sheet Obligations",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T22:05+00:00"
+ },
+ {
+  "ticker": "GL",
+  "title": "GLOBE LIFE INC. DECLARES DIVIDEND",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T22:01+00:00"
+ },
+ {
+  "ticker": "CODX",
+  "title": "Co-Diagnostics Announces Updated Third Quarter 2026 Earnings Release Date and Webcast",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T22:00+00:00"
+ },
+ {
+  "ticker": "EXR",
+  "title": "Extra Space Storage Inc. Announces 4th Quarter 2026 Dividend",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T22:00+00:00"
+ },
+ {
+  "ticker": "CRIS",
+  "title": "Curis to Report Third Quarter 2026 Financial and Operating Results and Host Conference Call and Webcast on November 12, 2026",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T21:38+00:00"
+ },
+ {
+  "ticker": "ED",
+  "title": "CON EDISON REPORTS 2026 THIRD QUARTER EARNINGS",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T21:33+00:00"
  }
 ]

@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-05T21:07+00:00",
+ "ts": "2026-11-05T22:07+00:00",
  "reddit_ok": true,
  "stocktwits_trending": 30,
  "apewisdom_main": 300,
@@ -13,38 +13,38 @@
   "stocks",
   "wallstreetbets"
  ],
- "candidates": 23,
+ "candidates": 25,
  "telegram_groups": {
   "mode": "ok",
   "chats_ok": 14,
   "chats_failed": 0,
-  "messages": 462
+  "messages": 464
  },
  "x_weir": {
   "mode": "idle",
   "queried": 0,
   "credits": 0,
-  "month_credits": 836,
+  "month_credits": 946,
   "hits": 0,
   "note": "לא בחלון X"
  },
  "funnel": {
   "buzz_tickers": 257,
-  "mention_gate": 102,
+  "mention_gate": 110,
   "reddit_path": 0,
-  "telegram_path": 1,
+  "telegram_path": 0,
   "news_path": 1,
-  "skipped_large_cache": 122,
-  "shadow_gate": 41,
-  "to_check": 23,
-  "checked": 23,
+  "skipped_large_cache": 128,
+  "shadow_gate": 42,
+  "to_check": 25,
+  "checked": 25,
   "not_checked_time": 0,
   "blocked": {
-   "כבר": 3,
+   "כבר": 4,
    "שווי": 6,
    "אין": 2
   },
-  "below_score": 6,
+  "below_score": 8,
   "cooldown": 4,
   "shadow_would_alert": 2,
   "sent": 1,
@@ -53,9 +53,9 @@
  "not_checked": [],
  "errors": [
   "HTTP 404 https://api.stocktwits.com/api/2/streams/symbol/ANY.json",
-  "HTTP 404 https://query1.finance.yahoo.com/v8/finance/chart/BABY",
-  "HTTP 404 https://finviz.com/quote.ashx?t=BABY&p=d",
   "HTTP 404 https://query1.finance.yahoo.com/v8/finance/chart/SAVE",
-  "HTTP 404 https://finviz.com/quote.ashx?t=SAVE&p=d"
+  "HTTP 404 https://finviz.com/quote.ashx?t=SAVE&p=d",
+  "HTTP 404 https://query1.finance.yahoo.com/v8/finance/chart/BABY",
+  "HTTP 404 https://finviz.com/quote.ashx?t=BABY&p=d"
  ]
 }

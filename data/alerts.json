@@ -1987,11 +1987,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 2.8550000190734863,
-   "last_pct": -3.5,
-   "max_close_pct": -3.5,
+   "last_close": 2.859999895095825,
+   "last_pct": -3.4,
+   "max_close_pct": -3.4,
    "max_high_pct": 5.4,
-   "d1_pct": -3.5
+   "d1_pct": -3.4
   },
   "followups": {}
  },
@@ -2261,11 +2261,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 4.360000133514404,
-   "last_pct": -0.9,
-   "max_close_pct": -0.9,
+   "last_close": 4.349999904632568,
+   "last_pct": -1.1,
+   "max_close_pct": -1.1,
    "max_high_pct": 6.6,
-   "d1_pct": -0.9
+   "d1_pct": -1.1
   },
   "followups": {}
  },
@@ -2484,6 +2484,135 @@
    "max_close_pct": 0.0,
    "max_high_pct": 12.2,
    "d1_pct": 0.0
+  },
+  "followups": {}
+ },
+ {
+  "id": "202611052207-UP",
+  "ts": "2026-11-05T22:07+00:00",
+  "ticker": "UP",
+  "score": 6,
+  "why": [
+   "האצה x3.0 מול הבסיס",
+   "+4 אזכורים ב-3 שעות",
+   "פיזור ב-6 פורומים",
+   "פלואט 22.7M",
+   "נפח פי 2.5 מהממוצע",
+   "SEC חזק: 8-K 1.01 (הסכם מהותי) (2026-11-05)",
+   "חשד להתראת שווא (מילה)"
+  ],
+  "price": {
+   "price": 2.84,
+   "prev_close": 3.07,
+   "move_pct": -7.49,
+   "vol_today": 189926,
+   "avg_vol20": 76225,
+   "rel_vol": 2.49,
+   "exchange": "NYQ",
+   "name": "Wheels Up Experience Inc.",
+   "readiness": {
+    "points": 0,
+    "why": [],
+    "risk": [],
+    "asof": "2026-11-04",
+    "f": {
+     "rvol_1": 1.0615,
+     "atr_ratio": 0.9428,
+     "drawdown_60": -0.4367,
+     "vol20": 0.0431,
+     "prior_runs_120": 0.0,
+     "ret_1d": -0.0406,
+     "ret_3d": -0.0376,
+     "ret_10d": -0.0612,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.7637
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 103.75,
+   "float_m": 22.7,
+   "short_float_pct": 3.79,
+   "days_to_cover": 8.33,
+   "src": "finviz"
+  },
+  "m_now": 22,
+  "m_24h_ago": 5,
+  "spread": [
+   "Daytrading",
+   "Shortsqueeze",
+   "WallStreetbetsELITE",
+   "Wallstreetbetsnew",
+   "pennystocks",
+   "wallstreetbets"
+  ],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 0,
+   "users": 19,
+   "bull": 7,
+   "bear": 4,
+   "oldest_min": 181918,
+   "watchlist": 3391
+  },
+  "borrow": {
+   "fee": 18.5025,
+   "available": 150000,
+   "fee_5d": 18.1473,
+   "available_5d": 100000
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "x": null,
+  "profile": {
+   "country": "GA",
+   "inc": "",
+   "asia": null,
+   "sic": "Air Transportation, Nonscheduled",
+   "ts": "2026-10-27T13:08+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [
+    "8-K 2026-11-05"
+   ],
+   "filings": [
+    {
+     "class": "strong",
+     "label": "8-K 1.01 (הסכם מהותי)",
+     "date": "2026-11-05"
+    }
+   ],
+   "rsplit": null,
+   "cik": 1819516
+  },
+  "forum": {
+   "rising": null,
+   "novel": false
+  },
+  "invalidation": 2.414,
+  "news": {
+   "ticker": "UP",
+   "title": "Wheels Up Announces Third Quarter Results",
+   "src": "Yahoo",
+   "ts": "2026-11-05T11:57+00:00",
+   "class": "neutral",
+   "rule": "",
+   "offering": false,
+   "amount_m": null
+  },
+  "urgent": false,
+  "urgent_why": [],
+  "path": "buzz",
+  "telegram_sent": true,
+  "outcome": {
+   "days": 1,
+   "last_close": 2.859999895095825,
+   "last_pct": 0.7,
+   "max_close_pct": 0.7,
+   "max_high_pct": 9.9,
+   "d1_pct": 0.7
   }
  }
 ]
