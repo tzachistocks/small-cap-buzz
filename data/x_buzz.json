@@ -1,16 +1,17 @@
 {
  "month": "2026-11",
- "month_credits": 683,
+ "month_credits": 792,
  "exhausted": false,
- "day": "2026-11-04",
- "day_credits": 153,
+ "day": "2026-11-05",
+ "day_credits": 109,
  "done": [
   "2026-11-02T12",
   "2026-11-02T17",
   "2026-11-03T12",
   "2026-11-03T17",
   "2026-11-04T12",
-  "2026-11-04T17"
+  "2026-11-04T17",
+  "2026-11-05T12"
  ],
  "tickers": {
   "GMHS": {
@@ -34,7 +35,7 @@
    "posts6": 0,
    "authors": 0,
    "likes": 0,
-   "ts": "2026-11-04T17:07+00:00",
+   "ts": "2026-11-05T12:07+00:00",
    "full": true
   },
   "HQ": {
@@ -58,7 +59,7 @@
    "posts6": 0,
    "authors": 0,
    "likes": 0,
-   "ts": "2026-11-04T17:07+00:00",
+   "ts": "2026-11-05T12:07+00:00",
    "full": true
   },
   "SG": {
@@ -172,18 +173,67 @@
    "likes": 0,
    "ts": "2026-11-04T17:07+00:00",
    "full": true
+  },
+  "CRIS": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-05T12:07+00:00",
+   "full": true
+  },
+  "SNDX": {
+   "posts": 9,
+   "posts6": 9,
+   "authors": 8,
+   "likes": 3,
+   "ts": "2026-11-05T12:07+00:00",
+   "full": true
+  },
+  "LIVN": {
+   "posts": 1,
+   "posts6": 0,
+   "authors": 1,
+   "likes": 0,
+   "ts": "2026-11-05T12:07+00:00",
+   "full": true
+  },
+  "BRKR": {
+   "posts": 5,
+   "posts6": 2,
+   "authors": 5,
+   "likes": 6,
+   "ts": "2026-11-05T12:07+00:00",
+   "full": true
+  },
+  "KURA": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-05T12:07+00:00",
+   "full": true
+  },
+  "LYEL": {
+   "posts": 4,
+   "posts6": 0,
+   "authors": 3,
+   "likes": 1,
+   "ts": "2026-11-05T12:07+00:00",
+   "full": true
   }
  },
  "discovery": {
-  "day": "2026-11-04",
+  "day": "2026-11-05",
   "tickers": {
-   "GME": 2,
-   "HTZ": 2,
-   "ONDS": 1,
-   "POWL": 1,
-   "NBIS": 1,
-   "OPEN": 1
+   "HTZ": 3,
+   "SOL": 1,
+   "BTC": 1,
+   "AIN": 1,
+   "DKI": 1,
+   "CRIS": 1,
+   "OMH": 1
   }
  },
- "discovery_day": "2026-11-04"
+ "discovery_day": "2026-11-05"
 }

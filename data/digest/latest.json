@@ -1,24 +1,24 @@
 {
  "date": "2026-11-05",
- "generated_at": "2026-11-05T11:07+00:00",
+ "generated_at": "2026-11-05T12:07+00:00",
  "final": false,
  "runs": {
-  "count": 6,
+  "count": 7,
   "first": "2026-11-05T07:07+00:00",
-  "last": "2026-11-05T11:07+00:00",
+  "last": "2026-11-05T12:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 1694,
-   "mention_gate": 216,
+   "buzz_tickers": 1977,
+   "mention_gate": 256,
    "reddit_path": 1,
    "telegram_path": 0,
    "news_path": 0,
-   "skipped_large_cache": 336,
-   "shadow_gate": 137,
-   "to_check": 18,
-   "checked": 18,
+   "skipped_large_cache": 399,
+   "shadow_gate": 162,
+   "to_check": 20,
+   "checked": 20,
    "not_checked_time": 0,
    "blocked": {
-    "כבר": 24,
+    "כבר": 28,
     "שווי": 4
    },
    "below_score": 2,
@@ -31,7 +31,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 513
+   "messages": 509
   },
   "per_run": [
    {
@@ -71,6 +71,13 @@
    },
    {
     "ts": "2026-11-05T11:07+00:00",
+    "checked": 2,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 0
+   },
+   {
+    "ts": "2026-11-05T12:07+00:00",
     "checked": 2,
     "sent": 0,
     "send_failed": 0,
@@ -4639,8 +4646,8 @@
  "social_today": {
   "reddit_top": {
    "HTZ": {
-    "m24_max": 21,
-    "authors24_max": 15,
+    "m24_max": 25,
+    "authors24_max": 16,
     "subs": [
      "Shortsqueeze",
      "pennystocks",
@@ -5037,6 +5044,12 @@
     "chats24_max": 1,
     "first_utc": "2026-11-04T20:37+00:00"
    },
+   "UK": {
+    "m24_max": 4,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T16:03+00:00"
+   },
    "FIS": {
     "m24_max": 4,
     "authors24_max": 1,
@@ -5060,12 +5073,6 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T14:51+00:00"
-   },
-   "UK": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-04T16:03+00:00"
    },
    "NET": {
     "m24_max": 3,
@@ -5187,6 +5194,12 @@
     "chats24_max": 1,
     "first_utc": "2026-11-04T15:42+00:00"
    },
+   "LPG": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T20:57+00:00"
+   },
    "RSVR": {
     "m24_max": 2,
     "authors24_max": 1,
@@ -5228,12 +5241,6 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T15:22+00:00"
-   },
-   "FSLR": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-04T16:44+00:00"
    }
   },
   "telegram_all": {
@@ -5286,7 +5293,7 @@
     "first_utc": "2026-11-05T05:03+00:00"
    },
    "UK": {
-    "m24_max": 3,
+    "m24_max": 4,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T16:03+00:00"
@@ -5670,7 +5677,7 @@
     "first_utc": "2026-11-04T20:57+00:00"
    },
    "LPG": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T20:57+00:00"
@@ -6690,7 +6697,7 @@
     "first_utc": "2026-11-04T11:55+00:00"
    },
    "BDX": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T11:53+00:00"
@@ -7030,6 +7037,126 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-05T10:57+00:00"
+   },
+   "ZTS": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T12:07+00:00"
+   },
+   "LYTS": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T12:06+00:00"
+   },
+   "EVRG": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T12:04+00:00"
+   },
+   "BKV": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T12:04+00:00"
+   },
+   "DTE": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T12:02+00:00"
+   },
+   "MPC": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T12:01+00:00"
+   },
+   "BOE": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T12:01+00:00"
+   },
+   "RSKD": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T12:01+00:00"
+   },
+   "KTB": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T11:59+00:00"
+   },
+   "USFD": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T11:52+00:00"
+   },
+   "IRM": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T11:52+00:00"
+   },
+   "WMS": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T11:46+00:00"
+   },
+   "CAH": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T11:49+00:00"
+   },
+   "ACR": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T11:48+00:00"
+   },
+   "GHM": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T11:37+00:00"
+   },
+   "KMB": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T11:37+00:00"
+   },
+   "BCE": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T11:34+00:00"
+   },
+   "FCF": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T11:31+00:00"
+   },
+   "NWN": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T11:10+00:00"
+   },
+   "DUK": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T11:09+00:00"
    }
   }
  },

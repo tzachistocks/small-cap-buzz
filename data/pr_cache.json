@@ -1,11 +1,5 @@
 [
  {
-  "ticker": "NSSC",
-  "title": "NAPCO Security Technologies, Inc. Reports Fiscal Q1 2027 Results",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T12:00+00:00"
- },
- {
   "ticker": "TOYO",
   "title": "TOYO to Exhibit at RE+ 2026 and Participate in ROTH Solar & Storage Symposium",
   "src": "PR Newswire",
@@ -1012,5 +1006,29 @@
   "title": "Opera reaches 100 million PC users for the first time, growing 16% year over year",
   "src": "PR Newswire",
   "ts": "2026-11-05T11:00+00:00"
+ },
+ {
+  "ticker": "TRIP",
+  "title": "Tripadvisor, Inc. Earnings Press Release Available on Company's Investor Relations Site",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T12:07+00:00"
+ },
+ {
+  "ticker": "TRIP",
+  "title": "Tripadvisor Announces Management Departures and Transition Plan",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T12:05+00:00"
+ },
+ {
+  "ticker": "SSTK",
+  "title": "Shutterstock Reports Third Quarter 2026 Financial Results",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T12:02+00:00"
+ },
+ {
+  "ticker": "EVGN",
+  "title": "Evogene Schedules Third Quarter 2026 Financial Results Release",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T12:00+00:00"
  }
 ]
