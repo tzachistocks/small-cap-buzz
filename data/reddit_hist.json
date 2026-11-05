@@ -7671,7 +7671,7 @@
    "first_utc": "2026-11-05T05:15+00:00"
   },
   "RZLV": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "subs": [
     "pennystocks"
@@ -7912,8 +7912,8 @@
    "sample": "r/pennystocks: iQSTEL (NASDAQ: IQST) Reports Preliminary Q3 2026 Revenue of $106.0 Million; Nine-Month Re"
   },
   "LABT": {
-   "m24_max": 2,
-   "authors24_max": 2,
+   "m24_max": 3,
+   "authors24_max": 3,
    "subs": [
     "pennystocks",
     "smallstreetbets"
@@ -8279,6 +8279,30 @@
     "Shortsqueeze"
    ],
    "first_utc": "2026-11-05T17:33+00:00"
+  },
+  "LINK": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T20:03+00:00"
+  },
+  "DE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T19:56+00:00"
+  },
+  "LBGJ": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-05T19:46+00:00"
   }
  }
 }

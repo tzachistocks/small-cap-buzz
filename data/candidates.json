@@ -5635,5 +5635,50 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-11-05|RGTI": {
+  "ts": "2026-11-05T20:07+00:00",
+  "ticker": "RGTI",
+  "score": 4,
+  "max_score": 4,
+  "price": 9.8505,
+  "move_pct": -12.13,
+  "cap_m": 3290.0,
+  "blocked": [
+   "שווי $3290M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel",
+   "short"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-05|BYND": {
+  "ts": "2026-11-05T20:07+00:00",
+  "ticker": "BYND",
+  "score": 6,
+  "max_score": 6,
+  "price": 6.04,
+  "move_pct": -15.52,
+  "cap_m": 110.29,
+  "blocked": [],
+  "tags": [
+   "relaxed_gate",
+   "spread",
+   "st_msgs",
+   "short",
+   "low_float",
+   "borrow_fee",
+   "sec_weak",
+   "pr_weak"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }

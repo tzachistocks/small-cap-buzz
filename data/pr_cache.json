@@ -1,11 +1,5 @@
 [
  {
-  "ticker": "COMP",
-  "title": "Compass, Inc. (COMP) Class Action Lawsuit Seeks Recovery for Investors; December 8, 2026 Deadline- Contact Kessler Topaz Meltzer & Check, LLP",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T19:36+00:00"
- },
- {
   "ticker": "RLGT",
   "title": "RADIANT LOGISTICS TO HOST INVESTOR CALL TO DISCUSS FINANCIAL RESULTS FOR FIRST FISCAL QUARTER ENDED SEPTEMBER 30, 2026",
   "src": "PR Newswire",
@@ -1036,5 +1030,47 @@
   "title": "Research Solutions to Announce First Quarter Fiscal Year 2027 Results on Thursday, November 12, 2026",
   "src": "PR Newswire",
   "ts": "2026-11-05T17:56+00:00"
+ },
+ {
+  "ticker": "MRP",
+  "title": "Millrose Properties, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - MRP",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T19:47+00:00"
+ },
+ {
+  "ticker": "ENSG",
+  "title": "ENSG Investors Have Opportunity to Lead The Ensign Group, Inc. Securities Fraud Lawsuit with SBS Law",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T19:45+00:00"
+ },
+ {
+  "ticker": "BAC",
+  "title": "Bank of America Corporation Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - BAC",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T19:43+00:00"
+ },
+ {
+  "ticker": "OI",
+  "title": "O-I Glass, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - OI",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T19:42+00:00"
+ },
+ {
+  "ticker": "QBTS",
+  "title": "D-Wave Quantum Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - QBTS",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T19:41+00:00"
+ },
+ {
+  "ticker": "QBTS",
+  "title": "QBTS Investors Have Opportunity to Lead D-Wave Quantum Inc. Securities Fraud Lawsuit with SBS Law",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T19:39+00:00"
+ },
+ {
+  "ticker": "CLBT",
+  "title": "Cellebrite ernennt Rogerio Rizzi zum Executive Vice President für Corporate Strategy and Development",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T19:31+00:00"
  }
 ]
