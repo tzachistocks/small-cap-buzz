@@ -12981,7 +12981,7 @@
    "first_utc": "2026-11-04T20:14+00:00"
   },
   "AIR": {
-   "m24_max": 2,
+   "m24_max": 3,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-04T14:22+00:00"
@@ -13329,7 +13329,7 @@
    "first_utc": "2026-11-04T17:31+00:00"
   },
   "RIOT": {
-   "m24_max": 3,
+   "m24_max": 4,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-04T14:51+00:00"
@@ -14035,6 +14035,36 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-05T10:12+00:00"
+  },
+  "ACIW": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T11:07+00:00"
+  },
+  "ACI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T11:07+00:00"
+  },
+  "EPAM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T11:05+00:00"
+  },
+  "CI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T11:05+00:00"
+  },
+  "TV": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T10:57+00:00"
   }
  }
 }

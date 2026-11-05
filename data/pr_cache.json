@@ -1,29 +1,5 @@
 [
  {
-  "ticker": "NCTY",
-  "title": "The9 Limited to Hold Annual General Meeting on December 4, 2026",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T11:00+00:00"
- },
- {
-  "ticker": "L",
-  "title": "LOEWS CORPORATION REPORTS NET INCOME OF $306 MILLION FOR THE THIRD QUARTER OF 2026",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T11:00+00:00"
- },
- {
-  "ticker": "NESR",
-  "title": "NESR to Release Third Quarter 2026 Financial Results on November 9th",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T11:00+00:00"
- },
- {
-  "ticker": "AIIO",
-  "title": "Robo.ai Appoints W Motors Founder Ralph R. Debbas as Group President",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T11:00+00:00"
- },
- {
   "ticker": "NSSC",
   "title": "NAPCO Security Technologies, Inc. Reports Fiscal Q1 2027 Results",
   "src": "PR Newswire",
@@ -1006,5 +982,35 @@
   "title": "Ecovyst Reports Third Quarter 2026 Results and Raises 2026 Outlook",
   "src": "PR Newswire",
   "ts": "2026-11-05T10:00+00:00"
+ },
+ {
+  "ticker": "LMND",
+  "title": "Lemonade Announces Third Quarter 2026 Financial Results",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T11:01+00:00"
+ },
+ {
+  "ticker": "ASTS",
+  "title": "INVESTOR DEADLINE: AST SpaceMobile, Inc. (ASTS) Investors with Substantial Losses May Seek to Lead Class Action Lawsuit Before November 13, 2026 Deadline",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T11:00+00:00"
+ },
+ {
+  "ticker": "HAE",
+  "title": "Haemonetics Corporation Announces Second Quarter Fiscal 2027 Financial Results Available on Investor Relations Website",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T11:00+00:00"
+ },
+ {
+  "ticker": "PRMB",
+  "title": "Primo Brands Reports 2026 Third Quarter Results",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T11:00+00:00"
+ },
+ {
+  "ticker": "OPRA",
+  "title": "Opera reaches 100 million PC users for the first time, growing 16% year over year",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T11:00+00:00"
  }
 ]

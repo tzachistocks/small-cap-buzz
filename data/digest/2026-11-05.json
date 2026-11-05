@@ -1,24 +1,24 @@
 {
  "date": "2026-11-05",
- "generated_at": "2026-11-05T10:56+00:00",
+ "generated_at": "2026-11-05T11:07+00:00",
  "final": false,
  "runs": {
-  "count": 5,
+  "count": 6,
   "first": "2026-11-05T07:07+00:00",
-  "last": "2026-11-05T10:56+00:00",
+  "last": "2026-11-05T11:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 1412,
-   "mention_gate": 173,
+   "buzz_tickers": 1694,
+   "mention_gate": 216,
    "reddit_path": 1,
    "telegram_path": 0,
    "news_path": 0,
-   "skipped_large_cache": 270,
-   "shadow_gate": 112,
-   "to_check": 16,
-   "checked": 16,
+   "skipped_large_cache": 336,
+   "shadow_gate": 137,
+   "to_check": 18,
+   "checked": 18,
    "not_checked_time": 0,
    "blocked": {
-    "כבר": 20,
+    "כבר": 24,
     "שווי": 4
    },
    "below_score": 2,
@@ -31,7 +31,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 519
+   "messages": 513
   },
   "per_run": [
    {
@@ -65,6 +65,13 @@
    {
     "ts": "2026-11-05T10:56+00:00",
     "checked": 4,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 0
+   },
+   {
+    "ts": "2026-11-05T11:07+00:00",
+    "checked": 2,
     "sent": 0,
     "send_failed": 0,
     "errors_n": 0
@@ -4670,6 +4677,23 @@
     ],
     "first_utc": "2026-11-05T05:51+00:00"
    },
+   "IREN": {
+    "m24_max": 3,
+    "authors24_max": 3,
+    "subs": [
+     "Shortsqueeze"
+    ],
+    "first_utc": "2026-11-04T20:43+00:00",
+    "sample": "r/Shortsqueeze: $IREN short interested increased ~20M shares over 1 months timeframe"
+   },
+   "SI": {
+    "m24_max": 3,
+    "authors24_max": 1,
+    "subs": [
+     "Shortsqueeze"
+    ],
+    "first_utc": "2026-11-05T11:06+00:00"
+   },
    "HD": {
     "m24_max": 2,
     "authors24_max": 2,
@@ -4687,15 +4711,6 @@
     ],
     "first_utc": "2026-11-05T04:55+00:00"
    },
-   "IREN": {
-    "m24_max": 2,
-    "authors24_max": 2,
-    "subs": [
-     "Shortsqueeze"
-    ],
-    "first_utc": "2026-11-04T20:43+00:00",
-    "sample": "r/Shortsqueeze: $IREN short interested increased ~20M shares over 1 months timeframe"
-   },
    "SIRI": {
     "m24_max": 2,
     "authors24_max": 2,
@@ -4704,6 +4719,14 @@
     ],
     "first_utc": "2026-11-05T08:38+00:00",
     "sample": "r/smallstreetbets: SIRI or INTC: Which contrarian trade actually makes sense right now?"
+   },
+   "COUR": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "subs": [
+     "Shortsqueeze"
+    ],
+    "first_utc": "2026-11-05T11:00+00:00"
    },
    "UVIX": {
     "m24_max": 1,
@@ -4969,22 +4992,6 @@
      "pennystocks"
     ],
     "first_utc": "2026-11-05T07:19+00:00"
-   },
-   "DH": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "smallstreetbets"
-    ],
-    "first_utc": "2026-11-05T08:57+00:00"
-   },
-   "FBDT": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-05T10:01+00:00"
    }
   },
   "telegram_top": {
@@ -5048,6 +5055,12 @@
     "chats24_max": 1,
     "first_utc": "2026-11-04T11:26+00:00"
    },
+   "RIOT": {
+    "m24_max": 4,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T14:51+00:00"
+   },
    "UK": {
     "m24_max": 3,
     "authors24_max": 1,
@@ -5078,6 +5091,12 @@
     "chats24_max": 1,
     "first_utc": "2026-11-04T11:03+00:00"
    },
+   "AIR": {
+    "m24_max": 3,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-04T14:22+00:00"
+   },
    "SNDX": {
     "m24_max": 3,
     "authors24_max": 2,
@@ -5089,12 +5108,6 @@
     "authors24_max": 2,
     "chats24_max": 2,
     "first_utc": "2026-11-04T14:07+00:00"
-   },
-   "RIOT": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-04T14:51+00:00"
    },
    "PMI": {
     "m24_max": 3,
@@ -5191,12 +5204,6 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T17:19+00:00"
-   },
-   "AIR": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-04T14:22+00:00"
    },
    "BTU": {
     "m24_max": 2,
@@ -5939,7 +5946,7 @@
     "first_utc": "2026-11-04T20:14+00:00"
    },
    "AIR": {
-    "m24_max": 2,
+    "m24_max": 3,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T14:22+00:00"
@@ -6287,7 +6294,7 @@
     "first_utc": "2026-11-04T17:31+00:00"
    },
    "RIOT": {
-    "m24_max": 3,
+    "m24_max": 4,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-04T14:51+00:00"
@@ -6993,6 +7000,36 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-05T10:12+00:00"
+   },
+   "ACIW": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T11:07+00:00"
+   },
+   "ACI": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T11:07+00:00"
+   },
+   "EPAM": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T11:05+00:00"
+   },
+   "CI": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T11:05+00:00"
+   },
+   "TV": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T10:57+00:00"
    }
   }
  },
