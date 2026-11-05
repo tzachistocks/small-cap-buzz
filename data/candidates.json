@@ -5090,7 +5090,7 @@
   "ts": "2026-11-05T15:07+00:00",
   "ticker": "LOT",
   "score": 3,
-  "max_score": 3,
+  "max_score": 4,
   "price": 0.2999,
   "move_pct": -11.32,
   "cap_m": 192.07,
@@ -5099,9 +5099,10 @@
    "vel3h",
    "spread",
    "sec_weak",
-   "pr_weak"
+   "pr_weak",
+   "accel"
   ],
-  "alerted": false,
+  "alerted": true,
   "urgent": false,
   "outcome": {}
  },
@@ -5138,6 +5139,308 @@
    "accel",
    "vel3h",
    "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-05|DNUT": {
+  "ts": "2026-11-05T17:07+00:00",
+  "ticker": "DNUT",
+  "score": 6,
+  "max_score": 6,
+  "price": 4.59,
+  "move_pct": 30.4,
+  "cap_m": 797.51,
+  "blocked": [
+   "כבר זזה +30%",
+   "שווי $798M"
+  ],
+  "tags": [
+   "accel",
+   "vel3h",
+   "spread",
+   "novel",
+   "x_buzz",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-05|LI": {
+  "ts": "2026-11-05T17:07+00:00",
+  "ticker": "LI",
+  "score": 4,
+  "max_score": 4,
+  "price": 11.845,
+  "move_pct": 2.29,
+  "cap_m": 10090.0,
+  "blocked": [
+   "שווי $10090M"
+  ],
+  "tags": [
+   "accel",
+   "vel3h",
+   "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-05|LABT": {
+  "ts": "2026-11-05T17:07+00:00",
+  "ticker": "LABT",
+  "score": 9,
+  "max_score": 9,
+  "price": 0.6841,
+  "move_pct": 257.42,
+  "cap_m": 1.6,
+  "blocked": [
+   "כבר זזה +257%",
+   "שווי $1.6M (נמוך מדי או נתון שגוי)"
+  ],
+  "tags": [
+   "accel",
+   "vel3h",
+   "spread",
+   "novel",
+   "x_buzz",
+   "low_float",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-05|RR": {
+  "ts": "2026-11-05T17:07+00:00",
+  "ticker": "RR",
+  "score": 4,
+  "max_score": 4,
+  "price": 0.8329,
+  "move_pct": -7.48,
+  "cap_m": 187.56,
+  "blocked": [],
+  "tags": [
+   "accel",
+   "vel3h",
+   "novel",
+   "st_msgs",
+   "short",
+   "word"
+  ],
+  "alerted": true,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-05|UP": {
+  "ts": "2026-11-05T17:07+00:00",
+  "ticker": "UP",
+  "score": 4,
+  "max_score": 4,
+  "price": 2.96,
+  "move_pct": -3.58,
+  "cap_m": 107.74,
+  "blocked": [],
+  "tags": [
+   "accel",
+   "vel3h",
+   "spread",
+   "low_float",
+   "sec_strong",
+   "word"
+  ],
+  "alerted": true,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-05|INFQ": {
+  "ts": "2026-11-05T17:07+00:00",
+  "ticker": "INFQ",
+  "score": 3,
+  "max_score": 3,
+  "price": 7.34,
+  "move_pct": -14.25,
+  "cap_m": 1660.0,
+  "blocked": [
+   "שווי $1660M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-05|HERE": {
+  "ts": "2026-11-05T17:07+00:00",
+  "ticker": "HERE",
+  "score": 4,
+  "max_score": 4,
+  "price": 1.395,
+  "move_pct": -7.62,
+  "cap_m": 51.42,
+  "blocked": [],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "low_float"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-05|TIL": {
+  "ts": "2026-11-05T17:07+00:00",
+  "ticker": "TIL",
+  "score": 5,
+  "max_score": 5,
+  "price": 7.05,
+  "move_pct": 0.86,
+  "cap_m": 47.88,
+  "blocked": [],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "rising",
+   "low_float"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-05|BRO": {
+  "ts": "2026-11-05T17:07+00:00",
+  "ticker": "BRO",
+  "score": 3,
+  "max_score": 3,
+  "price": 73.825,
+  "move_pct": -0.09,
+  "cap_m": 24470.0,
+  "blocked": [
+   "שווי $24470M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-05|PLCE": {
+  "ts": "2026-11-05T17:07+00:00",
+  "ticker": "PLCE",
+  "score": 10,
+  "max_score": 10,
+  "price": 0.3202,
+  "move_pct": 32.86,
+  "cap_m": 7.12,
+  "blocked": [
+   "כבר זזה +33%"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "spread",
+   "novel",
+   "short",
+   "low_float",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-05|MP": {
+  "ts": "2026-11-05T17:07+00:00",
+  "ticker": "MP",
+  "score": 5,
+  "max_score": 5,
+  "price": 33.66,
+  "move_pct": -6.27,
+  "cap_m": 5990.0,
+  "blocked": [
+   "שווי $5990M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel",
+   "short",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-05|INOD": {
+  "ts": "2026-11-05T17:07+00:00",
+  "ticker": "INOD",
+  "score": 3,
+  "max_score": 3,
+  "price": 37.565,
+  "move_pct": -13.24,
+  "cap_m": 1290.0,
+  "blocked": [
+   "שווי $1290M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "low_float"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-05|CAR": {
+  "ts": "2026-11-05T17:07+00:00",
+  "ticker": "CAR",
+  "score": 4,
+  "max_score": 4,
+  "price": 115.8,
+  "move_pct": -3.35,
+  "cap_m": 4100.0,
+  "blocked": [
+   "שווי $4100M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "spread",
+   "novel",
+   "low_float"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-05|MAN": {
+  "ts": "2026-11-05T17:07+00:00",
+  "ticker": "MAN",
+  "score": 3,
+  "max_score": 3,
+  "price": 46.25,
+  "move_pct": -1.45,
+  "cap_m": 2150.0,
+  "blocked": [
+   "שווי $2150M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "low_float"
   ],
   "alerted": false,
   "urgent": false,

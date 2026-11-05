@@ -1479,9 +1479,9 @@
   "telegram_sent": true,
   "outcome": {
    "days": 4,
-   "last_close": 6.75,
-   "last_pct": 10.3,
-   "max_close_pct": 10.3,
+   "last_close": 6.679999828338623,
+   "last_pct": 9.2,
+   "max_close_pct": 9.2,
    "max_high_pct": 10.6,
    "d1_pct": -1.8
   },
@@ -1613,8 +1613,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 4,
-   "last_close": 2.3199000358581543,
-   "last_pct": -0.4,
+   "last_close": 2.2799999713897705,
+   "last_pct": -2.1,
    "max_close_pct": 6.9,
    "max_high_pct": 7.8,
    "d1_pct": -6.8
@@ -1750,12 +1750,385 @@
   "telegram_sent": true,
   "outcome": {
    "days": 4,
-   "last_close": 0.666700005531311,
-   "last_pct": 9.3,
-   "max_close_pct": 13.4,
+   "last_close": 0.6998999714851379,
+   "last_pct": 14.7,
+   "max_close_pct": 14.7,
    "max_high_pct": 21.3,
    "d1_pct": 13.4
   },
   "followups": {}
+ },
+ {
+  "id": "202611051707-RR",
+  "ts": "2026-11-05T17:07+00:00",
+  "ticker": "RR",
+  "score": 4,
+  "why": [
+   "האצה x3.5 מול הבסיס",
+   "+3 אזכורים ב-3 שעות",
+   "חדשה בשיח (לא דוברה 14 יום)",
+   "13 הודעות בסטוקטוויטס ב-6 שעות",
+   "שורט 20%",
+   "חשד להתראת שווא (מילה)"
+  ],
+  "price": {
+   "price": 0.8329,
+   "prev_close": 0.9002,
+   "move_pct": -7.48,
+   "vol_today": 3254929,
+   "avg_vol20": 5632235,
+   "rel_vol": 0.58,
+   "exchange": "NCM",
+   "name": "Richtech Robotics Inc.",
+   "readiness": {
+    "points": 2,
+    "why": [
+     "ירדה 55% משיא 60 יום",
+     "מתחת ל-$1"
+    ],
+    "risk": [],
+    "asof": "2026-11-04",
+    "f": {
+     "rvol_1": 1.6065,
+     "atr_ratio": 1.2868,
+     "drawdown_60": -0.5477,
+     "vol20": 0.0472,
+     "prior_runs_120": 0.0,
+     "ret_1d": -0.0312,
+     "ret_3d": -0.0476,
+     "ret_10d": -0.28,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.5488
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 187.56,
+   "float_m": 183.17,
+   "short_float_pct": 20.49,
+   "days_to_cover": 7.07,
+   "src": "finviz"
+  },
+  "m_now": 5,
+  "m_24h_ago": 1,
+  "spread": [
+   "Daytrading"
+  ],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 13,
+   "users": 25,
+   "bull": 11,
+   "bear": 4,
+   "oldest_min": 1290,
+   "watchlist": 23330
+  },
+  "borrow": {
+   "fee": 0.7185,
+   "available": 2100000,
+   "fee_5d": null,
+   "available_5d": null
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "x": null,
+  "profile": {
+   "country": "NV",
+   "inc": "NV",
+   "asia": null,
+   "sic": "General Industrial Machinery & Equipment, NEC",
+   "ts": "2026-11-05T17:09+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [],
+   "filings": [],
+   "rsplit": null,
+   "cik": 1963685
+  },
+  "forum": {
+   "rising": null,
+   "novel": true
+  },
+  "invalidation": 0.708,
+  "news": null,
+  "urgent": false,
+  "urgent_why": [],
+  "path": "buzz",
+  "telegram_sent": true,
+  "outcome": {
+   "days": 1,
+   "last_close": 0.8327999711036682,
+   "last_pct": -0.0,
+   "max_close_pct": -0.0,
+   "max_high_pct": 9.8,
+   "d1_pct": -0.0
+  }
+ },
+ {
+  "id": "202611051707-UP",
+  "ts": "2026-11-05T17:07+00:00",
+  "ticker": "UP",
+  "score": 4,
+  "why": [
+   "האצה x2.25",
+   "+4 אזכורים ב-3 שעות",
+   "פיזור ב-6 פורומים",
+   "פלואט 22.7M",
+   "SEC חזק: 8-K 1.01 (הסכם מהותי) (2026-11-05)",
+   "חשד להתראת שווא (מילה)"
+  ],
+  "price": {
+   "price": 2.96,
+   "prev_close": 3.07,
+   "move_pct": -3.58,
+   "vol_today": 63573,
+   "avg_vol20": 76225,
+   "rel_vol": 0.83,
+   "exchange": "NYQ",
+   "name": "Wheels Up Experience Inc.",
+   "readiness": {
+    "points": 0,
+    "why": [],
+    "risk": [],
+    "asof": "2026-11-04",
+    "f": {
+     "rvol_1": 1.0615,
+     "atr_ratio": 0.9428,
+     "drawdown_60": -0.4367,
+     "vol20": 0.0431,
+     "prior_runs_120": 0.0,
+     "ret_1d": -0.0406,
+     "ret_3d": -0.0376,
+     "ret_10d": -0.0612,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.7637
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 107.74,
+   "float_m": 22.7,
+   "short_float_pct": 3.79,
+   "days_to_cover": 8.33,
+   "src": "finviz"
+  },
+  "m_now": 16,
+  "m_24h_ago": 4,
+  "spread": [
+   "Daytrading",
+   "Shortsqueeze",
+   "WallStreetbetsELITE",
+   "Wallstreetbetsnew",
+   "pennystocks",
+   "wallstreetbets"
+  ],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 2,
+   "users": 19,
+   "bull": 7,
+   "bear": 4,
+   "oldest_min": 181618,
+   "watchlist": 3392
+  },
+  "borrow": {
+   "fee": 18.5025,
+   "available": 150000,
+   "fee_5d": 18.1473,
+   "available_5d": 100000
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "x": null,
+  "profile": {
+   "country": "GA",
+   "inc": "",
+   "asia": null,
+   "sic": "Air Transportation, Nonscheduled",
+   "ts": "2026-10-27T13:08+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [
+    "8-K 2026-11-05"
+   ],
+   "filings": [
+    {
+     "class": "strong",
+     "label": "8-K 1.01 (הסכם מהותי)",
+     "date": "2026-11-05"
+    }
+   ],
+   "rsplit": null,
+   "cik": 1819516
+  },
+  "forum": {
+   "rising": null,
+   "novel": false
+  },
+  "invalidation": 2.516,
+  "news": {
+   "ticker": "UP",
+   "title": "Wheels Up Announces Third Quarter Results",
+   "src": "Yahoo",
+   "ts": "2026-11-05T11:57+00:00",
+   "class": "neutral",
+   "rule": "",
+   "offering": false,
+   "amount_m": null
+  },
+  "urgent": false,
+  "urgent_why": [],
+  "path": "buzz",
+  "telegram_sent": true,
+  "outcome": {
+   "days": 1,
+   "last_close": 2.9600000381469727,
+   "last_pct": 0.0,
+   "max_close_pct": 0.0,
+   "max_high_pct": 5.4,
+   "d1_pct": 0.0
+  }
+ },
+ {
+  "id": "202611051707-LOT",
+  "ts": "2026-11-05T17:07+00:00",
+  "ticker": "LOT",
+  "score": 4,
+  "why": [
+   "האצה x2.0",
+   "+8 אזכורים ב-3 שעות",
+   "פיזור ב-5 פורומים",
+   "SEC רגיל: 6-K (2026-11-02)",
+   "PR רגיל (08:35 ET 05/11): International companies to host live webcasts at Deutsche Bank’s Depos"
+  ],
+  "price": {
+   "price": 0.307,
+   "prev_close": 0.3382,
+   "move_pct": -9.23,
+   "vol_today": 322212,
+   "avg_vol20": 196560,
+   "rel_vol": 1.64,
+   "exchange": "NMS",
+   "name": "Lotus Technology Inc.",
+   "readiness": {
+    "points": 5,
+    "why": [
+     "נפח אתמול פי 3.9",
+     "ירדה 76% משיא 60 יום",
+     "תנודתית (9% ביום)",
+     "מתחת ל-$1",
+     "עלתה 17% אתמול"
+    ],
+    "risk": [],
+    "asof": "2026-11-04",
+    "f": {
+     "rvol_1": 3.8998,
+     "atr_ratio": 1.1958,
+     "drawdown_60": -0.762,
+     "vol20": 0.0871,
+     "prior_runs_120": 0.0,
+     "ret_1d": 0.1655,
+     "ret_3d": -0.1399,
+     "ret_10d": -0.336,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.4225
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 196.69,
+   "float_m": 635.89,
+   "short_float_pct": 0.12,
+   "days_to_cover": 2.41,
+   "src": "finviz"
+  },
+  "m_now": 10,
+  "m_24h_ago": 1,
+  "spread": [
+   "Daytrading",
+   "Shortsqueeze",
+   "WallStreetbetsELITE",
+   "Wallstreetbetsnew",
+   "wallstreetbets"
+  ],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 0,
+   "users": 16,
+   "bull": 15,
+   "bear": 0,
+   "oldest_min": 89492,
+   "watchlist": 373
+  },
+  "borrow": {
+   "fee": 12.571,
+   "available": 2000000,
+   "fee_5d": 12.4785,
+   "available_5d": 1700000
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "x": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-05T17:07+00:00",
+   "full": true
+  },
+  "profile": {
+   "country": "",
+   "inc": "E9",
+   "asia": null,
+   "sic": "Motor Vehicles & Passenger Car Bodies",
+   "ts": "2026-10-25T22:41+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [
+    "6-K 2026-11-02"
+   ],
+   "filings": [
+    {
+     "class": "weak",
+     "label": "6-K",
+     "date": "2026-11-02"
+    }
+   ],
+   "rsplit": null,
+   "cik": 1962746
+  },
+  "forum": {
+   "rising": null,
+   "novel": false
+  },
+  "invalidation": 0.261,
+  "news": {
+   "ticker": "LOT",
+   "title": "International companies to host live webcasts at Deutsche Bank’s Depositary Receipts Virtual Investor Conference on November 12, 2026",
+   "src": "Yahoo",
+   "ts": "2026-11-05T13:35+00:00",
+   "class": "weak",
+   "rule": "Conference",
+   "offering": false,
+   "amount_m": null
+  },
+  "urgent": false,
+  "urgent_why": [],
+  "path": "buzz",
+  "telegram_sent": true,
+  "outcome": {
+   "days": 1,
+   "last_close": 0.3070000112056732,
+   "last_pct": 0.0,
+   "max_close_pct": 0.0,
+   "max_high_pct": 17.2,
+   "d1_pct": 0.0
+  }
  }
 ]

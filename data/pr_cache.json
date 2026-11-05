@@ -1,17 +1,5 @@
 [
  {
-  "ticker": "EG",
-  "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against Everest Group, Ltd. (NYSE: EG) -- Investors Who Suffered Losses Are Encouraged to Contact the Firm",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T17:00+00:00"
- },
- {
-  "ticker": "PRAA",
-  "title": "PRA Group Celebrates 30 Years of Business by Ringing Nasdaq Opening Bell",
-  "src": "PR Newswire",
-  "ts": "2026-11-02T16:54+00:00"
- },
- {
   "ticker": "UNH",
   "title": "BetterInvesting™ Magazine Update on Amazon.com and UnitedHealth Group",
   "src": "PR Newswire",
@@ -1066,5 +1054,11 @@
   "title": "Fidelity Bank Expands Relationship with Alkami by Launching MANTL Loan Origination",
   "src": "PR Newswire",
   "ts": "2026-11-05T15:00+00:00"
+ },
+ {
+  "ticker": "CPK",
+  "title": "Chesapeake Utilities Corporation Announces Quarterly Dividend",
+  "src": "PR Newswire",
+  "ts": "2026-11-05T17:00+00:00"
  }
 ]

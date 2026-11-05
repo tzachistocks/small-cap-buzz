@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-05T15:07+00:00",
+ "ts": "2026-11-05T17:07+00:00",
  "reddit_ok": true,
  "stocktwits_trending": 30,
  "apewisdom_main": 300,
@@ -13,42 +13,46 @@
   "stocks",
   "wallstreetbets"
  ],
- "candidates": 10,
+ "candidates": 27,
  "telegram_groups": {
   "mode": "ok",
   "chats_ok": 14,
   "chats_failed": 0,
-  "messages": 494
+  "messages": 480
  },
  "x_weir": {
-  "mode": "idle",
-  "queried": 0,
-  "credits": 0,
-  "month_credits": 792,
-  "hits": 0,
-  "note": "לא בחלון X"
+  "mode": "ok",
+  "queried": 4,
+  "credits": 44,
+  "month_credits": 836,
+  "hits": 5,
+  "note": "עצר: תקרת קרדיטים"
  },
  "funnel": {
-  "buzz_tickers": 276,
-  "mention_gate": 51,
+  "buzz_tickers": 264,
+  "mention_gate": 82,
   "reddit_path": 0,
   "telegram_path": 1,
   "news_path": 1,
-  "skipped_large_cache": 77,
-  "shadow_gate": 34,
-  "to_check": 10,
-  "checked": 10,
+  "skipped_large_cache": 105,
+  "shadow_gate": 48,
+  "to_check": 27,
+  "checked": 27,
   "not_checked_time": 0,
   "blocked": {
-   "שווי": 4,
-   "כבר": 2
+   "כבר": 5,
+   "שווי": 14,
+   "אין": 1
   },
   "below_score": 3,
   "cooldown": 0,
-  "shadow_would_alert": 1,
-  "sent": 0,
+  "shadow_would_alert": 3,
+  "sent": 3,
   "send_failed": 0
  },
  "not_checked": [],
- "errors": []
+ "errors": [
+  "HTTP 404 https://query1.finance.yahoo.com/v8/finance/chart/BABY",
+  "HTTP 404 https://finviz.com/quote.ashx?t=BABY&p=d"
+ ]
 }

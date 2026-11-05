@@ -215,5 +215,12 @@
   "asia": null,
   "sic": "Services-Management Consulting Services",
   "ts": "2026-11-03T22:08+00:00"
+ },
+ "RR": {
+  "country": "NV",
+  "inc": "NV",
+  "asia": null,
+  "sic": "General Industrial Machinery & Equipment, NEC",
+  "ts": "2026-11-05T17:09+00:00"
  }
 }

@@ -8191,6 +8191,59 @@
     "pennystocks"
    ],
    "first_utc": "2026-11-05T14:47+00:00"
+  },
+  "SPCX": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T16:32+00:00",
+   "sample": "r/smallstreetbets: Wild ride today I was just holding USAR shares. Sold @200$ loss bought a SPCX call at the "
+  },
+  "USAR": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T16:32+00:00",
+   "sample": "r/smallstreetbets: Wild ride today I was just holding USAR shares. Sold @200$ loss bought a SPCX call at the "
+  },
+  "TRT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T16:20+00:00",
+   "sample": "r/pennystocks: Trio-Tech Upgraded by Zacks to Outperform on Backlog Growth & Strong Liquidity"
+  },
+  "IE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T16:20+00:00",
+   "sample": "r/pennystocks: Trio-Tech Upgraded by Zacks to Outperform on Backlog Growth & Strong Liquidity"
+  },
+  "AGI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T16:00+00:00",
+   "sample": "r/smallstreetbets: Reason for Market bleeding red"
+  },
+  "KO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T16:55+00:00"
   }
  }
 }
