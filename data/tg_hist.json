@@ -15669,7 +15669,7 @@
    "first_utc": "2026-11-05T21:31+00:00"
   },
   "NUS": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-05T21:31+00:00"
@@ -15799,6 +15799,12 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-05T22:07+00:00"
+  },
+  "NYT": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T22:30+00:00"
   }
  }
 }

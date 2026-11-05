@@ -2613,6 +2613,7 @@
    "max_close_pct": 0.7,
    "max_high_pct": 9.9,
    "d1_pct": 0.7
-  }
+  },
+  "followups": {}
  }
 ]
