@@ -7369,6 +7369,7 @@
    "authors24_max": 15,
    "subs": [
     "Shortsqueeze",
+    "pennystocks",
     "smallstreetbets"
    ],
    "first_utc": "2026-11-04T17:25+00:00",
@@ -7465,8 +7466,8 @@
    "sample": "r/pennystocks: What do we think about CBL properties…"
   },
   "IREN": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "Shortsqueeze"
    ],
@@ -7709,6 +7710,22 @@
     "smallstreetbets"
    ],
    "first_utc": "2026-11-05T08:57+00:00"
+  },
+  "FBDT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T10:01+00:00"
+  },
+  "BYND": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T09:09+00:00"
   }
  }
 }

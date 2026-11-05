@@ -12321,7 +12321,7 @@
    "first_utc": "2026-11-05T05:03+00:00"
   },
   "UK": {
-   "m24_max": 2,
+   "m24_max": 3,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-04T16:03+00:00"
@@ -13551,7 +13551,7 @@
    "first_utc": "2026-11-04T14:45+00:00"
   },
   "PMI": {
-   "m24_max": 2,
+   "m24_max": 3,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-04T14:32+00:00"
@@ -14005,6 +14005,18 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-05T09:01+00:00"
+  },
+  "ROAD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T09:31+00:00"
+  },
+  "TRX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-05T09:10+00:00"
   }
  }
 }

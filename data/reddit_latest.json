@@ -1,19 +1,21 @@
 {
- "ts": "2026-11-05T09:07+00:00",
+ "ts": "2026-11-05T10:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
   "HTZ": {
-   "m6": 17,
-   "m24": 20,
+   "m6": 16,
+   "m24": 19,
    "authors6": 14,
    "authors24": 15,
    "subs6": [
     "Shortsqueeze",
+    "pennystocks",
     "smallstreetbets"
    ],
    "subs24": [
     "Shortsqueeze",
+    "pennystocks",
     "smallstreetbets"
    ],
    "first_utc": "2026-11-04T17:25+00:00",
@@ -92,6 +94,20 @@
    "first_utc": "2026-11-05T02:03+00:00",
    "sample": "r/smallstreetbets: HD Gains. We ride for Earnings."
   },
+  "IREN": {
+   "m6": 1,
+   "m24": 2,
+   "authors6": 1,
+   "authors24": 2,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T20:43+00:00",
+   "sample": "r/Shortsqueeze: $IREN short interested increased ~20M shares over 1 months timeframe"
+  },
   "BBW": {
    "m6": 2,
    "m24": 2,
@@ -105,20 +121,6 @@
    ],
    "first_utc": "2026-11-05T04:55+00:00",
    "sample": ""
-  },
-  "UVIX": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-05T06:10+00:00",
-   "sample": "r/smallstreetbets: CSCO earnings will mark the end of the AI Bull market in 2026"
   },
   "HP": {
    "m6": 1,
@@ -134,7 +136,21 @@
    "first_utc": "2026-11-05T06:10+00:00",
    "sample": "r/smallstreetbets: CSCO earnings will mark the end of the AI Bull market in 2026"
   },
-  "SNDK": {
+  "UVIX": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T06:10+00:00",
+   "sample": "r/smallstreetbets: CSCO earnings will mark the end of the AI Bull market in 2026"
+  },
+  "NBIS": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -146,7 +162,7 @@
    "first_utc": "2026-11-05T00:13+00:00",
    "sample": "r/smallstreetbets: October winners, keep them or substitute for losers? Sell Nike stock, buy NVDA?"
   },
-  "NBIS": {
+  "SNDK": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -182,19 +198,7 @@
    "first_utc": "2026-11-04T20:43+00:00",
    "sample": "r/Shortsqueeze: $IREN short interested increased ~20M shares over 1 months timeframe"
   },
-  "IREN": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T20:43+00:00",
-   "sample": "r/Shortsqueeze: $IREN short interested increased ~20M shares over 1 months timeframe"
-  },
-  "LUNR": {
+  "CLPS": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -206,7 +210,7 @@
    "first_utc": "2026-11-04T18:03+00:00",
    "sample": "r/smallstreetbets: My Regarded DD for LUNR - (NASA Contracts, Earnings and RIP Sir Patrick Stewart)"
   },
-  "CLPS": {
+  "LUNR": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -254,19 +258,7 @@
    "first_utc": "2026-11-04T14:03+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
-  "GXO": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T12:05+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
-  },
-  "APP": {
+  "PMI": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -290,43 +282,7 @@
    "first_utc": "2026-11-04T12:05+00:00",
    "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
   },
-  "PMI": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T12:05+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
-  },
-  "ADP": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T12:05+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
-  },
-  "PRCH": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-04T12:05+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
-  },
-  "MCD": {
+  "CCXI": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -350,6 +306,42 @@
    "first_utc": "2026-11-04T12:05+00:00",
    "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
   },
+  "PRCH": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "APP": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "GXO": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
   "DDOG": {
    "m6": 0,
    "m24": 1,
@@ -362,7 +354,19 @@
    "first_utc": "2026-11-04T12:05+00:00",
    "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
   },
-  "CCXI": {
+  "ADP": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-04T12:05+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 4th 2026"
+  },
+  "MCD": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -397,6 +401,34 @@
    ],
    "first_utc": "2026-11-04T10:28+00:00",
    "sample": "r/pennystocks: Farewell Post: Ten Yolo Trade Challenge Results"
+  },
+  "FBDT": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T10:01+00:00",
+   "sample": ""
+  },
+  "BYND": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T09:09+00:00",
+   "sample": ""
   },
   "DH": {
    "m6": 1,
