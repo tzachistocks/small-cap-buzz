@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-06T09:07+00:00",
+ "ts": "2026-11-06T10:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
   "HTZ": {
-   "m6": 4,
-   "m24": 8,
-   "authors6": 4,
-   "authors24": 8,
+   "m6": 5,
+   "m24": 9,
+   "authors6": 5,
+   "authors24": 9,
    "subs6": [
     "Shortsqueeze",
     "pennystocks"
@@ -115,19 +115,19 @@
    "first_utc": "2026-11-05T13:59+00:00",
    "sample": "r/pennystocks: iQSTEL (NASDAQ: IQST) Reports Preliminary Q3 2026 Revenue of $106.0 Million; Nine-Month Re"
   },
-  "ASML": {
-   "m6": 2,
-   "m24": 2,
-   "authors6": 2,
-   "authors24": 2,
+  "FLYE": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
    "subs6": [
-    "smallstreetbets"
+    "pennystocks"
    ],
    "subs24": [
-    "smallstreetbets"
+    "pennystocks"
    ],
-   "first_utc": "2026-11-06T07:36+00:00",
-   "sample": ""
+   "first_utc": "2026-11-06T04:15+00:00",
+   "sample": "r/pennystocks: Watchlist for 11/06/26 lets hope for a great Friday!!"
   },
   "BDMD": {
    "m6": 1,
@@ -171,21 +171,7 @@
    "first_utc": "2026-11-06T04:15+00:00",
    "sample": "r/pennystocks: Watchlist for 11/06/26 lets hope for a great Friday!!"
   },
-  "FLYE": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-06T04:15+00:00",
-   "sample": "r/pennystocks: Watchlist for 11/06/26 lets hope for a great Friday!!"
-  },
-  "IRS": {
+  "III": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -209,7 +195,7 @@
    "first_utc": "2026-11-06T02:18+00:00",
    "sample": "r/smallstreetbets: 🚀 MSOS DD: Forget AI, let's get HIGH!"
   },
-  "III": {
+  "IRS": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -232,42 +218,6 @@
    ],
    "first_utc": "2026-11-06T00:07+00:00",
    "sample": "r/smallstreetbets: I know today was a bad day"
-  },
-  "SNDK": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-05T17:58+00:00",
-   "sample": "r/smallstreetbets: Leopold Blows Up….Again 😂"
-  },
-  "NBIS": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-05T17:58+00:00",
-   "sample": "r/smallstreetbets: Leopold Blows Up….Again 😂"
-  },
-  "BE": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-05T17:58+00:00",
-   "sample": "r/smallstreetbets: Leopold Blows Up….Again 😂"
   },
   "CRWV": {
    "m6": 0,
@@ -293,17 +243,41 @@
    "first_utc": "2026-11-05T17:58+00:00",
    "sample": "r/smallstreetbets: Leopold Blows Up….Again 😂"
   },
-  "IE": {
+  "BE": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
    "authors24": 1,
    "subs6": [],
    "subs24": [
-    "pennystocks"
+    "smallstreetbets"
    ],
-   "first_utc": "2026-11-05T16:20+00:00",
-   "sample": "r/pennystocks: Trio-Tech Upgraded by Zacks to Outperform on Backlog Growth & Strong Liquidity"
+   "first_utc": "2026-11-05T17:58+00:00",
+   "sample": "r/smallstreetbets: Leopold Blows Up….Again 😂"
+  },
+  "SNDK": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T17:58+00:00",
+   "sample": "r/smallstreetbets: Leopold Blows Up….Again 😂"
+  },
+  "NBIS": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-05T17:58+00:00",
+   "sample": "r/smallstreetbets: Leopold Blows Up….Again 😂"
   },
   "TRT": {
    "m6": 0,
@@ -317,7 +291,19 @@
    "first_utc": "2026-11-05T16:20+00:00",
    "sample": "r/pennystocks: Trio-Tech Upgraded by Zacks to Outperform on Backlog Growth & Strong Liquidity"
   },
-  "ADGM": {
+  "IE": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T16:20+00:00",
+   "sample": "r/pennystocks: Trio-Tech Upgraded by Zacks to Outperform on Backlog Growth & Strong Liquidity"
+  },
+  "KPTI": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -329,7 +315,7 @@
    "first_utc": "2026-11-05T15:06+00:00",
    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
   },
-  "TDUP": {
+  "ADGM": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -353,7 +339,19 @@
    "first_utc": "2026-11-05T15:06+00:00",
    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
   },
-  "KPTI": {
+  "CL": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T15:06+00:00",
+   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
+  },
+  "BZFD": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -389,43 +387,7 @@
    "first_utc": "2026-11-05T15:06+00:00",
    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
   },
-  "PMAX": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-05T15:06+00:00",
-   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-  },
-  "BZFD": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-05T15:06+00:00",
-   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-  },
-  "NWGL": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-05T15:06+00:00",
-   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-  },
-  "CL": {
+  "TDUP": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -449,7 +411,7 @@
    "first_utc": "2026-11-05T15:06+00:00",
    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
   },
-  "HIHO": {
+  "NWGL": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -458,8 +420,20 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-05T15:04+00:00",
-   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+   "first_utc": "2026-11-05T15:06+00:00",
+   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
+  },
+  "PMAX": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T15:06+00:00",
+   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
   },
   "IRWD": {
    "m6": 0,
@@ -473,7 +447,7 @@
    "first_utc": "2026-11-05T15:04+00:00",
    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
-  "PLCE": {
+  "ARQ": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -509,6 +483,18 @@
    "first_utc": "2026-11-05T15:04+00:00",
    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
+  "PLCE": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-05T15:04+00:00",
+   "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
   "CCLD": {
    "m6": 0,
    "m24": 1,
@@ -521,7 +507,7 @@
    "first_utc": "2026-11-05T15:04+00:00",
    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
-  "ARQ": {
+  "HIHO": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -533,7 +519,7 @@
    "first_utc": "2026-11-05T15:04+00:00",
    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
-  "AEC": {
+  "BLGO": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -545,7 +531,7 @@
    "first_utc": "2026-11-05T14:31+00:00",
    "sample": "r/pennystocks: BioLargo's BEST Expands Industrial PFAS Treatment Activities Amid Major PFAS Settlements"
   },
-  "BLGO": {
+  "AEC": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -592,6 +578,48 @@
    ],
    "first_utc": "2026-11-05T13:59+00:00",
    "sample": "r/pennystocks: iQSTEL (NASDAQ: IQST) Reports Preliminary Q3 2026 Revenue of $106.0 Million; Nine-Month Re"
+  },
+  "SHFS": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-06T09:52+00:00",
+   "sample": ""
+  },
+  "IREN": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-06T09:11+00:00",
+   "sample": ""
+  },
+  "ASML": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-06T08:38+00:00",
+   "sample": ""
   },
   "SKHY": {
    "m6": 1,

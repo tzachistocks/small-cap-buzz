@@ -6161,7 +6161,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-06",
+   "days": 1,
+   "last_pct": -0.0,
+   "max_close_pct": -0.0,
+   "max_high_pct": 2.9
+  }
  },
  "2026-11-05|FROG": {
   "ts": "2026-11-05T22:07+00:00",
@@ -6182,7 +6188,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-06",
+   "days": 1,
+   "last_pct": -20.1,
+   "max_close_pct": -20.1,
+   "max_high_pct": -9.4
+  }
  },
  "2026-11-05|DKNG": {
   "ts": "2026-11-05T22:07+00:00",
@@ -6205,7 +6217,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-06",
+   "days": 1,
+   "last_pct": 31.8,
+   "max_close_pct": 31.8,
+   "max_high_pct": 32.7
+  }
  },
  "2026-11-05|PAC": {
   "ts": "2026-11-05T22:07+00:00",
@@ -6226,7 +6244,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-06",
+   "days": 1,
+   "last_pct": 0.0,
+   "max_close_pct": 0.0,
+   "max_high_pct": 1.1
+  }
  },
  "2026-11-05|RMD": {
   "ts": "2026-11-05T22:07+00:00",
@@ -6247,7 +6271,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-06",
+   "days": 1,
+   "last_pct": -0.0,
+   "max_close_pct": -0.0,
+   "max_high_pct": 3.1
+  }
  },
  "2026-11-05|HTZ": {
   "ts": "2026-11-05T23:07+00:00",
@@ -6269,7 +6299,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-06",
+   "days": 1,
+   "last_pct": -0.6,
+   "max_close_pct": -0.6,
+   "max_high_pct": 26.1
+  }
  },
  "2026-11-05|CB": {
   "ts": "2026-11-05T23:07+00:00",
@@ -6290,7 +6326,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-06",
+   "days": 1,
+   "last_pct": -0.2,
+   "max_close_pct": -0.2,
+   "max_high_pct": 3.2
+  }
  },
  "2026-11-05|CF": {
   "ts": "2026-11-05T23:07+00:00",
@@ -6312,7 +6354,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-06",
+   "days": 1,
+   "last_pct": -0.0,
+   "max_close_pct": -0.0,
+   "max_high_pct": 3.7
+  }
  },
  "2026-11-05|MAX": {
   "ts": "2026-11-05T23:07+00:00",
@@ -6333,7 +6381,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-06",
+   "days": 1,
+   "last_pct": 2.0,
+   "max_close_pct": 2.0,
+   "max_high_pct": 10.7
+  }
  },
  "2026-11-05|SA": {
   "ts": "2026-11-05T23:07+00:00",
@@ -6356,7 +6410,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-06",
+   "days": 1,
+   "last_pct": 0.0,
+   "max_close_pct": 0.0,
+   "max_high_pct": 2.8
+  }
  },
  "2026-11-05|SSD": {
   "ts": "2026-11-05T23:07+00:00",
@@ -6377,7 +6437,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-06",
+   "days": 1,
+   "last_pct": -0.0,
+   "max_close_pct": -0.0,
+   "max_high_pct": 4.9
+  }
  },
  "2026-11-06|WAVE": {
   "ts": "2026-11-06T07:07+00:00",
@@ -6631,7 +6697,8 @@
   "blocked": [],
   "tags": [
    "spread",
-   "rising"
+   "rising",
+   "pr_weak"
   ],
   "alerted": false,
   "urgent": false,
@@ -6984,6 +7051,28 @@
    "accel",
    "vel3h",
    "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-06|FIG": {
+  "ts": "2026-11-06T10:07+00:00",
+  "ticker": "FIG",
+  "score": 4,
+  "max_score": 4,
+  "price": 18.88,
+  "move_pct": -14.69,
+  "cap_m": 10060.0,
+  "blocked": [
+   "שווי $10060M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "rising",
+   "rvol"
   ],
   "alerted": false,
   "urgent": false,

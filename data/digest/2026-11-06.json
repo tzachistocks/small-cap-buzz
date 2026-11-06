@@ -1,31 +1,31 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-06T09:07+00:00",
+ "generated_at": "2026-11-06T10:07+00:00",
  "final": false,
  "runs": {
-  "count": 3,
+  "count": 4,
   "first": "2026-11-06T07:07+00:00",
-  "last": "2026-11-06T09:07+00:00",
+  "last": "2026-11-06T10:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 791,
-   "mention_gate": 336,
-   "reddit_path": 1,
+   "buzz_tickers": 1054,
+   "mention_gate": 437,
+   "reddit_path": 2,
    "telegram_path": 0,
    "news_path": 0,
-   "skipped_large_cache": 400,
-   "shadow_gate": 143,
-   "to_check": 80,
-   "checked": 80,
+   "skipped_large_cache": 529,
+   "shadow_gate": 192,
+   "to_check": 102,
+   "checked": 102,
    "not_checked_time": 0,
    "blocked": {
-    "שווי": 16,
-    "כבר": 12,
-    "אין": 6,
-    "איחוד": 3
+    "שווי": 18,
+    "כבר": 16,
+    "אין": 8,
+    "איחוד": 4
    },
-   "below_score": 21,
-   "cooldown": 15,
-   "shadow_would_alert": 7,
+   "below_score": 29,
+   "cooldown": 20,
+   "shadow_would_alert": 9,
    "sent": 6,
    "send_failed": 0
   },
@@ -33,7 +33,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 468
+   "messages": 472
   },
   "per_run": [
    {
@@ -54,6 +54,13 @@
     "ts": "2026-11-06T09:07+00:00",
     "checked": 23,
     "sent": 2,
+    "send_failed": 0,
+    "errors_n": 5
+   },
+   {
+    "ts": "2026-11-06T10:07+00:00",
+    "checked": 22,
+    "sent": 0,
     "send_failed": 0,
     "errors_n": 5
    }
@@ -1273,6 +1280,27 @@
    "urgent": false
   },
   {
+   "ts": "2026-11-06T10:07+00:00",
+   "ticker": "FIG",
+   "score": 4,
+   "max_score": 4,
+   "price": 18.88,
+   "move_pct": -14.69,
+   "cap_m": 10060.0,
+   "blocked": [
+    "שווי $10060M"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "rising",
+    "rvol"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
    "ts": "2026-11-06T07:07+00:00",
    "ticker": "LOVE",
    "score": 3,
@@ -1321,7 +1349,8 @@
    "blocked": [],
    "tags": [
     "spread",
-    "rising"
+    "rising",
+    "pr_weak"
    ],
    "alerted": false,
    "urgent": false
@@ -6337,13 +6366,251 @@
     "max_close_pct": 0.8,
     "max_high_pct": 5.9
    }
+  },
+  {
+   "date": "2026-11-05",
+   "ticker": "EVER",
+   "max_score": 3,
+   "price": 30.32,
+   "tags": [
+    "accel",
+    "vel3h",
+    "short",
+    "low_float",
+    "word"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-06",
+    "days": 1,
+    "last_pct": -0.0,
+    "max_close_pct": -0.0,
+    "max_high_pct": 2.9
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "ticker": "FROG",
+   "max_score": 5,
+   "price": 93.4,
+   "tags": [
+    "accel",
+    "vel3h",
+    "novel",
+    "rvol"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-06",
+    "days": 1,
+    "last_pct": -20.1,
+    "max_close_pct": -20.1,
+    "max_high_pct": -9.4
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "ticker": "DKNG",
+   "max_score": 5,
+   "price": 17.85,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "novel",
+    "telegram_weak",
+    "st_trend"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-06",
+    "days": 1,
+    "last_pct": 31.8,
+    "max_close_pct": 31.8,
+    "max_high_pct": 32.7
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "ticker": "PAC",
+   "max_score": 3,
+   "price": 245.91,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "novel",
+    "rvol"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-06",
+    "days": 1,
+    "last_pct": 0.0,
+    "max_close_pct": 0.0,
+    "max_high_pct": 1.1
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "ticker": "RMD",
+   "max_score": 3,
+   "price": 239.31,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "novel"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-06",
+    "days": 1,
+    "last_pct": -0.0,
+    "max_close_pct": -0.0,
+    "max_high_pct": 3.1
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "ticker": "HTZ",
+   "max_score": 7,
+   "price": 1.8,
+   "tags": [
+    "accel",
+    "spread",
+    "rising",
+    "short",
+    "rvol"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-06",
+    "days": 1,
+    "last_pct": -0.6,
+    "max_close_pct": -0.6,
+    "max_high_pct": 26.1
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "ticker": "CB",
+   "max_score": 3,
+   "price": 372.36,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "novel",
+    "rvol"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-06",
+    "days": 1,
+    "last_pct": -0.2,
+    "max_close_pct": -0.2,
+    "max_high_pct": 3.2
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "ticker": "CF",
+   "max_score": 4,
+   "price": 118.57,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "novel",
+    "rvol"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-06",
+    "days": 1,
+    "last_pct": -0.0,
+    "max_close_pct": -0.0,
+    "max_high_pct": 3.7
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "ticker": "MAX",
+   "max_score": 3,
+   "price": 14.17,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "low_float"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-06",
+    "days": 1,
+    "last_pct": 2.0,
+    "max_close_pct": 2.0,
+    "max_high_pct": 10.7
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "ticker": "SA",
+   "max_score": 4,
+   "price": 25.53,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "rising",
+    "novel",
+    "telegram_weak",
+    "rvol"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-06",
+    "days": 1,
+    "last_pct": 0.0,
+    "max_close_pct": 0.0,
+    "max_high_pct": 2.8
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "ticker": "SSD",
+   "max_score": 3,
+   "price": 198.84,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "low_float"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-06",
+    "days": 1,
+    "last_pct": -0.0,
+    "max_close_pct": -0.0,
+    "max_high_pct": 4.9
+   }
   }
  ],
  "social_today": {
   "reddit_top": {
    "HTZ": {
-    "m24_max": 8,
-    "authors24_max": 8,
+    "m24_max": 9,
+    "authors24_max": 9,
     "subs": [
      "Shortsqueeze",
      "pennystocks",
@@ -8880,6 +9147,18 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-06T08:34+00:00"
+   },
+   "AGRO": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T09:19+00:00"
+   },
+   "HELP": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T09:19+00:00"
    }
   }
  },
@@ -8909,11 +9188,11 @@
   "credits": 330
  },
  "errors_today": {
-  "HTTP 404 https: //api.stocktwits.com/api/2/streams/symbol/ANY.json": 3,
-  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/SAVE": 3,
-  "HTTP 404 https: //finviz.com/quote.ashx?t=SAVE&p=d": 3,
-  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/BABY": 3,
-  "HTTP 404 https: //finviz.com/quote.ashx?t=BABY&p=d": 3
+  "HTTP 404 https: //api.stocktwits.com/api/2/streams/symbol/ANY.json": 4,
+  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/SAVE": 4,
+  "HTTP 404 https: //finviz.com/quote.ashx?t=SAVE&p=d": 4,
+  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/BABY": 4,
+  "HTTP 404 https: //finviz.com/quote.ashx?t=BABY&p=d": 4
  },
  "closes_asof": null,
  "closes": {}

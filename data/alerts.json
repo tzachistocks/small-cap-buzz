@@ -3151,7 +3151,8 @@
   "urgent_why": [],
   "path": "buzz",
   "telegram_sent": true,
-  "outcome": {}
+  "outcome": {},
+  "followups": {}
  },
  {
   "id": "202611060907-CIA",
@@ -3274,6 +3275,7 @@
   "urgent_why": [],
   "path": "buzz",
   "telegram_sent": true,
-  "outcome": {}
+  "outcome": {},
+  "followups": {}
  }
 ]
