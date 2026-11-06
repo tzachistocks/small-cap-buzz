@@ -1,31 +1,31 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-06T10:52+00:00",
+ "generated_at": "2026-11-06T11:07+00:00",
  "final": false,
  "runs": {
-  "count": 5,
+  "count": 6,
   "first": "2026-11-06T07:07+00:00",
-  "last": "2026-11-06T10:52+00:00",
+  "last": "2026-11-06T11:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 1317,
-   "mention_gate": 541,
-   "reddit_path": 2,
+   "buzz_tickers": 1574,
+   "mention_gate": 645,
+   "reddit_path": 3,
    "telegram_path": 0,
    "news_path": 0,
-   "skipped_large_cache": 658,
-   "shadow_gate": 239,
-   "to_check": 124,
-   "checked": 124,
+   "skipped_large_cache": 791,
+   "shadow_gate": 288,
+   "to_check": 145,
+   "checked": 145,
    "not_checked_time": 0,
    "blocked": {
-    "שווי": 20,
-    "כבר": 20,
-    "אין": 10,
-    "איחוד": 5
+    "שווי": 21,
+    "כבר": 23,
+    "אין": 12,
+    "איחוד": 6
    },
-   "below_score": 37,
-   "cooldown": 26,
-   "shadow_would_alert": 10,
+   "below_score": 45,
+   "cooldown": 32,
+   "shadow_would_alert": 12,
    "sent": 6,
    "send_failed": 0
   },
@@ -33,7 +33,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 473
+   "messages": 474
   },
   "per_run": [
    {
@@ -67,6 +67,13 @@
    {
     "ts": "2026-11-06T10:52+00:00",
     "checked": 22,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 5
+   },
+   {
+    "ts": "2026-11-06T11:07+00:00",
+    "checked": 21,
     "sent": 0,
     "send_failed": 0,
     "errors_n": 5
@@ -877,7 +884,8 @@
     "novel",
     "short",
     "low_float",
-    "rvol"
+    "rvol",
+    "sec_weak"
    ],
    "alerted": false,
    "urgent": false
@@ -1162,6 +1170,24 @@
   },
   {
    "ts": "2026-11-06T07:07+00:00",
+   "ticker": "IQ",
+   "score": 3,
+   "max_score": 4,
+   "price": 0.8703,
+   "move_pct": -5.25,
+   "cap_m": 478.21,
+   "blocked": [],
+   "tags": [
+    "spread",
+    "rising",
+    "pr_weak",
+    "accel"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-06T07:07+00:00",
    "ticker": "TEAM",
    "score": 4,
    "max_score": 4,
@@ -1341,23 +1367,6 @@
     "low_float",
     "sec_strong",
     "word"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-11-06T07:07+00:00",
-   "ticker": "IQ",
-   "score": 3,
-   "max_score": 3,
-   "price": 0.8703,
-   "move_pct": -5.25,
-   "cap_m": 478.21,
-   "blocked": [],
-   "tags": [
-    "spread",
-    "rising",
-    "pr_weak"
    ],
    "alerted": false,
    "urgent": false
@@ -7089,11 +7098,23 @@
     "chats24_max": 1,
     "first_utc": "2026-11-05T19:00+00:00"
    },
+   "FOUR": {
+    "m24_max": 3,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T19:40+00:00"
+   },
    "IMC": {
     "m24_max": 3,
     "authors24_max": 3,
     "chats24_max": 2,
     "first_utc": "2026-11-05T15:34+00:00"
+   },
+   "GABC": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T07:01+00:00"
    },
    "FT": {
     "m24_max": 2,
@@ -7179,12 +7200,6 @@
     "chats24_max": 1,
     "first_utc": "2026-11-05T16:48+00:00"
    },
-   "FOUR": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-05T19:40+00:00"
-   },
    "DASH": {
     "m24_max": 2,
     "authors24_max": 1,
@@ -7214,12 +7229,6 @@
     "authors24_max": 2,
     "chats24_max": 2,
     "first_utc": "2026-11-05T17:41+00:00"
-   },
-   "LNG": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-05T17:12+00:00"
    }
   },
   "telegram_all": {
@@ -7242,7 +7251,7 @@
     "first_utc": "2026-11-05T08:57+00:00"
    },
    "GABC": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-06T07:01+00:00"
@@ -8004,7 +8013,7 @@
     "first_utc": "2026-11-05T20:22+00:00"
    },
    "FOUR": {
-    "m24_max": 2,
+    "m24_max": 3,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-05T19:40+00:00"
@@ -9172,6 +9181,12 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-06T10:33+00:00"
+   },
+   "HUM": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T11:03+00:00"
    }
   }
  },
@@ -9201,11 +9216,11 @@
   "credits": 330
  },
  "errors_today": {
-  "HTTP 404 https: //api.stocktwits.com/api/2/streams/symbol/ANY.json": 5,
-  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/SAVE": 5,
-  "HTTP 404 https: //finviz.com/quote.ashx?t=SAVE&p=d": 5,
-  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/BABY": 5,
-  "HTTP 404 https: //finviz.com/quote.ashx?t=BABY&p=d": 5
+  "HTTP 404 https: //api.stocktwits.com/api/2/streams/symbol/ANY.json": 6,
+  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/SAVE": 6,
+  "HTTP 404 https: //finviz.com/quote.ashx?t=SAVE&p=d": 6,
+  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/BABY": 6,
+  "HTTP 404 https: //finviz.com/quote.ashx?t=BABY&p=d": 6
  },
  "closes_asof": null,
  "closes": {}

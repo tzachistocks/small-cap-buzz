@@ -15827,7 +15827,7 @@
    "first_utc": "2026-11-05T08:57+00:00"
   },
   "GABC": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-06T07:01+00:00"
@@ -16589,7 +16589,7 @@
    "first_utc": "2026-11-05T20:22+00:00"
   },
   "FOUR": {
-   "m24_max": 2,
+   "m24_max": 3,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-05T19:40+00:00"
@@ -17757,6 +17757,12 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-06T10:33+00:00"
+  },
+  "HUM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-06T11:03+00:00"
   }
  }
 }

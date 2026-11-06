@@ -6690,7 +6690,7 @@
   "ts": "2026-11-06T07:07+00:00",
   "ticker": "IQ",
   "score": 3,
-  "max_score": 3,
+  "max_score": 4,
   "price": 0.8703,
   "move_pct": -5.25,
   "cap_m": 478.21,
@@ -6698,7 +6698,8 @@
   "tags": [
    "spread",
    "rising",
-   "pr_weak"
+   "pr_weak",
+   "accel"
   ],
   "alerted": false,
   "urgent": false,
@@ -6743,7 +6744,8 @@
    "novel",
    "short",
    "low_float",
-   "rvol"
+   "rvol",
+   "sec_weak"
   ],
   "alerted": false,
   "urgent": false,

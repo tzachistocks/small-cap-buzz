@@ -1,11 +1,5 @@
 [
  {
-  "ticker": "CLVT",
-  "title": "Clarivate Reports Third Quarter 2026 Results, Delivering Clear Path to Value Creation",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T11:00+00:00"
- },
- {
   "ticker": "USNA",
   "title": "USANA BiOmega Earns ConsumerLab Seal of Approval for Quality and Purity",
   "src": "PR Newswire",
@@ -1012,5 +1006,17 @@
   "title": "Equinix Opens SG6 in Singapore, Expanding AI-Ready Capacity in One of Asia-Pacific's Most Connected Markets",
   "src": "PR Newswire",
   "ts": "2026-11-06T08:32+00:00"
+ },
+ {
+  "ticker": "RAYA",
+  "title": "ERAYAK Advances Hybrid Power Strategy as Ruike Facility Enters Final Acceptance Phase",
+  "src": "PR Newswire",
+  "ts": "2026-11-06T11:00+00:00"
+ },
+ {
+  "ticker": "YALA",
+  "title": "Yalla Group Limited to Report Third Quarter 2026 Financial Results on November 16, 2026 Eastern Time",
+  "src": "PR Newswire",
+  "ts": "2026-11-06T11:00+00:00"
  }
 ]

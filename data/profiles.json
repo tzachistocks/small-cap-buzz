@@ -257,5 +257,12 @@
   "asia": null,
   "sic": "General Industrial Machinery & Equipment, NEC",
   "ts": "2026-11-06T07:09+00:00"
+ },
+ "PLCE": {
+  "country": "NJ",
+  "inc": "",
+  "asia": null,
+  "sic": "Retail-Family Clothing Stores",
+  "ts": "2026-11-06T11:09+00:00"
  }
 }
