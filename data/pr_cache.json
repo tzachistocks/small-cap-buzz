@@ -1,17 +1,5 @@
 [
  {
-  "ticker": "CAN",
-  "title": "Canaan Inc. to Report Third Quarter 2026 Financial Results on November 10, 2026",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T14:05+00:00"
- },
- {
-  "ticker": "STRL",
-  "title": "Sterling to Participate in Upcoming Investor Conferences",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T14:05+00:00"
- },
- {
   "ticker": "ALKT",
   "title": "Texoma Community Credit Union to Build a More Connected Member Experience with Alkami's Digital Sales & Service Platform",
   "src": "PR Newswire",
@@ -1030,5 +1018,17 @@
   "title": "Dauch Reports Third Quarter 2026 Financial Results",
   "src": "PR Newswire",
   "ts": "2026-11-06T13:00+00:00"
+ },
+ {
+  "ticker": "GIL",
+  "title": "Hagens Berman Encourages Gildan Activewear Inc. (GIL) Investors with Substantial Losses To Contact Firm Prior To Dec. 14 Lead Plaintiff Deadline",
+  "src": "PR Newswire",
+  "ts": "2026-11-06T14:06+00:00"
+ },
+ {
+  "ticker": "CNVS",
+  "title": "Cineverse to Report Second Quarter Fiscal 2027 Financial Results on Friday, November 13, 2026",
+  "src": "PR Newswire",
+  "ts": "2026-11-06T14:00+00:00"
  }
 ]

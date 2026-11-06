@@ -7166,5 +7166,27 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-11-06|VXX": {
+  "ts": "2026-11-06T14:07+00:00",
+  "ticker": "VXX",
+  "score": 6,
+  "max_score": 6,
+  "price": 21.91,
+  "move_pct": 28.43,
+  "cap_m": null,
+  "blocked": [
+   "כבר זזה +28%",
+   "שווי לא ידוע"
+  ],
+  "tags": [
+   "accel",
+   "vel3h",
+   "novel",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }

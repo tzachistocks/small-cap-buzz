@@ -8943,6 +8943,54 @@
     "pennystocks"
    ],
    "first_utc": "2026-11-06T12:28+00:00"
+  },
+  "VIVK": {
+   "m24_max": 4,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-06T13:20+00:00"
+  },
+  "DBGI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-06T14:00+00:00"
+  },
+  "NTHI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-06T13:48+00:00"
+  },
+  "GAME": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-06T13:32+00:00"
+  },
+  "FR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-06T13:24+00:00"
+  },
+  "DELL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-06T13:19+00:00"
   }
  }
 }
