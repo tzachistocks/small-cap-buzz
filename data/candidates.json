@@ -7333,7 +7333,7 @@
   "ts": "2026-11-06T19:07+00:00",
   "ticker": "UIS",
   "score": 4,
-  "max_score": 4,
+  "max_score": 5,
   "price": 2.67,
   "move_pct": 8.54,
   "cap_m": 194.68,
@@ -7344,7 +7344,49 @@
    "vel3h",
    "novel",
    "sec_weak",
-   "pr_weak"
+   "pr_weak",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-06|SPCE": {
+  "ts": "2026-11-06T20:07+00:00",
+  "ticker": "SPCE",
+  "score": 4,
+  "max_score": 4,
+  "price": 2.83,
+  "move_pct": 18.91,
+  "cap_m": 429.02,
+  "blocked": [
+   "כבר זזה +19%"
+  ],
+  "tags": [
+   "accel",
+   "vel3h",
+   "short"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-06|OKTA": {
+  "ts": "2026-11-06T20:07+00:00",
+  "ticker": "OKTA",
+  "score": 4,
+  "max_score": 4,
+  "price": 166.27,
+  "move_pct": -2.86,
+  "cap_m": 29050.0,
+  "blocked": [
+   "שווי $29050M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel"
   ],
   "alerted": false,
   "urgent": false,

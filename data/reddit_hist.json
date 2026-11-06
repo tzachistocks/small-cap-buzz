@@ -8891,8 +8891,8 @@
    "first_utc": "2026-11-06T11:20+00:00"
   },
   "SOUN": {
-   "m24_max": 3,
-   "authors24_max": 3,
+   "m24_max": 6,
+   "authors24_max": 4,
    "subs": [
     "Shortsqueeze"
    ],
@@ -9240,6 +9240,39 @@
     "smallstreetbets"
    ],
    "first_utc": "2026-11-06T18:11+00:00"
+  },
+  "HMR": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-06T19:25+00:00",
+   "sample": "r/pennystocks: $HMR back on its 200 day at ~6x forward earnings with the cash stripped out"
+  },
+  "LNG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-06T20:00+00:00"
+  },
+  "VRRM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-06T19:55+00:00"
+  },
+  "RZLV": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-06T19:54+00:00"
   }
  }
 }

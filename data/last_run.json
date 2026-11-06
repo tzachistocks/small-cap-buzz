@@ -1,8 +1,8 @@
 {
- "ts": "2026-11-06T19:07+00:00",
+ "ts": "2026-11-06T20:07+00:00",
  "reddit_ok": true,
  "stocktwits_trending": 30,
- "apewisdom_main": 300,
+ "apewisdom_main": 297,
  "apewisdom_subs": [
   "4chan",
   "Daytrading",
@@ -18,7 +18,7 @@
   "mode": "ok",
   "chats_ok": 14,
   "chats_failed": 0,
-  "messages": 460
+  "messages": 457
  },
  "x_weir": {
   "mode": "idle",
@@ -29,24 +29,24 @@
   "note": "לא בחלון X"
  },
  "funnel": {
-  "buzz_tickers": 259,
-  "mention_gate": 35,
+  "buzz_tickers": 267,
+  "mention_gate": 29,
   "reddit_path": 0,
   "telegram_path": 0,
   "news_path": 1,
-  "skipped_large_cache": 57,
-  "shadow_gate": 31,
+  "skipped_large_cache": 46,
+  "shadow_gate": 26,
   "to_check": 10,
   "checked": 10,
   "not_checked_time": 0,
   "blocked": {
+   "כבר": 3,
    "שווי": 4,
-   "כבר": 2,
    "אין": 1
   },
   "below_score": 2,
   "cooldown": 1,
-  "shadow_would_alert": 2,
+  "shadow_would_alert": 1,
   "sent": 0,
   "send_failed": 0
  },
