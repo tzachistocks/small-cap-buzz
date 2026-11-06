@@ -1862,9 +1862,9 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 0.8623999953269958,
-   "last_pct": 3.5,
-   "max_close_pct": 3.5,
+   "last_close": 0.8587999939918518,
+   "last_pct": 3.1,
+   "max_close_pct": 3.1,
    "max_high_pct": 9.9,
    "d1_pct": 0.6
   },
@@ -1990,8 +1990,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 2.740000009536743,
-   "last_pct": -7.4,
+   "last_close": 2.75,
+   "last_pct": -7.1,
    "max_close_pct": -3.4,
    "max_high_pct": 5.4,
    "d1_pct": -3.4
@@ -2129,9 +2129,9 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 0.3052999973297119,
-   "last_pct": -0.6,
-   "max_close_pct": 0.3,
+   "last_close": 0.31130000948905945,
+   "last_pct": 1.4,
+   "max_close_pct": 1.4,
    "max_high_pct": 17.3,
    "d1_pct": 0.3
   },
@@ -2264,9 +2264,9 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 4.380000114440918,
-   "last_pct": -0.5,
-   "max_close_pct": -0.5,
+   "last_close": 4.309999942779541,
+   "last_pct": -2.0,
+   "max_close_pct": -1.1,
    "max_high_pct": 6.6,
    "d1_pct": -1.1
   },
@@ -2374,9 +2374,9 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 8.380000114440918,
-   "last_pct": -0.5,
-   "max_close_pct": -0.5,
+   "last_close": 8.390000343322754,
+   "last_pct": -0.4,
+   "max_close_pct": -0.4,
    "max_high_pct": 3.7,
    "d1_pct": -1.2
   },
@@ -2611,8 +2611,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 2.740000009536743,
-   "last_pct": -3.5,
+   "last_close": 2.75,
+   "last_pct": -3.2,
    "max_close_pct": 0.7,
    "max_high_pct": 9.9,
    "d1_pct": 0.7
@@ -2728,11 +2728,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 0.6202999949455261,
-   "last_pct": -7.3,
-   "max_close_pct": -7.3,
+   "last_close": 0.6384000182151794,
+   "last_pct": -4.5,
+   "max_close_pct": -4.5,
    "max_high_pct": 0.2,
-   "d1_pct": -7.3
+   "d1_pct": -4.5
   },
   "followups": {}
  },
@@ -2835,11 +2835,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 6.599999904632568,
-   "last_pct": -5.6,
-   "max_close_pct": -5.6,
+   "last_close": 6.840000152587891,
+   "last_pct": -2.1,
+   "max_close_pct": -2.1,
    "max_high_pct": -0.4,
-   "d1_pct": -5.6
+   "d1_pct": -2.1
   },
   "followups": {}
  },
@@ -3177,11 +3177,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 0.3052999973297119,
-   "last_pct": -0.9,
-   "max_close_pct": -0.9,
+   "last_close": 0.31130000948905945,
+   "last_pct": 1.0,
+   "max_close_pct": 1.0,
    "max_high_pct": 7.1,
-   "d1_pct": -0.9
+   "d1_pct": 1.0
   },
   "followups": {}
  },
@@ -3308,11 +3308,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 4.090000152587891,
-   "last_pct": -0.7,
-   "max_close_pct": -0.7,
+   "last_close": 4.150000095367432,
+   "last_pct": 0.7,
+   "max_close_pct": 0.7,
    "max_high_pct": 3.2,
-   "d1_pct": -0.7
+   "d1_pct": 0.7
   },
   "followups": {}
  }

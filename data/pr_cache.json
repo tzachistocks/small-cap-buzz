@@ -1,17 +1,5 @@
 [
  {
-  "ticker": "YRD",
-  "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against Yiren Digital Ltd. (NYSE: YRD) -- Investors Who Suffered Losses Are Encouraged to Contact the Firm.",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T17:00+00:00"
- },
- {
-  "ticker": "OI",
-  "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against O-I Glass, Inc. (NYSE: OI) -- Investors Who Suffered Losses Are Encouraged to Contact the Firm.",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T17:00+00:00"
- },
- {
   "ticker": "RHI",
   "title": "Robert Half to participate in the J.P. Morgan Ultimate Services Investor Conference",
   "src": "PR Newswire",
@@ -1042,5 +1030,23 @@
   "title": "INVESTOR ALERT: Everest Group, Ltd. (EG) Investors with Substantial Losses May Seek to Lead Class Action Lawsuit Before December 28, 2026 Deadline",
   "src": "PR Newswire",
   "ts": "2026-11-06T16:00+00:00"
+ },
+ {
+  "ticker": "NEN",
+  "title": "New England Realty Associates LP Announces Fourth-Quarter Distribution on Class A Units and Depositary Receipts",
+  "src": "PR Newswire",
+  "ts": "2026-11-06T17:02+00:00"
+ },
+ {
+  "ticker": "LWAY",
+  "title": "Lifeway® Kefir Commercial Makes Chicagoland Television Debut Sunday, November 8, With New Muscle Mates™ Social Media Campaign to Follow",
+  "src": "PR Newswire",
+  "ts": "2026-11-06T17:00+00:00"
+ },
+ {
+  "ticker": "LULU",
+  "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against Lululemon Athletica Inc. (NASDAQ: LULU) -- Investors Who Suffered Losses Are Encouraged to Contact the Firm",
+  "src": "PR Newswire",
+  "ts": "2026-11-06T17:00+00:00"
  }
 ]

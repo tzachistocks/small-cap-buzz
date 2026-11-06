@@ -1,31 +1,31 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-06T16:07+00:00",
+ "generated_at": "2026-11-06T17:07+00:00",
  "final": false,
  "runs": {
-  "count": 11,
+  "count": 12,
   "first": "2026-11-06T07:07+00:00",
-  "last": "2026-11-06T16:07+00:00",
+  "last": "2026-11-06T17:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 2876,
-   "mention_gate": 1110,
+   "buzz_tickers": 3138,
+   "mention_gate": 1157,
    "reddit_path": 4,
    "telegram_path": 0,
-   "news_path": 2,
-   "skipped_large_cache": 1392,
-   "shadow_gate": 535,
-   "to_check": 259,
-   "checked": 259,
+   "news_path": 3,
+   "skipped_large_cache": 1470,
+   "shadow_gate": 578,
+   "to_check": 272,
+   "checked": 272,
    "not_checked_time": 0,
    "blocked": {
-    "שווי": 39,
+    "שווי": 41,
     "כבר": 37,
-    "אין": 20,
-    "איחוד": 11
+    "אין": 21,
+    "איחוד": 12
    },
-   "below_score": 87,
-   "cooldown": 55,
-   "shadow_would_alert": 25,
+   "below_score": 93,
+   "cooldown": 56,
+   "shadow_would_alert": 27,
    "sent": 6,
    "send_failed": 0
   },
@@ -112,6 +112,13 @@
     "sent": 0,
     "send_failed": 0,
     "errors_n": 5
+   },
+   {
+    "ts": "2026-11-06T17:07+00:00",
+    "checked": 13,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 4
    }
   ]
  },
@@ -140,11 +147,11 @@
    "news": null,
    "outcome": {
     "days": 1,
-    "last_close": 0.6202999949455261,
-    "last_pct": -7.3,
-    "max_close_pct": -7.3,
+    "last_close": 0.6384000182151794,
+    "last_pct": -4.5,
+    "max_close_pct": -4.5,
     "max_high_pct": 0.2,
-    "d1_pct": -7.3
+    "d1_pct": -4.5
    }
   },
   {
@@ -169,11 +176,11 @@
    "news": null,
    "outcome": {
     "days": 1,
-    "last_close": 6.599999904632568,
-    "last_pct": -5.6,
-    "max_close_pct": -5.6,
+    "last_close": 6.840000152587891,
+    "last_pct": -2.1,
+    "max_close_pct": -2.1,
     "max_high_pct": -0.4,
-    "d1_pct": -5.6
+    "d1_pct": -2.1
    }
   },
   {
@@ -253,11 +260,11 @@
    "news": "International companies to host live webcasts at Deutsche Bank’s Depositary Receipts Virtual Investor Conference on November 12, 2026",
    "outcome": {
     "days": 1,
-    "last_close": 0.3052999973297119,
-    "last_pct": -0.9,
-    "max_close_pct": -0.9,
+    "last_close": 0.31130000948905945,
+    "last_pct": 1.0,
+    "max_close_pct": 1.0,
     "max_high_pct": 7.1,
-    "d1_pct": -0.9
+    "d1_pct": 1.0
    }
   },
   {
@@ -286,11 +293,11 @@
    "news": "Citizens (CIA) Reports Break-Even Earnings for Q3",
    "outcome": {
     "days": 1,
-    "last_close": 4.090000152587891,
-    "last_pct": -0.7,
-    "max_close_pct": -0.7,
+    "last_close": 4.150000095367432,
+    "last_pct": 0.7,
+    "max_close_pct": 0.7,
     "max_high_pct": 3.2,
-    "d1_pct": -0.7
+    "d1_pct": 0.7
    }
   }
  ],
@@ -707,9 +714,9 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 0.8623999953269958,
-    "last_pct": 3.5,
-    "max_close_pct": 3.5,
+    "last_close": 0.8587999939918518,
+    "last_pct": 3.1,
+    "max_close_pct": 3.1,
     "max_high_pct": 9.9,
     "d1_pct": 0.6
    }
@@ -739,8 +746,8 @@
    "news": "Wheels Up Announces Third Quarter Results",
    "outcome": {
     "days": 2,
-    "last_close": 2.740000009536743,
-    "last_pct": -7.4,
+    "last_close": 2.75,
+    "last_pct": -7.1,
     "max_close_pct": -3.4,
     "max_high_pct": 5.4,
     "d1_pct": -3.4
@@ -770,9 +777,9 @@
    "news": "International companies to host live webcasts at Deutsche Bank’s Depositary Receipts Virtual Investor Conference on November 12, 2026",
    "outcome": {
     "days": 2,
-    "last_close": 0.3052999973297119,
-    "last_pct": -0.6,
-    "max_close_pct": 0.3,
+    "last_close": 0.31130000948905945,
+    "last_pct": 1.4,
+    "max_close_pct": 1.4,
     "max_high_pct": 17.3,
     "d1_pct": 0.3
    }
@@ -802,9 +809,9 @@
    "news": "WISeQey, SEALSQ, SEALCOIN and Eco Wave Power Sign Three-Year MoU and Demonstrate Trusted Energy Transactions for AI Data Centers",
    "outcome": {
     "days": 2,
-    "last_close": 4.380000114440918,
-    "last_pct": -0.5,
-    "max_close_pct": -0.5,
+    "last_close": 4.309999942779541,
+    "last_pct": -2.0,
+    "max_close_pct": -1.1,
     "max_high_pct": 6.6,
     "d1_pct": -1.1
    }
@@ -832,9 +839,9 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 8.380000114440918,
-    "last_pct": -0.5,
-    "max_close_pct": -0.5,
+    "last_close": 8.390000343322754,
+    "last_pct": -0.4,
+    "max_close_pct": -0.4,
     "max_high_pct": 3.7,
     "d1_pct": -1.2
    }
@@ -895,8 +902,8 @@
    "news": "Wheels Up Announces Third Quarter Results",
    "outcome": {
     "days": 2,
-    "last_close": 2.740000009536743,
-    "last_pct": -3.5,
+    "last_close": 2.75,
+    "last_pct": -3.2,
     "max_close_pct": 0.7,
     "max_high_pct": 9.9,
     "d1_pct": 0.7
@@ -1073,7 +1080,8 @@
     "accel",
     "vel3h",
     "novel",
-    "rvol"
+    "rvol",
+    "x_weak"
    ],
    "alerted": false,
    "urgent": false
@@ -6864,6 +6872,14 @@
     "first_utc": "2026-11-05T11:46+00:00",
     "sample": "r/Shortsqueeze: Is it over for $HTZ or we see a bounce next few days"
    },
+   "GOLD": {
+    "m24_max": 7,
+    "authors24_max": 7,
+    "subs": [
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-11-06T16:11+00:00"
+   },
    "CLRO": {
     "m24_max": 6,
     "authors24_max": 5,
@@ -6872,6 +6888,16 @@
     ],
     "first_utc": "2026-11-06T15:10+00:00",
     "sample": "r/Shortsqueeze: $CLRO- New #SqueezeFinder 50% Short / 1112% COST TO BORROW"
+   },
+   "ANNA": {
+    "m24_max": 5,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks",
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-11-06T15:10+00:00",
+    "sample": "r/pennystocks: ANNA report earnings Nov 16"
    },
    "LABT": {
     "m24_max": 4,
@@ -7030,15 +7056,21 @@
     ],
     "first_utc": "2026-11-06T14:34+00:00"
    },
-   "ANNA": {
+   "SDA": {
     "m24_max": 2,
-    "authors24_max": 1,
+    "authors24_max": 2,
     "subs": [
-     "pennystocks",
-     "smallstreetbets"
+     "pennystocks"
     ],
-    "first_utc": "2026-11-06T15:10+00:00",
-    "sample": "r/pennystocks: ANNA report earnings Nov 16"
+    "first_utc": "2026-11-06T14:51+00:00"
+   },
+   "LEU": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "subs": [
+     "Shortsqueeze"
+    ],
+    "first_utc": "2026-11-06T16:33+00:00"
    },
    "OMH": {
     "m24_max": 1,
@@ -7192,33 +7224,6 @@
     ],
     "first_utc": "2026-11-05T15:06+00:00",
     "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-   },
-   "TEAD": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-05T15:06+00:00",
-    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-   },
-   "BZFD": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-05T15:06+00:00",
-    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-   },
-   "KPTI": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-05T15:06+00:00",
-    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
    }
   },
   "telegram_top": {
@@ -7342,6 +7347,12 @@
     "chats24_max": 1,
     "first_utc": "2026-11-05T14:32+00:00"
    },
+   "DE": {
+    "m24_max": 3,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T16:20+00:00"
+   },
    "FOUR": {
     "m24_max": 3,
     "authors24_max": 1,
@@ -7420,12 +7431,6 @@
     "chats24_max": 1,
     "first_utc": "2026-11-05T20:51+00:00"
    },
-   "DE": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-05T16:20+00:00"
-   },
    "DJT": {
     "m24_max": 2,
     "authors24_max": 1,
@@ -7456,11 +7461,11 @@
     "chats24_max": 1,
     "first_utc": "2026-11-05T14:32+00:00"
    },
-   "III": {
+   "BCSS": {
     "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
-    "first_utc": "2026-11-05T20:02+00:00"
+    "first_utc": "2026-11-05T20:37+00:00"
    }
   },
   "telegram_all": {
@@ -7861,7 +7866,7 @@
     "first_utc": "2026-11-05T20:55+00:00"
    },
    "DE": {
-    "m24_max": 2,
+    "m24_max": 3,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-05T16:20+00:00"
@@ -8131,7 +8136,7 @@
     "first_utc": "2026-11-05T20:38+00:00"
    },
    "BCSS": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-05T20:37+00:00"
@@ -9601,9 +9606,9 @@
     "first_utc": "2026-11-06T14:07+00:00"
    },
    "INO": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "chats24_max": 1,
+    "m24_max": 2,
+    "authors24_max": 2,
+    "chats24_max": 2,
     "first_utc": "2026-11-06T14:07+00:00"
    },
    "PMI": {
@@ -9683,6 +9688,36 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-06T15:59+00:00"
+   },
+   "TVAI": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T17:01+00:00"
+   },
+   "AGCC": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T16:57+00:00"
+   },
+   "KNOP": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T16:15+00:00"
+   },
+   "GOGO": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T16:09+00:00"
+   },
+   "IQST": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T17:01+00:00"
    }
   }
  },
@@ -9712,13 +9747,13 @@
   "credits": 330
  },
  "errors_today": {
+  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/SAVE": 12,
+  "HTTP 404 https: //finviz.com/quote.ashx?t=SAVE&p=d": 12,
   "HTTP 404 https: //api.stocktwits.com/api/2/streams/symbol/ANY.json": 11,
-  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/SAVE": 11,
-  "HTTP 404 https: //finviz.com/quote.ashx?t=SAVE&p=d": 11,
   "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/BABY": 9,
   "HTTP 404 https: //finviz.com/quote.ashx?t=BABY&p=d": 9,
-  "HTTP 404 https: //stockanalysis.com/stocks/vxx/statistics/": 3,
-  "no fundamentals for VXX": 3
+  "HTTP 404 https: //stockanalysis.com/stocks/vxx/statistics/": 4,
+  "no fundamentals for VXX": 4
  },
  "closes_asof": null,
  "closes": {}

@@ -9038,8 +9038,8 @@
    "sample": "r/pennystocks: 06 NOV 2026 WHAT ARE THE BIGGEST LOSERS AND WHY ?"
   },
   "SDA": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],
@@ -9087,8 +9087,8 @@
    "sample": "r/Shortsqueeze: $CLRO- New #SqueezeFinder 50% Short / 1112% COST TO BORROW"
   },
   "ANNA": {
-   "m24_max": 2,
-   "authors24_max": 1,
+   "m24_max": 5,
+   "authors24_max": 2,
    "subs": [
     "pennystocks",
     "smallstreetbets"
@@ -9151,6 +9151,38 @@
     "Shortsqueeze"
    ],
    "first_utc": "2026-11-06T15:28+00:00"
+  },
+  "GOLD": {
+   "m24_max": 7,
+   "authors24_max": 7,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-06T16:11+00:00"
+  },
+  "LEU": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-06T16:33+00:00"
+  },
+  "NUAI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-06T16:55+00:00"
+  },
+  "PRME": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-06T16:26+00:00"
   }
  }
 }

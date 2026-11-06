@@ -7186,7 +7186,8 @@
    "accel",
    "vel3h",
    "novel",
-   "rvol"
+   "rvol",
+   "x_weak"
   ],
   "alerted": false,
   "urgent": false,
