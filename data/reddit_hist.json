@@ -8951,8 +8951,8 @@
    "first_utc": "2026-11-06T12:28+00:00"
   },
   "VIVK": {
-   "m24_max": 4,
-   "authors24_max": 3,
+   "m24_max": 6,
+   "authors24_max": 6,
    "subs": [
     "pennystocks",
     "smallstreetbets"
@@ -9232,6 +9232,14 @@
     "pennystocks"
    ],
    "first_utc": "2026-11-06T17:22+00:00"
+  },
+  "WTF": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-06T18:11+00:00"
   }
  }
 }

@@ -15893,7 +15893,7 @@
    "first_utc": "2026-11-06T01:33+00:00"
   },
   "WHF": {
-   "m24_max": 2,
+   "m24_max": 3,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-06T00:03+00:00"
@@ -16025,7 +16025,7 @@
    "first_utc": "2026-11-05T21:31+00:00"
   },
   "DKNG": {
-   "m24_max": 4,
+   "m24_max": 5,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-05T21:25+00:00"
@@ -16139,7 +16139,7 @@
    "first_utc": "2026-11-05T20:58+00:00"
   },
   "AXON": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-05T20:58+00:00"
@@ -16505,7 +16505,7 @@
    "first_utc": "2026-11-05T20:34+00:00"
   },
   "III": {
-   "m24_max": 2,
+   "m24_max": 3,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-05T20:02+00:00"
@@ -17219,7 +17219,7 @@
    "first_utc": "2026-11-05T17:36+00:00"
   },
   "SPCX": {
-   "m24_max": 1,
+   "m24_max": 4,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-05T17:34+00:00"
@@ -18099,6 +18099,54 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-06T17:09+00:00"
+  },
+  "IBEX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-06T19:06+00:00"
+  },
+  "CLNE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-06T19:03+00:00"
+  },
+  "AFRI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-06T18:52+00:00"
+  },
+  "ST": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-06T18:36+00:00"
+  },
+  "JENA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-06T18:27+00:00"
+  },
+  "OBIO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-06T18:23+00:00"
+  },
+  "GMED": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-06T18:13+00:00"
+  },
+  "HLXC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-06T18:11+00:00"
   }
  }
 }

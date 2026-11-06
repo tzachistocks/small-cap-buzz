@@ -7285,7 +7285,7 @@
   "ts": "2026-11-06T18:07+00:00",
   "ticker": "VIVK",
   "score": 8,
-  "max_score": 8,
+  "max_score": 9,
   "price": 0.5123,
   "move_pct": 38.46,
   "cap_m": 0.82,
@@ -7300,7 +7300,8 @@
    "novel",
    "low_float",
    "rvol",
-   "rsplit"
+   "rsplit",
+   "authors"
   ],
   "alerted": false,
   "urgent": false,
@@ -7323,6 +7324,27 @@
    "novel",
    "low_float",
    "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-06|UIS": {
+  "ts": "2026-11-06T19:07+00:00",
+  "ticker": "UIS",
+  "score": 4,
+  "max_score": 4,
+  "price": 2.67,
+  "move_pct": 8.54,
+  "cap_m": 194.68,
+  "blocked": [],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel",
+   "sec_weak",
+   "pr_weak"
   ],
   "alerted": false,
   "urgent": false,

@@ -278,5 +278,12 @@
   "asia": null,
   "sic": "Retail-Catalog & Mail-Order Houses",
   "ts": "2026-11-06T13:08+00:00"
+ },
+ "UIS": {
+  "country": "PA",
+  "inc": "DE",
+  "asia": null,
+  "sic": "Services-Computer Integrated Systems Design",
+  "ts": "2026-11-06T19:09+00:00"
  }
 }
