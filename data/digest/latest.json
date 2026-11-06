@@ -1,31 +1,31 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-06T11:07+00:00",
+ "generated_at": "2026-11-06T12:07+00:00",
  "final": false,
  "runs": {
-  "count": 6,
+  "count": 7,
   "first": "2026-11-06T07:07+00:00",
-  "last": "2026-11-06T11:07+00:00",
+  "last": "2026-11-06T12:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 1574,
-   "mention_gate": 645,
+   "buzz_tickers": 1836,
+   "mention_gate": 748,
    "reddit_path": 3,
    "telegram_path": 0,
    "news_path": 0,
-   "skipped_large_cache": 791,
-   "shadow_gate": 288,
-   "to_check": 145,
-   "checked": 145,
+   "skipped_large_cache": 921,
+   "shadow_gate": 338,
+   "to_check": 168,
+   "checked": 168,
    "not_checked_time": 0,
    "blocked": {
-    "שווי": 21,
-    "כבר": 23,
-    "אין": 12,
-    "איחוד": 6
+    "שווי": 24,
+    "כבר": 26,
+    "אין": 14,
+    "איחוד": 7
    },
-   "below_score": 45,
-   "cooldown": 32,
-   "shadow_would_alert": 12,
+   "below_score": 53,
+   "cooldown": 38,
+   "shadow_would_alert": 14,
    "sent": 6,
    "send_failed": 0
   },
@@ -33,7 +33,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 474
+   "messages": 472
   },
   "per_run": [
    {
@@ -74,6 +74,13 @@
    {
     "ts": "2026-11-06T11:07+00:00",
     "checked": 21,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 5
+   },
+   {
+    "ts": "2026-11-06T12:07+00:00",
+    "checked": 23,
     "sent": 0,
     "send_failed": 0,
     "errors_n": 5
@@ -932,7 +939,8 @@
     "spread",
     "novel",
     "low_float",
-    "rvol"
+    "rvol",
+    "x_buzz"
    ],
    "alerted": false,
    "urgent": false
@@ -1467,6 +1475,25 @@
     "accel",
     "vel3h",
     "novel"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-06T12:07+00:00",
+   "ticker": "ANY",
+   "score": 3,
+   "max_score": 3,
+   "price": 2.89,
+   "move_pct": 3.96,
+   "cap_m": 16.56,
+   "blocked": [],
+   "tags": [
+    "accel",
+    "spread",
+    "rising",
+    "low_float",
+    "word"
    ],
    "alerted": false,
    "urgent": false
@@ -6655,8 +6682,8 @@
     "sample": "r/pennystocks: Watchlist for 11/06/26 lets hope for a great Friday!!"
    },
    "NOV": {
-    "m24_max": 2,
-    "authors24_max": 1,
+    "m24_max": 3,
+    "authors24_max": 2,
     "subs": [
      "pennystocks"
     ],
@@ -7009,7 +7036,7 @@
     "first_utc": "2026-11-05T08:57+00:00"
    },
    "GOLD": {
-    "m24_max": 7,
+    "m24_max": 9,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-05T18:51+00:00"
@@ -7055,6 +7082,12 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-05T16:56+00:00"
+   },
+   "SI": {
+    "m24_max": 4,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T12:03+00:00"
    },
    "BID": {
     "m24_max": 3,
@@ -7170,6 +7203,12 @@
     "chats24_max": 1,
     "first_utc": "2026-11-05T18:33+00:00"
    },
+   "CHTR": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T20:53+00:00"
+   },
    "KKR": {
     "m24_max": 2,
     "authors24_max": 1,
@@ -7217,18 +7256,6 @@
     "authors24_max": 2,
     "chats24_max": 2,
     "first_utc": "2026-11-05T14:07+00:00"
-   },
-   "TRIP": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-05T15:41+00:00"
-   },
-   "XERS": {
-    "m24_max": 2,
-    "authors24_max": 2,
-    "chats24_max": 2,
-    "first_utc": "2026-11-05T17:41+00:00"
    }
   },
   "telegram_all": {
@@ -7257,7 +7284,7 @@
     "first_utc": "2026-11-06T07:01+00:00"
    },
    "GOLD": {
-    "m24_max": 7,
+    "m24_max": 9,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-05T18:51+00:00"
@@ -7713,7 +7740,7 @@
     "first_utc": "2026-11-05T20:53+00:00"
    },
    "CHTR": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-05T20:53+00:00"
@@ -9187,6 +9214,66 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-06T11:03+00:00"
+   },
+   "SLVM": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T12:06+00:00"
+   },
+   "SAY": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T12:05+00:00"
+   },
+   "SI": {
+    "m24_max": 4,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T12:03+00:00"
+   },
+   "PBH": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T12:03+00:00"
+   },
+   "LLY": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T11:50+00:00"
+   },
+   "UAA": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T11:56+00:00"
+   },
+   "AQN": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T11:35+00:00"
+   },
+   "ROK": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T11:30+00:00"
+   },
+   "BIRD": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T11:30+00:00"
+   },
+   "DCBO": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T11:21+00:00"
    }
   }
  },
@@ -9216,11 +9303,11 @@
   "credits": 330
  },
  "errors_today": {
-  "HTTP 404 https: //api.stocktwits.com/api/2/streams/symbol/ANY.json": 6,
-  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/SAVE": 6,
-  "HTTP 404 https: //finviz.com/quote.ashx?t=SAVE&p=d": 6,
-  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/BABY": 6,
-  "HTTP 404 https: //finviz.com/quote.ashx?t=BABY&p=d": 6
+  "HTTP 404 https: //api.stocktwits.com/api/2/streams/symbol/ANY.json": 7,
+  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/SAVE": 7,
+  "HTTP 404 https: //finviz.com/quote.ashx?t=SAVE&p=d": 7,
+  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/BABY": 7,
+  "HTTP 404 https: //finviz.com/quote.ashx?t=BABY&p=d": 7
  },
  "closes_asof": null,
  "closes": {}

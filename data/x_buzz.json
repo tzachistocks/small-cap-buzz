@@ -1,9 +1,9 @@
 {
  "month": "2026-11",
- "month_credits": 946,
+ "month_credits": 1055,
  "exhausted": false,
- "day": "2026-11-05",
- "day_credits": 153,
+ "day": "2026-11-06",
+ "day_credits": 109,
  "done": [
   "2026-11-02T12",
   "2026-11-02T17",
@@ -12,25 +12,10 @@
   "2026-11-04T12",
   "2026-11-04T17",
   "2026-11-05T12",
-  "2026-11-05T17"
+  "2026-11-05T17",
+  "2026-11-06T12"
  ],
  "tickers": {
-  "GMHS": {
-   "posts": 7,
-   "posts6": 3,
-   "authors": 6,
-   "likes": 4,
-   "ts": "2026-11-02T17:07+00:00",
-   "full": true
-  },
-  "LEE": {
-   "posts": 0,
-   "posts6": 0,
-   "authors": 0,
-   "likes": 0,
-   "ts": "2026-11-02T17:07+00:00",
-   "full": true
-  },
   "INR": {
    "posts": 0,
    "posts6": 0,
@@ -216,11 +201,11 @@
    "full": true
   },
   "LABT": {
-   "posts": 5,
-   "posts6": 5,
-   "authors": 5,
-   "likes": 5,
-   "ts": "2026-11-05T17:07+00:00",
+   "posts": 6,
+   "posts6": 6,
+   "authors": 6,
+   "likes": 0,
+   "ts": "2026-11-06T12:07+00:00",
    "full": true
   },
   "LOT": {
@@ -228,21 +213,66 @@
    "posts6": 0,
    "authors": 0,
    "likes": 0,
-   "ts": "2026-11-05T17:07+00:00",
+   "ts": "2026-11-06T12:07+00:00",
+   "full": true
+  },
+  "WAVE": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-06T12:07+00:00",
+   "full": true
+  },
+  "SAVE": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-06T12:07+00:00",
+   "full": true
+  },
+  "RNA": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-06T12:07+00:00",
+   "full": true
+  },
+  "LINK": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-06T12:07+00:00",
+   "full": true
+  },
+  "TIL": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-06T12:07+00:00",
+   "full": true
+  },
+  "HERE": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-06T12:07+00:00",
    "full": true
   }
  },
  "discovery": {
-  "day": "2026-11-05",
+  "day": "2026-11-06",
   "tickers": {
-   "HTZ": 3,
-   "SOL": 1,
    "BTC": 1,
-   "AIN": 1,
-   "DKI": 1,
-   "CRIS": 1,
-   "OMH": 1
+   "HTZ": 1,
+   "INJ": 1,
+   "AMC": 1
   }
  },
- "discovery_day": "2026-11-05"
+ "discovery_day": "2026-11-06"
 }

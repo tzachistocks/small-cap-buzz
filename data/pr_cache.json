@@ -1,47 +1,5 @@
 [
  {
-  "ticker": "USNA",
-  "title": "USANA BiOmega Earns ConsumerLab Seal of Approval for Quality and Purity",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T12:06+00:00"
- },
- {
-  "ticker": "RGNX",
-  "title": "REGENXBIO to Participate in Stifel 2026 Healthcare Conference",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T12:05+00:00"
- },
- {
-  "ticker": "GRMN",
-  "title": "Garmin introduces Descent X10, the essential dive computer for underwater adventures",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T12:01+00:00"
- },
- {
-  "ticker": "RRX",
-  "title": "REGAL REXNORD REPORTS THIRD QUARTER 2026 FINANCIAL RESULTS",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T12:00+00:00"
- },
- {
-  "ticker": "PTCT",
-  "title": "PTC Therapeutics Board of Directors Authorizes $500 Million Share Repurchase Program",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T12:00+00:00"
- },
- {
-  "ticker": "HLNE",
-  "title": "HAMILTON LANE INCORPORATED REPORTS SECOND QUARTER FISCAL 2027 RESULTS",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T12:00+00:00"
- },
- {
-  "ticker": "STAK",
-  "title": "STAK Inc. Announces Changes in Management",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T12:00+00:00"
- },
- {
   "ticker": "RHI",
   "title": "Robert Half names DeLynn Senna to Global Executive Director of Permanent Placement",
   "src": "PR Newswire",
@@ -1018,5 +976,29 @@
   "title": "Yalla Group Limited to Report Third Quarter 2026 Financial Results on November 16, 2026 Eastern Time",
   "src": "PR Newswire",
   "ts": "2026-11-06T11:00+00:00"
+ },
+ {
+  "ticker": "ENB",
+  "title": "Enbridge Reports Strong Third Quarter Results, Places Over $3 Billion of Gas Transmission Projects Into Service, and Reaffirms 2026 Financial Guidance",
+  "src": "PR Newswire",
+  "ts": "2026-11-06T12:00+00:00"
+ },
+ {
+  "ticker": "BHC",
+  "title": "Bausch Health's Gastroenterology Business, Salix, to Present New Data on Cirrhosis Trends and Severe Alcohol-Associated Hepatitis at The Liver Meeting® 2026",
+  "src": "PR Newswire",
+  "ts": "2026-11-06T12:00+00:00"
+ },
+ {
+  "ticker": "AIIO",
+  "title": "Robo.ai CEO Issues Letter to Shareholders",
+  "src": "PR Newswire",
+  "ts": "2026-11-06T12:00+00:00"
+ },
+ {
+  "ticker": "AAOI",
+  "title": "Applied Optoelectronics Announces Equity Grants To Employees Under Inducement Plan",
+  "src": "PR Newswire",
+  "ts": "2026-11-06T12:00+00:00"
  }
 ]
