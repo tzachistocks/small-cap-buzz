@@ -6519,7 +6519,8 @@
   "tags": [
    "accel",
    "novel",
-   "low_float"
+   "low_float",
+   "relaxed_gate"
   ],
   "alerted": false,
   "urgent": false,
@@ -7096,6 +7097,71 @@
    "rising",
    "low_float",
    "word"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-06|TP": {
+  "ts": "2026-11-06T13:07+00:00",
+  "ticker": "TP",
+  "score": 3,
+  "max_score": 3,
+  "price": 8.323,
+  "move_pct": 0.88,
+  "cap_m": 106.37,
+  "blocked": [],
+  "tags": [
+   "accel",
+   "rising",
+   "low_float",
+   "borrow_fee",
+   "word"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-06|AKA": {
+  "ts": "2026-11-06T13:07+00:00",
+  "ticker": "AKA",
+  "score": 7,
+  "max_score": 7,
+  "price": 10.0,
+  "move_pct": -4.67,
+  "cap_m": 110.61,
+  "blocked": [],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "spread",
+   "rising",
+   "low_float",
+   "rvol",
+   "borrow_fee",
+   "sec_weak"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-06|ARR": {
+  "ts": "2026-11-06T13:07+00:00",
+  "ticker": "ARR",
+  "score": 3,
+  "max_score": 3,
+  "price": 12.55,
+  "move_pct": -0.4,
+  "cap_m": 1870.0,
+  "blocked": [
+   "שווי $1870M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "rising"
   ],
   "alerted": false,
   "urgent": false,

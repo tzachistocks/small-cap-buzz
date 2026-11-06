@@ -15959,7 +15959,7 @@
    "first_utc": "2026-11-05T21:33+00:00"
   },
   "FNF": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-05T21:33+00:00"
@@ -17823,6 +17823,48 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-06T11:21+00:00"
+  },
+  "DVN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-06T13:06+00:00"
+  },
+  "AME": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-06T13:03+00:00"
+  },
+  "FBNC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-06T13:03+00:00"
+  },
+  "KEY": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-06T13:03+00:00"
+  },
+  "ASTS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-06T12:38+00:00"
+  },
+  "SKY": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-06T12:26+00:00"
+  },
+  "UK": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-06T12:26+00:00"
   }
  }
 }

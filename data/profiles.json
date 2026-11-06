@@ -264,5 +264,19 @@
   "asia": null,
   "sic": "Retail-Family Clothing Stores",
   "ts": "2026-11-06T11:09+00:00"
+ },
+ "TP": {
+  "country": "",
+  "inc": "E9",
+  "asia": null,
+  "sic": "Services-Miscellaneous Amusement & Recreation",
+  "ts": "2026-11-06T13:08+00:00"
+ },
+ "AKA": {
+  "country": "CA",
+  "inc": "",
+  "asia": null,
+  "sic": "Retail-Catalog & Mail-Order Houses",
+  "ts": "2026-11-06T13:08+00:00"
  }
 }

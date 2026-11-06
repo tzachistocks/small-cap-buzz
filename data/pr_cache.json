@@ -1,11 +1,5 @@
 [
  {
-  "ticker": "RHI",
-  "title": "Robert Half names DeLynn Senna to Global Executive Director of Permanent Placement",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T13:05+00:00"
- },
- {
   "ticker": "CAN",
   "title": "Canaan Inc. to Report Third Quarter 2026 Financial Results on November 10, 2026",
   "src": "PR Newswire",
@@ -1000,5 +994,41 @@
   "title": "Applied Optoelectronics Announces Equity Grants To Employees Under Inducement Plan",
   "src": "PR Newswire",
   "ts": "2026-11-06T12:00+00:00"
+ },
+ {
+  "ticker": "CCB",
+  "title": "COASTAL FINANCIAL (NASDAQ: CCB) INVESTOR ALERT: HAGENS BERMAN ENCOURAGES CCB INVESTORS WITH SUBSTANTIAL LOSSES TO CONTACT FIRM BEFORE DECEMBER 1 DEADLINE IN SECURITIES CLASS ACTION",
+  "src": "PR Newswire",
+  "ts": "2026-11-06T13:04+00:00"
+ },
+ {
+  "ticker": "KEY",
+  "title": "KEYCORP ANNOUNCES 2028 QUARTERLY EARNINGS CONFERENCE CALL DATES",
+  "src": "PR Newswire",
+  "ts": "2026-11-06T13:00+00:00"
+ },
+ {
+  "ticker": "FBNC",
+  "title": "FIRST BANK EXPANDS CHARLOTTE PRESENCE WITH NEW SOUTHPARK BRANCH AND OFFICE",
+  "src": "PR Newswire",
+  "ts": "2026-11-06T13:00+00:00"
+ },
+ {
+  "ticker": "AME",
+  "title": "AMETEK Declares Quarterly Dividend",
+  "src": "PR Newswire",
+  "ts": "2026-11-06T13:00+00:00"
+ },
+ {
+  "ticker": "DB",
+  "title": "Decibel to Announce Third Quarter 2026 Financial Results on November 19, 2026",
+  "src": "PR Newswire",
+  "ts": "2026-11-06T13:00+00:00"
+ },
+ {
+  "ticker": "DCH",
+  "title": "Dauch Reports Third Quarter 2026 Financial Results",
+  "src": "PR Newswire",
+  "ts": "2026-11-06T13:00+00:00"
  }
 ]
