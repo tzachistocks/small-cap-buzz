@@ -1,29 +1,5 @@
 [
  {
-  "ticker": "PRAA",
-  "title": "Die PRA Group, Inc. feiert ihr 30-jähriges Firmenjubiläum mit dem Läuten der Nasdaq-Eröffnungsglocke",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T07:02+00:00"
- },
- {
-  "ticker": "BMM",
-  "title": "Blue Moon Announces Sale of Blue Moon Norway to ACG Metals Limited",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T07:00+00:00"
- },
- {
-  "ticker": "LKQ",
-  "title": "Rosen Law Firm Encourages LKQ Corporation Investors to Inquire About Securities Class Action Investigation - LKQ",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T06:17+00:00"
- },
- {
-  "ticker": "MPWR",
-  "title": "Rosen Law Firm Announces Investigation of Breaches of Fiduciary Duties by the Directors and Officers of Monolithic Power Systems, Inc. - MPWR",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T06:12+00:00"
- },
- {
   "ticker": "LAZ",
   "title": "Lazard schließt die Übernahme von Campbell Lutyens ab und gründet Lazard CL, den globalen Marktführer für die nächste Ära des privaten Kapitals",
   "src": "PR Newswire",
@@ -1024,5 +1000,29 @@
   "title": "Tripadvisor Investigation Notice: SueWallSt Notifies Investors of Pending Investigation Into Tripadvisor (TRIP)",
   "src": "PR Newswire",
   "ts": "2026-11-05T22:45+00:00"
+ },
+ {
+  "ticker": "BR",
+  "title": "Broadridge's Distributed Ledger Repo Processes $7.6 Trillion in October",
+  "src": "PR Newswire",
+  "ts": "2026-11-06T07:00+00:00"
+ },
+ {
+  "ticker": "QBTS",
+  "title": "QBTS Investors Have Opportunity to Lead D-Wave Quantum Inc. Securities Fraud Lawsuit",
+  "src": "PR Newswire",
+  "ts": "2026-11-06T06:37+00:00"
+ },
+ {
+  "ticker": "DUOL",
+  "title": "DUOL Investors Have Opportunity to Lead Duolingo, Inc. Securities Fraud Lawsuit",
+  "src": "PR Newswire",
+  "ts": "2026-11-06T06:35+00:00"
+ },
+ {
+  "ticker": "INO",
+  "title": "INOVIO Announces Pricing of Approximately $75 Million Public Offering",
+  "src": "PR Newswire",
+  "ts": "2026-11-06T04:18+00:00"
  }
 ]

@@ -1750,7 +1750,7 @@
   "telegram_sent": true,
   "outcome": {
    "days": 4,
-   "last_close": 0.6377999782562256,
+   "last_close": 0.6380000114440918,
    "last_pct": 4.6,
    "max_close_pct": 13.4,
    "max_high_pct": 21.3,
@@ -1859,10 +1859,10 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 0.8381999731063843,
+   "last_close": 0.8379999995231628,
    "last_pct": 0.6,
    "max_close_pct": 0.6,
-   "max_high_pct": 9.8,
+   "max_high_pct": 9.9,
    "d1_pct": 0.6
   },
   "followups": {}
@@ -2126,11 +2126,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 0.30820000171661377,
-   "last_pct": 0.4,
-   "max_close_pct": 0.4,
-   "max_high_pct": 17.2,
-   "d1_pct": 0.4
+   "last_close": 0.30799999833106995,
+   "last_pct": 0.3,
+   "max_close_pct": 0.3,
+   "max_high_pct": 17.3,
+   "d1_pct": 0.3
   },
   "followups": {}
  },
@@ -2615,5 +2615,417 @@
    "d1_pct": 0.7
   },
   "followups": {}
+ },
+ {
+  "id": "202611060707-EU",
+  "ts": "2026-11-06T07:07+00:00",
+  "ticker": "EU",
+  "score": 4,
+  "why": [
+   "האצה x4.57 מול הבסיס",
+   "+4 אזכורים ב-3 שעות",
+   "פיזור ב-6 פורומים",
+   "שיח עולה 3 ימים ברציפות (2→26→30)",
+   "חשד להתראת שווא (מילה)"
+  ],
+  "price": {
+   "price": 0.6688,
+   "prev_close": 0.7189,
+   "move_pct": -6.97,
+   "vol_today": 4966600,
+   "avg_vol20": 2678140,
+   "rel_vol": 1.85,
+   "exchange": "NCM",
+   "name": "enCore Energy Corp.",
+   "readiness": {
+    "points": 2,
+    "why": [
+     "ירדה 58% משיא 60 יום",
+     "מתחת ל-$1"
+    ],
+    "risk": [],
+    "asof": "2026-11-05",
+    "f": {
+     "rvol_1": 1.9706,
+     "atr_ratio": 1.1471,
+     "drawdown_60": -0.58,
+     "vol20": 0.0513,
+     "prior_runs_120": 0.0,
+     "ret_1d": -0.125,
+     "ret_3d": -0.087,
+     "ret_10d": -0.1818,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.6117
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 122.71,
+   "float_m": 189.67,
+   "short_float_pct": 18.33,
+   "days_to_cover": 7.23,
+   "src": "finviz"
+  },
+  "m_now": 30,
+  "m_24h_ago": 1,
+  "spread": [
+   "Daytrading",
+   "Shortsqueeze",
+   "WallStreetbetsELITE",
+   "Wallstreetbetsnew",
+   "stocks",
+   "wallstreetbets"
+  ],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 0,
+   "users": 10,
+   "bull": 15,
+   "bear": 2,
+   "oldest_min": 19722,
+   "watchlist": 1306
+  },
+  "borrow": {
+   "fee": 9.4826,
+   "available": 850000,
+   "fee_5d": 9.7733,
+   "available_5d": 200000
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "x": null,
+  "profile": {
+   "country": "TX",
+   "inc": "A1",
+   "asia": null,
+   "sic": "Miscellaneous Metal Ores",
+   "ts": "2026-10-27T08:08+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [],
+   "filings": [],
+   "rsplit": null,
+   "cik": 1500881
+  },
+  "forum": {
+   "rising": [
+    2,
+    26,
+    30
+   ],
+   "novel": false
+  },
+  "invalidation": 0.5685,
+  "news": null,
+  "urgent": false,
+  "urgent_why": [],
+  "path": "buzz",
+  "telegram_sent": true,
+  "outcome": {}
+ },
+ {
+  "id": "202611060707-TIL",
+  "ts": "2026-11-06T07:07+00:00",
+  "ticker": "TIL",
+  "score": 4,
+  "why": [
+   "האצה x4.0 מול הבסיס",
+   "שיח עולה 3 ימים ברציפות (3→5→6)",
+   "פלואט 4.2M"
+  ],
+  "price": {
+   "price": 6.99,
+   "prev_close": 6.99,
+   "move_pct": 0.0,
+   "vol_today": 92500,
+   "avg_vol20": 61645,
+   "rel_vol": 1.5,
+   "exchange": "NCM",
+   "name": "Instil Bio, Inc.",
+   "readiness": {
+    "points": -1,
+    "why": [
+     "ליד שיא 20 יום (פחות ריצות)"
+    ],
+    "risk": [],
+    "asof": "2026-11-05",
+    "f": {
+     "rvol_1": 2.1765,
+     "atr_ratio": 0.8953,
+     "drawdown_60": -0.1141,
+     "vol20": 0.0491,
+     "prior_runs_120": 0.0,
+     "ret_1d": 0.0,
+     "ret_3d": 0.0672,
+     "ret_10d": 0.2263,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.9811
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 47.41,
+   "float_m": 4.17,
+   "short_float_pct": 4.09,
+   "days_to_cover": 6.26,
+   "src": "finviz"
+  },
+  "m_now": 6,
+  "m_24h_ago": 2,
+  "spread": [],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 0,
+   "users": 18,
+   "bull": 5,
+   "bear": 0,
+   "oldest_min": 437186,
+   "watchlist": 823
+  },
+  "borrow": {
+   "fee": 0.4787,
+   "available": 450000,
+   "fee_5d": 0.4851,
+   "available_5d": 400000
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "x": null,
+  "profile": {
+   "country": "TX",
+   "inc": "NY",
+   "asia": null,
+   "sic": "Biological Products, (No Diagnostic Substances)",
+   "ts": "2026-10-26T14:10+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [],
+   "filings": [],
+   "rsplit": null,
+   "cik": 1789769
+  },
+  "forum": {
+   "rising": [
+    3,
+    5,
+    6
+   ],
+   "novel": false
+  },
+  "invalidation": 5.9415,
+  "news": null,
+  "urgent": false,
+  "urgent_why": [],
+  "path": "buzz",
+  "telegram_sent": true,
+  "outcome": {}
+ },
+ {
+  "id": "202611060707-HERE",
+  "ts": "2026-11-06T07:07+00:00",
+  "ticker": "HERE",
+  "score": 4,
+  "why": [
+   "האצה x4.0 מול הבסיס",
+   "שיח עולה 3 ימים ברציפות (0→5→6)",
+   "פלואט 35.2M"
+  ],
+  "price": {
+   "price": 1.47,
+   "prev_close": 1.51,
+   "move_pct": -2.65,
+   "vol_today": 7700,
+   "avg_vol20": 13885,
+   "rel_vol": 0.55,
+   "exchange": "NGM",
+   "name": "Here Group Limited",
+   "readiness": {
+    "points": 0,
+    "why": [],
+    "risk": [],
+    "asof": "2026-11-05",
+    "f": {
+     "rvol_1": 0.7979,
+     "atr_ratio": 1.2639,
+     "drawdown_60": -0.2344,
+     "vol20": 0.039,
+     "prior_runs_120": 0.0,
+     "ret_1d": -0.0265,
+     "ret_3d": -0.0068,
+     "ret_10d": 0.0208,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.8802
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 52.86,
+   "float_m": 35.23,
+   "short_float_pct": 1.71,
+   "days_to_cover": 32.8,
+   "src": "finviz"
+  },
+  "m_now": 6,
+  "m_24h_ago": 1,
+  "spread": [],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 0,
+   "users": 15,
+   "bull": 1,
+   "bear": 0,
+   "oldest_min": 283750,
+   "watchlist": 327
+  },
+  "borrow": {
+   "fee": 7.5796,
+   "available": 2300000,
+   "fee_5d": 9.5952,
+   "available_5d": 2400000
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "x": null,
+  "profile": {
+   "country": "",
+   "inc": "E9",
+   "asia": null,
+   "sic": "Retail-Hobby, Toy & Game Shops",
+   "ts": "2026-10-31T09:41+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [],
+   "filings": [],
+   "rsplit": null,
+   "cik": 1932770
+  },
+  "forum": {
+   "rising": [
+    0,
+    5,
+    6
+   ],
+   "novel": false
+  },
+  "invalidation": 1.2495,
+  "news": null,
+  "urgent": false,
+  "urgent_why": [],
+  "path": "buzz",
+  "telegram_sent": true,
+  "outcome": {}
+ },
+ {
+  "id": "202611060707-LINK",
+  "ts": "2026-11-06T07:07+00:00",
+  "ticker": "LINK",
+  "score": 7,
+  "why": [
+   "האצה x3.83 מול הבסיס",
+   "+7 אזכורים ב-3 שעות",
+   "פיזור ב-5 פורומים",
+   "שיח עולה 3 ימים ברציפות (5→14→21)",
+   "פלואט 3.5M"
+  ],
+  "price": {
+   "price": 2.92,
+   "prev_close": 3.32,
+   "move_pct": -12.05,
+   "vol_today": 27600,
+   "avg_vol20": 24375,
+   "rel_vol": 1.13,
+   "exchange": "NCM",
+   "name": "Interlink Electronics, Inc.",
+   "readiness": {
+    "points": 1,
+    "why": [
+     "ירדה 55% משיא 60 יום"
+    ],
+    "risk": [],
+    "asof": "2026-11-05",
+    "f": {
+     "rvol_1": 1.2545,
+     "atr_ratio": 1.0304,
+     "drawdown_60": -0.5508,
+     "vol20": 0.0473,
+     "prior_runs_120": 0.0,
+     "ret_1d": -0.1205,
+     "ret_3d": -0.2275,
+     "ret_10d": -0.2754,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.5712
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 46.0,
+   "float_m": 3.54,
+   "short_float_pct": 0.76,
+   "days_to_cover": 0.88,
+   "src": "finviz"
+  },
+  "m_now": 21,
+  "m_24h_ago": 1,
+  "spread": [
+   "Daytrading",
+   "Shortsqueeze",
+   "WallStreetbetsELITE",
+   "Wallstreetbetsnew",
+   "stocks"
+  ],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 0,
+   "users": 24,
+   "bull": 4,
+   "bear": 1,
+   "oldest_min": 186963,
+   "watchlist": 1022
+  },
+  "borrow": {
+   "fee": 2.2351,
+   "available": 70000,
+   "fee_5d": 2.2113,
+   "available_5d": 60000
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "x": null,
+  "profile": {
+   "country": "CA",
+   "inc": "NV",
+   "asia": null,
+   "sic": "Computer Peripheral Equipment, NEC",
+   "ts": "2026-10-22T23:16+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [],
+   "filings": [],
+   "rsplit": null,
+   "cik": 828146
+  },
+  "forum": {
+   "rising": [
+    5,
+    14,
+    21
+   ],
+   "novel": false
+  },
+  "invalidation": 2.482,
+  "news": null,
+  "urgent": false,
+  "urgent_why": [],
+  "path": "buzz",
+  "telegram_sent": true,
+  "outcome": {}
  }
 ]
