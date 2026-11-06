@@ -2723,7 +2723,8 @@
   "urgent_why": [],
   "path": "buzz",
   "telegram_sent": true,
-  "outcome": {}
+  "outcome": {},
+  "followups": {}
  },
  {
   "id": "202611060707-TIL",
@@ -2822,7 +2823,8 @@
   "urgent_why": [],
   "path": "buzz",
   "telegram_sent": true,
-  "outcome": {}
+  "outcome": {},
+  "followups": {}
  },
  {
   "id": "202611060707-HERE",
@@ -2919,7 +2921,8 @@
   "urgent_why": [],
   "path": "buzz",
   "telegram_sent": true,
-  "outcome": {}
+  "outcome": {},
+  "followups": {}
  },
  {
   "id": "202611060707-LINK",
@@ -3026,6 +3029,7 @@
   "urgent_why": [],
   "path": "buzz",
   "telegram_sent": true,
-  "outcome": {}
+  "outcome": {},
+  "followups": {}
  }
 ]
