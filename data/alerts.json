@@ -1478,12 +1478,13 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 4,
-   "last_close": 7.0,
-   "last_pct": 14.4,
-   "max_close_pct": 14.4,
+   "days": 5,
+   "last_close": 7.059999942779541,
+   "last_pct": 15.4,
+   "max_close_pct": 15.4,
    "max_high_pct": 17.2,
-   "d1_pct": -1.8
+   "d1_pct": -1.8,
+   "final": true
   },
   "followups": {}
  },
@@ -1612,12 +1613,13 @@
   "path": "reddit",
   "telegram_sent": true,
   "outcome": {
-   "days": 4,
-   "last_close": 2.2699999809265137,
-   "last_pct": -2.5,
+   "days": 5,
+   "last_close": 2.2799999713897705,
+   "last_pct": -2.1,
    "max_close_pct": 6.9,
    "max_high_pct": 7.8,
-   "d1_pct": -6.8
+   "d1_pct": -6.8,
+   "final": true
   },
   "followups": {}
  },
@@ -1749,12 +1751,13 @@
   "path": "news",
   "telegram_sent": true,
   "outcome": {
-   "days": 4,
-   "last_close": 0.6380000114440918,
-   "last_pct": 4.6,
+   "days": 5,
+   "last_close": 0.6168000102043152,
+   "last_pct": 1.1,
    "max_close_pct": 13.4,
    "max_high_pct": 21.3,
-   "d1_pct": 13.4
+   "d1_pct": 13.4,
+   "final": true
   },
   "followups": {}
  },
@@ -1858,10 +1861,10 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 1,
-   "last_close": 0.8379999995231628,
-   "last_pct": 0.6,
-   "max_close_pct": 0.6,
+   "days": 2,
+   "last_close": 0.8619999885559082,
+   "last_pct": 3.5,
+   "max_close_pct": 3.5,
    "max_high_pct": 9.9,
    "d1_pct": 0.6
   },
@@ -1986,10 +1989,10 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 1,
-   "last_close": 2.859999895095825,
-   "last_pct": -3.4,
-   "max_close_pct": -3.4,
+   "days": 2,
+   "last_close": 2.869999885559082,
+   "last_pct": -3.0,
+   "max_close_pct": -3.0,
    "max_high_pct": 5.4,
    "d1_pct": -3.4
   },
@@ -2125,10 +2128,10 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 1,
-   "last_close": 0.30799999833106995,
-   "last_pct": 0.3,
-   "max_close_pct": 0.3,
+   "days": 2,
+   "last_close": 0.3100000023841858,
+   "last_pct": 1.0,
+   "max_close_pct": 1.0,
    "max_high_pct": 17.3,
    "d1_pct": 0.3
   },
@@ -2260,9 +2263,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 1,
-   "last_close": 4.349999904632568,
-   "last_pct": -1.1,
+   "days": 2,
+   "last_close": 4.304999828338623,
+   "last_pct": -2.2,
    "max_close_pct": -1.1,
    "max_high_pct": 6.6,
    "d1_pct": -1.1
@@ -2370,9 +2373,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 1,
-   "last_close": 8.319999694824219,
-   "last_pct": -1.2,
+   "days": 2,
+   "last_close": 8.260000228881836,
+   "last_pct": -1.9,
    "max_close_pct": -1.2,
    "max_high_pct": 3.7,
    "d1_pct": -1.2
@@ -2478,10 +2481,10 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 1,
-   "last_close": 2.9200000762939453,
-   "last_pct": 0.0,
-   "max_close_pct": 0.0,
+   "days": 2,
+   "last_close": 3.184999942779541,
+   "last_pct": 9.1,
+   "max_close_pct": 9.1,
    "max_high_pct": 12.2,
    "d1_pct": 0.0
   },
@@ -2607,10 +2610,10 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 1,
-   "last_close": 2.859999895095825,
-   "last_pct": 0.7,
-   "max_close_pct": 0.7,
+   "days": 2,
+   "last_close": 2.869999885559082,
+   "last_pct": 1.1,
+   "max_close_pct": 1.1,
    "max_high_pct": 9.9,
    "d1_pct": 0.7
   },
@@ -2723,7 +2726,14 @@
   "urgent_why": [],
   "path": "buzz",
   "telegram_sent": true,
-  "outcome": {},
+  "outcome": {
+   "days": 1,
+   "last_close": 0.6456999778747559,
+   "last_pct": -3.5,
+   "max_close_pct": -3.5,
+   "max_high_pct": 0.2,
+   "d1_pct": -3.5
+  },
   "followups": {}
  },
  {
@@ -2823,7 +2833,14 @@
   "urgent_why": [],
   "path": "buzz",
   "telegram_sent": true,
-  "outcome": {},
+  "outcome": {
+   "days": 1,
+   "last_close": 6.880000114440918,
+   "last_pct": -1.6,
+   "max_close_pct": -1.6,
+   "max_high_pct": -0.4,
+   "d1_pct": -1.6
+  },
   "followups": {}
  },
  {
@@ -3029,7 +3046,14 @@
   "urgent_why": [],
   "path": "buzz",
   "telegram_sent": true,
-  "outcome": {},
+  "outcome": {
+   "days": 1,
+   "last_close": 3.184999942779541,
+   "last_pct": 9.1,
+   "max_close_pct": 9.1,
+   "max_high_pct": 9.1,
+   "d1_pct": 9.1
+  },
   "followups": {}
  },
  {
@@ -3151,7 +3175,14 @@
   "urgent_why": [],
   "path": "buzz",
   "telegram_sent": true,
-  "outcome": {},
+  "outcome": {
+   "days": 1,
+   "last_close": 0.3100000023841858,
+   "last_pct": 0.6,
+   "max_close_pct": 0.6,
+   "max_high_pct": 7.1,
+   "d1_pct": 0.6
+  },
   "followups": {}
  },
  {
@@ -3275,7 +3306,14 @@
   "urgent_why": [],
   "path": "buzz",
   "telegram_sent": true,
-  "outcome": {},
+  "outcome": {
+   "days": 1,
+   "last_close": 4.119999885559082,
+   "last_pct": -0.0,
+   "max_close_pct": -0.0,
+   "max_high_pct": -0.0,
+   "d1_pct": -0.0
+  },
   "followups": {}
  }
 ]

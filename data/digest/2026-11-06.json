@@ -1,31 +1,31 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-06T14:07+00:00",
+ "generated_at": "2026-11-06T15:07+00:00",
  "final": false,
  "runs": {
-  "count": 9,
+  "count": 10,
   "first": "2026-11-06T07:07+00:00",
-  "last": "2026-11-06T14:07+00:00",
+  "last": "2026-11-06T15:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 2352,
-   "mention_gate": 951,
+   "buzz_tickers": 2612,
+   "mention_gate": 1040,
    "reddit_path": 3,
    "telegram_path": 0,
-   "news_path": 0,
-   "skipped_large_cache": 1175,
-   "shadow_gate": 437,
-   "to_check": 216,
-   "checked": 216,
+   "news_path": 1,
+   "skipped_large_cache": 1291,
+   "shadow_gate": 486,
+   "to_check": 239,
+   "checked": 239,
    "not_checked_time": 0,
    "blocked": {
-    "שווי": 30,
-    "כבר": 35,
-    "אין": 18,
-    "איחוד": 9
+    "שווי": 34,
+    "כבר": 36,
+    "אין": 19,
+    "איחוד": 10
    },
-   "below_score": 71,
-   "cooldown": 48,
-   "shadow_would_alert": 18,
+   "below_score": 80,
+   "cooldown": 52,
+   "shadow_would_alert": 22,
    "sent": 6,
    "send_failed": 0
   },
@@ -33,7 +33,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 474
+   "messages": 468
   },
   "per_run": [
    {
@@ -98,6 +98,13 @@
     "sent": 0,
     "send_failed": 0,
     "errors_n": 7
+   },
+   {
+    "ts": "2026-11-06T15:07+00:00",
+    "checked": 23,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 5
    }
   ]
  },
@@ -124,7 +131,14 @@
     "חשד להתראת שווא (מילה)"
    ],
    "news": null,
-   "outcome": {}
+   "outcome": {
+    "days": 1,
+    "last_close": 0.6456999778747559,
+    "last_pct": -3.5,
+    "max_close_pct": -3.5,
+    "max_high_pct": 0.2,
+    "d1_pct": -3.5
+   }
   },
   {
    "ts": "2026-11-06T07:07+00:00",
@@ -146,7 +160,14 @@
     "פלואט 4.2M"
    ],
    "news": null,
-   "outcome": {}
+   "outcome": {
+    "days": 1,
+    "last_close": 6.880000114440918,
+    "last_pct": -1.6,
+    "max_close_pct": -1.6,
+    "max_high_pct": -0.4,
+    "d1_pct": -1.6
+   }
   },
   {
    "ts": "2026-11-06T07:07+00:00",
@@ -192,7 +213,14 @@
     "פלואט 3.5M"
    ],
    "news": null,
-   "outcome": {}
+   "outcome": {
+    "days": 1,
+    "last_close": 3.184999942779541,
+    "last_pct": 9.1,
+    "max_close_pct": 9.1,
+    "max_high_pct": 9.1,
+    "d1_pct": 9.1
+   }
   },
   {
    "ts": "2026-11-06T09:07+00:00",
@@ -216,7 +244,14 @@
     "PR רגיל (08:35 ET 05/11): International companies to host live webcasts at Deutsche Bank’s Depos"
    ],
    "news": "International companies to host live webcasts at Deutsche Bank’s Depositary Receipts Virtual Investor Conference on November 12, 2026",
-   "outcome": {}
+   "outcome": {
+    "days": 1,
+    "last_close": 0.3100000023841858,
+    "last_pct": 0.6,
+    "max_close_pct": 0.6,
+    "max_high_pct": 7.1,
+    "d1_pct": 0.6
+   }
   },
   {
    "ts": "2026-11-06T09:07+00:00",
@@ -242,7 +277,14 @@
     "חשד להתראת שווא (מילה)"
    ],
    "news": "Citizens (CIA) Reports Break-Even Earnings for Q3",
-   "outcome": {}
+   "outcome": {
+    "days": 1,
+    "last_close": 4.119999885559082,
+    "last_pct": -0.0,
+    "max_close_pct": -0.0,
+    "max_high_pct": -0.0,
+    "d1_pct": -0.0
+   }
   }
  ],
  "alerts_last_14d": [
@@ -556,12 +598,13 @@
    ],
    "news": null,
    "outcome": {
-    "days": 4,
-    "last_close": 7.0,
-    "last_pct": 14.4,
-    "max_close_pct": 14.4,
+    "days": 5,
+    "last_close": 7.059999942779541,
+    "last_pct": 15.4,
+    "max_close_pct": 15.4,
     "max_high_pct": 17.2,
-    "d1_pct": -1.8
+    "d1_pct": -1.8,
+    "final": true
    }
   },
   {
@@ -589,12 +632,13 @@
    ],
    "news": null,
    "outcome": {
-    "days": 4,
-    "last_close": 2.2699999809265137,
-    "last_pct": -2.5,
+    "days": 5,
+    "last_close": 2.2799999713897705,
+    "last_pct": -2.1,
     "max_close_pct": 6.9,
     "max_high_pct": 7.8,
-    "d1_pct": -6.8
+    "d1_pct": -6.8,
+    "final": true
    }
   },
   {
@@ -622,12 +666,13 @@
    ],
    "news": "Gamehaus Signs Definitive Agreement to Acquire Majority Stake in Anamana",
    "outcome": {
-    "days": 4,
-    "last_close": 0.6380000114440918,
-    "last_pct": 4.6,
+    "days": 5,
+    "last_close": 0.6168000102043152,
+    "last_pct": 1.1,
     "max_close_pct": 13.4,
     "max_high_pct": 21.3,
-    "d1_pct": 13.4
+    "d1_pct": 13.4,
+    "final": true
    }
   },
   {
@@ -654,10 +699,10 @@
    ],
    "news": null,
    "outcome": {
-    "days": 1,
-    "last_close": 0.8379999995231628,
-    "last_pct": 0.6,
-    "max_close_pct": 0.6,
+    "days": 2,
+    "last_close": 0.8619999885559082,
+    "last_pct": 3.5,
+    "max_close_pct": 3.5,
     "max_high_pct": 9.9,
     "d1_pct": 0.6
    }
@@ -686,10 +731,10 @@
    ],
    "news": "Wheels Up Announces Third Quarter Results",
    "outcome": {
-    "days": 1,
-    "last_close": 2.859999895095825,
-    "last_pct": -3.4,
-    "max_close_pct": -3.4,
+    "days": 2,
+    "last_close": 2.869999885559082,
+    "last_pct": -3.0,
+    "max_close_pct": -3.0,
     "max_high_pct": 5.4,
     "d1_pct": -3.4
    }
@@ -717,10 +762,10 @@
    ],
    "news": "International companies to host live webcasts at Deutsche Bank’s Depositary Receipts Virtual Investor Conference on November 12, 2026",
    "outcome": {
-    "days": 1,
-    "last_close": 0.30799999833106995,
-    "last_pct": 0.3,
-    "max_close_pct": 0.3,
+    "days": 2,
+    "last_close": 0.3100000023841858,
+    "last_pct": 1.0,
+    "max_close_pct": 1.0,
     "max_high_pct": 17.3,
     "d1_pct": 0.3
    }
@@ -749,9 +794,9 @@
    ],
    "news": "WISeQey, SEALSQ, SEALCOIN and Eco Wave Power Sign Three-Year MoU and Demonstrate Trusted Energy Transactions for AI Data Centers",
    "outcome": {
-    "days": 1,
-    "last_close": 4.349999904632568,
-    "last_pct": -1.1,
+    "days": 2,
+    "last_close": 4.304999828338623,
+    "last_pct": -2.2,
     "max_close_pct": -1.1,
     "max_high_pct": 6.6,
     "d1_pct": -1.1
@@ -779,9 +824,9 @@
    ],
    "news": null,
    "outcome": {
-    "days": 1,
-    "last_close": 8.319999694824219,
-    "last_pct": -1.2,
+    "days": 2,
+    "last_close": 8.260000228881836,
+    "last_pct": -1.9,
     "max_close_pct": -1.2,
     "max_high_pct": 3.7,
     "d1_pct": -1.2
@@ -809,10 +854,10 @@
    ],
    "news": null,
    "outcome": {
-    "days": 1,
-    "last_close": 2.9200000762939453,
-    "last_pct": 0.0,
-    "max_close_pct": 0.0,
+    "days": 2,
+    "last_close": 3.184999942779541,
+    "last_pct": 9.1,
+    "max_close_pct": 9.1,
     "max_high_pct": 12.2,
     "d1_pct": 0.0
    }
@@ -842,10 +887,10 @@
    ],
    "news": "Wheels Up Announces Third Quarter Results",
    "outcome": {
-    "days": 1,
-    "last_close": 2.859999895095825,
-    "last_pct": 0.7,
-    "max_close_pct": 0.7,
+    "days": 2,
+    "last_close": 2.869999885559082,
+    "last_pct": 1.1,
+    "max_close_pct": 1.1,
     "max_high_pct": 9.9,
     "d1_pct": 0.7
    }
@@ -1213,7 +1258,8 @@
     "spread",
     "rising",
     "pr_weak",
-    "accel"
+    "accel",
+    "relaxed_gate"
    ],
    "alerted": false,
    "urgent": false
@@ -1418,7 +1464,9 @@
     "relaxed_gate",
     "accel",
     "novel",
-    "low_float"
+    "low_float",
+    "sec_weak",
+    "pr_weak"
    ],
    "alerted": false,
    "urgent": false
@@ -1557,6 +1605,26 @@
     "accel",
     "vel3h",
     "rising"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-06T15:07+00:00",
+   "ticker": "MSCI",
+   "score": 3,
+   "max_score": 3,
+   "price": 645.085,
+   "move_pct": -1.65,
+   "cap_m": 46190.0,
+   "blocked": [
+    "שווי $46190M"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "rising",
+    "novel"
    ],
    "alerted": false,
    "urgent": false
@@ -6744,22 +6812,34 @@
     "first_utc": "2026-11-05T12:25+00:00",
     "sample": "r/smallstreetbets: DJT Puts"
    },
-   "VIVK": {
-    "m24_max": 4,
-    "authors24_max": 2,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-06T13:20+00:00"
-   },
    "NOV": {
-    "m24_max": 3,
+    "m24_max": 4,
     "authors24_max": 2,
     "subs": [
      "pennystocks"
     ],
     "first_utc": "2026-11-05T15:04+00:00",
     "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
+   },
+   "VIVK": {
+    "m24_max": 4,
+    "authors24_max": 3,
+    "subs": [
+     "pennystocks",
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-11-06T13:20+00:00",
+    "sample": "r/pennystocks: 06 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+   },
+   "CIIT": {
+    "m24_max": 3,
+    "authors24_max": 3,
+    "subs": [
+     "pennystocks",
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-11-06T04:15+00:00",
+    "sample": "r/pennystocks: Watchlist for 11/06/26 lets hope for a great Friday!!"
    },
    "SOUN": {
     "m24_max": 3,
@@ -6790,6 +6870,15 @@
     "first_utc": "2026-11-05T14:16+00:00",
     "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
    },
+   "BDMD": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-06T04:15+00:00",
+    "sample": "r/pennystocks: Watchlist for 11/06/26 lets hope for a great Friday!!"
+   },
    "AGI": {
     "m24_max": 2,
     "authors24_max": 2,
@@ -6816,6 +6905,34 @@
     ],
     "first_utc": "2026-11-06T07:36+00:00"
    },
+   "VSA": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks",
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-11-06T12:28+00:00",
+    "sample": "r/pennystocks: 06 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+   },
+   "DBGI": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks",
+     "smallstreetbets"
+    ],
+    "first_utc": "2026-11-06T14:00+00:00",
+    "sample": "r/pennystocks: 06 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+   },
+   "FTCI": {
+    "m24_max": 2,
+    "authors24_max": 2,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-06T14:34+00:00"
+   },
    "OMH": {
     "m24_max": 1,
     "authors24_max": 1,
@@ -6825,25 +6942,7 @@
     "first_utc": "2026-11-06T04:15+00:00",
     "sample": "r/pennystocks: Watchlist for 11/06/26 lets hope for a great Friday!!"
    },
-   "BDMD": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-06T04:15+00:00",
-    "sample": "r/pennystocks: Watchlist for 11/06/26 lets hope for a great Friday!!"
-   },
    "FLYE": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-06T04:15+00:00",
-    "sample": "r/pennystocks: Watchlist for 11/06/26 lets hope for a great Friday!!"
-   },
-   "CIIT": {
     "m24_max": 1,
     "authors24_max": 1,
     "subs": [
@@ -7049,33 +7148,6 @@
     ],
     "first_utc": "2026-11-05T15:06+00:00",
     "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-   },
-   "ARQ": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-05T15:04+00:00",
-    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-   },
-   "AMTX": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-05T15:04+00:00",
-    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-   },
-   "CCLD": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-05T15:04+00:00",
-    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
    }
   },
   "telegram_top": {
@@ -7096,6 +7168,12 @@
     "authors24_max": 11,
     "chats24_max": 1,
     "first_utc": "2026-11-05T08:57+00:00"
+   },
+   "WH": {
+    "m24_max": 14,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T14:14+00:00"
    },
    "GOLD": {
     "m24_max": 9,
@@ -7132,6 +7210,12 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-05T14:32+00:00"
+   },
+   "SA": {
+    "m24_max": 4,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T19:00+00:00"
    },
    "AD": {
     "m24_max": 4,
@@ -7187,12 +7271,6 @@
     "chats24_max": 1,
     "first_utc": "2026-11-05T14:32+00:00"
    },
-   "SA": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-05T19:00+00:00"
-   },
    "FOUR": {
     "m24_max": 3,
     "authors24_max": 1,
@@ -7246,6 +7324,12 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-05T21:31+00:00"
+   },
+   "SAN": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T22:03+00:00"
    },
    "FNF": {
     "m24_max": 2,
@@ -7306,18 +7390,6 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-05T20:02+00:00"
-   },
-   "WRBY": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-05T16:48+00:00"
-   },
-   "VCEL": {
-    "m24_max": 2,
-    "authors24_max": 2,
-    "chats24_max": 2,
-    "first_utc": "2026-11-05T20:22+00:00"
    }
   },
   "telegram_all": {
@@ -7454,7 +7526,7 @@
     "first_utc": "2026-11-05T22:05+00:00"
    },
    "SAN": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-05T22:03+00:00"
@@ -7634,7 +7706,7 @@
     "first_utc": "2026-11-05T20:59+00:00"
    },
    "SA": {
-    "m24_max": 3,
+    "m24_max": 4,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-05T19:00+00:00"
@@ -9462,6 +9534,48 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-06T14:07+00:00"
+   },
+   "PMI": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T15:01+00:00"
+   },
+   "WH": {
+    "m24_max": 14,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T14:14+00:00"
+   },
+   "MOD": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T14:42+00:00"
+   },
+   "REI": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T14:10+00:00"
+   },
+   "SECZ": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T14:08+00:00"
+   },
+   "VRDR": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T14:53+00:00"
+   },
+   "NNVC": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T14:21+00:00"
    }
   }
  },
@@ -9491,13 +9605,13 @@
   "credits": 330
  },
  "errors_today": {
-  "HTTP 404 https: //api.stocktwits.com/api/2/streams/symbol/ANY.json": 9,
-  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/SAVE": 9,
-  "HTTP 404 https: //finviz.com/quote.ashx?t=SAVE&p=d": 9,
+  "HTTP 404 https: //api.stocktwits.com/api/2/streams/symbol/ANY.json": 10,
+  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/SAVE": 10,
+  "HTTP 404 https: //finviz.com/quote.ashx?t=SAVE&p=d": 10,
   "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/BABY": 9,
   "HTTP 404 https: //finviz.com/quote.ashx?t=BABY&p=d": 9,
-  "HTTP 404 https: //stockanalysis.com/stocks/vxx/statistics/": 1,
-  "no fundamentals for VXX": 1
+  "HTTP 404 https: //stockanalysis.com/stocks/vxx/statistics/": 2,
+  "no fundamentals for VXX": 2
  },
  "closes_asof": null,
  "closes": {}

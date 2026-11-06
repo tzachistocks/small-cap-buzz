@@ -6701,7 +6701,8 @@
    "spread",
    "rising",
    "pr_weak",
-   "accel"
+   "accel",
+   "relaxed_gate"
   ],
   "alerted": false,
   "urgent": false,
@@ -6811,7 +6812,9 @@
    "relaxed_gate",
    "accel",
    "novel",
-   "low_float"
+   "low_float",
+   "sec_weak",
+   "pr_weak"
   ],
   "alerted": false,
   "urgent": false,
@@ -7184,6 +7187,27 @@
    "vel3h",
    "novel",
    "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-06|MSCI": {
+  "ts": "2026-11-06T15:07+00:00",
+  "ticker": "MSCI",
+  "score": 3,
+  "max_score": 3,
+  "price": 645.085,
+  "move_pct": -1.65,
+  "cap_m": 46190.0,
+  "blocked": [
+   "שווי $46190M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "rising",
+   "novel"
   ],
   "alerted": false,
   "urgent": false,

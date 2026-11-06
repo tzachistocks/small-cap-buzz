@@ -1,11 +1,5 @@
 [
  {
-  "ticker": "ALKT",
-  "title": "Texoma Community Credit Union to Build a More Connected Member Experience with Alkami's Digital Sales & Service Platform",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T15:00+00:00"
- },
- {
   "ticker": "YRD",
   "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against Yiren Digital Ltd. (NYSE: YRD) -- Investors Who Suffered Losses Are Encouraged to Contact the Firm.",
   "src": "PR Newswire",
@@ -1030,5 +1024,17 @@
   "title": "Cineverse to Report Second Quarter Fiscal 2027 Financial Results on Friday, November 13, 2026",
   "src": "PR Newswire",
   "ts": "2026-11-06T14:00+00:00"
+ },
+ {
+  "ticker": "HALO",
+  "title": "Halozyme Reaffirms It Projects Zero to Minimal Impact to Royalty Revenue Through At Least 2035 Based on Medicare Drug Price Negotiation Program Final Rule for IPAY 2029",
+  "src": "PR Newswire",
+  "ts": "2026-11-06T15:04+00:00"
+ },
+ {
+  "ticker": "HALO",
+  "title": "U.S. FDA Approves RYBREVANT FASPRO™ (amivantamab and hyaluronidase-lpuj) Co-Formulated with Halozyme's ENHANZE® Technology for the Treatment of Advanced Head and Neck Cancer",
+  "src": "PR Newswire",
+  "ts": "2026-11-06T14:57+00:00"
  }
 ]

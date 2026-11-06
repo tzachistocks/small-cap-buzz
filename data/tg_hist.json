@@ -15941,7 +15941,7 @@
    "first_utc": "2026-11-05T22:05+00:00"
   },
   "SAN": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-05T22:03+00:00"
@@ -16121,7 +16121,7 @@
    "first_utc": "2026-11-05T20:59+00:00"
   },
   "SA": {
-   "m24_max": 3,
+   "m24_max": 4,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-05T19:00+00:00"
@@ -17949,6 +17949,48 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-06T14:07+00:00"
+  },
+  "PMI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-06T15:01+00:00"
+  },
+  "WH": {
+   "m24_max": 14,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-06T14:14+00:00"
+  },
+  "MOD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-06T14:42+00:00"
+  },
+  "REI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-06T14:10+00:00"
+  },
+  "SECZ": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-06T14:08+00:00"
+  },
+  "VRDR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-06T14:53+00:00"
+  },
+  "NNVC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-06T14:21+00:00"
   }
  }
 }
