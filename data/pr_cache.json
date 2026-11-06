@@ -1,11 +1,5 @@
 [
  {
-  "ticker": "LAZ",
-  "title": "Lazard schließt die Übernahme von Campbell Lutyens ab und gründet Lazard CL, den globalen Marktführer für die nächste Ära des privaten Kapitals",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T08:52+00:00"
- },
- {
   "ticker": "YUMC",
   "title": "Yum China Board Welcomes New Board Member",
   "src": "PR Newswire",
@@ -1024,5 +1018,11 @@
   "title": "INOVIO Announces Pricing of Approximately $75 Million Public Offering",
   "src": "PR Newswire",
   "ts": "2026-11-06T04:18+00:00"
+ },
+ {
+  "ticker": "EQIX",
+  "title": "Equinix Opens SG6 in Singapore, Expanding AI-Ready Capacity in One of Asia-Pacific's Most Connected Markets",
+  "src": "PR Newswire",
+  "ts": "2026-11-06T08:32+00:00"
  }
 ]
