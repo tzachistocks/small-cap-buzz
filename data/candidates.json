@@ -6642,7 +6642,8 @@
    "vel3h",
    "spread",
    "rising",
-   "low_float"
+   "low_float",
+   "relaxed_gate"
   ],
   "alerted": true,
   "urgent": false,
@@ -7355,7 +7356,7 @@
   "ts": "2026-11-06T20:07+00:00",
   "ticker": "SPCE",
   "score": 4,
-  "max_score": 4,
+  "max_score": 6,
   "price": 2.83,
   "move_pct": 18.91,
   "cap_m": 429.02,
@@ -7365,9 +7366,11 @@
   "tags": [
    "accel",
    "vel3h",
-   "short"
+   "short",
+   "st_msgs",
+   "rvol"
   ],
-  "alerted": false,
+  "alerted": true,
   "urgent": false,
   "outcome": {}
  },
@@ -7387,6 +7390,47 @@
    "accel",
    "vel3h",
    "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-06|MO": {
+  "ts": "2026-11-06T21:07+00:00",
+  "ticker": "MO",
+  "score": 3,
+  "max_score": 3,
+  "price": 76.115,
+  "move_pct": -1.89,
+  "cap_m": 126610.0,
+  "blocked": [
+   "שווי $126610M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "rising"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-06|RC": {
+  "ts": "2026-11-06T21:07+00:00",
+  "ticker": "RC",
+  "score": 4,
+  "max_score": 4,
+  "price": 0.9079,
+  "move_pct": -15.15,
+  "cap_m": 142.11,
+  "blocked": [],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "novel",
+   "rvol",
+   "sec_weak"
   ],
   "alerted": false,
   "urgent": false,

@@ -285,5 +285,12 @@
   "asia": null,
   "sic": "Services-Computer Integrated Systems Design",
   "ts": "2026-11-06T19:09+00:00"
+ },
+ "RC": {
+  "country": "NY",
+  "inc": "MD",
+  "asia": null,
+  "sic": "Real Estate Investment Trusts",
+  "ts": "2026-11-06T21:08+00:00"
  }
 }
