@@ -1,31 +1,31 @@
 {
  "date": "2026-11-06",
- "generated_at": "2026-11-06T17:07+00:00",
+ "generated_at": "2026-11-06T18:07+00:00",
  "final": false,
  "runs": {
-  "count": 12,
+  "count": 13,
   "first": "2026-11-06T07:07+00:00",
-  "last": "2026-11-06T17:07+00:00",
+  "last": "2026-11-06T18:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 3138,
-   "mention_gate": 1157,
+   "buzz_tickers": 3402,
+   "mention_gate": 1202,
    "reddit_path": 4,
    "telegram_path": 0,
-   "news_path": 3,
-   "skipped_large_cache": 1470,
-   "shadow_gate": 578,
-   "to_check": 272,
-   "checked": 272,
+   "news_path": 4,
+   "skipped_large_cache": 1540,
+   "shadow_gate": 615,
+   "to_check": 285,
+   "checked": 285,
    "not_checked_time": 0,
    "blocked": {
-    "שווי": 41,
-    "כבר": 37,
-    "אין": 21,
-    "איחוד": 12
+    "שווי": 45,
+    "כבר": 40,
+    "אין": 23,
+    "איחוד": 13
    },
-   "below_score": 93,
-   "cooldown": 56,
-   "shadow_would_alert": 27,
+   "below_score": 96,
+   "cooldown": 57,
+   "shadow_would_alert": 28,
    "sent": 6,
    "send_failed": 0
   },
@@ -119,6 +119,13 @@
     "sent": 0,
     "send_failed": 0,
     "errors_n": 4
+   },
+   {
+    "ts": "2026-11-06T18:07+00:00",
+    "checked": 13,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 8
    }
   ]
  },
@@ -147,11 +154,11 @@
    "news": null,
    "outcome": {
     "days": 1,
-    "last_close": 0.6384000182151794,
-    "last_pct": -4.5,
-    "max_close_pct": -4.5,
+    "last_close": 0.635699987411499,
+    "last_pct": -4.9,
+    "max_close_pct": -4.9,
     "max_high_pct": 0.2,
-    "d1_pct": -4.5
+    "d1_pct": -4.9
    }
   },
   {
@@ -203,7 +210,14 @@
     "פלואט 35.2M"
    ],
    "news": null,
-   "outcome": {}
+   "outcome": {
+    "days": 1,
+    "last_close": 1.4600000381469727,
+    "last_pct": -0.7,
+    "max_close_pct": -0.7,
+    "max_high_pct": 0.7,
+    "d1_pct": -0.7
+   }
   },
   {
    "ts": "2026-11-06T07:07+00:00",
@@ -229,11 +243,11 @@
    "news": null,
    "outcome": {
     "days": 1,
-    "last_close": 3.190000057220459,
-    "last_pct": 9.2,
-    "max_close_pct": 9.2,
+    "last_close": 3.0850000381469727,
+    "last_pct": 5.7,
+    "max_close_pct": 5.7,
     "max_high_pct": 9.2,
-    "d1_pct": 9.2
+    "d1_pct": 5.7
    }
   },
   {
@@ -260,11 +274,11 @@
    "news": "International companies to host live webcasts at Deutsche Bank’s Depositary Receipts Virtual Investor Conference on November 12, 2026",
    "outcome": {
     "days": 1,
-    "last_close": 0.31130000948905945,
-    "last_pct": 1.0,
-    "max_close_pct": 1.0,
+    "last_close": 0.3206000030040741,
+    "last_pct": 4.0,
+    "max_close_pct": 4.0,
     "max_high_pct": 7.1,
-    "d1_pct": 1.0
+    "d1_pct": 4.0
    }
   },
   {
@@ -293,11 +307,11 @@
    "news": "Citizens (CIA) Reports Break-Even Earnings for Q3",
    "outcome": {
     "days": 1,
-    "last_close": 4.150000095367432,
-    "last_pct": 0.7,
-    "max_close_pct": 0.7,
+    "last_close": 4.139999866485596,
+    "last_pct": 0.5,
+    "max_close_pct": 0.5,
     "max_high_pct": 3.2,
-    "d1_pct": 0.7
+    "d1_pct": 0.5
    }
   }
  ],
@@ -714,9 +728,9 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 0.8587999939918518,
-    "last_pct": 3.1,
-    "max_close_pct": 3.1,
+    "last_close": 0.8555999994277954,
+    "last_pct": 2.7,
+    "max_close_pct": 2.7,
     "max_high_pct": 9.9,
     "d1_pct": 0.6
    }
@@ -746,8 +760,8 @@
    "news": "Wheels Up Announces Third Quarter Results",
    "outcome": {
     "days": 2,
-    "last_close": 2.75,
-    "last_pct": -7.1,
+    "last_close": 2.744999885559082,
+    "last_pct": -7.3,
     "max_close_pct": -3.4,
     "max_high_pct": 5.4,
     "d1_pct": -3.4
@@ -777,9 +791,9 @@
    "news": "International companies to host live webcasts at Deutsche Bank’s Depositary Receipts Virtual Investor Conference on November 12, 2026",
    "outcome": {
     "days": 2,
-    "last_close": 0.31130000948905945,
-    "last_pct": 1.4,
-    "max_close_pct": 1.4,
+    "last_close": 0.3206000030040741,
+    "last_pct": 4.4,
+    "max_close_pct": 4.4,
     "max_high_pct": 17.3,
     "d1_pct": 0.3
    }
@@ -839,9 +853,9 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 8.390000343322754,
-    "last_pct": -0.4,
-    "max_close_pct": -0.4,
+    "last_close": 8.420000076293945,
+    "last_pct": 0.0,
+    "max_close_pct": 0.0,
     "max_high_pct": 3.7,
     "d1_pct": -1.2
    }
@@ -869,9 +883,9 @@
    "news": null,
    "outcome": {
     "days": 2,
-    "last_close": 3.190000057220459,
-    "last_pct": 9.2,
-    "max_close_pct": 9.2,
+    "last_close": 3.0850000381469727,
+    "last_pct": 5.7,
+    "max_close_pct": 5.7,
     "max_high_pct": 12.2,
     "d1_pct": 0.0
    }
@@ -902,8 +916,8 @@
    "news": "Wheels Up Announces Third Quarter Results",
    "outcome": {
     "days": 2,
-    "last_close": 2.75,
-    "last_pct": -3.2,
+    "last_close": 2.744999885559082,
+    "last_pct": -3.3,
     "max_close_pct": 0.7,
     "max_high_pct": 9.9,
     "d1_pct": 0.7
@@ -955,6 +969,30 @@
     "sec_weak",
     "pr_weak",
     "st_msgs"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-06T18:07+00:00",
+   "ticker": "VIVK",
+   "score": 8,
+   "max_score": 8,
+   "price": 0.5123,
+   "move_pct": 38.46,
+   "cap_m": 0.82,
+   "blocked": [
+    "כבר זזה +38%",
+    "שווי $0.8M (נמוך מדי או נתון שגוי)"
+   ],
+   "tags": [
+    "accel",
+    "vel3h",
+    "spread",
+    "novel",
+    "low_float",
+    "rvol",
+    "rsplit"
    ],
    "alerted": false,
    "urgent": false
@@ -1105,6 +1143,27 @@
     "novel",
     "st_trend",
     "short"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-06T18:07+00:00",
+   "ticker": "SDA",
+   "score": 6,
+   "max_score": 6,
+   "price": 0.362,
+   "move_pct": 134.76,
+   "cap_m": 36.78,
+   "blocked": [
+    "כבר זזה +135%"
+   ],
+   "tags": [
+    "accel",
+    "vel3h",
+    "novel",
+    "low_float",
+    "rvol"
    ],
    "alerted": false,
    "urgent": false
@@ -6862,7 +6921,7 @@
  "social_today": {
   "reddit_top": {
    "HTZ": {
-    "m24_max": 9,
+    "m24_max": 14,
     "authors24_max": 9,
     "subs": [
      "Shortsqueeze",
@@ -6926,6 +6985,14 @@
     ],
     "first_utc": "2026-11-05T15:04+00:00",
     "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
+   },
+   "IREN": {
+    "m24_max": 4,
+    "authors24_max": 2,
+    "subs": [
+     "Shortsqueeze"
+    ],
+    "first_utc": "2026-11-06T09:11+00:00"
    },
    "VIVK": {
     "m24_max": 4,
@@ -7011,14 +7078,6 @@
     ],
     "first_utc": "2026-11-06T07:36+00:00"
    },
-   "IREN": {
-    "m24_max": 2,
-    "authors24_max": 2,
-    "subs": [
-     "Shortsqueeze"
-    ],
-    "first_utc": "2026-11-06T09:11+00:00"
-   },
    "SI": {
     "m24_max": 2,
     "authors24_max": 1,
@@ -7037,6 +7096,14 @@
     ],
     "first_utc": "2026-11-06T12:28+00:00",
     "sample": "r/pennystocks: 06 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+   },
+   "STAK": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "subs": [
+     "pennystocks"
+    ],
+    "first_utc": "2026-11-06T12:28+00:00"
    },
    "DBGI": {
     "m24_max": 2,
@@ -7215,15 +7282,6 @@
     ],
     "first_utc": "2026-11-05T15:06+00:00",
     "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
-   },
-   "ANVS": {
-    "m24_max": 1,
-    "authors24_max": 1,
-    "subs": [
-     "pennystocks"
-    ],
-    "first_utc": "2026-11-05T15:06+00:00",
-    "sample": "r/pennystocks: 05 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
    }
   },
   "telegram_top": {
@@ -7293,6 +7351,12 @@
     "chats24_max": 1,
     "first_utc": "2026-11-05T14:32+00:00"
    },
+   "DKNG": {
+    "m24_max": 4,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-05T21:25+00:00"
+   },
    "SA": {
     "m24_max": 4,
     "authors24_max": 1,
@@ -7322,12 +7386,6 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-05T16:33+00:00"
-   },
-   "DKNG": {
-    "m24_max": 3,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-05T21:25+00:00"
    },
    "LYFT": {
     "m24_max": 3,
@@ -7686,7 +7744,7 @@
     "first_utc": "2026-11-05T21:31+00:00"
    },
    "DKNG": {
-    "m24_max": 3,
+    "m24_max": 4,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-05T21:25+00:00"
@@ -8202,7 +8260,7 @@
     "first_utc": "2026-11-05T20:33+00:00"
    },
    "ABNB": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-05T20:31+00:00"
@@ -9480,7 +9538,7 @@
     "first_utc": "2026-11-06T11:30+00:00"
    },
    "DCBO": {
-    "m24_max": 1,
+    "m24_max": 2,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-06T11:21+00:00"
@@ -9718,6 +9776,48 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-06T17:01+00:00"
+   },
+   "CLAR": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T18:06+00:00"
+   },
+   "BKR": {
+    "m24_max": 2,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T18:02+00:00"
+   },
+   "RIG": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T18:02+00:00"
+   },
+   "ALOV": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T17:43+00:00"
+   },
+   "JSPR": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T17:28+00:00"
+   },
+   "CCJ": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T17:15+00:00"
+   },
+   "EXPO": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-06T17:09+00:00"
    }
   }
  },
@@ -9747,13 +9847,17 @@
   "credits": 330
  },
  "errors_today": {
-  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/SAVE": 12,
-  "HTTP 404 https: //finviz.com/quote.ashx?t=SAVE&p=d": 12,
+  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/SAVE": 13,
+  "HTTP 404 https: //finviz.com/quote.ashx?t=SAVE&p=d": 13,
   "HTTP 404 https: //api.stocktwits.com/api/2/streams/symbol/ANY.json": 11,
   "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/BABY": 9,
   "HTTP 404 https: //finviz.com/quote.ashx?t=BABY&p=d": 9,
-  "HTTP 404 https: //stockanalysis.com/stocks/vxx/statistics/": 4,
-  "no fundamentals for VXX": 4
+  "HTTP 404 https: //stockanalysis.com/stocks/vxx/statistics/": 5,
+  "no fundamentals for VXX": 5,
+  "HTTP 404 https: //query1.finance.yahoo.com/v8/finance/chart/TTM": 1,
+  "HTTP 404 https: //finviz.com/quote.ashx?t=TTM&p=d": 1,
+  "HTTP 404 https: //stockanalysis.com/stocks/ttm/statistics/": 1,
+  "no fundamentals for TTM": 1
  },
  "closes_asof": null,
  "closes": {}

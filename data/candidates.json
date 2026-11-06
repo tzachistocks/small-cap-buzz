@@ -7280,5 +7280,52 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-11-06|VIVK": {
+  "ts": "2026-11-06T18:07+00:00",
+  "ticker": "VIVK",
+  "score": 8,
+  "max_score": 8,
+  "price": 0.5123,
+  "move_pct": 38.46,
+  "cap_m": 0.82,
+  "blocked": [
+   "כבר זזה +38%",
+   "שווי $0.8M (נמוך מדי או נתון שגוי)"
+  ],
+  "tags": [
+   "accel",
+   "vel3h",
+   "spread",
+   "novel",
+   "low_float",
+   "rvol",
+   "rsplit"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-06|SDA": {
+  "ts": "2026-11-06T18:07+00:00",
+  "ticker": "SDA",
+  "score": 6,
+  "max_score": 6,
+  "price": 0.362,
+  "move_pct": 134.76,
+  "cap_m": 36.78,
+  "blocked": [
+   "כבר זזה +135%"
+  ],
+  "tags": [
+   "accel",
+   "vel3h",
+   "novel",
+   "low_float",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }

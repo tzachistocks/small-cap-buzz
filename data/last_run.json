@@ -1,8 +1,8 @@
 {
- "ts": "2026-11-06T17:07+00:00",
+ "ts": "2026-11-06T18:07+00:00",
  "reddit_ok": true,
  "stocktwits_trending": 30,
- "apewisdom_main": 297,
+ "apewisdom_main": 299,
  "apewisdom_subs": [
   "4chan",
   "Daytrading",
@@ -21,32 +21,33 @@
   "messages": 463
  },
  "x_weir": {
-  "mode": "ok",
-  "queried": 4,
-  "credits": 44,
+  "mode": "idle",
+  "queried": 0,
+  "credits": 0,
   "month_credits": 1099,
-  "hits": 1,
-  "note": "עצר: תקרת קרדיטים"
+  "hits": 0,
+  "note": "לא בחלון X"
  },
  "funnel": {
-  "buzz_tickers": 262,
-  "mention_gate": 47,
+  "buzz_tickers": 264,
+  "mention_gate": 45,
   "reddit_path": 0,
   "telegram_path": 0,
   "news_path": 1,
-  "skipped_large_cache": 78,
-  "shadow_gate": 43,
+  "skipped_large_cache": 70,
+  "shadow_gate": 37,
   "to_check": 13,
   "checked": 13,
   "not_checked_time": 0,
   "blocked": {
-   "שווי": 2,
-   "אין": 1,
+   "שווי": 4,
+   "כבר": 3,
+   "אין": 2,
    "איחוד": 1
   },
-  "below_score": 6,
+  "below_score": 3,
   "cooldown": 1,
-  "shadow_would_alert": 2,
+  "shadow_would_alert": 1,
   "sent": 0,
   "send_failed": 0
  },
@@ -55,6 +56,10 @@
   "HTTP 404 https://stockanalysis.com/stocks/vxx/statistics/",
   "no fundamentals for VXX",
   "HTTP 404 https://query1.finance.yahoo.com/v8/finance/chart/SAVE",
-  "HTTP 404 https://finviz.com/quote.ashx?t=SAVE&p=d"
+  "HTTP 404 https://finviz.com/quote.ashx?t=SAVE&p=d",
+  "HTTP 404 https://query1.finance.yahoo.com/v8/finance/chart/TTM",
+  "HTTP 404 https://finviz.com/quote.ashx?t=TTM&p=d",
+  "HTTP 404 https://stockanalysis.com/stocks/ttm/statistics/",
+  "no fundamentals for TTM"
  ]
 }
