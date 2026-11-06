@@ -7212,5 +7212,72 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-11-06|ADP": {
+  "ts": "2026-11-06T16:07+00:00",
+  "ticker": "ADP",
+  "score": 4,
+  "max_score": 4,
+  "price": 303.67,
+  "move_pct": -1.13,
+  "cap_m": 119980.0,
+  "blocked": [
+   "שווי $119980M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "rising",
+   "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-06|FLY": {
+  "ts": "2026-11-06T16:07+00:00",
+  "ticker": "FLY",
+  "score": 3,
+  "max_score": 3,
+  "price": 18.6039,
+  "move_pct": 22.6,
+  "cap_m": 3120.0,
+  "blocked": [
+   "כבר זזה +23%",
+   "שווי $3120M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "novel",
+   "st_trend"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-06|WULF": {
+  "ts": "2026-11-06T16:07+00:00",
+  "ticker": "WULF",
+  "score": 6,
+  "max_score": 6,
+  "price": 10.35,
+  "move_pct": 2.68,
+  "cap_m": 5180.0,
+  "blocked": [
+   "שווי $5180M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "rising",
+   "novel",
+   "st_trend",
+   "short"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }
