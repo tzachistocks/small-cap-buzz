@@ -9274,5 +9274,207 @@
    ],
    "first_utc": "2026-11-06T19:54+00:00"
   }
+ },
+ "2026-11-07": {
+  "DJT": {
+   "m24_max": 5,
+   "authors24_max": 4,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-06T16:40+00:00",
+   "sample": "r/smallstreetbets: It ain't much. But it feels amazing having doubled my port since starting 2 months ago. Fi"
+  },
+  "SOUN": {
+   "m24_max": 3,
+   "authors24_max": 2,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-06T12:26+00:00",
+   "sample": "r/Shortsqueeze: $SOUN thoughts and squeeze potential?"
+  },
+  "CCL": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-07T04:25+00:00",
+   "sample": "r/smallstreetbets: It ain't much. But it feels amazing having doubled my port since starting 2 months ago. Fi"
+  },
+  "ANNA": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-06T15:10+00:00",
+   "sample": "r/pennystocks: ANNA report earnings Nov 16"
+  },
+  "VSA": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-06T14:10+00:00",
+   "sample": "r/pennystocks: 06 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "VIVK": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-06T14:10+00:00",
+   "sample": "r/pennystocks: 06 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "DBGI": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-06T14:10+00:00",
+   "sample": "r/pennystocks: 06 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "CIIT": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-06T14:10+00:00",
+   "sample": "r/pennystocks: 06 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "FUN": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-07T02:47+00:00"
+  },
+  "CMS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-07T04:42+00:00",
+   "sample": "r/pennystocks: New Lucid Diagnostics publication gives subtle look into how Esoguard can scale"
+  },
+  "RPD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-07T04:25+00:00",
+   "sample": "r/smallstreetbets: It ain't much. But it feels amazing having doubled my port since starting 2 months ago. Fi"
+  },
+  "CRWD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-07T04:25+00:00",
+   "sample": "r/smallstreetbets: It ain't much. But it feels amazing having doubled my port since starting 2 months ago. Fi"
+  },
+  "ZS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-07T04:25+00:00",
+   "sample": "r/smallstreetbets: It ain't much. But it feels amazing having doubled my port since starting 2 months ago. Fi"
+  },
+  "IREN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-07T00:37+00:00",
+   "sample": "r/smallstreetbets: Boost Run gonna run"
+  },
+  "BRUN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-07T00:37+00:00",
+   "sample": "r/smallstreetbets: Boost Run gonna run"
+  },
+  "HMR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-06T19:25+00:00",
+   "sample": "r/pennystocks: $HMR back on its 200 day at ~6x forward earnings with the cash stripped out"
+  },
+  "CLRO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-06T15:10+00:00",
+   "sample": "r/Shortsqueeze: $CLRO- New #SqueezeFinder 50% Short / 1112% COST TO BORROW"
+  },
+  "SHFS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-06T14:57+00:00",
+   "sample": "r/pennystocks: 06 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "RCT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-06T14:57+00:00",
+   "sample": "r/pennystocks: 06 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "NOV": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-06T14:57+00:00",
+   "sample": "r/pennystocks: 06 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "BOIL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-07T04:58+00:00"
+  },
+  "HTZ": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-07T03:39+00:00"
+  }
  }
 }

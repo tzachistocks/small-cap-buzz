@@ -1,197 +1,5 @@
 [
  {
-  "ticker": "BENF",
-  "title": "Rosen Law Firm Encourages Beneficient Investors to Inquire About Securities Class Action Investigation - BENF",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T22:08+00:00"
- },
- {
-  "ticker": "AZTA",
-  "title": "Rosen Law Firm Encourages Azenta, Inc. Investors to Inquire About Securities Class Action Investigation - AZTA",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T22:07+00:00"
- },
- {
-  "ticker": "SVM",
-  "title": "Silvercorp Announces Project Update for El Domo",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T22:05+00:00"
- },
- {
-  "ticker": "FRVO",
-  "title": "Rosen Law Firm Encourages Fervo Energy Company Investors to Inquire About Securities Class Action Investigation - FRVO",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T22:05+00:00"
- },
- {
-  "ticker": "CRDL",
-  "title": "Cardiol Therapeutics Announces At-The-Market Equity Offering Program With Jefferies LLC",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T22:03+00:00"
- },
- {
-  "ticker": "WMK",
-  "title": "WEIS MARKETS REPORTS THIRD QUARTER 2026 RESULTS",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T22:00+00:00"
- },
- {
-  "ticker": "GTES",
-  "title": "Gates Industrial to Participate in the Baird 2026 Global Industrial Conference",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T22:00+00:00"
- },
- {
-  "ticker": "MMM",
-  "title": "3M Board Approves New $6 Billion Share Repurchase Authorization, Declares Quarterly Dividend",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T21:59+00:00"
- },
- {
-  "ticker": "FR",
-  "title": "First Industrial Declares Common Stock Dividends",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T21:44+00:00"
- },
- {
-  "ticker": "BAC",
-  "title": "BAC INVESTOR ALERT: Bank of America Corporation Investors with Substantial Losses Have Opportunity to Lead the BAC Securities Class Action",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T21:40+00:00"
- },
- {
-  "ticker": "GIL",
-  "title": "GIL INVESTOR ALERT: Gildan Activewear Inc. Investors with Substantial Losses Have Opportunity to Lead the GIL Securities Class Action",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T21:39+00:00"
- },
- {
-  "ticker": "CCB",
-  "title": "Coastal Financial Corporation (CCB) Alert: Securities Class Action Filed, Investors with Losses Encouraged to Contact Hagens Berman Before December 1, 2026 Lead Plaintiff Deadline",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T21:39+00:00"
- },
- {
-  "ticker": "MMM",
-  "title": "3M Reaches Broad Resolution of AFFF Personal Injury Litigation",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T23:00+00:00"
- },
- {
-  "ticker": "ACB",
-  "title": "Curaleaf Issues Statement Regarding Alternative Proposal for Aurora Cannabis",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T22:44+00:00"
- },
- {
-  "ticker": "CURLF",
-  "title": "Curaleaf Issues Statement Regarding Alternative Proposal for Aurora Cannabis",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T22:44+00:00"
- },
- {
-  "ticker": "DAVA",
-  "title": "Endava plc (DAVA) Alert: Securities Class Action Filed, Investors with Losses Encouraged to Contact Hagens Berman",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T22:38+00:00"
- },
- {
-  "ticker": "BULL",
-  "title": "BULL Investors Have Opportunity to Lead Webull Corporation Securities Fraud Lawsuit Filed by The Rosen Law Firm",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T22:20+00:00"
- },
- {
-  "ticker": "BBNX",
-  "title": "BBNX Deadline: BBNX Investors Have Opportunity to Lead Beta Bionics, Inc. Securities Fraud Lawsuit",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T22:20+00:00"
- },
- {
-  "ticker": "ENSG",
-  "title": "ENSG Investors Have Opportunity to Lead The Ensign Group, Inc. Securities Fraud Lawsuit Filed by The Rosen Law Firm",
-  "src": "PR Newswire",
-  "ts": "2026-11-03T22:19+00:00"
- },
- {
-  "ticker": "ASTS",
-  "title": "ASTS Investors Have Opportunity to Lead AST SpaceMobile, Inc. Securities Fraud Lawsuit with SBS Law",
-  "src": "PR Newswire",
-  "ts": "2026-11-04T07:07+00:00"
- },
- {
-  "ticker": "LULU",
-  "title": "LULU Investors Have Opportunity to Lead lululemon athletica inc. Securities Fraud Lawsuit with SBS Law",
-  "src": "PR Newswire",
-  "ts": "2026-11-04T06:56+00:00"
- },
- {
-  "ticker": "GIL",
-  "title": "GIL Investors Have Opportunity to Lead Gildan Activewear Inc. Securities Fraud Lawsuit with SBS Law",
-  "src": "PR Newswire",
-  "ts": "2026-11-04T06:51+00:00"
- },
- {
-  "ticker": "BAC",
-  "title": "BAC Investors Have Opportunity to Lead Bank of America Corporation Securities Fraud Lawsuit with SBS Law",
-  "src": "PR Newswire",
-  "ts": "2026-11-04T06:51+00:00"
- },
- {
-  "ticker": "CC",
-  "title": "CC Investors Have Opportunity to Lead The Chemours Company Securities Fraud Lawsuit with SBS Law",
-  "src": "PR Newswire",
-  "ts": "2026-11-04T06:37+00:00"
- },
- {
-  "ticker": "NCPL",
-  "title": "NCPL Investors Have Opportunity to Lead Netcapital Inc. Securities Fraud Lawsuit with SBS Law",
-  "src": "PR Newswire",
-  "ts": "2026-11-04T06:37+00:00"
- },
- {
-  "ticker": "CCB",
-  "title": "CCB Investors Have Opportunity to Lead Coastal Financial Corporation Securities Fraud Lawsuit with SBS Law",
-  "src": "PR Newswire",
-  "ts": "2026-11-04T06:27+00:00"
- },
- {
-  "ticker": "FLNC",
-  "title": "FLNC Investors Have Opportunity to Lead Fluence Energy, Inc. Securities Fraud Lawsuit with SBS Law",
-  "src": "PR Newswire",
-  "ts": "2026-11-04T06:27+00:00"
- },
- {
-  "ticker": "QFIN",
-  "title": "QFIN Investors Have Opportunity to Lead Qfin Holdings, Inc. Securities Fraud Lawsuit with SBS Law",
-  "src": "PR Newswire",
-  "ts": "2026-11-04T06:25+00:00"
- },
- {
-  "ticker": "HONA",
-  "title": "HONA Investors Have Opportunity to Lead Honeywell Aerospace Inc. Securities Fraud Lawsuit with SBS Law",
-  "src": "PR Newswire",
-  "ts": "2026-11-04T06:18+00:00"
- },
- {
-  "ticker": "EG",
-  "title": "Everest Group, Ltd. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - EG",
-  "src": "PR Newswire",
-  "ts": "2026-11-04T08:21+00:00"
- },
- {
-  "ticker": "LULU",
-  "title": "lululemon athletica inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - LULU",
-  "src": "PR Newswire",
-  "ts": "2026-11-04T08:19+00:00"
- },
- {
-  "ticker": "ZKH",
-  "title": "ZKH Group Limited to Announce Third Quarter 2026 Financial Results on Wednesday, November 18, 2026",
-  "src": "PR Newswire",
-  "ts": "2026-11-04T10:00+00:00"
- },
- {
   "ticker": "NWGL",
   "title": "CL Workshop Group Limited Announces Plan to Implement ADS Ratio Change",
   "src": "PR Newswire",
@@ -1012,5 +820,47 @@
   "title": "LINC Class Action Lead Plaintiff Deadline is November 10, 2026 - Contact Robbins LLP About Leading the Case Against Lincoln Education Services Corporation",
   "src": "PR Newswire",
   "ts": "2026-11-06T20:37+00:00"
+ },
+ {
+  "ticker": "HONA",
+  "title": "Honeywell Aerospace, Inc. Notice of November 23, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
+  "src": "PR Newswire",
+  "ts": "2026-11-07T03:00+00:00"
+ },
+ {
+  "ticker": "FTFT",
+  "title": "Future FinTech Investigation Initiated: Kahn Swick & Foti, LLC Investigates the Officers and Directors of Future FinTech Group Inc. - FTFT",
+  "src": "PR Newswire",
+  "ts": "2026-11-07T03:00+00:00"
+ },
+ {
+  "ticker": "OTF",
+  "title": "Blue Owl Technology Finance Corp. Securities Class Action Filed on Behalf of Former OTF II Shareholders Following Nearly 44% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti",
+  "src": "PR Newswire",
+  "ts": "2026-11-07T03:00+00:00"
+ },
+ {
+  "ticker": "EG",
+  "title": "Everest Group, Ltd. Notice of December 28, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
+  "src": "PR Newswire",
+  "ts": "2026-11-07T03:00+00:00"
+ },
+ {
+  "ticker": "PINS",
+  "title": "Pinterest Investigation Initiated: Kahn Swick & Foti, LLC Investigates the Officers and Directors of Pinterest, Inc. - PINS",
+  "src": "PR Newswire",
+  "ts": "2026-11-07T03:00+00:00"
+ },
+ {
+  "ticker": "DUOL",
+  "title": "Duolingo, Inc. Notice of December 7, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
+  "src": "PR Newswire",
+  "ts": "2026-11-07T03:00+00:00"
+ },
+ {
+  "ticker": "ENSG",
+  "title": "The Ensign Group, Inc. Notice of December 7, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
+  "src": "PR Newswire",
+  "ts": "2026-11-07T03:00+00:00"
  }
 ]

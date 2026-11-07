@@ -1862,7 +1862,7 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 0.8903999924659729,
+   "last_close": 0.8899999856948853,
    "last_pct": 6.9,
    "max_close_pct": 6.9,
    "max_high_pct": 9.9,
@@ -2129,9 +2129,9 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 0.3248000144958496,
-   "last_pct": 5.8,
-   "max_close_pct": 5.8,
+   "last_close": 0.32499998807907104,
+   "last_pct": 5.9,
+   "max_close_pct": 5.9,
    "max_high_pct": 17.3,
    "d1_pct": 0.3
   },
@@ -2728,10 +2728,10 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 0.6301000118255615,
+   "last_close": 0.6299999952316284,
    "last_pct": -5.8,
    "max_close_pct": -5.8,
-   "max_high_pct": 0.2,
+   "max_high_pct": 1.7,
    "d1_pct": -5.8
   },
   "followups": {}
@@ -3184,11 +3184,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 0.3248000144958496,
-   "last_pct": 5.4,
-   "max_close_pct": 5.4,
+   "last_close": 0.32499998807907104,
+   "last_pct": 5.5,
+   "max_close_pct": 5.5,
    "max_high_pct": 7.1,
-   "d1_pct": 5.4
+   "d1_pct": 5.5
   },
   "followups": {}
  },
@@ -3315,11 +3315,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 4.119999885559082,
-   "last_pct": -0.0,
-   "max_close_pct": -0.0,
+   "last_close": 4.130000114440918,
+   "last_pct": 0.2,
+   "max_close_pct": 0.2,
    "max_high_pct": 3.2,
-   "d1_pct": -0.0
+   "d1_pct": 0.2
   },
   "followups": {}
  },
@@ -3418,11 +3418,124 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 2.759999990463257,
-   "last_pct": 1.8,
-   "max_close_pct": 1.8,
+   "last_close": 2.7699999809265137,
+   "last_pct": 2.2,
+   "max_close_pct": 2.2,
    "max_high_pct": 4.4,
-   "d1_pct": 1.8
-  }
+   "d1_pct": 2.2
+  },
+  "followups": {}
+ },
+ {
+  "id": "202611071008-UIS",
+  "ts": "2026-11-07T10:08+00:00",
+  "ticker": "UIS",
+  "score": 5,
+  "why": [
+   "האצה x3.5 מול הבסיס",
+   "שיח עולה 3 ימים ברציפות (0→4→5)",
+   "חדשה בשיח (לא דוברה 14 יום)",
+   "נפח פי 2.7 מהממוצע",
+   "SEC רגיל: 8-K 2.02 (תוצאות) (2026-11-04)"
+  ],
+  "price": {
+   "price": 2.69,
+   "prev_close": 2.46,
+   "move_pct": 9.35,
+   "vol_today": 2691800,
+   "avg_vol20": 1008025,
+   "rel_vol": 2.67,
+   "exchange": "NYQ",
+   "name": "Unisys Corporation",
+   "readiness": {
+    "points": 0,
+    "why": [
+     "נפח אתמול פי 3.1",
+     "ליד שיא 20 יום (פחות ריצות)"
+    ],
+    "risk": [],
+    "asof": "2026-11-06",
+    "f": {
+     "rvol_1": 3.1083,
+     "atr_ratio": 1.7426,
+     "drawdown_60": -0.085,
+     "vol20": 0.0374,
+     "prior_runs_120": 0.0,
+     "ret_1d": 0.0935,
+     "ret_3d": 0.1398,
+     "ret_10d": 0.0632,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.9818
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 196.19,
+   "float_m": 61.34,
+   "short_float_pct": 9.44,
+   "days_to_cover": 7.89,
+   "src": "finviz"
+  },
+  "m_now": 5,
+  "m_24h_ago": 0,
+  "spread": [
+   "wallstreetbets"
+  ],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 0,
+   "users": 11,
+   "bull": 3,
+   "bear": 0,
+   "oldest_min": 168056,
+   "watchlist": 1082
+  },
+  "borrow": {
+   "fee": 0.4785,
+   "available": 1400000,
+   "fee_5d": null,
+   "available_5d": null
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "x": null,
+  "profile": {
+   "country": "PA",
+   "inc": "DE",
+   "asia": null,
+   "sic": "Services-Computer Integrated Systems Design",
+   "ts": "2026-11-06T19:09+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [
+    "8-K 2026-11-04"
+   ],
+   "filings": [
+    {
+     "class": "weak",
+     "label": "8-K 2.02 (תוצאות)",
+     "date": "2026-11-04"
+    }
+   ],
+   "rsplit": null,
+   "cik": 746838
+  },
+  "forum": {
+   "rising": [
+    0,
+    4,
+    5
+   ],
+   "novel": true
+  },
+  "invalidation": 2.46,
+  "news": null,
+  "urgent": false,
+  "urgent_why": [],
+  "path": "buzz",
+  "telegram_sent": true,
+  "outcome": {}
  }
 ]
