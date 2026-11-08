@@ -3536,6 +3536,7 @@
   "urgent_why": [],
   "path": "buzz",
   "telegram_sent": true,
-  "outcome": {}
+  "outcome": {},
+  "followups": {}
  }
 ]
