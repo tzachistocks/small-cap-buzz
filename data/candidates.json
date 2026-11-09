@@ -7476,7 +7476,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-09",
+   "days": 1,
+   "last_pct": -0.1,
+   "max_close_pct": -0.1,
+   "max_high_pct": 0.4
+  }
  },
  "2026-11-06|FLY": {
   "ts": "2026-11-06T16:07+00:00",
@@ -7498,7 +7504,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-09",
+   "days": 1,
+   "last_pct": 11.6,
+   "max_close_pct": 11.6,
+   "max_high_pct": 12.2
+  }
  },
  "2026-11-06|WULF": {
   "ts": "2026-11-06T16:07+00:00",
@@ -7522,7 +7534,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-09",
+   "days": 1,
+   "last_pct": 9.9,
+   "max_close_pct": 9.9,
+   "max_high_pct": 10.2
+  }
  },
  "2026-11-06|VIVK": {
   "ts": "2026-11-06T18:07+00:00",
@@ -7548,7 +7566,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-09",
+   "days": 1,
+   "last_pct": -3.1,
+   "max_close_pct": -3.1,
+   "max_high_pct": 85.4
+  }
  },
  "2026-11-06|SDA": {
   "ts": "2026-11-06T18:07+00:00",
@@ -7570,7 +7594,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-09",
+   "days": 1,
+   "last_pct": 4.1,
+   "max_close_pct": 4.1,
+   "max_high_pct": 32.6
+  }
  },
  "2026-11-06|UIS": {
   "ts": "2026-11-06T19:07+00:00",
@@ -7592,7 +7622,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-09",
+   "days": 1,
+   "last_pct": 0.7,
+   "max_close_pct": 0.7,
+   "max_high_pct": 1.5
+  }
  },
  "2026-11-06|SPCE": {
   "ts": "2026-11-06T20:07+00:00",
@@ -7614,7 +7650,13 @@
   ],
   "alerted": true,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-09",
+   "days": 1,
+   "last_pct": -2.1,
+   "max_close_pct": -2.1,
+   "max_high_pct": -0.0
+  }
  },
  "2026-11-06|OKTA": {
   "ts": "2026-11-06T20:07+00:00",
@@ -7635,7 +7677,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-09",
+   "days": 1,
+   "last_pct": 1.5,
+   "max_close_pct": 1.5,
+   "max_high_pct": 7.6
+  }
  },
  "2026-11-06|MO": {
   "ts": "2026-11-06T21:07+00:00",
@@ -7656,7 +7704,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-09",
+   "days": 1,
+   "last_pct": 0.0,
+   "max_close_pct": 0.0,
+   "max_high_pct": 1.2
+  }
  },
  "2026-11-06|RC": {
   "ts": "2026-11-06T21:07+00:00",
@@ -7676,7 +7730,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-09",
+   "days": 1,
+   "last_pct": -6.4,
+   "max_close_pct": -6.4,
+   "max_high_pct": 33.3
+  }
  },
  "2026-11-07|VIVK": {
   "ts": "2026-11-07T10:08+00:00",
@@ -7699,7 +7759,9 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-09"
+  }
  },
  "2026-11-07|VXX": {
   "ts": "2026-11-07T10:08+00:00",
@@ -7719,7 +7781,9 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-09"
+  }
  },
  "2026-11-07|SPCE": {
   "ts": "2026-11-07T10:08+00:00",
@@ -7740,7 +7804,9 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-09"
+  }
  },
  "2026-11-07|UIS": {
   "ts": "2026-11-07T10:08+00:00",
@@ -7760,7 +7826,9 @@
   ],
   "alerted": true,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-09"
+  }
  },
  "2026-11-07|SDA": {
   "ts": "2026-11-07T10:08+00:00",
@@ -7782,7 +7850,9 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-09"
+  }
  },
  "2026-11-07|XYZ": {
   "ts": "2026-11-07T10:08+00:00",
@@ -7803,7 +7873,9 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-09"
+  }
  },
  "2026-11-08|TD": {
   "ts": "2026-11-08T10:22+00:00",
@@ -7825,7 +7897,9 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-09"
+  }
  },
  "2026-11-09|CIA": {
   "ts": "2026-11-09T07:07+00:00",
@@ -8055,6 +8129,26 @@
    "sec_strong",
    "pr_strong",
    "pr_big"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-09|UP": {
+  "ts": "2026-11-09T13:07+00:00",
+  "ticker": "UP",
+  "score": 3,
+  "max_score": 3,
+  "price": 2.84,
+  "move_pct": -0.7,
+  "cap_m": 103.34,
+  "blocked": [],
+  "tags": [
+   "vel3h",
+   "spread",
+   "low_float",
+   "rvol",
+   "word"
   ],
   "alerted": false,
   "urgent": false,

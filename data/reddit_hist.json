@@ -9779,6 +9779,83 @@
     "smallstreetbets"
    ],
    "first_utc": "2026-11-09T09:19+00:00"
+  },
+  "DDD": {
+   "m24_max": 3,
+   "authors24_max": 2,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-09T12:01+00:00"
+  },
+  "HRTX": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-09T12:59+00:00"
+  },
+  "RDDT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-09T12:16+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 9th 2026"
+  },
+  "ASTS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-09T12:16+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 9th 2026"
+  },
+  "SAR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-09T12:16+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 9th 2026"
+  },
+  "RKLB": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-09T12:16+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 9th 2026"
+  },
+  "TTWO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-09T12:16+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 9th 2026"
+  },
+  "OMH": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-09T12:59+00:00"
+  },
+  "NCPL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-09T12:42+00:00"
   }
  }
 }

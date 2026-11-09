@@ -1,65 +1,5 @@
 [
  {
-  "ticker": "ENB",
-  "title": "Enbridge Reports Strong Third Quarter Results, Places Over $3 Billion of Gas Transmission Projects Into Service, and Reaffirms 2026 Financial Guidance",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T12:00+00:00"
- },
- {
-  "ticker": "BHC",
-  "title": "Bausch Health's Gastroenterology Business, Salix, to Present New Data on Cirrhosis Trends and Severe Alcohol-Associated Hepatitis at The Liver Meeting® 2026",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T12:00+00:00"
- },
- {
-  "ticker": "AIIO",
-  "title": "Robo.ai CEO Issues Letter to Shareholders",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T12:00+00:00"
- },
- {
-  "ticker": "AAOI",
-  "title": "Applied Optoelectronics Announces Equity Grants To Employees Under Inducement Plan",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T12:00+00:00"
- },
- {
-  "ticker": "CCB",
-  "title": "COASTAL FINANCIAL (NASDAQ: CCB) INVESTOR ALERT: HAGENS BERMAN ENCOURAGES CCB INVESTORS WITH SUBSTANTIAL LOSSES TO CONTACT FIRM BEFORE DECEMBER 1 DEADLINE IN SECURITIES CLASS ACTION",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T13:04+00:00"
- },
- {
-  "ticker": "KEY",
-  "title": "KEYCORP ANNOUNCES 2028 QUARTERLY EARNINGS CONFERENCE CALL DATES",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T13:00+00:00"
- },
- {
-  "ticker": "FBNC",
-  "title": "FIRST BANK EXPANDS CHARLOTTE PRESENCE WITH NEW SOUTHPARK BRANCH AND OFFICE",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T13:00+00:00"
- },
- {
-  "ticker": "AME",
-  "title": "AMETEK Declares Quarterly Dividend",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T13:00+00:00"
- },
- {
-  "ticker": "DB",
-  "title": "Decibel to Announce Third Quarter 2026 Financial Results on November 19, 2026",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T13:00+00:00"
- },
- {
-  "ticker": "DCH",
-  "title": "Dauch Reports Third Quarter 2026 Financial Results",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T13:00+00:00"
- },
- {
   "ticker": "GIL",
   "title": "Hagens Berman Encourages Gildan Activewear Inc. (GIL) Investors with Substantial Losses To Contact Firm Prior To Dec. 14 Lead Plaintiff Deadline",
   "src": "PR Newswire",
@@ -292,5 +232,41 @@
   "title": "Hyperscale Data, Inc. Announces Intent to Launch Exchange Offer to Acquire Up to $50,000,000 of Outstanding Shares for Cash and New Preferred Shares",
   "src": "PR Newswire",
   "ts": "2026-11-09T11:30+00:00"
+ },
+ {
+  "ticker": "ASO",
+  "title": "Academy Sports + Outdoors Unwraps Top Holiday Gifts, Great Value and More Ways to Win This Season",
+  "src": "PR Newswire",
+  "ts": "2026-11-09T13:06+00:00"
+ },
+ {
+  "ticker": "XTIA",
+  "title": "XTI Aerospace Schedules Third Quarter 2026 Earnings Release and Webcast",
+  "src": "PR Newswire",
+  "ts": "2026-11-09T13:01+00:00"
+ },
+ {
+  "ticker": "RY",
+  "title": "La Banque Royale du Canada annonce une entente visant l'acquisition de Yarra Capital Management",
+  "src": "PR Newswire",
+  "ts": "2026-11-09T13:00+00:00"
+ },
+ {
+  "ticker": "AVGO",
+  "title": "Broadcom Inc. to Announce Fourth Quarter and Fiscal Year 2026 Financial Results on Wednesday, December 9, 2026",
+  "src": "PR Newswire",
+  "ts": "2026-11-09T13:00+00:00"
+ },
+ {
+  "ticker": "HONA",
+  "title": "2 WEEK HONA DEADLINE: Honeywell Aerospace Inc. Investors with Substantial Losses May Seek to Lead Class Action Lawsuit Before November 23, 2026 Deadline",
+  "src": "PR Newswire",
+  "ts": "2026-11-09T13:00+00:00"
+ },
+ {
+  "ticker": "HLIT",
+  "title": "Harmonic to Participate in 7th Annual Needham Virtual Tech Week Conference",
+  "src": "PR Newswire",
+  "ts": "2026-11-09T13:00+00:00"
  }
 ]

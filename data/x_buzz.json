@@ -1,9 +1,9 @@
 {
  "month": "2026-11",
- "month_credits": 1209,
+ "month_credits": 1263,
  "exhausted": false,
- "day": "2026-11-06",
- "day_credits": 153,
+ "day": "2026-11-09",
+ "day_credits": 54,
  "done": [
   "2026-11-02T12",
   "2026-11-02T17",
@@ -14,185 +14,10 @@
   "2026-11-05T12",
   "2026-11-05T17",
   "2026-11-06T12",
-  "2026-11-06T17"
+  "2026-11-06T17",
+  "2026-11-09T12"
  ],
  "tickers": {
-  "INR": {
-   "posts": 0,
-   "posts6": 0,
-   "authors": 0,
-   "likes": 0,
-   "ts": "2026-11-05T12:07+00:00",
-   "full": true
-  },
-  "HKD": {
-   "posts": 0,
-   "posts6": 0,
-   "authors": 0,
-   "likes": 0,
-   "ts": "2026-11-05T12:07+00:00",
-   "full": true
-  },
-  "SG": {
-   "posts": 0,
-   "posts6": 0,
-   "authors": 0,
-   "likes": 0,
-   "ts": "2026-11-03T17:07+00:00",
-   "full": true
-  },
-  "GYGY": {
-   "posts": 0,
-   "posts6": 0,
-   "authors": 0,
-   "likes": 0,
-   "ts": "2026-11-04T12:07+00:00",
-   "full": true
-  },
-  "IQ": {
-   "posts": 0,
-   "posts6": 0,
-   "authors": 0,
-   "likes": 0,
-   "ts": "2026-11-03T17:07+00:00",
-   "full": true
-  },
-  "INO": {
-   "posts": 0,
-   "posts6": 0,
-   "authors": 0,
-   "likes": 0,
-   "ts": "2026-11-03T17:07+00:00",
-   "full": true
-  },
-  "SUPN": {
-   "posts": 7,
-   "posts6": 3,
-   "authors": 7,
-   "likes": 0,
-   "ts": "2026-11-04T12:07+00:00",
-   "full": true
-  },
-  "MDGL": {
-   "posts": 9,
-   "posts6": 9,
-   "authors": 9,
-   "likes": 38,
-   "ts": "2026-11-04T17:07+00:00",
-   "full": true
-  },
-  "CAPR": {
-   "posts": 3,
-   "posts6": 3,
-   "authors": 3,
-   "likes": 0,
-   "ts": "2026-11-04T12:07+00:00",
-   "full": true
-  },
-  "IFRX": {
-   "posts": 10,
-   "posts6": 7,
-   "authors": 10,
-   "likes": 0,
-   "ts": "2026-11-04T12:07+00:00",
-   "full": true
-  },
-  "NRIX": {
-   "posts": 8,
-   "posts6": 8,
-   "authors": 7,
-   "likes": 5,
-   "ts": "2026-11-04T17:07+00:00",
-   "full": true
-  },
-  "STIM": {
-   "posts": 0,
-   "posts6": 0,
-   "authors": 0,
-   "likes": 0,
-   "ts": "2026-11-04T17:07+00:00",
-   "full": true
-  },
-  "CRIS": {
-   "posts": 0,
-   "posts6": 0,
-   "authors": 0,
-   "likes": 0,
-   "ts": "2026-11-05T12:07+00:00",
-   "full": true
-  },
-  "SNDX": {
-   "posts": 9,
-   "posts6": 9,
-   "authors": 8,
-   "likes": 3,
-   "ts": "2026-11-05T12:07+00:00",
-   "full": true
-  },
-  "LIVN": {
-   "posts": 1,
-   "posts6": 0,
-   "authors": 1,
-   "likes": 0,
-   "ts": "2026-11-05T12:07+00:00",
-   "full": true
-  },
-  "BRKR": {
-   "posts": 5,
-   "posts6": 2,
-   "authors": 5,
-   "likes": 6,
-   "ts": "2026-11-05T12:07+00:00",
-   "full": true
-  },
-  "KURA": {
-   "posts": 0,
-   "posts6": 0,
-   "authors": 0,
-   "likes": 0,
-   "ts": "2026-11-05T12:07+00:00",
-   "full": true
-  },
-  "LYEL": {
-   "posts": 4,
-   "posts6": 0,
-   "authors": 3,
-   "likes": 1,
-   "ts": "2026-11-05T12:07+00:00",
-   "full": true
-  },
-  "DNUT": {
-   "posts": 8,
-   "posts6": 8,
-   "authors": 8,
-   "likes": 5,
-   "ts": "2026-11-05T17:07+00:00",
-   "full": true
-  },
-  "LI": {
-   "posts": 0,
-   "posts6": 0,
-   "authors": 0,
-   "likes": 0,
-   "ts": "2026-11-05T17:07+00:00",
-   "full": true
-  },
-  "LABT": {
-   "posts": 6,
-   "posts6": 6,
-   "authors": 6,
-   "likes": 0,
-   "ts": "2026-11-06T12:07+00:00",
-   "full": true
-  },
-  "LOT": {
-   "posts": 0,
-   "posts6": 0,
-   "authors": 0,
-   "likes": 0,
-   "ts": "2026-11-06T12:07+00:00",
-   "full": true
-  },
   "WAVE": {
    "posts": 0,
    "posts6": 0,
@@ -209,14 +34,6 @@
    "ts": "2026-11-06T17:07+00:00",
    "full": true
   },
-  "RNA": {
-   "posts": 0,
-   "posts6": 0,
-   "authors": 0,
-   "likes": 0,
-   "ts": "2026-11-06T12:07+00:00",
-   "full": true
-  },
   "LINK": {
    "posts": 0,
    "posts6": 0,
@@ -230,15 +47,7 @@
    "posts6": 0,
    "authors": 0,
    "likes": 0,
-   "ts": "2026-11-06T12:07+00:00",
-   "full": true
-  },
-  "HERE": {
-   "posts": 0,
-   "posts6": 0,
-   "authors": 0,
-   "likes": 0,
-   "ts": "2026-11-06T12:07+00:00",
+   "ts": "2026-11-09T13:07+00:00",
    "full": true
   },
   "VXX": {
@@ -248,16 +57,30 @@
    "likes": 0,
    "ts": "2026-11-06T17:07+00:00",
    "full": true
+  },
+  "GPUS": {
+   "posts": 1,
+   "posts6": 1,
+   "authors": 1,
+   "likes": 0,
+   "ts": "2026-11-09T13:07+00:00",
+   "full": true
+  },
+  "MSS": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-09T13:07+00:00",
+   "full": true
   }
  },
  "discovery": {
-  "day": "2026-11-06",
+  "day": "2026-11-09",
   "tickers": {
-   "BTC": 1,
-   "HTZ": 1,
-   "INJ": 1,
-   "AMC": 1
+   "DVLT": 1,
+   "BTC": 1
   }
  },
- "discovery_day": "2026-11-06"
+ "discovery_day": "2026-11-09"
 }
