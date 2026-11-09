@@ -9612,10 +9612,11 @@
    "sample": "r/pennystocks: Watchlist: 11/09/26 LETS HAVE A GREAT MONDAY!!!"
   },
   "NWGL": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
-    "pennystocks"
+    "pennystocks",
+    "smallstreetbets"
    ],
    "first_utc": "2026-11-09T05:17+00:00",
    "sample": "r/pennystocks: Watchlist: 11/09/26 LETS HAVE A GREAT MONDAY!!!"
@@ -9666,10 +9667,11 @@
    "sample": "r/smallstreetbets: Kratos (KTOS) backlog nearly doubled in 5 quarters, but almost none of it shows up in the "
   },
   "DYOR": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
-    "pennystocks"
+    "pennystocks",
+    "smallstreetbets"
    ],
    "first_utc": "2026-11-09T01:10+00:00",
    "sample": "r/pennystocks: $HMR back on its 200 day at ~6x forward earnings with the cash stripped out"
@@ -9757,12 +9759,14 @@
    "sample": "r/Shortsqueeze: Cost to Borrow for $XXII is an astounding 8300%"
   },
   "HTZ": {
-   "m24_max": 2,
+   "m24_max": 3,
    "authors24_max": 2,
    "subs": [
-    "Shortsqueeze"
+    "Shortsqueeze",
+    "smallstreetbets"
    ],
-   "first_utc": "2026-11-09T10:22+00:00"
+   "first_utc": "2026-11-09T10:22+00:00",
+   "sample": "r/smallstreetbets: Actually retarted. Bought 25k worth of HTZ"
   },
   "CYPH": {
    "m24_max": 1,
@@ -9856,6 +9860,60 @@
     "pennystocks"
    ],
    "first_utc": "2026-11-09T12:42+00:00"
+  },
+  "RTX": {
+   "m24_max": 8,
+   "authors24_max": 7,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-09T14:04+00:00",
+   "sample": "r/smallstreetbets: NVIDIA's next big release wasn't supposed to be this. RTX Quick Ride in a Leather Jacket."
+  },
+  "IBKR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-09T15:17+00:00",
+   "sample": "r/smallstreetbets: $IPW 500k float with insanely high short interesting squeeze setup"
+  },
+  "IPW": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-09T15:17+00:00",
+   "sample": "r/smallstreetbets: $IPW 500k float with insanely high short interesting squeeze setup"
+  },
+  "NTCL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-09T14:17+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "JDZG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-09T14:17+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "INLF": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-09T14:17+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   }
  }
 }

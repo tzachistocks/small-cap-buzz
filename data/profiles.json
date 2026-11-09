@@ -299,5 +299,26 @@
   "asia": null,
   "sic": "Oil & Gas Field Machinery & Equipment",
   "ts": "2026-11-09T11:31+00:00"
+ },
+ "WTI": {
+  "country": "TX",
+  "inc": "TX",
+  "asia": null,
+  "sic": "Crude Petroleum & Natural Gas",
+  "ts": "2026-11-09T17:09+00:00"
+ },
+ "SOC": {
+  "country": "TX",
+  "inc": "DE",
+  "asia": null,
+  "sic": "Crude Petroleum & Natural Gas",
+  "ts": "2026-11-09T17:09+00:00"
+ },
+ "SERV": {
+  "country": "CA",
+  "inc": "DE",
+  "asia": null,
+  "sic": "General Industrial Machinery & Equipment, NEC",
+  "ts": "2026-11-09T17:09+00:00"
  }
 }

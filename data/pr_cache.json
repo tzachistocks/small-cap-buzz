@@ -1,53 +1,5 @@
 [
  {
-  "ticker": "GIL",
-  "title": "Hagens Berman Encourages Gildan Activewear Inc. (GIL) Investors with Substantial Losses To Contact Firm Prior To Dec. 14 Lead Plaintiff Deadline",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T14:06+00:00"
- },
- {
-  "ticker": "CNVS",
-  "title": "Cineverse to Report Second Quarter Fiscal 2027 Financial Results on Friday, November 13, 2026",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T14:00+00:00"
- },
- {
-  "ticker": "HALO",
-  "title": "Halozyme Reaffirms It Projects Zero to Minimal Impact to Royalty Revenue Through At Least 2035 Based on Medicare Drug Price Negotiation Program Final Rule for IPAY 2029",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T15:04+00:00"
- },
- {
-  "ticker": "HALO",
-  "title": "U.S. FDA Approves RYBREVANT FASPRO™ (amivantamab and hyaluronidase-lpuj) Co-Formulated with Halozyme's ENHANZE® Technology for the Treatment of Advanced Head and Neck Cancer",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T14:57+00:00"
- },
- {
-  "ticker": "EG",
-  "title": "INVESTOR ALERT: Everest Group, Ltd. (EG) Investors with Substantial Losses May Seek to Lead Class Action Lawsuit Before December 28, 2026 Deadline",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T16:00+00:00"
- },
- {
-  "ticker": "NEN",
-  "title": "New England Realty Associates LP Announces Fourth-Quarter Distribution on Class A Units and Depositary Receipts",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T17:02+00:00"
- },
- {
-  "ticker": "LWAY",
-  "title": "Lifeway® Kefir Commercial Makes Chicagoland Television Debut Sunday, November 8, With New Muscle Mates™ Social Media Campaign to Follow",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T17:00+00:00"
- },
- {
-  "ticker": "LULU",
-  "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against Lululemon Athletica Inc. (NASDAQ: LULU) -- Investors Who Suffered Losses Are Encouraged to Contact the Firm",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T17:00+00:00"
- },
- {
   "ticker": "NXPL",
   "title": "NextPlat to Release Third Quarter 2026 Results on Thursday, November 12, 2026",
   "src": "PR Newswire",
@@ -268,5 +220,17 @@
   "title": "Harmonic to Participate in 7th Annual Needham Virtual Tech Week Conference",
   "src": "PR Newswire",
   "ts": "2026-11-09T13:00+00:00"
+ },
+ {
+  "ticker": "BULL",
+  "title": "Webull Corporation Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - BULL",
+  "src": "PR Newswire",
+  "ts": "2026-11-09T16:55+00:00"
+ },
+ {
+  "ticker": "MRP",
+  "title": "Millrose Properties, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - MRP",
+  "src": "PR Newswire",
+  "ts": "2026-11-09T16:55+00:00"
  }
 ]
