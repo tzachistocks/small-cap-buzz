@@ -9748,8 +9748,8 @@
    "first_utc": "2026-11-09T05:44+00:00"
   },
   "XXII": {
-   "m24_max": 3,
-   "authors24_max": 3,
+   "m24_max": 4,
+   "authors24_max": 4,
    "subs": [
     "Shortsqueeze"
    ],
@@ -9757,8 +9757,8 @@
    "sample": "r/Shortsqueeze: Cost to Borrow for $XXII is an astounding 8300%"
   },
   "HTZ": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "Shortsqueeze"
    ],
