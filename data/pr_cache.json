@@ -1,311 +1,5 @@
 [
  {
-  "ticker": "LMND",
-  "title": "Lemonade Announces Third Quarter 2026 Financial Results",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T11:01+00:00"
- },
- {
-  "ticker": "ASTS",
-  "title": "INVESTOR DEADLINE: AST SpaceMobile, Inc. (ASTS) Investors with Substantial Losses May Seek to Lead Class Action Lawsuit Before November 13, 2026 Deadline",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T11:00+00:00"
- },
- {
-  "ticker": "HAE",
-  "title": "Haemonetics Corporation Announces Second Quarter Fiscal 2027 Financial Results Available on Investor Relations Website",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T11:00+00:00"
- },
- {
-  "ticker": "PRMB",
-  "title": "Primo Brands Reports 2026 Third Quarter Results",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T11:00+00:00"
- },
- {
-  "ticker": "OPRA",
-  "title": "Opera reaches 100 million PC users for the first time, growing 16% year over year",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T11:00+00:00"
- },
- {
-  "ticker": "TRIP",
-  "title": "Tripadvisor, Inc. Earnings Press Release Available on Company's Investor Relations Site",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T12:07+00:00"
- },
- {
-  "ticker": "TRIP",
-  "title": "Tripadvisor Announces Management Departures and Transition Plan",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T12:05+00:00"
- },
- {
-  "ticker": "SSTK",
-  "title": "Shutterstock Reports Third Quarter 2026 Financial Results",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T12:02+00:00"
- },
- {
-  "ticker": "EVGN",
-  "title": "Evogene Schedules Third Quarter 2026 Financial Results Release",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T12:00+00:00"
- },
- {
-  "ticker": "ANVS",
-  "title": "Annovis Announces Pricing of $21.0 Million Public Offering",
-  "src": "GlobeNewswire",
-  "ts": "2026-11-05T13:05+00:00"
- },
- {
-  "ticker": "RTSN",
-  "title": "Retension Pharmaceuticals to Participate in the Guggenheim 3rd Annual Healthcare Innovation Conference",
-  "src": "GlobeNewswire",
-  "ts": "2026-11-05T13:02+00:00"
- },
- {
-  "ticker": "AIIR",
-  "title": "AIR Submits Premarket Tobacco Product Application for Crown Switch Rechargeable Pod Vape Platform",
-  "src": "GlobeNewswire",
-  "ts": "2026-11-05T13:00+00:00"
- },
- {
-  "ticker": "GRCE",
-  "title": "Grace Therapeutics Announces Participation in Upcoming Industry and Investor Events in November 2026",
-  "src": "GlobeNewswire",
-  "ts": "2026-11-05T13:00+00:00"
- },
- {
-  "ticker": "FRPT",
-  "title": "Freshpet, Inc. to Participate in Upcoming Investor Conferences",
-  "src": "GlobeNewswire",
-  "ts": "2026-11-05T13:00+00:00"
- },
- {
-  "ticker": "BLTE",
-  "title": "Belite Bio to Host Webcast on November 12, 2026, to Discuss Third Quarter 2026 Financial Results",
-  "src": "GlobeNewswire",
-  "ts": "2026-11-05T13:00+00:00"
- },
- {
-  "ticker": "WCT",
-  "title": "Wellchange Holdings Company Limited Announces 1-for-10 Reverse Stock Split Effective November 9, 2026",
-  "src": "GlobeNewswire",
-  "ts": "2026-11-05T13:00+00:00"
- },
- {
-  "ticker": "RHI",
-  "title": "Robert Half promotes David King to lead Executive Search across the Americas and Europe",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T13:05+00:00"
- },
- {
-  "ticker": "LABT",
-  "title": "Lakewood-Amedex Biotherapeutics Announces Completion of Series C Convertible Preferred Stock Redemption",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T13:02+00:00"
- },
- {
-  "ticker": "CLMT",
-  "title": "Calumet Announces CMR Asset Lease Details and Revised Agreement with Warburg Pincus",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T13:01+00:00"
- },
- {
-  "ticker": "ALKT",
-  "title": "Fidelity Bank Expands Relationship with Alkami by Launching MANTL Loan Origination",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T15:00+00:00"
- },
- {
-  "ticker": "CPK",
-  "title": "Chesapeake Utilities Corporation Announces Quarterly Dividend",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T17:00+00:00"
- },
- {
-  "ticker": "RSSS",
-  "title": "Research Solutions to Announce First Quarter Fiscal Year 2027 Results on Thursday, November 12, 2026",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T17:56+00:00"
- },
- {
-  "ticker": "MRP",
-  "title": "Millrose Properties, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - MRP",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T19:47+00:00"
- },
- {
-  "ticker": "ENSG",
-  "title": "ENSG Investors Have Opportunity to Lead The Ensign Group, Inc. Securities Fraud Lawsuit with SBS Law",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T19:45+00:00"
- },
- {
-  "ticker": "BAC",
-  "title": "Bank of America Corporation Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - BAC",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T19:43+00:00"
- },
- {
-  "ticker": "OI",
-  "title": "O-I Glass, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - OI",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T19:42+00:00"
- },
- {
-  "ticker": "QBTS",
-  "title": "D-Wave Quantum Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - QBTS",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T19:41+00:00"
- },
- {
-  "ticker": "QBTS",
-  "title": "QBTS Investors Have Opportunity to Lead D-Wave Quantum Inc. Securities Fraud Lawsuit with SBS Law",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T19:39+00:00"
- },
- {
-  "ticker": "CLBT",
-  "title": "Cellebrite ernennt Rogerio Rizzi zum Executive Vice President für Corporate Strategy and Development",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T19:31+00:00"
- },
- {
-  "ticker": "OUT",
-  "title": "OUTFRONT Media Announces Quarterly Dividend",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T21:06+00:00"
- },
- {
-  "ticker": "KR",
-  "title": "Kroger Announces Third Quarter Conference Call with Investors",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T21:05+00:00"
- },
- {
-  "ticker": "STAK",
-  "title": "STAK Inc. Discloses Initial Progress in Gas-Powered Generator Business",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T21:05+00:00"
- },
- {
-  "ticker": "TYRA",
-  "title": "Tyra Biosciences to Participate in Upcoming Investor Conferences",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T21:05+00:00"
- },
- {
-  "ticker": "NGVC",
-  "title": "Natural Grocers by Vitamin Cottage, Inc. Announces Fourth Quarter and Fiscal Year 2026 Earnings Conference Call and Webcast",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T21:05+00:00"
- },
- {
-  "ticker": "PRAA",
-  "title": "PRA Group Reports Third Quarter 2026 Results",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T21:05+00:00"
- },
- {
-  "ticker": "SNPS",
-  "title": "Synopsys Announces Earnings Release Date For Fourth Quarter and Fiscal Year 2026",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T21:05+00:00"
- },
- {
-  "ticker": "GLOB",
-  "title": "Globant to Announce Third Quarter 2026 Financial Results on November 19th",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T21:05+00:00"
- },
- {
-  "ticker": "BRX",
-  "title": "BRIXMOR PROPERTY GROUP CLOSES $400 MILLION UNSECURED TERM LOAN",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T21:05+00:00"
- },
- {
-  "ticker": "SVM",
-  "title": "SILVERCORP REPORTS ADJUSTED NET INCOME OF $18.4 MILLION, $0.08 PER SHARE, AND CASH FLOW FROM OPERATING ACTIVITIES OF $62.7 MILLION FOR Q2 FISCAL 2027",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T22:05+00:00"
- },
- {
-  "ticker": "TCX",
-  "title": "Tucows Reports Third Quarter Results In Line with Expectations with Progress on Balance Sheet Obligations",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T22:05+00:00"
- },
- {
-  "ticker": "TC",
-  "title": "Tucows Reports Third Quarter Results In Line with Expectations with Progress on Balance Sheet Obligations",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T22:05+00:00"
- },
- {
-  "ticker": "GL",
-  "title": "GLOBE LIFE INC. DECLARES DIVIDEND",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T22:01+00:00"
- },
- {
-  "ticker": "CODX",
-  "title": "Co-Diagnostics Announces Updated Third Quarter 2026 Earnings Release Date and Webcast",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T22:00+00:00"
- },
- {
-  "ticker": "EXR",
-  "title": "Extra Space Storage Inc. Announces 4th Quarter 2026 Dividend",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T22:00+00:00"
- },
- {
-  "ticker": "CRIS",
-  "title": "Curis to Report Third Quarter 2026 Financial and Operating Results and Host Conference Call and Webcast on November 12, 2026",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T21:38+00:00"
- },
- {
-  "ticker": "ED",
-  "title": "CON EDISON REPORTS 2026 THIRD QUARTER EARNINGS",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T21:33+00:00"
- },
- {
-  "ticker": "TRIP",
-  "title": "Tripadvisor Investigation Notice: SueWallSt Notifies Investors of Pending Investigation Into Tripadvisor (TRIP)",
-  "src": "PR Newswire",
-  "ts": "2026-11-05T22:45+00:00"
- },
- {
-  "ticker": "BR",
-  "title": "Broadridge's Distributed Ledger Repo Processes $7.6 Trillion in October",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T07:00+00:00"
- },
- {
-  "ticker": "QBTS",
-  "title": "QBTS Investors Have Opportunity to Lead D-Wave Quantum Inc. Securities Fraud Lawsuit",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T06:37+00:00"
- },
- {
-  "ticker": "DUOL",
-  "title": "DUOL Investors Have Opportunity to Lead Duolingo, Inc. Securities Fraud Lawsuit",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T06:35+00:00"
- },
- {
-  "ticker": "INO",
-  "title": "INOVIO Announces Pricing of Approximately $75 Million Public Offering",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T04:18+00:00"
- },
- {
   "ticker": "EQIX",
   "title": "Equinix Opens SG6 in Singapore, Expanding AI-Ready Capacity in One of Asia-Pacific's Most Connected Markets",
   "src": "PR Newswire",
@@ -574,5 +268,29 @@
   "title": "MRP Investors Have Opportunity to Lead Millrose Properties, Inc. Securities Fraud Lawsuit",
   "src": "PR Newswire",
   "ts": "2026-11-07T18:32+00:00"
+ },
+ {
+  "ticker": "LINC",
+  "title": "LINC Investors Have Opportunity to Lead Lincoln Educational Services Corporation Securities Fraud Lawsuit with SBS Law",
+  "src": "PR Newswire",
+  "ts": "2026-11-09T05:50+00:00"
+ },
+ {
+  "ticker": "SOHU",
+  "title": "SOHU.COM REPORTS THIRD QUARTER 2026 UNAUDITED FINANCIAL RESULTS",
+  "src": "PR Newswire",
+  "ts": "2026-11-09T05:00+00:00"
+ },
+ {
+  "ticker": "GFR",
+  "title": "Strathcona Resources Ltd. Announces Agreement to Acquire Greenfire Resources Ltd.",
+  "src": "PR Newswire",
+  "ts": "2026-11-09T04:44+00:00"
+ },
+ {
+  "ticker": "CARS",
+  "title": "Cars.com Announces Inducement Award Under NYSE Rule 303A.08",
+  "src": "PR Newswire",
+  "ts": "2026-11-09T04:14+00:00"
  }
 ]

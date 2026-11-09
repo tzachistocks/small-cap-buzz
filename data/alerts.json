@@ -3538,5 +3538,120 @@
   "telegram_sent": true,
   "outcome": {},
   "followups": {}
+ },
+ {
+  "id": "202611090707-CIA",
+  "ts": "2026-11-09T07:07+00:00",
+  "ticker": "CIA",
+  "score": 5,
+  "why": [
+   "האצה x18.5 מול הבסיס",
+   "+24 אזכורים ב-3 שעות",
+   "פיזור ב-3 פורומים",
+   "שיח עולה 3 ימים ברציפות (7→11→35)",
+   "פלואט 44.7M",
+   "חשד להתראת שווא (מילה)"
+  ],
+  "price": {
+   "price": 4.13,
+   "prev_close": 4.12,
+   "move_pct": 0.24,
+   "vol_today": 137600,
+   "avg_vol20": 127785,
+   "rel_vol": 1.08,
+   "exchange": "NYQ",
+   "name": "Citizens, Inc.",
+   "readiness": {
+    "points": -1,
+    "why": [
+     "ליד שיא 20 יום (פחות ריצות)"
+    ],
+    "risk": [],
+    "asof": "2026-11-06",
+    "f": {
+     "rvol_1": 1.1334,
+     "atr_ratio": 1.4027,
+     "drawdown_60": -0.0282,
+     "vol20": 0.0297,
+     "prior_runs_120": 0.0,
+     "ret_1d": 0.0024,
+     "ret_3d": 0.0812,
+     "ret_10d": 0.1472,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.9718
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 209.41,
+   "float_m": 44.73,
+   "short_float_pct": 9.95,
+   "days_to_cover": 33.13,
+   "src": "finviz"
+  },
+  "m_now": 35,
+  "m_24h_ago": 11,
+  "spread": [
+   "WallStreetbetsELITE",
+   "stocks",
+   "wallstreetbets"
+  ],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 0,
+   "users": 15,
+   "bull": 6,
+   "bear": 0,
+   "oldest_min": 276115,
+   "watchlist": 261
+  },
+  "borrow": {
+   "fee": 4.5595,
+   "available": 65000,
+   "fee_5d": 4.8381,
+   "available_5d": 35000
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "x": null,
+  "profile": {
+   "country": "TX",
+   "inc": "CO",
+   "asia": null,
+   "sic": "Life Insurance",
+   "ts": "2026-10-30T11:08+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [],
+   "filings": [],
+   "rsplit": null,
+   "cik": 24090
+  },
+  "forum": {
+   "rising": [
+    7,
+    11,
+    35
+   ],
+   "novel": false
+  },
+  "invalidation": 4.12,
+  "news": {
+   "ticker": "CIA",
+   "title": "3 Rate Sensitive Financial Stocks As Treasury Yields Reshape Retirement Investing",
+   "src": "Yahoo",
+   "ts": "2026-11-08T23:15+00:00",
+   "class": "neutral",
+   "rule": "",
+   "offering": false,
+   "amount_m": null
+  },
+  "urgent": false,
+  "urgent_why": [],
+  "path": "buzz",
+  "telegram_sent": true,
+  "outcome": {}
  }
 ]
