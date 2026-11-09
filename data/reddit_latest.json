@@ -1,95 +1,23 @@
 {
- "ts": "2026-11-09T07:07+00:00",
+ "ts": "2026-11-09T11:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
-  "HMR": {
-   "m6": 4,
-   "m24": 4,
+  "XXII": {
+   "m6": 3,
+   "m24": 3,
    "authors6": 3,
    "authors24": 3,
    "subs6": [
-    "pennystocks"
+    "Shortsqueeze"
    ],
    "subs24": [
-    "pennystocks"
+    "Shortsqueeze"
    ],
-   "first_utc": "2026-11-09T01:10+00:00",
-   "sample": "r/pennystocks: $HMR back on its 200 day at ~6x forward earnings with the cash stripped out"
-  },
-  "LENZ": {
-   "m6": 3,
-   "m24": 3,
-   "authors6": 2,
-   "authors24": 2,
-   "subs6": [
-    "Shortsqueeze",
-    "pennystocks"
-   ],
-   "subs24": [
-    "Shortsqueeze",
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-09T05:56+00:00",
-   "sample": ""
-  },
-  "STAK": {
-   "m6": 2,
-   "m24": 2,
-   "authors6": 2,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-09T05:17+00:00",
-   "sample": "r/pennystocks: Watchlist: 11/09/26 LETS HAVE A GREAT MONDAY!!!"
-  },
-  "SDA": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-09T05:17+00:00",
-   "sample": "r/pennystocks: Watchlist: 11/09/26 LETS HAVE A GREAT MONDAY!!!"
-  },
-  "VSA": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-09T05:17+00:00",
-   "sample": "r/pennystocks: Watchlist: 11/09/26 LETS HAVE A GREAT MONDAY!!!"
+   "first_utc": "2026-11-09T07:23+00:00",
+   "sample": "r/Shortsqueeze: Cost to Borrow for $XXII is an astounding 8300%"
   },
   "CHSN": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-09T05:17+00:00",
-   "sample": "r/pennystocks: Watchlist: 11/09/26 LETS HAVE A GREAT MONDAY!!!"
-  },
-  "NWGL": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -117,28 +45,68 @@
    "first_utc": "2026-11-09T05:17+00:00",
    "sample": "r/pennystocks: Watchlist: 11/09/26 LETS HAVE A GREAT MONDAY!!!"
   },
-  "MRCY": {
+  "NWGL": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
    "authors24": 1,
    "subs6": [
-    "smallstreetbets"
+    "pennystocks"
    ],
    "subs24": [
-    "smallstreetbets"
+    "pennystocks"
    ],
-   "first_utc": "2026-11-09T02:32+00:00",
-   "sample": "r/smallstreetbets: Kratos (KTOS) backlog nearly doubled in 5 quarters, but almost none of it shows up in the "
+   "first_utc": "2026-11-09T05:17+00:00",
+   "sample": "r/pennystocks: Watchlist: 11/09/26 LETS HAVE A GREAT MONDAY!!!"
   },
-  "KTOS": {
+  "VSA": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
    "authors24": 1,
    "subs6": [
-    "smallstreetbets"
+    "pennystocks"
    ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-09T05:17+00:00",
+   "sample": "r/pennystocks: Watchlist: 11/09/26 LETS HAVE A GREAT MONDAY!!!"
+  },
+  "SDA": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-09T05:17+00:00",
+   "sample": "r/pennystocks: Watchlist: 11/09/26 LETS HAVE A GREAT MONDAY!!!"
+  },
+  "STAK": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-09T05:17+00:00",
+   "sample": "r/pennystocks: Watchlist: 11/09/26 LETS HAVE A GREAT MONDAY!!!"
+  },
+  "KTOS": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
    "subs24": [
     "smallstreetbets"
    ],
@@ -146,13 +114,11 @@
    "sample": "r/smallstreetbets: Kratos (KTOS) backlog nearly doubled in 5 quarters, but almost none of it shows up in the "
   },
   "LHX": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
+   "subs6": [],
    "subs24": [
     "smallstreetbets"
    ],
@@ -160,27 +126,35 @@
    "sample": "r/smallstreetbets: Kratos (KTOS) backlog nearly doubled in 5 quarters, but almost none of it shows up in the "
   },
   "AVAV": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
+   "subs6": [],
    "subs24": [
     "smallstreetbets"
    ],
    "first_utc": "2026-11-09T02:32+00:00",
    "sample": "r/smallstreetbets: Kratos (KTOS) backlog nearly doubled in 5 quarters, but almost none of it shows up in the "
   },
-  "DYOR": {
-   "m6": 1,
+  "MRCY": {
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
+   "subs6": [],
+   "subs24": [
+    "smallstreetbets"
    ],
+   "first_utc": "2026-11-09T02:32+00:00",
+   "sample": "r/smallstreetbets: Kratos (KTOS) backlog nearly doubled in 5 quarters, but almost none of it shows up in the "
+  },
+  "HMR": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
@@ -188,76 +162,30 @@
    "sample": "r/pennystocks: $HMR back on its 200 day at ~6x forward earnings with the cash stripped out"
   },
   "BP": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
    "first_utc": "2026-11-09T01:10+00:00",
    "sample": "r/pennystocks: $HMR back on its 200 day at ~6x forward earnings with the cash stripped out"
   },
-  "SSB": {
-   "m6": 1,
+  "DYOR": {
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-09T06:58+00:00",
-   "sample": ""
-  },
-  "GYGY": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-09T06:45+00:00",
-   "sample": ""
+   "first_utc": "2026-11-09T01:10+00:00",
+   "sample": "r/pennystocks: $HMR back on its 200 day at ~6x forward earnings with the cash stripped out"
   },
-  "IR": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-09T06:15+00:00",
-   "sample": ""
-  },
-  "MAN": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-09T06:12+00:00",
-   "sample": ""
-  },
-  "CLRO": {
+  "HTZ": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -268,10 +196,10 @@
    "subs24": [
     "Shortsqueeze"
    ],
-   "first_utc": "2026-11-09T05:57+00:00",
+   "first_utc": "2026-11-09T10:22+00:00",
    "sample": ""
   },
-  "RA": {
+  "CYPH": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -282,24 +210,10 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-09T05:56+00:00",
+   "first_utc": "2026-11-09T10:09+00:00",
    "sample": ""
   },
-  "VIVK": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-09T05:49+00:00",
-   "sample": ""
-  },
-  "DJT": {
+  "TC": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -310,7 +224,7 @@
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-11-09T05:44+00:00",
+   "first_utc": "2026-11-09T09:19+00:00",
    "sample": ""
   }
  },

@@ -1,23 +1,5 @@
 [
  {
-  "ticker": "EQIX",
-  "title": "Equinix Opens SG6 in Singapore, Expanding AI-Ready Capacity in One of Asia-Pacific's Most Connected Markets",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T08:32+00:00"
- },
- {
-  "ticker": "RAYA",
-  "title": "ERAYAK Advances Hybrid Power Strategy as Ruike Facility Enters Final Acceptance Phase",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T11:00+00:00"
- },
- {
-  "ticker": "YALA",
-  "title": "Yalla Group Limited to Report Third Quarter 2026 Financial Results on November 16, 2026 Eastern Time",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T11:00+00:00"
- },
- {
   "ticker": "ENB",
   "title": "Enbridge Reports Strong Third Quarter Results, Places Over $3 Billion of Gas Transmission Projects Into Service, and Reaffirms 2026 Financial Guidance",
   "src": "PR Newswire",
@@ -292,5 +274,11 @@
   "title": "Cars.com Announces Inducement Award Under NYSE Rule 303A.08",
   "src": "PR Newswire",
   "ts": "2026-11-09T04:14+00:00"
+ },
+ {
+  "ticker": "AIIO",
+  "title": "Robo.ai Announces October Revenue of Over US$100 Million",
+  "src": "PR Newswire",
+  "ts": "2026-11-09T11:00+00:00"
  }
 ]
