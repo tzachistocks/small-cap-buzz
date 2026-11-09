@@ -1,77 +1,5 @@
 [
  {
-  "ticker": "NXPL",
-  "title": "NextPlat to Release Third Quarter 2026 Results on Thursday, November 12, 2026",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T18:08+00:00"
- },
- {
-  "ticker": "APP",
-  "title": "Robbins LLP Reminds APP Investors of the November 16, 2026 Lead Plaintiff Deadline; Harmed Investors Should Contact the Firm for Information About Leading the Class Action Against AppLovin Corporation",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T19:57+00:00"
- },
- {
-  "ticker": "MNTN",
-  "title": "Robbins LLP Reminds MNTN, Inc. Investors That We Are Investigating the Company for Violations of Securities Laws",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T19:55+00:00"
- },
- {
-  "ticker": "FLEX",
-  "title": "Flex to Host Innovation Day on November 10, 2026",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T21:05+00:00"
- },
- {
-  "ticker": "AMTD",
-  "title": "AMTD IDEA, AMTD Digital and TGE Jointly Announce the Injection of Four Premium Hotel Assets into TGE",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T21:05+00:00"
- },
- {
-  "ticker": "HKD",
-  "title": "AMTD IDEA, AMTD Digital and TGE Jointly Announce the Injection of Four Premium Hotel Assets into TGE",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T21:05+00:00"
- },
- {
-  "ticker": "POM",
-  "title": "POMDOCTOR LIMITED Regains Compliance with Nasdaq Bid Price Requirement",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T21:05+00:00"
- },
- {
-  "ticker": "FIEE",
-  "title": "FiEE Advances O2O ArtTech Ecosystem with Approximately US$2.9 Million in Gross Transaction Value at Kyoto Artwork Sales Event, Targeting Art Advisory and Global Collector Networks",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T21:05+00:00"
- },
- {
-  "ticker": "INM",
-  "title": "InMed Pharmaceuticals Completes Closing of Merger with Mentari Therapeutics",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T21:05+00:00"
- },
- {
-  "ticker": "ORCL",
-  "title": "ORACLE'S ANNUAL MEETING OF STOCKHOLDERS TO BE HELD NOVEMBER 18, 2026",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T21:05+00:00"
- },
- {
-  "ticker": "RRX",
-  "title": "REGAL REXNORD ANNOUNCES PARTICIPATION AT UPCOMING CONFERENCES",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T21:00+00:00"
- },
- {
-  "ticker": "LINC",
-  "title": "LINC Class Action Lead Plaintiff Deadline is November 10, 2026 - Contact Robbins LLP About Leading the Case Against Lincoln Education Services Corporation",
-  "src": "PR Newswire",
-  "ts": "2026-11-06T20:37+00:00"
- },
- {
   "ticker": "HONA",
   "title": "Honeywell Aerospace, Inc. Notice of November 23, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
   "src": "PR Newswire",
@@ -232,5 +160,59 @@
   "title": "Millrose Properties, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - MRP",
   "src": "PR Newswire",
   "ts": "2026-11-09T16:55+00:00"
+ },
+ {
+  "ticker": "NHI",
+  "title": "NHI Announces Third Quarter 2026 Results",
+  "src": "PR Newswire",
+  "ts": "2026-11-09T21:05+00:00"
+ },
+ {
+  "ticker": "APEI",
+  "title": "American Public Education Reports Third Quarter 2026 Financial Results",
+  "src": "PR Newswire",
+  "ts": "2026-11-09T21:05+00:00"
+ },
+ {
+  "ticker": "RLGT",
+  "title": "RADIANT LOGISTICS ANNOUNCES RESULTS FOR THE FIRST FISCAL QUARTER ENDED SEPTEMBER 30, 2026",
+  "src": "PR Newswire",
+  "ts": "2026-11-09T21:05+00:00"
+ },
+ {
+  "ticker": "QNT",
+  "title": "Quantinuum to Participate in the Cantor Convergence 4th Annual Crypto, FinTech, AI & Energy Infrastructure Conference",
+  "src": "PR Newswire",
+  "ts": "2026-11-09T21:05+00:00"
+ },
+ {
+  "ticker": "YFOR",
+  "title": "YYForce's Humanoid Robotics and VLA Training Workflow Featured on Mediacorp's Meeting AI",
+  "src": "PR Newswire",
+  "ts": "2026-11-09T21:05+00:00"
+ },
+ {
+  "ticker": "TGE",
+  "title": "The Generation Essentials Group to Hold Extraordinary General Meeting on December 7, 2026",
+  "src": "PR Newswire",
+  "ts": "2026-11-09T21:05+00:00"
+ },
+ {
+  "ticker": "QLYS",
+  "title": "Qualys Announces Third Quarter 2026 Financial Results",
+  "src": "PR Newswire",
+  "ts": "2026-11-09T21:05+00:00"
+ },
+ {
+  "ticker": "SKYD",
+  "title": "SKYDANCE REPORTS THIRD QUARTER 2026 FINANCIAL RESULTS FOR PARAMOUNT SKYDANCE",
+  "src": "PR Newswire",
+  "ts": "2026-11-09T21:01+00:00"
+ },
+ {
+  "ticker": "SANM",
+  "title": "Sanmina Reports Fourth Quarter and Fiscal 2026 Financial Results",
+  "src": "PR Newswire",
+  "ts": "2026-11-09T21:01+00:00"
  }
 ]

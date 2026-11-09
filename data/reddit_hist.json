@@ -9759,8 +9759,8 @@
    "sample": "r/Shortsqueeze: Cost to Borrow for $XXII is an astounding 8300%"
   },
   "HTZ": {
-   "m24_max": 3,
-   "authors24_max": 2,
+   "m24_max": 19,
+   "authors24_max": 7,
    "subs": [
     "Shortsqueeze",
     "smallstreetbets"
@@ -9883,6 +9883,7 @@
    "m24_max": 1,
    "authors24_max": 1,
    "subs": [
+    "pennystocks",
     "smallstreetbets"
    ],
    "first_utc": "2026-11-09T15:17+00:00",
@@ -9914,6 +9915,98 @@
    ],
    "first_utc": "2026-11-09T14:17+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "SE": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-09T19:59+00:00"
+  },
+  "SHOE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-09T18:49+00:00",
+   "sample": "r/Shortsqueeze: $SHOE: 52% of the float short, company buying back stock, earnings Nov 19. A slow grind, n"
+  },
+  "GME": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-09T17:40+00:00",
+   "sample": "r/Shortsqueeze: Hear me out: Squeeze NVDA....."
+  },
+  "VEON": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-09T17:15+00:00",
+   "sample": "r/pennystocks: Mike Pompeo as Chairman and now the ex Deputy Prime Minister of the United Kingdom as Exec"
+  },
+  "UK": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-09T17:15+00:00",
+   "sample": "r/pennystocks: Mike Pompeo as Chairman and now the ex Deputy Prime Minister of the United Kingdom as Exec"
+  },
+  "DAVI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-09T21:00+00:00"
+  },
+  "CLOV": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-09T20:52+00:00"
+  },
+  "RACE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-09T20:46+00:00"
+  },
+  "WCT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-09T20:40+00:00"
+  },
+  "SMX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-09T20:40+00:00"
+  },
+  "ONDS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-09T19:59+00:00"
   }
  }
 }
