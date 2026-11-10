@@ -10008,5 +10008,341 @@
    ],
    "first_utc": "2026-11-09T19:59+00:00"
   }
+ },
+ "2026-11-10": {
+  "HTZ": {
+   "m24_max": 8,
+   "authors24_max": 7,
+   "subs": [
+    "Shortsqueeze",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-09T16:03+00:00",
+   "sample": "r/smallstreetbets: $HTZ going up, who's coming along?"
+  },
+  "RTX": {
+   "m24_max": 5,
+   "authors24_max": 5,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-09T14:04+00:00",
+   "sample": "r/smallstreetbets: NVIDIA's next big release wasn't supposed to be this. RTX Quick Ride in a Leather Jacket."
+  },
+  "BB": {
+   "m24_max": 4,
+   "authors24_max": 3,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-10T04:54+00:00",
+   "sample": "r/smallstreetbets: BB call. What are my odds?"
+  },
+  "EQX": {
+   "m24_max": 3,
+   "authors24_max": 3,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T03:32+00:00",
+   "sample": "r/pennystocks: Gold Price Rebound Coming? Time for a Diversified Portfolio of Gold Miners?$SMOFF, $SCTSF,"
+  },
+  "BTG": {
+   "m24_max": 3,
+   "authors24_max": 3,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T03:32+00:00",
+   "sample": "r/pennystocks: Gold Price Rebound Coming? Time for a Diversified Portfolio of Gold Miners?$SMOFF, $SCTSF,"
+  },
+  "SMOFF": {
+   "m24_max": 3,
+   "authors24_max": 3,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T03:32+00:00",
+   "sample": "r/pennystocks: Gold Price Rebound Coming? Time for a Diversified Portfolio of Gold Miners?$SMOFF, $SCTSF,"
+  },
+  "SCTSF": {
+   "m24_max": 3,
+   "authors24_max": 3,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T03:32+00:00",
+   "sample": "r/pennystocks: Gold Price Rebound Coming? Time for a Diversified Portfolio of Gold Miners?$SMOFF, $SCTSF,"
+  },
+  "GORO": {
+   "m24_max": 3,
+   "authors24_max": 3,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T03:32+00:00",
+   "sample": "r/pennystocks: Gold Price Rebound Coming? Time for a Diversified Portfolio of Gold Miners?$SMOFF, $SCTSF,"
+  },
+  "XXII": {
+   "m24_max": 3,
+   "authors24_max": 3,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-09T07:23+00:00",
+   "sample": "r/Shortsqueeze: Cost to Borrow for $XXII is an astounding 8300%"
+  },
+  "UK": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-09T17:15+00:00",
+   "sample": "r/smallstreetbets: Should I Continue Swing Trading or Focus on Long-Term Investing at 21?"
+  },
+  "SGA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T03:32+00:00",
+   "sample": "r/pennystocks: Gold Price Rebound Coming? Time for a Diversified Portfolio of Gold Miners?$SMOFF, $SCTSF,"
+  },
+  "AEC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T02:51+00:00",
+   "sample": "r/pennystocks: BioLargo Targets Growing Industrial PFAS Market with MasterClass at International Water Co"
+  },
+  "BLGO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T02:51+00:00",
+   "sample": "r/pennystocks: BioLargo Targets Growing Industrial PFAS Market with MasterClass at International Water Co"
+  },
+  "PCT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-10T00:49+00:00",
+   "sample": "r/smallstreetbets: PCT - 65.26M shares short (1/3 of the float) with a 10 DTC"
+  },
+  "MCD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-09T22:29+00:00",
+   "sample": "r/smallstreetbets: I think it's time to rebalance my portfolioI should buy some NVIDIA stock"
+  },
+  "SHOE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-09T18:49+00:00",
+   "sample": "r/Shortsqueeze: $SHOE: 52% of the float short, company buying back stock, earnings Nov 19. A slow grind, n"
+  },
+  "GME": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-09T17:40+00:00",
+   "sample": "r/Shortsqueeze: Hear me out: Squeeze NVDA....."
+  },
+  "VEON": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-09T17:15+00:00",
+   "sample": "r/pennystocks: Mike Pompeo as Chairman and now the ex Deputy Prime Minister of the United Kingdom as Exec"
+  },
+  "DYOR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-09T16:03+00:00",
+   "sample": "r/smallstreetbets: Actually retarted. Bought 25k worth of HTZ"
+  },
+  "JDZG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-09T14:17+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "INLF": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-09T14:17+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "NTCL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-09T14:17+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "NWGL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-09T14:17+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "RDDT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-09T12:16+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 9th 2026"
+  },
+  "RKLB": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-09T12:16+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 9th 2026"
+  },
+  "ASTS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-09T12:16+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 9th 2026"
+  },
+  "SAR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-09T12:16+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 9th 2026"
+  },
+  "TTWO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-09T12:16+00:00",
+   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 9th 2026"
+  },
+  "URG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T06:03+00:00"
+  },
+  "HL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T05:09+00:00"
+  },
+  "PAAS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T05:09+00:00"
+  },
+  "CDE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T05:09+00:00"
+  },
+  "USAR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T05:09+00:00"
+  },
+  "KGC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T05:09+00:00"
+  },
+  "NEM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T05:09+00:00"
+  },
+  "MP": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T05:09+00:00"
+  },
+  "AEM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T05:09+00:00"
+  },
+  "AGI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T05:09+00:00"
+  }
  }
 }

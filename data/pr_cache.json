@@ -1,47 +1,5 @@
 [
  {
-  "ticker": "HONA",
-  "title": "Honeywell Aerospace, Inc. Notice of November 23, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
-  "src": "PR Newswire",
-  "ts": "2026-11-07T03:00+00:00"
- },
- {
-  "ticker": "FTFT",
-  "title": "Future FinTech Investigation Initiated: Kahn Swick & Foti, LLC Investigates the Officers and Directors of Future FinTech Group Inc. - FTFT",
-  "src": "PR Newswire",
-  "ts": "2026-11-07T03:00+00:00"
- },
- {
-  "ticker": "OTF",
-  "title": "Blue Owl Technology Finance Corp. Securities Class Action Filed on Behalf of Former OTF II Shareholders Following Nearly 44% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti",
-  "src": "PR Newswire",
-  "ts": "2026-11-07T03:00+00:00"
- },
- {
-  "ticker": "EG",
-  "title": "Everest Group, Ltd. Notice of December 28, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
-  "src": "PR Newswire",
-  "ts": "2026-11-07T03:00+00:00"
- },
- {
-  "ticker": "PINS",
-  "title": "Pinterest Investigation Initiated: Kahn Swick & Foti, LLC Investigates the Officers and Directors of Pinterest, Inc. - PINS",
-  "src": "PR Newswire",
-  "ts": "2026-11-07T03:00+00:00"
- },
- {
-  "ticker": "DUOL",
-  "title": "Duolingo, Inc. Notice of December 7, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
-  "src": "PR Newswire",
-  "ts": "2026-11-07T03:00+00:00"
- },
- {
-  "ticker": "ENSG",
-  "title": "The Ensign Group, Inc. Notice of December 7, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
-  "src": "PR Newswire",
-  "ts": "2026-11-07T03:00+00:00"
- },
- {
   "ticker": "TZOO",
   "title": "Club Offers for Travel Enthusiasts in Germany",
   "src": "PR Newswire",
@@ -214,5 +172,11 @@
   "title": "Sanmina Reports Fourth Quarter and Fiscal 2026 Financial Results",
   "src": "PR Newswire",
   "ts": "2026-11-09T21:01+00:00"
+ },
+ {
+  "ticker": "ASX",
+  "title": "ASE Technology Holding Co., Ltd. Announces Monthly Net Revenues*",
+  "src": "PR Newswire",
+  "ts": "2026-11-10T07:00+00:00"
  }
 ]

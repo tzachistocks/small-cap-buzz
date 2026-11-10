@@ -1862,7 +1862,7 @@
   "telegram_sent": true,
   "outcome": {
    "days": 3,
-   "last_close": 0.9466999769210815,
+   "last_close": 0.9470000267028809,
    "last_pct": 13.7,
    "max_close_pct": 13.7,
    "max_high_pct": 16.2,
@@ -1990,8 +1990,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 3,
-   "last_close": 2.7899999618530273,
-   "last_pct": -5.7,
+   "last_close": 2.759999990463257,
+   "last_pct": -6.8,
    "max_close_pct": -3.4,
    "max_high_pct": 5.4,
    "d1_pct": -3.4
@@ -2129,7 +2129,7 @@
   "telegram_sent": true,
   "outcome": {
    "days": 3,
-   "last_close": 0.26489999890327454,
+   "last_close": 0.26499998569488525,
    "last_pct": -13.7,
    "max_close_pct": 5.9,
    "max_high_pct": 17.3,
@@ -2611,8 +2611,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 3,
-   "last_close": 2.7899999618530273,
-   "last_pct": -1.8,
+   "last_close": 2.759999990463257,
+   "last_pct": -2.8,
    "max_close_pct": 0.7,
    "max_high_pct": 9.9,
    "d1_pct": 0.7
@@ -2728,10 +2728,10 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 0.6980999708175659,
-   "last_pct": 4.4,
-   "max_close_pct": 4.4,
-   "max_high_pct": 4.4,
+   "last_close": 0.699999988079071,
+   "last_pct": 4.7,
+   "max_close_pct": 4.7,
+   "max_high_pct": 4.7,
    "d1_pct": -5.8
   },
   "followups": {}
@@ -3184,7 +3184,7 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 0.26489999890327454,
+   "last_close": 0.26499998569488525,
    "last_pct": -14.0,
    "max_close_pct": 5.5,
    "max_high_pct": 11.3,
@@ -3317,10 +3317,10 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 4.329999923706055,
-   "last_pct": 5.1,
-   "max_close_pct": 5.1,
-   "max_high_pct": 7.4,
+   "last_close": 4.349999904632568,
+   "last_pct": 5.6,
+   "max_close_pct": 5.6,
+   "max_high_pct": 8.3,
    "d1_pct": 0.2
   },
   "followups": {}
@@ -3420,10 +3420,10 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 2.880000114440918,
-   "last_pct": 6.3,
-   "max_close_pct": 6.3,
-   "max_high_pct": 8.4,
+   "last_close": 2.869999885559082,
+   "last_pct": 5.9,
+   "max_close_pct": 5.9,
+   "max_high_pct": 8.5,
    "d1_pct": 2.2
   },
   "followups": {}
@@ -3540,11 +3540,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 2.7149999141693115,
-   "last_pct": 0.9,
-   "max_close_pct": 0.9,
-   "max_high_pct": 3.2,
-   "d1_pct": 0.9
+   "last_close": 2.7200000286102295,
+   "last_pct": 1.1,
+   "max_close_pct": 1.1,
+   "max_high_pct": 3.3,
+   "d1_pct": 1.1
   },
   "followups": {}
  },
@@ -3663,12 +3663,130 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 4.329999923706055,
-   "last_pct": 4.8,
-   "max_close_pct": 4.8,
-   "max_high_pct": 7.1,
-   "d1_pct": 4.8
+   "last_close": 4.349999904632568,
+   "last_pct": 5.3,
+   "max_close_pct": 5.3,
+   "max_high_pct": 8.0,
+   "d1_pct": 5.3
   },
   "followups": {}
+ },
+ {
+  "id": "202611100707-LOT",
+  "ts": "2026-11-10T07:07+00:00",
+  "ticker": "LOT",
+  "score": 6,
+  "why": [
+   "האצה x2.25",
+   "פיזור ב-4 פורומים",
+   "שיח עולה 3 ימים ברציפות (1→5→7)",
+   "נפח פי 5.4 מהממוצע",
+   "PR רגיל (11:56 ET 09/11): UPDATE – International companies to host live webcasts at Deutsche Ban"
+  ],
+  "price": {
+   "price": 0.2626,
+   "prev_close": 0.327,
+   "move_pct": -19.69,
+   "vol_today": 1108300,
+   "avg_vol20": 206925,
+   "rel_vol": 5.36,
+   "exchange": "NMS",
+   "name": "Lotus Technology Inc.",
+   "readiness": {
+    "points": 5,
+    "why": [
+     "נפח אתמול פי 5.7",
+     "ירדה 81% משיא 60 יום",
+     "תנודתית (9% ביום)",
+     "מתחת ל-$1"
+    ],
+    "risk": [],
+    "asof": "2026-11-09",
+    "f": {
+     "rvol_1": 5.7188,
+     "atr_ratio": 1.3452,
+     "drawdown_60": -0.8134,
+     "vol20": 0.0945,
+     "prior_runs_120": 0.0,
+     "ret_1d": -0.1846,
+     "ret_3d": -0.216,
+     "ret_10d": -0.4844,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.363
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 169.78,
+   "float_m": 635.89,
+   "short_float_pct": 0.12,
+   "days_to_cover": 2.4,
+   "src": "finviz"
+  },
+  "m_now": 7,
+  "m_24h_ago": 2,
+  "spread": [
+   "Shortsqueeze",
+   "WallStreetbetsELITE",
+   "Wallstreetbetsnew",
+   "wallstreetbets"
+  ],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 0,
+   "users": 15,
+   "bull": 15,
+   "bear": 0,
+   "oldest_min": 96124,
+   "watchlist": 372
+  },
+  "borrow": {
+   "fee": 11.8335,
+   "available": 2000000,
+   "fee_5d": 12.5708,
+   "available_5d": 2000000
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "x": null,
+  "profile": {
+   "country": "",
+   "inc": "E9",
+   "asia": null,
+   "sic": "Motor Vehicles & Passenger Car Bodies",
+   "ts": "2026-10-25T22:41+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [],
+   "filings": [],
+   "rsplit": null,
+   "cik": 1962746
+  },
+  "forum": {
+   "rising": [
+    1,
+    5,
+    7
+   ],
+   "novel": false
+  },
+  "invalidation": 0.2232,
+  "news": {
+   "ticker": "LOT",
+   "title": "UPDATE – International companies to host live webcasts at Deutsche Bank’s Depositary Receipts Virtual Investor Conference on November 12, 2026",
+   "src": "Yahoo",
+   "ts": "2026-11-09T16:56+00:00",
+   "class": "weak",
+   "rule": "Conference",
+   "offering": false,
+   "amount_m": null
+  },
+  "urgent": false,
+  "urgent_why": [],
+  "path": "buzz",
+  "telegram_sent": true,
+  "outcome": {}
  }
 ]
