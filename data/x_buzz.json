@@ -2,8 +2,8 @@
  "month": "2026-11",
  "month_credits": 1450,
  "exhausted": false,
- "day": "2026-11-09",
- "day_credits": 131,
+ "day": "2026-11-10",
+ "day_credits": 0,
  "done": [
   "2026-11-02T12",
   "2026-11-02T17",
@@ -19,44 +19,12 @@
   "2026-11-09T17"
  ],
  "tickers": {
-  "WAVE": {
-   "posts": 0,
-   "posts6": 0,
-   "authors": 0,
-   "likes": 0,
-   "ts": "2026-11-06T17:07+00:00",
-   "full": true
-  },
-  "SAVE": {
-   "posts": 0,
-   "posts6": 0,
-   "authors": 0,
-   "likes": 0,
-   "ts": "2026-11-06T17:07+00:00",
-   "full": true
-  },
-  "LINK": {
-   "posts": 0,
-   "posts6": 0,
-   "authors": 0,
-   "likes": 0,
-   "ts": "2026-11-06T17:07+00:00",
-   "full": true
-  },
   "TIL": {
    "posts": 0,
    "posts6": 0,
    "authors": 0,
    "likes": 0,
    "ts": "2026-11-09T17:07+00:00",
-   "full": true
-  },
-  "VXX": {
-   "posts": 1,
-   "posts6": 1,
-   "authors": 1,
-   "likes": 0,
-   "ts": "2026-11-06T17:07+00:00",
    "full": true
   },
   "GPUS": {

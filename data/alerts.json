@@ -3789,5 +3789,111 @@
   "telegram_sent": true,
   "outcome": {},
   "followups": {}
+ },
+ {
+  "id": "202611101307-LINK",
+  "ts": "2026-11-10T13:07+00:00",
+  "ticker": "LINK",
+  "score": 5,
+  "why": [
+   "פיזור ב-5 פורומים",
+   "שיח עולה 3 ימים ברציפות (2→3→5)",
+   "פלואט 3.5M",
+   "השאלה מתייקרת / מניות לשורט אוזלות"
+  ],
+  "price": {
+   "price": 3.18,
+   "prev_close": 3.1,
+   "move_pct": 2.58,
+   "vol_today": 17300,
+   "avg_vol20": 24010,
+   "rel_vol": 0.72,
+   "exchange": "NCM",
+   "name": "Interlink Electronics, Inc.",
+   "readiness": {
+    "points": 1,
+    "why": [
+     "ירדה 51% משיא 60 יום"
+    ],
+    "risk": [],
+    "asof": "2026-11-09",
+    "f": {
+     "rvol_1": 0.7864,
+     "atr_ratio": 1.0586,
+     "drawdown_60": -0.5108,
+     "vol20": 0.0522,
+     "prior_runs_120": 0.0,
+     "ret_1d": 0.0258,
+     "ret_3d": -0.0422,
+     "ret_10d": -0.2263,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.6611
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 50.1,
+   "float_m": 3.54,
+   "short_float_pct": 0.76,
+   "days_to_cover": 0.87,
+   "src": "finviz"
+  },
+  "m_now": 5,
+  "m_24h_ago": 1,
+  "spread": [
+   "Shortsqueeze",
+   "WallStreetbetsELITE",
+   "Wallstreetbetsnew",
+   "pennystocks",
+   "wallstreetbets"
+  ],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 0,
+   "users": 25,
+   "bull": 5,
+   "bear": 1,
+   "oldest_min": 188631,
+   "watchlist": 1022
+  },
+  "borrow": {
+   "fee": 2.2351,
+   "available": 35000,
+   "fee_5d": 2.2351,
+   "available_5d": 75000
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "x": null,
+  "profile": {
+   "country": "CA",
+   "inc": "NV",
+   "asia": null,
+   "sic": "Computer Peripheral Equipment, NEC",
+   "ts": "2026-10-22T23:16+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [],
+   "filings": [],
+   "rsplit": null,
+   "cik": 828146
+  },
+  "forum": {
+   "rising": [
+    2,
+    3,
+    5
+   ],
+   "novel": false
+  },
+  "invalidation": 3.1,
+  "news": null,
+  "urgent": false,
+  "urgent_why": [],
+  "path": "buzz",
+  "telegram_sent": true,
+  "outcome": {}
  }
 ]

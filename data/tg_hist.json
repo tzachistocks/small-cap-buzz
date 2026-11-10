@@ -20425,20 +20425,20 @@
  },
  "2026-11-10": {
   "INR": {
-   "m24_max": 4,
-   "authors24_max": 3,
+   "m24_max": 5,
+   "authors24_max": 4,
    "chats24_max": 1,
    "first_utc": "2026-11-09T20:13+00:00"
   },
   "RM": {
-   "m24_max": 4,
-   "authors24_max": 3,
+   "m24_max": 5,
+   "authors24_max": 4,
    "chats24_max": 1,
    "first_utc": "2026-11-09T20:13+00:00"
   },
   "HKD": {
-   "m24_max": 4,
-   "authors24_max": 3,
+   "m24_max": 5,
+   "authors24_max": 4,
    "chats24_max": 1,
    "first_utc": "2026-11-09T20:13+00:00"
   },
@@ -20863,7 +20863,7 @@
    "first_utc": "2026-11-09T18:46+00:00"
   },
   "RC": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-09T18:44+00:00"
@@ -21313,7 +21313,7 @@
    "first_utc": "2026-11-09T13:58+00:00"
   },
   "SAN": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-09T13:50+00:00"
@@ -21665,6 +21665,72 @@
    "authors24_max": 1,
    "chats24_max": 1,
    "first_utc": "2026-11-10T11:08+00:00"
+  },
+  "GHM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-10T13:04+00:00"
+  },
+  "TASK": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-10T12:56+00:00"
+  },
+  "MFA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-10T12:53+00:00"
+  },
+  "RSKD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-10T12:47+00:00"
+  },
+  "QBTS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-10T12:12+00:00"
+  },
+  "SAY": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-10T12:11+00:00"
+  },
+  "AAON": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-10T12:04+00:00"
+  },
+  "SBH": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-10T11:52+00:00"
+  },
+  "GFL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-10T11:47+00:00"
+  },
+  "AVEX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-10T11:33+00:00"
+  },
+  "WH": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "chats24_max": 1,
+   "first_utc": "2026-11-10T11:14+00:00"
   }
  }
 }

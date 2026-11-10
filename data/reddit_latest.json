@@ -1,13 +1,28 @@
 {
- "ts": "2026-11-10T11:12+00:00",
+ "ts": "2026-11-10T13:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
+  "HTZ": {
+   "m6": 2,
+   "m24": 4,
+   "authors6": 1,
+   "authors24": 3,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-09T16:03+00:00",
+   "sample": "r/smallstreetbets: $HTZ going up, who's coming along?"
+  },
   "RTX": {
-   "m6": 9,
-   "m24": 10,
-   "authors6": 8,
-   "authors24": 9,
+   "m6": 3,
+   "m24": 4,
+   "authors6": 3,
+   "authors24": 4,
    "subs6": [
     "smallstreetbets"
    ],
@@ -17,21 +32,7 @@
    "first_utc": "2026-11-09T14:04+00:00",
    "sample": "r/smallstreetbets: NVIDIA's next big release wasn't supposed to be this. RTX Quick Ride in a Leather Jacket."
   },
-  "HTZ": {
-   "m6": 7,
-   "m24": 9,
-   "authors6": 4,
-   "authors24": 5,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-09T16:03+00:00",
-   "sample": "r/smallstreetbets: $HTZ going up, who's coming along?"
-  },
-  "SEAT": {
+  "XLAB": {
    "m6": 3,
    "m24": 3,
    "authors6": 2,
@@ -42,78 +43,8 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-10T07:18+00:00",
-   "sample": "r/pennystocks: Vivid $SEAT is primed for seasonal reversal. Here's why :"
-  },
-  "GORO": {
-   "m6": 1,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-10T03:32+00:00",
-   "sample": "r/pennystocks: Gold Price Rebound Coming? Time for a Diversified Portfolio of Gold Miners?$SMOFF, $SCTSF,"
-  },
-  "SMOFF": {
-   "m6": 1,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-10T03:32+00:00",
-   "sample": "r/pennystocks: Gold Price Rebound Coming? Time for a Diversified Portfolio of Gold Miners?$SMOFF, $SCTSF,"
-  },
-  "SCTSF": {
-   "m6": 1,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-10T03:32+00:00",
-   "sample": "r/pennystocks: Gold Price Rebound Coming? Time for a Diversified Portfolio of Gold Miners?$SMOFF, $SCTSF,"
-  },
-  "EQX": {
-   "m6": 1,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-10T03:32+00:00",
-   "sample": "r/pennystocks: Gold Price Rebound Coming? Time for a Diversified Portfolio of Gold Miners?$SMOFF, $SCTSF,"
-  },
-  "BTG": {
-   "m6": 1,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-10T03:32+00:00",
-   "sample": "r/pennystocks: Gold Price Rebound Coming? Time for a Diversified Portfolio of Gold Miners?$SMOFF, $SCTSF,"
+   "first_utc": "2026-11-10T11:57+00:00",
+   "sample": ""
   },
   "UK": {
    "m6": 0,
@@ -128,6 +59,34 @@
    "first_utc": "2026-11-09T17:15+00:00",
    "sample": "r/smallstreetbets: Should I Continue Swing Trading or Focus on Long-Term Investing at 21?"
   },
+  "SHOE": {
+   "m6": 1,
+   "m24": 2,
+   "authors6": 1,
+   "authors24": 2,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-09T18:49+00:00",
+   "sample": "r/Shortsqueeze: $SHOE: 52% of the float short, company buying back stock, earnings Nov 19. A slow grind, n"
+  },
+  "SEAT": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T09:25+00:00",
+   "sample": "r/pennystocks: Vivid $SEAT is primed for seasonal reversal. Here's why :"
+  },
   "BB": {
    "m6": 0,
    "m24": 1,
@@ -140,7 +99,67 @@
    "first_utc": "2026-11-10T04:54+00:00",
    "sample": "r/smallstreetbets: BB call. What are my odds?"
   },
+  "EQX": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T03:32+00:00",
+   "sample": "r/pennystocks: Gold Price Rebound Coming? Time for a Diversified Portfolio of Gold Miners?$SMOFF, $SCTSF,"
+  },
   "SGA": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T03:32+00:00",
+   "sample": "r/pennystocks: Gold Price Rebound Coming? Time for a Diversified Portfolio of Gold Miners?$SMOFF, $SCTSF,"
+  },
+  "GORO": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T03:32+00:00",
+   "sample": "r/pennystocks: Gold Price Rebound Coming? Time for a Diversified Portfolio of Gold Miners?$SMOFF, $SCTSF,"
+  },
+  "BTG": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T03:32+00:00",
+   "sample": "r/pennystocks: Gold Price Rebound Coming? Time for a Diversified Portfolio of Gold Miners?$SMOFF, $SCTSF,"
+  },
+  "SMOFF": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T03:32+00:00",
+   "sample": "r/pennystocks: Gold Price Rebound Coming? Time for a Diversified Portfolio of Gold Miners?$SMOFF, $SCTSF,"
+  },
+  "SCTSF": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -200,18 +219,6 @@
    "first_utc": "2026-11-09T22:29+00:00",
    "sample": "r/smallstreetbets: I think it's time to rebalance my portfolioI should buy some NVIDIA stock"
   },
-  "SHOE": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-09T18:49+00:00",
-   "sample": "r/Shortsqueeze: $SHOE: 52% of the float short, company buying back stock, earnings Nov 19. A slow grind, n"
-  },
   "GME": {
    "m6": 0,
    "m24": 1,
@@ -248,31 +255,7 @@
    "first_utc": "2026-11-09T16:03+00:00",
    "sample": "r/smallstreetbets: Actually retarted. Bought 25k worth of HTZ"
   },
-  "INLF": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-09T14:17+00:00",
-   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
-  },
   "JDZG": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-09T14:17+00:00",
-   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
-  },
-  "NTCL": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -296,65 +279,309 @@
    "first_utc": "2026-11-09T14:17+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
-  "SAR": {
+  "INLF": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
    "authors24": 1,
    "subs6": [],
    "subs24": [
-    "Shortsqueeze"
+    "smallstreetbets"
    ],
-   "first_utc": "2026-11-09T12:16+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 9th 2026"
+   "first_utc": "2026-11-09T14:17+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
-  "TTWO": {
+  "NTCL": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
    "authors24": 1,
    "subs6": [],
    "subs24": [
-    "Shortsqueeze"
+    "smallstreetbets"
    ],
-   "first_utc": "2026-11-09T12:16+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 9th 2026"
+   "first_utc": "2026-11-09T14:17+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
-  "RKLB": {
-   "m6": 0,
+  "HRTX": {
+   "m6": 1,
    "m24": 1,
-   "authors6": 0,
+   "authors6": 1,
    "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
+   "subs6": [
+    "pennystocks"
    ],
-   "first_utc": "2026-11-09T12:16+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 9th 2026"
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T13:01+00:00",
+   "sample": ""
   },
-  "RDDT": {
-   "m6": 0,
+  "PEPG": {
+   "m6": 1,
    "m24": 1,
-   "authors6": 0,
+   "authors6": 1,
    "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
+   "subs6": [
+    "pennystocks"
    ],
-   "first_utc": "2026-11-09T12:16+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 9th 2026"
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T12:57+00:00",
+   "sample": ""
   },
-  "ASTS": {
-   "m6": 0,
+  "SI": {
+   "m6": 1,
    "m24": 1,
-   "authors6": 0,
+   "authors6": 1,
    "authors24": 1,
-   "subs6": [],
+   "subs6": [
+    "Shortsqueeze"
+   ],
    "subs24": [
     "Shortsqueeze"
    ],
-   "first_utc": "2026-11-09T12:16+00:00",
-   "sample": "r/Shortsqueeze: SqueezeFinder - Nov 9th 2026"
+   "first_utc": "2026-11-10T12:43+00:00",
+   "sample": ""
+  },
+  "STAK": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T12:41+00:00",
+   "sample": ""
+  },
+  "MNDO": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T12:38+00:00",
+   "sample": ""
+  },
+  "SMX": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T12:36+00:00",
+   "sample": ""
+  },
+  "BDTX": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T12:22+00:00",
+   "sample": ""
+  },
+  "OMH": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T12:21+00:00",
+   "sample": ""
+  },
+  "MVST": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T12:18+00:00",
+   "sample": ""
+  },
+  "WFF": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T12:17+00:00",
+   "sample": ""
+  },
+  "VIVK": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T11:59+00:00",
+   "sample": ""
+  },
+  "MEDS": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T11:57+00:00",
+   "sample": ""
+  },
+  "WORX": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T11:57+00:00",
+   "sample": ""
+  },
+  "SSM": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T11:57+00:00",
+   "sample": ""
+  },
+  "CXAI": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-10T11:41+00:00",
+   "sample": ""
+  },
+  "NYT": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-10T11:26+00:00",
+   "sample": ""
+  },
+  "DAVI": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T11:20+00:00",
+   "sample": ""
+  },
+  "FMFC": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T11:20+00:00",
+   "sample": ""
+  },
+  "VJET": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T11:20+00:00",
+   "sample": ""
+  },
+  "TIL": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-10T11:15+00:00",
+   "sample": ""
   },
   "FCF": {
    "m6": 1,
@@ -382,62 +609,6 @@
     "smallstreetbets"
    ],
    "first_utc": "2026-11-10T11:01+00:00",
-   "sample": ""
-  },
-  "PLUS": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-10T10:04+00:00",
-   "sample": ""
-  },
-  "IQ": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-10T09:04+00:00",
-   "sample": ""
-  },
-  "FMFC": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-10T09:01+00:00",
-   "sample": ""
-  },
-  "IE": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-10T07:13+00:00",
    "sample": ""
   }
  },
