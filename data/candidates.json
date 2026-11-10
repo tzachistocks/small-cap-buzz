@@ -8542,7 +8542,8 @@
    "spread",
    "rising",
    "low_float",
-   "rvol"
+   "rvol",
+   "x_buzz"
   ],
   "alerted": false,
   "urgent": false,
@@ -8815,7 +8816,8 @@
    "spread",
    "rising",
    "low_float",
-   "short"
+   "short",
+   "vel3h"
   ],
   "alerted": true,
   "urgent": false,
@@ -8857,6 +8859,73 @@
    "low_float",
    "borrow_fee",
    "word"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-10|MVST": {
+  "ts": "2026-11-10T17:07+00:00",
+  "ticker": "MVST",
+  "score": 7,
+  "max_score": 7,
+  "price": 0.2207,
+  "move_pct": -64.26,
+  "cap_m": 85.17,
+  "blocked": [],
+  "tags": [
+   "accel",
+   "vel3h",
+   "novel",
+   "x_buzz",
+   "st_msgs",
+   "rvol",
+   "sec_weak",
+   "pr_weak"
+  ],
+  "alerted": true,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-10|PEPG": {
+  "ts": "2026-11-10T17:07+00:00",
+  "ticker": "PEPG",
+  "score": 4,
+  "max_score": 4,
+  "price": 5.325,
+  "move_pct": 122.8,
+  "cap_m": 369.83,
+  "blocked": [
+   "כבר זזה +123%"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "novel",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-10|XLAB": {
+  "ts": "2026-11-10T17:07+00:00",
+  "ticker": "XLAB",
+  "score": 5,
+  "max_score": 5,
+  "price": 1.14,
+  "move_pct": 1.79,
+  "cap_m": 73.34,
+  "blocked": [
+   "דיווח הנפקה: 424B3 2026-11-09, EFFECT 2026-11-05, 424B3 2026-11-05"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "novel",
+   "low_float",
+   "borrow_fee",
+   "sec_strong"
   ],
   "alerted": false,
   "urgent": false,

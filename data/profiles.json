@@ -320,5 +320,19 @@
   "asia": null,
   "sic": "General Industrial Machinery & Equipment, NEC",
   "ts": "2026-11-09T17:09+00:00"
+ },
+ "MVST": {
+  "country": "TX",
+  "inc": "DE",
+  "asia": null,
+  "sic": "Miscellaneous Electrical Machinery, Equipment & Supplies",
+  "ts": "2026-11-10T17:09+00:00"
+ },
+ "XLAB": {
+  "country": "TX",
+  "inc": "DE",
+  "asia": null,
+  "sic": "Services-Prepackaged Software",
+  "ts": "2026-11-10T17:09+00:00"
  }
 }

@@ -10450,12 +10450,14 @@
    "first_utc": "2026-11-10T12:38+00:00"
   },
   "SMX": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
-    "pennystocks"
+    "pennystocks",
+    "smallstreetbets"
    ],
-   "first_utc": "2026-11-10T12:36+00:00"
+   "first_utc": "2026-11-10T12:36+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
   "BDTX": {
    "m24_max": 1,
@@ -10466,7 +10468,7 @@
    "first_utc": "2026-11-10T12:22+00:00"
   },
   "OMH": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "subs": [
     "pennystocks"
@@ -10487,10 +10489,11 @@
    "subs": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-10T12:17+00:00"
+   "first_utc": "2026-11-10T12:17+00:00",
+   "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
   "VIVK": {
-   "m24_max": 1,
+   "m24_max": 2,
    "authors24_max": 1,
    "subs": [
     "pennystocks"
@@ -10560,6 +10563,192 @@
     "smallstreetbets"
    ],
    "first_utc": "2026-11-10T11:15+00:00"
+  },
+  "SEGG": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T15:52+00:00",
+   "sample": "r/pennystocks: SEGG Media Q2 1,584% Revenue Increase"
+  },
+  "NOV": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T15:12+00:00",
+   "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
+  },
+  "CISS": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-10T14:24+00:00",
+   "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "MI": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-10T14:24+00:00",
+   "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "BWET": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-10T16:15+00:00"
+  },
+  "RZLV": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T15:24+00:00",
+   "sample": "r/pennystocks: DVLT and RZLV The Un-dynamic Duo"
+  },
+  "DVLT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T15:24+00:00",
+   "sample": "r/pennystocks: DVLT and RZLV The Un-dynamic Duo"
+  },
+  "NCT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T15:14+00:00",
+   "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
+  },
+  "RUBI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T15:14+00:00",
+   "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
+  },
+  "CYPH": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T15:14+00:00",
+   "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
+  },
+  "AMIX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T15:12+00:00",
+   "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "KLTR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T15:12+00:00",
+   "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "CODX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T15:12+00:00",
+   "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "WF": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T15:12+00:00",
+   "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "BW": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T15:12+00:00",
+   "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "FGL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-10T14:24+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "IQST": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T13:40+00:00",
+   "sample": "r/pennystocks: iQSTEL (NASDAQ: IQST) Digital Advances Microdrama Commercialization as First Mobile Operat"
+  },
+  "BBLG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T17:05+00:00"
+  },
+  "MNTN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-10T16:38+00:00"
+  },
+  "GE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-10T16:29+00:00"
+  },
+  "GL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T16:17+00:00"
   }
  }
 }

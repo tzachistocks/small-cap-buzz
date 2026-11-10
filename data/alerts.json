@@ -1861,9 +1861,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 3,
-   "last_close": 0.9470000267028809,
-   "last_pct": 13.7,
+   "days": 4,
+   "last_close": 0.9042999744415283,
+   "last_pct": 8.6,
    "max_close_pct": 13.7,
    "max_high_pct": 16.2,
    "d1_pct": 0.6
@@ -1989,9 +1989,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 3,
-   "last_close": 2.759999990463257,
-   "last_pct": -6.8,
+   "days": 4,
+   "last_close": 2.4600000381469727,
+   "last_pct": -16.9,
    "max_close_pct": -3.4,
    "max_high_pct": 5.4,
    "d1_pct": -3.4
@@ -2128,9 +2128,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 3,
-   "last_close": 0.26499998569488525,
-   "last_pct": -13.7,
+   "days": 4,
+   "last_close": 0.2630000114440918,
+   "last_pct": -14.3,
    "max_close_pct": 5.9,
    "max_high_pct": 17.3,
    "d1_pct": 0.3
@@ -2263,9 +2263,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 3,
-   "last_close": 4.570000171661377,
-   "last_pct": 3.9,
+   "days": 4,
+   "last_close": 4.510000228881836,
+   "last_pct": 2.5,
    "max_close_pct": 3.9,
    "max_high_pct": 11.8,
    "d1_pct": -1.1
@@ -2373,9 +2373,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 3,
-   "last_close": 8.380000114440918,
-   "last_pct": -0.5,
+   "days": 4,
+   "last_close": 8.170000076293945,
+   "last_pct": -3.0,
    "max_close_pct": -0.5,
    "max_high_pct": 3.7,
    "d1_pct": -1.2
@@ -2481,11 +2481,11 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 3,
-   "last_close": 3.180000066757202,
-   "last_pct": 8.9,
-   "max_close_pct": 8.9,
-   "max_high_pct": 12.2,
+   "days": 4,
+   "last_close": 3.25,
+   "last_pct": 11.3,
+   "max_close_pct": 11.3,
+   "max_high_pct": 17.3,
    "d1_pct": 0.0
   },
   "followups": {}
@@ -2610,9 +2610,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 3,
-   "last_close": 2.759999990463257,
-   "last_pct": -2.8,
+   "days": 4,
+   "last_close": 2.4600000381469727,
+   "last_pct": -13.4,
    "max_close_pct": 0.7,
    "max_high_pct": 9.9,
    "d1_pct": 0.7
@@ -2727,9 +2727,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 2,
-   "last_close": 0.699999988079071,
-   "last_pct": 4.7,
+   "days": 3,
+   "last_close": 0.632099986076355,
+   "last_pct": -5.5,
    "max_close_pct": 4.7,
    "max_high_pct": 4.7,
    "d1_pct": -5.8
@@ -2834,7 +2834,7 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 2,
+   "days": 3,
    "last_close": 6.46999979019165,
    "last_pct": -7.4,
    "max_close_pct": -2.3,
@@ -2939,11 +2939,11 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 2,
-   "last_close": 1.6100000143051147,
-   "last_pct": 9.5,
-   "max_close_pct": 9.5,
-   "max_high_pct": 9.5,
+   "days": 3,
+   "last_close": 1.6200000047683716,
+   "last_pct": 10.2,
+   "max_close_pct": 10.2,
+   "max_high_pct": 11.6,
    "d1_pct": 3.4
   },
   "followups": {}
@@ -3054,11 +3054,11 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 2,
-   "last_close": 3.180000066757202,
-   "last_pct": 8.9,
-   "max_close_pct": 8.9,
-   "max_high_pct": 11.6,
+   "days": 3,
+   "last_close": 3.25,
+   "last_pct": 11.3,
+   "max_close_pct": 11.3,
+   "max_high_pct": 17.3,
    "d1_pct": 6.2
   },
   "followups": {}
@@ -3183,9 +3183,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 2,
-   "last_close": 0.26499998569488525,
-   "last_pct": -14.0,
+   "days": 3,
+   "last_close": 0.2630000114440918,
+   "last_pct": -14.7,
    "max_close_pct": 5.5,
    "max_high_pct": 11.3,
    "d1_pct": 5.5
@@ -3316,9 +3316,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 2,
-   "last_close": 4.349999904632568,
-   "last_pct": 5.6,
+   "days": 3,
+   "last_close": 4.289999961853027,
+   "last_pct": 4.1,
    "max_close_pct": 5.6,
    "max_high_pct": 8.3,
    "d1_pct": 0.2
@@ -3419,9 +3419,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 2,
-   "last_close": 2.869999885559082,
-   "last_pct": 5.9,
+   "days": 3,
+   "last_close": 2.765000104904175,
+   "last_pct": 2.0,
    "max_close_pct": 5.9,
    "max_high_pct": 8.5,
    "d1_pct": 2.2
@@ -3539,9 +3539,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 1,
-   "last_close": 2.7200000286102295,
-   "last_pct": 1.1,
+   "days": 2,
+   "last_close": 2.674999952316284,
+   "last_pct": -0.6,
    "max_close_pct": 1.1,
    "max_high_pct": 3.3,
    "d1_pct": 1.1
@@ -3662,9 +3662,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 1,
-   "last_close": 4.349999904632568,
-   "last_pct": 5.3,
+   "days": 2,
+   "last_close": 4.289999961853027,
+   "last_pct": 3.9,
    "max_close_pct": 5.3,
    "max_high_pct": 8.0,
    "d1_pct": 5.3
@@ -3787,7 +3787,14 @@
   "urgent_why": [],
   "path": "buzz",
   "telegram_sent": true,
-  "outcome": {},
+  "outcome": {
+   "days": 1,
+   "last_close": 0.2630000114440918,
+   "last_pct": 0.2,
+   "max_close_pct": 0.2,
+   "max_high_pct": 20.0,
+   "d1_pct": 0.2
+  },
   "followups": {}
  },
  {
@@ -3894,6 +3901,147 @@
   "urgent_why": [],
   "path": "buzz",
   "telegram_sent": true,
-  "outcome": {}
+  "outcome": {
+   "days": 1,
+   "last_close": 3.25,
+   "last_pct": 2.2,
+   "max_close_pct": 2.2,
+   "max_high_pct": 7.7,
+   "d1_pct": 2.2
+  },
+  "followups": {}
+ },
+ {
+  "id": "202611101707-MVST",
+  "ts": "2026-11-10T17:07+00:00",
+  "ticker": "MVST",
+  "score": 7,
+  "why": [
+   "האצה x3.5 מול הבסיס",
+   "+4 אזכורים ב-3 שעות",
+   "חדשה בשיח (לא דוברה 14 יום)",
+   "באז ב-X: 5+ פוסטים מ-3 כותבים, 8 לייקים ב-24ש (5 ב-6ש)",
+   "30 הודעות בסטוקטוויטס ב-6 שעות",
+   "נפח פי 8.0 מהממוצע",
+   "SEC רגיל: 8-K 2.02 (תוצאות) (2026-11-09)",
+   "PR רגיל (10:16 ET 10/11): Microvast (MVST) Q3 2026 Earnings Call Transcript"
+  ],
+  "price": {
+   "price": 0.2207,
+   "prev_close": 0.6175,
+   "move_pct": -64.26,
+   "vol_today": 26062680,
+   "avg_vol20": 3256600,
+   "rel_vol": 8.0,
+   "exchange": "NCM",
+   "name": "Microvast Holdings, Inc.",
+   "readiness": {
+    "points": 1,
+    "why": [
+     "מתחת ל-$1"
+    ],
+    "risk": [],
+    "asof": "2026-11-09",
+    "f": {
+     "rvol_1": 2.3918,
+     "atr_ratio": 1.3506,
+     "drawdown_60": -0.2772,
+     "vol20": 0.0728,
+     "prior_runs_120": 0.0,
+     "ret_1d": -0.0175,
+     "ret_3d": -0.0707,
+     "ret_10d": 0.269,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.9048
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 85.17,
+   "float_m": 249.17,
+   "short_float_pct": 7.96,
+   "days_to_cover": 3.69,
+   "src": "finviz"
+  },
+  "m_now": 5,
+  "m_24h_ago": 1,
+  "spread": [
+   "pennystocks"
+  ],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 30,
+   "users": 27,
+   "bull": 4,
+   "bear": 3,
+   "oldest_min": 92,
+   "watchlist": 35434
+  },
+  "borrow": {
+   "fee": 0.5949,
+   "available": 2700000,
+   "fee_5d": null,
+   "available_5d": null
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "x": {
+   "posts": 5,
+   "posts6": 5,
+   "authors": 3,
+   "likes": 8,
+   "ts": "2026-11-10T17:07+00:00",
+   "full": true
+  },
+  "profile": {
+   "country": "TX",
+   "inc": "DE",
+   "asia": null,
+   "sic": "Miscellaneous Electrical Machinery, Equipment & Supplies",
+   "ts": "2026-11-10T17:09+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [
+    "8-K 2026-11-09"
+   ],
+   "filings": [
+    {
+     "class": "weak",
+     "label": "8-K 2.02 (תוצאות)",
+     "date": "2026-11-09"
+    }
+   ],
+   "rsplit": null,
+   "cik": 1760689
+  },
+  "forum": {
+   "rising": null,
+   "novel": true
+  },
+  "invalidation": 0.1876,
+  "news": {
+   "ticker": "MVST",
+   "title": "Microvast (MVST) Q3 2026 Earnings Call Transcript",
+   "src": "Yahoo",
+   "ts": "2026-11-10T15:16+00:00",
+   "class": "weak",
+   "rule": "Earnings Call",
+   "offering": false,
+   "amount_m": null
+  },
+  "urgent": false,
+  "urgent_why": [],
+  "path": "buzz",
+  "telegram_sent": true,
+  "outcome": {
+   "days": 1,
+   "last_close": 0.22075000405311584,
+   "last_pct": 0.0,
+   "max_close_pct": 0.0,
+   "max_high_pct": 10.5,
+   "d1_pct": 0.0
+  }
  }
 ]

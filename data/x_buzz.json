@@ -1,9 +1,9 @@
 {
  "month": "2026-11",
- "month_credits": 1450,
+ "month_credits": 1559,
  "exhausted": false,
  "day": "2026-11-10",
- "day_credits": 0,
+ "day_credits": 109,
  "done": [
   "2026-11-02T12",
   "2026-11-02T17",
@@ -16,7 +16,8 @@
   "2026-11-06T12",
   "2026-11-06T17",
   "2026-11-09T12",
-  "2026-11-09T17"
+  "2026-11-09T17",
+  "2026-11-10T17"
  ],
  "tickers": {
   "TIL": {
@@ -74,14 +75,78 @@
    "likes": 0,
    "ts": "2026-11-09T17:07+00:00",
    "full": true
+  },
+  "OMH": {
+   "posts": 6,
+   "posts6": 6,
+   "authors": 6,
+   "likes": 0,
+   "ts": "2026-11-10T17:07+00:00",
+   "full": true
+  },
+  "MVST": {
+   "posts": 5,
+   "posts6": 5,
+   "authors": 3,
+   "likes": 8,
+   "ts": "2026-11-10T17:07+00:00",
+   "full": true
+  },
+  "LOT": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-10T17:07+00:00",
+   "full": true
+  },
+  "LINK": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-10T17:07+00:00",
+   "full": true
+  },
+  "HKD": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-10T17:07+00:00",
+   "full": true
+  },
+  "INR": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-10T17:07+00:00",
+   "full": true
+  },
+  "RM": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-10T17:07+00:00",
+   "full": true
+  },
+  "VIP": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-10T17:07+00:00",
+   "full": true
   }
  },
  "discovery": {
-  "day": "2026-11-09",
+  "day": "2026-11-10",
   "tickers": {
-   "DVLT": 1,
-   "BTC": 1
+   "OPEN": 1,
+   "HIMS": 1
   }
  },
- "discovery_day": "2026-11-09"
+ "discovery_day": "2026-11-10"
 }
