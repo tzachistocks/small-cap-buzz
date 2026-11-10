@@ -10011,7 +10011,7 @@
  },
  "2026-11-10": {
   "HTZ": {
-   "m24_max": 8,
+   "m24_max": 9,
    "authors24_max": 7,
    "subs": [
     "Shortsqueeze",
@@ -10021,8 +10021,8 @@
    "sample": "r/smallstreetbets: $HTZ going up, who's coming along?"
   },
   "RTX": {
-   "m24_max": 5,
-   "authors24_max": 5,
+   "m24_max": 10,
+   "authors24_max": 9,
    "subs": [
     "smallstreetbets"
    ],
@@ -10343,6 +10343,63 @@
     "pennystocks"
    ],
    "first_utc": "2026-11-10T05:09+00:00"
+  },
+  "SEAT": {
+   "m24_max": 3,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T07:18+00:00",
+   "sample": "r/pennystocks: Vivid $SEAT is primed for seasonal reversal. Here's why :"
+  },
+  "FCF": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-10T11:03+00:00"
+  },
+  "NNN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-10T11:01+00:00"
+  },
+  "PLUS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-10T10:04+00:00"
+  },
+  "IQ": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-10T09:04+00:00"
+  },
+  "FMFC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T09:01+00:00"
+  },
+  "IE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-10T07:13+00:00"
   }
  }
 }
