@@ -334,5 +334,19 @@
   "asia": null,
   "sic": "Services-Prepackaged Software",
   "ts": "2026-11-10T17:09+00:00"
+ },
+ "SEAT": {
+  "country": "IL",
+  "inc": "DE",
+  "asia": null,
+  "sic": "Services-Miscellaneous Amusement & Recreation",
+  "ts": "2026-11-10T21:08+00:00"
+ },
+ "DVLT": {
+  "country": "OR",
+  "inc": "DE",
+  "asia": null,
+  "sic": "Services-Business Services, NEC",
+  "ts": "2026-11-10T21:08+00:00"
  }
 }

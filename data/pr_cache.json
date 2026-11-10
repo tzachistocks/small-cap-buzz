@@ -24,12 +24,6 @@
   "ts": "2026-11-08T00:01+00:00"
  },
  {
-  "ticker": "MRP",
-  "title": "MRP Investors Have Opportunity to Lead Millrose Properties, Inc. Securities Fraud Lawsuit",
-  "src": "PR Newswire",
-  "ts": "2026-11-07T18:32+00:00"
- },
- {
   "ticker": "LINC",
   "title": "LINC Investors Have Opportunity to Lead Lincoln Educational Services Corporation Securities Fraud Lawsuit with SBS Law",
   "src": "PR Newswire",
@@ -214,5 +208,71 @@
   "title": "POLARIS MARKS THE CLOSE OF 20TH ANNIVERSARY YEAR OF TRAILS GRANTS WITH MORE THAN $250,000 IN 2026 GIVING",
   "src": "PR Newswire",
   "ts": "2026-11-10T17:05+00:00"
+ },
+ {
+  "ticker": "DGX",
+  "title": "Quest Diagnostics Declares Quarterly Cash Dividend",
+  "src": "PR Newswire",
+  "ts": "2026-11-10T21:06+00:00"
+ },
+ {
+  "ticker": "NUVB",
+  "title": "Nuvation Bio to Present at the Jefferies Global Healthcare Conference in London",
+  "src": "PR Newswire",
+  "ts": "2026-11-10T21:05+00:00"
+ },
+ {
+  "ticker": "RDNW",
+  "title": "RideNow Group, Inc. Reports Third Quarter 2026 Financial Results",
+  "src": "PR Newswire",
+  "ts": "2026-11-10T21:05+00:00"
+ },
+ {
+  "ticker": "HGTY",
+  "title": "Hagerty Announces Secondary Offering of its Class A Common Stock",
+  "src": "PR Newswire",
+  "ts": "2026-11-10T21:05+00:00"
+ },
+ {
+  "ticker": "HAWK",
+  "title": "HawkEye 360 Appoints Former CIA Director Ambassador William J. Burns to Board of Directors",
+  "src": "PR Newswire",
+  "ts": "2026-11-10T21:05+00:00"
+ },
+ {
+  "ticker": "QUIK",
+  "title": "QuickLogic Reports Fiscal Third Quarter 2026 Financial Results",
+  "src": "PR Newswire",
+  "ts": "2026-11-10T21:02+00:00"
+ },
+ {
+  "ticker": "NBIX",
+  "title": "Neurocrine Biosciences to Present at the 2026 Jefferies Global Healthcare Conference",
+  "src": "PR Newswire",
+  "ts": "2026-11-10T21:01+00:00"
+ },
+ {
+  "ticker": "SLAB",
+  "title": "Silicon Labs Reports Third Quarter 2026 Results",
+  "src": "PR Newswire",
+  "ts": "2026-11-10T21:01+00:00"
+ },
+ {
+  "ticker": "ASTH",
+  "title": "Foothill Regional Medical Center Recognized Among Healthgrades' 2027 America's 100 Best Hospitals for Orthopedic Surgery and Joint Replacement",
+  "src": "PR Newswire",
+  "ts": "2026-11-10T21:00+00:00"
+ },
+ {
+  "ticker": "CPIX",
+  "title": "CUMBERLAND PHARMACEUTICALS REPORTS Q3 2026 FINANCIAL RESULTS & COMPANY UPDATE",
+  "src": "PR Newswire",
+  "ts": "2026-11-10T21:00+00:00"
+ },
+ {
+  "ticker": "CVLT",
+  "title": "Commvault Honors Partners Advancing AI Recovery at SHIFT 2026 Nashville",
+  "src": "PR Newswire",
+  "ts": "2026-11-10T21:00+00:00"
  }
 ]

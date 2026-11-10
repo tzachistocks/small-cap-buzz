@@ -8891,7 +8891,7 @@
   "ts": "2026-11-10T17:07+00:00",
   "ticker": "PEPG",
   "score": 4,
-  "max_score": 4,
+  "max_score": 5,
   "price": 5.325,
   "move_pct": 122.8,
   "cap_m": 369.83,
@@ -8902,7 +8902,8 @@
    "relaxed_gate",
    "accel",
    "novel",
-   "rvol"
+   "rvol",
+   "spread"
   ],
   "alerted": false,
   "urgent": false,
@@ -8926,6 +8927,113 @@
    "low_float",
    "borrow_fee",
    "sec_strong"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-10|CMPS": {
+  "ts": "2026-11-10T21:07+00:00",
+  "ticker": "CMPS",
+  "score": 3,
+  "max_score": 3,
+  "price": 9.25,
+  "move_pct": 0.76,
+  "cap_m": 1310.0,
+  "blocked": [
+   "שווי $1310M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-10|UMAC": {
+  "ts": "2026-11-10T21:07+00:00",
+  "ticker": "UMAC",
+  "score": 4,
+  "max_score": 4,
+  "price": 12.65,
+  "move_pct": -6.16,
+  "cap_m": 654.09,
+  "blocked": [
+   "שווי $654M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel",
+   "low_float"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-10|QXO": {
+  "ts": "2026-11-10T21:07+00:00",
+  "ticker": "QXO",
+  "score": 3,
+  "max_score": 3,
+  "price": 13.7,
+  "move_pct": -0.58,
+  "cap_m": 14240.0,
+  "blocked": [
+   "שווי $14240M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-10|SEAT": {
+  "ts": "2026-11-10T21:07+00:00",
+  "ticker": "SEAT",
+  "score": 4,
+  "max_score": 4,
+  "price": 1.495,
+  "move_pct": -0.99,
+  "cap_m": 16.75,
+  "blocked": [],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "novel",
+   "short",
+   "low_float",
+   "sec_weak",
+   "pr_weak"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-10|DVLT": {
+  "ts": "2026-11-10T21:07+00:00",
+  "ticker": "DVLT",
+  "score": 4,
+  "max_score": 4,
+  "price": 0.0582,
+  "move_pct": 2.83,
+  "cap_m": 55.65,
+  "blocked": [],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "spread",
+   "novel",
+   "st_msgs",
+   "sec_weak"
   ],
   "alerted": false,
   "urgent": false,
