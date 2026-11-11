@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-10T21:07+00:00",
+ "ts": "2026-11-11T07:07+00:00",
  "reddit_ok": true,
  "stocktwits_trending": 30,
  "apewisdom_main": 300,
@@ -13,49 +13,44 @@
   "stocks",
   "wallstreetbets"
  ],
- "candidates": 13,
+ "candidates": 8,
  "telegram_groups": {
   "mode": "ok",
   "chats_ok": 14,
   "chats_failed": 0,
-  "messages": 395
+  "messages": 387
  },
  "x_weir": {
   "mode": "idle",
   "queried": 0,
   "credits": 0,
-  "month_credits": 1559,
+  "month_credits": 1669,
   "hits": 0,
   "note": "לא בחלון X"
  },
  "funnel": {
-  "buzz_tickers": 269,
-  "mention_gate": 22,
+  "buzz_tickers": 270,
+  "mention_gate": 21,
   "reddit_path": 0,
-  "telegram_path": 0,
+  "telegram_path": 1,
   "news_path": 0,
-  "skipped_large_cache": 33,
-  "shadow_gate": 24,
-  "to_check": 13,
-  "checked": 13,
+  "skipped_large_cache": 28,
+  "shadow_gate": 14,
+  "to_check": 8,
+  "checked": 8,
   "not_checked_time": 0,
   "blocked": {
-   "כבר": 1,
-   "אין": 1,
-   "שווי": 5,
+   "כבר": 2,
+   "איחוד": 1,
+   "שווי": 1,
    "דיווח": 1
   },
-  "below_score": 2,
+  "below_score": 1,
   "cooldown": 2,
-  "shadow_would_alert": 2,
+  "shadow_would_alert": 1,
   "sent": 0,
   "send_failed": 0
  },
  "not_checked": [],
- "errors": [
-  "HTTP 404 https://query1.finance.yahoo.com/v8/finance/chart/TTM",
-  "HTTP 404 https://finviz.com/quote.ashx?t=TTM&p=d",
-  "HTTP 404 https://stockanalysis.com/stocks/ttm/statistics/",
-  "no fundamentals for TTM"
- ]
+ "errors": []
 }

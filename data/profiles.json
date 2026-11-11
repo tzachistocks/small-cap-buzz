@@ -348,5 +348,12 @@
   "asia": null,
   "sic": "Services-Business Services, NEC",
   "ts": "2026-11-10T21:08+00:00"
+ },
+ "HKD": {
+  "country": "I0",
+  "inc": "E9",
+  "asia": null,
+  "sic": "Finance Services",
+  "ts": "2026-11-11T07:08+00:00"
  }
 }

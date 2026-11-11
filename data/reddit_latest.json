@@ -1,100 +1,68 @@
 {
- "ts": "2026-11-10T21:07+00:00",
+ "ts": "2026-11-11T07:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
-  "AMC": {
-   "m6": 3,
-   "m24": 3,
+  "SHOE": {
+   "m6": 6,
+   "m24": 6,
    "authors6": 2,
    "authors24": 2,
    "subs6": [
-    "smallstreetbets"
+    "Shortsqueeze"
    ],
    "subs24": [
-    "smallstreetbets"
+    "Shortsqueeze"
    ],
-   "first_utc": "2026-11-10T20:34+00:00",
-   "sample": "r/smallstreetbets: AMC Gainss 🧟‍♂️"
+   "first_utc": "2026-11-11T03:10+00:00",
+   "sample": "r/Shortsqueeze: Let's get the $SHOE squeeze going"
   },
-  "SLS": {
+  "CSCO": {
    "m6": 3,
    "m24": 3,
    "authors6": 3,
    "authors24": 3,
    "subs6": [
-    "Shortsqueeze"
+    "smallstreetbets"
    ],
    "subs24": [
-    "Shortsqueeze"
+    "smallstreetbets"
    ],
-   "first_utc": "2026-11-10T20:07+00:00",
-   "sample": "r/Shortsqueeze: SLS to the Moon or to the Ground - Major move coming"
+   "first_utc": "2026-11-11T06:08+00:00",
+   "sample": "r/smallstreetbets: CSCO will probably drop 50% or more after Earnings"
   },
-  "SEGG": {
+  "HPE": {
    "m6": 2,
    "m24": 2,
    "authors6": 2,
    "authors24": 2,
    "subs6": [
-    "pennystocks"
+    "smallstreetbets"
    ],
    "subs24": [
-    "pennystocks"
+    "smallstreetbets"
    ],
-   "first_utc": "2026-11-10T15:52+00:00",
-   "sample": "r/pennystocks: SEGG Media Q2 1,584% Revenue Increase"
-  },
-  "DVLT": {
-   "m6": 2,
-   "m24": 2,
-   "authors6": 2,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-10T15:24+00:00",
-   "sample": "r/pennystocks: DVLT and RZLV The Un-dynamic Duo"
-  },
-  "RZLV": {
-   "m6": 2,
-   "m24": 2,
-   "authors6": 2,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-10T15:24+00:00",
-   "sample": "r/pennystocks: DVLT and RZLV The Un-dynamic Duo"
+   "first_utc": "2026-11-11T06:08+00:00",
+   "sample": "r/smallstreetbets: CSCO will probably drop 50% or more after Earnings"
   },
   "NOV": {
-   "m6": 2,
+   "m6": 0,
    "m24": 2,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
    "first_utc": "2026-11-10T15:12+00:00",
    "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
   },
-  "CISS": {
-   "m6": 1,
+  "MI": {
+   "m6": 0,
    "m24": 2,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks",
     "smallstreetbets"
@@ -102,28 +70,12 @@
    "first_utc": "2026-11-10T14:24+00:00",
    "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
-  "AMIX": {
-   "m6": 2,
+  "CISS": {
+   "m6": 0,
    "m24": 2,
-   "authors6": 2,
+   "authors6": 0,
    "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-10T15:12+00:00",
-   "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-  },
-  "MI": {
-   "m6": 1,
-   "m24": 2,
-   "authors6": 1,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks",
     "smallstreetbets"
@@ -137,37 +89,107 @@
    "authors6": 1,
    "authors24": 2,
    "subs6": [
-    "pennystocks"
+    "Shortsqueeze"
    ],
    "subs24": [
-    "pennystocks",
+    "Shortsqueeze",
     "smallstreetbets"
    ],
    "first_utc": "2026-11-10T14:24+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
-  "HMR": {
-   "m6": 2,
-   "m24": 2,
-   "authors6": 2,
-   "authors24": 2,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-10T20:15+00:00",
-   "sample": ""
-  },
-  "RKLB": {
+  "FCF": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
    "authors24": 1,
    "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-11T03:10+00:00",
+   "sample": "r/Shortsqueeze: Let's get the $SHOE squeeze going"
+  },
+  "GME": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T22:43+00:00",
+   "sample": "r/pennystocks: Why We Should Launch a $10M Tender Offer to Seize INHD’s $33M Cash Hoard. Yes, I'm 14. Yes"
+  },
+  "INHD": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T22:43+00:00",
+   "sample": "r/pennystocks: Why We Should Launch a $10M Tender Offer to Seize INHD’s $33M Cash Hoard. Yes, I'm 14. Yes"
+  },
+  "NET": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T22:43+00:00",
+   "sample": "r/pennystocks: Why We Should Launch a $10M Tender Offer to Seize INHD’s $33M Cash Hoard. Yes, I'm 14. Yes"
+  },
+  "OPEN": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
     "smallstreetbets"
    ],
+   "first_utc": "2026-11-10T21:36+00:00",
+   "sample": "r/smallstreetbets: $OPEN - i averaged down heavily in this area and will be holding this for a while."
+  },
+  "GOAI": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T21:32+00:00",
+   "sample": "r/pennystocks: Eva Live raised up to $1.88 Million on a 12% secured convertible note, reading the cash li"
+  },
+  "AMC": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-10T20:34+00:00",
+   "sample": "r/smallstreetbets: AMC Gainss 🧟‍♂️"
+  },
+  "RKLB": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
    "subs24": [
     "smallstreetbets"
    ],
@@ -175,13 +197,23 @@
    "sample": "r/smallstreetbets: Check it yo!"
   },
   "MRNA": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
+   "subs6": [],
+   "subs24": [
     "Shortsqueeze"
    ],
+   "first_utc": "2026-11-10T20:07+00:00",
+   "sample": "r/Shortsqueeze: SLS to the Moon or to the Ground - Major move coming"
+  },
+  "SLS": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
    "subs24": [
     "Shortsqueeze"
    ],
@@ -189,27 +221,71 @@
    "sample": "r/Shortsqueeze: SLS to the Moon or to the Ground - Major move coming"
   },
   "CR": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "Shortsqueeze"
-   ],
+   "subs6": [],
    "subs24": [
     "Shortsqueeze"
    ],
    "first_utc": "2026-11-10T20:07+00:00",
    "sample": "r/Shortsqueeze: SLS to the Moon or to the Ground - Major move coming"
   },
-  "CYPH": {
-   "m6": 1,
+  "SEGG": {
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
+   "subs6": [],
+   "subs24": [
     "pennystocks"
    ],
+   "first_utc": "2026-11-10T15:52+00:00",
+   "sample": "r/pennystocks: SEGG Media Q2 1,584% Revenue Increase"
+  },
+  "DVLT": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T15:24+00:00",
+   "sample": "r/pennystocks: DVLT and RZLV The Un-dynamic Duo"
+  },
+  "RZLV": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T15:24+00:00",
+   "sample": "r/pennystocks: DVLT and RZLV The Un-dynamic Duo"
+  },
+  "NCT": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T15:14+00:00",
+   "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
+  },
+  "CYPH": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
@@ -217,69 +293,35 @@
    "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
   },
   "RUBI": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
    "first_utc": "2026-11-10T15:14+00:00",
    "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
-  },
-  "NCT": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-10T15:14+00:00",
-   "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY"
-  },
-  "BW": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-10T15:12+00:00",
-   "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
-  },
-  "CODX": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-10T15:12+00:00",
-   "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
   "KLTR": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
+   "subs6": [],
+   "subs24": [
     "pennystocks"
    ],
+   "first_utc": "2026-11-10T15:12+00:00",
+   "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "BW": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
@@ -287,13 +329,23 @@
    "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
   "WF": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
+   "subs6": [],
+   "subs24": [
     "pennystocks"
    ],
+   "first_utc": "2026-11-10T15:12+00:00",
+   "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "CODX": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
@@ -301,13 +353,23 @@
    "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
   "WFF": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
+   "subs6": [],
+   "subs24": [
     "pennystocks"
    ],
+   "first_utc": "2026-11-10T15:12+00:00",
+   "sample": "r/pennystocks: 10 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "AMIX": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
@@ -350,193 +412,77 @@
    "first_utc": "2026-11-10T09:25+00:00",
    "sample": "r/pennystocks: Vivid $SEAT is primed for seasonal reversal. Here's why :"
   },
-  "BB": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-10T04:54+00:00",
-   "sample": "r/smallstreetbets: BB call. What are my odds?"
-  },
-  "SMOFF": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-10T03:32+00:00",
-   "sample": "r/pennystocks: Gold Price Rebound Coming? Time for a Diversified Portfolio of Gold Miners?$SMOFF, $SCTSF,"
-  },
-  "GORO": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-10T03:32+00:00",
-   "sample": "r/pennystocks: Gold Price Rebound Coming? Time for a Diversified Portfolio of Gold Miners?$SMOFF, $SCTSF,"
-  },
-  "EQX": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-10T03:32+00:00",
-   "sample": "r/pennystocks: Gold Price Rebound Coming? Time for a Diversified Portfolio of Gold Miners?$SMOFF, $SCTSF,"
-  },
-  "SGA": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-10T03:32+00:00",
-   "sample": "r/pennystocks: Gold Price Rebound Coming? Time for a Diversified Portfolio of Gold Miners?$SMOFF, $SCTSF,"
-  },
-  "BTG": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-10T03:32+00:00",
-   "sample": "r/pennystocks: Gold Price Rebound Coming? Time for a Diversified Portfolio of Gold Miners?$SMOFF, $SCTSF,"
-  },
-  "SCTSF": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-10T03:32+00:00",
-   "sample": "r/pennystocks: Gold Price Rebound Coming? Time for a Diversified Portfolio of Gold Miners?$SMOFF, $SCTSF,"
-  },
-  "BLGO": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-10T02:51+00:00",
-   "sample": "r/pennystocks: BioLargo Targets Growing Industrial PFAS Market with MasterClass at International Water Co"
-  },
-  "AEC": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-10T02:51+00:00",
-   "sample": "r/pennystocks: BioLargo Targets Growing Industrial PFAS Market with MasterClass at International Water Co"
-  },
-  "PCT": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-10T00:49+00:00",
-   "sample": "r/smallstreetbets: PCT - 65.26M shares short (1/3 of the float) with a 10 DTC"
-  },
-  "UK": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-09T23:48+00:00",
-   "sample": "r/smallstreetbets: Should I Continue Swing Trading or Focus on Long-Term Investing at 21?"
-  },
-  "MCD": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-09T22:29+00:00",
-   "sample": "r/smallstreetbets: I think it's time to rebalance my portfolioI should buy some NVIDIA stock"
-  },
-  "STAK": {
+  "BURU": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
    "authors24": 1,
    "subs6": [
-    "pennystocks"
+    "Shortsqueeze"
    ],
    "subs24": [
-    "pennystocks"
+    "Shortsqueeze"
    ],
-   "first_utc": "2026-11-10T21:07+00:00",
+   "first_utc": "2026-11-11T06:04+00:00",
    "sample": ""
   },
-  "OMH": {
+  "AKAN": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
    "authors24": 1,
    "subs6": [
-    "pennystocks"
+    "Shortsqueeze"
    ],
    "subs24": [
-    "pennystocks"
+    "Shortsqueeze"
    ],
-   "first_utc": "2026-11-10T20:43+00:00",
+   "first_utc": "2026-11-11T04:44+00:00",
    "sample": ""
   },
-  "SHFS": {
+  "BNAI": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
    "authors24": 1,
    "subs6": [
-    "pennystocks"
+    "Shortsqueeze"
    ],
    "subs24": [
-    "pennystocks"
+    "Shortsqueeze"
    ],
-   "first_utc": "2026-11-10T20:42+00:00",
+   "first_utc": "2026-11-11T04:44+00:00",
    "sample": ""
   },
-  "MOMO": {
+  "XXII": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-11T04:44+00:00",
+   "sample": ""
+  },
+  "SDEV": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-11T04:16+00:00",
+   "sample": ""
+  },
+  "RTX": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -547,49 +493,7 @@
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-11-10T20:40+00:00",
-   "sample": ""
-  },
-  "BMGL": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-10T20:36+00:00",
-   "sample": ""
-  },
-  "STUB": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-10T20:31+00:00",
-   "sample": ""
-  },
-  "ARR": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-10T20:28+00:00",
+   "first_utc": "2026-11-11T04:06+00:00",
    "sample": ""
   },
   "HTZ": {
@@ -598,15 +502,15 @@
    "authors6": 1,
    "authors24": 1,
    "subs6": [
-    "smallstreetbets"
+    "Shortsqueeze"
    ],
    "subs24": [
-    "smallstreetbets"
+    "Shortsqueeze"
    ],
-   "first_utc": "2026-11-10T20:06+00:00",
+   "first_utc": "2026-11-11T04:02+00:00",
    "sample": ""
   },
-  "TV": {
+  "AZZ": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -617,21 +521,7 @@
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-11-10T20:05+00:00",
-   "sample": ""
-  },
-  "PEPG": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-10T19:54+00:00",
+   "first_utc": "2026-11-11T03:49+00:00",
    "sample": ""
   }
  },
