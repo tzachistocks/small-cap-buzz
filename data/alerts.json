@@ -1861,12 +1861,13 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 4,
-   "last_close": 0.9089999794960022,
-   "last_pct": 9.1,
-   "max_close_pct": 13.7,
-   "max_high_pct": 16.2,
-   "d1_pct": 0.6
+   "days": 5,
+   "last_close": 1.0,
+   "last_pct": 20.1,
+   "max_close_pct": 20.1,
+   "max_high_pct": 23.7,
+   "d1_pct": 0.6,
+   "final": true
   },
   "followups": {}
  },
@@ -1989,12 +1990,13 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 4,
-   "last_close": 2.4600000381469727,
-   "last_pct": -16.9,
+   "days": 5,
+   "last_close": 2.549999952316284,
+   "last_pct": -13.9,
    "max_close_pct": -3.4,
    "max_high_pct": 5.4,
-   "d1_pct": -3.4
+   "d1_pct": -3.4,
+   "final": true
   },
   "followups": {}
  },
@@ -2128,12 +2130,13 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 4,
-   "last_close": 0.2619999945163727,
-   "last_pct": -14.7,
+   "days": 5,
+   "last_close": 0.27799999713897705,
+   "last_pct": -9.4,
    "max_close_pct": 5.9,
    "max_high_pct": 17.3,
-   "d1_pct": 0.3
+   "d1_pct": 0.3,
+   "final": true
   },
   "followups": {}
  },
@@ -2263,12 +2266,13 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 4,
-   "last_close": 4.460000038146973,
-   "last_pct": 1.4,
+   "days": 5,
+   "last_close": 4.3572998046875,
+   "last_pct": -1.0,
    "max_close_pct": 3.9,
    "max_high_pct": 11.8,
-   "d1_pct": -1.1
+   "d1_pct": -1.1,
+   "final": true
   },
   "followups": {}
  },
@@ -2373,12 +2377,13 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 4,
-   "last_close": 8.229999542236328,
-   "last_pct": -2.3,
+   "days": 5,
+   "last_close": 8.069999694824219,
+   "last_pct": -4.2,
    "max_close_pct": -0.5,
    "max_high_pct": 3.7,
-   "d1_pct": -1.2
+   "d1_pct": -1.2,
+   "final": true
   },
   "followups": {}
  },
@@ -2481,12 +2486,13 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 4,
-   "last_close": 3.299999952316284,
-   "last_pct": 13.0,
-   "max_close_pct": 13.0,
-   "max_high_pct": 17.3,
-   "d1_pct": 0.0
+   "days": 5,
+   "last_close": 3.3701000213623047,
+   "last_pct": 15.4,
+   "max_close_pct": 15.4,
+   "max_high_pct": 17.5,
+   "d1_pct": 0.0,
+   "final": true
   },
   "followups": {}
  },
@@ -2610,12 +2616,13 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 4,
-   "last_close": 2.4600000381469727,
-   "last_pct": -13.4,
+   "days": 5,
+   "last_close": 2.549999952316284,
+   "last_pct": -10.2,
    "max_close_pct": 0.7,
    "max_high_pct": 9.9,
-   "d1_pct": 0.7
+   "d1_pct": 0.7,
+   "final": true
   },
   "followups": {}
  },
@@ -2727,9 +2734,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 3,
-   "last_close": 0.6299999952316284,
-   "last_pct": -5.8,
+   "days": 4,
+   "last_close": 0.628000020980835,
+   "last_pct": -6.1,
    "max_close_pct": 4.7,
    "max_high_pct": 4.7,
    "d1_pct": -5.8
@@ -2834,9 +2841,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 3,
-   "last_close": 6.349999904632568,
-   "last_pct": -9.2,
+   "days": 4,
+   "last_close": 6.331299781799316,
+   "last_pct": -9.4,
    "max_close_pct": -2.3,
    "max_high_pct": -0.0,
    "d1_pct": -2.3
@@ -2939,9 +2946,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 3,
-   "last_close": 1.649999976158142,
-   "last_pct": 12.2,
+   "days": 4,
+   "last_close": 1.6100000143051147,
+   "last_pct": 9.5,
    "max_close_pct": 12.2,
    "max_high_pct": 12.9,
    "d1_pct": 3.4
@@ -3054,11 +3061,11 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 3,
-   "last_close": 3.299999952316284,
-   "last_pct": 13.0,
-   "max_close_pct": 13.0,
-   "max_high_pct": 17.3,
+   "days": 4,
+   "last_close": 3.3701000213623047,
+   "last_pct": 15.4,
+   "max_close_pct": 15.4,
+   "max_high_pct": 17.5,
    "d1_pct": 6.2
   },
   "followups": {}
@@ -3183,9 +3190,9 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 3,
-   "last_close": 0.2619999945163727,
-   "last_pct": -15.0,
+   "days": 4,
+   "last_close": 0.27799999713897705,
+   "last_pct": -9.8,
    "max_close_pct": 5.5,
    "max_high_pct": 11.3,
    "d1_pct": 5.5
@@ -3316,11 +3323,11 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 3,
-   "last_close": 4.380000114440918,
-   "last_pct": 6.3,
+   "days": 4,
+   "last_close": 4.21999979019165,
+   "last_pct": 2.4,
    "max_close_pct": 6.3,
-   "max_high_pct": 8.3,
+   "max_high_pct": 9.0,
    "d1_pct": 0.2
   },
   "followups": {}
@@ -3419,10 +3426,10 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 3,
-   "last_close": 2.7899999618530273,
-   "last_pct": 3.0,
-   "max_close_pct": 5.9,
+   "days": 4,
+   "last_close": 2.8949999809265137,
+   "last_pct": 6.8,
+   "max_close_pct": 6.8,
    "max_high_pct": 8.5,
    "d1_pct": 2.2
   },
@@ -3539,11 +3546,11 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 2,
-   "last_close": 2.9200000762939453,
-   "last_pct": 8.6,
+   "days": 3,
+   "last_close": 2.8949999809265137,
+   "last_pct": 7.6,
    "max_close_pct": 8.6,
-   "max_high_pct": 8.6,
+   "max_high_pct": 10.8,
    "d1_pct": 1.1
   },
   "followups": {}
@@ -3662,11 +3669,11 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 2,
-   "last_close": 4.380000114440918,
-   "last_pct": 6.1,
+   "days": 3,
+   "last_close": 4.21999979019165,
+   "last_pct": 2.2,
    "max_close_pct": 6.1,
-   "max_high_pct": 8.0,
+   "max_high_pct": 8.7,
    "d1_pct": 5.3
   },
   "followups": {}
@@ -3788,10 +3795,10 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 1,
-   "last_close": 0.2619999945163727,
-   "last_pct": -0.2,
-   "max_close_pct": -0.2,
+   "days": 2,
+   "last_close": 0.27799999713897705,
+   "last_pct": 5.9,
+   "max_close_pct": 5.9,
    "max_high_pct": 20.0,
    "d1_pct": -0.2
   },
@@ -3902,11 +3909,11 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 1,
-   "last_close": 3.299999952316284,
-   "last_pct": 3.8,
-   "max_close_pct": 3.8,
-   "max_high_pct": 7.7,
+   "days": 2,
+   "last_close": 3.3701000213623047,
+   "last_pct": 6.0,
+   "max_close_pct": 6.0,
+   "max_high_pct": 7.9,
    "d1_pct": 3.8
   },
   "followups": {}
@@ -4036,11 +4043,11 @@
   "path": "buzz",
   "telegram_sent": true,
   "outcome": {
-   "days": 1,
-   "last_close": 0.2199999988079071,
-   "last_pct": -0.3,
-   "max_close_pct": -0.3,
-   "max_high_pct": 10.6,
+   "days": 2,
+   "last_close": 0.2791000008583069,
+   "last_pct": 26.5,
+   "max_close_pct": 26.5,
+   "max_high_pct": 41.3,
    "d1_pct": -0.3
   },
   "followups": {}
@@ -4170,7 +4177,14 @@
   "urgent_why": [],
   "path": "buzz",
   "telegram_sent": true,
-  "outcome": {},
+  "outcome": {
+   "days": 1,
+   "last_close": 0.05820000171661377,
+   "last_pct": -2.3,
+   "max_close_pct": -2.3,
+   "max_high_pct": 5.5,
+   "d1_pct": -2.3
+  },
   "followups": {}
  },
  {
@@ -4273,7 +4287,14 @@
   "urgent_why": [],
   "path": "news",
   "telegram_sent": true,
-  "outcome": {},
+  "outcome": {
+   "days": 1,
+   "last_close": 4.389999866485596,
+   "last_pct": 1.6,
+   "max_close_pct": 1.6,
+   "max_high_pct": 1.9,
+   "d1_pct": 1.6
+  },
   "followups": {}
  },
  {
@@ -4387,6 +4408,140 @@
   "urgent_why": [],
   "path": "buzz",
   "telegram_sent": true,
-  "outcome": {}
+  "outcome": {
+   "days": 1,
+   "last_close": 3.3701000213623047,
+   "last_pct": 2.1,
+   "max_close_pct": 2.1,
+   "max_high_pct": 3.9,
+   "d1_pct": 2.1
+  },
+  "followups": {}
+ },
+ {
+  "id": "202611111708-CAAS",
+  "ts": "2026-11-11T17:08+00:00",
+  "ticker": "CAAS",
+  "score": 4,
+  "why": [
+   "📰 נכנסה דרך ידיעה: China Automotive Systems Reports Record Third Quarter 2026 EPS Sales; ",
+   "X רגיל: 2+ פוסטים מ-1 כותבים, 0 לייקים ב-24ש (2 ב-6ש)",
+   "פלואט 10.6M",
+   "נפח פי 4.2 מהממוצע",
+   "PR חזק (06:00 ET 11/11): China Automotive Systems Reports Record Third Quarter 2026 EPS Sales;  | $5.0M ≈ 4% מהשווי"
+  ],
+  "price": {
+   "price": 4.39,
+   "prev_close": 4.11,
+   "move_pct": 6.81,
+   "vol_today": 49109,
+   "avg_vol20": 11730,
+   "rel_vol": 4.19,
+   "exchange": "NCM",
+   "name": "China Automotive Systems, Inc.",
+   "readiness": {
+    "points": 0,
+    "why": [],
+    "risk": [],
+    "asof": "2026-11-10",
+    "f": {
+     "rvol_1": 0.905,
+     "atr_ratio": 1.0192,
+     "drawdown_60": -0.2713,
+     "vol20": 0.0145,
+     "prior_runs_120": 0.0,
+     "ret_1d": -0.0096,
+     "ret_3d": -0.0048,
+     "ret_10d": -0.068,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.8954
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 134.56,
+   "float_m": 10.63,
+   "short_float_pct": 0.3,
+   "days_to_cover": 1.13,
+   "src": "finviz"
+  },
+  "m_now": 0,
+  "m_24h_ago": 0,
+  "spread": [],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 5,
+   "users": 16,
+   "bull": 3,
+   "bear": 0,
+   "oldest_min": 89500,
+   "watchlist": 2524
+  },
+  "borrow": {
+   "fee": 1.2972,
+   "available": 750000,
+   "fee_5d": null,
+   "available_5d": null
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "chats6": 1,
+   "chats24": 1,
+   "first_utc": "2026-11-11T16:33+00:00"
+  },
+  "x": {
+   "posts": 2,
+   "posts6": 2,
+   "authors": 1,
+   "likes": 0,
+   "ts": "2026-11-11T17:08+00:00",
+   "full": true
+  },
+  "profile": {
+   "country": "",
+   "inc": "E9",
+   "asia": null,
+   "sic": "Motor Vehicle Parts & Accessories",
+   "ts": "2026-11-11T11:08+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [],
+   "filings": [],
+   "rsplit": null,
+   "cik": 2037400
+  },
+  "forum": {
+   "rising": null,
+   "novel": null
+  },
+  "invalidation": 4.11,
+  "news": {
+   "ticker": "CAAS",
+   "title": "China Automotive Systems Reports Record Third Quarter 2026 EPS Sales; Board Approves $5 Million Share Repurchase Program",
+   "src": "PR Newswire",
+   "ts": "2026-11-11T11:00+00:00",
+   "class": "strong",
+   "rule": "Share Repurchase",
+   "offering": false,
+   "amount_m": 5.0
+  },
+  "urgent": false,
+  "urgent_why": [],
+  "path": "news",
+  "telegram_sent": true,
+  "outcome": {
+   "days": 1,
+   "last_close": 4.389999866485596,
+   "last_pct": -0.0,
+   "max_close_pct": -0.0,
+   "max_high_pct": 0.2,
+   "d1_pct": -0.0
+  }
  }
 ]

@@ -1,9 +1,9 @@
 {
  "month": "2026-11",
- "month_credits": 1669,
+ "month_credits": 1774,
  "exhausted": false,
  "day": "2026-11-11",
- "day_credits": 0,
+ "day_credits": 105,
  "done": [
   "2026-11-02T12",
   "2026-11-02T17",
@@ -17,7 +17,8 @@
   "2026-11-06T17",
   "2026-11-09T12",
   "2026-11-09T17",
-  "2026-11-10T17"
+  "2026-11-10T17",
+  "2026-11-11T17"
  ],
  "tickers": {
   "TIL": {
@@ -109,11 +110,11 @@
    "full": true
   },
   "HKD": {
-   "posts": 0,
-   "posts6": 0,
-   "authors": 0,
+   "posts": 1,
+   "posts6": 1,
+   "authors": 1,
    "likes": 0,
-   "ts": "2026-11-10T17:07+00:00",
+   "ts": "2026-11-11T17:08+00:00",
    "full": true
   },
   "INR": {
@@ -121,7 +122,7 @@
    "posts6": 0,
    "authors": 0,
    "likes": 0,
-   "ts": "2026-11-10T17:07+00:00",
+   "ts": "2026-11-11T17:08+00:00",
    "full": true
   },
   "RM": {
@@ -129,7 +130,7 @@
    "posts6": 0,
    "authors": 0,
    "likes": 0,
-   "ts": "2026-11-10T17:07+00:00",
+   "ts": "2026-11-11T17:08+00:00",
    "full": true
   },
   "VIP": {
@@ -139,14 +140,59 @@
    "likes": 0,
    "ts": "2026-11-10T17:07+00:00",
    "full": true
+  },
+  "CAAS": {
+   "posts": 2,
+   "posts6": 2,
+   "authors": 1,
+   "likes": 0,
+   "ts": "2026-11-11T17:08+00:00",
+   "full": true
+  },
+  "DVLT": {
+   "posts": 4,
+   "posts6": 4,
+   "authors": 3,
+   "likes": 1,
+   "ts": "2026-11-11T17:08+00:00",
+   "full": false
+  },
+  "IDR": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-11T17:08+00:00",
+   "full": true
+  },
+  "STIM": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-11T17:08+00:00",
+   "full": true
+  },
+  "GEVO": {
+   "posts": 10,
+   "posts6": 10,
+   "authors": 2,
+   "likes": 0,
+   "ts": "2026-11-11T17:08+00:00",
+   "full": true
   }
  },
  "discovery": {
-  "day": "2026-11-10",
+  "day": "2026-11-11",
   "tickers": {
-   "OPEN": 1,
-   "HIMS": 1
+   "MIHAO": 1,
+   "BATON": 1,
+   "PUMP": 1,
+   "GME": 1,
+   "SPOT": 1,
+   "QQQ": 1,
+   "HTZ": 1
   }
  },
- "discovery_day": "2026-11-10"
+ "discovery_day": "2026-11-11"
 }

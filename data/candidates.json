@@ -9130,7 +9130,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-11",
+   "days": 2,
+   "last_pct": 0.5,
+   "max_close_pct": 0.5,
+   "max_high_pct": 1.3
+  }
  },
  "2026-11-10|SEAT": {
   "ts": "2026-11-10T21:07+00:00",
@@ -9152,7 +9158,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-11",
+   "days": 2,
+   "last_pct": -1.7,
+   "max_close_pct": -0.3,
+   "max_high_pct": 7.0
+  }
  },
  "2026-11-10|DVLT": {
   "ts": "2026-11-10T21:07+00:00",
@@ -9173,7 +9185,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-11",
+   "days": 2,
+   "last_pct": 0.0,
+   "max_close_pct": 3.1,
+   "max_high_pct": 8.1
+  }
  },
  "2026-11-11|PEPG": {
   "ts": "2026-11-11T07:07+00:00",
@@ -9299,7 +9317,8 @@
    "st_msgs",
    "sec_weak",
    "spread",
-   "rising"
+   "rising",
+   "x_buzz"
   ],
   "alerted": true,
   "urgent": false,
@@ -9343,6 +9362,94 @@
    "short",
    "low_float",
    "word"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-11|CAAS": {
+  "ts": "2026-11-11T17:08+00:00",
+  "ticker": "CAAS",
+  "score": 4,
+  "max_score": 4,
+  "price": 4.39,
+  "move_pct": 6.81,
+  "cap_m": 134.56,
+  "blocked": [],
+  "tags": [
+   "news_path",
+   "x_weak",
+   "low_float",
+   "rvol",
+   "pr_strong"
+  ],
+  "alerted": true,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-11|BKV": {
+  "ts": "2026-11-11T17:08+00:00",
+  "ticker": "BKV",
+  "score": 5,
+  "max_score": 5,
+  "price": 19.355,
+  "move_pct": 2.08,
+  "cap_m": 2090.0,
+  "blocked": [
+   "שווי $2090M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel",
+   "short",
+   "low_float"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-11|CIFR": {
+  "ts": "2026-11-11T17:08+00:00",
+  "ticker": "CIFR",
+  "score": 3,
+  "max_score": 3,
+  "price": 7.185,
+  "move_pct": 10.03,
+  "cap_m": 3270.0,
+  "blocked": [
+   "שווי $3270M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "novel",
+   "short"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-11|NXXT": {
+  "ts": "2026-11-11T17:08+00:00",
+  "ticker": "NXXT",
+  "score": 5,
+  "max_score": 5,
+  "price": 2.8,
+  "move_pct": 1401.34,
+  "cap_m": 4.65,
+  "blocked": [
+   "כבר זזה +1401%"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "spread",
+   "novel",
+   "short",
+   "rvol",
+   "rsplit"
   ],
   "alerted": false,
   "urgent": false,
