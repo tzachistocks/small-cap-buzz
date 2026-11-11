@@ -4044,5 +4044,132 @@
    "d1_pct": -0.3
   },
   "followups": {}
+ },
+ {
+  "id": "202611111057-DVLT",
+  "ts": "2026-11-11T10:57+00:00",
+  "ticker": "DVLT",
+  "score": 5,
+  "why": [
+   "האצה x2.5",
+   "פיזור ב-2 פורומים",
+   "שיח עולה 3 ימים ברציפות (0→2→3)",
+   "חדשה בשיח (לא דוברה 14 יום)",
+   "13 הודעות בסטוקטוויטס ב-6 שעות",
+   "SEC רגיל: 8-K 5.02 (שינוי בהנהלה) (2026-11-09)"
+  ],
+  "price": {
+   "price": 0.0596,
+   "prev_close": 0.0566,
+   "move_pct": 5.3,
+   "vol_today": 38653200,
+   "avg_vol20": 70038415,
+   "rel_vol": 0.55,
+   "exchange": "NCM",
+   "name": "Datavault AI Inc.",
+   "readiness": {
+    "points": 3,
+    "why": [
+     "ירדה 85% משיא 60 יום",
+     "תנודתית (15% ביום)",
+     "מתחת ל-$1"
+    ],
+    "risk": [],
+    "asof": "2026-11-10",
+    "f": {
+     "rvol_1": 1.318,
+     "atr_ratio": 0.7742,
+     "drawdown_60": -0.85,
+     "vol20": 0.1516,
+     "prior_runs_120": 0.0,
+     "ret_1d": 0.0,
+     "ret_3d": 0.0,
+     "ret_10d": -0.1429,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.4
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 62.8,
+   "float_m": 661.98,
+   "short_float_pct": 15.5,
+   "days_to_cover": 1.82,
+   "src": "finviz"
+  },
+  "m_now": 3,
+  "m_24h_ago": 1,
+  "spread": [
+   "pennystocks"
+  ],
+  "reddit": {
+   "m6": 1,
+   "m24": 2,
+   "authors6": 1,
+   "authors24": 2,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-10T15:24+00:00",
+   "sample": "r/pennystocks: DVLT and RZLV The Un-dynamic Duo"
+  },
+  "stocktwits": {
+   "msgs_6h": 13,
+   "users": 18,
+   "bull": 19,
+   "bear": 1,
+   "oldest_min": 634,
+   "watchlist": 25198
+  },
+  "borrow": {
+   "fee": 3.4495,
+   "available": 10000000,
+   "fee_5d": null,
+   "available_5d": null
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "x": null,
+  "profile": {
+   "country": "OR",
+   "inc": "DE",
+   "asia": null,
+   "sic": "Services-Business Services, NEC",
+   "ts": "2026-11-10T21:08+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [
+    "8-K 2026-11-09"
+   ],
+   "filings": [
+    {
+     "class": "weak",
+     "label": "8-K 5.02 (שינוי בהנהלה)",
+     "date": "2026-11-09"
+    }
+   ],
+   "rsplit": null,
+   "cik": 1682149
+  },
+  "forum": {
+   "rising": [
+    0,
+    2,
+    3
+   ],
+   "novel": true
+  },
+  "invalidation": 0.0566,
+  "news": null,
+  "urgent": false,
+  "urgent_why": [],
+  "path": "buzz",
+  "telegram_sent": true,
+  "outcome": {}
  }
 ]
