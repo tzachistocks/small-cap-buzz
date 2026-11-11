@@ -9435,7 +9435,7 @@
   "ts": "2026-11-11T17:08+00:00",
   "ticker": "NXXT",
   "score": 5,
-  "max_score": 5,
+  "max_score": 7,
   "price": 2.8,
   "move_pct": 1401.34,
   "cap_m": 4.65,
@@ -9449,6 +9449,70 @@
    "novel",
    "short",
    "rvol",
+   "rsplit",
+   "vel3h"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-11|CD": {
+  "ts": "2026-11-11T21:07+00:00",
+  "ticker": "CD",
+  "score": 3,
+  "max_score": 3,
+  "price": 5.14,
+  "move_pct": -0.96,
+  "cap_m": 565.4,
+  "blocked": [
+   "שווי $565M"
+  ],
+  "tags": [
+   "vel3h",
+   "spread"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-11|TSCO": {
+  "ts": "2026-11-11T21:07+00:00",
+  "ticker": "TSCO",
+  "score": 3,
+  "max_score": 3,
+  "price": 36.75,
+  "move_pct": -2.0,
+  "cap_m": 19050.0,
+  "blocked": [
+   "שווי $19050M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-11|VIVK": {
+  "ts": "2026-11-11T21:07+00:00",
+  "ticker": "VIVK",
+  "score": 3,
+  "max_score": 3,
+  "price": 0.2411,
+  "move_pct": -17.71,
+  "cap_m": 0.4,
+  "blocked": [
+   "שווי $0.4M (נמוך מדי או נתון שגוי)"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "spread",
+   "low_float",
    "rsplit"
   ],
   "alerted": false,

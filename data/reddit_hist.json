@@ -10930,8 +10930,8 @@
    "sample": "r/pennystocks: Why We Should Launch a $10M Tender Offer to Seize INHD’s $33M Cash Hoard. Yes, I'm 14. Yes"
   },
   "INHD": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],
@@ -11197,12 +11197,14 @@
    "first_utc": "2026-11-11T04:06+00:00"
   },
   "HTZ": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 16,
+   "authors24_max": 10,
    "subs": [
-    "Shortsqueeze"
+    "Shortsqueeze",
+    "pennystocks"
    ],
-   "first_utc": "2026-11-11T04:02+00:00"
+   "first_utc": "2026-11-11T04:02+00:00",
+   "sample": "r/Shortsqueeze: Not trying to hype HTZ but brokerages want your shares for lending"
   },
   "AZZ": {
    "m24_max": 1,
@@ -11406,6 +11408,104 @@
     "pennystocks"
    ],
    "first_utc": "2026-11-11T15:26+00:00"
+  },
+  "DTE": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-11T19:20+00:00",
+   "sample": "r/smallstreetbets: 2 DTE 15k YOLO"
+  },
+  "NBIS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-11T19:20+00:00",
+   "sample": "r/smallstreetbets: 2 DTE 15k YOLO"
+  },
+  "DJT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-11T20:44+00:00"
+  },
+  "IPDN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-11T20:39+00:00"
+  },
+  "DYOR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-11T20:30+00:00"
+  },
+  "BOIL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-11T19:54+00:00"
+  },
+  "DH": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-11T19:53+00:00"
+  },
+  "MAN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-11T19:50+00:00"
+  },
+  "CAR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-11T19:27+00:00"
+  },
+  "SOS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-11T19:25+00:00"
+  },
+  "RKDA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-11T18:54+00:00"
+  },
+  "BYND": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-11T18:50+00:00"
   }
  }
 }
