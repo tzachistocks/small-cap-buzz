@@ -355,5 +355,12 @@
   "asia": null,
   "sic": "Finance Services",
   "ts": "2026-11-11T07:08+00:00"
+ },
+ "CAAS": {
+  "country": "",
+  "inc": "E9",
+  "asia": null,
+  "sic": "Motor Vehicle Parts & Accessories",
+  "ts": "2026-11-11T11:08+00:00"
  }
 }

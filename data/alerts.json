@@ -4170,6 +4170,109 @@
   "urgent_why": [],
   "path": "buzz",
   "telegram_sent": true,
+  "outcome": {},
+  "followups": {}
+ },
+ {
+  "id": "202611111107-CAAS",
+  "ts": "2026-11-11T11:07+00:00",
+  "ticker": "CAAS",
+  "score": 2,
+  "why": [
+   "📰 נכנסה דרך ידיעה: China Automotive Systems Reports Record Third Quarter 2026 EPS Sales; ",
+   "פלואט 10.6M",
+   "PR חזק (06:00 ET 11/11): China Automotive Systems Reports Record Third Quarter 2026 EPS Sales;  | $5.0M ≈ 4% מהשווי"
+  ],
+  "price": {
+   "price": 4.32,
+   "prev_close": 4.16,
+   "move_pct": 3.85,
+   "vol_today": 10000,
+   "avg_vol20": 11390,
+   "rel_vol": 0.88,
+   "exchange": "NCM",
+   "name": "China Automotive Systems, Inc.",
+   "readiness": {
+    "points": 0,
+    "why": [],
+    "risk": [],
+    "asof": "2026-11-10",
+    "f": {
+     "rvol_1": 0.905,
+     "atr_ratio": 1.0192,
+     "drawdown_60": -0.2713,
+     "vol20": 0.0145,
+     "prior_runs_120": 0.0,
+     "ret_1d": -0.0096,
+     "ret_3d": -0.0048,
+     "ret_10d": -0.068,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.8954
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 131.54,
+   "float_m": 10.63,
+   "short_float_pct": 0.3,
+   "days_to_cover": 1.13,
+   "src": "finviz"
+  },
+  "m_now": 0,
+  "m_24h_ago": 0,
+  "spread": [],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 1,
+   "users": 17,
+   "bull": 4,
+   "bear": 0,
+   "oldest_min": 103497,
+   "watchlist": 2525
+  },
+  "borrow": {
+   "fee": 1.3551,
+   "available": 750000,
+   "fee_5d": null,
+   "available_5d": null
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "x": null,
+  "profile": {
+   "country": "",
+   "inc": "E9",
+   "asia": null,
+   "sic": "Motor Vehicle Parts & Accessories",
+   "ts": "2026-11-11T11:08+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [],
+   "filings": [],
+   "rsplit": null,
+   "cik": 2037400
+  },
+  "forum": {
+   "rising": null,
+   "novel": null
+  },
+  "invalidation": 4.16,
+  "news": {
+   "ticker": "CAAS",
+   "title": "China Automotive Systems Reports Record Third Quarter 2026 EPS Sales; Board Approves $5 Million Share Repurchase Program",
+   "src": "PR Newswire",
+   "ts": "2026-11-11T11:00+00:00",
+   "class": "strong",
+   "rule": "Share Repurchase",
+   "offering": false,
+   "amount_m": 5.0
+  },
+  "urgent": false,
+  "urgent_why": [],
+  "path": "news",
+  "telegram_sent": true,
   "outcome": {}
  }
 ]
