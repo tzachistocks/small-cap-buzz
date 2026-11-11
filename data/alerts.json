@@ -4273,6 +4273,120 @@
   "urgent_why": [],
   "path": "news",
   "telegram_sent": true,
+  "outcome": {},
+  "followups": {}
+ },
+ {
+  "id": "202611111307-LINK",
+  "ts": "2026-11-11T13:07+00:00",
+  "ticker": "LINK",
+  "score": 5,
+  "why": [
+   "האצה x2.0",
+   "פיזור ב-5 פורומים",
+   "שיח עולה 3 ימים ברציפות (3→9→11)",
+   "פלואט 3.5M"
+  ],
+  "price": {
+   "price": 3.3,
+   "prev_close": 3.18,
+   "move_pct": 3.77,
+   "vol_today": 25500,
+   "avg_vol20": 22190,
+   "rel_vol": 1.15,
+   "exchange": "NCM",
+   "name": "Interlink Electronics, Inc.",
+   "readiness": {
+    "points": 0,
+    "why": [],
+    "risk": [],
+    "asof": "2026-11-10",
+    "f": {
+     "rvol_1": 1.1806,
+     "atr_ratio": 0.9491,
+     "drawdown_60": -0.4923,
+     "vol20": 0.0536,
+     "prior_runs_120": 0.0,
+     "ret_1d": 0.0377,
+     "ret_3d": 0.1301,
+     "ret_10d": -0.2199,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.6944
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 51.99,
+   "float_m": 3.54,
+   "short_float_pct": 0.71,
+   "days_to_cover": 0.81,
+   "src": "finviz"
+  },
+  "m_now": 10,
+  "m_24h_ago": 4,
+  "spread": [
+   "Shortsqueeze",
+   "WallStreetbetsELITE",
+   "Wallstreetbetsnew",
+   "stocks",
+   "wallstreetbets"
+  ],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 0,
+   "users": 25,
+   "bull": 5,
+   "bear": 1,
+   "oldest_min": 177023,
+   "watchlist": 1023
+  },
+  "borrow": {
+   "fee": 2.2064,
+   "available": 85000,
+   "fee_5d": 2.2351,
+   "available_5d": 35000
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "x": null,
+  "profile": {
+   "country": "CA",
+   "inc": "NV",
+   "asia": null,
+   "sic": "Computer Peripheral Equipment, NEC",
+   "ts": "2026-10-22T23:16+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [],
+   "filings": [],
+   "rsplit": null,
+   "cik": 828146
+  },
+  "forum": {
+   "rising": [
+    3,
+    9,
+    11
+   ],
+   "novel": false
+  },
+  "invalidation": 3.18,
+  "news": {
+   "ticker": "LINK",
+   "title": "Moody’s Tests Multichain Credit Rating Distribution Through Chainlink",
+   "src": "Yahoo",
+   "ts": "2026-11-10T19:49+00:00",
+   "class": "neutral",
+   "rule": "",
+   "offering": false,
+   "amount_m": null
+  },
+  "urgent": false,
+  "urgent_why": [],
+  "path": "buzz",
+  "telegram_sent": true,
   "outcome": {}
  }
 ]
