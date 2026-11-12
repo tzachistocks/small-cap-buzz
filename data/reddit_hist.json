@@ -11507,5 +11507,321 @@
    ],
    "first_utc": "2026-11-11T18:50+00:00"
   }
+ },
+ "2026-11-12": {
+  "NXXT": {
+   "m24_max": 4,
+   "authors24_max": 4,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-11T15:26+00:00",
+   "sample": "r/pennystocks: NXXT surged up to 4500% up today, and not a single soul posted or mentioned it"
+  },
+  "MB": {
+   "m24_max": 3,
+   "authors24_max": 3,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-12T02:43+00:00",
+   "sample": "r/smallstreetbets: \"I told ya\" -MB"
+  },
+  "INLF": {
+   "m24_max": 3,
+   "authors24_max": 3,
+   "subs": [
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-11T12:58+00:00",
+   "sample": "r/pennystocks: 11 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "NOV": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-11T15:24+00:00",
+   "sample": "r/pennystocks: 11 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
+  },
+  "STAK": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-11T14:27+00:00",
+   "sample": "r/pennystocks: 11 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
+  },
+  "YMAT": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-11T14:27+00:00",
+   "sample": "r/pennystocks: 11 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "AUUD": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-11T14:27+00:00",
+   "sample": "r/pennystocks: 11 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "WTF": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-12T04:08+00:00",
+   "sample": "r/smallstreetbets: Second affair involving CEO Jensen huang. WTF"
+  },
+  "HMR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T00:08+00:00",
+   "sample": "r/pennystocks: $HMR back on the 200 day at ~4x ex-cash. Same setup as last time, better numbers. Lifeline"
+  },
+  "DYOR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T00:08+00:00",
+   "sample": "r/pennystocks: $HMR back on the 200 day at ~4x ex-cash. Same setup as last time, better numbers. Lifeline"
+  },
+  "BP": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T00:08+00:00",
+   "sample": "r/pennystocks: $HMR back on the 200 day at ~4x ex-cash. Same setup as last time, better numbers. Lifeline"
+  },
+  "AX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T00:07+00:00",
+   "sample": "r/pennystocks: ANT - Not that big one: (ANT.CN) and (ANT.AX)"
+  },
+  "ZM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T00:07+00:00",
+   "sample": "r/pennystocks: ANT - Not that big one: (ANT.CN) and (ANT.AX)"
+  },
+  "PC": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-11T21:56+00:00",
+   "sample": "r/smallstreetbets: Bull Trap — I'm making a trading roguelite inspired by 1980s Wall Street"
+  },
+  "NBIS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-11T19:20+00:00",
+   "sample": "r/smallstreetbets: 2 DTE 15k YOLO"
+  },
+  "DTE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-11T19:20+00:00",
+   "sample": "r/smallstreetbets: 2 DTE 15k YOLO"
+  },
+  "HTZ": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-11T18:30+00:00",
+   "sample": "r/Shortsqueeze: Not trying to hype HTZ but brokerages want your shares for lending"
+  },
+  "OI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-11T16:28+00:00",
+   "sample": "r/smallstreetbets: Craziest OI I have ever seen 322,000 $NVDA 200c 1/15/27"
+  },
+  "RUBI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-11T15:26+00:00",
+   "sample": "r/pennystocks: 11 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
+  },
+  "VIVK": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-11T15:26+00:00",
+   "sample": "r/pennystocks: 11 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
+  },
+  "LWLG": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-11T15:26+00:00",
+   "sample": "r/pennystocks: 11 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
+  },
+  "STIM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-11T15:26+00:00",
+   "sample": "r/pennystocks: 11 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
+  },
+  "BMGL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-11T15:26+00:00",
+   "sample": "r/pennystocks: 11 NOV 2026 , WHAT ARE THE BIGGEST LOSERS AND WHY ?"
+  },
+  "RCT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-11T15:24+00:00",
+   "sample": "r/pennystocks: 11 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "SHFS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-11T15:24+00:00",
+   "sample": "r/pennystocks: 11 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "BURU": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-11T15:24+00:00",
+   "sample": "r/pennystocks: 11 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "HUHU": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-11T15:24+00:00",
+   "sample": "r/pennystocks: 11 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
+  },
+  "RKLB": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-11T14:37+00:00",
+   "sample": "r/pennystocks: Do you think RKLB has more room to run?"
+  },
+  "PARA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-11T14:30+00:00",
+   "sample": "r/pennystocks: Questions about this stock para"
+  },
+  "CRWV": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-11T11:13+00:00",
+   "sample": "r/smallstreetbets: Jim Cramer bullish on CRWV. You know what that means right?"
+  },
+  "IRS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-12T07:04+00:00"
+  },
+  "SOS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T06:59+00:00"
+  },
+  "ARBE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T06:39+00:00"
+  },
+  "CHE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T06:18+00:00"
+  },
+  "UGA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-12T06:04+00:00"
+  }
  }
 }

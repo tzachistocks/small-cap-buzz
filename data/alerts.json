@@ -2735,8 +2735,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 4,
-   "last_close": 0.582099974155426,
-   "last_pct": -13.0,
+   "last_close": 0.5799999833106995,
+   "last_pct": -13.3,
    "max_close_pct": 4.7,
    "max_high_pct": 4.7,
    "d1_pct": -5.8
@@ -2947,8 +2947,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 4,
-   "last_close": 1.600000023841858,
-   "last_pct": 8.8,
+   "last_close": 1.5800000429153442,
+   "last_pct": 7.5,
    "max_close_pct": 12.2,
    "max_high_pct": 12.9,
    "d1_pct": 3.4
@@ -3324,8 +3324,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 4,
-   "last_close": 3.990000009536743,
-   "last_pct": -3.2,
+   "last_close": 4.03000020980835,
+   "last_pct": -2.2,
    "max_close_pct": 6.3,
    "max_high_pct": 9.0,
    "d1_pct": 0.2
@@ -3547,9 +3547,9 @@
   "telegram_sent": true,
   "outcome": {
    "days": 3,
-   "last_close": 2.944999933242798,
-   "last_pct": 9.5,
-   "max_close_pct": 9.5,
+   "last_close": 2.950000047683716,
+   "last_pct": 9.7,
+   "max_close_pct": 9.7,
    "max_high_pct": 10.8,
    "d1_pct": 1.1
   },
@@ -3670,8 +3670,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 3,
-   "last_close": 3.990000009536743,
-   "last_pct": -3.4,
+   "last_close": 4.03000020980835,
+   "last_pct": -2.4,
    "max_close_pct": 6.1,
    "max_high_pct": 8.7,
    "d1_pct": 5.3
@@ -4049,7 +4049,7 @@
    "last_close": 0.2639999985694885,
    "last_pct": 19.6,
    "max_close_pct": 19.6,
-   "max_high_pct": 41.3,
+   "max_high_pct": 41.4,
    "d1_pct": -0.3
   },
   "followups": {}
@@ -4181,11 +4181,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 0.0608999989926815,
-   "last_pct": 2.2,
-   "max_close_pct": 2.2,
-   "max_high_pct": 5.5,
-   "d1_pct": 2.2
+   "last_close": 0.05999999865889549,
+   "last_pct": 0.7,
+   "max_close_pct": 0.7,
+   "max_high_pct": 0.7,
+   "d1_pct": 0.7
   },
   "followups": {}
  },
@@ -4294,7 +4294,7 @@
    "last_close": 4.409999847412109,
    "last_pct": 2.1,
    "max_close_pct": 2.1,
-   "max_high_pct": 2.4,
+   "max_high_pct": 2.5,
    "d1_pct": 2.1
   },
   "followups": {}
@@ -4542,9 +4542,110 @@
    "last_close": 4.409999847412109,
    "last_pct": 0.5,
    "max_close_pct": 0.5,
-   "max_high_pct": 0.8,
+   "max_high_pct": 0.9,
    "d1_pct": 0.5
   },
   "followups": {}
+ },
+ {
+  "id": "202611120707-CIA",
+  "ts": "2026-11-12T07:07+00:00",
+  "ticker": "CIA",
+  "score": 5,
+  "why": [
+   "האצה x7.0 מול הבסיס",
+   "+45 אזכורים ב-3 שעות",
+   "פיזור ב-4 פורומים",
+   "פלואט 44.7M",
+   "השאלה מתייקרת / מניות לשורט אוזלות",
+   "חשד להתראת שווא (מילה)"
+  ],
+  "price": {
+   "price": 4.03,
+   "prev_close": 4.38,
+   "move_pct": -7.99,
+   "vol_today": 100900,
+   "avg_vol20": 129625,
+   "rel_vol": 0.78,
+   "exchange": "NYQ",
+   "name": "Citizens, Inc.",
+   "readiness": {
+    "points": 0,
+    "why": [],
+    "risk": [],
+    "asof": "2026-11-11",
+    "f": {
+     "rvol_1": 0.8311,
+     "atr_ratio": 1.4157,
+     "drawdown_60": -0.1024,
+     "vol20": 0.036,
+     "prior_runs_120": 0.0,
+     "ret_1d": -0.0799,
+     "ret_3d": -0.0242,
+     "ret_10d": 0.0605,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.8976
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 204.34,
+   "float_m": 44.73,
+   "short_float_pct": 10.26,
+   "days_to_cover": 35.84,
+   "src": "finviz"
+  },
+  "m_now": 54,
+  "m_24h_ago": 15,
+  "spread": [
+   "WallStreetbetsELITE",
+   "pennystocks",
+   "stocks",
+   "wallstreetbets"
+  ],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 0,
+   "users": 15,
+   "bull": 6,
+   "bear": 0,
+   "oldest_min": 280435,
+   "watchlist": 260
+  },
+  "borrow": {
+   "fee": 4.2047,
+   "available": 15000,
+   "fee_5d": 4.5595,
+   "available_5d": 65000
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "x": null,
+  "profile": {
+   "country": "TX",
+   "inc": "CO",
+   "asia": null,
+   "sic": "Life Insurance",
+   "ts": "2026-10-30T11:08+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [],
+   "filings": [],
+   "rsplit": null,
+   "cik": 24090
+  },
+  "forum": {
+   "rising": null,
+   "novel": false
+  },
+  "invalidation": 3.4255,
+  "news": null,
+  "urgent": false,
+  "urgent_why": [],
+  "path": "buzz",
+  "telegram_sent": true,
+  "outcome": {}
  }
 ]

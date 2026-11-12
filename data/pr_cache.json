@@ -1,29 +1,5 @@
 [
  {
-  "ticker": "LINC",
-  "title": "LINC Investors Have Opportunity to Lead Lincoln Educational Services Corporation Securities Fraud Lawsuit with SBS Law",
-  "src": "PR Newswire",
-  "ts": "2026-11-09T05:50+00:00"
- },
- {
-  "ticker": "SOHU",
-  "title": "SOHU.COM REPORTS THIRD QUARTER 2026 UNAUDITED FINANCIAL RESULTS",
-  "src": "PR Newswire",
-  "ts": "2026-11-09T05:00+00:00"
- },
- {
-  "ticker": "GFR",
-  "title": "Strathcona Resources Ltd. Announces Agreement to Acquire Greenfire Resources Ltd.",
-  "src": "PR Newswire",
-  "ts": "2026-11-09T04:44+00:00"
- },
- {
-  "ticker": "CARS",
-  "title": "Cars.com Announces Inducement Award Under NYSE Rule 303A.08",
-  "src": "PR Newswire",
-  "ts": "2026-11-09T04:14+00:00"
- },
- {
   "ticker": "AIIO",
   "title": "Robo.ai Announces October Revenue of Over US$100 Million",
   "src": "PR Newswire",
@@ -346,5 +322,11 @@
   "title": "Lemonade Announces Online Viewing Details for 2026 Investor Day",
   "src": "PR Newswire",
   "ts": "2026-11-11T20:30+00:00"
+ },
+ {
+  "ticker": "AFL",
+  "title": "Aflac Incorporated Announces 4.9% Increase in the First Quarter 2027 Dividend",
+  "src": "PR Newswire",
+  "ts": "2026-11-12T06:38+00:00"
  }
 ]
