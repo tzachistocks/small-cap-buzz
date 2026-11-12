@@ -376,5 +376,19 @@
   "asia": null,
   "sic": "Miscellaneous Primary Metal Products",
   "ts": "2026-11-12T11:08+00:00"
+ },
+ "NB": {
+  "country": "CO",
+  "inc": "A1",
+  "asia": null,
+  "sic": "Metal Mining",
+  "ts": "2026-11-12T17:09+00:00"
+ },
+ "JOB": {
+  "country": "FL",
+  "inc": "IL",
+  "asia": null,
+  "sic": "Services-Employment Agencies",
+  "ts": "2026-11-12T17:09+00:00"
  }
 }

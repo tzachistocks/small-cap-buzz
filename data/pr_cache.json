@@ -1,17 +1,5 @@
 [
  {
-  "ticker": "BULL",
-  "title": "Webull Corporation Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - BULL",
-  "src": "PR Newswire",
-  "ts": "2026-11-09T16:55+00:00"
- },
- {
-  "ticker": "MRP",
-  "title": "Millrose Properties, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - MRP",
-  "src": "PR Newswire",
-  "ts": "2026-11-09T16:55+00:00"
- },
- {
   "ticker": "NHI",
   "title": "NHI Announces Third Quarter 2026 Results",
   "src": "PR Newswire",
@@ -316,5 +304,11 @@
   "title": "HawkEye 360 Secures Approximately $135 Million in Global Contracts Reflecting Continued Demand for Signals Intelligence",
   "src": "PR Newswire",
   "ts": "2026-11-12T13:00+00:00"
+ },
+ {
+  "ticker": "PYPL",
+  "title": "Celebrating 20 years of Kiva and PayPal working together to support entrepreneurs worldwide",
+  "src": "PR Newswire",
+  "ts": "2026-11-12T17:00+00:00"
  }
 ]

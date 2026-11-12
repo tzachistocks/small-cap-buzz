@@ -1,9 +1,9 @@
 {
  "month": "2026-11",
- "month_credits": 1993,
+ "month_credits": 2037,
  "exhausted": false,
  "day": "2026-11-12",
- "day_credits": 109,
+ "day_credits": 153,
  "done": [
   "2026-11-02T12",
   "2026-11-02T17",
@@ -19,7 +19,8 @@
   "2026-11-09T17",
   "2026-11-10T17",
   "2026-11-11T17",
-  "2026-11-12T12"
+  "2026-11-12T12",
+  "2026-11-12T17"
  ],
  "tickers": {
   "TIL": {
@@ -191,11 +192,11 @@
    "full": true
   },
   "NXXT": {
-   "posts": 9,
-   "posts6": 9,
-   "authors": 9,
-   "likes": 17,
-   "ts": "2026-11-12T13:07+00:00",
+   "posts": 5,
+   "posts6": 5,
+   "authors": 5,
+   "likes": 1,
+   "ts": "2026-11-12T17:07+00:00",
    "full": true
   },
   "SLI": {
@@ -203,15 +204,15 @@
    "posts6": 0,
    "authors": 0,
    "likes": 0,
-   "ts": "2026-11-12T13:07+00:00",
+   "ts": "2026-11-12T17:07+00:00",
    "full": true
   },
   "PLCE": {
-   "posts": 8,
-   "posts6": 8,
-   "authors": 8,
-   "likes": 4,
-   "ts": "2026-11-12T13:07+00:00",
+   "posts": 4,
+   "posts6": 4,
+   "authors": 4,
+   "likes": 2,
+   "ts": "2026-11-12T17:07+00:00",
    "full": true
   },
   "CARL": {
@@ -220,6 +221,14 @@
    "authors": 0,
    "likes": 0,
    "ts": "2026-11-12T13:07+00:00",
+   "full": true
+  },
+  "RKDA": {
+   "posts": 6,
+   "posts6": 3,
+   "authors": 6,
+   "likes": 3,
+   "ts": "2026-11-12T17:07+00:00",
    "full": true
   }
  },
