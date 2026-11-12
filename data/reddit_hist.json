@@ -11519,8 +11519,8 @@
    "sample": "r/pennystocks: NXXT surged up to 4500% up today, and not a single soul posted or mentioned it"
   },
   "MB": {
-   "m24_max": 3,
-   "authors24_max": 3,
+   "m24_max": 4,
+   "authors24_max": 4,
    "subs": [
     "smallstreetbets"
    ],
@@ -11613,8 +11613,8 @@
    "sample": "r/pennystocks: $HMR back on the 200 day at ~4x ex-cash. Same setup as last time, better numbers. Lifeline"
   },
   "AX": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],
@@ -11730,8 +11730,8 @@
    "sample": "r/pennystocks: 11 NOV 2026 , WHAT ARE THE BIGGEST WINNERS AND WHY ?"
   },
   "SHFS": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 2,
+   "authors24_max": 2,
    "subs": [
     "pennystocks"
    ],
@@ -11766,8 +11766,8 @@
    "sample": "r/pennystocks: Do you think RKLB has more room to run?"
   },
   "PARA": {
-   "m24_max": 4,
-   "authors24_max": 4,
+   "m24_max": 6,
+   "authors24_max": 6,
    "subs": [
     "pennystocks"
    ],
@@ -12079,6 +12079,38 @@
     "Shortsqueeze"
    ],
    "first_utc": "2026-11-12T10:36+00:00"
+  },
+  "INHD": {
+   "m24_max": 2,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T12:25+00:00"
+  },
+  "IVF": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-12T13:06+00:00"
+  },
+  "NGEN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T12:34+00:00"
+  },
+  "DEI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-12T12:26+00:00"
   }
  }
 }

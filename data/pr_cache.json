@@ -1,53 +1,5 @@
 [
  {
-  "ticker": "CYDVF",
-  "title": "CENTURY LITHIUM'S ANGEL ISLAND MINE PLAN OF OPERATIONS DEEMED COMPLETE BY BLM, ADVANCING PROJECT TOWARD ENVIRONMENTAL REVIEW",
-  "src": "PR Newswire",
-  "ts": "2026-11-09T11:30+00:00"
- },
- {
-  "ticker": "GPUS",
-  "title": "Hyperscale Data, Inc. Announces Intent to Launch Exchange Offer to Acquire Up to $50,000,000 of Outstanding Shares for Cash and New Preferred Shares",
-  "src": "PR Newswire",
-  "ts": "2026-11-09T11:30+00:00"
- },
- {
-  "ticker": "ASO",
-  "title": "Academy Sports + Outdoors Unwraps Top Holiday Gifts, Great Value and More Ways to Win This Season",
-  "src": "PR Newswire",
-  "ts": "2026-11-09T13:06+00:00"
- },
- {
-  "ticker": "XTIA",
-  "title": "XTI Aerospace Schedules Third Quarter 2026 Earnings Release and Webcast",
-  "src": "PR Newswire",
-  "ts": "2026-11-09T13:01+00:00"
- },
- {
-  "ticker": "RY",
-  "title": "La Banque Royale du Canada annonce une entente visant l'acquisition de Yarra Capital Management",
-  "src": "PR Newswire",
-  "ts": "2026-11-09T13:00+00:00"
- },
- {
-  "ticker": "AVGO",
-  "title": "Broadcom Inc. to Announce Fourth Quarter and Fiscal Year 2026 Financial Results on Wednesday, December 9, 2026",
-  "src": "PR Newswire",
-  "ts": "2026-11-09T13:00+00:00"
- },
- {
-  "ticker": "HONA",
-  "title": "2 WEEK HONA DEADLINE: Honeywell Aerospace Inc. Investors with Substantial Losses May Seek to Lead Class Action Lawsuit Before November 23, 2026 Deadline",
-  "src": "PR Newswire",
-  "ts": "2026-11-09T13:00+00:00"
- },
- {
-  "ticker": "HLIT",
-  "title": "Harmonic to Participate in 7th Annual Needham Virtual Tech Week Conference",
-  "src": "PR Newswire",
-  "ts": "2026-11-09T13:00+00:00"
- },
- {
   "ticker": "BULL",
   "title": "Webull Corporation Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - BULL",
   "src": "PR Newswire",
@@ -346,5 +298,23 @@
   "title": "Prudential Wealth Advisors Reports Record Sales, Accelerates Wealth Management Growth in 2026",
   "src": "PR Newswire",
   "ts": "2026-11-12T11:00+00:00"
+ },
+ {
+  "ticker": "MOVE",
+  "title": "Corvex Reports Third Quarter 2026 Results",
+  "src": "PR Newswire",
+  "ts": "2026-11-12T13:05+00:00"
+ },
+ {
+  "ticker": "NXPL",
+  "title": "NextPlat Reports 3Q Results with Nearly 35% Improvement in Year-Over-Year Gross Profit, Consolidated Quarterly Gross Margins of 35% & Approximately 66% Reduction in Net Loss",
+  "src": "PR Newswire",
+  "ts": "2026-11-12T13:01+00:00"
+ },
+ {
+  "ticker": "HAWK",
+  "title": "HawkEye 360 Secures Approximately $135 Million in Global Contracts Reflecting Continued Demand for Signals Intelligence",
+  "src": "PR Newswire",
+  "ts": "2026-11-12T13:00+00:00"
  }
 ]

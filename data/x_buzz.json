@@ -1,9 +1,9 @@
 {
  "month": "2026-11",
- "month_credits": 1884,
+ "month_credits": 1993,
  "exhausted": false,
- "day": "2026-11-11",
- "day_credits": 105,
+ "day": "2026-11-12",
+ "day_credits": 109,
  "done": [
   "2026-11-02T12",
   "2026-11-02T17",
@@ -18,7 +18,8 @@
   "2026-11-09T12",
   "2026-11-09T17",
   "2026-11-10T17",
-  "2026-11-11T17"
+  "2026-11-11T17",
+  "2026-11-12T12"
  ],
  "tickers": {
   "TIL": {
@@ -46,11 +47,11 @@
    "full": true
   },
   "VIVK": {
-   "posts": 3,
-   "posts6": 3,
-   "authors": 3,
-   "likes": 0,
-   "ts": "2026-11-09T17:07+00:00",
+   "posts": 4,
+   "posts6": 1,
+   "authors": 4,
+   "likes": 5,
+   "ts": "2026-11-12T13:07+00:00",
    "full": true
   },
   "HRTX": {
@@ -170,29 +171,64 @@
    "posts6": 0,
    "authors": 0,
    "likes": 0,
-   "ts": "2026-11-11T17:08+00:00",
+   "ts": "2026-11-12T13:07+00:00",
    "full": true
   },
   "GEVO": {
-   "posts": 10,
-   "posts6": 10,
-   "authors": 2,
+   "posts": 8,
+   "posts6": 8,
+   "authors": 5,
    "likes": 0,
-   "ts": "2026-11-11T17:08+00:00",
+   "ts": "2026-11-12T13:07+00:00",
+   "full": true
+  },
+  "HAWK": {
+   "posts": 1,
+   "posts6": 1,
+   "authors": 1,
+   "likes": 1,
+   "ts": "2026-11-12T13:07+00:00",
+   "full": true
+  },
+  "NXXT": {
+   "posts": 9,
+   "posts6": 9,
+   "authors": 9,
+   "likes": 17,
+   "ts": "2026-11-12T13:07+00:00",
+   "full": true
+  },
+  "SLI": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-12T13:07+00:00",
+   "full": true
+  },
+  "PLCE": {
+   "posts": 8,
+   "posts6": 8,
+   "authors": 8,
+   "likes": 4,
+   "ts": "2026-11-12T13:07+00:00",
+   "full": true
+  },
+  "CARL": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-12T13:07+00:00",
    "full": true
   }
  },
  "discovery": {
-  "day": "2026-11-11",
+  "day": "2026-11-12",
   "tickers": {
-   "MIHAO": 1,
-   "BATON": 1,
-   "PUMP": 1,
-   "GME": 1,
-   "SPOT": 1,
-   "QQQ": 1,
-   "HTZ": 1
+   "BTC": 1,
+   "GME": 1
   }
  },
- "discovery_day": "2026-11-11"
+ "discovery_day": "2026-11-12"
 }
