@@ -1,11 +1,5 @@
 [
  {
-  "ticker": "AIIO",
-  "title": "Robo.ai Announces October Revenue of Over US$100 Million",
-  "src": "PR Newswire",
-  "ts": "2026-11-09T11:00+00:00"
- },
- {
   "ticker": "CYDVF",
   "title": "CENTURY LITHIUM'S ANGEL ISLAND MINE PLAN OF OPERATIONS DEEMED COMPLETE BY BLM, ADVANCING PROJECT TOWARD ENVIRONMENTAL REVIEW",
   "src": "PR Newswire",
@@ -328,5 +322,29 @@
   "title": "Aflac Incorporated Announces 4.9% Increase in the First Quarter 2027 Dividend",
   "src": "PR Newswire",
   "ts": "2026-11-12T06:38+00:00"
+ },
+ {
+  "ticker": "RSG",
+  "title": "Republic Services Shares Three Simple Steps for Recycling Right This America Recycles Day",
+  "src": "PR Newswire",
+  "ts": "2026-11-12T11:04+00:00"
+ },
+ {
+  "ticker": "DDL",
+  "title": "Dingdong (Cayman) Limited Announces Third Quarter 2026 Financial Results",
+  "src": "PR Newswire",
+  "ts": "2026-11-12T11:00+00:00"
+ },
+ {
+  "ticker": "AIIO",
+  "title": "Robo.ai to Advance Its Middle East Public Safety Strategy at World Police Summit 2026",
+  "src": "PR Newswire",
+  "ts": "2026-11-12T11:00+00:00"
+ },
+ {
+  "ticker": "PRU",
+  "title": "Prudential Wealth Advisors Reports Record Sales, Accelerates Wealth Management Growth in 2026",
+  "src": "PR Newswire",
+  "ts": "2026-11-12T11:00+00:00"
  }
 ]

@@ -11766,8 +11766,8 @@
    "sample": "r/pennystocks: Do you think RKLB has more room to run?"
   },
   "PARA": {
-   "m24_max": 1,
-   "authors24_max": 1,
+   "m24_max": 4,
+   "authors24_max": 4,
    "subs": [
     "pennystocks"
    ],
@@ -11822,6 +11822,263 @@
     "smallstreetbets"
    ],
    "first_utc": "2026-11-12T06:04+00:00"
+  },
+  "PLCE": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T10:26+00:00"
+  },
+  "AIM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T10:02+00:00",
+   "sample": "r/pennystocks: QHELF (OTC) : Helium proven, stimulation underway, oil revenues growing, and a large Color"
+  },
+  "ACRS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "EYPT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "PYPD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "TVRD": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "VNDA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "MBRX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "DWTX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "RGNX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "SKYE": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "SVRA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "LGVN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "CMPS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "IMUX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "MS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "RZLT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "AVIR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "OLMA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "SI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "MPLT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "XFOR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "ZNTL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "ANNX": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "SLS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "BID": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:17+00:00",
+   "sample": "r/pennystocks: Parabolic (PARA) Stock Casino Play"
+  },
+  "BB": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-12T10:59+00:00"
+  },
+  "CENN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T10:39+00:00"
+  },
+  "SMTK": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-12T10:36+00:00"
   }
  }
 }

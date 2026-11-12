@@ -369,5 +369,12 @@
   "asia": null,
   "sic": "Chemicals & Allied Products",
   "ts": "2026-11-12T07:08+00:00"
+ },
+ "BOOM": {
+  "country": "CO",
+  "inc": "CO",
+  "asia": null,
+  "sic": "Miscellaneous Primary Metal Products",
+  "ts": "2026-11-12T11:08+00:00"
  }
 }
