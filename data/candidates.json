@@ -9462,7 +9462,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-12",
+   "days": 2,
+   "last_pct": -5.3,
+   "max_close_pct": -1.9,
+   "max_high_pct": 0.7
+  }
  },
  "2026-11-11|CAAS": {
   "ts": "2026-11-11T17:08+00:00",
@@ -9482,7 +9488,13 @@
   ],
   "alerted": true,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-12",
+   "days": 2,
+   "last_pct": -2.7,
+   "max_close_pct": 0.5,
+   "max_high_pct": 0.9
+  }
  },
  "2026-11-11|BKV": {
   "ts": "2026-11-11T17:08+00:00",
@@ -9505,7 +9517,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-12",
+   "days": 2,
+   "last_pct": -0.4,
+   "max_close_pct": -0.4,
+   "max_high_pct": 1.1
+  }
  },
  "2026-11-11|CIFR": {
   "ts": "2026-11-11T17:08+00:00",
@@ -9526,7 +9544,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-12",
+   "days": 2,
+   "last_pct": -0.5,
+   "max_close_pct": -0.5,
+   "max_high_pct": 3.2
+  }
  },
  "2026-11-11|NXXT": {
   "ts": "2026-11-11T17:08+00:00",
@@ -9551,7 +9575,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-12",
+   "days": 1,
+   "last_pct": -39.3,
+   "max_close_pct": -39.3,
+   "max_high_pct": 33.6
+  }
  },
  "2026-11-11|CD": {
   "ts": "2026-11-11T21:07+00:00",
@@ -9570,7 +9600,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-12",
+   "days": 2,
+   "last_pct": 1.9,
+   "max_close_pct": 1.9,
+   "max_high_pct": 8.8
+  }
  },
  "2026-11-11|TSCO": {
   "ts": "2026-11-11T21:07+00:00",
@@ -9591,7 +9627,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-12",
+   "days": 2,
+   "last_pct": -0.3,
+   "max_close_pct": -0.0,
+   "max_high_pct": 1.5
+  }
  },
  "2026-11-11|VIVK": {
   "ts": "2026-11-11T21:07+00:00",
@@ -9614,7 +9656,13 @@
   ],
   "alerted": false,
   "urgent": false,
-  "outcome": {}
+  "outcome": {
+   "checked": "2026-11-12",
+   "days": 2,
+   "last_pct": -5.8,
+   "max_close_pct": 4.1,
+   "max_high_pct": 16.1
+  }
  },
  "2026-11-12|NXXT": {
   "ts": "2026-11-12T07:07+00:00",
@@ -9636,7 +9684,8 @@
    "novel",
    "rvol",
    "rsplit",
-   "x_buzz"
+   "x_buzz",
+   "telegram_weak"
   ],
   "alerted": false,
   "urgent": false,
@@ -9674,7 +9723,8 @@
   "blocked": [],
   "tags": [
    "accel",
-   "vel3h"
+   "vel3h",
+   "rvol"
   ],
   "alerted": false,
   "urgent": false,
@@ -9684,7 +9734,7 @@
   "ts": "2026-11-12T07:07+00:00",
   "ticker": "TIL",
   "score": 3,
-  "max_score": 3,
+  "max_score": 4,
   "price": 6.34,
   "move_pct": -0.16,
   "cap_m": 42.8,
@@ -9692,9 +9742,10 @@
   "tags": [
    "vel3h",
    "rising",
-   "low_float"
+   "low_float",
+   "spread"
   ],
-  "alerted": false,
+  "alerted": true,
   "urgent": false,
   "outcome": {}
  },
@@ -9896,7 +9947,7 @@
   "ts": "2026-11-12T17:07+00:00",
   "ticker": "MSS",
   "score": 4,
-  "max_score": 4,
+  "max_score": 5,
   "price": 0.9403,
   "move_pct": -4.53,
   "cap_m": 2.26,
@@ -9906,7 +9957,8 @@
   "tags": [
    "accel",
    "vel3h",
-   "low_float"
+   "low_float",
+   "spread"
   ],
   "alerted": false,
   "urgent": false,
@@ -9985,7 +10037,8 @@
    "relaxed_gate",
    "accel",
    "vel3h",
-   "novel"
+   "novel",
+   "pr_weak"
   ],
   "alerted": false,
   "urgent": false,
@@ -10013,7 +10066,7 @@
   "ts": "2026-11-12T17:07+00:00",
   "ticker": "JOB",
   "score": 3,
-  "max_score": 3,
+  "max_score": 4,
   "price": 6.71,
   "move_pct": 1.36,
   "cap_m": 25.05,
@@ -10082,7 +10135,7 @@
   "ts": "2026-11-12T17:07+00:00",
   "ticker": "POAS",
   "score": 5,
-  "max_score": 5,
+  "max_score": 8,
   "price": 2.225,
   "move_pct": 147.03,
   "cap_m": 4.63,
@@ -10096,7 +10149,8 @@
    "novel",
    "low_float",
    "rvol",
-   "rsplit"
+   "rsplit",
+   "vel3h"
   ],
   "alerted": false,
   "urgent": false,
@@ -10116,7 +10170,70 @@
    "spread",
    "rising",
    "low_float",
-   "short"
+   "short",
+   "sec_weak"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-12|XLAB": {
+  "ts": "2026-11-12T21:07+00:00",
+  "ticker": "XLAB",
+  "score": 5,
+  "max_score": 5,
+  "price": 2.17,
+  "move_pct": 108.65,
+  "cap_m": 146.04,
+  "blocked": [
+   "כבר זזה +109%"
+  ],
+  "tags": [
+   "accel",
+   "vel3h",
+   "low_float",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-12|BBW": {
+  "ts": "2026-11-12T21:07+00:00",
+  "ticker": "BBW",
+  "score": 6,
+  "max_score": 6,
+  "price": 28.42,
+  "move_pct": -0.94,
+  "cap_m": 350.11,
+  "blocked": [],
+  "tags": [
+   "accel",
+   "vel3h",
+   "novel",
+   "short",
+   "low_float",
+   "sec_weak"
+  ],
+  "alerted": true,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-12|AR": {
+  "ts": "2026-11-12T21:07+00:00",
+  "ticker": "AR",
+  "score": 3,
+  "max_score": 3,
+  "price": 38.71,
+  "move_pct": 1.31,
+  "cap_m": 11890.0,
+  "blocked": [
+   "שווי $11890M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h"
   ],
   "alerted": false,
   "urgent": false,

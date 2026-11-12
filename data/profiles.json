@@ -390,5 +390,12 @@
   "asia": null,
   "sic": "Services-Employment Agencies",
   "ts": "2026-11-12T17:09+00:00"
+ },
+ "BBW": {
+  "country": "MO",
+  "inc": "DE",
+  "asia": null,
+  "sic": "Retail-Hobby, Toy & Game Shops",
+  "ts": "2026-11-12T21:08+00:00"
  }
 }

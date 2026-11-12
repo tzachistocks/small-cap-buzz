@@ -1,22 +1,8 @@
 {
- "ts": "2026-11-12T17:07+00:00",
+ "ts": "2026-11-12T21:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
-  "PLCE": {
-   "m6": 3,
-   "m24": 3,
-   "authors6": 3,
-   "authors24": 3,
-   "subs6": [
-    "Shortsqueeze"
-   ],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-12T16:10+00:00",
-   "sample": "r/Shortsqueeze: The Children's Place (PLCE) is squeezing right now"
-  },
   "PARA": {
    "m6": 2,
    "m24": 3,
@@ -31,23 +17,25 @@
    "first_utc": "2026-11-12T08:17+00:00",
    "sample": "r/pennystocks: Parabolic (PARA) Stock Casino Play"
   },
-  "NXXT": {
+  "PLCE": {
    "m6": 2,
-   "m24": 3,
+   "m24": 2,
    "authors6": 2,
-   "authors24": 3,
+   "authors24": 2,
    "subs6": [
-    "pennystocks"
+    "Shortsqueeze",
+    "smallstreetbets"
    ],
    "subs24": [
-    "pennystocks"
+    "Shortsqueeze",
+    "smallstreetbets"
    ],
-   "first_utc": "2026-11-12T00:44+00:00",
-   "sample": "r/pennystocks: NXXT surged up to 4500% up today, and not a single soul posted or mentioned it"
+   "first_utc": "2026-11-12T16:10+00:00",
+   "sample": "r/smallstreetbets: ⚡AFTERNOON WATCHLIST⚡"
   },
-  "XLAB": {
-   "m6": 3,
-   "m24": 3,
+  "CLGN": {
+   "m6": 1,
+   "m24": 1,
    "authors6": 1,
    "authors24": 1,
    "subs6": [
@@ -56,50 +44,92 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-12T16:53+00:00",
-   "sample": ""
+   "first_utc": "2026-11-12T20:04+00:00",
+   "sample": "r/pennystocks: CLGN to Begin Trading on Nasdaq Under New Ticker Symbol “OPHI”"
   },
-  "NBIS": {
+  "GT": {
    "m6": 1,
-   "m24": 2,
+   "m24": 1,
    "authors6": 1,
-   "authors24": 2,
+   "authors24": 1,
    "subs6": [
     "smallstreetbets"
    ],
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-11-11T19:20+00:00",
-   "sample": "r/smallstreetbets: Oops"
+   "first_utc": "2026-11-12T20:04+00:00",
+   "sample": "r/smallstreetbets: ⚡AFTERNOON WATCHLIST⚡"
   },
-  "ROC": {
-   "m6": 2,
-   "m24": 2,
-   "authors6": 2,
-   "authors24": 2,
+  "POAS": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
    "subs6": [
     "smallstreetbets"
    ],
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-11-12T16:54+00:00",
-   "sample": ""
+   "first_utc": "2026-11-12T20:04+00:00",
+   "sample": "r/smallstreetbets: ⚡AFTERNOON WATCHLIST⚡"
   },
-  "BBW": {
-   "m6": 2,
-   "m24": 2,
-   "authors6": 2,
-   "authors24": 2,
+  "SMX": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
    "subs6": [
-    "Shortsqueeze"
+    "smallstreetbets"
    ],
    "subs24": [
-    "Shortsqueeze"
+    "smallstreetbets"
    ],
-   "first_utc": "2026-11-12T17:02+00:00",
-   "sample": ""
+   "first_utc": "2026-11-12T20:04+00:00",
+   "sample": "r/smallstreetbets: ⚡AFTERNOON WATCHLIST⚡"
+  },
+  "TLS": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T19:16+00:00",
+   "sample": "r/pennystocks: The Growing Business of Data Protection"
+  },
+  "PLUR": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T19:16+00:00",
+   "sample": "r/pennystocks: The Growing Business of Data Protection"
+  },
+  "PANW": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T19:16+00:00",
+   "sample": "r/pennystocks: The Growing Business of Data Protection"
   },
   "AIMD": {
    "m6": 1,
@@ -115,14 +145,24 @@
    "first_utc": "2026-11-12T16:28+00:00",
    "sample": "r/pennystocks: Ainos (AIMD) Secures $9 Million Agreement for 5,000 Additional AI Nose Systems"
   },
-  "EXP": {
-   "m6": 1,
+  "NBIS": {
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
+   "subs6": [],
+   "subs24": [
     "smallstreetbets"
    ],
+   "first_utc": "2026-11-12T15:02+00:00",
+   "sample": "r/smallstreetbets: Oops"
+  },
+  "EXP": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
    "subs24": [
     "smallstreetbets"
    ],
@@ -130,13 +170,11 @@
    "sample": "r/smallstreetbets: NVDA $170c 11/20 EXP, got in and got out."
   },
   "SHFS": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
@@ -155,7 +193,7 @@
    "first_utc": "2026-11-12T10:02+00:00",
    "sample": "r/pennystocks: QHELF (OTC) : Helium proven, stimulation underway, oil revenues growing, and a large Color"
   },
-  "DWTX": {
+  "IMUX": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -179,7 +217,7 @@
    "first_utc": "2026-11-12T08:22+00:00",
    "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
   },
-  "RGNX": {
+  "OLMA": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -191,103 +229,7 @@
    "first_utc": "2026-11-12T08:22+00:00",
    "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
   },
-  "LGVN": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-12T08:22+00:00",
-   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
-  },
-  "SI": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-12T08:22+00:00",
-   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
-  },
-  "ACRS": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-12T08:22+00:00",
-   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
-  },
-  "ZNTL": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-12T08:22+00:00",
-   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
-  },
-  "ANNX": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-12T08:22+00:00",
-   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
-  },
-  "RZLT": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-12T08:22+00:00",
-   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
-  },
-  "MBRX": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-12T08:22+00:00",
-   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
-  },
-  "XFOR": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-12T08:22+00:00",
-   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
-  },
-  "SLS": {
+  "MPLT": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -323,55 +265,7 @@
    "first_utc": "2026-11-12T08:22+00:00",
    "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
   },
-  "CMPS": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-12T08:22+00:00",
-   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
-  },
-  "PYPD": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-12T08:22+00:00",
-   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
-  },
-  "MPLT": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-12T08:22+00:00",
-   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
-  },
-  "VNDA": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-12T08:22+00:00",
-   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
-  },
-  "IMUX": {
+  "SVRA": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -395,7 +289,7 @@
    "first_utc": "2026-11-12T08:22+00:00",
    "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
   },
-  "OLMA": {
+  "LGVN": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -407,7 +301,103 @@
    "first_utc": "2026-11-12T08:22+00:00",
    "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
   },
-  "SVRA": {
+  "ANNX": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "RGNX": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "CMPS": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "RZLT": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "XFOR": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "PYPD": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "ACRS": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "MBRX": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "SI": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -420,6 +410,54 @@
    "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
   },
   "EYPT": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "DWTX": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "ZNTL": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "VNDA": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T08:22+00:00",
+   "sample": "r/pennystocks: Upcoming penny stock catalysts in November 2026 for Biotech and Pharma (FDA/PDUFA)"
+  },
+  "SLS": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -455,6 +493,30 @@
    "first_utc": "2026-11-12T02:43+00:00",
    "sample": "r/smallstreetbets: \"I told ya\" -MB"
   },
+  "NXXT": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T00:44+00:00",
+   "sample": "r/pennystocks: NXXT surged up to 4500% up today, and not a single soul posted or mentioned it"
+  },
+  "DYOR": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T00:08+00:00",
+   "sample": "r/pennystocks: $HMR back on the 200 day at ~4x ex-cash. Same setup as last time, better numbers. Lifeline"
+  },
   "HMR": {
    "m6": 0,
    "m24": 1,
@@ -479,19 +541,7 @@
    "first_utc": "2026-11-12T00:08+00:00",
    "sample": "r/pennystocks: $HMR back on the 200 day at ~4x ex-cash. Same setup as last time, better numbers. Lifeline"
   },
-  "DYOR": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-12T00:08+00:00",
-   "sample": "r/pennystocks: $HMR back on the 200 day at ~4x ex-cash. Same setup as last time, better numbers. Lifeline"
-  },
-  "AX": {
+  "ZM": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -503,7 +553,7 @@
    "first_utc": "2026-11-12T00:07+00:00",
    "sample": "r/pennystocks: ANT - Not that big one: (ANT.CN) and (ANT.AX)"
   },
-  "ZM": {
+  "AX": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -527,73 +577,7 @@
    "first_utc": "2026-11-11T21:56+00:00",
    "sample": "r/smallstreetbets: Bull Trap — I'm making a trading roguelite inspired by 1980s Wall Street"
   },
-  "DTE": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-11T19:20+00:00",
-   "sample": "r/smallstreetbets: 2 DTE 15k YOLO"
-  },
-  "HTZ": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-11T18:30+00:00",
-   "sample": "r/Shortsqueeze: Not trying to hype HTZ but brokerages want your shares for lending"
-  },
-  "POAS": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-12T17:07+00:00",
-   "sample": ""
-  },
-  "CAPR": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-12T17:07+00:00",
-   "sample": ""
-  },
-  "DWSN": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-12T17:06+00:00",
-   "sample": ""
-  },
-  "DC": {
+  "DEI": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -604,49 +588,7 @@
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-11-12T17:06+00:00",
-   "sample": ""
-  },
-  "ATCH": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-12T17:02+00:00",
-   "sample": ""
-  },
-  "TV": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-12T16:47+00:00",
-   "sample": ""
-  },
-  "CJMB": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-12T16:44+00:00",
+   "first_utc": "2026-11-12T20:50+00:00",
    "sample": ""
   }
  },

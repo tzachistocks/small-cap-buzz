@@ -1,59 +1,5 @@
 [
  {
-  "ticker": "NHI",
-  "title": "NHI Announces Third Quarter 2026 Results",
-  "src": "PR Newswire",
-  "ts": "2026-11-09T21:05+00:00"
- },
- {
-  "ticker": "APEI",
-  "title": "American Public Education Reports Third Quarter 2026 Financial Results",
-  "src": "PR Newswire",
-  "ts": "2026-11-09T21:05+00:00"
- },
- {
-  "ticker": "RLGT",
-  "title": "RADIANT LOGISTICS ANNOUNCES RESULTS FOR THE FIRST FISCAL QUARTER ENDED SEPTEMBER 30, 2026",
-  "src": "PR Newswire",
-  "ts": "2026-11-09T21:05+00:00"
- },
- {
-  "ticker": "QNT",
-  "title": "Quantinuum to Participate in the Cantor Convergence 4th Annual Crypto, FinTech, AI & Energy Infrastructure Conference",
-  "src": "PR Newswire",
-  "ts": "2026-11-09T21:05+00:00"
- },
- {
-  "ticker": "YFOR",
-  "title": "YYForce's Humanoid Robotics and VLA Training Workflow Featured on Mediacorp's Meeting AI",
-  "src": "PR Newswire",
-  "ts": "2026-11-09T21:05+00:00"
- },
- {
-  "ticker": "TGE",
-  "title": "The Generation Essentials Group to Hold Extraordinary General Meeting on December 7, 2026",
-  "src": "PR Newswire",
-  "ts": "2026-11-09T21:05+00:00"
- },
- {
-  "ticker": "QLYS",
-  "title": "Qualys Announces Third Quarter 2026 Financial Results",
-  "src": "PR Newswire",
-  "ts": "2026-11-09T21:05+00:00"
- },
- {
-  "ticker": "SKYD",
-  "title": "SKYDANCE REPORTS THIRD QUARTER 2026 FINANCIAL RESULTS FOR PARAMOUNT SKYDANCE",
-  "src": "PR Newswire",
-  "ts": "2026-11-09T21:01+00:00"
- },
- {
-  "ticker": "SANM",
-  "title": "Sanmina Reports Fourth Quarter and Fiscal 2026 Financial Results",
-  "src": "PR Newswire",
-  "ts": "2026-11-09T21:01+00:00"
- },
- {
   "ticker": "ASX",
   "title": "ASE Technology Holding Co., Ltd. Announces Monthly Net Revenues*",
   "src": "PR Newswire",
@@ -310,5 +256,77 @@
   "title": "Celebrating 20 years of Kiva and PayPal working together to support entrepreneurs worldwide",
   "src": "PR Newswire",
   "ts": "2026-11-12T17:00+00:00"
+ },
+ {
+  "ticker": "SMR",
+  "title": "SMR Investors Have Opportunity to Lead NuScale Power Corporation Securities Fraud Lawsuit",
+  "src": "PR Newswire",
+  "ts": "2026-11-12T21:07+00:00"
+ },
+ {
+  "ticker": "ROL",
+  "title": "Rollins to Present at Upcoming Investor Conferences",
+  "src": "PR Newswire",
+  "ts": "2026-11-12T21:05+00:00"
+ },
+ {
+  "ticker": "HQI",
+  "title": "HireQuest Reports Financial Results for Third Quarter 2026",
+  "src": "PR Newswire",
+  "ts": "2026-11-12T21:05+00:00"
+ },
+ {
+  "ticker": "LGCY",
+  "title": "Legacy Education Reports First Quarter Fiscal 2027 Results and Record Student Population",
+  "src": "PR Newswire",
+  "ts": "2026-11-12T21:05+00:00"
+ },
+ {
+  "ticker": "INVE",
+  "title": "INVE Technologies, Inc. Reports Third Quarter 2026 Financial Results",
+  "src": "PR Newswire",
+  "ts": "2026-11-12T21:05+00:00"
+ },
+ {
+  "ticker": "ARMP",
+  "title": "Armata Pharmaceuticals Announces Financial Results for the Third Quarter 2026 and Provides Corporate Update",
+  "src": "PR Newswire",
+  "ts": "2026-11-12T21:05+00:00"
+ },
+ {
+  "ticker": "VEEV",
+  "title": "Veeva to Release Fiscal 2027 Third Quarter Results on December 3, 2026",
+  "src": "PR Newswire",
+  "ts": "2026-11-12T21:05+00:00"
+ },
+ {
+  "ticker": "FLO",
+  "title": "FLOWERS FOODS, INC. REPORTS THIRD QUARTER 2026 RESULTS",
+  "src": "PR Newswire",
+  "ts": "2026-11-12T21:05+00:00"
+ },
+ {
+  "ticker": "LWAY",
+  "title": "Lifeway Foods® Reports Record High Quarterly Net Sales, Extends Kefir Category Leadership in Third Quarter 2026",
+  "src": "PR Newswire",
+  "ts": "2026-11-12T21:01+00:00"
+ },
+ {
+  "ticker": "CRIS",
+  "title": "Curis Provides Third Quarter 2026 Business Update",
+  "src": "PR Newswire",
+  "ts": "2026-11-12T21:01+00:00"
+ },
+ {
+  "ticker": "XTIA",
+  "title": "XTI Aerospace Successfully Completes Restructuring of Approximately $4.7 Million of Promissory Notes and Secures Waiver and Amendment of Revolving Credit Facility with JPMorgan Chase Bank, N.A.",
+  "src": "PR Newswire",
+  "ts": "2026-11-12T21:01+00:00"
+ },
+ {
+  "ticker": "AGNC",
+  "title": "AGNC Investment Corp. Declares Monthly Common Stock Dividend of $0.12 per Common Share for November 2026",
+  "src": "PR Newswire",
+  "ts": "2026-11-12T21:01+00:00"
  }
 ]
