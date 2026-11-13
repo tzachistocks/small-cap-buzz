@@ -1,30 +1,31 @@
 {
  "date": "2026-11-13",
- "generated_at": "2026-11-13T11:07+00:00",
+ "generated_at": "2026-11-13T13:07+00:00",
  "final": false,
  "runs": {
-  "count": 3,
+  "count": 4,
   "first": "2026-11-13T07:07+00:00",
-  "last": "2026-11-13T11:07+00:00",
+  "last": "2026-11-13T13:07+00:00",
   "funnel_total": {
-   "buzz_tickers": 814,
-   "mention_gate": 79,
+   "buzz_tickers": 1081,
+   "mention_gate": 100,
    "reddit_path": 0,
    "telegram_path": 0,
-   "news_path": 0,
-   "skipped_large_cache": 109,
-   "shadow_gate": 79,
-   "to_check": 49,
-   "checked": 49,
+   "news_path": 1,
+   "skipped_large_cache": 144,
+   "shadow_gate": 104,
+   "to_check": 61,
+   "checked": 61,
    "not_checked_time": 0,
    "blocked": {
-    "כבר": 21,
-    "שווי": 14,
-    "איחוד": 3
+    "כבר": 28,
+    "שווי": 17,
+    "איחוד": 4,
+    "מחיר": 1
    },
-   "below_score": 15,
+   "below_score": 17,
    "cooldown": 0,
-   "shadow_would_alert": 7,
+   "shadow_would_alert": 10,
    "sent": 1,
    "send_failed": 0
   },
@@ -32,7 +33,7 @@
    "mode": "ok",
    "chats_ok": 14,
    "chats_failed": 0,
-   "messages": 548
+   "messages": 554
   },
   "per_run": [
    {
@@ -55,6 +56,13 @@
     "sent": 0,
     "send_failed": 0,
     "errors_n": 1
+   },
+   {
+    "ts": "2026-11-13T13:07+00:00",
+    "checked": 12,
+    "sent": 0,
+    "send_failed": 0,
+    "errors_n": 0
    }
   ]
  },
@@ -1121,7 +1129,8 @@
     "spread",
     "short",
     "low_float",
-    "rvol"
+    "rvol",
+    "x_buzz"
    ],
    "alerted": false,
    "urgent": false
@@ -1145,7 +1154,8 @@
     "novel",
     "low_float",
     "rvol",
-    "rsplit"
+    "rsplit",
+    "x_buzz"
    ],
    "alerted": false,
    "urgent": false
@@ -1194,6 +1204,52 @@
   },
   {
    "ts": "2026-11-13T07:07+00:00",
+   "ticker": "CV",
+   "score": 4,
+   "max_score": 6,
+   "price": 6.27,
+   "move_pct": 0.0,
+   "cap_m": 333.63,
+   "blocked": [],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "rising",
+    "novel",
+    "low_float",
+    "sec_weak",
+    "pr_weak",
+    "spread"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-13T07:07+00:00",
+   "ticker": "JOB",
+   "score": 4,
+   "max_score": 6,
+   "price": 6.6,
+   "move_pct": -0.3,
+   "cap_m": 24.17,
+   "blocked": [
+    "איחוד מניות טרי (2 ימים) – חשד לעיוות"
+   ],
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "novel",
+    "telegram_weak",
+    "low_float",
+    "rvol",
+    "rsplit",
+    "rising"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-13T07:07+00:00",
    "ticker": "XLAB",
    "score": 5,
    "max_score": 5,
@@ -1208,7 +1264,8 @@
     "accel",
     "rising",
     "low_float",
-    "rvol"
+    "rvol",
+    "x_buzz"
    ],
    "alerted": false,
    "urgent": false
@@ -1267,7 +1324,8 @@
    "tags": [
     "accel",
     "novel",
-    "low_float"
+    "low_float",
+    "x_buzz"
    ],
    "alerted": false,
    "urgent": false
@@ -1304,50 +1362,6 @@
     "accel",
     "low_float",
     "short"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-11-13T07:07+00:00",
-   "ticker": "CV",
-   "score": 4,
-   "max_score": 4,
-   "price": 6.27,
-   "move_pct": 0.0,
-   "cap_m": 333.63,
-   "blocked": [],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "rising",
-    "novel",
-    "low_float",
-    "sec_weak",
-    "pr_weak"
-   ],
-   "alerted": false,
-   "urgent": false
-  },
-  {
-   "ts": "2026-11-13T07:07+00:00",
-   "ticker": "JOB",
-   "score": 4,
-   "max_score": 4,
-   "price": 6.6,
-   "move_pct": -0.3,
-   "cap_m": 24.17,
-   "blocked": [
-    "איחוד מניות טרי (2 ימים) – חשד לעיוות"
-   ],
-   "tags": [
-    "relaxed_gate",
-    "accel",
-    "novel",
-    "telegram_weak",
-    "low_float",
-    "rvol",
-    "rsplit"
    ],
    "alerted": false,
    "urgent": false
@@ -1465,6 +1479,27 @@
     "accel",
     "novel",
     "low_float"
+   ],
+   "alerted": false,
+   "urgent": false
+  },
+  {
+   "ts": "2026-11-13T13:07+00:00",
+   "ticker": "YFOR",
+   "score": 3,
+   "max_score": 3,
+   "price": 0.0421,
+   "move_pct": -17.45,
+   "cap_m": 0.54,
+   "blocked": [
+    "מחיר נמוך מדי",
+    "שווי $0.5M (נמוך מדי או נתון שגוי)"
+   ],
+   "tags": [
+    "news_path",
+    "x_buzz",
+    "low_float",
+    "rvol"
    ],
    "alerted": false,
    "urgent": false
@@ -9437,6 +9472,447 @@
     "max_close_pct": -0.9,
     "max_high_pct": 1.3
    }
+  },
+  {
+   "date": "2026-11-12",
+   "ticker": "FIVE",
+   "max_score": 3,
+   "price": 251.53,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "novel"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-13",
+    "days": 1,
+    "last_pct": -1.7,
+    "max_close_pct": -1.7,
+    "max_high_pct": 2.5
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "ticker": "AKA",
+   "max_score": 5,
+   "price": 9.2,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "low_float",
+    "rvol",
+    "borrow_fee"
+   ],
+   "blocked": false,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-13",
+    "days": 1,
+    "last_pct": -4.1,
+    "max_close_pct": -4.1,
+    "max_high_pct": 6.1
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "ticker": "LOT",
+   "max_score": 3,
+   "price": 0.266,
+   "tags": [
+    "relaxed_gate",
+    "vel3h",
+    "spread"
+   ],
+   "blocked": false,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-13",
+    "days": 1,
+    "last_pct": 0.8,
+    "max_close_pct": 0.8,
+    "max_high_pct": 8.6
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "ticker": "RL",
+   "max_score": 4,
+   "price": 393.0113,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "novel",
+    "low_float"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-13",
+    "days": 1,
+    "last_pct": -0.6,
+    "max_close_pct": -0.6,
+    "max_high_pct": 1.5
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "ticker": "PLCE",
+   "max_score": 9,
+   "price": 1.0199,
+   "tags": [
+    "relaxed_gate",
+    "vel3h",
+    "spread",
+    "short",
+    "low_float",
+    "rvol",
+    "accel",
+    "x_buzz"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-13",
+    "days": 1,
+    "last_pct": -56.9,
+    "max_close_pct": -56.9,
+    "max_high_pct": 6.9
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "ticker": "RKDA",
+   "max_score": 6,
+   "price": 0.1989,
+   "tags": [
+    "accel",
+    "vel3h",
+    "rising",
+    "novel",
+    "x_buzz",
+    "low_float"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-13",
+    "days": 1,
+    "last_pct": 11.6,
+    "max_close_pct": 11.6,
+    "max_high_pct": 17.1
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "ticker": "MSS",
+   "max_score": 5,
+   "price": 0.9403,
+   "tags": [
+    "accel",
+    "vel3h",
+    "low_float",
+    "spread"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-13",
+    "days": 1,
+    "last_pct": 4.2,
+    "max_close_pct": 4.2,
+    "max_high_pct": 4.2
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "ticker": "COOK",
+   "max_score": 5,
+   "price": 59.09,
+   "tags": [
+    "accel",
+    "vel3h",
+    "low_float",
+    "short"
+   ],
+   "blocked": false,
+   "alerted": true,
+   "outcome": {
+    "checked": "2026-11-13",
+    "days": 1,
+    "last_pct": -2.5,
+    "max_close_pct": -2.5,
+    "max_high_pct": 11.0
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "ticker": "UP",
+   "max_score": 4,
+   "price": 2.4096,
+   "tags": [
+    "vel3h",
+    "spread",
+    "rising",
+    "low_float",
+    "short",
+    "word"
+   ],
+   "blocked": false,
+   "alerted": true,
+   "outcome": {
+    "checked": "2026-11-13",
+    "days": 1,
+    "last_pct": 2.1,
+    "max_close_pct": 2.1,
+    "max_high_pct": 4.6
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "ticker": "HP",
+   "max_score": 3,
+   "price": 36.93,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "novel"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-13",
+    "days": 1,
+    "last_pct": 0.5,
+    "max_close_pct": 0.5,
+    "max_high_pct": 0.9
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "ticker": "NB",
+   "max_score": 4,
+   "price": 2.88,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "novel",
+    "pr_weak"
+   ],
+   "blocked": false,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-13",
+    "days": 1,
+    "last_pct": -2.4,
+    "max_close_pct": -2.4,
+    "max_high_pct": 1.2
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "ticker": "BOOM",
+   "max_score": 3,
+   "price": 7.77,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "low_float"
+   ],
+   "blocked": false,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-13",
+    "days": 1,
+    "last_pct": 2.8,
+    "max_close_pct": 2.8,
+    "max_high_pct": 3.0
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "ticker": "JOB",
+   "max_score": 4,
+   "price": 6.71,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h",
+    "novel",
+    "rvol",
+    "rsplit"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-13",
+    "days": 1,
+    "last_pct": -1.6,
+    "max_close_pct": -1.6,
+    "max_high_pct": 2.5
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "ticker": "GP",
+   "max_score": 3,
+   "price": 1.09,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "low_float",
+    "rvol",
+    "rsplit"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-13",
+    "days": 1,
+    "last_pct": 12.8,
+    "max_close_pct": 12.8,
+    "max_high_pct": 34.9
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "ticker": "CENN",
+   "max_score": 6,
+   "price": 0.209,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "novel",
+    "short",
+    "low_float",
+    "rvol"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-13",
+    "days": 1,
+    "last_pct": -12.9,
+    "max_close_pct": -12.9,
+    "max_high_pct": 19.2
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "ticker": "POAS",
+   "max_score": 8,
+   "price": 2.225,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "spread",
+    "novel",
+    "low_float",
+    "rvol",
+    "rsplit",
+    "vel3h"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-13",
+    "days": 1,
+    "last_pct": 35.3,
+    "max_close_pct": 35.3,
+    "max_high_pct": 151.7
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "ticker": "LINK",
+   "max_score": 5,
+   "price": 3.215,
+   "tags": [
+    "relaxed_gate",
+    "spread",
+    "rising",
+    "low_float",
+    "short",
+    "sec_weak"
+   ],
+   "blocked": false,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-13",
+    "days": 1,
+    "last_pct": -5.1,
+    "max_close_pct": -5.1,
+    "max_high_pct": 2.0
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "ticker": "XLAB",
+   "max_score": 5,
+   "price": 2.17,
+   "tags": [
+    "accel",
+    "vel3h",
+    "low_float",
+    "rvol"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-13",
+    "days": 1,
+    "last_pct": 4.6,
+    "max_close_pct": 4.6,
+    "max_high_pct": 15.2
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "ticker": "BBW",
+   "max_score": 6,
+   "price": 28.42,
+   "tags": [
+    "accel",
+    "vel3h",
+    "novel",
+    "short",
+    "low_float",
+    "sec_weak"
+   ],
+   "blocked": false,
+   "alerted": true,
+   "outcome": {
+    "checked": "2026-11-13",
+    "days": 1,
+    "last_pct": -0.0,
+    "max_close_pct": -0.0,
+    "max_high_pct": 1.9
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "ticker": "AR",
+   "max_score": 3,
+   "price": 38.71,
+   "tags": [
+    "relaxed_gate",
+    "accel",
+    "vel3h"
+   ],
+   "blocked": true,
+   "alerted": false,
+   "outcome": {
+    "checked": "2026-11-13",
+    "days": 1,
+    "last_pct": -0.0,
+    "max_close_pct": -0.0,
+    "max_high_pct": 1.5
+   }
   }
  ],
  "social_today": {
@@ -9805,6 +10281,12 @@
    }
   },
   "telegram_top": {
+   "GABC": {
+    "m24_max": 12,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-12T13:53+00:00"
+   },
    "GROW": {
     "m24_max": 12,
     "authors24_max": 1,
@@ -9816,12 +10298,6 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-12T15:32+00:00"
-   },
-   "GABC": {
-    "m24_max": 6,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-12T13:53+00:00"
    },
    "BLX": {
     "m24_max": 6,
@@ -9871,6 +10347,12 @@
     "chats24_max": 1,
     "first_utc": "2026-11-12T14:31+00:00"
    },
+   "MRK": {
+    "m24_max": 4,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-13T11:40+00:00"
+   },
    "JOB": {
     "m24_max": 3,
     "authors24_max": 1,
@@ -9888,6 +10370,12 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-12T14:33+00:00"
+   },
+   "RARE": {
+    "m24_max": 3,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-12T13:37+00:00"
    },
    "NXXT": {
     "m24_max": 3,
@@ -10032,23 +10520,11 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-12T16:04+00:00"
-   },
-   "SHOT": {
-    "m24_max": 2,
-    "authors24_max": 1,
-    "chats24_max": 1,
-    "first_utc": "2026-11-12T15:32+00:00"
-   },
-   "OPRX": {
-    "m24_max": 2,
-    "authors24_max": 2,
-    "chats24_max": 2,
-    "first_utc": "2026-11-12T14:07+00:00"
    }
   },
   "telegram_all": {
    "GABC": {
-    "m24_max": 6,
+    "m24_max": 12,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-12T13:53+00:00"
@@ -10948,7 +11424,7 @@
     "first_utc": "2026-11-12T13:12+00:00"
    },
    "RARE": {
-    "m24_max": 2,
+    "m24_max": 3,
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-12T13:37+00:00"
@@ -11366,6 +11842,36 @@
     "authors24_max": 1,
     "chats24_max": 1,
     "first_utc": "2026-11-13T07:53+00:00"
+   },
+   "EYE": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-13T12:06+00:00"
+   },
+   "ORI": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-13T12:03+00:00"
+   },
+   "MRK": {
+    "m24_max": 4,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-13T11:40+00:00"
+   },
+   "PD": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-13T11:40+00:00"
+   },
+   "XHR": {
+    "m24_max": 1,
+    "authors24_max": 1,
+    "chats24_max": 1,
+    "first_utc": "2026-11-13T11:31+00:00"
    }
   }
  },

@@ -1,9 +1,9 @@
 {
  "month": "2026-11",
- "month_credits": 2037,
+ "month_credits": 2146,
  "exhausted": false,
- "day": "2026-11-12",
- "day_credits": 153,
+ "day": "2026-11-13",
+ "day_credits": 109,
  "done": [
   "2026-11-02T12",
   "2026-11-02T17",
@@ -20,63 +20,16 @@
   "2026-11-10T17",
   "2026-11-11T17",
   "2026-11-12T12",
-  "2026-11-12T17"
+  "2026-11-12T17",
+  "2026-11-13T12"
  ],
  "tickers": {
-  "TIL": {
-   "posts": 0,
-   "posts6": 0,
-   "authors": 0,
-   "likes": 0,
-   "ts": "2026-11-09T17:07+00:00",
-   "full": true
-  },
-  "GPUS": {
-   "posts": 0,
-   "posts6": 0,
-   "authors": 0,
-   "likes": 0,
-   "ts": "2026-11-09T17:07+00:00",
-   "full": true
-  },
-  "MSS": {
-   "posts": 0,
-   "posts6": 0,
-   "authors": 0,
-   "likes": 0,
-   "ts": "2026-11-09T17:07+00:00",
-   "full": true
-  },
   "VIVK": {
    "posts": 4,
    "posts6": 1,
    "authors": 4,
    "likes": 5,
    "ts": "2026-11-12T13:07+00:00",
-   "full": true
-  },
-  "HRTX": {
-   "posts": 6,
-   "posts6": 6,
-   "authors": 6,
-   "likes": 1,
-   "ts": "2026-11-09T17:07+00:00",
-   "full": true
-  },
-  "UBS": {
-   "posts": 0,
-   "posts6": 0,
-   "authors": 0,
-   "likes": 0,
-   "ts": "2026-11-09T17:07+00:00",
-   "full": true
-  },
-  "FTH": {
-   "posts": 4,
-   "posts6": 4,
-   "authors": 4,
-   "likes": 0,
-   "ts": "2026-11-09T17:07+00:00",
    "full": true
   },
   "OMH": {
@@ -208,11 +161,11 @@
    "full": true
   },
   "PLCE": {
-   "posts": 4,
-   "posts6": 4,
-   "authors": 4,
-   "likes": 2,
-   "ts": "2026-11-12T17:07+00:00",
+   "posts": 7,
+   "posts6": 7,
+   "authors": 7,
+   "likes": 10,
+   "ts": "2026-11-13T13:07+00:00",
    "full": true
   },
   "CARL": {
@@ -224,20 +177,71 @@
    "full": true
   },
   "RKDA": {
+   "posts": 8,
+   "posts6": 1,
+   "authors": 8,
+   "likes": 0,
+   "ts": "2026-11-13T13:07+00:00",
+   "full": true
+  },
+  "YFOR": {
+   "posts": 9,
+   "posts6": 9,
+   "authors": 5,
+   "likes": 16,
+   "ts": "2026-11-13T13:07+00:00",
+   "full": true
+  },
+  "XLAB": {
+   "posts": 10,
+   "posts6": 10,
+   "authors": 10,
+   "likes": 20,
+   "ts": "2026-11-13T13:07+00:00",
+   "full": true
+  },
+  "POAS": {
    "posts": 6,
-   "posts6": 3,
+   "posts6": 6,
    "authors": 6,
-   "likes": 3,
-   "ts": "2026-11-12T17:07+00:00",
+   "likes": 6,
+   "ts": "2026-11-13T13:07+00:00",
+   "full": true
+  },
+  "JOB": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-13T13:07+00:00",
+   "full": true
+  },
+  "ALVO": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-13T13:07+00:00",
+   "full": true
+  },
+  "ALT": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-13T13:07+00:00",
    "full": true
   }
  },
  "discovery": {
-  "day": "2026-11-12",
+  "day": "2026-11-13",
   "tickers": {
+   "OPEN": 2,
+   "CBRS": 1,
+   "MARA": 1,
    "BTC": 1,
-   "GME": 1
+   "XRP": 1
   }
  },
- "discovery_day": "2026-11-12"
+ "discovery_day": "2026-11-13"
 }

@@ -1,23 +1,8 @@
 {
- "ts": "2026-11-13T11:07+00:00",
+ "ts": "2026-11-13T13:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
-  "PLCE": {
-   "m6": 1,
-   "m24": 3,
-   "authors6": 1,
-   "authors24": 3,
-   "subs6": [
-    "Shortsqueeze"
-   ],
-   "subs24": [
-    "Shortsqueeze",
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-12T16:10+00:00",
-   "sample": "r/smallstreetbets: ⚡AFTERNOON WATCHLIST⚡"
-  },
   "AIM": {
    "m6": 0,
    "m24": 2,
@@ -30,7 +15,7 @@
    "first_utc": "2026-11-13T03:19+00:00",
    "sample": "r/pennystocks: Arrow Exploration (OTC: CSTPF; TSXV: AXL; AIM: AXL; Frankfurt: C1JT)"
   },
-  "SHFS": {
+  "POAS": {
    "m6": 1,
    "m24": 2,
    "authors6": 1,
@@ -39,12 +24,26 @@
     "pennystocks"
    ],
    "subs24": [
-    "pennystocks"
+    "pennystocks",
+    "smallstreetbets"
    ],
-   "first_utc": "2026-11-12T13:33+00:00",
-   "sample": "r/pennystocks: $SHFS the float was bought and sold multiple times over how high could this of gone if eve"
+   "first_utc": "2026-11-12T20:04+00:00",
+   "sample": "r/smallstreetbets: ⚡AFTERNOON WATCHLIST⚡"
   },
-  "PG": {
+  "PLCE": {
+   "m6": 0,
+   "m24": 2,
+   "authors6": 0,
+   "authors24": 2,
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-12T16:10+00:00",
+   "sample": "r/smallstreetbets: ⚡AFTERNOON WATCHLIST⚡"
+  },
+  "MCD": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -58,7 +57,7 @@
    "first_utc": "2026-11-13T09:00+00:00",
    "sample": "r/smallstreetbets: Steady slow stock or fast stock?"
   },
-  "MCD": {
+  "PG": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -110,30 +109,6 @@
    "first_utc": "2026-11-12T20:04+00:00",
    "sample": "r/pennystocks: CLGN to Begin Trading on Nasdaq Under New Ticker Symbol “OPHI”"
   },
-  "SMX": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-12T20:04+00:00",
-   "sample": "r/smallstreetbets: ⚡AFTERNOON WATCHLIST⚡"
-  },
-  "POAS": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-12T20:04+00:00",
-   "sample": "r/smallstreetbets: ⚡AFTERNOON WATCHLIST⚡"
-  },
   "GT": {
    "m6": 0,
    "m24": 1,
@@ -146,7 +121,19 @@
    "first_utc": "2026-11-12T20:04+00:00",
    "sample": "r/smallstreetbets: ⚡AFTERNOON WATCHLIST⚡"
   },
-  "TLS": {
+  "SMX": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-12T20:04+00:00",
+   "sample": "r/smallstreetbets: ⚡AFTERNOON WATCHLIST⚡"
+  },
+  "PANW": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -170,7 +157,7 @@
    "first_utc": "2026-11-12T19:16+00:00",
    "sample": "r/pennystocks: The Growing Business of Data Protection"
   },
-  "PANW": {
+  "TLS": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -218,7 +205,19 @@
    "first_utc": "2026-11-12T14:52+00:00",
    "sample": "r/smallstreetbets: NVDA $170c 11/20 EXP, got in and got out."
   },
-  "MRLN": {
+  "SHFS": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-12T13:33+00:00",
+   "sample": "r/pennystocks: $SHFS the float was bought and sold multiple times over how high could this of gone if eve"
+  },
+  "VIVK": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -229,7 +228,91 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-13T10:27+00:00",
+   "first_utc": "2026-11-13T13:00+00:00",
+   "sample": ""
+  },
+  "TTWO": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T12:58+00:00",
+   "sample": ""
+  },
+  "DGXX": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T12:46+00:00",
+   "sample": ""
+  },
+  "XXII": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "Shortsqueeze"
+   ],
+   "subs24": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-13T12:45+00:00",
+   "sample": ""
+  },
+  "ZBAO": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T12:35+00:00",
+   "sample": ""
+  },
+  "STAK": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T12:23+00:00",
+   "sample": ""
+  },
+  "PARA": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T12:12+00:00",
    "sample": ""
   }
  },
