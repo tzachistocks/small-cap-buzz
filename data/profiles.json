@@ -397,5 +397,26 @@
   "asia": null,
   "sic": "Retail-Hobby, Toy & Game Shops",
   "ts": "2026-11-12T21:08+00:00"
+ },
+ "CV": {
+  "country": "CA",
+  "inc": "DE",
+  "asia": null,
+  "sic": "Electromedical & Electrotherapeutic Apparatus",
+  "ts": "2026-11-13T07:08+00:00"
+ },
+ "AIM": {
+  "country": "FL",
+  "inc": "DE",
+  "asia": null,
+  "sic": "Biological Products, (No Diagnostic Substances)",
+  "ts": "2026-11-13T07:08+00:00"
+ },
+ "CENN": {
+  "country": "NJ",
+  "inc": "NV",
+  "asia": null,
+  "sic": "Motor Vehicles & Passenger Car Bodies",
+  "ts": "2026-11-13T07:08+00:00"
  }
 }

@@ -3556,8 +3556,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 4,
-   "last_close": 2.865000009536743,
-   "last_pct": 6.5,
+   "last_close": 2.869999885559082,
+   "last_pct": 6.7,
    "max_close_pct": 9.7,
    "max_high_pct": 10.8,
    "d1_pct": 1.1
@@ -3679,8 +3679,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 4,
-   "last_close": 3.680000066757202,
-   "last_pct": -10.9,
+   "last_close": 3.6700000762939453,
+   "last_pct": -11.1,
    "max_close_pct": 6.1,
    "max_high_pct": 8.7,
    "d1_pct": 5.3
@@ -3807,9 +3807,9 @@
   "telegram_sent": true,
   "outcome": {
    "days": 3,
-   "last_close": 0.26750001311302185,
-   "last_pct": 1.9,
-   "max_close_pct": 1.9,
+   "last_close": 0.2680000066757202,
+   "last_pct": 2.1,
+   "max_close_pct": 2.1,
    "max_high_pct": 20.0,
    "d1_pct": -0.2
   },
@@ -4055,8 +4055,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 3,
-   "last_close": 0.23489999771118164,
-   "last_pct": 6.4,
+   "last_close": 0.23499999940395355,
+   "last_pct": 6.5,
    "max_close_pct": 19.6,
    "max_high_pct": 41.4,
    "d1_pct": -0.3
@@ -4190,10 +4190,10 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 0.05640000104904175,
-   "last_pct": -5.4,
+   "last_close": 0.05999999865889549,
+   "last_pct": 0.7,
    "max_close_pct": 0.7,
-   "max_high_pct": 4.7,
+   "max_high_pct": 0.7,
    "d1_pct": 0.7
   },
   "followups": {
@@ -4661,11 +4661,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 3.680000066757202,
-   "last_pct": -8.7,
-   "max_close_pct": -8.7,
-   "max_high_pct": 0.7,
-   "d1_pct": -8.7
+   "last_close": 3.6700000762939453,
+   "last_pct": -8.9,
+   "max_close_pct": -8.9,
+   "max_high_pct": 1.2,
+   "d1_pct": -8.9
   },
   "followups": {}
  },
@@ -4771,11 +4771,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 57.93000030517578,
-   "last_pct": -2.0,
-   "max_close_pct": -2.0,
+   "last_close": 57.63999938964844,
+   "last_pct": -2.5,
+   "max_close_pct": -2.5,
    "max_high_pct": 11.0,
-   "d1_pct": -2.0
+   "d1_pct": -2.5
   },
   "followups": {}
  },
@@ -4888,11 +4888,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 2.4549999237060547,
-   "last_pct": 1.9,
-   "max_close_pct": 1.9,
-   "max_high_pct": 4.3,
-   "d1_pct": 1.9
+   "last_close": 2.4600000381469727,
+   "last_pct": 2.1,
+   "max_close_pct": 2.1,
+   "max_high_pct": 4.6,
+   "d1_pct": 2.1
   },
   "followups": {}
  },
@@ -5002,12 +5002,13 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 28.420000076293945,
-   "last_pct": 0.0,
-   "max_close_pct": 0.0,
-   "max_high_pct": 1.7,
-   "d1_pct": 0.0
-  }
+   "last_close": 28.40999984741211,
+   "last_pct": -0.0,
+   "max_close_pct": -0.0,
+   "max_high_pct": 1.9,
+   "d1_pct": -0.0
+  },
+  "followups": {}
  },
  {
   "id": "202611122107-TIL",
@@ -5115,6 +5116,132 @@
    "max_close_pct": 0.6,
    "max_high_pct": 6.9,
    "d1_pct": 0.6
-  }
+  },
+  "followups": {}
+ },
+ {
+  "id": "202611130707-LINK",
+  "ts": "2026-11-13T07:07+00:00",
+  "ticker": "LINK",
+  "score": 4,
+  "why": [
+   "פיזור ב-7 פורומים",
+   "שיח עולה 3 ימים ברציפות (11→13→15)",
+   "פלואט 3.5M",
+   "SEC רגיל: 8-K 2.02 (תוצאות) (2026-11-12)"
+  ],
+  "price": {
+   "price": 3.0197,
+   "prev_close": 3.285,
+   "move_pct": -8.08,
+   "vol_today": 34100,
+   "avg_vol20": 21720,
+   "rel_vol": 1.57,
+   "exchange": "NCM",
+   "name": "Interlink Electronics, Inc.",
+   "readiness": {
+    "points": 1,
+    "why": [
+     "ירדה 53% משיא 60 יום"
+    ],
+    "risk": [],
+    "asof": "2026-11-12",
+    "f": {
+     "rvol_1": 1.6434,
+     "atr_ratio": 0.8727,
+     "drawdown_60": -0.5308,
+     "vol20": 0.0517,
+     "prior_runs_120": 0.0,
+     "ret_1d": -0.0586,
+     "ret_3d": -0.0409,
+     "ret_10d": -0.2543,
+     "days_since_rsplit": null,
+     "near_20d_high": 0.6839
+    }
+   }
+  },
+  "fund": {
+   "market_cap_m": 48.05,
+   "float_m": 3.54,
+   "short_float_pct": 0.71,
+   "days_to_cover": 0.8,
+   "src": "finviz"
+  },
+  "m_now": 15,
+  "m_24h_ago": 6,
+  "spread": [
+   "Daytrading",
+   "Shortsqueeze",
+   "WallStreetbetsELITE",
+   "Wallstreetbetsnew",
+   "pennystocks",
+   "stocks",
+   "wallstreetbets"
+  ],
+  "reddit": {},
+  "stocktwits": {
+   "msgs_6h": 0,
+   "users": 25,
+   "bull": 5,
+   "bear": 1,
+   "oldest_min": 179543,
+   "watchlist": 1022
+  },
+  "borrow": {
+   "fee": 2.1871,
+   "available": 85000,
+   "fee_5d": 2.2351,
+   "available_5d": 35000
+  },
+  "xueqiu": null,
+  "youtube": null,
+  "telegram": null,
+  "x": null,
+  "profile": {
+   "country": "CA",
+   "inc": "NV",
+   "asia": null,
+   "sic": "Computer Peripheral Equipment, NEC",
+   "ts": "2026-10-22T23:16+00:00"
+  },
+  "sec": {
+   "dilution": [],
+   "catalysts": [
+    "8-K 2026-11-12"
+   ],
+   "filings": [
+    {
+     "class": "weak",
+     "label": "8-K 2.02 (תוצאות)",
+     "date": "2026-11-12"
+    }
+   ],
+   "rsplit": null,
+   "cik": 828146
+  },
+  "forum": {
+   "rising": [
+    11,
+    13,
+    15
+   ],
+   "novel": false
+  },
+  "invalidation": 2.5667,
+  "news": {
+   "ticker": "LINK",
+   "title": "Interlink Electronics Reports Third Quarter 2026 Results",
+   "src": "Yahoo",
+   "ts": "2026-11-12T14:00+00:00",
+   "class": "neutral",
+   "rule": "",
+   "offering": false,
+   "amount_m": null
+  },
+  "urgent": false,
+  "urgent_why": [],
+  "path": "buzz",
+  "telegram_sent": true,
+  "outcome": {}
  }
 ]

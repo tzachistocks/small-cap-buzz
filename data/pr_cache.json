@@ -1,11 +1,5 @@
 [
  {
-  "ticker": "ASX",
-  "title": "ASE Technology Holding Co., Ltd. Announces Monthly Net Revenues*",
-  "src": "PR Newswire",
-  "ts": "2026-11-10T07:00+00:00"
- },
- {
   "ticker": "CAN",
   "title": "Canaan Inc. Announces Plan to Implement ADS Ratio Change",
   "src": "PR Newswire",
@@ -328,5 +322,11 @@
   "title": "AGNC Investment Corp. Declares Monthly Common Stock Dividend of $0.12 per Common Share for November 2026",
   "src": "PR Newswire",
   "ts": "2026-11-12T21:01+00:00"
+ },
+ {
+  "ticker": "YRD",
+  "title": "Robbins LLP Urges YRD Investors Who Lost Money Investing in Yiren Digital Ltd. to Contact the Firm for Information About Leading the Class Action",
+  "src": "PR Newswire",
+  "ts": "2026-11-13T06:09+00:00"
  }
 ]
