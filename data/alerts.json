@@ -3811,9 +3811,9 @@
   "telegram_sent": true,
   "outcome": {
    "days": 4,
-   "last_close": 0.260699987411499,
-   "last_pct": -0.7,
-   "max_close_pct": 2.1,
+   "last_close": 0.2700999975204468,
+   "last_pct": 2.9,
+   "max_close_pct": 2.9,
    "max_high_pct": 20.0,
    "d1_pct": -0.2
   },
@@ -3925,8 +3925,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 4,
-   "last_close": 3.0999999046325684,
-   "last_pct": -2.5,
+   "last_close": 2.8499999046325684,
+   "last_pct": -10.4,
    "max_close_pct": 3.8,
    "max_high_pct": 7.9,
    "d1_pct": 3.8
@@ -4059,8 +4059,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 4,
-   "last_close": 0.22030000388622284,
-   "last_pct": -0.2,
+   "last_close": 0.21699999272823334,
+   "last_pct": -1.7,
    "max_close_pct": 19.6,
    "max_high_pct": 41.4,
    "d1_pct": -0.3
@@ -4194,8 +4194,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 3,
-   "last_close": 0.0575999990105629,
-   "last_pct": -3.4,
+   "last_close": 0.05999999865889549,
+   "last_pct": 0.7,
    "max_close_pct": 0.7,
    "max_high_pct": 0.7,
    "d1_pct": 0.7
@@ -4306,10 +4306,10 @@
   "telegram_sent": true,
   "outcome": {
    "days": 3,
-   "last_close": 4.355100154876709,
-   "last_pct": 0.8,
-   "max_close_pct": 2.1,
-   "max_high_pct": 2.5,
+   "last_close": 4.46999979019165,
+   "last_pct": 3.5,
+   "max_close_pct": 3.5,
+   "max_high_pct": 4.5,
    "d1_pct": 2.1
   },
   "followups": {}
@@ -4427,8 +4427,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 3,
-   "last_close": 3.0999999046325684,
-   "last_pct": -6.1,
+   "last_close": 2.8499999046325684,
+   "last_pct": -13.6,
    "max_close_pct": -1.8,
    "max_high_pct": 3.9,
    "d1_pct": -1.8
@@ -4556,10 +4556,10 @@
   "telegram_sent": true,
   "outcome": {
    "days": 3,
-   "last_close": 4.355100154876709,
-   "last_pct": -0.8,
-   "max_close_pct": 0.5,
-   "max_high_pct": 0.9,
+   "last_close": 4.46999979019165,
+   "last_pct": 1.8,
+   "max_close_pct": 1.8,
+   "max_high_pct": 2.9,
    "d1_pct": 0.5
   },
   "followups": {}
@@ -4665,8 +4665,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 3.2699999809265137,
-   "last_pct": -18.9,
+   "last_close": 3.2500998973846436,
+   "last_pct": -19.4,
    "max_close_pct": -8.9,
    "max_high_pct": 1.2,
    "d1_pct": -8.9
@@ -4777,7 +4777,7 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 57.2599983215332,
+   "last_close": 57.279998779296875,
    "last_pct": -3.1,
    "max_close_pct": -2.5,
    "max_high_pct": 11.0,
@@ -4894,8 +4894,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 2.299999952316284,
-   "last_pct": -4.5,
+   "last_close": 2.259999990463257,
+   "last_pct": -6.2,
    "max_close_pct": 2.1,
    "max_high_pct": 4.6,
    "d1_pct": 2.1
@@ -5008,10 +5008,10 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 29.260000228881836,
-   "last_pct": 3.0,
-   "max_close_pct": 3.0,
-   "max_high_pct": 3.5,
+   "last_close": 29.479999542236328,
+   "last_pct": 3.7,
+   "max_close_pct": 3.7,
+   "max_high_pct": 4.0,
    "d1_pct": -0.0
   },
   "followups": {}
@@ -5117,8 +5117,8 @@
   "telegram_sent": true,
   "outcome": {
    "days": 2,
-   "last_close": 6.199999809265137,
-   "last_pct": -0.0,
+   "last_close": 6.079999923706055,
+   "last_pct": -1.9,
    "max_close_pct": 0.6,
    "max_high_pct": 6.9,
    "d1_pct": 0.6
@@ -5250,11 +5250,11 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 3.0999999046325684,
-   "last_pct": 2.7,
-   "max_close_pct": 2.7,
+   "last_close": 2.8499999046325684,
+   "last_pct": -5.6,
+   "max_close_pct": -5.6,
    "max_high_pct": 4.1,
-   "d1_pct": 2.7
+   "d1_pct": -5.6
   },
   "followups": {}
  },
@@ -5383,11 +5383,12 @@
   "telegram_sent": true,
   "outcome": {
    "days": 1,
-   "last_close": 2.515000104904175,
-   "last_pct": 0.0,
-   "max_close_pct": 0.0,
+   "last_close": 2.5199999809265137,
+   "last_pct": 0.2,
+   "max_close_pct": 0.2,
    "max_high_pct": 2.2,
-   "d1_pct": 0.0
-  }
+   "d1_pct": 0.2
+  },
+  "followups": {}
  }
 ]

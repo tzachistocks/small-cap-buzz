@@ -12831,6 +12831,130 @@
     "smallstreetbets"
    ],
    "first_utc": "2026-11-13T16:44+00:00"
+  },
+  "GOAI": {
+   "m24_max": 4,
+   "authors24_max": 3,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T20:26+00:00",
+   "sample": "r/pennystocks: Eva Live ($GOAI), an ad-tech company, announced EvaFarmSight, an AI crop platform with dro"
+  },
+  "SPCE": {
+   "m24_max": 3,
+   "authors24_max": 3,
+   "subs": [
+    "pennystocks",
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-13T19:42+00:00",
+   "sample": "r/pennystocks: $SPCE"
+  },
+  "AKAN": {
+   "m24_max": 3,
+   "authors24_max": 3,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-13T20:12+00:00",
+   "sample": "r/Shortsqueeze: $AKAN is running again but why?"
+  },
+  "VTOL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T20:28+00:00",
+   "sample": "r/pennystocks: Eva Live ($GOAI), an ad-tech company, announced EvaFarmSight, an AI crop platform with dro"
+  },
+  "PUSA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-13T19:02+00:00",
+   "sample": "r/smallstreetbets: What to do? Advice?"
+  },
+  "INLF": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T18:51+00:00",
+   "sample": "r/pennystocks: Weekend Swing Trade idea"
+  },
+  "DYOR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T18:51+00:00",
+   "sample": "r/pennystocks: Weekend Swing Trade idea"
+  },
+  "VJET": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T18:34+00:00",
+   "sample": "r/pennystocks: Flyte Aviation (VJET, formerly Catheter Precision) lists Fort Mill, SC as principal execut"
+  },
+  "VTAK": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T18:34+00:00",
+   "sample": "r/pennystocks: Flyte Aviation (VJET, formerly Catheter Precision) lists Fort Mill, SC as principal execut"
+  },
+  "CIK": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T18:34+00:00",
+   "sample": "r/pennystocks: Flyte Aviation (VJET, formerly Catheter Precision) lists Fort Mill, SC as principal execut"
+  },
+  "HQ": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T18:34+00:00",
+   "sample": "r/pennystocks: Flyte Aviation (VJET, formerly Catheter Precision) lists Fort Mill, SC as principal execut"
+  },
+  "GYGY": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T20:33+00:00"
+  },
+  "OBAI": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T20:33+00:00"
+  },
+  "GME": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-13T20:06+00:00"
   }
  }
 }

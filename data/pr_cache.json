@@ -1,71 +1,5 @@
 [
  {
-  "ticker": "DGX",
-  "title": "Quest Diagnostics Declares Quarterly Cash Dividend",
-  "src": "PR Newswire",
-  "ts": "2026-11-10T21:06+00:00"
- },
- {
-  "ticker": "NUVB",
-  "title": "Nuvation Bio to Present at the Jefferies Global Healthcare Conference in London",
-  "src": "PR Newswire",
-  "ts": "2026-11-10T21:05+00:00"
- },
- {
-  "ticker": "RDNW",
-  "title": "RideNow Group, Inc. Reports Third Quarter 2026 Financial Results",
-  "src": "PR Newswire",
-  "ts": "2026-11-10T21:05+00:00"
- },
- {
-  "ticker": "HGTY",
-  "title": "Hagerty Announces Secondary Offering of its Class A Common Stock",
-  "src": "PR Newswire",
-  "ts": "2026-11-10T21:05+00:00"
- },
- {
-  "ticker": "HAWK",
-  "title": "HawkEye 360 Appoints Former CIA Director Ambassador William J. Burns to Board of Directors",
-  "src": "PR Newswire",
-  "ts": "2026-11-10T21:05+00:00"
- },
- {
-  "ticker": "QUIK",
-  "title": "QuickLogic Reports Fiscal Third Quarter 2026 Financial Results",
-  "src": "PR Newswire",
-  "ts": "2026-11-10T21:02+00:00"
- },
- {
-  "ticker": "NBIX",
-  "title": "Neurocrine Biosciences to Present at the 2026 Jefferies Global Healthcare Conference",
-  "src": "PR Newswire",
-  "ts": "2026-11-10T21:01+00:00"
- },
- {
-  "ticker": "SLAB",
-  "title": "Silicon Labs Reports Third Quarter 2026 Results",
-  "src": "PR Newswire",
-  "ts": "2026-11-10T21:01+00:00"
- },
- {
-  "ticker": "ASTH",
-  "title": "Foothill Regional Medical Center Recognized Among Healthgrades' 2027 America's 100 Best Hospitals for Orthopedic Surgery and Joint Replacement",
-  "src": "PR Newswire",
-  "ts": "2026-11-10T21:00+00:00"
- },
- {
-  "ticker": "CPIX",
-  "title": "CUMBERLAND PHARMACEUTICALS REPORTS Q3 2026 FINANCIAL RESULTS & COMPANY UPDATE",
-  "src": "PR Newswire",
-  "ts": "2026-11-10T21:00+00:00"
- },
- {
-  "ticker": "CVLT",
-  "title": "Commvault Honors Partners Advancing AI Recovery at SHIFT 2026 Nashville",
-  "src": "PR Newswire",
-  "ts": "2026-11-10T21:00+00:00"
- },
- {
   "ticker": "CAAS",
   "title": "China Automotive Systems Reports Record Third Quarter 2026 EPS Sales; Board Approves $5 Million Share Repurchase Program",
   "src": "PR Newswire",
@@ -358,5 +292,35 @@
   "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against Arbor Realty Trust, Inc. (NYSE: ABR) -- Investors Who Suffered Losses Are Encouraged to Contact the Firm.",
   "src": "PR Newswire",
   "ts": "2026-11-13T17:00+00:00"
+ },
+ {
+  "ticker": "FIEE",
+  "title": "FiEE, Inc. Announces Third Quarter 2026 Unaudited Financial Results",
+  "src": "PR Newswire",
+  "ts": "2026-11-13T21:05+00:00"
+ },
+ {
+  "ticker": "CRGO",
+  "title": "Freightos Receives Nasdaq Notice Regarding Minimum Bid Price Requirement",
+  "src": "PR Newswire",
+  "ts": "2026-11-13T21:05+00:00"
+ },
+ {
+  "ticker": "CNF",
+  "title": "CNFinance Announces Change of Auditor",
+  "src": "PR Newswire",
+  "ts": "2026-11-13T21:05+00:00"
+ },
+ {
+  "ticker": "INBX",
+  "title": "Inhibrx Reports Third Quarter 2026 Financial Results",
+  "src": "PR Newswire",
+  "ts": "2026-11-13T21:02+00:00"
+ },
+ {
+  "ticker": "BBGI",
+  "title": "BEASLEY BROADCAST GROUP REPORTS THIRD QUARTER REVENUE OF $42.8 MILLION",
+  "src": "PR Newswire",
+  "ts": "2026-11-13T21:00+00:00"
  }
 ]

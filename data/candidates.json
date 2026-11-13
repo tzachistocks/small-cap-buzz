@@ -10969,5 +10969,45 @@
   "alerted": false,
   "urgent": false,
   "outcome": {}
+ },
+ "2026-11-13|HOPE": {
+  "ts": "2026-11-13T21:07+00:00",
+  "ticker": "HOPE",
+  "score": 3,
+  "max_score": 3,
+  "price": 13.02,
+  "move_pct": -0.31,
+  "cap_m": 1660.0,
+  "blocked": [
+   "שווי $1660M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-13|IA": {
+  "ts": "2026-11-13T21:07+00:00",
+  "ticker": "IA",
+  "score": 3,
+  "max_score": 3,
+  "price": 21.07,
+  "move_pct": -2.05,
+  "cap_m": 377.13,
+  "blocked": [],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "low_float"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
  }
 }
