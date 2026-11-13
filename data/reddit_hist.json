@@ -12688,9 +12688,11 @@
    "m24_max": 1,
    "authors24_max": 1,
    "subs": [
-    "pennystocks"
+    "pennystocks",
+    "smallstreetbets"
    ],
-   "first_utc": "2026-11-13T10:27+00:00"
+   "first_utc": "2026-11-13T10:27+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
   "VIVK": {
    "m24_max": 1,
@@ -12728,9 +12730,11 @@
    "m24_max": 1,
    "authors24_max": 1,
    "subs": [
-    "pennystocks"
+    "pennystocks",
+    "smallstreetbets"
    ],
-   "first_utc": "2026-11-13T12:35+00:00"
+   "first_utc": "2026-11-13T12:35+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
   "STAK": {
    "m24_max": 1,
@@ -12739,6 +12743,94 @@
     "pennystocks"
    ],
    "first_utc": "2026-11-13T12:23+00:00"
+  },
+  "AUUD": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T16:40+00:00"
+  },
+  "TUTH": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T15:45+00:00",
+   "sample": "r/pennystocks: Standard Dental Labs (OTC:TUTH): Is It Happening?"
+  },
+  "EDSA": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T15:31+00:00",
+   "sample": "r/pennystocks: EDSA is suffering from heavy shorting, but we can turn this around!"
+  },
+  "SNAL": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-13T14:10+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "FCUV": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-13T14:10+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "ELTP": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T13:48+00:00",
+   "sample": "r/pennystocks: ELTP Q2 FY2027 —Thorough analysis"
+  },
+  "IR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T13:48+00:00",
+   "sample": "r/pennystocks: ELTP Q2 FY2027 —Thorough analysis"
+  },
+  "RAIN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T13:39+00:00",
+   "sample": "r/pennystocks: RAIN hit $1.35 premarket on the Tensor merger, then got its ass handed to it"
+  },
+  "ZM": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-13T13:34+00:00",
+   "sample": "r/smallstreetbets: Bullish on ANT.CN"
+  },
+  "WTF": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-13T16:44+00:00"
   }
  }
 }

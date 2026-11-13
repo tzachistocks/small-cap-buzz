@@ -425,5 +425,12 @@
   "asia": "סין",
   "sic": "Semiconductors & Related Devices",
   "ts": "2026-11-13T13:09+00:00"
+ },
+ "CRWS": {
+  "country": "LA",
+  "inc": "DE",
+  "asia": null,
+  "sic": "Broadwoven Fabric Mills, Cotton",
+  "ts": "2026-11-13T17:08+00:00"
  }
 }

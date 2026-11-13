@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-13T13:07+00:00",
+ "ts": "2026-11-13T17:07+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
@@ -15,35 +15,49 @@
    "first_utc": "2026-11-13T03:19+00:00",
    "sample": "r/pennystocks: Arrow Exploration (OTC: CSTPF; TSXV: AXL; AIM: AXL; Frankfurt: C1JT)"
   },
-  "POAS": {
-   "m6": 1,
+  "AUUD": {
+   "m6": 2,
    "m24": 2,
-   "authors6": 1,
+   "authors6": 2,
    "authors24": 2,
    "subs6": [
     "pennystocks"
    ],
    "subs24": [
-    "pennystocks",
-    "smallstreetbets"
+    "pennystocks"
    ],
-   "first_utc": "2026-11-12T20:04+00:00",
-   "sample": "r/smallstreetbets: ⚡AFTERNOON WATCHLIST⚡"
+   "first_utc": "2026-11-13T16:40+00:00",
+   "sample": ""
   },
-  "PLCE": {
-   "m6": 0,
-   "m24": 2,
-   "authors6": 0,
-   "authors24": 2,
-   "subs6": [],
+  "TUTH": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
    "subs24": [
-    "Shortsqueeze",
-    "smallstreetbets"
+    "pennystocks"
    ],
-   "first_utc": "2026-11-12T16:10+00:00",
-   "sample": "r/smallstreetbets: ⚡AFTERNOON WATCHLIST⚡"
+   "first_utc": "2026-11-13T15:45+00:00",
+   "sample": "r/pennystocks: Standard Dental Labs (OTC:TUTH): Is It Happening?"
   },
-  "MCD": {
+  "EDSA": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T15:31+00:00",
+   "sample": "r/pennystocks: EDSA is suffering from heavy shorting, but we can turn this around!"
+  },
+  "SNAL": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -51,6 +65,116 @@
    "subs6": [
     "smallstreetbets"
    ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-13T14:10+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "ZBAO": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-13T14:10+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "FCUV": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-13T14:10+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "MRLN": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-13T14:10+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "ELTP": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T13:48+00:00",
+   "sample": "r/pennystocks: ELTP Q2 FY2027 —Thorough analysis"
+  },
+  "IR": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T13:48+00:00",
+   "sample": "r/pennystocks: ELTP Q2 FY2027 —Thorough analysis"
+  },
+  "RAIN": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "pennystocks"
+   ],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T13:39+00:00",
+   "sample": "r/pennystocks: RAIN hit $1.35 premarket on the Tensor merger, then got its ass handed to it"
+  },
+  "ZM": {
+   "m6": 1,
+   "m24": 1,
+   "authors6": 1,
+   "authors24": 1,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-13T13:34+00:00",
+   "sample": "r/smallstreetbets: Bullish on ANT.CN"
+  },
+  "MCD": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
    "subs24": [
     "smallstreetbets"
    ],
@@ -58,13 +182,11 @@
    "sample": "r/smallstreetbets: Steady slow stock or fast stock?"
   },
   "PG": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
+   "subs6": [],
    "subs24": [
     "smallstreetbets"
    ],
@@ -72,13 +194,11 @@
    "sample": "r/smallstreetbets: Steady slow stock or fast stock?"
   },
   "MOD": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
-   ],
+   "subs6": [],
    "subs24": [
     "smallstreetbets"
    ],
@@ -109,6 +229,30 @@
    "first_utc": "2026-11-12T20:04+00:00",
    "sample": "r/pennystocks: CLGN to Begin Trading on Nasdaq Under New Ticker Symbol “OPHI”"
   },
+  "POAS": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-12T20:04+00:00",
+   "sample": "r/smallstreetbets: ⚡AFTERNOON WATCHLIST⚡"
+  },
+  "PLCE": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-12T20:04+00:00",
+   "sample": "r/smallstreetbets: ⚡AFTERNOON WATCHLIST⚡"
+  },
   "GT": {
    "m6": 0,
    "m24": 1,
@@ -132,18 +276,6 @@
    ],
    "first_utc": "2026-11-12T20:04+00:00",
    "sample": "r/smallstreetbets: ⚡AFTERNOON WATCHLIST⚡"
-  },
-  "PANW": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-12T19:16+00:00",
-   "sample": "r/pennystocks: The Growing Business of Data Protection"
   },
   "PLUR": {
    "m6": 0,
@@ -169,7 +301,7 @@
    "first_utc": "2026-11-12T19:16+00:00",
    "sample": "r/pennystocks: The Growing Business of Data Protection"
   },
-  "AIMD": {
+  "PANW": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -178,141 +310,21 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-12T16:28+00:00",
-   "sample": "r/pennystocks: Ainos (AIMD) Secures $9 Million Agreement for 5,000 Additional AI Nose Systems"
+   "first_utc": "2026-11-12T19:16+00:00",
+   "sample": "r/pennystocks: The Growing Business of Data Protection"
   },
-  "NBIS": {
-   "m6": 0,
+  "WTF": {
+   "m6": 1,
    "m24": 1,
-   "authors6": 0,
+   "authors6": 1,
    "authors24": 1,
-   "subs6": [],
+   "subs6": [
+    "smallstreetbets"
+   ],
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-11-12T15:02+00:00",
-   "sample": "r/smallstreetbets: Oops"
-  },
-  "EXP": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-12T14:52+00:00",
-   "sample": "r/smallstreetbets: NVDA $170c 11/20 EXP, got in and got out."
-  },
-  "SHFS": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-12T13:33+00:00",
-   "sample": "r/pennystocks: $SHFS the float was bought and sold multiple times over how high could this of gone if eve"
-  },
-  "VIVK": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-13T13:00+00:00",
-   "sample": ""
-  },
-  "TTWO": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-13T12:58+00:00",
-   "sample": ""
-  },
-  "DGXX": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-13T12:46+00:00",
-   "sample": ""
-  },
-  "XXII": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "Shortsqueeze"
-   ],
-   "subs24": [
-    "Shortsqueeze"
-   ],
-   "first_utc": "2026-11-13T12:45+00:00",
-   "sample": ""
-  },
-  "ZBAO": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-13T12:35+00:00",
-   "sample": ""
-  },
-  "STAK": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-13T12:23+00:00",
-   "sample": ""
-  },
-  "PARA": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-13T12:12+00:00",
+   "first_utc": "2026-11-13T16:44+00:00",
    "sample": ""
   }
  },

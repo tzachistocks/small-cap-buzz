@@ -10514,7 +10514,8 @@
    "low_float",
    "rvol",
    "rsplit",
-   "x_buzz"
+   "x_buzz",
+   "relaxed_gate"
   ],
   "alerted": false,
   "urgent": false,
@@ -10853,6 +10854,117 @@
    "x_buzz",
    "low_float",
    "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-13|MOD": {
+  "ts": "2026-11-13T17:07+00:00",
+  "ticker": "MOD",
+  "score": 6,
+  "max_score": 6,
+  "price": 138.63,
+  "move_pct": 30.66,
+  "cap_m": 7370.0,
+  "blocked": [
+   "כבר זזה +31%",
+   "שווי $7370M"
+  ],
+  "tags": [
+   "accel",
+   "vel3h",
+   "novel",
+   "st_trend",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-13|CRWS": {
+  "ts": "2026-11-13T17:07+00:00",
+  "ticker": "CRWS",
+  "score": 5,
+  "max_score": 5,
+  "price": 2.515,
+  "move_pct": 3.5,
+  "cap_m": 27.01,
+  "blocked": [],
+  "tags": [
+   "accel",
+   "vel3h",
+   "novel",
+   "x_weak",
+   "low_float",
+   "sec_weak",
+   "pr_weak"
+  ],
+  "alerted": true,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-13|MSM": {
+  "ts": "2026-11-13T17:07+00:00",
+  "ticker": "MSM",
+  "score": 3,
+  "max_score": 3,
+  "price": 117.725,
+  "move_pct": -1.43,
+  "cap_m": 6590.0,
+  "blocked": [
+   "שווי $6590M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "novel",
+   "low_float"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-13|FCUV": {
+  "ts": "2026-11-13T17:07+00:00",
+  "ticker": "FCUV",
+  "score": 7,
+  "max_score": 7,
+  "price": 6.725,
+  "move_pct": 116.94,
+  "cap_m": 6.59,
+  "blocked": [
+   "כבר זזה +117%"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "spread",
+   "novel",
+   "low_float",
+   "rvol"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-13|OMH": {
+  "ts": "2026-11-13T17:07+00:00",
+  "ticker": "OMH",
+  "score": 3,
+  "max_score": 3,
+  "price": 5.2001,
+  "move_pct": 2.77,
+  "cap_m": 11.07,
+  "blocked": [
+   "כבר רצה +66% ב-10 ימים"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "spread",
+   "telegram_weak",
+   "low_float"
   ],
   "alerted": false,
   "urgent": false,

@@ -1,11 +1,5 @@
 [
  {
-  "ticker": "PII",
-  "title": "POLARIS MARKS THE CLOSE OF 20TH ANNIVERSARY YEAR OF TRAILS GRANTS WITH MORE THAN $250,000 IN 2026 GIVING",
-  "src": "PR Newswire",
-  "ts": "2026-11-10T17:05+00:00"
- },
- {
   "ticker": "DGX",
   "title": "Quest Diagnostics Declares Quarterly Cash Dividend",
   "src": "PR Newswire",
@@ -334,5 +328,35 @@
   "title": "ASTS Final Deadline: AST SpaceMobile, Inc. Class Action Lawsuit Seeks Recovery for Investors; November 13, 2026 Deadline- Contact Kessler Topaz Meltzer & Check, LLP",
   "src": "PR Newswire",
   "ts": "2026-11-13T12:26+00:00"
+ },
+ {
+  "ticker": "TOPP",
+  "title": "Toppoint Holdings Inc. Announces Reverse Stock Split",
+  "src": "GlobeNewswire",
+  "ts": "2026-11-13T16:10+00:00"
+ },
+ {
+  "ticker": "BACC",
+  "title": "Blue Acquisition Corp. Announces Postponement of the Extraordinary General Meeting to Approve the Proposed Business Combination with Blockfusion USA, Inc.",
+  "src": "GlobeNewswire",
+  "ts": "2026-11-13T16:09+00:00"
+ },
+ {
+  "ticker": "CVRX",
+  "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against CVRx, Inc. (NASDAQ: CVRX) -- Investors Who Suffered Losses Are Encouraged to Contact the Firm.",
+  "src": "PR Newswire",
+  "ts": "2026-11-13T17:00+00:00"
+ },
+ {
+  "ticker": "NVDA",
+  "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against NVIDIA Corporation (NASDAQ: NVDA) -- Investors Who Suffered Losses Are Encouraged to Contact the Firm",
+  "src": "PR Newswire",
+  "ts": "2026-11-13T17:00+00:00"
+ },
+ {
+  "ticker": "ABR",
+  "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against Arbor Realty Trust, Inc. (NYSE: ABR) -- Investors Who Suffered Losses Are Encouraged to Contact the Firm.",
+  "src": "PR Newswire",
+  "ts": "2026-11-13T17:00+00:00"
  }
 ]

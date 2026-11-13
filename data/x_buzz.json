@@ -1,9 +1,9 @@
 {
  "month": "2026-11",
- "month_credits": 2146,
+ "month_credits": 2190,
  "exhausted": false,
  "day": "2026-11-13",
- "day_credits": 109,
+ "day_credits": 153,
  "done": [
   "2026-11-02T12",
   "2026-11-02T17",
@@ -21,7 +21,8 @@
   "2026-11-11T17",
   "2026-11-12T12",
   "2026-11-12T17",
-  "2026-11-13T12"
+  "2026-11-13T12",
+  "2026-11-13T17"
  ],
  "tickers": {
   "VIVK": {
@@ -185,19 +186,19 @@
    "full": true
   },
   "YFOR": {
-   "posts": 9,
-   "posts6": 9,
-   "authors": 5,
-   "likes": 16,
-   "ts": "2026-11-13T13:07+00:00",
+   "posts": 2,
+   "posts6": 2,
+   "authors": 2,
+   "likes": 3,
+   "ts": "2026-11-13T17:07+00:00",
    "full": true
   },
   "XLAB": {
-   "posts": 10,
-   "posts6": 10,
-   "authors": 10,
-   "likes": 20,
-   "ts": "2026-11-13T13:07+00:00",
+   "posts": 4,
+   "posts6": 4,
+   "authors": 4,
+   "likes": 3,
+   "ts": "2026-11-13T17:07+00:00",
    "full": true
   },
   "POAS": {
@@ -230,6 +231,22 @@
    "authors": 0,
    "likes": 0,
    "ts": "2026-11-13T13:07+00:00",
+   "full": true
+  },
+  "MOD": {
+   "posts": 0,
+   "posts6": 0,
+   "authors": 0,
+   "likes": 0,
+   "ts": "2026-11-13T17:07+00:00",
+   "full": true
+  },
+  "CRWS": {
+   "posts": 1,
+   "posts6": 1,
+   "authors": 1,
+   "likes": 0,
+   "ts": "2026-11-13T17:07+00:00",
    "full": true
   }
  },
