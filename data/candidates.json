@@ -7719,11 +7719,12 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 4,
-   "last_pct": -10.5,
+   "checked": "2026-11-13",
+   "days": 5,
+   "last_pct": -22.1,
    "max_close_pct": 21.5,
-   "max_high_pct": 35.4
+   "max_high_pct": 35.4,
+   "final": true
   }
  },
  "2026-11-06|UIS": {
@@ -7747,11 +7748,12 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 4,
-   "last_pct": 10.5,
+   "checked": "2026-11-13",
+   "days": 5,
+   "last_pct": 7.5,
    "max_close_pct": 10.5,
-   "max_high_pct": 11.6
+   "max_high_pct": 11.6,
+   "final": true
   }
  },
  "2026-11-06|SPCE": {
@@ -7775,11 +7777,12 @@
   "alerted": true,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 4,
-   "last_pct": 1.4,
+   "checked": "2026-11-13",
+   "days": 5,
+   "last_pct": -5.7,
    "max_close_pct": 1.4,
-   "max_high_pct": 3.9
+   "max_high_pct": 3.9,
+   "final": true
   }
  },
  "2026-11-06|OKTA": {
@@ -7802,11 +7805,12 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 4,
-   "last_pct": 9.6,
-   "max_close_pct": 9.6,
-   "max_high_pct": 13.3
+   "checked": "2026-11-13",
+   "days": 5,
+   "last_pct": 9.8,
+   "max_close_pct": 9.8,
+   "max_high_pct": 13.3,
+   "final": true
   }
  },
  "2026-11-06|MO": {
@@ -7829,11 +7833,12 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 4,
-   "last_pct": 1.7,
-   "max_close_pct": 1.7,
-   "max_high_pct": 1.8
+   "checked": "2026-11-13",
+   "days": 5,
+   "last_pct": 2.4,
+   "max_close_pct": 2.4,
+   "max_high_pct": 3.4,
+   "final": true
   }
  },
  "2026-11-06|RC": {
@@ -7855,11 +7860,12 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 4,
-   "last_pct": 2.4,
+   "checked": "2026-11-13",
+   "days": 5,
+   "last_pct": 0.2,
    "max_close_pct": 14.6,
-   "max_high_pct": 33.3
+   "max_high_pct": 33.3,
+   "final": true
   }
  },
  "2026-11-07|VIVK": {
@@ -7884,9 +7890,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 3,
-   "last_pct": -39.6,
+   "checked": "2026-11-13",
+   "days": 4,
+   "last_pct": -45.4,
    "max_close_pct": -8.8,
    "max_high_pct": 17.3
   }
@@ -7910,9 +7916,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 3,
-   "last_pct": -18.5,
+   "checked": "2026-11-13",
+   "days": 4,
+   "last_pct": -15.9,
    "max_close_pct": -12.6,
    "max_high_pct": -4.1
   }
@@ -7937,9 +7943,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 3,
-   "last_pct": 4.3,
+   "checked": "2026-11-13",
+   "days": 4,
+   "last_pct": -2.9,
    "max_close_pct": 4.3,
    "max_high_pct": 6.9
   }
@@ -7963,9 +7969,9 @@
   "alerted": true,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 3,
-   "last_pct": 9.7,
+   "checked": "2026-11-13",
+   "days": 4,
+   "last_pct": 6.7,
    "max_close_pct": 9.7,
    "max_high_pct": 10.8
   }
@@ -7991,9 +7997,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 3,
-   "last_pct": 7.3,
+   "checked": "2026-11-13",
+   "days": 4,
+   "last_pct": -6.6,
    "max_close_pct": 45.7,
    "max_high_pct": 62.3
   }
@@ -8018,9 +8024,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 3,
-   "last_pct": 0.5,
+   "checked": "2026-11-13",
+   "days": 4,
+   "last_pct": -3.6,
    "max_close_pct": 3.8,
    "max_high_pct": 4.8
   }
@@ -8046,9 +8052,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 3,
-   "last_pct": 1.9,
+   "checked": "2026-11-13",
+   "days": 4,
+   "last_pct": 1.5,
    "max_close_pct": 1.9,
    "max_high_pct": 2.6
   }
@@ -8073,9 +8079,9 @@
   "alerted": true,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 3,
-   "last_pct": -2.4,
+   "checked": "2026-11-13",
+   "days": 4,
+   "last_pct": -11.1,
    "max_close_pct": 6.1,
    "max_high_pct": 8.7
   }
@@ -8102,9 +8108,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 3,
-   "last_pct": -10.0,
+   "checked": "2026-11-13",
+   "days": 4,
+   "last_pct": -10.2,
    "max_close_pct": 8.6,
    "max_high_pct": 15.2
   }
@@ -8130,9 +8136,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 3,
-   "last_pct": -1.5,
+   "checked": "2026-11-13",
+   "days": 4,
+   "last_pct": -2.0,
    "max_close_pct": -0.4,
    "max_high_pct": 8.0
   }
@@ -8154,9 +8160,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 3,
-   "last_pct": -7.6,
+   "checked": "2026-11-13",
+   "days": 4,
+   "last_pct": -8.6,
    "max_close_pct": -5.3,
    "max_high_pct": 2.3
   }
@@ -8182,9 +8188,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 3,
-   "last_pct": 2.0,
+   "checked": "2026-11-13",
+   "days": 4,
+   "last_pct": -2.1,
    "max_close_pct": 3.1,
    "max_high_pct": 4.3
   }
@@ -8210,10 +8216,10 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 3,
-   "last_pct": 2.1,
-   "max_close_pct": 2.2,
+   "checked": "2026-11-13",
+   "days": 4,
+   "last_pct": 2.5,
+   "max_close_pct": 2.5,
    "max_high_pct": 4.7
   }
  },
@@ -8237,9 +8243,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 3,
-   "last_pct": -20.1,
+   "checked": "2026-11-13",
+   "days": 4,
+   "last_pct": -24.2,
    "max_close_pct": -11.9,
    "max_high_pct": -1.4
   }
@@ -8264,11 +8270,11 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 3,
-   "last_pct": 6.4,
-   "max_close_pct": 6.4,
-   "max_high_pct": 7.0
+   "checked": "2026-11-13",
+   "days": 4,
+   "last_pct": 6.7,
+   "max_close_pct": 6.7,
+   "max_high_pct": 7.3
   }
  },
  "2026-11-09|USB": {
@@ -8292,9 +8298,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 3,
-   "last_pct": 2.7,
+   "checked": "2026-11-13",
+   "days": 4,
+   "last_pct": 2.3,
    "max_close_pct": 3.2,
    "max_high_pct": 4.1
   }
@@ -8318,11 +8324,11 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 3,
-   "last_pct": 3.9,
+   "checked": "2026-11-13",
+   "days": 4,
+   "last_pct": 5.9,
    "max_close_pct": 8.6,
-   "max_high_pct": 9.2
+   "max_high_pct": 9.9
   }
  },
  "2026-11-09|GPUS": {
@@ -8345,9 +8351,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 3,
-   "last_pct": 20.3,
+   "checked": "2026-11-13",
+   "days": 4,
+   "last_pct": 13.6,
    "max_close_pct": 27.0,
    "max_high_pct": 40.4
   }
@@ -8371,9 +8377,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
-   "days": 3,
-   "last_pct": -8.5,
+   "checked": "2026-11-13",
+   "days": 4,
+   "last_pct": -13.4,
    "max_close_pct": -2.8,
    "max_high_pct": 9.2
   }
@@ -8400,9 +8406,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "days": 4,
-   "last_pct": -47.8,
+   "last_pct": -46.2,
    "max_close_pct": -10.1,
    "max_high_pct": 15.6
   }
@@ -8429,9 +8435,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "days": 4,
-   "last_pct": -11.7,
+   "last_pct": -14.6,
    "max_close_pct": -4.2,
    "max_high_pct": 8.7
   }
@@ -8459,9 +8465,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "days": 4,
-   "last_pct": -35.2,
+   "last_pct": -39.8,
    "max_close_pct": -14.6,
    "max_high_pct": 12.6
   }
@@ -8486,9 +8492,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "days": 4,
-   "last_pct": -16.0,
+   "last_pct": -17.0,
    "max_close_pct": -3.1,
    "max_high_pct": 5.7
   }
@@ -8516,9 +8522,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "days": 4,
-   "last_pct": -93.2,
+   "last_pct": -92.9,
    "max_close_pct": -63.9,
    "max_high_pct": 32.3
   }
@@ -8543,9 +8549,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "days": 4,
-   "last_pct": 11.1,
+   "last_pct": 7.5,
    "max_close_pct": 11.8,
    "max_high_pct": 17.1
   }
@@ -8572,9 +8578,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "days": 4,
-   "last_pct": -11.3,
+   "last_pct": -9.2,
    "max_close_pct": 4.9,
    "max_high_pct": 19.7
   }
@@ -8598,10 +8604,10 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "days": 4,
-   "last_pct": 3.8,
-   "max_close_pct": 3.8,
+   "last_pct": 3.0,
+   "max_close_pct": 3.0,
    "max_high_pct": 31.9
   }
  },
@@ -8622,9 +8628,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "days": 4,
-   "last_pct": -1.4,
+   "last_pct": -6.4,
    "max_close_pct": 1.2,
    "max_high_pct": 5.2
   }
@@ -8653,9 +8659,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "days": 3,
-   "last_pct": -78.2,
+   "last_pct": -77.7,
    "max_close_pct": -26.6,
    "max_high_pct": 317.6
   }
@@ -8679,9 +8685,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "days": 3,
-   "last_pct": -9.9,
+   "last_pct": -13.8,
    "max_close_pct": -0.2,
    "max_high_pct": 8.4
   }
@@ -8706,9 +8712,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "days": 3,
-   "last_pct": -7.9,
+   "last_pct": -10.9,
    "max_close_pct": -0.1,
    "max_high_pct": 10.7
   }
@@ -8733,10 +8739,10 @@
   "alerted": true,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "days": 3,
-   "last_pct": 2.8,
-   "max_close_pct": 2.8,
+   "last_pct": 2.1,
+   "max_close_pct": 2.1,
    "max_high_pct": 20.0
   }
  },
@@ -8762,9 +8768,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "days": 3,
-   "last_pct": -8.5,
+   "last_pct": -12.3,
    "max_close_pct": -3.0,
    "max_high_pct": 0.2
   }
@@ -8788,9 +8794,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "days": 3,
-   "last_pct": -12.7,
+   "last_pct": -10.9,
    "max_close_pct": -5.8,
    "max_high_pct": -0.8
   }
@@ -10283,7 +10289,7 @@
   "ts": "2026-11-13T07:07+00:00",
   "ticker": "PLCE",
   "score": 7,
-  "max_score": 7,
+  "max_score": 8,
   "price": 0.4002,
   "move_pct": 101.61,
   "cap_m": 9.86,
@@ -10374,7 +10380,7 @@
   "ts": "2026-11-13T07:07+00:00",
   "ticker": "MSS",
   "score": 5,
-  "max_score": 5,
+  "max_score": 6,
   "price": 0.92,
   "move_pct": -6.59,
   "cap_m": 2.36,
@@ -10384,7 +10390,9 @@
   "tags": [
    "accel",
    "spread",
-   "low_float"
+   "low_float",
+   "relaxed_gate",
+   "rising"
   ],
   "alerted": false,
   "urgent": false,
@@ -10614,6 +10622,47 @@
    "low_float",
    "rvol",
    "borrow_fee"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-13|SMC": {
+  "ts": "2026-11-13T10:58+00:00",
+  "ticker": "SMC",
+  "score": 3,
+  "max_score": 3,
+  "price": 31.32,
+  "move_pct": 1.39,
+  "cap_m": 636.05,
+  "blocked": [
+   "שווי $636M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "novel",
+   "low_float"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-13|TIL": {
+  "ts": "2026-11-13T10:58+00:00",
+  "ticker": "TIL",
+  "score": 5,
+  "max_score": 5,
+  "price": 6.24,
+  "move_pct": -1.11,
+  "cap_m": 42.32,
+  "blocked": [],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "spread",
+   "rising",
+   "low_float"
   ],
   "alerted": false,
   "urgent": false,
