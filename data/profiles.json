@@ -432,5 +432,12 @@
   "asia": null,
   "sic": "Broadwoven Fabric Mills, Cotton",
   "ts": "2026-11-13T17:08+00:00"
+ },
+ "MMA": {
+  "country": "",
+  "inc": "C3",
+  "asia": null,
+  "sic": "Services-Miscellaneous Business Services",
+  "ts": "2026-11-14T10:27+00:00"
  }
 }

@@ -1,8 +1,8 @@
 {
- "ts": "2026-11-13T21:07+00:00",
+ "ts": "2026-11-14T10:26+00:00",
  "reddit_ok": true,
  "stocktwits_trending": 30,
- "apewisdom_main": 295,
+ "apewisdom_main": 300,
  "apewisdom_subs": [
   "4chan",
   "Daytrading",
@@ -13,12 +13,12 @@
   "stocks",
   "wallstreetbets"
  ],
- "candidates": 7,
+ "candidates": 16,
  "telegram_groups": {
   "mode": "ok",
   "chats_ok": 14,
   "chats_failed": 0,
-  "messages": 364
+  "messages": 250
  },
  "x_weir": {
   "mode": "idle",
@@ -29,30 +29,26 @@
   "note": "לא בחלון X"
  },
  "funnel": {
-  "buzz_tickers": 276,
-  "mention_gate": 15,
+  "buzz_tickers": 268,
+  "mention_gate": 20,
   "reddit_path": 0,
   "telegram_path": 0,
-  "news_path": 1,
-  "skipped_large_cache": 30,
-  "shadow_gate": 21,
-  "to_check": 7,
-  "checked": 7,
+  "news_path": 0,
+  "skipped_large_cache": 31,
+  "shadow_gate": 27,
+  "to_check": 16,
+  "checked": 16,
   "not_checked_time": 0,
   "blocked": {
-   "מחיר": 1,
-   "שווי": 3,
-   "כבר": 2,
-   "אין": 1
+   "שווי": 11,
+   "כבר": 4
   },
-  "below_score": 1,
+  "below_score": 2,
   "cooldown": 1,
-  "shadow_would_alert": 0,
+  "shadow_would_alert": 1,
   "sent": 0,
   "send_failed": 0
  },
  "not_checked": [],
- "errors": [
-  "HTTP 404 https://query1.finance.yahoo.com/v8/finance/chart/GPS"
- ]
+ "errors": []
 }

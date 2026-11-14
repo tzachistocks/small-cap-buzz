@@ -1,29 +1,28 @@
 {
- "ts": "2026-11-13T21:07+00:00",
+ "ts": "2026-11-14T10:26+00:00",
  "reddit_ok": true,
  "mode": "rss",
  "reddit": {
-  "GOAI": {
-   "m6": 4,
+  "VJET": {
+   "m6": 3,
    "m24": 4,
    "authors6": 3,
-   "authors24": 3,
+   "authors24": 4,
    "subs6": [
     "pennystocks"
    ],
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-13T20:26+00:00",
-   "sample": "r/pennystocks: Eva Live ($GOAI), an ad-tech company, announced EvaFarmSight, an AI crop platform with dro"
+   "first_utc": "2026-11-13T18:34+00:00",
+   "sample": "r/pennystocks: Flyte Aviation (VJET, formerly Catheter Precision) lists Fort Mill, SC as principal execut"
   },
   "SPCE": {
-   "m6": 3,
+   "m6": 1,
    "m24": 3,
-   "authors6": 3,
+   "authors6": 1,
    "authors24": 3,
    "subs6": [
-    "pennystocks",
     "smallstreetbets"
    ],
    "subs24": [
@@ -33,110 +32,112 @@
    "first_utc": "2026-11-13T19:42+00:00",
    "sample": "r/pennystocks: $SPCE"
   },
-  "AKAN": {
-   "m6": 3,
-   "m24": 3,
-   "authors6": 3,
-   "authors24": 3,
+  "DVLT": {
+   "m6": 1,
+   "m24": 2,
+   "authors6": 1,
+   "authors24": 2,
    "subs6": [
-    "Shortsqueeze"
+    "pennystocks"
    ],
    "subs24": [
-    "Shortsqueeze"
+    "pennystocks"
    ],
-   "first_utc": "2026-11-13T20:12+00:00",
-   "sample": "r/Shortsqueeze: $AKAN is running again but why?"
+   "first_utc": "2026-11-14T04:22+00:00",
+   "sample": "r/pennystocks: DVLT is being delisted on November 17th"
   },
-  "AIM": {
+  "GOAI": {
    "m6": 0,
    "m24": 2,
+   "authors6": 0,
+   "authors24": 2,
+   "subs6": [],
+   "subs24": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-13T20:26+00:00",
+   "sample": "r/pennystocks: Eva Live ($GOAI), an ad-tech company, announced EvaFarmSight, an AI crop platform with dro"
+  },
+  "ZM": {
+   "m6": 1,
+   "m24": 2,
+   "authors6": 1,
+   "authors24": 2,
+   "subs6": [
+    "smallstreetbets"
+   ],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-13T13:34+00:00",
+   "sample": "r/smallstreetbets: Bullish on ANT.CN"
+  },
+  "VTOL": {
+   "m6": 0,
+   "m24": 1,
    "authors6": 0,
    "authors24": 1,
    "subs6": [],
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-13T03:19+00:00",
-   "sample": "r/pennystocks: Arrow Exploration (OTC: CSTPF; TSXV: AXL; AIM: AXL; Frankfurt: C1JT)"
-  },
-  "VTOL": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
    "first_utc": "2026-11-13T20:28+00:00",
    "sample": "r/pennystocks: Eva Live ($GOAI), an ad-tech company, announced EvaFarmSight, an AI crop platform with dro"
   },
-  "PUSA": {
-   "m6": 1,
+  "AKAN": {
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "smallstreetbets"
+   "subs6": [],
+   "subs24": [
+    "Shortsqueeze"
    ],
+   "first_utc": "2026-11-13T20:12+00:00",
+   "sample": "r/Shortsqueeze: $AKAN is running again but why?"
+  },
+  "PUSA": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
    "subs24": [
     "smallstreetbets"
    ],
    "first_utc": "2026-11-13T19:02+00:00",
    "sample": "r/smallstreetbets: What to do? Advice?"
   },
-  "INLF": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-13T18:51+00:00",
-   "sample": "r/pennystocks: Weekend Swing Trade idea"
-  },
   "DYOR": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
    "first_utc": "2026-11-13T18:51+00:00",
    "sample": "r/pennystocks: Weekend Swing Trade idea"
   },
-  "VJET": {
-   "m6": 1,
+  "INLF": {
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-13T18:34+00:00",
-   "sample": "r/pennystocks: Flyte Aviation (VJET, formerly Catheter Precision) lists Fort Mill, SC as principal execut"
+   "first_utc": "2026-11-13T18:51+00:00",
+   "sample": "r/pennystocks: Weekend Swing Trade idea"
   },
   "VTAK": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
@@ -144,13 +145,11 @@
    "sample": "r/pennystocks: Flyte Aviation (VJET, formerly Catheter Precision) lists Fort Mill, SC as principal execut"
   },
   "CIK": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
@@ -158,13 +157,11 @@
    "sample": "r/pennystocks: Flyte Aviation (VJET, formerly Catheter Precision) lists Fort Mill, SC as principal execut"
   },
   "HQ": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
@@ -172,13 +169,11 @@
    "sample": "r/pennystocks: Flyte Aviation (VJET, formerly Catheter Precision) lists Fort Mill, SC as principal execut"
   },
   "TUTH": {
-   "m6": 1,
+   "m6": 0,
    "m24": 1,
-   "authors6": 1,
+   "authors6": 0,
    "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
+   "subs6": [],
    "subs24": [
     "pennystocks"
    ],
@@ -186,30 +181,16 @@
    "sample": "r/pennystocks: Standard Dental Labs (OTC:TUTH): Is It Happening?"
   },
   "EDSA": {
-   "m6": 1,
-   "m24": 1,
-   "authors6": 1,
-   "authors24": 1,
-   "subs6": [
-    "pennystocks"
-   ],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-13T15:31+00:00",
-   "sample": "r/pennystocks: EDSA is suffering from heavy shorting, but we can turn this around!"
-  },
-  "FCUV": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
    "authors24": 1,
    "subs6": [],
    "subs24": [
-    "smallstreetbets"
+    "pennystocks"
    ],
-   "first_utc": "2026-11-13T14:10+00:00",
-   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+   "first_utc": "2026-11-13T15:31+00:00",
+   "sample": "r/pennystocks: EDSA is suffering from heavy shorting, but we can turn this around!"
   },
   "MRLN": {
    "m6": 0,
@@ -247,7 +228,19 @@
    "first_utc": "2026-11-13T14:10+00:00",
    "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
   },
-  "ELTP": {
+  "FCUV": {
+   "m6": 0,
+   "m24": 1,
+   "authors6": 0,
+   "authors24": 1,
+   "subs6": [],
+   "subs24": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-13T14:10+00:00",
+   "sample": "r/smallstreetbets: ⚡MORNING WATCHLIST⚡"
+  },
+  "IR": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -259,7 +252,7 @@
    "first_utc": "2026-11-13T13:48+00:00",
    "sample": "r/pennystocks: ELTP Q2 FY2027 —Thorough analysis"
   },
-  "IR": {
+  "ELTP": {
    "m6": 0,
    "m24": 1,
    "authors6": 0,
@@ -283,67 +276,35 @@
    "first_utc": "2026-11-13T13:39+00:00",
    "sample": "r/pennystocks: RAIN hit $1.35 premarket on the Tensor merger, then got its ass handed to it"
   },
-  "ZM": {
-   "m6": 0,
+  "MB": {
+   "m6": 1,
    "m24": 1,
-   "authors6": 0,
+   "authors6": 1,
    "authors24": 1,
-   "subs6": [],
+   "subs6": [
+    "smallstreetbets"
+   ],
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-11-13T13:34+00:00",
-   "sample": "r/smallstreetbets: Bullish on ANT.CN"
+   "first_utc": "2026-11-14T08:51+00:00",
+   "sample": ""
   },
-  "PG": {
-   "m6": 0,
+  "LINK": {
+   "m6": 1,
    "m24": 1,
-   "authors6": 0,
+   "authors6": 1,
    "authors24": 1,
-   "subs6": [],
+   "subs6": [
+    "smallstreetbets"
+   ],
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-11-13T09:00+00:00",
-   "sample": "r/smallstreetbets: Steady slow stock or fast stock?"
+   "first_utc": "2026-11-14T08:10+00:00",
+   "sample": ""
   },
-  "MCD": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-13T09:00+00:00",
-   "sample": "r/smallstreetbets: Steady slow stock or fast stock?"
-  },
-  "MOD": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "smallstreetbets"
-   ],
-   "first_utc": "2026-11-13T08:18+00:00",
-   "sample": "r/smallstreetbets: MOD up $26 overnight after Samsung announced a deal to acquire the company. Worth?"
-  },
-  "NPV": {
-   "m6": 0,
-   "m24": 1,
-   "authors6": 0,
-   "authors24": 1,
-   "subs6": [],
-   "subs24": [
-    "pennystocks"
-   ],
-   "first_utc": "2026-11-13T04:28+00:00",
-   "sample": "r/pennystocks: Arrow Exploration (OTC: CSTPF; TSXV: AXL; AIM: AXL; Frankfurt: C1JT)"
-  },
-  "XXII": {
+  "SLS": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -354,10 +315,10 @@
    "subs24": [
     "Shortsqueeze"
    ],
-   "first_utc": "2026-11-13T20:43+00:00",
+   "first_utc": "2026-11-14T06:55+00:00",
    "sample": ""
   },
-  "GYGY": {
+  "SHFS": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -368,10 +329,10 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-13T20:33+00:00",
+   "first_utc": "2026-11-14T06:22+00:00",
    "sample": ""
   },
-  "OBAI": {
+  "NXXT": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -382,10 +343,10 @@
    "subs24": [
     "pennystocks"
    ],
-   "first_utc": "2026-11-13T20:33+00:00",
+   "first_utc": "2026-11-14T06:14+00:00",
    "sample": ""
   },
-  "GME": {
+  "SPCX": {
    "m6": 1,
    "m24": 1,
    "authors6": 1,
@@ -396,7 +357,7 @@
    "subs24": [
     "smallstreetbets"
    ],
-   "first_utc": "2026-11-13T20:06+00:00",
+   "first_utc": "2026-11-14T06:11+00:00",
    "sample": ""
   }
  },
