@@ -439,5 +439,12 @@
   "asia": null,
   "sic": "Services-Miscellaneous Business Services",
   "ts": "2026-11-14T10:27+00:00"
+ },
+ "SD": {
+  "country": "OK",
+  "inc": "DE",
+  "asia": null,
+  "sic": "Crude Petroleum & Natural Gas",
+  "ts": "2026-11-15T10:54+00:00"
  }
 }

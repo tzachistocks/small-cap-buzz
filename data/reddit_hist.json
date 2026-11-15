@@ -13205,5 +13205,210 @@
    ],
    "first_utc": "2026-11-14T06:11+00:00"
   }
+ },
+ "2026-11-15": {
+  "PARA": {
+   "m24_max": 7,
+   "authors24_max": 3,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-15T03:36+00:00",
+   "sample": "r/pennystocks: Anyone have a bull case on $PARA?"
+  },
+  "OMH": {
+   "m24_max": 4,
+   "authors24_max": 4,
+   "subs": [
+    "Shortsqueeze",
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-15T07:56+00:00",
+   "sample": "r/pennystocks: Anyone still watching $OMH? Could there be a third run?"
+  },
+  "DVLT": {
+   "m24_max": 4,
+   "authors24_max": 4,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-14T23:16+00:00",
+   "sample": "r/pennystocks: NATE, ex CEO of $DVLT is confident he will be CEO again and will save his company (he is i"
+  },
+  "LIVE": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-14T23:16+00:00",
+   "sample": "r/pennystocks: NATE, ex CEO of $DVLT is confident he will be CEO again and will save his company (he is i"
+  },
+  "HTZ": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-15T05:30+00:00"
+  },
+  "MB": {
+   "m24_max": 2,
+   "authors24_max": 2,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-15T05:02+00:00"
+  },
+  "SHO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-15T07:56+00:00",
+   "sample": "r/pennystocks: Anyone still watching $OMH? Could there be a third run?"
+  },
+  "GLOB": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-14T20:52+00:00",
+   "sample": "r/Shortsqueeze: More than 10 companies with short floats of 20%+ are reporting their earnings this upcomin"
+  },
+  "BLSH": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-14T20:52+00:00",
+   "sample": "r/Shortsqueeze: More than 10 companies with short floats of 20%+ are reporting their earnings this upcomin"
+  },
+  "RCAT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-14T20:52+00:00",
+   "sample": "r/Shortsqueeze: More than 10 companies with short floats of 20%+ are reporting their earnings this upcomin"
+  },
+  "NRXP": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-14T20:52+00:00",
+   "sample": "r/Shortsqueeze: More than 10 companies with short floats of 20%+ are reporting their earnings this upcomin"
+  },
+  "POET": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-14T20:52+00:00",
+   "sample": "r/Shortsqueeze: More than 10 companies with short floats of 20%+ are reporting their earnings this upcomin"
+  },
+  "FUBO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-14T20:52+00:00",
+   "sample": "r/Shortsqueeze: More than 10 companies with short floats of 20%+ are reporting their earnings this upcomin"
+  },
+  "DUOT": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-14T20:52+00:00",
+   "sample": "r/Shortsqueeze: More than 10 companies with short floats of 20%+ are reporting their earnings this upcomin"
+  },
+  "TOYO": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-14T20:52+00:00",
+   "sample": "r/Shortsqueeze: More than 10 companies with short floats of 20%+ are reporting their earnings this upcomin"
+  },
+  "KLAR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-14T20:52+00:00",
+   "sample": "r/Shortsqueeze: More than 10 companies with short floats of 20%+ are reporting their earnings this upcomin"
+  },
+  "MW": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-14T20:49+00:00",
+   "sample": "r/smallstreetbets: $NVDA | Idk if earnings can save it. Lmk"
+  },
+  "NBIS": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-14T20:49+00:00",
+   "sample": "r/smallstreetbets: $NVDA | Idk if earnings can save it. Lmk"
+  },
+  "CRWV": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-14T20:49+00:00",
+   "sample": "r/smallstreetbets: $NVDA | Idk if earnings can save it. Lmk"
+  },
+  "CGEN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-14T18:59+00:00",
+   "sample": "r/pennystocks: CGEN Q1 2027 catas"
+  },
+  "UK": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "smallstreetbets"
+   ],
+   "first_utc": "2026-11-15T09:13+00:00"
+  },
+  "RAIN": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "pennystocks"
+   ],
+   "first_utc": "2026-11-15T07:54+00:00"
+  },
+  "YFOR": {
+   "m24_max": 1,
+   "authors24_max": 1,
+   "subs": [
+    "Shortsqueeze"
+   ],
+   "first_utc": "2026-11-15T04:11+00:00"
+  }
  }
 }

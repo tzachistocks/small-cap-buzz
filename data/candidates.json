@@ -8687,7 +8687,7 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "days": 4,
    "last_pct": -77.9,
    "max_close_pct": -26.6,
@@ -8713,7 +8713,7 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "days": 4,
    "last_pct": -20.5,
    "max_close_pct": -0.2,
@@ -8740,7 +8740,7 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "days": 4,
    "last_pct": -16.3,
    "max_close_pct": -0.1,
@@ -8767,7 +8767,7 @@
   "alerted": true,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "days": 4,
    "last_pct": -2.1,
    "max_close_pct": 2.1,
@@ -8796,7 +8796,7 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "days": 4,
    "last_pct": -15.5,
    "max_close_pct": -3.0,
@@ -8822,7 +8822,7 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "days": 4,
    "last_pct": -17.8,
    "max_close_pct": -5.8,
@@ -8851,7 +8851,7 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "days": 4,
    "last_pct": -17.2,
    "max_close_pct": -14.8,
@@ -8876,7 +8876,7 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "days": 4,
    "last_pct": -1.2,
    "max_close_pct": 2.5,
@@ -8903,7 +8903,7 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "days": 4,
    "last_pct": 9.6,
    "max_close_pct": 10.6,
@@ -8930,7 +8930,7 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "days": 4,
    "last_pct": -23.4,
    "max_close_pct": -7.4,
@@ -8958,7 +8958,7 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "days": 4,
    "last_pct": 1.8,
    "max_close_pct": 1.8,
@@ -8985,7 +8985,7 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "days": 4,
    "last_pct": 0.5,
    "max_close_pct": 0.5,
@@ -9012,11 +9012,11 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 3,
-   "last_pct": 0.6,
+   "checked": "2026-11-15",
+   "days": 4,
+   "last_pct": 0.1,
    "max_close_pct": 0.6,
-   "max_high_pct": 1.0
+   "max_high_pct": 1.4
   }
  },
  "2026-11-10|LINK": {
@@ -9039,9 +9039,9 @@
   "alerted": true,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 3,
-   "last_pct": -4.1,
+   "checked": "2026-11-15",
+   "days": 4,
+   "last_pct": -10.4,
    "max_close_pct": 3.8,
    "max_high_pct": 7.9
   }
@@ -9066,9 +9066,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 3,
-   "last_pct": -24.4,
+   "checked": "2026-11-15",
+   "days": 4,
+   "last_pct": -30.1,
    "max_close_pct": -2.4,
    "max_high_pct": 5.6
   }
@@ -9092,9 +9092,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 3,
-   "last_pct": 5.4,
+   "checked": "2026-11-15",
+   "days": 4,
+   "last_pct": 3.3,
    "max_close_pct": 5.4,
    "max_high_pct": 6.2
   }
@@ -9121,9 +9121,9 @@
   "alerted": true,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 3,
-   "last_pct": 6.5,
+   "checked": "2026-11-15",
+   "days": 4,
+   "last_pct": -1.7,
    "max_close_pct": 19.6,
    "max_high_pct": 41.4
   }
@@ -9149,9 +9149,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 3,
-   "last_pct": -5.4,
+   "checked": "2026-11-15",
+   "days": 4,
+   "last_pct": -18.1,
    "max_close_pct": -1.2,
    "max_high_pct": 21.1
   }
@@ -9178,11 +9178,11 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 3,
-   "last_pct": 99.1,
+   "checked": "2026-11-15",
+   "days": 4,
+   "last_pct": 87.7,
    "max_close_pct": 99.1,
-   "max_high_pct": 119.3
+   "max_high_pct": 171.9
   }
  },
  "2026-11-10|CMPS": {
@@ -9205,9 +9205,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 3,
-   "last_pct": -1.4,
+   "checked": "2026-11-15",
+   "days": 4,
+   "last_pct": -2.6,
    "max_close_pct": 0.5,
    "max_high_pct": 2.7
   }
@@ -9233,9 +9233,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 3,
-   "last_pct": -6.5,
+   "checked": "2026-11-15",
+   "days": 4,
+   "last_pct": -10.8,
    "max_close_pct": -0.0,
    "max_high_pct": 7.4
   }
@@ -9260,9 +9260,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 3,
-   "last_pct": -6.5,
+   "checked": "2026-11-15",
+   "days": 4,
+   "last_pct": -8.0,
    "max_close_pct": 0.8,
    "max_high_pct": 1.7
   }
@@ -9288,9 +9288,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 3,
-   "last_pct": -16.4,
+   "checked": "2026-11-15",
+   "days": 4,
+   "last_pct": -7.0,
    "max_close_pct": -0.3,
    "max_high_pct": 7.0
   }
@@ -9315,8 +9315,8 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 3,
+   "checked": "2026-11-15",
+   "days": 4,
    "last_pct": 3.1,
    "max_close_pct": 3.1,
    "max_high_pct": 3.1
@@ -9345,9 +9345,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 2,
-   "last_pct": -2.7,
+   "checked": "2026-11-15",
+   "days": 3,
+   "last_pct": -15.8,
    "max_close_pct": 1.5,
    "max_high_pct": 13.9
   }
@@ -9372,9 +9372,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 2,
-   "last_pct": 6.8,
+   "checked": "2026-11-15",
+   "days": 3,
+   "last_pct": -1.4,
    "max_close_pct": 19.9,
    "max_high_pct": 41.8
   }
@@ -9397,9 +9397,9 @@
   "alerted": true,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 2,
-   "last_pct": -7.6,
+   "checked": "2026-11-15",
+   "days": 3,
+   "last_pct": -13.6,
    "max_close_pct": -1.8,
    "max_high_pct": 3.9
   }
@@ -9425,9 +9425,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 2,
-   "last_pct": -9.6,
+   "checked": "2026-11-15",
+   "days": 3,
+   "last_pct": -14.0,
    "max_close_pct": -0.5,
    "max_high_pct": 3.4
   }
@@ -9453,9 +9453,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 2,
-   "last_pct": -16.1,
+   "checked": "2026-11-15",
+   "days": 3,
+   "last_pct": -6.7,
    "max_close_pct": -4.7,
    "max_high_pct": 7.4
   }
@@ -9482,8 +9482,8 @@
   "alerted": true,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 2,
+   "checked": "2026-11-15",
+   "days": 3,
    "last_pct": 2.9,
    "max_close_pct": 2.9,
    "max_high_pct": 2.9
@@ -9511,11 +9511,11 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 2,
-   "last_pct": 118.3,
+   "checked": "2026-11-15",
+   "days": 3,
+   "last_pct": 105.8,
    "max_close_pct": 118.3,
-   "max_high_pct": 140.4
+   "max_high_pct": 198.1
   }
  },
  "2026-11-11|LOVE": {
@@ -9537,9 +9537,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 2,
-   "last_pct": -5.3,
+   "checked": "2026-11-15",
+   "days": 3,
+   "last_pct": -5.9,
    "max_close_pct": -1.9,
    "max_high_pct": 0.7
   }
@@ -9563,11 +9563,11 @@
   "alerted": true,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 2,
-   "last_pct": -2.7,
-   "max_close_pct": 0.5,
-   "max_high_pct": 0.9
+   "checked": "2026-11-15",
+   "days": 3,
+   "last_pct": 1.8,
+   "max_close_pct": 1.8,
+   "max_high_pct": 3.0
   }
  },
  "2026-11-11|BKV": {
@@ -9592,9 +9592,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 2,
-   "last_pct": -0.4,
+   "checked": "2026-11-15",
+   "days": 3,
+   "last_pct": -0.5,
    "max_close_pct": -0.4,
    "max_high_pct": 1.1
   }
@@ -9619,9 +9619,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 2,
-   "last_pct": -0.5,
+   "checked": "2026-11-15",
+   "days": 3,
+   "last_pct": -4.5,
    "max_close_pct": -0.5,
    "max_high_pct": 3.3
   }
@@ -9650,9 +9650,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 2,
-   "last_pct": -44.6,
+   "checked": "2026-11-15",
+   "days": 3,
+   "last_pct": -58.6,
    "max_close_pct": -39.3,
    "max_high_pct": 33.6
   }
@@ -9675,9 +9675,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 2,
-   "last_pct": 1.9,
+   "checked": "2026-11-15",
+   "days": 3,
+   "last_pct": -17.1,
    "max_close_pct": 1.9,
    "max_high_pct": 8.8
   }
@@ -9702,9 +9702,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 2,
-   "last_pct": -0.3,
+   "checked": "2026-11-15",
+   "days": 3,
+   "last_pct": -0.8,
    "max_close_pct": -0.0,
    "max_high_pct": 1.6
   }
@@ -9731,9 +9731,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 2,
-   "last_pct": -5.8,
+   "checked": "2026-11-15",
+   "days": 3,
+   "last_pct": -12.9,
    "max_close_pct": 4.1,
    "max_high_pct": 16.1
   }
@@ -9764,9 +9764,9 @@
   "alerted": false,
   "urgent": false,
   "outcome": {
-   "checked": "2026-11-13",
-   "days": 1,
-   "last_pct": -24.4,
+   "checked": "2026-11-15",
+   "days": 2,
+   "last_pct": -43.4,
    "max_close_pct": -24.4,
    "max_high_pct": -2.0
   }
@@ -11338,6 +11338,151 @@
   "cap_m": 72120.0,
   "blocked": [
    "שווי $72120M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-15|TP": {
+  "ts": "2026-11-15T10:52+00:00",
+  "ticker": "TP",
+  "score": 4,
+  "max_score": 4,
+  "price": 8.22,
+  "move_pct": -2.03,
+  "cap_m": 105.05,
+  "blocked": [],
+  "tags": [
+   "accel",
+   "vel3h",
+   "rising",
+   "low_float",
+   "borrow_fee",
+   "sec_weak",
+   "word"
+  ],
+  "alerted": true,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-15|EU": {
+  "ts": "2026-11-15T10:52+00:00",
+  "ticker": "EU",
+  "score": 3,
+  "max_score": 3,
+  "price": 0.56,
+  "move_pct": 3.9,
+  "cap_m": 107.7,
+  "blocked": [],
+  "tags": [
+   "accel",
+   "vel3h",
+   "spread",
+   "short",
+   "sec_weak",
+   "word"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-15|HL": {
+  "ts": "2026-11-15T10:52+00:00",
+  "ticker": "HL",
+  "score": 4,
+  "max_score": 4,
+  "price": 13.0877,
+  "move_pct": -1.96,
+  "cap_m": 8800.0,
+  "blocked": [
+   "שווי $8800M"
+  ],
+  "tags": [
+   "accel",
+   "vel3h",
+   "spread"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-15|OMH": {
+  "ts": "2026-11-15T10:52+00:00",
+  "ticker": "OMH",
+  "score": 4,
+  "max_score": 4,
+  "price": 4.57,
+  "move_pct": -9.68,
+  "cap_m": 10.56,
+  "blocked": [
+   "כבר רצה +75% ב-10 ימים"
+  ],
+  "tags": [
+   "spread",
+   "authors",
+   "low_float"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-15|SD": {
+  "ts": "2026-11-15T10:52+00:00",
+  "ticker": "SD",
+  "score": 4,
+  "max_score": 4,
+  "price": 13.04,
+  "move_pct": -0.91,
+  "cap_m": 483.88,
+  "blocked": [],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "vel3h",
+   "novel",
+   "low_float"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-15|ZM": {
+  "ts": "2026-11-15T10:52+00:00",
+  "ticker": "ZM",
+  "score": 3,
+  "max_score": 3,
+  "price": 99.407,
+  "move_pct": 1.75,
+  "cap_m": 29120.0,
+  "blocked": [
+   "שווי $29120M"
+  ],
+  "tags": [
+   "relaxed_gate",
+   "accel",
+   "rising",
+   "novel"
+  ],
+  "alerted": false,
+  "urgent": false,
+  "outcome": {}
+ },
+ "2026-11-15|GFS": {
+  "ts": "2026-11-15T10:52+00:00",
+  "ticker": "GFS",
+  "score": 3,
+  "max_score": 3,
+  "price": 40.98,
+  "move_pct": -3.85,
+  "cap_m": 22760.0,
+  "blocked": [
+   "שווי $22760M"
   ],
   "tags": [
    "relaxed_gate",
